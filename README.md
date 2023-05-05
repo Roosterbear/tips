@@ -1,12 +1,13 @@
 
-# 
 #
 # TUTORIAL BASICO DE ARCHIVOS .md
 #
-#
+
+__Crear líneas:__ Ponemos un signo de "#" solo en la línea
 
 __Crear encabezado tipo H1__
-Agrega un "#" y deja un espacio antes del texto. Creará un ancla para ese título.
+Agrega un "#" y deja un espacio antes del texto. 
+Creará un ancla para ese título.
 Agrega "##" para H2, y así sucesivamente.
 
 __Escribir en negritas__
@@ -31,6 +32,9 @@ Vamos a hacer una lista
   * Secundario #1-2
 * Principal #2
   * Secundario #2-1
+  
+Para crear tablas, usamos el caracter "pipe" ("|")
+Para encabezados en tablas, agregamos una fila con ":---:" encerrados en "pipes".
   
 | No. | Nombre | Cantidad |
 | :---: | :---: | :---: |
