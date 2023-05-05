@@ -1,13 +1,12 @@
-
 #
 # TUTORIAL BASICO DE ARCHIVOS .md
-#
+
 
 __Crear líneas:__ Ponemos un signo de "#" solo en la línea
 
 __Crear encabezado tipo H1__
 Agrega un "#" y deja un espacio antes del texto. 
-Creará un ancla para ese título.
+Creará un ancla para ese título y agrega una línea debajo.
 Agrega "##" para H2, y así sucesivamente.
 
 __Escribir en negritas__
