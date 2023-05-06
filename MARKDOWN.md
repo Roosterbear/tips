@@ -1,7 +1,7 @@
 _Translating to English_ <br/>
 🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙 
 #
-# BASIC TUTORIAL OF.md FILES IN MARKDOWN
+# BASIC TUTORIAL OF .md FILES IN MARKDOWN
 
 __A New row:__ We use the HTML single tag "br" <br/>
 __Make lines:__ We use only the "#" character in that row<br/>
