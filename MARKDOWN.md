@@ -1,10 +1,11 @@
-🐙 
+_Translating to English_
+🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙 
 #
-# TUTORIAL BASICO DE ARCHIVOS .md
+# BASIC TUTORIAL OF.md FILES IN MARKDOWN
 
-__Crear un nuevo renglón:__ Ponemos la etiqueta HTML "br" <br/>
-__Crear líneas:__ Ponemos un signo de "#" únicamente en esa línea<br/>
-__Crear línea gruesa:__ Poner 3 guiones únicamente en esa línea.<br/>
+__A New row:__ We use the HTML single tag "br" <br/>
+__Make lines:__ We use only the "#" character in that row<br/>
+__Make thick lines:__ Put 3 dashes only in that row<br/>
 
 ---
 
