@@ -4,8 +4,8 @@ _Translating to English_ <br/>
 # BASIC TUTORIAL OF .md FILES IN MARKDOWN
 
 __A New row:__ We use the HTML single tag "br" <br/>
-__Make lines:__ We use only the "#" character in that row<br/>
-__Make thick lines:__ Put 3 dashes only in that row<br/>
+__Make separator lines:__ We use only the "#" character in that row<br/>
+__Make thick separator lines:__ Put 3 dashes only in that row<br/>
 
 ---
 
