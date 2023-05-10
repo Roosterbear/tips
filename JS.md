@@ -64,8 +64,8 @@ items.forEach.(item=>{
     </div>
   </div>
 </div>
-    
 ```
+### CSS
 ```css
 button{
   display: block;
@@ -112,8 +112,7 @@ button{
   cursor: pointer;
 }
 ```
-
-
+### Javascript
 ```javascript
 const  button = document.querySelector('button');
 const  popup = document.querySelector('popup-wrapper');
@@ -130,10 +129,5 @@ close.addEventListener('click', ()=>{
 popup.addEventListener('click', ()=>{
   popup.style.display = 'none';
 });
-
-
-
-
-
 ```
 
