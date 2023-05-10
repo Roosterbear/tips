@@ -55,8 +55,15 @@ items.forEach.(item=>{
 ```html
 <button>click me!</button>
 <div class="popup-wrapper">
-  <div class="popup-close">x</div>
-  <div class="popup-content"
+  <div class="popup">
+    <div class="popup-close">x</div>
+    <div class="popup-content">
+      <h2>HOT SALE!</h2>
+      <p>50% off Hot panties and tights !</p>
+      <a href="#">View</a>
+    </div>
+  </div>
+</div>
     
 ```
 
