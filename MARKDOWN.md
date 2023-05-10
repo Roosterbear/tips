@@ -9,25 +9,25 @@ __Make thick separator lines:__ Put 3 dashes only in that row<br/>
 
 ---
 
-__Crear encabezado tipo H1__ <br/>
-Agrega un "#" y deja un espacio antes del texto. <br/>
-Creará un ancla para ese título y agrega una línea debajo. <br/>
-Agrega "##" para H2, y así sucesivamente. <br/>
+__Create a H1 like header__ <br/>
+Type a "#" and let a blank space before the text. <br/>
+It will create an anchor for this title and it will add a new line below. <br/>
+Add "##" for a H2 header, and so on. <br/>
 
-__Escribir en negritas__ <br/>
-Encierra tus textos en dobles "_" sin espacios a los extremos
+__Type in bold__ <br/>
+Enclose the text between double underscores without spaces in the extremes
 
-__Escribir en italica__ <br/>
-Encierra tus textos en "_" sin espacios a los extremos
+__Type in italic__ <br/>
+Enclose the text between single underscores without spaces in the extremes
 
-__Tachar texto__ <br/>
-Inicia el texto con dobles "~"
+__Cross out text__ <br/>
+Begin the text with double "~"
 
-__Agregar citas__ <br/>
-Inicia el texto con el signo ">" y deja un espacio.
+__Add a quote__ <br/>
+Begin the text with the ">" sign and let a blank space.
 
 
-# LISTAS
+# LISTS
 
 - Para crear un __bullet__ con un solo guión o asterisco.
   * Para crear un _circle_ dejamos dos espacios en la siguiente línea de un __bullet__.
