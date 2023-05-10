@@ -26,11 +26,14 @@ Begin the text with double tilde "~"
 __Add a quote__ <br/>
 Begin the text with the ">" sign and let a blank space.
 
+# TASK LIST
+Type a dash, a blank space and brackets.
+If you want a checked item, type an "x" inside brackets, otherwise, let a blank space
 
 # LISTS
 
-- Para crear un __bullet__ con un solo guión o asterisco.
-  * Para crear un _circle_ dejamos dos espacios en la siguiente línea de un __bullet__.
+- To create a  __bullet__ type a dash (-) or star (*).
+  * To add a _circle_ type 2 blank spaces at the next line of a __bullet__.
 
 Vamos a hacer una lista
 -----------------------
