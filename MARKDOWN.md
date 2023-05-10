@@ -20,8 +20,8 @@ Enclose the text between double underscores without spaces in the extremes
 __Type in italic__ <br/>
 Enclose the text between single underscores without spaces in the extremes
 
-__Cross out text__ <br/>
-Begin the text with double "~"
+__Strikethrough text__ <br/>
+Begin the text with double tilde "~"   
 
 __Add a quote__ <br/>
 Begin the text with the ">" sign and let a blank space.
