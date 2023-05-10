@@ -1,6 +1,6 @@
 # Javascript
 
-## Botón para agregar elementos al <u> final </u> de la lista
+### Button to add elements at the end of a list
 ```javascript
 const button = document.querySelector('button');
 
@@ -10,7 +10,7 @@ button.addEventListener('click', ()=>{
   ul.append(li);
 });
 ```
-## Botón para agregar elementos al inicio de la lista
+### Button to add elements at the end of a list
 ```javascript
 const button = document.querySelector('button');
 
@@ -20,7 +20,7 @@ button.addEventListener('click', ()=>{
   ul.prepend(li);
 });
 ```
-## Para eliminar elementos de lista agregados recientemente
+### Delete elements of a list added lately
 ```javascript
 ul.addEventListener('click', e=>{
   if(e.target.tagName === 'LI'){
@@ -29,7 +29,7 @@ ul.addEventListener('click', e=>{
 });
 ```
 
-## Botón para eliminar un elemento de lista
+### Button to delete an element from the list
 ```javascript
 const items = document.querySelectorAll('li');
 
@@ -39,7 +39,7 @@ items.forEach.(item=>{
   });
 });
 ```
-## Botón para tachar texto de un elemento de lista
+### Button to strikethrough an element from the list
 ```javascript
 const items = document.querySelectorAll('li');
 
@@ -49,6 +49,25 @@ items.forEach.(item=>{
   });
 });
 ```
+---
+## CREATE A POP-UP
+### HTML
+```html
+<button>click me!</button>
+<div class="popup-wrapper">
+  <div class="popup-close">x</div>
+  <div class="popup-content"
+    
+```
 
 
+```css
+html{
+  text: none;
+}
+```
+
+
+```javascript
+```
 
