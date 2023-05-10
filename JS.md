@@ -1,7 +1,7 @@
 # Javascript
 
 ## Botón para agregar elementos al final de la lista
-
+```javascript
 const button = document.querySelector('button');
 
 button.addEventListener('click', ()=>{
@@ -9,9 +9,9 @@ button.addEventListener('click', ()=>{
   li.textContent = 'Something to do';
   ul.append(li);
 });
-
+```
 ## Botón para agregar elementos al inicio de la lista
-
+```javascript
 const button = document.querySelector('button');
 
 button.addEventListener('click', ()=>{
@@ -19,9 +19,9 @@ button.addEventListener('click', ()=>{
   li.textContent = 'Something to do';
   ul.prepend(li);
 });
-
+```
 ## Botón para eliminar un elemento de lista
-
+```javascript
 const items = socument.querySelectorAll('li');
 
 items.forEach.(item=>{
@@ -29,9 +29,9 @@ items.forEach.(item=>{
     e.target.remove();
   });
 });
-
+```
 ## Botón para tachar texto de un elemento de lista
-
+```javascript
 const items = socument.querySelectorAll('li');
 
 items.forEach.(item=>{
@@ -39,3 +39,7 @@ items.forEach.(item=>{
     e.target.style.textDecoration = 'line-through';
   });
 });
+```
+
+
+
