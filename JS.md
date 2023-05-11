@@ -1,5 +1,30 @@
 # Javascript
 
+### Get an element from the DOM 💥 
+
+#### By ID
+```javascript
+document.getElementById('principal');
+```
+#### By Tag
+```javascript
+document.getElementByTagName('ul');
+```
+#### By Class
+```javascript
+document.getElementByClass('clase');
+```
+#### By Element
+```javascript
+document.querySelector('li a');
+document.querySelector('#principal');
+document.querySelector('.clase');
+document.querySelector('div').innerHTML = 'Hola';
+document.querySelector('.btn').style.color = 'red';
+
+```
+__querySelectorAll__ returns all coincidences into an array
+
 ### Button to add elements at the end of a list
 ```javascript
 const button = document.querySelector('button');
