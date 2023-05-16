@@ -15,9 +15,12 @@ __Stock__ <br/>
 * Add Low stock threshold
 
 __Linked Products__ <br/>
-Upsells (Other products to offer when below as "other products")
-Cross-sells (Other products to offer in the shopping car)
+Upsells (Other products to offer when below as "other products")<br/>
+Cross-sells (Other products to offer in the shopping car)<br/>
 
 __Advanced__ <br/>
-Menu order (Order when the products shows in the Shop page)
-Product short description (The most important information)
+Menu order (Order when the products shows in the Shop page)<br/>
+Product short description (The most important information)<br/>
+
+__Grouped products__ <br/>
+Create two new products and we select "hidden" in Catalog visibility
