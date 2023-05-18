@@ -76,7 +76,7 @@ items.forEach.(item=>{
 ```
 ---
 ## CREATE A POP-UP
-### HTML
+#### HTML
 ```html
 <button>click me!</button>
 <div class="popup-wrapper">
@@ -90,7 +90,7 @@ items.forEach.(item=>{
   </div>
 </div>
 ```
-### CSS
+#### CSS
 ```css
 button{
   display: block;
@@ -137,7 +137,7 @@ button{
   cursor: pointer;
 }
 ```
-### Javascript
+#### Javascript
 ```javascript
 const  button = document.querySelector('button');
 const  popup = document.querySelector('popup-wrapper');
@@ -156,3 +156,52 @@ popup.addEventListener('click', ()=>{
 });
 ```
 
+### A Simple form
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="#">
+  <title>Javascript Code</title>
+  <style>
+    body{
+      background-color: #eee;
+    }
+    form{
+      max-width: 200px;
+      margin: 40px auto;
+      background: white;
+      padding: 10px;
+    }
+    input{
+      display: block;
+      margin: 10px auto;
+      padding: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <form class="signup-form">
+    <input type="text" id="username" placeholder="username">
+    <input type="submit" value="submit">
+  </form>
+  <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
+```
+
+```javascript
+const form = document.querySelector('.signup-form');
+const username = document.querySelector('#username')
+form.addEventListener('submit', e=>{
+  e.preventDefault();
+  // We can use the form + the Input ID
+  console.log(form.username.value);
+  // Also we can use the input ID in a constant directly
+  alert(username.value);
+});
+```
