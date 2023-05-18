@@ -199,7 +199,7 @@ const form = document.querySelector('.signup-form');
 const username = document.querySelector('#username')
 form.addEventListener('submit', e=>{
   e.preventDefault();
-  // We can use the form + the Input ID
+  // We can use the form + the Input ID (works with name either)
   console.log(form.username.value);
   // Also we can use the input ID in a constant directly
   alert(username.value);
