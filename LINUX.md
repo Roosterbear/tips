@@ -9,14 +9,18 @@ Lists the content of the current directory <br />
 
 ### cp
 Copies files
-_cp file1 file2_ __copy content from file1 to file2__ <br />
-_cp file1,file2 dir __copy files to directory dir__ <br />
+__copy content from file1 to file2__ <br /> 
+_cp file1 file2_ <br />
+__copy files to directory dir__ <br />
+_cp file1,file2 dir <br />
 <br />
 
 ### mv
 Moves files <br />
-_mv file1 file2_ __moves content from file1 to file1__ <br />
-_mv file1, file2 dir_ __moves files to directory dir__ <br />
+__moves content from file1 to file1__ <br />
+_mv file1 file2_ <br />
+__moves files to directory dir__ <br />
+_mv file1, file2 dir_ <br />
 <br />
 
 ### touch
@@ -40,6 +44,6 @@ rm file1 <br />
 -f _force_ <br />
 __Deletes a directory with other files or directories__ <br />
 rm -rf important <br />
-❗__YOU HAVE TO BE VERY CAREFULLY WITH THIS DANGEROUS COMMAND!__ ❗
+❗__YOU HAVE TO BE VERY CAREFULLY WITH THIS DANGEROUS COMMAND!__ 
 
 
