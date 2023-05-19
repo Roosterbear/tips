@@ -1,6 +1,8 @@
 # ALL ABOUT WEB PROGRAMMING
 ## HTML, CSS, Basic JS, and Tools
 
+# HTML
+
 ### Fonts
 Google fonts to try...<br/>
 
@@ -38,6 +40,51 @@ __IRISH__ _#369F69_ <br/>
 __SEA GREEN__ _#228A89_ <br/>
 __COPPER ROSE__ _#8F5555_ <br/>
 
+## Elemento
+El elemento __HTML__ tiene 3 elementos: <br />
+Etiqueta de Apertura - Contenido - Etiqueta de Cierre
+```html
+<p>Hola Mundo</p>
+```
+
+## Etiqueta
+Las etiquetas no llevan texto ni cierre
+```html
+<br/>
+```
+
+## Atributos
+Van dentro de las etiquetas para enriquecer el contenido de la misma. <br/>
+```html
+<div class="mi-clase">Hola</div>
+```
+Es una buena práctica usar comillas dobles para los nombres de los atributos, <br/>
+además de separar las palabras con guiones.<br/>
+
+
+
+<br/>
+## Botones de radio
+Se recomienda utilizar el mismo atributo _name_ para agrupar los botones de radio. <br/>
+Podemos diferenciarlos con el atributo _id_.<br/>
+Para elegir uno seleccionado usamos el atributo ```checked=checked``` o ```checked=true```<br/>
+Observa el siguiente código:
+```html
+<input type="radio" name="igual" id="radio1">
+<input type="radio" name="igual" id="radio2" checked=checked>
+```
+
+
+---
+# CSS
+
+Existen 3 formas de agregar código CSS: <br/>
+
+1.- Entre las etiquetas ```<head>``` y ```</head>```, agregando las etiquetas ```<style>``` y ```<style>```
+
+
+__Cursor__ <br/>
+pointer, crosshair, e-resize, grab, help, move, progress, text, wait, no-allowed, no-drop <br/>
 
 
 
