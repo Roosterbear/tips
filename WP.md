@@ -23,4 +23,16 @@ Menu order (Order when the products shows in the Shop page)<br/>
 Product short description (The most important information)<br/>
 
 __Grouped products__ <br/>
-Create two new products and we select "hidden" in Catalog visibility
+This is very useful for products with different prices. <br/>
+Create a new product with all data, but __NO PRICE__ <br/>
+In product data, change to __"Grouped product"__ <br/>
+Now we need to create new children products the same way we create a normal __SINGLE__ product. <br/>
+Do not add data, only __PRICE__ <br/>
+Name them as the characteristic of every child product (16Gb, Extra Large, Core i7, 35inch, Signature) <br/>
+We have to select "hidden" in Catalog visibility <br/>
+Edit parent product and select __Linked Products__ and write the names of the Children Products to add them <br/>
+
+__External / Affiliate__ <br/>
+In product data, change to "External / Affiliate product" <br/>
+In product URL add the link.<br/>
+In Button text, add any text you want. <br/>
