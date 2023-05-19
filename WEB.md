@@ -70,8 +70,8 @@ Podemos diferenciarlos con el atributo _id_.<br/>
 Para elegir uno seleccionado usamos el atributo ```checked=checked``` o ```checked=true```<br/>
 Observa el siguiente código:
 ```html
-<input type="radio" name="igual" id="radio1">
-<input type="radio" name="igual" id="radio2" checked=checked>
+<input type="radio" name="igual" id="radio1">Radio #1<br/>
+<input type="radio" name="igual" id="radio2" checked="checked">Radio #2
 ```
 
 
