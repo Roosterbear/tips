@@ -6,12 +6,12 @@
 ### Fonts
 Google fonts to try...<br/>
 
-__Headers, Tittles__
+__Headers, Tittles__ <br/>
 Oswald, Amatic SC, Oregano, Alegreya, Flamenco, Lato, Tangerine, Lobster, GochiHand, <br/>
 Roboto, Merriweather, Raleway, Montserrat, Rock Salt, Cinzel, Poiret One, Indie Flower, Ruda, <br/>
 Permanent Marker, Kalam, Bangers, Gruppo, Cairo, Teko, Abril Fatface, Gloria Allelujah. <br/>
 
-__Content__
+__Content__ <br/>
 Source Sans Pro, Asap, Nunito, Open Sans, Cardo, Merriweather, Abel, Ruda, Teko, Arsenal, Homenaje, <br/>
 Signika Negative, Playfair Display.<br/>
 
@@ -61,9 +61,49 @@ Van dentro de las etiquetas para enriquecer el contenido de la misma. <br/>
 Es una buena práctica usar comillas dobles para los nombres de los atributos, <br/>
 además de separar las palabras con guiones.<br/>
 
+## Tablas
+
+__Etiquetas básicas__ <br/>
+```html
+<table>
+  <tr>
+    <td>Data</td>
+  </tr>
+</table>
+```
+Necesitamos crear un renglón nuevo con la etiqueta ```<tr>``` <br/>
+pero solo podemos poner información dentro de etiquetas ```<td>``` <br/>
+
+__Encabezados__ <br/>
+En lugar de usar la etiqueta ```<td>``` usamos ```<th>```<br/>
+ 
+__Seccionar una tabla__ <br/>
+Podemos crear 3 secciones y darles otro aspecto con estilos gracias a las etiquetas: <br/>
+Para encabezados: <br/>
+```html
+<thead>
+```
+Para contenido: <br/>
+```html
+<tbody>
+```
+Para pie de página: <br/>
+```html
+<tfoot>
+```
+
+__Juntar 2 columnas:__
+```html
+<td colspan="2">
+```
+
+__Juntar 2 filas:__
+```html
+<td rowspan="2">
+```
 
 
-<br/>
+
 ## Botones de radio
 Se recomienda utilizar el mismo atributo _name_ para agrupar los botones de radio. <br/>
 Podemos diferenciarlos con el atributo _id_.<br/>
