@@ -205,8 +205,28 @@ form.addEventListener('submit', e=>{
   alert(username.value);
 });
 ```
-## PROMISES
 
+## PROTOTYPES
+We need prototypes to ADD features in objects <br/>
+
+```javascript
+
+// Function constructor 
+function Persona(nombre, apellido){
+  this.nombre = nombre;
+  this.apellido = apellido;
+}
+
+Persona.prototype.email = 'name@mail.com';
+
+let programmer = new Persona('Ana', 'Karenina');
+console.log(programmer.email);
+
+let designer = new Persona('Coroline','Jones');
+console.log(designer.email);
+```
+
+## PROMISES
 
 ```javascript
 const saludar  = new Promise((resolve, reject)=>{
