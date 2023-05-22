@@ -46,4 +46,17 @@ __Deletes a directory with other files or directories__ <br />
 rm -rf important <br />
 ❗__YOU HAVE TO BE VERY CAREFULLY WITH THIS DANGEROUS COMMAND!__ 
 
+<br/>
+
+## TIP for MAC 🍎 
+To access a folder in our network, we choose "Go" in the main menu. <br/>
+Then "Conect to server" <br/>
+Write, for example: "smb:\\172.16.xxx.xxx"<br/>
+
+
+
+
+
+
+
 
