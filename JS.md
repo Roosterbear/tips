@@ -226,6 +226,28 @@ let designer = new Persona('Coroline','Jones');
 console.log(designer.email);
 ```
 
+## CALLBACKS
+We use callbacks to include a function as a parameter <br/>
+
+```javascript
+
+function sumar(n1, n2, callback){
+  let res = n1+n2;
+  callback(res);
+}
+
+function imprimirConsole(info){
+  console.log("El resultado es: "+info);
+}
+
+function imprimirChido(info){
+  console.log("+++El resultado es: "+info+"+++");
+  console.warn("ESTE FUE UN MENSAJE MUY CHIDO");
+}
+sumar(5,4,imprimirConsole);
+sumar(5,4,imprimirChido);
+```
+
 ## PROMISES
 
 ```javascript
