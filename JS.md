@@ -210,9 +210,12 @@ form.addEventListener('submit', e=>{
 
 ```javascript
 const saludar  = new Promise((resolve, reject)=>{
+  
+  // We put this timeout to be asynchronous
   setTimeout(()=>{
     let saludo = "Hola mundo";
-    
+  
+    // we set both cases: if there is a result and if there is no result.
     if (saludo){
       resolve(saludo);
     }else{
@@ -220,4 +223,23 @@ const saludar  = new Promise((resolve, reject)=>{
     }
   },3000);
 });
+
+// Now we have to say what we want to do with the results
+// "then" takes the resolve data...
+saludar.then(resultado =>{
+  console.log(resultado);
+})
+// DO NOT write a ";" after parenthesis
+// "catch" takes the reject data...
+.catch(err=>{
+  console.log(err);
+});
 ```
+
+
+
+
+
+
+
+
