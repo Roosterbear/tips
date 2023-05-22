@@ -205,3 +205,19 @@ form.addEventListener('submit', e=>{
   alert(username.value);
 });
 ```
+## PROMISES
+
+
+```javascript
+const saludar  = new Promise((resolve, reject)=>{
+  setTimeout(()=>{
+    let saludo = "Hola mundo";
+    
+    if (saludo){
+      resolve(saludo);
+    }else{
+      reject('No hay saludo disponible');
+    }
+  },3000);
+});
+```
