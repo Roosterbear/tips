@@ -6,7 +6,7 @@ _Translating to English_ <br/>
 __A New row:__ We use the HTML single tag "br" <br/>
 __Make separator lines:__ We use only the "#" character in that row<br/>
 __Make thick separator lines:__ Put 3 dashes only in that row<br/>
-
+‼️ __We can't use UNDERLINE in Markdown__ 💔
 ---
 
 __Create a H1 like header__ <br/>
