@@ -5,12 +5,22 @@
 #### Array Methods
 
 __Filter__<br/>
-Iterates an array to evaluate every value within a condition. <br/>
-Creates a new array with the values that return true in the condition.<br/>
+__Returns__ _a new array_ with the values that return true in a given condition.<br/>
+Iterates the array to evaluate every value within a condition. <br/>
+
 ```javascript
 let hiWords = ["hey", "hi", "hello"];
 hiWords = hiWords.filter(x=>x.indexOf("he")===0);
 console.log(hiWords);
+```
+
+__Map__<br/>
+__Returns__ _a new array_ with the modified values of the array. <br/>
+
+```javascript
+const arreglo1 = [1,2,3,4,5,6,7];
+const arreglo2 = arreglo1.map(n=>n*2);
+console.log(arreglo2);
 ```
 
 ### Get an element from the DOM 💥 
