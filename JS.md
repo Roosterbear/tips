@@ -1,5 +1,18 @@
 # Javascript
 
+### ARRAYS
+
+#### Array Methods
+
+__Filter__<br/>
+Iterates an array to evaluate every value within a condition. <br/>
+Creates a new array with the values that return true in the condition.<br/>
+```javascript
+let hiWords = ["hey", "hi", "hello"];
+hiWords = hiWords.filter(x=>x.indexOf("he")===0);
+console.log(hiWords);
+```
+
 ### Get an element from the DOM 💥 
 
 #### By ID
@@ -250,6 +263,7 @@ sumar(5,4,imprimirChido);
 
 ## PROMISES
 
+__Promises with Class Promise, then, resolve and reject__ <br/>
 ```javascript
 const saludar  = new Promise((resolve, reject)=>{
   
@@ -278,7 +292,10 @@ saludar.then(resultado =>{
 });
 ```
 
+__Promises with Async and Await__ <br/>
 
+__Async__ is a way to use promises in any function.
+__Await__ can be used only with a function in Async and stops the program to wait an answer.
 
 
 
