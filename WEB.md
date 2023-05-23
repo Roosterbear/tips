@@ -3,6 +3,31 @@
 
 # HTML
 
+### Basic structure
+
+We need tags to work with __HTML__<br/>
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" />
+  <title>The Name of the Web Site</title>
+</head>
+<body>
+  <!-- Al the content () -->
+</body>
+</html>
+```
+### Forms
+
+The main tag is ```<form>```<br/>
+<br/>
+<br/><br/><br/>
+
+
 ### Fonts
 Google fonts to try...<br/>
 
@@ -40,30 +65,30 @@ __IRISH__ _#369F69_ <br/>
 __SEA GREEN__ _#228A89_ <br/>
 __COPPER ROSE__ _#8F5555_ <br/>
 
-## Elemento
-El elemento __HTML__ tiene 3 elementos: <br />
-Etiqueta de Apertura - Contenido - Etiqueta de Cierre
+## Element
+The __HTML__ element has 3 elements: <br />
+Opening tag - Content - Closing tag
 ```html
-<p>Hola Mundo</p>
+<p>Hello World</p>
 ```
 
-## Etiqueta
-Las etiquetas no llevan texto ni cierre
+## Tag
+The tags has no text or closing tag:
 ```html
 <br/>
 ```
 
-## Atributos
-Van dentro de las etiquetas para enriquecer el contenido de la misma. <br/>
+## Attributes
+They go inside tag to enhance their self content. <br/>
 ```html
 <div class="mi-clase">Hola</div>
 ```
-Es una buena práctica usar comillas dobles para los nombres de los atributos, <br/>
-además de separar las palabras con guiones.<br/>
+It is a good practice to use double quotation mark to name the attributes, <br/>
+besides of to separate words with dashes.<br/>
 
-## Tablas
+## Tables
 
-__Etiquetas básicas__ <br/>
+__Basic tags__ <br/>
 ```html
 <table>
   <tr>
@@ -71,57 +96,62 @@ __Etiquetas básicas__ <br/>
   </tr>
 </table>
 ```
-Necesitamos crear un renglón nuevo con la etiqueta ```<tr>``` <br/>
-pero solo podemos poner información dentro de etiquetas ```<td>``` <br/>
+We need to create a new row with the tag: ```<tr>``` <br/>
+but we can add data inside tags like ```<td>``` only<br/>
 
-__Encabezados__ <br/>
-En lugar de usar la etiqueta ```<td>``` usamos ```<th>```<br/>
+__Headers__ <br/>
+Instead using the tag ```<td>``` we use: ```<th>```<br/>
  
-__Seccionar una tabla__ <br/>
-Podemos crear 3 secciones y darles otro aspecto con estilos gracias a las etiquetas: <br/>
-Para encabezados: <br/>
+__Creating sections in a table__ <br/>
+We can create 3 extra sections and give them another look with styles thanks to tags: <br/>
+For headers: <br/>
 ```html
 <thead>
 ```
-Para contenido: <br/>
+For content: <br/>
 ```html
 <tbody>
 ```
-Para pie de página: <br/>
+For footers: <br/>
 ```html
 <tfoot>
 ```
 
-__Juntar 2 columnas:__
+__Join 2 columns:__
 ```html
 <td colspan="2">
 ```
 
-__Juntar 2 filas:__
+__Join 2 rows:__
 ```html
 <td rowspan="2">
 ```
 
-
-
-## Botones de radio
-Se recomienda utilizar el mismo atributo _name_ para agrupar los botones de radio. <br/>
-Podemos diferenciarlos con el atributo _id_.<br/>
-Para elegir uno seleccionado usamos el atributo ```checked=checked``` o ```checked=true```<br/>
-Observa el siguiente código:
+## Radio buttons
+We have to use the same _name_ attribute to group radio buttons. <br/>
+We can distinguish them with the attribute _id_.<br/>
+To select a chosen we use the ```checked=checked``` or ```checked=true``` attribute<br/>
+Look at the next code:
 ```html
-<input type="radio" name="igual" id="radio1">Radio #1<br/>
-<input type="radio" name="igual" id="radio2" checked="checked">Radio #2
+<input type="radio" name="sameol" id="radio1">Radio #1<br/>
+<input type="radio" name="sameol" id="radio2" checked="checked">Radio #2
 ```
-
 
 ---
 # CSS
 
-Existen 3 formas de agregar código CSS: <br/>
+There are 3 ways to add CSS code: <br/>
 
-1.- Entre las etiquetas ```<head>``` y ```</head>```, agregando las etiquetas ```<style>``` y ```<style>```
-
+1.- Between the ```<head>``` and ```</head>``` tags, adding the ```<style>``` and ```<style>``` tags <br />
+2.- Adding a special extra file, for example: style.css and adding it's reference: <br/>
+```html
+<link rel="stylesheet" href="style.css">
+```
+3.- And the less used and less recommended: Inside tags withe the "_style_" property.<br/>
+(_still used in wordpress and old sites_). <br/>
+```html
+<div style="background-color: #bbb;">Hello</div>
+```
 
 __Cursor__ <br/>
 pointer, crosshair, e-resize, grab, help, move, progress, text, wait, no-allowed, no-drop <br/>
