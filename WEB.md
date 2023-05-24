@@ -199,6 +199,45 @@ li{
 It will be __red__ <br/>
 
 <br/>
+
+## Positioning
+
+__static__ <br/>
+Takes the default values of the element (block, inline-block, inline): <br/>
+It doesn't move from it's original position. <br/>
+```css
+position: static;
+```
+__relative__<br/>
+Moves it's position with: __top__ and __left__. <br/>
+```css
+position: relative;
+```
+
+__absolute__<br/>
+Moves it's position relative to the nearest positioned ancestor with: __top__ and __left__.<br />
+We need that the ancestor to be "relative" to work this position. <br/>
+```css
+position: absolute;
+```
+
+__fixed__<br/>
+Position relative to the top left corner of the browser window. <br/>
+```css
+position: fixed;
+```
+
+Ejm. <br/>
+Make a blue rectangle 500px width, 300px height and 200px top-left from parent. <br/>
+Put a red circle 200px width and 150px top and 250px left.
+
+## RADIUS
+To make a picture or a shape rounded, we can add the property:
+```css
+border-radius: 50%;
+```
+
+<br/>
 __Cursor__ <br/>
 pointer, crosshair, e-resize, grab, help, move, progress, text, wait, no-allowed, no-drop <br/>
 
