@@ -142,18 +142,31 @@ Look at the next code:
 
 There are 3 ways to add CSS code: <br/>
 
-1.- Between the ```<head>``` and ```</head>``` tags, adding the ```<style>``` and ```<style>``` tags <br />
-2.- Adding a special extra file, for example: style.css and adding it's reference: <br/>
+1.- Adding a special extra file, for example: style.css and adding it's reference: <br/>
 ```html
 <link rel="stylesheet" href="style.css">
 ```
+2.- Between the ```<head>``` and ```</head>``` tags, adding the ```<style>``` and ```<style>``` tags <br />
 3.- And the less used and less recommended: Inside tags withe the "_style_" property.<br/>
 (_still used in wordpress and old sites_). <br/>
 ```html
 <div style="background-color: #bbb;">Hello</div>
 ```
 
-## Specificity
+## HOW CSS ACTS?
+
+Let's see from less to the most priority in how a cascade works:
+
+### Position
+```css
+li{
+  color: red;
+  color: blue;
+}
+```
+It will be __blue__ <br/>
+
+### Specificity
 Cascade sheets takes the values of properties, and change them as if they fall. <br/>
 There is another reason for CSS to take certain value, and it is the _specificity_, <br/>
 where is a degree of the selector value. <br/>
@@ -162,6 +175,28 @@ __1.- id__ The most valuated property, like ```#principal``` <br/>
 __2.- attribute__ Like ```li[draggable]``` <br/>
 __3.- class__ Like ```.my-class``` <br/>
 __4.- element__ Like ```li``` <br/>
+
+### Type (the way we add CSS)
+The most important: <br/>
+```html
+<div style=""> </div>
+```
+Less important <br/>
+```<style> /* code */<style>```  <br />
+
+The less important <br/>
+```html
+<link rel="stylesheet" href="style.css">
+```
+### Importance
+
+```css
+li{
+  color: red !important;
+  color: blue;
+}
+```
+It will be __red__ <br/>
 
 <br/>
 __Cursor__ <br/>
