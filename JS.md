@@ -1,6 +1,10 @@
 # Javascript
 
 ### ARRAYS
+We can create an array this way: <br/>
+```javascript
+const arreglo1 = [1,2,3,4,5,6,7];
+```
 
 #### Array Methods
 
@@ -21,6 +25,19 @@ __Returns__ _a new array_ with the modified values of the array. <br/>
 const arreglo1 = [1,2,3,4,5,6,7];
 const arreglo2 = arreglo1.map(n=>n*2);
 console.log(arreglo2);
+```
+
+## FUNCTIONS
+
+We can accept unknown number of elements in a function with "rest" <br/>
+The only thing we have to do is add "..." and the variable that will receive the data as an array. <br/>
+```javascript
+function fruits (fruit1, ...rest_of_fruits){
+  console.log(fruit1);
+  console.log(rest_of_fruits);
+}
+
+fruits("apple", "banana", "orange", "fig", "blackberry", "melon", "papaya", "mamme");
 ```
 
 ### Get an element from the DOM 💥 
