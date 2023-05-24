@@ -1,5 +1,8 @@
 # Javascript
 
+## Remove blank spaces in a text
+We can use the __.trim()__ function to remove blank spaces in a text variable.
+
 ### ARRAYS
 We can create an array this way: <br/>
 ```javascript
@@ -29,6 +32,7 @@ console.log(arreglo2);
 
 ## FUNCTIONS
 
+__rest__ <br/>
 We can accept unknown number of elements in a function with "rest" <br/>
 The only thing we have to do is add "..." and the variable that will receive the data as an array. <br/>
 ```javascript
@@ -40,6 +44,21 @@ function fruits (fruit1, ...rest_of_fruits){
 fruits("apple", "banana", "orange", "fig", "blackberry", "melon", "papaya", "mamme");
 ```
 
+__spread__ <br/>
+We can pass as an argument an array: <br/>
+
+```javascript
+function fruits (fruit1, ...rest_of_fruits){
+  console.log(fruit1);
+  console.log(rest_of_fruits);
+}
+
+const other_fruits = ["strawberry", "lemon", "watermelon"];
+
+fruits(...other_fruits, "apple", "banana", "orange", "fig", "blackberry", "melon", "papaya", "mamme");
+```
+
+<br />
 ### Get an element from the DOM 💥 
 
 #### By ID
