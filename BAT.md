@@ -1,34 +1,34 @@
 __@echo off__<br/>
-- Quita la linea de ejecucion del comando,
-- Para que se vea profesional es OBLIGATORIO
+- Removes the execution line of the command.
+- If you want your script to look professional, is mandatory.
 
 __pause__
-- Si queremos que se detenga para ver un mensaje
+- Use pause to stop the execution of a script and waits the user response.
 
 __pause>nul__
-- No se ve el "Presiona una tecla para continuar..."
+- We hide the message "Presiona una tecla para continuar..."
 
 __start__
-- Abre archivos, paginas web, etc.
+- Opens files, web sites, etc.
 
-__color__ [fondo][letras]<br/>
-El mas tipico es 0F o 0A<br/>
+__color__ [background][text]<br/>
+The most used is 0F or 0A<br/>
 
-| Codigo | Color |
+| Code | Color |
 | :---: | :---: |
-| 0 | negro | 
-| 1 | azul |
-| 2 | aguamarina |
-| 3 | rojo |
-| 4 | purpura |
-| 5 | amarillo |
-| 6 | negro |
-| 7 | blanco-gris |
-| 8 | gris |
-| 9 | azul claro |
-| A | verde claro |
-| B | aquamarina claro |
-| C | rojo claro |
-| D | purpura claro |
-| E | amarillo claro |
-| F | blanco blanco |
+| 0 | black | 
+| 1 | blue |
+| 2 | aquamarine |
+| 3 | red |
+| 4 | purple |
+| 5 | yellow |
+| 6 | black |
+| 7 | white-gray |
+| 8 | grey |
+| 9 | light blue |
+| A | light green |
+| B | light aquamarina |
+| C | light red |
+| D | light purple |
+| E | light yellow |
+| F | white white |
