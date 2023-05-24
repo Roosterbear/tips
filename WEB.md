@@ -253,12 +253,16 @@ It is a way to adapt the content to screen sizes. <br/>
   /* CSS only for screens below or equal to 600px width */
 }
 ```
+
 # 👁️ UPLOAD A PROJECT TO GITHUB
 
 __1.- Create a New Repository__ <br/>
 __2.- Add File - Upload Files__ <br/>
 __3.- Tab "Settings" - Pages - Branch "main"__ <br/>
 __4.- Takes some minutes to be published and we have to wait__ 🕜  <br/>
+
+# 👁️ SSH
+ssh {__user__}__@__{__host__} <br/>
 
 
 
