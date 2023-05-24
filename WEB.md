@@ -241,6 +241,18 @@ border-radius: 50%;
 __Cursor__ <br/>
 pointer, crosshair, e-resize, grab, help, move, progress, text, wait, no-allowed, no-drop <br/>
 
+
+## RESPONSIVE DESIGN
+
+### Media Queries
+
+It is a way to adapt the content to screen sizes. <br/>
+
+```css
+@media (max-width: 600px){
+  /* CSS only for screens below or equal to 600px width */
+}
+```
 # 👁️ UPLOAD A PROJECT TO GITHUB
 
 __1.- Create a New Repository__ <br/>
