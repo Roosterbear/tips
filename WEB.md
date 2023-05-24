@@ -153,8 +153,29 @@ There are 3 ways to add CSS code: <br/>
 <div style="background-color: #bbb;">Hello</div>
 ```
 
+## Specificity
+Cascade sheets takes the values of properties, and change them as if they fall. <br/>
+There is another reason for CSS to take certain value, and it is the _specificity_, <br/>
+where is a degree of the selector value. <br/>
+
+__1.- id__ The most valuated property, like ```#principal``` <br/>
+__2.- attribute__ Like ```li[draggable]``` <br/>
+__3.- class__ Like ```.my-class``` <br/>
+__4.- element__ Like ```li``` <br/>
+
+<br/>
 __Cursor__ <br/>
 pointer, crosshair, e-resize, grab, help, move, progress, text, wait, no-allowed, no-drop <br/>
+
+# 👁️ UPLOAD A PROJECT TO GITHUB
+
+__1.- Create a New Repository__ <br/>
+__2.- Add File - Upload Files__ <br/>
+__3.- Tab "Settings" - Pages - Branch "main"__ <br/>
+__4.- Takes some minutes to be published and we have to wait__ 🕜  <br/>
+
+
+
 
 
 
