@@ -24,8 +24,40 @@ We need tags to work with __HTML__<br/>
 ### Forms
 
 The main tag is ```<form>```<br/>
+Usually we have to add 4 items:<br/>
+__action:__ is the file that will handle our form<br/>
+__method:__ could be "_post_" or "_get_"<br/>
+__id:__ it is oriented to handle the element with CSS or javascript<br/>
+__name:__ it is oriented to the form submission<br/>
+
+__input__ <br/>
+It is used to get information from the user, and could be type: <br/>
+
+```html
+<input type="text">
+<input type="password">
+<input type="hidden">
+<input type="radio">
+<input type="checkbox">
+```
 <br/>
-<br/><br/><br/>
+
+__select__ <br/>
+It is used to give some options to choose: <br/>
+
+```html
+<select id="" name="" class="form-control">
+  <option value="0">Selecciona una opcion</option>
+  <option value="1">Opcion #1</option>
+  <option value="2">Opcion #2</option>
+</select>
+```
+
+__textarea__ <br/>
+It is like an input text, but bigger. <br/>
+```html
+<textarea rows="3"></textarea>
+```
 
 
 ### Fonts
