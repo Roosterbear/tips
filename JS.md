@@ -309,6 +309,9 @@ sumar(5,4,imprimirChido);
 
 ## PROMISES
 
+Async Javascript deals with the performs of tasks which takes some time to complete. <br/>
+Starts now and finish later. <br/>
+
 __Promises with Class Promise, then, resolve and reject__ <br/>
 ```javascript
 const saludar  = new Promise((resolve, reject)=>{
