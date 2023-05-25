@@ -380,15 +380,26 @@ __1.- We need a parent class to contain Grid Layout:__ <br/>
 }
 ```
 
-__2.- We have to say how many rows or columns I want:__ <br/>
+__2.- We have to say how many rows and columns I want:__ <br/>
 ```css
 .grid-layout{
   display: grid; 
   grid-template-columns: auto auto;
+  grid-template-rows: 100px 50%;
 }
 ```
-_This way, every auto is a column. If we want rows, just change rows instead columns._<br/>
-_Same way, If we need a column that takes half space, we use 50% instead auto._<br/>
+_This way, every auto or value are a column. We can set both: columns and rows._<br/>
+
+__3.- Size of an element:__ <br/>
+```css
+.box1{
+  grid-column:1/3;
+}
+```
+Where 1 is the first line (not the space ❗). <br/>
+_We can use grid-template-areas to set the distribution_ <br/>
+_We can use names as "grid-area".
+
 
 # 👁️ UPLOAD A PROJECT TO GITHUB
 
