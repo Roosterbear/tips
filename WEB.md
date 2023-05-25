@@ -299,7 +299,7 @@ __2.- We need to add the direction at that container with flex-direction:__ <br/
 ```css
 .container{
   display: flex;
-  flex-direction: column;
+  flex-direction: column; // Or by default: row
   gap: 1rem; // Space between elements
 }
 ```
@@ -313,6 +313,67 @@ We can change the size of every element with: <br/>
   flex-basis: 100px;
 }
 ```
+
+__Wrap elements__ <br/>
+By default, the elements are displayed in nowrap. <br/>
+We must add to the parent: <br/>
+```css
+flex-wrap: wrap;
+```
+
+__Change order of elements__ <br/>
+We can change the order of an element with: <br/>
+```css
+.first{
+  order: 10; // will be displayed in the second place
+}
+
+.second{
+  order: 0; // will be displayed in the first place
+}
+```
+
+__justify-content__ <br/>
+
+* flex-start
+* flex-end
+* center
+* space-between 
+* space-around
+* space-evenly
+<br/>
+
+__align-items__ <br/>
+❗ ONLY WORKS WITH NO-WRAP ❗ <br/>
+
+* flex-start
+* flex-end
+* center
+* baseline 
+* stretch
+
+_To see how it works, we have to add to the parent:_
+
+```css
+height: 70vh;
+```
+
+_If we want to change the align of only one item we can use in that element:_
+
+```css
+align-self: flex-end; // or whatever we want...
+```
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
 
 
 
