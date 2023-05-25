@@ -17,7 +17,7 @@ We need tags to work with __HTML__<br/>
   <title>The Name of the Web Site</title>
 </head>
 <body>
-  <!-- Al the content () -->
+  <!-- All the content () -->
 </body>
 </html>
 ```
@@ -285,6 +285,36 @@ It is a way to adapt the content to screen sizes. <br/>
   /* CSS only for screens below or equal to 600px width */
 }
 ```
+### Flexbox
+
+__1.- We need a parent class to contain flexbox:__ <br/>
+```css
+.container{
+  display: flex;
+  gap: 1rem; // Space between elements
+}
+```
+
+__2.- We need to add the direction at that container with flex-direction:__ <br/>
+```css
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; // Space between elements
+}
+```
+_We won't see anything until we add elements (items)_. <br/>
+
+__Change the basis__ <br/>
+The basis is the axis that we select in flex-direction. <br/>
+We can change the size of every element with: <br/>
+```css
+.container > *{
+  flex-basis: 100px;
+}
+```
+
+
 
 # 👁️ UPLOAD A PROJECT TO GITHUB
 
