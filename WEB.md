@@ -371,6 +371,25 @@ flex-grow: 0;
 flex-shrink: 0;
 ```
 
+### GRID Layout
+
+__1.- We need a parent class to contain Grid Layout:__ <br/>
+```css
+.grid-layout{
+  display: grid;  
+}
+```
+
+__2.- We have to say how many rows or columns I want:__ <br/>
+```css
+.grid-layout{
+  display: grid; 
+  grid-template-columns: auto auto;
+}
+```
+_This way, every auto is a column. If we want rows, just change rows instead columns._<br/>
+_Same way, If we need a column that takes half space, we use 50% instead auto._<br/>
+
 # 👁️ UPLOAD A PROJECT TO GITHUB
 
 __1.- Create a New Repository__ <br/>
