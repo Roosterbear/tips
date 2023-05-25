@@ -335,8 +335,8 @@ We can change the order of an element with: <br/>
 
 __justify-content__ <br/>
 
-* flex-start
-* flex-end
+* flex-start 
+* flex-end 
 * center
 * space-between 
 * space-around
@@ -346,11 +346,11 @@ __justify-content__ <br/>
 __align-items__ <br/>
 ❗ ONLY WORKS WITH NO-WRAP ❗ <br/>
 
-* flex-start
-* flex-end
-* center
-* baseline 
-* stretch
+* flex-start _Elements stick to the top edge_
+* flex-end _Elements stick to the bottom edge_
+* center _if elements have different height, they are centered by the middle in the center of the screen_
+* baseline  _If elements have different height, they are centered by the middle in the top of the screen_
+* stretch _Elements take all free space_
 
 _To see how it works, we have to add to the parent:_
 
@@ -364,18 +364,12 @@ _If we want to change the align of only one item we can use in that element:_
 align-self: flex-end; // or whatever we want...
 ```
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+__Sizing__ <br/>
 
-
-
-
-
+```css
+flex-grow: 0;
+flex-shrink: 0;
+```
 
 # 👁️ UPLOAD A PROJECT TO GITHUB
 
