@@ -1,7 +1,7 @@
 # Javascript
 
 ## LET
-Used instead _var_ to declare variables in the __new standard__ <br/>
+Used instead _var_ to declare variables in the new standard. <br/>
 Javascript read all the _var_ variables first. Every __let__ is read when is created. <br/>
 
 ## CONST
