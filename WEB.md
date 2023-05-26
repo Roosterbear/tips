@@ -306,6 +306,41 @@ We can use it when something changes. It delays the time that takes from state t
 _It will take half second to change color._
 <br/>
 
+__Keyframes__ <br/>
+Used to define animations to apply gradual changes to an element. <br/>
+With a keyframe we can define the states between an animation and it's transformation. <br/>
+<br/>
+We use the rule __@keyframes__ and any name for the animation. <br/>
+
+```css
+@keyframes myAnimation {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(100px);
+  }
+}
+```
+
+Now we can apply it: <br/>
+```css
+.elemento {
+  animation-name: myAnimation;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+```
+
 __Cursor__ ✋🏼 <br/>
 If we want to change the aspect of the mouse cursor, we can chang it with: <br/>
 pointer, crosshair, e-resize, grab, help, move, progress, text, wait, no-allowed, no-drop <br/>
