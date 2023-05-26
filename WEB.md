@@ -17,7 +17,7 @@ We need tags to work with __HTML__<br/>
   <title>The Name of the Web Site</title>
 </head>
 <body>
-  <!-- All the content () -->
+  <!-- All the content -->
 </body>
 </html>
 ```
@@ -25,15 +25,16 @@ We need tags to work with __HTML__<br/>
 
 ### Fonts
 
+We can add new fonts this way: <br/>
 ```html
 @font-face {
-  font-family: 'MiFuentePersonalizada';
+  font-family: 'MyFont';
   src: url('ruta/a/mifuente.woff2') format('woff2'),
        url('ruta/a/mifuente.woff') format('woff');
 }
 
 .elemento {
-  font-family: 'MiFuentePersonalizada', Arial, sans-serif;
+  font-family: 'MyFont', Arial, sans-serif;
 }
 ```
 
@@ -248,6 +249,9 @@ It will be __red__ <br/>
 
 <br/>
 
+## PREFIXES
+Nowadays, it is not necessary to use prefixes (_-o, -moz, -webkit_), since browsers are compatible. <br/>
+
 ## POSITIONING 🧭 
 
 __static__ <br/>
@@ -280,13 +284,14 @@ Make a blue rectangle 500px width, 300px height and 200px top-left from parent. 
 Put a red circle 200px width and 150px top and 250px left.
 
 
-## RADIUS 🌚 
+## CHANGING ELEMENTS 🦋 
+
+__Radius__ 🔘 <br/>
 To make a picture or a shape rounded, we can add the property:
 ```css
 border-radius: 50%;
 ```
-
-## TRANSITION ⏲️ 
+__Transition__ ⏲️ <br/>
 We can use it when something changes. It delays the time that takes from state to other.<br/>
 ```css
 .elemento {
@@ -301,9 +306,8 @@ We can use it when something changes. It delays the time that takes from state t
 _It will take half second to change color._
 <br/>
 
-## CHANGING ELEMENTS 🦋 
-
-__Cursor__ <br/>
+__Cursor__ ✋🏼 <br/>
+If we want to change the aspect of the mouse cursor, we can chang it with: <br/>
 pointer, crosshair, e-resize, grab, help, move, progress, text, wait, no-allowed, no-drop <br/>
 
 
