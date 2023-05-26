@@ -1,5 +1,18 @@
 # Javascript
 
+## LET
+Used instead _var_ to declare variables in the __new standard__ <br/>
+Javascript read all the _var_ variables first. Every __let__ is read when is created. <br/>
+
+## CONST
+Used to keep values that won't change, as DOM Elements, Arrays, Objects and __Constant__ values.
+
+## SCOPE
+Scope is the context or visibility of variables, functions and objects in our code. <br/>
+It determines how and where a particular identifier can be accessed. <br/>
+It is very important for avoiding naming conflicts and controlling access to variables and functions. <br/>
+We can create a scope with a function or a try-catch to block access to that variables.
+
 ## Remove blank spaces in a text
 We can use the __.trim()__ function to remove blank spaces in a text variable.
 
