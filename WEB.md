@@ -21,46 +21,22 @@ We need tags to work with __HTML__<br/>
 </body>
 </html>
 ```
-### Forms
-
-The main tag is ```<form>```<br/>
-Usually we have to add 4 items:<br/>
-__action:__ is the file that will handle our form<br/>
-__method:__ could be "_post_" or "_get_"<br/>
-__id:__ it is oriented to handle the element with CSS or javascript<br/>
-__name:__ it is oriented to the form submission<br/>
-
-__input__ <br/>
-It is used to get information from the user, and could be type: <br/>
-
-```html
-<input type="text">
-<input type="password">
-<input type="hidden">
-<input type="radio">
-<input type="checkbox">
-```
-<br/>
-
-__select__ <br/>
-It is used to give some options to choose: <br/>
-
-```html
-<select id="" name="" class="form-control">
-  <option value="0">Selecciona una opcion</option>
-  <option value="1">Opcion #1</option>
-  <option value="2">Opcion #2</option>
-</select>
-```
-
-__textarea__ <br/>
-It is like an input text, but bigger. <br/>
-```html
-<textarea rows="3"></textarea>
-```
 
 
 ### Fonts
+
+```html
+@font-face {
+  font-family: 'MiFuentePersonalizada';
+  src: url('ruta/a/mifuente.woff2') format('woff2'),
+       url('ruta/a/mifuente.woff') format('woff');
+}
+
+.elemento {
+  font-family: 'MiFuentePersonalizada', Arial, sans-serif;
+}
+```
+
 Google fonts to try...<br/>
 
 __Headers, Tittles__ <br/>
@@ -118,6 +94,7 @@ They go inside tag to enhance their self content. <br/>
 It is a good practice to use double quotation mark to name the attributes, <br/>
 besides of to separate words with dashes.<br/>
 
+
 ## Tables
 
 __Basic tags__ <br/>
@@ -159,7 +136,46 @@ __Join 2 rows:__
 <td rowspan="2">
 ```
 
-## Radio buttons
+
+### Forms
+
+The main tag is ```<form>```<br/>
+Usually we have to add 4 items:<br/>
+__action:__ is the file that will handle our form<br/>
+__method:__ could be "_post_" or "_get_"<br/>
+__id:__ it is oriented to handle the element with CSS or javascript<br/>
+__name:__ it is oriented to the form submission<br/>
+
+__input__ <br/>
+It is used to get information from the user, and could be type: <br/>
+
+```html
+<input type="text">
+<input type="password">
+<input type="hidden">
+<input type="radio">
+<input type="checkbox">
+```
+<br/>
+
+__select__ <br/>
+It is used to give some options to choose: <br/>
+
+```html
+<select id="" name="" class="form-control">
+  <option value="0">Selecciona una opcion</option>
+  <option value="1">Opcion #1</option>
+  <option value="2">Opcion #2</option>
+</select>
+```
+
+__textarea__ <br/>
+It is like an input text, but bigger. <br/>
+```html
+<textarea rows="3"></textarea>
+```
+
+__radio button__ <br/>
 We have to use the same _name_ attribute to group radio buttons. <br/>
 We can distinguish them with the attribute _id_.<br/>
 To select a chosen we use the ```checked=checked``` or ```checked=true``` attribute<br/>
