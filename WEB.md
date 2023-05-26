@@ -1,5 +1,5 @@
 # ALL ABOUT WEB PROGRAMMING
-## HTML, CSS, Basic JS, and Tools
+## HTML, CSS and Tools
 
 # HTML
 
@@ -169,7 +169,7 @@ Look at the next code:
 <input type="radio" name="sameol" id="radio2" checked="checked">Radio #2
 ```
 
----
+------------------------------------------------------------------------
 # CSS
 
 There are 3 ways to add CSS code: <br/>
@@ -185,7 +185,7 @@ There are 3 ways to add CSS code: <br/>
 <div style="background-color: #bbb;">Hello</div>
 ```
 
-## HOW CSS ACTS?
+## HOW CSS ACTS? 🐉 
 
 Let's see from less to the most priority in how a cascade works:
 
@@ -232,7 +232,7 @@ It will be __red__ <br/>
 
 <br/>
 
-## Positioning
+## POSITIONING 🧭 
 
 __static__ <br/>
 Takes the default values of the element (block, inline-block, inline): <br/>
@@ -263,18 +263,35 @@ Ejm. <br/>
 Make a blue rectangle 500px width, 300px height and 200px top-left from parent. <br/>
 Put a red circle 200px width and 150px top and 250px left.
 
-## RADIUS
+
+## RADIUS 🌚 
 To make a picture or a shape rounded, we can add the property:
 ```css
 border-radius: 50%;
 ```
 
+## TRANSITION ⏲️ 
+We can use it when something changes. It delays the time that takes from state to other.<br/>
+```css
+.elemento {
+  background: blue;
+  transition: background .5s;
+}
+
+.elemento:hover {
+  background: red;
+}
+```
+_It will take half second to change color._
 <br/>
+
+## CHANGING ELEMENTS 🦋 
+
 __Cursor__ <br/>
 pointer, crosshair, e-resize, grab, help, move, progress, text, wait, no-allowed, no-drop <br/>
 
 
-## RESPONSIVE DESIGN
+## RESPONSIVE DESIGN 🦎
 
 ### Media Queries
 
