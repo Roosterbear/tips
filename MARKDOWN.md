@@ -7,6 +7,8 @@ __A New row:__ We use the HTML single tag "br" <br/>
 __Make separator lines:__ We use only the "#" character in that row <br/>
 __Make thick separator lines:__ Put 3 dashes only in that row <br/>
 __We can't use UNDERLINE in Markdown__ ‼️ 💔 <br/>
+__You can use links to underline__ Enclose with brackets [ ]the word, and beside add parenthesis ().<br/>
+
 
 ---
 
