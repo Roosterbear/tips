@@ -93,6 +93,50 @@ const arr = [2,4,6];
 console.log(add(...arr)); // 12!
 ```
 
+
+
+    function sum(...numbers) {
+        return numbers.reduce((acc, number) => acc + number);
+    }
+     
+    const answer = sum(1, 5, 20, 10);
+     
+    console.log(answer);
+
+
+
+
+
+
+
+
+    const names = [
+     'bob', 
+     ...[
+         'donald'
+     ],
+     'suzy', 
+     'lacy',
+     ...[
+         'richard', 
+         'alex'
+     ]
+    ]
+    console.log(names);
+
+
+
+
+
+
+
+
+    const sum = Math.min(...[1, 5, -1, -10])
+    console.log(sum);
+
+
+
+
 __arrow function__ <br/>
 Is a new way to create a function, and has some advantages: <br/>
 
