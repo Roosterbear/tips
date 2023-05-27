@@ -246,6 +246,60 @@ var person = {
   [work()+'_mail']:'fernando@ibm.com'
 }
 
+```
+
+__method properties__
+
+```javascript
+var person = {
+  name: 'Fernando',
+  age: 20,
+  haveBirthday (){
+    this.age++;
+  }
+}
+
+person.haveBirthday();
+console.log(person);
+
+```
+
+## CLASSES
+
+```javascript
+class Person{
+  constructor(name, age){
+    this.name = name;
+    this.age = age;
+  }
+  jump(){console.log('The Person Jumps!')}
+}
+
+class Employee extends Person{
+  constructor(name, age, years){
+    super(name, age);
+    this.years = years;
+  }
+  jump(){console.log('The Employee jumps now')}
+}
+```
+
+__static members__ <br/>
+
+```javascript
+class Person{
+  constructor(name, age){
+    this.name = name;
+    this.age = age;
+  }
+  static setName(person, name){
+    person.name = name;
+  }
+}
+
+const person = new Person('Fer', 46);
+Person.setName(person, 'Luis');
+console.log(person);
 
 ```
 <br />
