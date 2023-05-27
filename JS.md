@@ -26,6 +26,7 @@ const message = `My name is Fernando and I love ${activities
   })
   .join(', ')
 }`
+console.log(message);
 
 ```
 
@@ -156,6 +157,38 @@ console.log(add(...arr)); // 12!
 
 
 
+
+
+
+
+
+    function underscore (strings, ...values) {
+        return strings[0].replace(/\s/g, '_');
+    }
+     
+    const message = underscore`there      is no cow level`
+     
+    console.log(message);
+    
+    
+    
+    
+    
+    
+    
+        function error (strings, err) {
+        error = `status: ${err.status}, message: ${err.message}`
+        return `${strings[0]}{${error}}`
+    }
+     
+    const err = {
+        message: 'oh no, an error!',
+        status: 404
+    }
+     
+    const message = error`An error has occurred: ${err}`
+     
+    console.log(message);
 
 __arrow function__ <br/>
 Is a new way to create a function, and has some advantages: <br/>
