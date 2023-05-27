@@ -71,6 +71,34 @@ const other_fruits = ["strawberry", "lemon", "watermelon"];
 fruits(...other_fruits, "apple", "banana", "orange", "fig", "blackberry", "melon", "papaya", "mamme");
 ```
 
+__arrow function__ <br/>
+Is a new way to create a function, and has some advantages: <br/>
+
+1.- More readable code, specially in array methods and event handlers <br/>
+2.- No binding of "this". Traditional functions create new "this" when invoked as methods or constructors. <br/>
+3.- Lexical "this" value. Inherit it from the encolsing scope. Making it easy to maintain. <br/>
+4.- Implicit return. We can do a one line function without the return statement, as long as the funtion body is a single expression. <br/> 
+5.- Have a shorter and more concise syntax, creating compact and expressive code. <br/>
+
+```javascript
+
+```
+
+__objects in array functions__
+
+```javascript
+const arr = [1,2,3,4,5];
+
+const byTwo = arr.map(number=>(
+{
+  number: number*2;
+}
+));
+
+byTwo;
+```
+
+
 <br />
 ### Get an element from the DOM 💥 
 
