@@ -228,6 +228,26 @@ var person = {
 }
 ```
 
+__computed property names__
+
+```javascript
+var key = lastname;
+function mailFn(){
+  return 'mail';
+}
+
+const work = ()=>'work';
+
+var person = {
+  firstname: 'Fernando',
+  [key]: 'Roosterbear',
+  [mailFn()]: 'fernandoroosterbear@gmail.com',
+  ['age']: 20,
+  [work()+'_mail']:'fernando@ibm.com'
+}
+
+
+```
 <br />
 ### Get an element from the DOM 💥 
 
