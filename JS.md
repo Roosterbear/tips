@@ -73,6 +73,26 @@ const other_fruits = ["strawberry", "lemon", "watermelon"];
 fruits(...other_fruits, "apple", "banana", "orange", "fig", "blackberry", "melon", "papaya", "mamme");
 ```
 
+We can separate a word by letters: <br/>
+
+```javascript
+const message = 'hello';
+const chars = [..message];
+
+console.log(chars); // ['h','e','l','l','o'];
+```
+
+And we can separate arguments:
+
+```javascript
+function add(a,b,c){
+  return a+b+c;
+}
+
+const arr = [2,4,6];
+console.log(add(...arr)); // 12!
+```
+
 __arrow function__ <br/>
 Is a new way to create a function, and has some advantages: <br/>
 
