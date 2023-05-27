@@ -13,8 +13,28 @@ It determines how and where a particular identifier can be accessed. <br/>
 It is very important for avoiding naming conflicts and controlling access to variables and functions. <br/>
 We can create a scope with a function or a try-catch to block access to that variables.
 
-## Remove blank spaces in a text
+## STRINGS
+
+__String interpolation__ <br/>
+We can add text with variables in a better way with the ``` ` ``` sign. <br/>
+
+```javascript
+const activities = ['walking', 'reading', 'coding'];
+const message = `My name is Fernando and I love ${activities
+  .map(function(activity){
+    return `${activity}!!`
+  })
+  .join(', ')
+}`
+
+```
+
+
+
+__Remove blank spaces in a text__ <br/>
 We can use the __.trim()__ function to remove blank spaces in a text variable.
+
+
 
 ### ARRAYS
 We can create an array this way: <br/>
