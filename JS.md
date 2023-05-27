@@ -48,6 +48,8 @@ console.log(arreglo2);
 __rest__ <br/>
 We can accept unknown number of elements in a function with "rest" <br/>
 The only thing we have to do is add "..." and the variable that will receive the data as an array. <br/>
+It ONLY can be possible if that value is the __last__ of the parameters. Otherwise, we will get an ERROR!. <br/>
+
 ```javascript
 function fruits (fruit1, ...rest_of_fruits){
   console.log(fruit1);
