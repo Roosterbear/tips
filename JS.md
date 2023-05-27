@@ -30,14 +30,10 @@ console.log(message);
 
 ```
 
-
-
 __Remove blank spaces in a text__ <br/>
 We can use the __.trim()__ function to remove blank spaces in a text variable.
 
-
-
-### ARRAYS
+## ARRAYS
 We can create an array this way: <br/>
 ```javascript
 const arreglo1 = [1,2,3,4,5,6,7];
@@ -100,7 +96,7 @@ We can separate a word by letters: <br/>
 const message = 'hello';
 const chars = [..message];
 
-console.log(chars); // ['h','e','l','l','o'];
+console.log(chars); // Will print ['h','e','l','l','o'];
 ```
 
 And we can separate arguments:
@@ -217,6 +213,20 @@ const byTwo = arr.map(number=>(
 byTwo;
 ```
 
+__property shorthand__
+
+```javascript
+var firstname = 'Fernando';
+var lastname = 'Roosterbear';
+var age = 20;
+
+// We create an object with the same names as the variables which we used to create it.
+var person = {
+  firstname,
+  lastname,
+  age
+}
+```
 
 <br />
 ### Get an element from the DOM 💥 
