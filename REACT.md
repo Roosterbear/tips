@@ -98,6 +98,32 @@ Choose _blank_ <br/>
 cd uber-eats-clone
 ```
 
+---
+
+<br/>
+
+---
+
+# Next
+
+Next.js is a __Framework__ to build web applications. Provides additional structure, features and optimizations. <br/>
+
+```node
+npx create-next-app my-next-app
+cd my-next-app
+npm run dev
+```
+
+Now we can create a new page: hello.js <br/>
+
+```react
+export default function Hello(){
+  return(<h1>Hello NextJS</h1>)
+}
+```
+Now we can see it in: _localhost:3000/hello_ <br/>
+
+
 
 
 
