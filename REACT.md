@@ -123,6 +123,44 @@ export default function Hello(){
 ```
 Now we can see it in: _localhost:3000/hello_ <br/>
 
+__creating links to navigate__
+
+```react
+<Link href="/directory/file">
+  <h1>Click here</h1>
+</Link>
+```
+
+__creating dynamic routes__
+
+Create a file like [name].js <br/>
+
+```react
+import {useRouter} from "next/router"
+import topics from "../api/topics" // Array with the data
+
+export default function Learn(){
+  const router = useRouter()
+  const {name} = router.query
+  const topic = topic.find(topic => topic,id === name)
+  
+  return(<h1>Learn </h1>)
+}
+```
+
+Create a file _contacts.js_ <br/>
+
+```react
+import Link from 'next/link'
+import contacts from  "../api/contacts"
+
+export default function Contacts(){
+
+}
+```
+
+
+
 
 
 
