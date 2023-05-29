@@ -144,19 +144,27 @@ export default function Learn(){
   const {name} = router.query
   const topic = topic.find(topic => topic,id === name)
   
-  return(<h1>Learn </h1>)
+  return(<h1>Learn {topic.id}</h1>)
 }
 ```
 
-Create a file _contacts.js_ <br/>
+The topics.js
+
+```javascript
+export default{
+  id: 'angular',
+  about:'Is a development platform in Typescript'
+},
+{
+  id:'vue',
+  about:'Is a progressive framework'
+}
+```
 
 ```react
-import Link from 'next/link'
-import contacts from  "../api/contacts"
-
-export default function Contacts(){
-
-}
+<Link href="/learn/angular">
+  <h2>Learn Angular</h2>
+</Link>
 ```
 
 
