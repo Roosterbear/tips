@@ -9,6 +9,7 @@ It will create the folder for you... or:<br/>
 
 ```node
 mkdir my-project
+cd my-project
 npx create-react-app ./
 ```
 
@@ -26,6 +27,8 @@ We will be asked for language. Type: Javascript <br/>
 yarn
 yarn dev
 ```
+
+---
 
 
 
@@ -62,6 +65,12 @@ return(
   <h1 style={styles}>Hello world</h1>
 )
 ```
+
+---
+
+<br/>
+
+---
 
 # React Native
 
