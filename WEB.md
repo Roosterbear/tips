@@ -530,6 +530,9 @@ It is a way to adapt the content to screen sizes. <br/>
 ```
 ### Flexbox
 
+The Best way to lay out inline block <br/>
+In some way, it moves like _mud in pipes_ <br/>
+
 __1.- We need a parent class to contain flexbox:__ <br/>
 ```css
 .container{
@@ -615,6 +618,9 @@ flex-shrink: 0;
 ```
 
 ### GRID Layout
+
+The best way to create complex designs with different size blocks <br/>
+in some ways, it moves like _tetris_ <br/>
 
 __1.- We need a parent class to contain Grid Layout:__ <br/>
 ```css
