@@ -650,14 +650,19 @@ _This way, every auto or value are a column._<br/>
 __3.- Size of an element:__ <br/>
 ```css
 .box1{
-  grid-column:1/3;
+  grid-column: 1/3;
 }
 ```
 Where 1 is the first line (not the space ❗). <br/>
-_We can use grid-template-areas to set the distribution_ <br/>
-_We can use names as "grid-area".
+
+```css
+.box2{
+  grid-row: span: 2;
+}
+```
 
 __4.- Position of the element:__ <br/>
+
 ```css
 .astronaut{
   background-color: #03989e;
@@ -667,6 +672,18 @@ __4.- Position of the element:__ <br/>
   grid-row-end: 3;
 }
 ```
+
+Also we can use just grid-area to set the 4 values: <br/>
+```css
+.cowboy{
+  grid-area: 2 / 1 / 3 / 3; 
+}
+```
+Where the order is: <br/>
+1.- grid-row-start <br/>
+2.- grid-column-start <br/>
+3.- grid-row-end and <br/>
+4.- grid-column-end <br/>
 
 # 👁️ UPLOAD A PROJECT TO GITHUB
 
