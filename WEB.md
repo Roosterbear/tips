@@ -617,6 +617,14 @@ flex-grow: 0;
 flex-shrink: 0;
 ```
 
+__center elements__ <br/>
+
+```css
+display: flex;
+justify-content: center;
+align-items: center;
+```
+
 ### GRID Layout
 
 The best way to create complex designs with different size blocks <br/>
