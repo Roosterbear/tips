@@ -633,7 +633,7 @@ __2.- We have to say how many rows and columns I want:__ <br/>
 ```css
 .grid-layout{
   display: grid; 
-  grid-template-columns: auto auto;
+  grid-template-columns: auto 1fr;
   grid-template-rows: 100px 50%;
 }
 ```
