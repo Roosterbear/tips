@@ -645,7 +645,7 @@ __2.- We have to say how many rows and columns I want:__ <br/>
   grid-template-rows: 100px 50%;
 }
 ```
-_This way, every auto or value are a column. We can set both: columns and rows._<br/>
+_This way, every auto or value are a column._<br/>
 
 __3.- Size of an element:__ <br/>
 ```css
@@ -657,6 +657,16 @@ Where 1 is the first line (not the space ❗). <br/>
 _We can use grid-template-areas to set the distribution_ <br/>
 _We can use names as "grid-area".
 
+__4.- Position of the element:__ <br/>
+```css
+.astronaut{
+  background-color: #03989e;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+```
 
 # 👁️ UPLOAD A PROJECT TO GITHUB
 
