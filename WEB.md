@@ -1,7 +1,11 @@
 # ALL ABOUT WEB PROGRAMMING
 ## HTML, CSS and Tools
 
+---
+
 # HTML
+
+---
 
 ### Basic structure
 
@@ -186,8 +190,11 @@ Look at the next code:
 <input type="radio" name="sameol" id="radio2" checked="checked">Radio #2
 ```
 
-------------------------------------------------------------------------
+---
+
 # CSS
+
+---
 
 There are 3 ways to add CSS code: <br/>
 
@@ -206,16 +213,16 @@ There are 3 ways to add CSS code: <br/>
 
 Let's see from less to the most priority in how a cascade works:
 
-### Position
+### Position (1/4)
 ```css
 li{
   color: red;
   color: blue;
 }
 ```
-It will be __blue__ <br/>
+It will be __blue__ because acts like a cascade. It's changing downside.<br/>
 
-### Specificity
+### Specificity (2/4)
 Cascade sheets takes the values of properties, and change them as if they fall. <br/>
 There is another reason for CSS to take certain value, and it is the _specificity_, <br/>
 where is a degree of the selector value. <br/>
@@ -225,7 +232,8 @@ __2.- attribute__ Like ```li[draggable]``` <br/>
 __3.- class__ Like ```.my-class``` <br/>
 __4.- element__ Like ```li``` <br/>
 
-### Type (the way we add CSS)
+### Type [the way we add CSS] (3/4)
+
 The most important: <br/>
 ```html
 <div style=""> </div>
@@ -237,7 +245,7 @@ The less important <br/>
 ```html
 <link rel="stylesheet" href="style.css">
 ```
-### Importance
+### Importance (4/4)
 
 ```css
 li{
@@ -249,8 +257,152 @@ It will be __red__ <br/>
 
 <br/>
 
+## FONTS 
+
+__measurements__ <br/>
+
+_px_ standard measurement to divide minimum spaces of color. <br/>
+_em_ relative measurement for fonts, it is equal to the letter M size from default font <br/>
+_rem_ based on the root font of the HTML <br/>
+
+__rem HACK__ ❗❗❗ <br/>
+```html
+  font-size: 62.5%; /* 1rem NOW is 10px ❗ */
+```
+
+__remove underline__ <br/>
+
+```css
+a:hover{
+  text-decoration: none; // by default is underline
+}
+```
+
+__remove the dotted line from links__ <br/>
+
+```css
+a{
+  outline: none;
+}
+```
+
+__space between letters__ <br/>
+
+```css
+p{
+  letter-spacing: .1rem; /* We can use negative numbers */  
+}
+```
+
+__add indent__
+
+```css
+p{
+  text-indent: 5px;
+}
+```
+
+__remove black circles from lists__ <br/>
+
+```css
+ul{
+  list-style-type: none; /* or shorthand: list-style: */
+}
+```
+We can add: disc, circle, upper-roman, lower-latin, square.
+
+
 ## PREFIXES
 Nowadays, it is not necessary to use prefixes (_-o, -moz, -webkit_), since browsers are compatible. <br/>
+
+## SELECTORS
+
+__child__ <br/>
+
+We have this CSS: <br/>
+
+```css
+div > strong{
+  color: red;
+}
+```
+And we have this HTML: <br/>
+```html
+<strong>This doesn't change color</strong>
+<div><strong>This will be RED actually</strong></div>
+```
+
+__descendent__
+
+Is a tag inside other tag, no matter the depth <br/>
+
+```css
+div strong{
+  color: green;
+}
+```
+
+We can check this in the HTML: <br/>
+
+```html
+<div>
+  <header>
+    <p>
+      <strong>
+        It will be green...
+      </strong>
+    </p>
+  </header>
+</div>
+```
+
+__adyacent__
+
+A tag that follows another.
+
+```css
+p + p{
+  text-indent: 1.5em;
+}
+```
+
+__attribute selectors__
+
+```css
+a[href ^ = "#"]{  /* Begins with...*/
+  color: red; 
+}
+
+a[href * = "#"]{  /* Contains...*/
+  color: red; 
+}
+
+
+a[href $ = "#"]{  /* Ends with...*/
+  color: red; 
+}
+```
+
+__pseudo-elements__
+
+::after <br/>
+::before <br/>
+::selection <br/>
+::first-letter <br/>
+::first-line <br/>
+<br/>
+
+__pseudo-classes__
+::checked <br/>
+::disabled <br/>
+::enabled <br/>
+::hover <br/>
+::focus <br/>
+::visited <br/>
+::nth-child <br/>
+::nth-lastchild <br/>
+::first-child <br/>
+<br/>
 
 ## POSITIONING 🧭 
 
@@ -261,7 +413,7 @@ It doesn't move from it's original position. <br/>
 position: static;
 ```
 __relative__<br/>
-Moves it's position with: __top__ and __left__. <br/>
+Moves it's position based in the container with: __top__ and __left__. <br/>
 ```css
 position: relative;
 ```
@@ -275,6 +427,8 @@ position: absolute;
 
 __fixed__<br/>
 Position relative to the top left corner of the browser window. <br/>
+Sticks like gum, does not move with scroll. <br/>
+
 ```css
 position: fixed;
 ```
@@ -283,6 +437,23 @@ Ejm. <br/>
 Make a blue rectangle 500px width, 300px height and 200px top-left from parent. <br/>
 Put a red circle 200px width and 150px top and 250px left.
 
+__vertical centering__ <br/>
+
+We have to put a height and a line-height with the __same value__. <br/>
+
+__Menu with Float__ (old school) <br/>
+
+```css
+nav ul li{
+  float: left;
+  list-style: none; // get rid of the nasty black balls
+  margin: 10px;
+}
+
+.clearfix{
+  clear: both; // We have to include a div with this class after the menu
+}
+```
 
 ## CHANGING ELEMENTS 🦋 
 
