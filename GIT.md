@@ -1,75 +1,59 @@
 # GIT HELP 
-## The most used commands
 
-> FIRST PROJECT 
+__Create a repository localy in git__ <br/>
 
-#### Create a repository
+Go to the project folder and type: <br/>
 
 ```git
 git init
-```
-
-#### Add to staged area [All files]
-
-```git
 git add .
-```
-
-#### Commit changes [with a message]
-
-```git
 git commit -m "First commit"
 ```
 
-#### Now create a GitHub proyect
-
-#### Get a project ####
+Now create a New project in __Github__ <br/>
+In the __Code__ button, copy the link in __HTTP__. <br/>
+Use this link in the code below. <br/>
 
 ```git
-git remote add origin https://github.com/Roosterbear/your-proyect.git
+git remote add origin [https://github.com/Roosterbear/your-proyect.git]
 git branch -M main
-```
-
-#### You can use Visual Studio Code to push easily 
-or...
-```git
 git push -u origin main
 ```
+❗ Now the main branch is "main" and we have to change the name. <br/>
 
-## List commits
+__List commits__ <br/>
 
 ```
 git log
 ```
 
-## 
+__Pretty List of commits__ <br/>
 
-#
-> MOVING ON GIT
+```git
+git log --pretty=oneline
+```
 
-#### What branch we are
+__What branch we are__ <br/>
 
 ```git
 git branch
 ```
 
-#### Change branch
+__Change branch__ <br/>
 
 ```git
-git checkout coworker
+git checkout [coworker]
 ```
 
-#### Deleting a branch
+__Deleting a branch__ <br/>
 
 ```git
-git branch -d coworker
+git branch -d [coworker]
 ```
 
-#### View the log of commits
 
-```git
-git log --pretty=oneline
-```
+
+
 
 ## Initial Configurations
 > INITIAL (Just the first time configuration)
