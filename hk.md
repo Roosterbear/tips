@@ -36,7 +36,7 @@ Lenovo  | F12, F8, F10 <br/>
 Samsung | Esc, F12, F2 <br/>
 Toshiba | F12 <br/>
 
-Look for virtualization names like: VT-x, AMD-V, SVM or Vanderpool <br/>
+Look for virtualization names like: VT-x, AMD-V, SVM, Intel Virtual Technology or Vanderpool <br/>
 
 
 
