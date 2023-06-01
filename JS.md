@@ -39,7 +39,7 @@ We can create an array this way: <br/>
 const arreglo1 = [1,2,3,4,5,6,7];
 ```
 
-#### Array Methods
+### Array Methods
 
 __Filter__<br/>
 __Returns__ _a new array_ with the values that return true in a given condition.<br/>
@@ -196,8 +196,16 @@ Is a new way to create a function, and has some advantages: <br/>
 5.- Have a shorter and more concise syntax, creating compact and expressive code. <br/>
 
 ```javascript
-
+const flecha = ()=>{
+  return 'hello';
+}
 ```
+
+__first class function__ <br/>
+A function is just another type of object, just a simply value. <br/>
+
+__higher order function__ <br/>
+Is a function that receive another function as an argument, returns a new function or both, and it's possible because first class function. <br/>
 
 __objects in array functions__
 
