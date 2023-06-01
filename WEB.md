@@ -315,6 +315,77 @@ We can add: disc, circle, upper-roman, lower-latin, square.
 ## PREFIXES
 Nowadays, it is not necessary to use prefixes (_-o, -moz, -webkit_), since browsers are compatible. <br/>
 
+## CENTER
+
+__center an element__ <br/>
+
+Adding padding: <br/>
+
+```css
+#features{
+  padding: 7% 15%;
+}
+```
+
+7% will be top and bottom <br/>
+15% will be left and right <br/>
+
+This is perfect for a _section_ <br/>
+
+__center a text__ <br/>
+
+Add a class and centering like: <br/>
+
+```css
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+```
+
+__center blocks__ </br>
+
+```css
+img{
+  display: block; /* This makes work the margin property */
+  margin: 0 auto;
+}
+```
+
+To get images in a perfect size, we can add: <br/>
+
+```css
+  display: block;
+  max-width: 100%;
+```
+
+Especial for blocks. <br/>
+
+## BACKGROUNDS
+
+```css
+body{
+  background-color: #ffffff;
+  background-image: url(fruits.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+```
+ We can use in background-repeat: no-repeat, repeat, repeat-x, repeat-y. <br/>
+ 
+ In background-position, the first center is for top and bottom, the second is for left and right. <br/>
+ 
+ __fixed background__ <br/>
+ 
+ ```css
+  background-attachment: fixed;
+  background-size: cover;
+  height: 95vh;
+ ```
+ 
+ __cover__ is used to adapt the background to the entire image regardless of the device. <br/>
+ 
+
 ## SELECTORS
 
 __child__ <br/>
@@ -326,7 +397,9 @@ div > strong{
   color: red;
 }
 ```
+
 And we have this HTML: <br/>
+
 ```html
 <strong>This doesn't change color</strong>
 <div><strong>This will be RED actually</strong></div>
@@ -407,18 +480,21 @@ __pseudo-classes__
 ## POSITIONING 🧭 
 
 __static__ <br/>
+
 Takes the default values of the element (block, inline-block, inline): <br/>
 It doesn't move from it's original position. <br/>
 ```css
 position: static;
 ```
 __relative__<br/>
+
 Moves it's position based in the container with: __top__ and __left__. <br/>
 ```css
 position: relative;
 ```
 
 __absolute__<br/>
+
 Moves it's position relative to the nearest positioned ancestor with: __top__ and __left__.<br />
 We need that the ancestor to be "relative" to work this position. <br/>
 ```css
@@ -426,6 +502,7 @@ position: absolute;
 ```
 
 __fixed__<br/>
+
 Position relative to the top left corner of the browser window. <br/>
 Sticks like gum, does not move with scroll. <br/>
 
