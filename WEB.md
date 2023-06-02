@@ -214,16 +214,20 @@ There are 3 ways to add CSS code: <br/>
 Let's see from less to the most priority in how a cascade works:
 
 ### Position (1/4)
+
+Cascade sheets takes the values of properties, and change them as if they fall. <br/>
+
 ```css
 li{
   color: red;
   color: blue;
 }
 ```
-It will be __blue__ because acts like a cascade. It's changing downside.<br/>
+It will be __blue__ because acts like a cascade, from top to bottom. <br/>
+First, color will be red, but we overwrite to blue later.<br/>
 
 ### Specificity (2/4)
-Cascade sheets takes the values of properties, and change them as if they fall. <br/>
+
 There is another reason for CSS to take certain value, and it is the _specificity_, <br/>
 where is a degree of the selector value. <br/>
 
