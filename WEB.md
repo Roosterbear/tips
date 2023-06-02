@@ -775,14 +775,14 @@ Where the order is: <br/>
 3.- grid-row-end and <br/>
 4.- grid-column-end <br/>
 
-# 👁️ UPLOAD A PROJECT TO GITHUB
+## 👁️ UPLOAD A PROJECT TO GITHUB AS A WEB PAGE
 
 __1.- Create a New Repository__ <br/>
 __2.- Add File - Upload Files__ <br/>
 __3.- Tab "Settings" - Pages - Branch "main"__ <br/>
-__4.- Takes some minutes to be published and we have to wait__ 🕜  <br/>
+__4.- Takes some minutes to be published and we'll have to wait__ 🕜  <br/>
 
-# 👁️ SSH
+## 👁️ SSH
 ssh {__user__}__@__{__host__} <br/>
 
 
