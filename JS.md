@@ -204,6 +204,28 @@ const flecha = ()=>{
 __first class function__ <br/>
 A function is just another type of object, just a simply value. <br/>
 
+We can store functions in variables: <br/>
+```javascript
+const add = (a, b)=>a + b;
+```
+
+We can store functions in a property: <br/>
+```javascript
+const counter = {
+  value: 23, 
+  inc: function(){
+    this.value++;
+  }
+}
+```
+
+We can __pass__ functions as arguments to _other_ functions: <br/>
+
+```javascript
+const greet = ()=>console.log('Hello world!');
+btn.addEventListener('click', greet);
+```
+
 __higher order function__ <br/>
 Is a function that receive another function as an argument, returns a new function or both, and it's possible because first class function. <br/>
 
