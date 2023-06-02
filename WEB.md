@@ -536,6 +536,15 @@ nav ul li{
 }
 ```
 
+## BOXES
+
+The elements in CSS has layers from center to the extreme. <br/>
+The first level is the content in itself. <br/>
+We can have a border outside the content. It can have color and width. <br/>
+Between content and border there is a blank __space__ called _padding_. <br/>
+We have another __space__, between border and the outside of the element, called _margin_, where the rest of the page are. <br/>
+
+
 ## CHANGING ELEMENTS 🦋 
 
 __Radius__ 🔘 <br/>
