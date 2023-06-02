@@ -225,9 +225,31 @@ We can __pass__ functions as arguments to _other_ functions: <br/>
 const greet = ()=>console.log('Hello world!');
 btn.addEventListener('click', greet);
 ```
+In this case, __greet__ is the first class function. <br/>
+
 
 __higher order function__ <br/>
-Is a function that receive another function as an argument, returns a new function or both, and it's possible because first class function. <br/>
+Is a function that receive another function as an argument, returns a new function or both. <br/>
+This is possible because first class function. <br/>
+
+```javascript
+const greet = ()=>console.log('Hello world!');
+btn.addEventListener('click', greet);
+```
+In this case, addEventListener is the higher order function, that receives a function as parameter. <br/>
+That function passed as parameter is known as __callback__ function. <br/>
+
+```javascript
+function count(){
+  let counter = 0;
+  return function(){
+    counter++;
+  };
+}
+```
+
+Now, count is a higher order function that returns a new function. <br/>
+
 
 __objects in array functions__
 
