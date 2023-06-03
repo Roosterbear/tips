@@ -28,6 +28,27 @@ Creates a new file or updates the timestamp of that file <br />
 _touch file_ <br />
 <br />
 
+### cat
+
+We can create a __new__ file with: <br/>
+
+```terminal
+cat > file.txt
+```
+If we run that command again, the information will be replaced with the new one. <br/>
+
+We can __see__ the _content_ of a file with: <br/>
+
+```terminal
+cat file.txt
+```
+
+We can add data with: <br/>
+
+```terminal
+cat >> file.txt
+```
+
 ### mkdir
 Creates a new directory <br />
 _mkdir dire_ <br />
