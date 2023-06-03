@@ -48,6 +48,27 @@ rm -rf important <br />
 
 <br/>
 
+### ps
+Display user processes. <br/>
+We can use the options below: <br/>
+
+__a__: Display all user, not only about the terminal in use. <br/>
+__u__: A detailed exit or _user-oriented_ with much more information. <br/>
+__x__: Display all the processes, including those not associated with any terminal, like daemons. <br/>
+
+```terminal
+ps aux
+```
+
+### grep
+Command used as a filter to search keywords to find information. Usually used with pipes (|). <br/>
+
+```terminal
+ps aux | gre
+p ap
+ache2
+```
+
 ## TIP for MAC 🍎 
 To access a folder in our network, we choose "Go" in the main menu. <br/>
 Then "Conect to server" <br/>
