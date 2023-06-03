@@ -49,15 +49,15 @@ We can add data with: <br/>
 cat >> file.txt
 ```
 
-### heads and tails
+### head and tail
 
-We can see the first lines of a file with: <br/>
+We can see the first __10__ lines of a file with: <br/>
 
 ```terminal
 heads file.txt
 ```
 
-We can see the last lines of a file with: <br/>
+We can see the last __10__ lines of a file with: <br/>
 
 ```terminal
 tails file.txt
