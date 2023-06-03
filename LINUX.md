@@ -49,6 +49,20 @@ We can add data with: <br/>
 cat >> file.txt
 ```
 
+### heads and tails
+
+We can see the first lines of a file with: <br/>
+
+```terminal
+heads file.txt
+```
+
+We can see the last lines of a file with: <br/>
+
+```terminal
+tails file.txt
+```
+
 ### mkdir
 Creates a new directory <br />
 _mkdir dire_ <br />
