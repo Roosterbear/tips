@@ -63,6 +63,17 @@ We can see the last lines of a file with: <br/>
 tails file.txt
 ```
 
+### path expansion ♨️ 
+
+We can open, list or name a file with characters like a dash with path expansion. <br/>
+If I have a folder named "---old---", I just can change the directory this way: <br/>
+
+```terminal
+cd -- ---old---
+```
+
+The __path expansion__ uses double dash between the comand and the name of the file / directory. <br/>
+
 ### mkdir
 Creates a new directory <br />
 _mkdir dire_ <br />
@@ -77,6 +88,7 @@ Deletes a file or definitely <br />
 rm file1 <br />
 -r _recursively_ <br />
 -f _force_ <br />
+
 __Deletes a directory with other files or directories__ <br />
 rm -rf important <br />
 ❗__YOU HAVE TO BE VERY CAREFULLY WITH THIS DANGEROUS COMMAND!__ 
