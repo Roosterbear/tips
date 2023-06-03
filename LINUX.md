@@ -64,9 +64,7 @@ ps aux
 Command used as a filter to search keywords to find information. Usually used with pipes (|). <br/>
 
 ```terminal
-ps aux | gre
-p ap
-ache2
+ps aux | grep apache2
 ```
 
 ## TIP for MAC 🍎 
