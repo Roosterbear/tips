@@ -284,8 +284,17 @@ const upperFirstWord = function(str){
 };
 ```
 
+Now we can use both functions to pass it like callback in other function: <br/>
 
 ```javascript
+const transformer = function(str, callback){
+  console.log(`Original string: ${str}`);
+  console.log(`Transformed string: ${callback(str)}`);
+  console.log(`Transformed by: ${callback.name}`);
+}
+
+transformer('Javascript is the best!', upperFirstWord);
+transformer('Javascript is the best!', oneWord);
 
 ```
 
