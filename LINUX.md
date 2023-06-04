@@ -125,6 +125,30 @@ ifconfig eth0 hw ether 00:11:22:33:44:55
 ifconfig eth0 up
 ```
 
+### examining DNS with dig
+
+```terminal
+dig google.com ns
+```
+
+_ns_ is for __name server__ <br/>
+
+
+```terminal
+dig nasty-mail-server.com mx
+```
+
+_mx_ is for __mail exchange__ <br/>
+
+### installing stuff
+
+Before installing something, maybe we want to know if it is available. <br/>
+
+```terminal
+apt-cache search snort
+```
+
+
 
 ## TIP for MAC 🍎 
 To access a folder in our network, we choose "Go" in the main menu. <br/>
