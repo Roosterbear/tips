@@ -114,6 +114,18 @@ Command used as a filter to search keywords to find information. Usually used wi
 ps aux | grep apache2
 ```
 
+### spoofing your MAC address
+
+_ifconfig_ is the comand to query your active network connection and active newtwork interfaces. <br/>
+To change our MAC address, we could: <br/>
+
+```terminal
+ifconfig eth0 down
+ifconfig eth0 hw ether 00:11:22:33:44:55
+ifconfig eth0 up
+```
+
+
 ## TIP for MAC 🍎 
 To access a folder in our network, we choose "Go" in the main menu. <br/>
 Then "Conect to server" <br/>
