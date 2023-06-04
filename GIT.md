@@ -31,8 +31,13 @@ git clone https://github.com/Roosterbear/tips.git
 ```
 
 Where _tips.git_ is the name of our project. <br/>
+Now we have to change to the project directory. <br/>
 
-Is better to create a new branch: <br/>
+```terminal
+cd tips
+```
+
+It is better to create a new branch: <br/>
 
 ```git
 git checkout -b local
