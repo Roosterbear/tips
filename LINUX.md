@@ -148,6 +148,31 @@ Before installing something, maybe we want to know if it is available. <br/>
 apt-cache search snort
 ```
 
+Now we can install: <br/>
+
+```terminal
+apt-get install packagename
+```
+
+Now we can uninstall: <br/>
+
+```terminal
+apt-get remove packagename
+```
+
+To check if there are updates in the lists of repositories we can type: <br/>
+
+```terminal
+apt-get update
+```
+
+If so, the updates are downloaded. <br/>
+
+To __upgrade__ to a new version our installed packages, we can use: <br/>
+
+```terminal
+apt-get upgrade
+```
 
 
 ## TIP for MAC 🍎 
