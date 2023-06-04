@@ -2,6 +2,8 @@
 
 __Create a repository localy in git__ <br/>
 
+🔥 If we have a project in our local machine... <br/>
+
 Go to the project folder and type: <br/>
 
 ```git
@@ -21,9 +23,62 @@ git push -u origin main
 ```
 ❗ Now the main branch is "main" and we have to change the name. <br/>
 
+
+🔥 If we have a project in Github and we want it in our local machine... <br/>
+
+```git
+git clone https://github.com/Roosterbear/tips.git
+```
+
+Where _tips.git_ is the name of our project. <br/>
+
+Is better to create a new branch: <br/>
+
+```git
+git checkout -b local
+```
+
+Where _local_ is the name of our new local branch. <br/>
+
+Now create our new local project: <br/>
+
+```git
+git add .
+git commit -m "Message"
+```
+
+Now send your changes: <br/>
+
+```git
+git push origin local
+```
+‼️ REMEMBER TO SEND IT TO LOCAL BRANCH ‼️  <br/>
+
+🔥 __Merge branchs__ <br/>
+
+Go to the __main__ branch: <br/>
+
+```git
+git checkout main
+```
+
+Update the main branch: <br/>
+
+```git
+git pull origin main
+```
+
+Now just merge: <br/>
+
+```git
+git merge local
+```
+
+<br/>
+
 __List commits__ <br/>
 
-```
+```git
 git log
 ```
 
