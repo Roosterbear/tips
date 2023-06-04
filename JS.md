@@ -62,142 +62,17 @@ console.log(arreglo2);
 
 ## FUNCTIONS
 
-__rest__ <br/>
-We can accept unknown number of elements in a function with "rest" <br/>
-The only thing we have to do is add "..." and the variable that will receive the data as an array. <br/>
-It ONLY can be possible if that value is the __last__ of the parameters. Otherwise, we will get an ERROR!. <br/>
+You know what functions are, don't you?. <br/>
+Is a piece of code that we can use over and over again, avoiding repeat typing. <br/>
+Remember: __DO NOT REPEAT YOURSELF__ <br/>
+The normal functions have the word __function__ and the name of the function and parentheses beside it. <br/>
+Then we enclose the content in curly braces, like: <br/>
 
 ```javascript
-function fruits (fruit1, ...rest_of_fruits){
-  console.log(fruit1);
-  console.log(rest_of_fruits);
-}
+function myFunction(){
 
-fruits("apple", "banana", "orange", "fig", "blackberry", "melon", "papaya", "mamme");
-```
+// The content of the function
 
-__spread__ <br/>
-We can pass as an argument an array: <br/>
-
-```javascript
-function fruits (fruit1, ...rest_of_fruits){
-  console.log(fruit1);
-  console.log(rest_of_fruits);
-}
-
-const other_fruits = ["strawberry", "lemon", "watermelon"];
-
-fruits(...other_fruits, "apple", "banana", "orange", "fig", "blackberry", "melon", "papaya", "mamme");
-```
-
-We can separate a word by letters: <br/>
-
-```javascript
-const message = 'hello';
-const chars = [..message];
-
-console.log(chars); // Will print ['h','e','l','l','o'];
-```
-
-And we can separate arguments:
-
-```javascript
-function add(a,b,c){
-  return a+b+c;
-}
-
-const arr = [2,4,6];
-console.log(add(...arr)); // 12!
-```
-
-
-
-    function sum(...numbers) {
-        return numbers.reduce((acc, number) => acc + number);
-    }
-     
-    const answer = sum(1, 5, 20, 10);
-     
-    console.log(answer);
-
-
-
-
-
-
-
-
-    const names = [
-     'bob', 
-     ...[
-         'donald'
-     ],
-     'suzy', 
-     'lacy',
-     ...[
-         'richard', 
-         'alex'
-     ]
-    ]
-    console.log(names);
-
-
-
-
-
-
-
-
-    const sum = Math.min(...[1, 5, -1, -10])
-    console.log(sum);
-
-
-
-
-
-
-
-
-    function underscore (strings, ...values) {
-        return strings[0].replace(/\s/g, '_');
-    }
-     
-    const message = underscore`there      is no cow level`
-     
-    console.log(message);
-    
-    
-    
-    
-    
-    
-    
-        function error (strings, err) {
-        error = `status: ${err.status}, message: ${err.message}`
-        return `${strings[0]}{${error}}`
-    }
-     
-    const err = {
-        message: 'oh no, an error!',
-        status: 404
-    }
-     
-    const message = error`An error has occurred: ${err}`
-     
-    console.log(message);
-
-__arrow function__ <br/>
-Is a new way to create a function, and has some advantages: <br/>
-
-1.- More readable code, specially in array methods and event handlers <br/>
-2.- No binding of "this". Traditional functions create new "this" when invoked as methods or constructors. <br/>
-3.- Lexical "this" value. Inherit it from the encolsing scope. Making it easy to maintain. <br/>
-4.- Implicit return. We can do a one line function without the return statement, as long as the funtion body is a single expression. <br/> 
-5.- Have a shorter and more concise syntax, creating compact and expressive code. <br/>
-
-```javascript
-const flecha = ()=>{
-  return 'hello';
 }
 ```
 
@@ -267,12 +142,13 @@ byTwo;
 
 __property shorthand__
 
+We create an __object__ with the SAME NAMES as the _variables_ which we used to create it.
+
 ```javascript
 var firstname = 'Fernando';
 var lastname = 'Roosterbear';
 var age = 20;
 
-// We create an object with the same names as the variables which we used to create it.
 var person = {
   firstname,
   lastname,
@@ -282,8 +158,12 @@ var person = {
 
 __computed property names__
 
+We can use _variable_ names, _function_ names, _strings_ and returned values as __properties__ in objects: <br/>
+
 ```javascript
+
 var key = lastname;
+
 function mailFn(){
   return 'mail';
 }
@@ -302,6 +182,8 @@ var person = {
 
 __method properties__
 
+Is a new way to define methods in objects. <br/>
+
 ```javascript
 var person = {
   name: 'Fernando',
@@ -315,6 +197,103 @@ person.haveBirthday();
 console.log(person);
 
 ```
+
+__rest__ <br/>
+We can accept unknown number of elements in a function with "rest" <br/>
+The only thing we have to do is add "..." and the variable that will receive the data as an array. <br/>
+It ONLY can be possible if that value is the __last__ of the parameters. Otherwise, we will get an ERROR!. <br/>
+
+```javascript
+function fruits (fruit1, ...rest_of_fruits){
+  console.log(fruit1);
+  console.log(rest_of_fruits);
+}
+
+fruits("apple", "banana", "orange", "fig", "blackberry", "melon", "papaya", "mamme");
+```
+
+__spread__ <br/>
+We can pass as an argument an array: <br/>
+
+```javascript
+function fruits (fruit1, ...rest_of_fruits){
+  console.log(fruit1);
+  console.log(rest_of_fruits);
+}
+
+const other_fruits = ["strawberry", "lemon", "watermelon"];
+
+fruits(...other_fruits, "apple", "banana", "orange", "fig", "blackberry", "melon", "papaya", "mamme");
+```
+
+We can separate a word by letters: <br/>
+
+```javascript
+const message = 'hello';
+const chars = [..message];
+
+console.log(chars); // Will print ['h','e','l','l','o'];
+```
+
+And we can separate arguments:
+
+```javascript
+function add(a,b,c){
+  return a+b+c;
+}
+
+const arr = [2,4,6];
+console.log(add(...arr)); // 12!
+```
+
+__arrow function__ <br/>
+Is a new way to create a function, and has some advantages: <br/>
+
+1.- More readable code, specially in array methods and event handlers <br/>
+2.- No binding of "this". Traditional functions create new "this" when invoked as methods or constructors. <br/>
+3.- Lexical "this" value. Inherit it from the encolsing scope. Making it easy to maintain. <br/>
+4.- Implicit return. We can do a one line function without the return statement, as long as the funtion body is a single expression. <br/> 
+5.- Have a shorter and more concise syntax, creating compact and expressive code. <br/>
+
+```javascript
+const flecha = ()=>{
+  return 'hello';
+}
+```
+
+__functions accepting callback functions__ <br/>
+
+We are going to create a function that takes a set of words and replaces them with a single string <br/>
+converted to lowercase. <br/>
+
+```javascript
+const oneWord = function(str){
+  return str.replace(/ /g, '').toLowerCase();
+}
+```
+The __g__ stands for _"global"_ that is to say: "all occurrences". <br/>
+We receive a string, then is replaced for a single string without blank spaces in lowercase. <br/>
+
+
+Now, let's do a function that takes the first word and change it to uppercase: <br/>
+
+```javascript
+const upperFirstWord = function(str){
+  const [first, ...others] = str.split(' ');
+  return [first.toUpperCase(), ...others].join(' ');
+};
+```
+
+
+```javascript
+
+```
+
+
+```javascript
+
+```
+
 
 ## CLASSES
 
