@@ -30,7 +30,22 @@ yarn dev
 
 ---
 
+__brand new and clean project__ <br/>
 
+Delete the the _src_ folder <br/>
+Now, make a new file named _main.jsx_ <br/>
+Include: <br/>
+
+```javascript
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App/>
+  </React.StrictMode>
+);
+```
 
 __inline style - whith the style property__ <br/>
 
