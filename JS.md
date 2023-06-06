@@ -60,6 +60,26 @@ const arreglo2 = arreglo1.map(n=>n*2);
 console.log(arreglo2);
 ```
 
+__Reduce__<br/>
+
+🕦 
+
+
+__Find__<br/>
+
+🕦 
+
+
+__Some__<br/>
+
+🕦 
+
+
+__Every__<br/>
+
+🕦 
+
+
 ## FUNCTIONS
 
 You know what functions are, don't you?. <br/>
@@ -299,9 +319,74 @@ transformer('Javascript is the best!', oneWord);
 ```
 
 
-```javascript
+__functions returning functions__ <br/>
 
+We need __two__ functions, the main function <br/>
+and the anonymous function that is returned. <br/>
+
+```javascript
+const greet = function(greeting){
+  return function (name){
+    console.log(`${greeting} ${name}`);
+  };
+};
+
+const greeterHi = greet('Hi');
+const greeterHey = greet('Hey');
+
+greeterHey('Juan');
+greeterHi('Fernando');
+// greet alone
+greet('Hello')('Marylu');
 ```
+
+How can we do it with __arrow functions__? <br/>
+
+```javascript
+const greet = greeting=>name=>{
+    console.log(`${greeting} ${name}`);
+};
+```
+
+__call method__ <br/>
+
+Is a way to have functions that could use objects data. <br/>
+
+```javascript
+const bs = {
+    name: `Like Dylan in the movies`,
+    band: `Belle and Sebastian`
+}
+
+const baba = {
+    name: `Putita`,
+    band: `Babasonicos`
+}
+
+const Walkman = {
+    name: 'Sony',
+    reproducir: function(){
+        console.log(`This walkman is playing ${this.name} by ${this.band}`)
+    }
+}
+
+Walkman.reproducir.call(bs);
+Walkman.reproducir.call(baba);
+```
+
+__apply method__ <br/>
+
+🕦 
+
+
+__bind method__ <br/>
+
+🕦 
+
+
+__closures__ <br/>
+
+🕦 
 
 
 ## CLASSES
@@ -630,6 +715,43 @@ __Promises with Async and Await__ <br/>
 __Async__ is a way to use promises in any function.
 __Await__ can be used only with a function in Async and stops the program to wait an answer.
 
+__defer__ <br/>
+
+🕦 
+
+```html
+<script src="script.js" defer></script>
+```
+
+## BABEL
+
+Create a __new__ project. <br/>
+use npm init to create the package.json <br/>
+Install __Babel__ inside the project: <br/>
+
+```terminal
+npm install @babel/core @babel/cli --save-dev
+npm install @babel/preset-env --save-dev
+```
+
+Create the file _.babelrc_ and add: <br/>
+
+```javascript
+{
+  "presets" : ["@babel/preset-env"]
+}
+```
+
+Now, to teste __Babel__ we just create a file _before.js_ with modern JS code. <br/>
+Go to terminal and type: <br/>
+
+```terminal
+node_modules/.bin/babel before.js -o after.js
+```
+
+## WEBPACK
+
+Create a file: _webpack.config.js_ <br/>
 
 
 
