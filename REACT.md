@@ -36,9 +36,12 @@ Delete the the _src_ folder <br/>
 Now, make a new file named _main.jsx_ <br/>
 Include: <br/>
 
-```javascript
+```react
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
+// We have to import a file we will use:
+import HelloWorld from './HelloWorld';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -46,6 +49,39 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </React.StrictMode>
 );
 ```
+
+In the lines above, we imported the HelloWorld component, now we are going to create it. _(HelloWorld.jsx)_ <br/>
+
+```react
+export const HelloWorld = ()=>{
+  return(
+    <h1>Hello World</h1>
+  )
+}
+```
+
+__adding prototypes in yarn__ <br/>
+
+First, in command line type:
+
+```node
+yarn add prop-types
+```
+
+Now we can use it... <br/>
+
+```react
+import PropTypes from 'prop-types';
+
+export const FirstApp = ({title, subtitle})=>{
+  return(
+    <>
+      <h1>{title}</h1>
+    </>
+  )
+}
+```
+
 
 __inline style - whith the style property__ <br/>
 
