@@ -710,6 +710,35 @@ saludar.then(resultado =>{
 });
 ```
 
+__Symbols__ <br/>
+
+Is a _primitive_ data type. <br/>
+
+It creates unique properties. <br/>
+
+```javascript
+const id = Symbol('id');
+const persona = {
+  [id]: 12345,
+  nombre: 'Juan',
+  edad: 30
+};
+
+console.log(persona[id]); // 12345
+```javascript
+
+Helps to avoid collitions. <br/>
+
+Used in constants: <br/>
+
+```javascript
+const EVENT_CLICK = Symbol('click');
+element.addEventListener(EVENT_CLICK, () => {
+  // Manejar el evento de clic
+});
+```javascript
+
+
 __Promises with Async and Await__ <br/>
 
 __Async__ is a way to use promises in any function.
