@@ -209,6 +209,16 @@ There are 3 ways to add CSS code: <br/>
 <div style="background-color: #bbb;">Hello</div>
 ```
 
+### Clean properties
+
+```css
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+```
+
 ## HOW CSS ACTS? 🐉 
 
 Let's see from less to the most priority in how a cascade works:
