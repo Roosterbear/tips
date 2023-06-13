@@ -736,7 +736,34 @@ const EVENT_CLICK = Symbol('click');
 element.addEventListener(EVENT_CLICK, () => {
   // Manejar el evento de clic
 });
+```
+
+__Iterators with Symbols__
+
 ```javascript
+const obj = {
+  number: 53820391,
+  [Symbol.iterator]() {
+    let currentIndex = 0;
+    const values = [this.number];
+
+    return {
+      next() {
+        if (currentIndex < values.length) {
+          return { value: values[currentIndex++], done: false };
+        } else {
+          return { done: true };
+        }
+      }
+    };
+  }
+};
+
+// Iterar sobre el objeto iterable
+for (const item of obj) {
+  console.log(item);
+}
+```
 
 
 __Promises with Async and Await__ <br/>
