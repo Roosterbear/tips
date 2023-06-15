@@ -807,6 +807,72 @@ Where the order is: <br/>
 3.- grid-row-end and <br/>
 4.- grid-column-end <br/>
 
+
+## SASS
+
+♥️ We can have __variables__! <br/>
+
+```sass
+$color-primary: #f9ed69;
+```
+
+♥️ Nested code <br/>
+
+Instead: <br/>
+
+```css
+.nav{
+  list-style: none;
+}
+
+.nav li{
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.nav li:first-child{
+  margin: 0;
+}
+
+```
+
+We can: <br/>
+```sass
+.nav{
+  list-style: none;
+    
+  li{
+    display: inline-block;
+    margin-left: 30px;
+  }
+  
+  &:first-child{
+    margin: 0;
+  }
+}
+```
+
+♥️ Mixins: <br/>
+
+__create a mixin:__ <br/>
+
+```sass
+@mixin clearfix{
+  
+}
+
+@mixin coolfont($color){
+
+}
+```
+
+__use a mixin:__ <br/>
+
+```sass
+@include clearfix;
+  
+```
+
 ## 👁️ UPLOAD A PROJECT TO GITHUB AS A WEB PAGE
 
 __1.- Create a New Repository__ <br/>
