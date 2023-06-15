@@ -190,6 +190,28 @@ Look at the next code:
 <input type="radio" name="sameol" id="radio2" checked="checked">Radio #2
 ```
 
+__buttons__ <br/>
+
+```html
+<button>
+```
+
+We use the button tag when the button does an action inside the form or an especific job.
+
+```html
+<input type="button" value="Click me" onclick="miFuncion()">
+```
+
+We use input tag when we need an independent button to do an especififc job, and it's not asociated to a form.
+
+
+```html
+<a href="https://www.google.com" target="_blank">Visit Google</a>
+<a href="document.pdf" download>Download</a>
+```
+
+We use the 'a' tag when we need navigation actions or external links.
+
 ---
 
 # CSS
