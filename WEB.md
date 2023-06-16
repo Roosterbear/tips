@@ -911,7 +911,7 @@ No we run: <br/>
 npm run compile:sass
 ```
 
-
+If we need to be watching in every change, we can add the "-w" parameter.
 
 ## 👁️ UPLOAD A PROJECT TO GITHUB AS A WEB PAGE
 
