@@ -892,6 +892,26 @@ AND THE PACKAGE.json WILL BE USEFUL TO RE-INSTALL DEPENDENCIES. <br/>
 ### save is for dependencies (for our app) and --save-dev is for developer (to code).
 🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️ <br/>
 
+We need to edit our _package.json_ in the script section: <br/>
+
+```json
+"scripts":{
+  "compile:sass": "node-sass sass/main.scss css/style.css"
+},
+```
+
+Where __compile:sass__ is the name of our script. <br/>
+_node-sass_ is the command to compile SASS files <br/>
+_sass/main.scss_ is the path of our origin SASS files. <br/>
+_css/style_ is the path of our final file in CSS. <br/>
+<br/>
+No we run: <br/>
+
+```node
+npm run compile:sass
+```
+
+
 
 ## 👁️ UPLOAD A PROJECT TO GITHUB AS A WEB PAGE
 
