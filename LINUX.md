@@ -299,6 +299,51 @@ Deletes the word (_every space separates a word_) before the cursor in the line.
 __alt+d__ <br/>
 Deletes the word (_every space separates a word_) after the cursor in the line. <br/>
 
+---
+
+__ctrl+l__ <br/>
+Clears the terminal without deleting the __current line__. <br/>
+
+__ctrl+d__ <br/>
+Deletes the character after cursor or close the terminal if there is nothing 
+
+__ctrl+t__
+Exchange the characters with each other.
+
+---
+
+__ctrl+alt+t__ <br/>
+Opens a new terminal. <br/>
+
+__add the output of a command to a file__ <br/>
+
+```terminal
+ls > file.txt
+```
+
+__add the output of a command to a file without deleting the last information__ <br/>
+
+```terminal
+ls >> file.txt
+```
+
+__delete the content of a file__ <br/>
+
+```terminal
+cat dev/null > file.txt
+```
+
+### save the path of a directory
+
+```terminal
+pushd .
+```
+
+Now we can change the directory and get back with: <br/>
+
+```terminal
+popd
+```
 
 ## TIP for MAC 🍎 
 To access a folder in our network, we choose "Go" in the main menu. <br/>
