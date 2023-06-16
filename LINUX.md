@@ -1,8 +1,5 @@
 # Linux commands for fun ⚙️ 
 
-__The TAB key help us to complete commands__ <br/>
-<br/>
-
 ### ls
 Lists the content of the current directory <br />
 -a _including hidden files_ <br />
@@ -235,6 +232,63 @@ chmod +x sayHello.sh
 ```
 
 Then we just run: __./sayHello.sh__ <br/>
+
+### Run any script from anywhere
+
+Check: <br/>
+
+```terminal
+echo $PATH
+```
+
+The first line before ":" tell us the path where we have to copy our script:
+
+```terminal
+vi hola
+```
+
+Add: <br/>
+
+```terminal
+#!/bin/bash
+echo "Hola "$@
+```
+
+And then: <br/>
+```terminal
+chmod +x hola
+cp hola /home/lf/.local/bin/
+```
+
+__Now we can run:__
+
+```terminal
+hola Fernando
+```
+
+### Terminal tips
+
+__The TAB key help us to complete commands__ <br/>
+<br/>
+
+__ctrl+a__ <br/>
+Go to the beginning of the line. <br/>
+
+__ctrl+e__ <br/>
+Go to the end of the line. <br/>
+
+__alt+b__ <br/>
+Jump to the last command in the line. <br/>
+
+__alt+f__ <br/>
+Jump to the next command in the line. <br/>
+
+__ctrl+u__ <br/>
+Deletes from cursor to the beginning of the line. <br/>
+
+__ctrl+k__ <br/>
+Deletes from cursor to the end of the line. <br/>
+
 
 ## TIP for MAC 🍎 
 To access a folder in our network, we choose "Go" in the main menu. <br/>
