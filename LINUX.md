@@ -277,17 +277,27 @@ Go to the beginning of the line. <br/>
 __ctrl+e__ <br/>
 Go to the end of the line. <br/>
 
+---
+
 __alt+b__ <br/>
 Jump to the last command in the line. <br/>
 
 __alt+f__ <br/>
 Jump to the next command in the line. <br/>
 
+---
+
 __ctrl+u__ <br/>
 Deletes from cursor to the beginning of the line. <br/>
 
 __ctrl+k__ <br/>
 Deletes from cursor to the end of the line. <br/>
+
+__ctrl+w__ <br/>
+Deletes the word (_every space separates a word_) before the cursor in the line. <br/>
+
+__alt+d__ <br/>
+Deletes the word (_every space separates a word_) after the cursor in the line. <br/>
 
 
 ## TIP for MAC 🍎 
