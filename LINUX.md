@@ -1,5 +1,8 @@
 # Linux commands for fun ⚙️ 
 
+__The TAB key help us to complete commands__ <br/>
+<br/>
+
 ### ls
 Lists the content of the current directory <br />
 -a _including hidden files_ <br />
@@ -174,6 +177,54 @@ To __upgrade__ to a new version our installed packages, we can use: <br/>
 apt-get upgrade
 ```
 
+### Create a temporary alias
+
+```terminal
+alias aliasname='df . | awk "NR=2" | cut -d " " -f 1'
+```
+
+We need the command "alias" + the name of our alias + "=" + the command line in simple quotes. <br/>
+To execute the command, just type the alias name. If we close the terminal, this alias is gone. <br/>
+
+### Create an alias
+
+```terminal
+vi ~/.bashrc
+```
+
+We look for alias. There we can see if the ~/.bash_aliases file exists.<br/>
+In that file, we can load all the alias we need the same way than temporary alias. <br/>
+
+We need the command "alias" + the name of our alias + "=" + the command line in simple quotes. <br/>
+__We need to restart the terminal or write:__ <br/>
+
+```terminal
+. ~/.bash_aliases
+```
+
+To execute the command, just type the alias name. <br/>
+
+__Knowing the console we are working with__ <br/>
+
+Just type: <br/>
+
+```terminal
+echo $SHELL
+```
+
+### Create a script
+
+We can edit a new file with vi: <br/>
+
+```terminal
+vi sayHello.sh
+```
+
+Now we must write: __#!/bin/bash__ <br/>
+The we can add any command, like: _echo "Hello world"_ <br/>
+Save our file with __:wq__ <br/>
+We gave permissions to the file with: __chmod +x sayHello.sh__ <br/>
+The we just run: __./sayHello.sh__ <br/>
 
 ## TIP for MAC 🍎 
 To access a folder in our network, we choose "Go" in the main menu. <br/>
