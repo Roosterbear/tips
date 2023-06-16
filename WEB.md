@@ -873,6 +873,26 @@ __use a mixin:__ <br/>
   
 ```
 
+
+__compile SASS__ <br/>
+
+```terminal
+npm init
+npm install node-sass --save-dev
+```
+
+🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️ <br/>
+IF WE LOST OUR DEPENDENCY FILES, WE CAN USE:
+
+```node
+npm install
+```
+AND THE PACKAGE.json WILL BE USEFUL TO RE-INSTALL DEPENDENCIES. <br/>
+### The difference between --save and --save-dev is that 
+### save is for dependencies (for our app) and --save-dev is for developer (to code).
+🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️ <br/>
+
+
 ## 👁️ UPLOAD A PROJECT TO GITHUB AS A WEB PAGE
 
 __1.- Create a New Repository__ <br/>
