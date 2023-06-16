@@ -221,10 +221,20 @@ vi sayHello.sh
 ```
 
 Now we must write: __#!/bin/bash__ <br/>
-The we can add any command, like: _echo "Hello world"_ <br/>
+Then we can add any command, like: 
+
+```terminal
+echo "Hello world"
+```
+
 Save our file with __:wq__ <br/>
-We gave permissions to the file with: __chmod +x sayHello.sh__ <br/>
-The we just run: __./sayHello.sh__ <br/>
+
+We gave permissions to the file with: <br/>
+```terminal
+chmod +x sayHello.sh
+```
+
+Then we just run: __./sayHello.sh__ <br/>
 
 ## TIP for MAC 🍎 
 To access a folder in our network, we choose "Go" in the main menu. <br/>
