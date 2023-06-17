@@ -21,8 +21,8 @@ yarn create vite
 ```
 
 We will be asked for the app name. _Give a name._<br/>
-We will be asked for type. Type: React <br/>
-We will be asked for language. Type: Javascript <br/>
+We will be asked for type, we type: React <br/>
+We will be asked for language, type: Javascript <br/>
 
 ```node
 yarn
@@ -61,7 +61,7 @@ export const HelloWorld = ()=>{
 }
 ```
 
-__adding prototypes in yarn__ <br/>
+__adding proptypes in yarn__ <br/>
 
 First, in command line type:
 
