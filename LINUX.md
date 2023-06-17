@@ -369,6 +369,23 @@ popd
 
 To show all commands we typed, we use: _history_ <br/>
 
+To delete a line of history we type: _history -d xxxx_ <br/>
+Where _xxxx_ is the number of the command.
+
+__avoiding to register a command in history__ <br/>
+ We just have to let a blank space before the command. 👌🏾 <br/>
+
+__number of lines of history__ <br/>
+
+```terminal
+echo $HISTSIZE
+```
+__modify and run the last command__ <br/>
+
+```terminal
+fc
+```
+We just modify the line and the command will be executed. <br/>
 
 
 ## TIP for MAC 🍎 
