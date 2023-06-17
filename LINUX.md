@@ -387,6 +387,14 @@ fc
 ```
 We just modify the line and the command will be executed. <br/>
 
+__math operations__
+
+```terminal
+echo 3+2 | bc
+expr 3 + 2
+echo $((3+2))
+```
+
 
 ## TIP for MAC 🍎 
 To access a folder in our network, we choose "Go" in the main menu. <br/>
