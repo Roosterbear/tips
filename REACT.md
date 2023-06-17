@@ -5,6 +5,12 @@ __create react app with CRA__
 ```node
 npx create-react-app my-project
 ```
+
+or inside our app folder<br/>
+
+```node
+npx create-react-app .
+```
 It will create the folder for you... or:<br/>
 
 ```node
