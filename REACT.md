@@ -118,6 +118,18 @@ return(
 )
 ```
 
+### Typical component
+
+```jsx
+const myComponent = ()=>{
+  return(
+    <h1>myComponent</h1>
+  )
+}
+
+export default myComponent;
+```
+
 ---
 
 <br/>
