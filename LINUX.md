@@ -380,12 +380,58 @@ __number of lines of history__ <br/>
 ```terminal
 echo $HISTSIZE
 ```
+
+__knowing the default editor__ <br/>
+
+```terminal
+echo $EDITOR
+```
+
 __modify and run the last command__ <br/>
 
 ```terminal
 fc
 ```
 We just modify the line and the command will be executed. <br/>
+
+
+### Find
+
+__files__ <br/>
+
+```terminal
+find . -type f -iname *.py
+```
+. from current directory <br/>
+__f__ files <br/>
+_iname_ it dowsn't matter if it's uppercase or lowercase. <br/>
+That contains the _py_ extension. <br/>
+
+__directories__ <br/>
+
+```terminal
+find ~ -type d -iname *python*
+```
+
+~ from home directory <br/>
+__d__ directories <br/>
+_iname_ it dowsn't matter if it's uppercase or lowercase. <br/>
+That contains the word _python_ <br/>
+
+### rm
+
+__delete all PNG files__
+
+```terminal
+rm *.png
+```
+
+__delete all files, except...__
+```terminal
+rm !(*.html)
+```
+Delete all files except _.html_ files. <br/>
+
 
 __math operations__
 
