@@ -94,6 +94,26 @@ rm -rf important <br />
 ❗__YOU HAVE TO BE VERY CAREFULLY WITH THIS DANGEROUS COMMAND!__ 
 
 <br/>
+### PERMISSIONS
+
+We have 3 kind of permissions: <br/>
+
+READ <br/>
+WRITE <br/>
+EXECUTE <br/>
+
+__change owners__
+
+```terminal
+chown bob /tmp/bobsfile
+```
+
+__change group__
+
+```terminal
+chgrp security newIDs
+```
+
 
 ### ps
 Display user processes. <br/>
@@ -344,6 +364,12 @@ Now we can change the directory and get back with: <br/>
 ```terminal
 popd
 ```
+
+### history
+
+To show all commands we typed, we use: _history_ <br/>
+
+
 
 ## TIP for MAC 🍎 
 To access a folder in our network, we choose "Go" in the main menu. <br/>
