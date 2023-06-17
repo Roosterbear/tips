@@ -650,9 +650,11 @@ It is a way to adapt the content to screen sizes. <br/>
   /* CSS only for screens below or equal to 600px width */
 }
 ```
-### Flexbox
 
-The Best way to lay out inline block <br/>
+🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎 <br/>
+### Flexbox
+🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎 <br/>
+The Best way to layout inline blocks in ONE DIMENSION ALIGMENT. <br/>
 In some way, it moves like _mud in pipes_ <br/>
 
 __1.- We need a parent class to contain flexbox:__ <br/>
@@ -747,9 +749,16 @@ justify-content: center;
 align-items: center;
 ```
 
-### GRID Layout
 
-The best way to create complex designs with different size blocks <br/>
+
+
+
+
+🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞 <br/>
+### GRID Layout
+🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞 <br/>
+
+The best way to create complex designs with different size blocks in 2 DIMENSION ALIGMENT. <br/>
 in some ways, it moves like _tetris_ <br/>
 
 __1.- We need a parent class to contain Grid Layout:__ <br/>
@@ -808,7 +817,7 @@ Where the order is: <br/>
 4.- grid-column-end <br/>
 
 
-## SASS
+## SASS ♥️♥️♥️
 
 ♥️ We can have __variables__! <br/>
 
