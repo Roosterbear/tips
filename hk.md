@@ -38,6 +38,10 @@ Toshiba | F12 <br/>
 
 Look for virtualization names like: VT-x, AMD-V, SVM, Intel Virtual Technology or Vanderpool <br/>
 
-
+__information about a site ⛏️__ <br/>
+_ping_ google.com <br/>
+_nslookup_ google.com <br/>
+__ipinfo.info__ <br/>
+_whois_ google.com <br/>
 
 
