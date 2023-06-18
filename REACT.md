@@ -34,7 +34,20 @@ yarn dev
 __brand new and clean project__ <br/>
 
 Delete the the _src_ folder <br/>
-__We can only let the index.js and App.js to start working if you want 🍜 __ <br/>
+__We can only let the index.js and App.js to start working if you want 🍜__ <br/>
+__index.js starts App.js, and we can just start with:__ <br/>
+
+```react
+const App = ()=> {
+  return (
+    <div>Hello</div>
+  );
+}
+
+export default App;
+```
+
+or, deleting everything... <br/>
 Now, make a new file named _main.jsx_ <br/>
 Include: <br/>
 
@@ -60,6 +73,13 @@ export const HelloWorld = ()=>{
     <h1>Hello World</h1>
   )
 }
+```
+__adding bootstrap__ <br/>
+
+Edit the index.html in the __public__ _folder_, and in the header add the Twitter Bootstrap CDN:
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 ```
 
 __adding proptypes in yarn__ <br/>
