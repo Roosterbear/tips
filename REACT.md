@@ -34,6 +34,7 @@ yarn dev
 __brand new and clean project__ <br/>
 
 Delete the the _src_ folder <br/>
+__We can only let the index.js and App.js to start working if you want 🍜 __ <br/>
 Now, make a new file named _main.jsx_ <br/>
 Include: <br/>
 
