@@ -441,6 +441,30 @@ expr 3 + 2
 echo $((3+2))
 ```
 
+### tar
+
+Stands for "tape archive" and is used to combine files into one archive. <br/>
+
+__combine files__ <br/>
+
+```terminal
+tar -cvf texts.tar text1 text2 text3
+```
+
+__display files__ <br/>
+
+```terminal
+tar -tvf texts.tar
+```
+
+__extract files__ <br/>
+
+```terminal
+tar -xf texts.tar
+```
+
+
+Where __c__ is for create, __v__ is for _verbose_ and __f__ is for write the _following file_ <br/>
 
 ## TIP for MAC 🍎 
 To access a folder in our network, we choose "Go" in the main menu. <br/>
