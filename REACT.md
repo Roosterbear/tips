@@ -151,6 +151,33 @@ const myComponent = ()=>{
 export default myComponent;
 ```
 
+### Build and deploy a project 👾 
+
+First, we have to check the line "scripts" in package.json, and be sure that the build is set. Then:
+
+```terminal
+npm run build
+npm install --global surge
+surge
+```
+
+We will be asked to write our email  and password to create an account. <br/>
+Now we have to write the path, we need to add "build", only to upload that folder. <br/>
+We get a fake domain to use our project. <br/>
+<br/>
+__changes__ <br/>
+We have to build again... and  update __surge__ with:<br/>
+
+```terminal
+surge --domain our-fake.domain.sh
+```
+
+Remember to add "build" to the path, and you're done! <br/>
+
+
+
+
+
 ---
 
 <br/>
