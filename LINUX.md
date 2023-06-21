@@ -161,6 +161,28 @@ Command used as a filter to search keywords to find information. Usually used wi
 ps aux | grep apache2
 ```
 
+__find lines with a text__ <br/>
+
+```terminal
+grep file file.txt
+```
+
+Where file is the word to find and file.txt is the file where it has to look. <br/>
+
+__find lines with a text and the line number__ <br/>
+
+```terminal
+grep file file.txt -n
+```
+We can use _-c_ to count the lines. <br/>
+We can use _-w_ to look only separate words. <br/>
+
+__find line numbers where is a text__ <br/>
+
+```terminal
+grep file file.txt -n | cut -d ":" -f 1
+```
+
 ### installing stuff
 
 Before installing something, maybe we want to know if it is available. <br/>
@@ -247,7 +269,7 @@ echo "Hello world"
 
 Save our file with __:wq__ <br/>
 
-We gave permissions to the file with: <br/>
+We give _execute_ permissions to the file with: <br/>
 ```terminal
 chmod +x sayHello.sh
 ```
@@ -286,6 +308,9 @@ __Now we can run:__
 ```terminal
 hola Fernando
 ```
+
+__A script to change a sentence from lowercase to uppercase__
+
 
 ### Terminal tips
 
@@ -534,6 +559,14 @@ uptime
 ```
 
 __list the USB devices__ <br/>
+
+```terminal
+lsusb
+```
+
+
+
+
 
 
 ## TIP for MAC 🍎 
