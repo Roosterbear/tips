@@ -91,9 +91,17 @@ rm file1 <br />
 
 __Deletes a directory with other files or directories__ <br />
 rm -rf important <br />
-❗__YOU HAVE TO BE VERY CAREFULLY WITH THIS DANGEROUS COMMAND!__ 
+__YOU HAVE TO BE VERY CAREFULLY WITH THIS DANGEROUS COMMAND__ ❗
 
 <br/>
+
+__create a folder with the current date in the name__
+
+```terminal
+mkdir "$(date+"%Y-%m-%d")"
+```
+
+
 ### PERMISSIONS
 
 We have 3 kind of permissions: <br/>
@@ -101,6 +109,25 @@ We have 3 kind of permissions: <br/>
 READ <br/>
 WRITE <br/>
 EXECUTE <br/>
+
+__remove the read permissions__
+
+```terminal
+chmod -r thefile.txt
+```
+
+__remove write permissions__
+
+```terminal
+chmod -w thefile.txt
+```
+
+__add permissions__
+
+```terminal
+chmod +rw thefile.txt
+```
+
 
 __change owners__
 
@@ -133,32 +160,6 @@ Command used as a filter to search keywords to find information. Usually used wi
 ```terminal
 ps aux | grep apache2
 ```
-
-### spoofing your MAC address
-
-_ifconfig_ is the comand to query your active network connection and active newtwork interfaces. <br/>
-To change our MAC address, we could: <br/>
-
-```terminal
-ifconfig eth0 down
-ifconfig eth0 hw ether 00:11:22:33:44:55
-ifconfig eth0 up
-```
-
-### examining DNS with dig
-
-```terminal
-dig google.com ns
-```
-
-_ns_ is for __name server__ <br/>
-
-
-```terminal
-dig nasty-mail-server.com mx
-```
-
-_mx_ is for __mail exchange__ <br/>
 
 ### installing stuff
 
@@ -470,6 +471,47 @@ Where __c__ is for create, __v__ is for _verbose_ and __f__ is for write the _fo
 __bzip2__ with extension _.tar.bz2_ is the slowest but generates the __smallest__ files.
 __compress__ with extension _.tar.z_ is the fastest but generates the __biggest__ files.
 __gzip__ with extension _.tar.gz2_ or _.tgz_ falls somewhere in between.
+
+
+### Knowing DATA from a file
+
+```terminal
+stat file.txt
+```
+
+🐍  __knowing data from the system__ <br/>
+```terminal
+stat /
+```
+
+__translate__ <br/>
+```terminal
+sudo apt-get install translate-shell
+```
+
+Now, translate a file: <br/>
+```terminal
+cat file.txt | trans
+```
+
+__know my processor__ <br/>
+
+```terminal
+cat /proc/cpuinfo | grep "model name" | head -n 1
+```
+
+__know the groups of the current user__ <br/>
+
+```terminal
+groups
+```
+
+__know how much time the computer is on__ <br/>
+
+```terminal
+uptime
+```
+
 
 
 ## TIP for MAC 🍎 
