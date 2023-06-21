@@ -311,6 +311,20 @@ hola Fernando
 
 __A script to change a sentence from lowercase to uppercase__
 
+```bash
+#!/bin/bash
+
+echo $@ | tr 'a-z' 'A-Z'
+```
+
+or <br/>
+
+```bash
+#!/bin/bash
+
+echo $@ | tr '[:lower]' '[:upper]' 
+```
+
 
 ### Terminal tips
 
@@ -531,7 +545,7 @@ __know the memory__ <br/>
 cat /proc/meminfo 
 ```
 
-__know thdisc free space__ <br/>
+__know the disc free space__ <br/>
 
 ```terminal
 df -h .
@@ -562,6 +576,112 @@ __list the USB devices__ <br/>
 
 ```terminal
 lsusb
+```
+
+__list wifi networks__ <br/>
+
+```terminal
+nmcli dev wifi
+```
+
+__deactivate wifi__ <br/>
+
+```terminal
+nmcli radio wifi off
+```
+
+__activate wifi__ <br/>
+
+```terminal
+nmcli radio wifi on
+```
+
+__install ifconfig__ <br/>
+
+We need _net tools_ that includes that command.<br/>
+
+```terminal
+sudo apt install net-tools
+```
+
+__know only the IP of the computer__ <br/>
+
+```terminal
+hostname -I
+```
+
+__information about an image__ <br/>
+
+```terminal
+identify imagen.png
+```
+
+__read NEWS without suscription__ <br/>
+
+```terminal
+lynx https://www.periodico.com/noticias/2022-05-08/forbidden_news.html
+```
+
+__generate QR Codes__ <br/>
+
+```terminal
+sudo apt-get install qrencode
+qrencode "hola mundo" -o codigoqr.png
+display codigoqr.png
+```
+
+__read QR Codes__ <br/>
+
+```terminal
+sudo apt-get install zbar-tools
+zbarimg codigoqr.png
+```
+
+__read OCR, text from images__ <br/>
+
+```terminal
+sudo npm install -g imgclip
+imgclip holamundo.jpg
+```
+
+__create a colored canvas__ <br/>
+
+```terminal
+convert -size 800x400 xc:black black_canvas.png
+```
+
+__create a colored canvas with a text__ <br/>
+
+```terminal
+convert -size 800x400 background WhiteSmoke -font arial-bold -pointsize 45 -gravity Center label: "Hola" cartel.png
+```
+
+__create a sign from words__ <br/>
+
+```terminal
+sudo apt install figlet
+figlet hola mundo
+```
+
+__create a sign with animals__ <br/>
+
+By default is a cow: '_cowsay hola_' <br/>
+But we can change them. We can see all the available animals with: '_cowsay -l_' <br/>
+
+```terminal
+cowsay -f animal mensaje
+```
+
+__create text wrapped in boxes__ <br/>
+
+```terminal
+echo mensaje | boxes
+```
+
+We can see all the available boxes with: '_boxes -l_' and change it with:<br/>
+
+```terminal
+echo mensaje | boxes -d stone
 ```
 
 
