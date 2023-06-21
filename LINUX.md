@@ -653,7 +653,7 @@ convert -size 800x400 xc:black black_canvas.png
 __create a colored canvas with a text__ <br/>
 
 ```terminal
-convert -size 800x400 background WhiteSmoke -font arial-bold -pointsize 45 -gravity Center label: "Hola" cartel.png
+convert -size 800x400 background WhiteSmoke -font Arial-bold -pointsize 45 -gravity Center label: "Hola" cartel.png
 ```
 
 __create a sign from words__ <br/>
