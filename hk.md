@@ -45,3 +45,31 @@ __ipinfo.info__ <br/>
 _whois_ google.com <br/>
 
 
+### spoofing your MAC address
+
+_ifconfig_ is the comand to query your active network connection and active newtwork interfaces. <br/>
+To change our MAC address, we could: <br/>
+
+```terminal
+ifconfig eth0 down
+ifconfig eth0 hw ether 00:11:22:33:44:55
+ifconfig eth0 up
+```
+
+### examining DNS with dig
+
+```terminal
+dig google.com ns
+```
+
+_ns_ is for __name server__ <br/>
+
+
+```terminal
+dig nasty-mail-server.com mx
+```
+
+_mx_ is for __mail exchange__ <br/>
+
+
+
