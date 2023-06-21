@@ -500,6 +500,27 @@ __know my processor__ <br/>
 cat /proc/cpuinfo | grep "model name" | head -n 1
 ```
 
+__know the memory__ <br/>
+
+```terminal
+cat /proc/meminfo 
+```
+
+__know thdisc free space__ <br/>
+
+```terminal
+df -h .
+```
+
+__know the kernel__ <br/>
+
+```terminal
+cat /proc/version
+cat /proc/version | cut -d " " -f 3
+```
+
+Where cut separates the sentence by spaces and takes the third. 🪚 <br/>
+
 __know the groups of the current user__ <br/>
 
 ```terminal
@@ -512,6 +533,7 @@ __know how much time the computer is on__ <br/>
 uptime
 ```
 
+__list the USB devices__ <br/>
 
 
 ## TIP for MAC 🍎 
