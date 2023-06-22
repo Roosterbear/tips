@@ -120,7 +120,7 @@ __property CSS names in react__ <br/>
 
 In CSS, we use a dash to separate words of the property name. <br/>
 In React, we use Javascript, so we can not use dash for our names. <br/>
-Instead of that we can: <br/>
+Instead of that we can use _camelCase_, Example: "__backgroundColor__" <br/>
 
 ```react
 <h1 style={{color: #FF8C00, backgroundColor: #FF2D00}}>Hello world</h1>
@@ -141,15 +141,31 @@ return(
 
 ### Typical component
 
+We can use a normal function, but is more commonly to find arrow functions: <br/>
+
 ```jsx
 const myComponent = ()=>{
-  return(
-    <h1>myComponent</h1>
-  )
+  return <h1>myComponent</h1>
 }
 
 export default myComponent;
 ```
+If we return only one line, we can even skip the return. <br/>
+If we return multiple lines of code, we can use parenthesis. <br/>
+
+```jsx
+const myComponent = ()=>{
+  return (
+    <>
+      <div>myComponent</div>
+      <h1>This is a test</h1>
+    </>
+    )
+}
+
+export default myComponent;
+```
+
 
 ### Build and deploy a project 👾 
 
