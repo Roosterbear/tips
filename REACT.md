@@ -166,6 +166,27 @@ const myComponent = ()=>{
 export default myComponent;
 ```
 
+### Inject HTML code
+
+```jsx
+class App extends Component{
+  state = {
+    marcado: `
+    <h1>Injecting HTML code...</h1>
+    <br/>
+    <hr/>
+    <a href='#'>Link</a>
+    `
+  }  
+  render(){
+     return(
+      <div
+      dangerouslySetInnerHTML={{__html: this.state.marcado}}>
+      </div>
+    ) 
+  }
+}
+```
 
 ### Build and deploy a project 👾 
 
