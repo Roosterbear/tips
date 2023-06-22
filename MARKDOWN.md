@@ -1,5 +1,4 @@
-_Translating to English_ <br/>
-🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙 
+🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙 <br/>
 #
 # BASIC TUTORIAL OF .md FILES IN MARKDOWN
 
@@ -38,18 +37,18 @@ If you want a checked item, type an "x" inside brackets, otherwise, let a blank 
 - To create a  __bullet__ type a dash (-) or star (*).
   * To add a _circle_ type 2 blank spaces at the next line of a __bullet__.
 
-Vamos a hacer una lista
+Lets do a list
 -----------------------
-* Principal #1 (Observa los espacios entre * y la siguiente letra)
-  * Secundario #1-1
-  * Secundario #1-2
+* Principal #1 (Look the spaces between * and the next letter)
+  * Secondary #1-1
+  * Secondary #1-2
 * Principal #2
-  * Secundario #2-1
+  * Secondary #2-1
   
-Para crear __tablas__, usamos el caracter "pipe" ("|")
-Para encabezados en tablas, agregamos una fila con ":---:" encerrados en "pipes" con espacio intermedio.
+To create __tables__, we use the character "pipe" ("|")
+To headlines in tables, we add a row with ":---:" enclosed in "pipes" with an space in between.
   
-| No. | Nombre | Cantidad |
+| No. | Name | Amount |
 | :---: | :---: | :-----: |
 | 1,1 | 1,2 | 1,3 |
 | 2,1 | 2,2 | 2,3 |
