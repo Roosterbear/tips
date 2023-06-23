@@ -39,7 +39,7 @@ Then we change our index.js: <br/>
 import generateName from "sillyName";
 ```
 
-### Create a server withe EXPRESS
+### Create a Server with EXPRESS
 
 In a terminal, create a new folder to your project. Ex. _mkdir express-server_ <br/>
 Now create a file inside it: <br/>
