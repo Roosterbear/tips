@@ -1,6 +1,10 @@
 # NODE.js
 
-In a terminal, create the init file inside the folder of your project:
+### Playing with NODE
+
+In a terminal, create a new folder to your project. <br/>
+
+Then create the init file inside the folder of your project: <br/>
 
 ```terminal
 npm init
@@ -21,7 +25,7 @@ var sillyName = generateName();
 console.log(`My name is: ${sillyName}`);
 ```
 
-### change to module
+### Change to module
 
 We need to edit our package.json and add below "main": <br/>
 
@@ -34,4 +38,30 @@ Then we change our index.js: <br/>
 ```javascript
 import generateName from "sillyName";
 ```
+
+### Create a server withe EXPRESS
+
+In a terminal, create a new folder to your project. Ex. _mkdir express-server_ <br/>
+Now create a file inside it: <br/>
+
+```terminal
+touch server.js
+```
+
+Then create the init file inside the folder of your project: <br/>
+
+```terminal
+npm init
+```
+
+__install express__ <br/>
+
+```terminal
+npm install express --save
+```
+
+
+
+
+
 
