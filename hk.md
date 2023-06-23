@@ -38,6 +38,15 @@ Toshiba | F12 <br/>
 
 Look for virtualization names like: VT-x, AMD-V, SVM, Intel Virtual Technology or Vanderpool <br/>
 
+__virtualization__ <br/>
+
+You can get Virtualbox or __VMWare Workstation Player__ for free. <br/>
+
+__Kali Linux__ <br/>
+
+Now download Kali Linux for your software. <br/>
+
+
 __information about a site ⛏️__ <br/>
 _ping_ google.com <br/>
 _nslookup_ google.com <br/>
