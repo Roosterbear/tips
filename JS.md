@@ -145,6 +145,35 @@ function count(){
 
 Now, count is a higher order function that returns a new function. <br/>
 
+### Event Listeners
+
+We can add listeners to the DOM and adding it an anonymous function like: <br/>
+
+```javascript
+const inputEmail = document.querySelector('#email');
+inputEmail.addEventListener('blur', function(e){
+  console.log(e.target.value);
+});
+```
+
+But we can add a function like:
+
+```javascript
+const inputEmail = document.querySelector('#email');
+inputEmail.addEventListener('blur', validate);
+
+function validate(){
+  console.log('From somewhere in the form...');
+}
+```
+
+🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 <br/>
+__Is extremely important to remeber that we have not to add parenthesis__ <br/>
+_If we call a function with parenthesis, we invoke it automatically_ <br/>
+### To bind a function to a Event Listener, we have to add it without PARENTHESIS !
+🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 <br/>
+<br/>
+
 
 __objects in array functions__
 
