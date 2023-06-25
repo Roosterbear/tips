@@ -14,6 +14,13 @@ vim .bash_profile
 
 Add the line: _export PATH=$PATH:/usr/local/mongo/bin_ and save the file. <br/>
 
+Now change permissions: <br/>
+
+```terminal
+sudo chown lf /data/db
+```
+
+
 
 
 
