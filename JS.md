@@ -96,8 +96,8 @@ function myFunction(){
 }
 ```
 
-__first class function__ <br/>
-A function is just another type of object, just a simply value. <br/>
+__first-class citizens function__ <br/>
+Is the __fact__ that a function can be passed around like any other value, and be trated equal to other types. <br/>
 
 We can store functions in variables: <br/>
 ```javascript
@@ -123,9 +123,9 @@ btn.addEventListener('click', greet);
 In this case, __greet__ is the first class function. <br/>
 
 
-__higher order function__ <br/>
-Is a function that receive another function as an argument, returns a new function or both. <br/>
-This is possible because first class function. <br/>
+__higher-order functions__ <br/>
+Is a function that takes another function as a parameter, or returns a new function or both. <br/>
+This is possible because first-class citizen functions  in JS. <br/>
 
 ```javascript
 const greet = ()=>console.log('Hello world!');
