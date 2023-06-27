@@ -684,8 +684,14 @@ We can see all the available boxes with: '_boxes -l_' and change it with:<br/>
 echo mensaje | boxes -d stone
 ```
 
+### Process in Linux
 
-
+__actual process id:__ $$ <br/>
+__process folder:__ cd /proc <br/>
+__folder to actual process:__ cd $$ <br/>
+__executable of current task:__ ls -l exe <br/>
+__change console:__ sh - bash - zsh <br/>
+__install oh my zsh:__ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" <br/>
 
 
 
