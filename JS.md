@@ -675,7 +675,6 @@ const Cliente = {
 }
 ```
 
-
 __object constructor__ <br/>
 
 ```javascript
