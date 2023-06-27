@@ -662,6 +662,30 @@ form.addEventListener('submit', e=>{
   alert(username.value);
 });
 ```
+## OBJECTS
+
+We have two kind of __objects:__ <br/>
+
+__object literals__ <br/>
+
+```javascript
+const Cliente = {
+  nombre: this.nombre,
+  saldo: this.saldo
+}
+```
+
+
+__object constructor__ <br/>
+
+```javascript
+// Function constructor 
+function Persona(nombre, apellido){
+  this.nombre = nombre;
+  this.apellido = apellido;
+}
+```
+
 
 ## PROTOTYPES
 We need prototypes to ADD features in objects <br/>
@@ -679,7 +703,7 @@ Persona.prototype.email = 'name@mail.com';
 let programmer = new Persona('Ana', 'Karenina');
 console.log(programmer.email);
 
-let designer = new Persona('Coroline','Jones');
+let designer = new Persona('Coraline','Jones');
 console.log(designer.email);
 ```
 
