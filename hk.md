@@ -44,7 +44,7 @@ You can get Virtualbox or __VMWare Workstation Player__ for free. <br/>
 
 __Kali Linux__ <br/>
 
-Now download Kali Linux for your software. <br/>
+Now download Kali Linux for your VM software. <br/>
 
 
 __information about a site ⛏️__ <br/>
