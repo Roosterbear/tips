@@ -817,13 +817,13 @@ for (const item of obj) {
 }
 ```
 
-__Iteratosr__ <br/>
+__Iterators__ <br/>
 
 ```javascript
 function myIterator(cart){
   let i = 0;
   return {
-    siguiente: ()=>{
+    next: ()=>{
       const fin = (i>= cart.length);
       const valor = !fin? cart[i++]:undefined;
 
@@ -834,8 +834,16 @@ function myIterator(cart){
   }
 }
 
+const cart = [product1', 'product2', 'product3'];
 
+const theIterator = myIterator(cart);
+
+console.log(theIterator.next());
+console.log(theIterator.next());
+console.log(theIterator.next());
+console.log(theIterator.next());
 ```
+<br/>
 
 __Promises with Async and Await__ <br/>
 
