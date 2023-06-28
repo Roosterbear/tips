@@ -817,6 +817,25 @@ for (const item of obj) {
 }
 ```
 
+__Iteratosr__ <br/>
+
+```javascript
+function myIterator(cart){
+  let i = 0;
+  return {
+    siguiente: ()=>{
+      const fin = (i>= cart.length);
+      const valor = !fin? cart[i++]:undefined;
+
+    return{
+      fin, valor
+      }
+    }
+  }
+}
+
+
+```
 
 __Promises with Async and Await__ <br/>
 
