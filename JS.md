@@ -820,29 +820,32 @@ for (const item of obj) {
 __Iterators__ <br/>
 
 ```javascript
-function myIterator(cart){
+
+function myIteration(cart){
   let i = 0;
-  return {
+
+  return{
     next: ()=>{
-      const fin = (i>= cart.length);
+      const fin = (i >= cart.length);
       const valor = !fin? cart[i++]:undefined;
 
-    return{
-      fin, valor
+      return{
+        fin,
+        valor
       }
     }
   }
 }
 
-const cart = [product1', 'product2', 'product3'];
 
-const theIterator = myIterator(cart);
+const cart = ['product1', 'product2', 'product3'];
 
-console.log(theIterator.next());
-console.log(theIterator.next());
-console.log(theIterator.next());
-console.log(theIterator.next());
-```
+const theIteration = myIteration(cart);
+
+console.log(theIteration.next());
+console.log(theIteration.next());
+console.log(theIteration.next());
+console.log(theIteration.next());```
 <br/>
 
 __Promises with Async and Await__ <br/>
