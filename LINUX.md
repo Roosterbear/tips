@@ -691,7 +691,39 @@ __process folder:__ cd /proc <br/>
 __folder to actual process:__ cd $$ <br/>
 __executable of current task:__ ls -l exe <br/>
 __change console:__ sh - bash - zsh <br/>
-__install oh my zsh:__ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" <br/>
+_we got to have zsh installed_ <br/>
+__install oh my zsh plugin:__ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" <br/>
+__install Powerlevel10k:__ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k <br/>
+__install emacs__ <br/>
+```terminal
+sudo apt-get update
+sudo apt-get install emacs 
+```
+Options - Customize Emacs - Custom Themes - Wombat
+
+__config .zshrc__ In home folder <br/>
+__ZSH_THEME__="powerlevel10k/powerlevel10k" <br/>
+<br/>
+
+__config .p10k.zsh__ In home folder <br/>
+1.- Comment all with _alt+x_ in __typeset__ -g POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS <br/>
+Keep _ip_ and _status_ <br/>
+2.- Just keep __os_icon__ and __dir__  in __typeset__ -g POWERLEVEL9K_LEFT_PROMPT_ELEMENTS <br/>
+
+__install plugins for zsh__ <br/>
+Install _zsh-autosuggestions_ and _zsh-syntax-highlighting_ <br/>
+Add to __.zshrc__ in plugins the plugins above. <br/>
+
+__config terminal__ <br/>
+
+file - preferences - shortcuts <br/>
+
+Check: __split terminal__, __collapse subterminal__, __right subterminal__ and __left subterminal__ <br/>
+
+
+
+
+
 
 
 

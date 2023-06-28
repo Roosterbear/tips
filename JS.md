@@ -845,8 +845,52 @@ const theIteration = myIteration(cart);
 console.log(theIteration.next());
 console.log(theIteration.next());
 console.log(theIteration.next());
-console.log(theIteration.next());```
+console.log(theIteration.next());
+```
 <br/>
+
+__more iterators__
+
+```javascript
+const myArray = [1,2,3];
+const mySet = new Set(1,2,3);
+const myMap = new Map();
+
+myMap.set('name','Fernando');
+myMap.set('lastName','Roosterbear');
+
+/* ENTRY */
+for(let entry of myArray.entries()){
+  console.log(entry);
+}
+
+/* VALUE */
+for(let value of myArray.values()){
+  console.log(value);
+}
+
+/* KEY */
+for(let key of myArray.keys()){
+  console.log(key);
+}
+
+/* DEFAULT */
+
+// Returns value by default
+for(let a of myArray){
+  console.log(a);
+}
+
+// Returns value by default
+for(let s of mySet){
+  console.log(s);
+}
+
+// Returns both: key and value by default
+for(let m of myMap){
+  console.log(m);
+}
+```
 
 __Promises with Async and Await__ <br/>
 
