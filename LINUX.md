@@ -705,14 +705,20 @@ __config .zshrc__ In home folder <br/>
 __ZSH_THEME__="powerlevel10k/powerlevel10k" <br/>
 <br/>
 
+__CLOSE TERMINAL__ <br/>
+<br/>
+
+__CONFIG TERMINAL WITH POWER LEVEL 10k__ <br/>
+<br/>
+
 __config .p10k.zsh__ In home folder <br/>
 1.- Comment all with _alt+x_ in __typeset__ -g POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS <br/>
 Keep _ip_ and _status_ <br/>
 2.- Just keep __os_icon__ and __dir__  in __typeset__ -g POWERLEVEL9K_LEFT_PROMPT_ELEMENTS <br/>
 
-__install plugins for zsh__ <br/>
+__install zsh plugins from github for oh my zsh__ <br/>
 Install _zsh-autosuggestions_ and _zsh-syntax-highlighting_ <br/>
-Add to __.zshrc__ in plugins the plugins above. <br/>
+Add to __.zshrc__ in plugins the plugins above. (Juste leave a __space__ between each plugin)<br/>
 
 __config terminal__ <br/>
 

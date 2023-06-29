@@ -56,9 +56,9 @@ Now create a file tailwind.css inside __src__ folder. And add the next directive
 ```
 
 Install extension: __Tailwind CSS Intellisense__ <br/>
-Edit settings: (ctrl+p) <br/>
+Edit settings: (ctrl+p and type: settings) or ctrl+,<br/>
 Uncheck in _css.validate_ <br/>
-Edit in _editor.quicksuggestions_ and add an object with: <br/>
+Edit in _editor.quicksuggestions_ to __on__ or add an object with: <br/>
 
 ```javascript
 "editor.quickSuggestions":{
@@ -80,6 +80,7 @@ _in windows, add the package:_ <br/>
 ```terminal
 npm i win-node-env
 ```
+---
 
 Now run: <br/>
 
@@ -103,4 +104,49 @@ npm run build
 
 And our __main.css__ will have just the essential classes to our customized site, and will _remove_ all we didn't use. <br/>
 
+
+---
+
+__breakpoints__ <br/>
+
+_xl:bg-red-500_ Cuando sea la pantalla XL, poner fondo red-500
+_md:bg-blue-500_ Cuando sea la pantalla MD, poner fondo blue-500
+_lg:justify-start_ Cuando sea la pantalla LG, poner elementos al principio
+_sm:hidden_ Cuando sea la pantalla SM, esconder elementos
+_bg-yellow-300_ En los demas casos, usar color yelloe-300
+
+__components__ <br/>
+
+It is like have classes. We can create a set of styles to some element. In our tailwind.css add: <br/>
+
+.link{
+  @apply #text-white block p-5 font-bold hover:text-yellow-500
+}
+
+__buttons__ <br/>
+
+```html
+<a href="#" class="border-4 border-yellow-400 text-white font-bold p-2 rounded-full">
+<a href="#" class="rounded-full bg-red-500 text-white font-bold px-4 py-3 hover:text-black hover:bg-white transition duration-500">
+```
+
+
+__burguer menu__ <br/>
+
+```html
+<div class="block lg:hidden w-1/6 lg:w-4/6">
+  <a href="#" class="link" id="mobile-menu">Menu</a>
+  <ul class="mobile-links hidden w-full absolute z-50 left-0">
+    <li><a href="#" class="link">Home</a></li>
+</div>  
+
+<script>
+  const menuButton = document.querySelector('#mobile-menu');
+
+  menuButton.addEventListener('click', e=>{
+    const menu = document.querySelector('.mobile-links');
+    menu.classList.toggle('hidden');
+  });
+</script>
+```
 
