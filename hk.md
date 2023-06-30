@@ -2,6 +2,13 @@
 
  <br/>
 
+## DICTIONARY
+
+__ARP__ (Address Resolution Protocol) - Gets MAC Address of a device.
+__ICMP__ (Internet Control Message Protocol)
+__IDS__ (Intrusion Detection System)
+
+
 __active virtualization on windows__ <br/>
 task manager - more details - performance - virtualization (is it disabled?) <br/>
 reboot <br/>
@@ -59,5 +66,19 @@ dig nasty-mail-server.com mx
 
 _mx_ is for __mail exchange__ <br/>
 
+## NMAP
 
+_get a variable for a IP address_ <br/>
+_scan to avoid firewalls that blocks ICMP_ <br/>
+
+```terminal
+export IP="192.168.1.126"
+sudo nmap -PR $IP
+```
+_maybe, we can get a filtered state, but could be closed_ <br/>
+_send a scan without flags with -sN to see if they are opened_ <br/>
+
+```terminal
+sudo nmap -sN -p 22,80 $IP
+```
 
