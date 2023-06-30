@@ -1,27 +1,6 @@
-These are my notes... welcome <br/>
+# I am the 👁️ in the sky 🔓
 
-# I am the 👁️ in the sky
-
-## First of All, you have to learn 🐧 
-
-### You have to pass a lot of ⏲️  typing, coding, testing, thinking, failing, reading, studying, building...
-
-#### if you don't practice, you don't deserve to win, it's on you 🫵🏾 
-
-##### Thank you very much!
-
-###### Bye 🫱🏻‍🫲🏾 Long live Mexico! 🇲🇽 
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-
-
-
-🔒 🔓 🔐 🔑 🗝️ 🪓 ⛏️ 🪤 💣 🩺 🪪 🔗 🗄️ 🔌 🪫 🔋 📞 💰 
-🔎 💾 📌 💊 🪜 🧰 🪝 📡 🎩 🥊 ♥️ ☂️ 🔥 ⭐ 🛰️ 🧭 🚨 🧱
-🥝 🌶️ 🍝 🐻 🐙 🕸️ 🕷️ 🐉 🦏 🦠 💥 ❤️‍🔥 💯 
-🫦 🧠 🐫 🦎 🐞 🦋 🐜 🦄 🦮 🐬 🦈 🥑 🍜 🍕 🥦 🍄 🍷 🍺 
-🍪 ❗ ⚠️ ©️ ®️ 🤌🏾 🫳🏽 👈🏽 💪🏽 👂🏽 🤝🏾 <br/>
+ <br/>
 
 __active virtualization on windows__ <br/>
 task manager - more details - performance - virtualization (is it disabled?) <br/>
