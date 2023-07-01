@@ -727,9 +727,9 @@ file - preferences - shortcuts <br/>
 Check: __split terminal__, __collapse subterminal__, __right subterminal__ and __left subterminal__ <br/>
 
 
+## Emacs
 
-
-
+__exit__ Ctrl+x Ctrl+c
 
 
 
