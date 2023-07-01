@@ -128,7 +128,6 @@ __add permissions__
 chmod +rw thefile.txt
 ```
 
-
 __change owners__
 
 ```terminal
@@ -155,11 +154,8 @@ ps aux
 ```
 
 ### grep
-Command used as a filter to search keywords to find information. Usually used with pipes (|). <br/>
+Command used as a filter to search keywords to find information. Usually used with __pipes__ (|). <br/>
 
-```terminal
-ps aux | grep apache2
-```
 
 __find lines with a text__ <br/>
 
@@ -167,7 +163,7 @@ __find lines with a text__ <br/>
 grep file file.txt
 ```
 
-Where file is the word to find and file.txt is the file where it has to look. <br/>
+Where __file__ is the _word to find_ and __file.txt__ is the _file_ where it has to look. <br/>
 
 __find lines with a text and the line number__ <br/>
 
@@ -176,6 +172,22 @@ grep file file.txt -n
 ```
 We can use _-c_ to count the lines. <br/>
 We can use _-w_ to look only separate words. <br/>
+
+### pipes |
+
+Sends the output of a command to another command. <br/>
+
+__list the current folder, only the first 20 lines and withe the word "root" in it.__ <br/>
+
+```terminal
+ls -al | head -20 | grep root
+```
+
+__find all process with the word apache2__
+
+```terminal
+ps aux | grep apache2
+```
 
 __find line numbers where is a text__ <br/>
 
