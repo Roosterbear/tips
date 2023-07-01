@@ -5,7 +5,7 @@ Used instead _var_ to declare variables in the new standard. <br/>
 Javascript read all the _var_ variables first. Every __let__ is read when is created. <br/>
 
 ## CONST
-Used to keep values that won't change, as DOM Elements, Arrays, Objects and __Constant__ values.
+Used to keep values that won't change, as DOM Elements or __Constant__ values. Also objects and arrays. <br/>
 
 ## SCOPE
 Scope is the context or visibility of variables, functions and objects in our code. <br/>
