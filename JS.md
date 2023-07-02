@@ -30,11 +30,48 @@ console.log(message);
 
 ```
 
+__print in console__ <br/>
+
+We can print a result or variables in the console to check our programs, and we can do it like:
+
+```javascript
+const hello="hello"
+const world="world"
+
+// Tired and boring way
+console.log("This is a typical "+hello+" "+world)
+
+// Alternative way like others programming languages
+console.log("This is a typical %s %s", hello, world)
+
+// Best JS way
+console.log(`This is a typical ${hello} ${world}`)
+
+```
+
+__check if is not a number__ <br/>
+
+__isNaN(1)__: false, it is a number actually
+__isNaN(null)__: false, converted to 0, which is a number
+__isNaN(false)__: false, converted to 0, which is a number
+__isNaN("$10")__: true, dollar sign is not a digit
+__isNaN(undefined)__: true, converted to NaN
+__isNaN()__: true, implicitly undefined, converted to NaN
+
+__infinity__ <br/>
+
+Is equal to _infinity_, in other words, the maximum number. <br/>
+
+```javascript
+console.log(Number.MAX_VALUE * 2)
+```
+
 __Remove blank spaces in a text__ <br/>
 We can use the __.trim()__ function to remove blank spaces in a text variable.
 
 ## ARRAYS
 We can create an array this way: <br/>
+
 ```javascript
 const arreglo1 = [1,2,3,4,5,6,7];
 ```
