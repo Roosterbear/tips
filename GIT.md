@@ -81,6 +81,36 @@ git merge local
 
 <br/>
 
+__empty folders__ <br/>
+
+🔥🔥🔥 git does not upload empty folders !! 🔥🔥🔥 <br/>
+<br/>
+
+
+## GIT IGNORE 🔥🔥🔥
+
+Create a file named _.gitignore_ <br/>
+
+Add folders to be ignored kinda: folder1/ <br/>
+Add files to be ignored just by: important.php/ <br/>
+
+__see ignored__ <br/>
+
+```git
+git statud --ignored
+```
+
+__Clear already commited files, but included in__ _.gitignored_ <br/>
+
+```git
+git rm -r --cached .
+git add .
+git commit -m "removing files included in .gitignore
+git push origin main
+```
+
+## MOVING ON GIT
+
 __List commits__ <br/>
 
 ```git
@@ -110,10 +140,6 @@ __Deleting a branch__ <br/>
 ```git
 git branch -d [coworker]
 ```
-
-
-
-
 
 ## Initial Configurations
 > INITIAL (Just the first time configuration)
