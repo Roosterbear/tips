@@ -1,8 +1,6 @@
 # GIT HELP 
 
-__Create a repository localy in git__ <br/>
-
-🔥 If we have a project in our local machine... <br/>
+🔥 __If we have a project in our local machine__ <br/>
 
 Go to the project folder and type: <br/>
 
@@ -24,7 +22,7 @@ git push -u origin main
 ❗ Now the main branch is "main" and we have to change the name. <br/>
 
 
-🔥 If we have a project in Github and we want it in our local machine... <br/>
+🔥 __If we have a project in Github and we want it in our local machine__ <br/>
 
 ```git
 git clone https://github.com/Roosterbear/tips.git
@@ -58,6 +56,14 @@ Now send your changes: <br/>
 git push origin local
 ```
 ‼️ REMEMBER TO SEND IT TO LOCAL BRANCH ‼️  <br/>
+
+
+__View changes__ <br/>
+
+```git
+git status
+```
+
 
 🔥 __Merge branchs__ <br/>
 
