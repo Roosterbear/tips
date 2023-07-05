@@ -12,12 +12,12 @@ Copies files
 __copy content from file1 to file2__ <br /> 
 _cp file1 file2_ <br />
 __copy files to directory dir__ <br />
-_cp file1,file2 dir <br />
+_cp file1,file2 dir_ <br />
 <br />
 
 ### mv
 Moves files <br />
-__moves content from file1 to file1__ <br />
+__moves content from file1 to file2__ <br />
 _mv file1 file2_ <br />
 __moves files to directory dir__ <br />
 _mv file1, file2 dir_ <br />
