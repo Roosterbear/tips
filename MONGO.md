@@ -42,7 +42,15 @@ Enter the path of installation, then _bin_ folder <br/>
 Create de folder: _C:\data/db <br/>
 Use a linux terminal terminal (cmder, gitbash) <br/>
 Create a file with: _touch .bash_profile_ <br/>
-Edi
+Edit it with _vi_ and add: <br/>
+
+```terminal
+alias mongodb="/c/Program\ files/MongoDB/Server/4.3/bin/mongod.exe"
+alias mongo="/c/Program\ files/MongoDB/Server/4.3/bin/mongo.exe"
+```
+
+
+
 
 
 
