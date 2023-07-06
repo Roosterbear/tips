@@ -49,6 +49,9 @@ alias mongodb="/c/Program\ files/MongoDB/Server/4.3/bin/mongod.exe"
 alias mongo="/c/Program\ files/MongoDB/Server/4.3/bin/mongo.exe"
 ```
 
+__close terminal__ <br/>
+
+check version with: _mongo --version_ <br/>
 
 
 
