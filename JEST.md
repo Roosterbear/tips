@@ -2,21 +2,54 @@
 
 __Install Jest__ <br/>
 
-_create a tests folder inside project_ <br/>
+_create a jest-test folder_ <br/>
 
 ```terminal
-npm init
+npm init -y
 ```
 
 _npm install --save-dev jest_ <br/>
+or <br/>
+_npm i -D_ <br/>
 
-_configure_ <br/>
+_edit package.json and add_ __jest__ _inside test_ <br/>
 
-```terminal
-npx jest --init
+_create our project_ <br/>
+
+Create __src__ folder and __calculator__ folder inside. <br/>
+Add __index.js__ file inside and write: <br/>
+
+```javascript
+module.exports = {
+  sum(a, b){
+    return a+b;
+  }
+}
+```
+Add __calculator.test.js__ file inside and write: <br/>
+
+__FIRST TEST__ <br/>
+
+```javascript
+test('Empty test, it will pass', ()=>{
+  //
+});
+
+test.todo('I will do this, some day...');
 ```
 
-Then _add json, no typescript, node, reports, v8, clean mocks_ <br/>
+  __SECOND TEST__ <br/>
+
+```javascript
+const calculator = require('.');
+
+test('Testing function to add two numbers...', ()=>{
+  const result = calculator.sum(1,2);
+  expect((result).toBe(3));
+});
+
+test.todo('I will do this, some day...');
+```
 
 _copy the file to test_ <br/>
 
