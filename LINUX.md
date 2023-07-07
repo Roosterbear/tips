@@ -363,7 +363,6 @@ echo $@ | tr '[:lower]' '[:upper]'
 ```
 
 ---
-#######
 ---
 
 ## Terminal tips
@@ -550,17 +549,18 @@ Where __c__ is for create, __v__ is for _verbose_ and __f__ is for write the _fo
 __bzip2__ with extension _.tar.bz2_ is the slowest but generates the __smallest__ files.
 __compress__ with extension _.tar.z_ is the fastest but generates the __biggest__ files.
 __gzip__ with extension _.tar.gz2_ or _.tgz_ falls somewhere in between.
-
+<br/>
 ---
 ---
+<br/>
 
-## Knowing DATA 
+## Knowing DATA 🐍 
 
 ```terminal
 stat file.txt
 ```
 
-🐍  __knowing data from the system__ <br/>
+__knowing data from the system__ <br/>
 ```terminal
 stat /
 ```
