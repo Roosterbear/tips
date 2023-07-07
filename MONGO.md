@@ -55,7 +55,10 @@ check version with: _mongo --version_ <br/>
 
 ## run
 
-In Terminal Type: mongod <br/>
+In Terminal Type: _mongod_ <br/>
+
+
+---
 
 If launchs an SocketException Error: Address already in use, check old instance:
 
@@ -69,6 +72,31 @@ sudo kill ###
 ```
 
 Where _###_ is the PID. <br/>
+
+---
+
+__NOW RUN MONGO__ <br/>
+
+In Terminal Type: _mongo_ (without "d") <br/>
+
+We will end with a prompt like: __>__ <br/>
+
+We can cry for _help_, but we can ask for __show dbs__ too <br/>
+
+__using from nothing a DB__ <br/>
+
+```mongo
+use shopDB
+```
+
+_switched to db shopDB_ <br/>
+
+__know current DB:__ <br/>
+
+```mongo
+db
+```
+
 
 
 

@@ -922,6 +922,30 @@ npm run compile:sass
 
 If we need to be watching in every change, we can add the "-w" parameter.
 
+## 👁️ SNIPPETS in VSC
+
+__1.- Ctrl+Shift+p and write 'user snippet'__ <br/>
+__2.- Select file extension wher to apply__ <br/>
+__3.- Write your code like:__ <br/>
+
+```json
+"Media Query":{
+		"prefix":"mq",
+		"body":[
+			"$1 You're a fucking hacker!!! \n and you know it..."
+		]
+	}
+```
+
+__"Media Query"__ is just the name. <br/>
+__"prefix"__ is the trigger, choose a meaningful and short one!. <br/>
+__"Body"__ is where the code goes. <br/>
+__$1__ The place to write code after trigger our snippet. <br/>
+__\n__ A line break. <br/>
+
+
+
+
 ## 👁️ UPLOAD A PROJECT TO GITHUB AS A WEB PAGE
 
 __1.- Create a New Repository__ <br/>
