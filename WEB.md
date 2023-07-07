@@ -937,6 +937,23 @@ __3.- Write your code like:__ <br/>
 	}
 ```
 
+<br/>
+
+__open VSC in a terminal from current folder__<br/>
+
+```terminal
+code .
+```
+
+__VSC in a RECOVERY window mode__<br/>
+
+```terminal
+code -r .
+```
+
+<br/>
+
+
 __"Media Query"__ is just the name. <br/>
 __"prefix"__ is the trigger, choose a meaningful and short one!. <br/>
 __"Body"__ is where the code goes. <br/>
