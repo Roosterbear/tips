@@ -101,8 +101,9 @@ __create a folder with the current date in the name__
 mkdir "$(date+"%Y-%m-%d")"
 ```
 
+---
 
-### PERMISSIONS
+## PERMISSIONS
 
 We have 3 kind of permissions: <br/>
 
@@ -140,6 +141,9 @@ __change group__
 chgrp security newIDs
 ```
 
+---
+
+## Process in Linux
 
 ### ps
 Display user processes. <br/>
@@ -153,7 +157,26 @@ __x__: Display all the processes, including those not associated with any termin
 ps aux
 ```
 
-### grep
+<br/>
+__actual process id:__ $$ <br/>
+__process folder:__ cd /proc <br/>
+__folder to actual process:__ cd $$ <br/>
+__executable of current task:__ ls -l exe <br/>
+<br/>
+
+__lsof__ _list open files_ <br/>
+
+Give us detailed information about files used in current processes. <br/>
+Normally requires Admin privileges. <br/>
+
+__We can list files that are listening TCP connections by:__ <br/>
+
+```terminal
+sudo lsof -iTCP -sTCP:LISTEN -n -P
+```
+
+
+## grep
 Command used as a filter to search keywords to find information. Usually used with __pipes__ (|). <br/>
 
 
@@ -173,7 +196,7 @@ grep file file.txt -n
 We can use _-c_ to count the lines. <br/>
 We can use _-w_ to look only separate words. <br/>
 
-### pipes |
+## pipes |
 
 Sends the output of a command to another command. <br/>
 
@@ -195,7 +218,9 @@ __find line numbers where is a text__ <br/>
 grep file file.txt -n | cut -d ":" -f 1
 ```
 
-### installing stuff
+---
+
+#### installing stuff
 
 Before installing something, maybe we want to know if it is available. <br/>
 
@@ -229,7 +254,7 @@ To __upgrade__ to a new version our installed packages, we can use: <br/>
 apt-get upgrade
 ```
 
-### Create a temporary alias
+#### Create a temporary alias
 
 ```terminal
 alias aliasname='df . | awk "NR=2" | cut -d " " -f 1'
@@ -238,7 +263,7 @@ alias aliasname='df . | awk "NR=2" | cut -d " " -f 1'
 We need the command "alias" + the name of our alias + "=" + the command line in simple quotes. <br/>
 To execute the command, just type the alias name. If we close the terminal, this alias is gone. <br/>
 
-### Create an alias
+#### Create an alias
 
 ```terminal
 vi ~/.bashrc
@@ -264,7 +289,7 @@ Just type: <br/>
 echo $SHELL
 ```
 
-### Create a script
+#### Create a script
 
 We can edit a new file with vi: <br/>
 
@@ -288,7 +313,7 @@ chmod +x sayHello.sh
 
 Then we just run: __./sayHello.sh__ <br/>
 
-### Run any script from anywhere
+#### Run any script from anywhere
 
 Check: <br/>
 
@@ -337,8 +362,9 @@ or <br/>
 echo $@ | tr '[:lower]' '[:upper]' 
 ```
 
+---
 
-### Terminal tips
+## Terminal tips
 
 __The TAB key help us to complete commands__ <br/>
 <br/>
@@ -405,7 +431,7 @@ __delete the content of a file__ <br/>
 cat dev/null > file.txt
 ```
 
-### save the path of a directory
+#### save the path of a directory
 
 ```terminal
 pushd .
@@ -417,7 +443,7 @@ Now we can change the directory and get back with: <br/>
 popd
 ```
 
-### history
+#### history
 
 To show all commands we typed, we use: _history_ <br/>
 
@@ -447,7 +473,7 @@ fc
 We just modify the line and the command will be executed. <br/>
 
 
-### Find
+#### Find
 
 __files__ <br/>
 
@@ -470,7 +496,7 @@ __d__ directories <br/>
 _iname_ it dowsn't matter if it's uppercase or lowercase. <br/>
 That contains the word _python_ <br/>
 
-### rm
+#### rm
 
 __delete all PNG files__
 
@@ -493,7 +519,7 @@ expr 3 + 2
 echo $((3+2))
 ```
 
-### tar
+#### tar
 
 Stands for "tape archive" and is used to combine files into one archive. <br/>
 
@@ -517,14 +543,16 @@ tar -xf texts.tar
 
 Where __c__ is for create, __v__ is for _verbose_ and __f__ is for write the _following file_ <br/>
 
-### compress
+#### compress
 
 __bzip2__ with extension _.tar.bz2_ is the slowest but generates the __smallest__ files.
 __compress__ with extension _.tar.z_ is the fastest but generates the __biggest__ files.
 __gzip__ with extension _.tar.gz2_ or _.tgz_ falls somewhere in between.
 
+---
+---
 
-### Knowing DATA from a file
+## Knowing DATA 
 
 ```terminal
 stat file.txt
@@ -696,26 +724,7 @@ We can see all the available boxes with: '_boxes -l_' and change it with:<br/>
 echo mensaje | boxes -d stone
 ```
 
-### Process in Linux
-
-__actual process id:__ $$ <br/>
-__process folder:__ cd /proc <br/>
-__folder to actual process:__ cd $$ <br/>
-__executable of current task:__ ls -l exe <br/>
-<br/>
-
-__lsof__ _list open files_ <br/>
-
-Give us detailed information about files used in current processes. <br/>
-Normally requires Admin privileges. <br/>
-
-__We can list files that are listening TCP connections by:__ <br/>
-
-```terminal
-sudo lsof -iTCP -sTCP:LISTEN -n -P
-```
-
-
+---
 
 ### The Terminal
 
@@ -760,7 +769,8 @@ Check: __split terminal__, __collapse subterminal__, __right subterminal__ and _
 
 __exit__ Ctrl+x Ctrl+c
 
-
+---
+---
 
 ## TIP for MAC 🍎 
 To access a folder in our network, we choose "Go" in the main menu. <br/>
