@@ -174,7 +174,23 @@ __We can list files that are listening TCP connections by:__ <br/>
 ```terminal
 sudo lsof -iTCP -sTCP:LISTEN -n -P
 ```
+__top__
 
+Lists the processes running in the system. <br/>
+
+<br/>
+
+_shift+m_ orders by memory use.
+_shift+p_ orders by CPU use.
+_shift+n_ orders by process.
+
+__htop__
+
+A better version of __top__ which we can easily install. <br/>
+
+__free__
+
+We can see the use of memmory of the system. It is better with _-h_ (for Humans) <br/>
 
 ## grep
 Command used as a filter to search keywords to find information. Usually used with __pipes__ (|). <br/>
