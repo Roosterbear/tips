@@ -37,6 +37,11 @@ test('Empty test, it will pass', ()=>{
 
 test.todo('I will do this, some day...');
 ```
+## RUN
+
+```terminal
+npm jest
+```
 
   __SECOND TEST__ <br/>
 
