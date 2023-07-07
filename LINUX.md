@@ -206,13 +206,13 @@ apt-cache search snort
 Now we can install: <br/>
 
 ```terminal
-apt-get install packagename
+apt-get install [packagename]
 ```
 
-Now we can uninstall: <br/>
+We can uninstall: <br/>
 
 ```terminal
-apt-get remove packagename
+apt-get remove [packagename]
 ```
 
 To check if there are updates in the lists of repositories we can type: <br/>
@@ -702,6 +702,23 @@ __actual process id:__ $$ <br/>
 __process folder:__ cd /proc <br/>
 __folder to actual process:__ cd $$ <br/>
 __executable of current task:__ ls -l exe <br/>
+<br/>
+
+__lsof__ _list open files_ <br/>
+
+Give us detailed information about files used in current processes. <br/>
+Normally requires Admin privileges. <br/>
+
+__We can list files that are listening TCP connections by:__ <br/>
+
+```terminal
+sudo lsof -iTCP -sTCP:LISTEN -n -P
+```
+
+
+
+### The Terminal
+
 __change console:__ sh - bash - zsh <br/>
 _we got to have zsh installed_ <br/>
 __install oh my zsh plugin:__ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" <br/>

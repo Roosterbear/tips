@@ -53,6 +53,30 @@ __close terminal__ <br/>
 
 check version with: _mongo --version_ <br/>
 
+## run
+
+In Terminal Type: mongod <br/>
+
+If launchs an SocketException Error: Address already in use, check old instance:
+
+```terminal
+sudo lsof -iTCP -sTCP:LISTEN -n -P
+```
+Then kill process:
+
+```terminal
+sudo kill ###
+```
+
+Where _###_ is the PID. <br/>
+
+
+
+
+
+
+
+
 
 
 
