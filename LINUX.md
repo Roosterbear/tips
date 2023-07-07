@@ -363,7 +363,7 @@ echo $@ | tr '[:lower]' '[:upper]'
 ```
 
 ---
-#####
+#######
 ---
 
 ## Terminal tips
