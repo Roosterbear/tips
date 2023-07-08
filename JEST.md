@@ -14,7 +14,7 @@ _npm i -D jest_ <br/>
 
 _edit package.json and add_ __jest__ _inside test_ <br/>
 
-_create our project_ <br/>
+__Create the project__ <br/>
 
 Create __src__ folder and __calculator__ folder inside. <br/>
 Add __index.js__ file inside and write: <br/>
