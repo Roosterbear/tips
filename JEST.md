@@ -10,7 +10,7 @@ npm init -y
 
 _npm install --save-dev jest_ <br/>
 or <br/>
-_npm i -D_ <br/>
+_npm i -D jest_ <br/>
 
 _edit package.json and add_ __jest__ _inside test_ <br/>
 
