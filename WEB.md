@@ -141,8 +141,7 @@ __Join 2 rows:__
 <td rowspan="2">
 ```
 
-
-### Forms
+## Forms
 
 The main tag is ```<form>```<br/>
 Usually we have to add 4 items:<br/>
@@ -397,6 +396,18 @@ To get images in a perfect size, we can add: <br/>
 
 Especial for blocks. <br/>
 
+## IMAGES
+
+There are two properties that makes better our images with CSS:
+
+```css
+img{
+  max-width: 100%;
+  display: block;
+}
+```
+
+
 ## BACKGROUNDS
 
 ```css
@@ -646,7 +657,11 @@ pointer, crosshair, e-resize, grab, help, move, progress, text, wait, no-allowed
 It is a way to adapt the content to screen sizes. <br/>
 
 ```css
-@media (max-width: 600px){
+@media (min-width: 768px){
+  /* CSS only for screens below or equal to 600px width */
+}
+
+@media (min-width: 1200px){
   /* CSS only for screens below or equal to 600px width */
 }
 ```
