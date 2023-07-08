@@ -50,11 +50,16 @@ const calculator = require('.');
 
 test('Testing function to add two numbers...', ()=>{
   const result = calculator.sum(1,2);
-  expect((result).toBe(3));
+  expect(result).toBe(3);
 });
 
 test.todo('I will do this, some day...');
 ```
+
+
+
+
+
 
 _copy the file to test_ <br/>
 
