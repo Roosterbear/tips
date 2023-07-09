@@ -2,6 +2,36 @@
 
 __start__ <br/>
 
+We will need Node.js <br/>
+
+There are 3 ways to install Tailwind: <br/>
+
+1.- Using CDN Link <br/>
+2.- Using Tailwind CLI <br/>
+3.- Using PostCSS <br/>
+
+__using CDN__ <br/>
+
+Go to Tailwind page and copy the link and paste it in the header: <br/>
+
+```html
+<script src="https://cdn.tailwindcss.com"></script>
+```
+__using CDN__ <br/>
+
+_check documentation in official page_ <br/>
+
+<br/>
+
+__using PostCSS__ <br/>
+
+In our project folder: <br/>
+
+```terminal
+npm install -D tailwindcss postcss autoprefixer
+```
+
+
 The best way to start is creating a folder of our project, entering on it and run: <br/>
 
 ```terminal
