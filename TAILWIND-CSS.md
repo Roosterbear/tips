@@ -2,37 +2,60 @@
 
 __start__ <br/>
 
+Create a folder for your project. <br/>
+
+Open that folder in a terminal and install: <br/>
+
 ```terminal
+npx install -D tailwindcss postcss autoprefixer
 npx tailwindcss init
 ```
-
-It will create _tailwind.config.js_ <br/>
-
-__Create folders:__ _build_ with index.html file, and _src_ <br/>
-
-__Config tailwind__ <zbr/>
-
-In tailwind.config.js edit content bracket: <br/>
+Create _postcss.config.js_ in the root and copy the code: <br/>
 
 ```javascript
-content:['./build/*.html'],
+module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+};
 ```
 
-Inside _src_ folder, ad the __input.css__ file and add: <br/>
+Edit __tailwind.config.js__: <br/>
+
+```javascript
+module.exports = {
+  content: ["./public/**/*.html"],
+    theme: {
+      extend: {},
+    },
+  plugins: [],
+}
+```
+
+Create a _Tailwind_ folder, and the __main.css__ file inside and add: <br/>
 
 ```css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 ```
-
-* In VSC we have to change preferences - configuration - Unknown At Rules CSS Lint to __ignore__ <br/>
-
-__Config files__ <zbr/>
-
-In terminal, run: <br/>
+Now run in terminal: <br/>
 
 ```terminal
-npx tailwinds -i ./src/input.css -o ./build/css/style.css
+npm init -y
 ```
 
+Open package.json file and edit in script: <br/>
+
+```json
+tailwind build -i Tailwind/main.css -o public/tailwind.css
+```
+
+Now run in terminal: <br/>
+
+```terminal
+npm run build
+```
+
+Link the tailwind.css in the __HTML__ file. Add the class _text-red_ to a paragraph to test. <br/>
