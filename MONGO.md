@@ -82,6 +82,7 @@ In Terminal Type: _mongo_ (without "d") <br/>
 We will end with a prompt like: __>__ <br/>
 
 We can cry for _help_, but we can ask for __show dbs__ too <br/>
+<br/>
 
 __using from nothing a DB__ <br/>
 
@@ -91,11 +92,23 @@ use shopDB
 
 _switched to db shopDB_ <br/>
 
+The shpDB was created, but it needs to have information to be shown with __show dbs__ <br/>
+
 __know current DB:__ <br/>
 
 ```mongo
 db
 ```
+
+__COLLECTION = TABLE__ <br/>
+
+Let's create the _products_ __collection__: <br/>
+
+```mongo
+db.products.insertOne(_id:1, name:"Pen", price:1.20)
+```
+
+
 
 
 
