@@ -20,5 +20,5 @@ They exist in ROM. BIOS has not inbuilt security and make it vulnerable to attak
 
 ### HYPER-V
 
-To activate Hyper-V go to Control Panel and 
+To activate Hyper-V go to Control Panel - Programs - Uninstall Programs - Active Windows Characteristics
 
