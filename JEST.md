@@ -1,4 +1,6 @@
-# Testing in Javascript with JEST
+# JEST
+
+## Testing in Javascript with JEST
 
 __Install Jest__ <br/>
 

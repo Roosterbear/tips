@@ -1,4 +1,6 @@
-# React
+# REACT
+
+## React commands and code
 
 __create react app with CRA__
 

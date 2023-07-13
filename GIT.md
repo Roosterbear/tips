@@ -1,4 +1,4 @@
-# GIT HELP 
+# GIT
 
 🔥 __If we have a project in our local machine__ <br/>
 

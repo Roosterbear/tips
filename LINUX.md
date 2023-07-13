@@ -1,4 +1,6 @@
-# Linux commands for fun ⚙️ 
+# LINUX
+
+## Linux commands for fun ⚙️ 
 
 ### ls
 Lists the content of the current directory <br />

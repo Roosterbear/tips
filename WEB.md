@@ -1,5 +1,8 @@
-# ALL ABOUT WEB PROGRAMMING
-## HTML, CSS and Tools
+# WEB
+
+## All about Web Programming
+
+### HTML, CSS and Tools
 
 ---
 
