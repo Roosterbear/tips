@@ -59,3 +59,41 @@ npm run build
 ```
 
 Link the tailwind.css in the __HTML__ file. Add the class _text-red_ to a paragraph to test. <br/>
+
+Look that we can not see the changes, we have to rebuild. <br/>
+
+To avoid this, we can add a __watch__ mode in our _package.json_: <br/>
+
+```json
+"scripts": {
+    "build": "tailwind build -i Tailwind/main.css -o public/tailwind.css",
+    "watch": "tailwind build -i Tailwind/main.css -o public/tailwind.css -w"
+  },
+```
+
+Now run: <br/>
+
+```terminal
+npm run watch
+```
+
+__optimize for production__ <br/>
+
+Edit _package.json_ to use __postcss__: <br/>
+
+```json
+"scripts": {
+    "build": "postcss Tailwind/main.css -o public/tailwind.css",
+    "watch": "postcss Tailwind/main.css -o public/tailwind.css -w"
+  },
+```
+
+_now run watch again_ <br/>
+
+
+
+
+
+
+
+
