@@ -53,7 +53,7 @@ __close terminal__ <br/>
 
 check version with: _mongo --version_ <br/>
 
-## run
+## RUN MONGO ENGINE
 
 In Terminal Type: _mongod_ <br/>
 
@@ -75,11 +75,16 @@ Where _###_ is the PID. <br/>
 
 ---
 
+# RUN MONGO TERMINAL
+
 __NOW RUN MONGO__ <br/>
 
 In Terminal Type: _mongo_ (without "d") <br/>
 
 We will end with a prompt like: __>__ <br/>
+
+
+## SHOW DBs
 
 We can cry for _help_, but we can ask for __show dbs__ too <br/>
 <br/>
@@ -100,18 +105,53 @@ __know current DB:__ <br/>
 db
 ```
 
+## CREATE A COLLECTION (Table)
+
 __COLLECTION = TABLE__ <br/>
 
 Let's create the _products_ __collection__: <br/>
 
 ```mongo
-db.products.insertOne(_id:1, name:"Pen", price:1.20)
+db.products.insertOne({_id:1, name:"Pen", price:1.20})
 ```
 
+## SHOW COLLECTIONS
+
+```mongo
+show collections
+```
+
+# QUERY
+
+__search for id 1__ <br/>
+
+```mongo
+db.products.find({_id:1})
+```
+
+__search for all ids greater than 1__ <br/>
+
+```mongo
+db.products.find({_id:{$gt:1}})
+```
+
+__$gt__   greater than <br/>
+__$gte__  greater or equal than <br/>
+__$lt__   less than <br/>
+__$lte__  less or equal than <br/>
+__$ne__   not equal than <br/>
+__$in__   any value in the array <br/>
+__$nin__  none of the values in array <br/>
 
 
+__search and show just ONE value from the row__ _(projection)_ <br/>
 
+```mongo
+db.products.find({_id:{$gt:1}}, {name:1})
+```
 
+__1 means true__ <br/>
+__By default, always display our id, unless we especify false with a 0__ <br/>
 
 
 
