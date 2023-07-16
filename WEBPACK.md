@@ -18,8 +18,6 @@ mkdir src dist config
 Initialize git with the __.gitignore__ file and a the npm project: <br/>
 
 ```terminal
-git init .
-echo "node_modules" > .gitignore
 npm init -y
 ```
 
@@ -31,6 +29,8 @@ touch src/index.js dist/index.html
 ```
 
 Add code to _index.js_ like: alert("Hello world"); <br/>
+
+---
 
 __check development and production modes__ <br/>
 
@@ -46,6 +46,8 @@ webpack --mode=production
 
 Now check the _main.js_ __file size__ <br/>
 
+---
+
 __create webpack configuration file__ <br/>
 
 ```terminal
@@ -55,13 +57,13 @@ rm dist/main.js src/index.js
 
 __edit webpack configuration file__ <br/>
 
-Create the file: <br/>
+__CREATE__ the file: <br/>
 
 ```terminal
 touch src/main.js
 ```
 
-__edit config/webpack.js__ <br/>
+__edit config/webpack.dev.js__ <br/>
 
 ```javascript
 const path = require("path")
@@ -84,7 +86,7 @@ __run config file:__ <br/>
 webpack --config=config/webpack.dev.js
 ```
 
-__Now write some basic HTML inside index.html__ <br/>
+__Now write some basic HTML inside dist/index.html__ <br/>
 
 ```html
 <body>
@@ -114,7 +116,7 @@ module.exports = {
 }
 ```
 
-__install webpack for server__ <br/>
+__install webpack for server locally__ <br/>
 
 ```terminal
 npm install -S webpack webpack-cli webpack-dev-server
