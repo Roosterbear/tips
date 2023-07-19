@@ -89,7 +89,17 @@ Edit _package.json_ to use __POSTCSS__: <br/>
 ```
 _now run watch again_ <br/>
 
+## POSTCSS
 
+__Plugin__          Description <br/>
+<br/>
+__autoprefixer__ 	      Añade prefijos CSS automáticamente, basándose en CanIUse. <br/>
+__css-modules__ 	      Aplica la estrategia CSS Modules para aislar CSS y evitar la cascada. <br/>
+__stylelint__ 	        Linter de código CSS, compatible también con preprocesadores como LESS o Sass. <br/>
+__postcss-preset-env__ 	Convierte CSS no soportado por navegadores en CSS soportado. El Babel de CSS. <br/>
+__cssnano__ 	          Minificador de código CSS. <br/>
+__purgecss__ 	          Elimina código CSS muerto (no utilizado) de nuestros proyectos. <br/>
+<br/>
 
 
 
