@@ -1,8 +1,8 @@
 # WEBPACK
 
-### INSTALLATIONS
+## DEV SERVER
 
-In a terminal, create a new folder to your project and enter. <br/>
+In a terminal, create a new folder to your project and hit enter. Then enter the folder. <br/>
 
 ```terminal
 mkdir project
