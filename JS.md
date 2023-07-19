@@ -212,7 +212,16 @@ _If we call a function with parenthesis, we invoke it automatically_ <br/>
 <br/>
 
 
-__objects in array functions__
+__document.addEventListener("DOMContentLoaded", () => {});__ <br/>
+
+Waits for HTML code to load, is faster. <br/>
+     
+__window.addEventListener('load', () => {});__ and __window.onload = () => {};__ <br/>
+
+Waits for whole page to load (HTML, CSS, images, plugins, and so on), is slower. <br/>
+     
+
+__objects in array functions__ <br/>
 
 ```javascript
 const arr = [1,2,3,4,5];
@@ -226,7 +235,7 @@ const byTwo = arr.map(number=>(
 byTwo;
 ```
 
-__property shorthand__
+__property shorthand__ <br/>
 
 We create an __object__ with the SAME NAMES as the _variables_ which we used to create it.
 
@@ -242,7 +251,7 @@ var person = {
 }
 ```
 
-__computed property names__
+__computed property names__ <br/>
 
 We can use _variable_ names, _function_ names, _strings_ and returned values as __properties__ in objects: <br/>
 
@@ -266,7 +275,7 @@ var person = {
 
 ```
 
-__method properties__
+__method properties__ <br/>
 
 Is a new way to define methods in objects. <br/>
 
@@ -517,7 +526,7 @@ document.querySelector('div').innerHTML = 'Hola';
 document.querySelector('.btn').style.color = 'red';
 
 ```
-__querySelectorAll__ returns all coincidences into an array
+__querySelectorAll__ returns all coincidences into an array <br/>
 
 ### Button to add elements at the end of a list
 ```javascript
@@ -827,7 +836,7 @@ element.addEventListener(EVENT_CLICK, () => {
 });
 ```
 
-__Iterators with Symbols__
+__Iterators with Symbols__ <br/>
 
 ```javascript
 const obj = {
@@ -886,7 +895,7 @@ console.log(theIteration.next());
 ```
 <br/>
 
-__more iterators__
+__more iterators__ <br/>
 
 ```javascript
 const myArray = [1,2,3];
@@ -931,8 +940,8 @@ for(let m of myMap){
 
 __Promises with Async and Await__ <br/>
 
-__Async__ is a way to use promises in any function.
-__Await__ can be used only with a function in Async and stops the program to wait an answer.
+__Async__ is a way to use promises in any function. <br/>
+__Await__ can be used only with a function in Async and stops the program to wait an answer. <br/>
 
 __defer__ <br/>
 
