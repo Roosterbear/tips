@@ -4,10 +4,13 @@ __start__ <br/>
 
 Create a folder for your project. <br/>
 
-Open that folder in a terminal and install: <br/>
+Open that folder in Visual Studio Code. <br/>
+
+Check that you have NodeJS updated, open terminal in that folder and write: <br/>
 
 ```terminal
-npx install -D tailwindcss postcss autoprefixer
+npm init -y
+npm install -D tailwindcss postcss postcss-cli autoprefixer
 npx tailwindcss init
 ```
 Create _postcss.config.js_ in the root and copy the code: <br/>
@@ -40,16 +43,11 @@ Create a _Tailwind_ folder, and the __main.css__ file inside and add: <br/>
 @tailwind components;
 @tailwind utilities;
 ```
-Now run in terminal: <br/>
-
-```terminal
-npm init -y
-```
 
 Open package.json file and edit in script: <br/>
 
 ```json
-tailwind build -i Tailwind/main.css -o public/tailwind.css
+"build": "tailwind build -i Tailwind/main.css -o public/tailwind.css"
 ```
 
 Now run in terminal: <br/>
@@ -58,9 +56,11 @@ Now run in terminal: <br/>
 npm run build
 ```
 
-Link the tailwind.css in the __HTML__ file. Add the class _text-red_ to a paragraph to test. <br/>
+Link the _tailwind.css_ created in a __index.html__ file inside the __public__ folder. <br/>
 
-Look that we can not see the changes, we have to rebuild. <br/>
+Add the class _text-red_ to a paragraph to test. <br/>
+
+__Look that we can not see the changes, we have to rebuild.__ <br/>
 
 To avoid this, we can add a __watch__ mode in our _package.json_: <br/>
 
@@ -79,7 +79,7 @@ npm run watch
 
 __optimize for production__ <br/>
 
-Edit _package.json_ to use __postcss__: <br/>
+Edit _package.json_ to use __POSTCSS__: <br/>
 
 ```json
 "scripts": {
@@ -87,7 +87,6 @@ Edit _package.json_ to use __postcss__: <br/>
     "watch": "postcss Tailwind/main.css -o public/tailwind.css -w"
   },
 ```
-
 _now run watch again_ <br/>
 
 
