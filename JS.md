@@ -15,6 +15,90 @@ We can create a scope with a function or a try-catch to block access to that var
 
 ## STRINGS
 
+__trim__ <br/>
+
+Remove spaces at the start and the end of a text <br/>
+
+```javascript
+const text = "      this is a text        ";
+let _text = text.trim();
+```
+
+Remove just the start of a text <br/>
+
+```javascript
+const text = "      this is a text        ";
+let _text = text.trimStart();
+```
+
+Remove just the end of a text <br/>
+
+```javascript
+const text = "      this is a text        ";
+let _text = text.trimEnd();
+```
+<br/>
+
+__split__ <br/>
+
+Separates a text in characters into an Array. <br/>
+
+```javascript
+const text = "UNITED";
+let _text = text.split('');
+```
+
+Separates a text by words based on a character into an Array <br/>
+
+```javascript
+const text = "this is a text with spaces";
+let _text = text.split(' ');
+```
+
+__join__ <br/>
+
+Join the members of an Array, and can add a given character between them. <br/>
+
+```javascript
+const text = "this is a text with spaces";
+let _text = text.split(' ');
+let _new = _text.join('*');
+```
+
+__remove all spaces with split and join__ <br/>
+
+```javascript
+const texto = "    Texto de ejemplo     "
+let procesado
+procesado = texto.split(" ").join("") // > "Textodeejemplo"
+```
+
+__replace__ <br/>
+
+Replace the first occurrence of the first parameter with the content of the second parameter <br/>
+
+```javascript
+const text = "HARRY POTTER";
+let movie = text.replace('H', 'Mr. H'); // Mr. HARRY POTTER
+```
+
+__replace with regEx__ <br/>
+
+```javascript
+const texto = "    Texto de ejemplo     "
+let procesado
+procesado = texto.replace(/\s+/g, '')  // > "Textodeejemplo"
+```
+__LOOK THAT regEx DOESN'T NEED QUOTES__ <br/>
+<br/>
+
+__expressions meanings__ <br/>
+
+__\s__ select blank spaces, tabs and line breaks <br/>
+__+__  along with _\s_, takes more than one consecutive spaces <br/>
+__g__  allows tracking the process throughout the string <br/>
+<br/>
+
 __String interpolation__ <br/>
 We can add text with variables in a better way with the ``` ` ``` sign. <br/>
 
@@ -122,7 +206,7 @@ __Every__<br/>
 You know what functions are, don't you?. <br/>
 Is a piece of code that we can use over and over again, avoiding repeat typing. <br/>
 Remember: __DO NOT REPEAT YOURSELF__ <br/>
-The normal functions have the word __function__ and the name of the function and parentheses beside it. <br/>
+The normal functions have the text __function__ and the name of the function and parentheses beside it. <br/>
 Then we enclose the content in curly braces, like: <br/>
 
 ```javascript
@@ -321,7 +405,7 @@ const other_fruits = ["strawberry", "lemon", "watermelon"];
 fruits(...other_fruits, "apple", "banana", "orange", "fig", "blackberry", "melon", "papaya", "mamme");
 ```
 
-We can separate a word by letters: <br/>
+We can separate a text by letters: <br/>
 
 ```javascript
 const message = 'hello';
@@ -370,7 +454,7 @@ The __g__ stands for _"global"_ that is to say: "all occurrences". <br/>
 We receive a string, then is replaced for a single string without blank spaces in lowercase. <br/>
 
 
-Now, let's do a function that takes the first word and change it to uppercase: <br/>
+Now, let's do a function that takes the first text and change it to uppercase: <br/>
 
 ```javascript
 const upperFirstWord = function(str){
