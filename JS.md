@@ -1061,10 +1061,6 @@ Go to terminal and type: <br/>
 node_modules/.bin/babel before.js -o after.js
 ```
 
-## WEBPACK
-
-Create a file: _webpack.config.js_ <br/>
-
 
 
 
