@@ -946,11 +946,32 @@ __1.- Ctrl+Shift+p and write 'user snippet'__ <br/>
 __2.- Select file extension wher to apply__ <br/>
 __3.- Write your code like:__ <br/>
 
+
 ```json
 "Media Query":{
 		"prefix":"mq",
 		"body":[
 			"$1 You're a fucking hacker!!! \n and you know it..."
+		]
+	}
+```
+
+```json
+"imagenes":{
+		"prefix": "im",
+		"body":[
+			"<picture>",
+			"\t<source \n sizes=\"1920w, 1280w, 640w\"",
+				"\t\tsrcset=\"$1.avif, $1-1280.avif 1280w, $1-640.avif 640w\" ",
+				"\t\ttype=\"image/avif\"/>",
+			"\t<source \n sizes=\"1920w, 1280w, 640w\"",
+				"\t\tsrcset=\"$1.webp, $1-1280.webp 1280w, $1-640.webp 640w\"  ",
+				"\t\ttype=\"image/webp\"/>",
+			"\t<source \n sizes=\"1920w, 1280w, 640w\"",
+				"\t\tsrcset=\"$1.jpg, $1-1280.jpg 1280w, $1-640.jpg 640w\"  ",
+				"\t\ttype=\"image/jpg\"/>",
+			"\t<img loading=\"lazy\" src=\"$1.jpg\" alt=\"$2\" />",
+			"<picture>"
 		]
 	}
 ```
