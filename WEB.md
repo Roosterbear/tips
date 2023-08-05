@@ -951,27 +951,41 @@ __3.- Write your code like:__ <br/>
 "Media Query":{
 		"prefix":"mq",
 		"body":[
-			"$1 You're a fucking hacker!!! \n and you know it..."
+			"@media (min-width: $1px){",
+			"\t$2",
+			"}"
 		]
 	}
 ```
 
 ```json
-"imagenes":{
+"Pictures": {
 		"prefix": "im",
-		"body":[
+		"body": [
 			"<picture>",
-			"\t<source \n sizes=\"1920w, 1280w, 640w\"",
-				"\t\tsrcset=\"$1.avif, $1-1280.avif 1280w, $1-640.avif 640w\" ",
-				"\t\ttype=\"image/avif\"/>",
-			"\t<source \n sizes=\"1920w, 1280w, 640w\"",
-				"\t\tsrcset=\"$1.webp, $1-1280.webp 1280w, $1-640.webp 640w\"  ",
-				"\t\ttype=\"image/webp\"/>",
-			"\t<source \n sizes=\"1920w, 1280w, 640w\"",
-				"\t\tsrcset=\"$1.jpg, $1-1280.jpg 1280w, $1-640.jpg 640w\"  ",
-				"\t\ttype=\"image/jpg\"/>",
-			"\t<img loading=\"lazy\" src=\"$1.jpg\" alt=\"$2\" />",
-			"<picture>"
+			"\t<source ",
+			"\t\tsizes=\"1920w, 1280w, 640w\"",
+			"\t\tsrcset=\"$1.avif 1920w",
+			"\t\t\t\t\t\t\t$1-1280.avif 1280w",
+			"\t\t\t\t\t\t\t$1-640.avif 640w\"",
+			"\t\ttype=\"image/avif\"",
+			"/>",
+			"\t<source ",
+			"\t\tsizes=\"1920w, 1280w, 640w\"",
+			"\t\tsrcset=\"$1.webp 1920w",
+			"\t\t\t\t\t\t\t$1-1280.webp 1280w",
+			"\t\t\t\t\t\t\t$1-640.webp 640w\"",
+			"\t\ttype=\"image/webp\"",
+			"/>",
+			"\t<source ",
+			"\t\tsizes=\"1920w, 1280w, 640w\"",
+			"\t\tsrcset=\"$1.jpg 1920w",
+			"\t\t\t\t\t\t\t$1-1280.jpg 1280w",
+			"\t\t\t\t\t\t\t$1-640.jpg 640w\"",
+			"\t\ttype=\"image/jpeg\"",
+			"/>",
+			"\t<img loading=\"lazy\" decoding=\"async\" src=\"$1.jpg\" lazyalt=\"imagen\" width=\"500\" height=\"300\" />",
+			"</picture>"
 		]
 	}
 ```
