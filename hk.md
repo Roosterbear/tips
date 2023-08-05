@@ -28,6 +28,8 @@ __virtualization__ <br/>
 
 You can get Virtualbox or __VMWare Workstation Player__ for free. <br/>
 
+>For bundle file, change permissions, and run with sudo ./VMWare...
+
 __Kali Linux__ <br/>
 
 Now download Kali Linux for your VM software. <br/>
