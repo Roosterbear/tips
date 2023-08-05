@@ -34,6 +34,12 @@ __Kali Linux__ <br/>
 
 Now download Kali Linux for your VM software. <br/>
 
+>Uncompress and move the folder to /home/Virtual Machines, you can rename it as just Kali.
+
+Choose Open Project and then select the folder Kali <br/>
+
+>user: kali, password: kali
+
 
 __information about a site ⛏️__ <br/>
 _ping_ google.com <br/>
