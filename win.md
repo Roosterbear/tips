@@ -20,7 +20,13 @@ They exist in ROM. BIOS has not inbuilt security and make it vulnerable to attak
 
 To activate Hyper-V go to Control Panel - Programs - Uninstall Programs - Active Windows Characteristics
 
-## SysInternals
+---
+
+---
+
+#      👁️👁️  
+
+## ---SysInternals---
 
 We need to download the suite from:
 
@@ -34,8 +40,21 @@ __Explore proccesses__ <br/>
 
 >procexp.exe
 
+---
 
+---
 
+#      👁️👁️  
 
+## ---Active Directory---
+
+>Administración de directivas de grupo
+
+* Domains controllers
+* Elegir Grupo
+* Configuracion de Equipo
+* Configuración de Windows
+* Configuración de Seguridad
+* Directivas Locales
 
 

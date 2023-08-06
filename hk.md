@@ -22,6 +22,12 @@ Now download a Vulnerable Machine:
 
 >Go to vulnhub.com and search for tr0ll1
 
+---
+
+---
+
+#      👁️👁️  
+
 ## ---GATHERING---
 
 ### Information about a site ⛏️
@@ -66,12 +72,28 @@ _mx_ is for __mail exchange__ <br/>
 
 >whatweb 192.168.1.1-192.16.1.255 --agression 3 -v --no-errors
 
+### SNORT
+
+>sudo apt-get update
+
+>sudo apt-get install snort
 
 
 ---
 
+---
+
+#      👁️👁️  
 
 ## ---NMAP---
+
+__check active hosts without ports__ <br/>
+
+>nmap -sn -n 192.168.0.0/24
+
+__seek for popular top 5 open ports__ <br/>
+
+>sudo nmap -sS -n --top-ports 5 192.168.0.7
 
 _get a variable for a IP address_ <br/>
 _scan to avoid firewalls that blocks ICMP_ <br/>
@@ -83,16 +105,73 @@ sudo nmap -PR $IP
 _maybe, we can get a filtered state, but could be closed_ <br/>
 _send a scan without flags with -sN to see if they are opened_ <br/>
 
-```terminal
-sudo nmap -sN -p 22,80 $IP
-```
-
-## WHIRESHARK
-
-__npcap__ driver for link layer for Windows <br/>
-
-__Libpcap__ driver for link layer for Linux <br/>
+>sudo nmap -sN -p 22,80 $IP
 
 ---
 
-__Dumpcap__ Capture Engine <br/>
+---
+
+#      👁️👁️  
+
+## WHIRESHARK
+
+_npcap_ driver for link layer for Windows <br/>
+
+_Libpcap_ driver for link layer for Linux <br/>
+
+---
+
+_Dumpcap_ Capture Engine <br/>
+
+
+__SECTIONS__ <br/>
+
+We have 3 basic panels:
+
+_package list_ <br/>
+Every little package in a row. <br/>
+
+_package details_ <br/>
+It has two sections: <br/>
+<br/>
+
+* Metadata from Wireshark
+* TCP/IP Headers
+
+
+_package list_ <br/>
+
+<br/>
+
+__TCP/IP__ <br/>
+
+Sends data in little packages <br/>
+
+It has 4 layers:
+
+* Network Access (Ethernet)
+* Internet (IPv4)
+* Transport (UDP, IP)
+* Application (DNS)
+
+
+
+
+---
+
+---
+
+#      👁️👁️  
+
+## Kali Linux
+
+>Hunter
+
+Run: <br/>
+
+```terminal
+theHarvester -d domain.com -b all
+```
+
+We have the option to load the webpage: __hunter.io__ <br/>
+
