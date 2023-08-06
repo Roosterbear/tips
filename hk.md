@@ -107,6 +107,17 @@ _send a scan without flags with -sN to see if they are opened_ <br/>
 
 >sudo nmap -sN -p 22,80 $IP
 
+_fragmentation_
+
+-f divides in 8 bytes / or mtu 8<br/>
+--ff divides in 16 bytes <br/>
+-p80 port 80 <br/>
+
+
+>sudo nmap -sS -n -ff -p80 192.168.0.4
+
+
+
 ---
 
 ---
@@ -153,6 +164,16 @@ It has 4 layers:
 * Internet (IPv4)
 * Transport (UDP, IP)
 * Application (DNS)
+
+_router_ <br/>
+
+Divides Broadcast Domains <br/>
+
+_switch_ <br/>
+
+Divides Collision Domains <br/>
+
+
 
 
 
