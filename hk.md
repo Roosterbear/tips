@@ -126,6 +126,26 @@ _fragmentation_
 
 ## WHIRESHARK
 
+
+__TCP/IP__ <br/>
+
+Sends data in little packages <br/>
+
+It has 4 layers:
+
+* Network Access (Ethernet)
+* Internet (IPv4)
+* Transport (UDP, TCP)
+* Application (DNS, TLS)
+
+_router_ <br/>
+
+Divides Broadcast Domains <br/>
+
+_switch_ <br/>
+
+Divides Collision Domains <br/>
+
 _npcap_ driver for link layer for Windows <br/>
 
 _Libpcap_ driver for link layer for Linux <br/>
@@ -139,10 +159,12 @@ __SECTIONS__ <br/>
 
 We have 3 basic panels:
 
-_package list_ <br/>
+_package list panel_ <br/>
+
 Every little package in a row. <br/>
 
-_package details_ <br/>
+_details panel_ <br/>
+
 It has two sections: <br/>
 <br/>
 
@@ -150,29 +172,11 @@ It has two sections: <br/>
 * TCP/IP Headers
 
 
-_package list_ <br/>
+_bytes panel_ <br/>
+
+Info in hexadecimal and ASCII <br/>
 
 <br/>
-
-__TCP/IP__ <br/>
-
-Sends data in little packages <br/>
-
-It has 4 layers:
-
-* Network Access (Ethernet)
-* Internet (IPv4)
-* Transport (UDP, IP)
-* Application (DNS)
-
-_router_ <br/>
-
-Divides Broadcast Domains <br/>
-
-_switch_ <br/>
-
-Divides Collision Domains <br/>
-
 
 
 
