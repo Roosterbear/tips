@@ -26,7 +26,15 @@ _create welcome controller and index view_ <br/>
 
 _create routes_ <br/>
 
->rake routes
+* rake routes is deprecated starting from rails 6.1!, instead: <br/>
+
+>rails routes
+
+_make a controller our starter page:_ <br/>
+
+__app/config/locales/routes.rb__ <br/>
+
+>root 'welcome#index'
 
 
 
