@@ -59,6 +59,7 @@ __Explore proccesses__ <br/>
 
 >Active Directory Administration Center
 
-
+We can search users by any criteria and apply <br/>
+Then we can go to General Information and check the Windows Powershell History below <br/>
 
 
