@@ -44,7 +44,7 @@ Create a _Tailwind_ folder, and the __main.css__ file inside and add: <br/>
 @tailwind utilities;
 ```
 
-Open package.json file and edit in script: <br/>
+Open package.json file and edit in scripts: <br/>
 
 ```json
 "build": "tailwind build -i Tailwind/main.css -o public/tailwind.css"
@@ -101,6 +101,19 @@ __cssnano__ 	          Minificador de código CSS. <br/>
 __purgecss__ 	          Elimina código CSS muerto (no utilizado) de nuestros proyectos. <br/>
 <br/>
 
+### @apply
+
+We can apply classes from Tailwind to a single class. Add it in the _main.css_ <br/>
+
+
+```css
+.btn {
+  @apply px-4 py-2 m-6 rounded-md text-xl
+  font-semibold transition-all ease-in-out duration-300
+  hover:bg-blue-800 hover:text-white
+  bg-blue-200 text-black
+}
+```
 
 
 
