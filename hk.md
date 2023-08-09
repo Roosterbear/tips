@@ -189,19 +189,25 @@ _scan to avoid firewalls that blocks ICMP_ <br/>
 export IP="192.168.1.126"
 sudo nmap -PR $IP
 ```
-_maybe, we can get a filtered state, but could be closed_ <br/>
+
+Maybe, we can get a filtered state, but could be closed <br/>
+
 _send a scan without flags with -sN to see if they are opened_ <br/>
 
 >sudo nmap -sN -p 22,80 $IP
 
-_fragmentation_
-
--f divides in 8 bytes / or mtu 8<br/>
---ff divides in 16 bytes <br/>
--p80 port 80 <br/>
-
+_fragmentation_ <br/>
 
 >sudo nmap -sS -n -ff -p80 192.168.0.4
+
+-f = divides in 8 bytes / or mtu 8<br/>
+--ff = divides in 16 bytes <br/>
+-p80 = port 80 <br/>
+
+_Decoy_ <br/>
+
+>sudo nmap -sS -n -D 192.168.20.1,ME 192.168.20.128
+
 
 
 
