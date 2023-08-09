@@ -26,6 +26,93 @@ Now download a Vulnerable Machine:
 
 ---
 
+## NETWORKING
+
+In IOS we have a hierarchical model: <br/>
+
+As user: __Router>__, As privileged user: __>Router#__ and As global config mode: __>Router(config)#__ <br/>
+
+<br/>
+
+_Exercise #1_ <br/>
+
+Add a router _1941_ and a PC connected by _rs232 + console_. <br/>
+Go __PC__ and _Desktop_ tab - __Terminal__ - Default configuration. (9600/8/None/1/None)<br/>
+...or just double click on router. <br/>
+
+* Initial configuration: __No__ <br/>
+
+To switch to privileged user: <br/>
+
+>Router>enable
+
+To switch from privileged user to global configuration: <br/>
+
+>Router#configure terminal
+
+__change name of device__ <br/>
+
+>hostname R2D2
+
+__message of the day__ <br/>
+
+>banner motd #RESTRICTED ACCESS# 
+
+Exit from a level: <br/>
+
+>exit
+
+__set a password to privileged user__ <br/>
+
+>enable secret cisco
+
+Where cisco is our password <br/>
+
+__set password to console access__ <br/>
+
+>line console 0
+>password class
+>login
+
+Where class is our password and login is to force to ask for password <br/>
+
+__set password to remote console access__ <br/>
+
+>line vt 0 4
+>password cisco
+>login
+
+__check our configuration from privileged user__ <br/>
+
+>show running-config
+
+__encrypt all passwords from config user__ <br/>
+
+>service password-encryption
+
+__config IP on interface from config__ <br/>
+
+>interface gigabitEthernet 0/0
+>ip address 192.168.10.1 255.255.255.0
+>no shutdown
+
+* Config PC with IP Address 192.168.10.2 
+  from Desktop - IP Configuration and gateway 192.168.10.1
+* Connect with a cross-over cable
+* Check from CMD
+
+
+
+
+
+
+
+
+
+
+
+
+
 #      👁️👁️  
 
 ## ---GATHERING---
@@ -102,19 +189,25 @@ _scan to avoid firewalls that blocks ICMP_ <br/>
 export IP="192.168.1.126"
 sudo nmap -PR $IP
 ```
-_maybe, we can get a filtered state, but could be closed_ <br/>
+
+Maybe, we can get a filtered state, but could be closed <br/>
+
 _send a scan without flags with -sN to see if they are opened_ <br/>
 
 >sudo nmap -sN -p 22,80 $IP
 
-_fragmentation_
-
--f divides in 8 bytes / or mtu 8<br/>
---ff divides in 16 bytes <br/>
--p80 port 80 <br/>
-
+_fragmentation_ <br/>
 
 >sudo nmap -sS -n -ff -p80 192.168.0.4
+
+-f = divides in 8 bytes / or mtu 8<br/>
+--ff = divides in 16 bytes <br/>
+-p80 = port 80 <br/>
+
+_Decoy_ <br/>
+
+>sudo nmap -sS -n -D 192.168.20.1,ME 192.168.20.128
+
 
 
 
