@@ -24,17 +24,72 @@ _create welcome controller and index view_ <br/>
 
 >rails generate controller welcome index
 
+
 _create routes_ <br/>
 
 * rake routes is deprecated starting from rails 6.1!, instead: <br/>
 
 >rails routes
 
-_make a controller our starter page:_ <br/>
+
+_changing our starter page:_ <br/>
 
 __app/config/locales/routes.rb__ <br/>
 
 >root 'welcome#index'
+
+_adding gems_ <br/>
+
+* Go to: __https://rubygems.org/__ 
+* Look for a gem
+* Copy the gemfile line 
+* Past it in gemfile
+* Exec __bundle install__
+<br/>
+
+
+__haml__ <br/>
+
+* Add haml gem
+* Change _.erb_ from your view to __.haml__
+* Add __%h1 Hello haml__ to test
+
+
+__generate a model__ <br/>
+
+>rails generate model Doc title:string content:text
+
+>rake db:migrate
+
+
+__generate the controller ( IN PLURAL ) for the model__ <br/>
+
+>rails g controller Docs
+
+Add actions: <br/> 
+
+* index
+* show
+* new
+* create
+* edit
+* update
+* destroy
+
+__INSIDE__ our new controller <br/>
+
+
+
+
+
+
+
+
+
+--
+
+--
+
 
 
 ## Heroku Guide for RoR
