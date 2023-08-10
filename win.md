@@ -48,7 +48,7 @@ __Explore proccesses__ <br/>
 
 ## ---Active Directory---
 
->Administración de directivas de grupo
+>Group Administration directives
 
 * Domains controllers
 * Elegir Grupo
@@ -56,6 +56,12 @@ __Explore proccesses__ <br/>
 * Configuración de Windows
 * Configuración de Seguridad
 * Directivas Locales
+
+>Windows Defender
+
+Choose Group (_Default Domain Policy_) - Edit (_right click_) <br/>
+Computers - Directives - Administrative Templates - Windows Components - Endpoint Protection <br/>
+
 
 >Active Directory Administration Center
 
