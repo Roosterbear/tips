@@ -931,14 +931,24 @@ Where __compile:sass__ is the name of our script. <br/>
 _node-sass_ is the command to compile SASS files <br/>
 _sass/main.scss_ is the path of our origin SASS files. <br/>
 _css/style_ is the path of our final file in CSS. <br/>
+
 <br/>
-No we run: <br/>
+Now we run: <br/>
 
 ```node
 npm run compile:sass
 ```
 
 If we need to be watching in every change, we can add the "-w" parameter.
+
+__gulp__ <br/>
+
+>sudo npm install -g gulp-cli
+
+>npm install --save-dev gulp
+
+
+
 
 ## 👁️ SNIPPETS in VSC
 
@@ -957,6 +967,13 @@ __3.- Write your code like:__ <br/>
 		]
 	}
 ```
+
+__"Media Query"__ is just the name. <br/>
+__"prefix"__ is the trigger, choose a meaningful and short one!. <br/>
+__"Body"__ is where the code goes. <br/>
+__$1__ The place to write code after trigger our snippet. <br/>
+__\n__ A line break. <br/>
+
 
 ```json
 "Pictures": {
@@ -1005,15 +1022,6 @@ code -r .
 ```
 
 <br/>
-
-
-__"Media Query"__ is just the name. <br/>
-__"prefix"__ is the trigger, choose a meaningful and short one!. <br/>
-__"Body"__ is where the code goes. <br/>
-__$1__ The place to write code after trigger our snippet. <br/>
-__\n__ A line break. <br/>
-
-
 
 
 ## 👁️ UPLOAD A PROJECT TO GITHUB AS A WEB PAGE
