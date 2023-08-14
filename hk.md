@@ -193,9 +193,37 @@ _mx_ is for __mail exchange__ <br/>
 
 ### SNORT
 
+__IDS__ Intrusion Detection System <br/>
+__IPS__ Intrusion Prevention System <br/>
+
 >sudo apt-get update
 
 >sudo apt-get install snort
+
+* In Windows, install __npcap__ 
+* Edit __snort.conf__
+* Network to protect: __ipvar HOME_NET 192.168.20.0/24__
+* Change type of bar: __var RULE_PATH ..\rules__
+* Change type of bar: __var PREPROC_RULE_PATH ..\preproc_rules__
+* Change type of bar: __var WHITE_LIST_PATH ..\rules__
+* Change type of bar: __var BLACK_LIST_PATH ..\rules__
+* Active __config logdir: ..\log__
+* Change __dynamicpreprocessor__ directory C:\Snort\lib\snort_dynamicpreprocessor
+* Change __dynamicengine__ directory C:\Snort\lib\snort_dynamic\sf_engine.dll
+* Disable __dynamicdetection__
+* Active: preprocessor sfportscan: proto {all} memcap {10000000}  sense_level {low}
+* __preprocessor__ reputation: \ whitelist $WHITE_LIST_PATH/white.rules, \
+* __preprocessor__ reputation: \ blacklist $BLACK_LIST_PATH/black.rules, 
+* Active: preprocessor arpspoof
+* Copy rules from __Linux Version__
+
+__exec__ <br/>
+
+>.\snort.exe -i 5 -A console -c C:\Snort\etc\snort.conf
+
+
+
+
 
 
 ---
@@ -239,6 +267,11 @@ _fragmentation_ <br/>
 _Decoy_ <br/>
 
 >sudo nmap -sS -n -D 192.168.20.1,ME 192.168.20.128
+
+* __-D__ = Decoy
+* First IP addresses are the decoys
+* ME = My IP Address
+* Last IP the __target__
 
 
 ---
