@@ -128,33 +128,92 @@ select 'Result: ' + cast(14.8 as varchar)
 
 ### DISTINCT
 
->select distinct publicist from books
-
+```sql
+select distinct publicist from books
+```
 
 ### ORDER BY
 
->select title, price from books order by price
-
+```sql
+select title, price from books order by price
+```
 
 ### TOP
 
-> select top 5 tittle as book from books
-
+```sql
+select top 5 tittle as book from books
+```
 
 ### PARTITION BY
 
->select distinct status_pay, coun(*) over (partition by status_payment) as total
->from payment
+```sql
+select distinct status_pay, coun(*) 
+over (partition by status_payment) as total
+from payment
+```
 
 ### OVER
 
->select id, ROW_NUMBER() over(order by id) as Row from student
-
+```sql
+select id, ROW_NUMBER() over(order by id) as Row from student
+```
 
 ### GROUP BY
 
->
+```sql
+select wd_key, count(*) as how_many
+from withdrawal group by reason order by wd_key
+```
 
 ### HAVING
 Is the __where__ of the _Group by_ <br/>
 
+```sql
+select wd_key, count(*) as how_many
+from withdrawal group by reason having wd_key > 1000
+```
+
+### IN
+
+```sql
+select * from student
+where id in (140032, 130272, 110723)
+
+```
+
+__Trick to add ORDER BY in a View__ <br/>
+
+```sql
+create view ReverseOrder
+as
+select top 100 percent * from documents
+order by id desc
+go
+```
+
+### TRIGGERS
+
+* Is a Stored Procedure that runs when we try to modify data on a table.
+* Can not be invoked directly.
+* Do not get or return values.
+* Acts just in one table.
+
+```sql
+create trigger trg_forbid
+  on books
+  for update
+  as
+    raiserror('Data can not be modified', 10, 1)
+    rollback transaction
+```
+
+__instead of__
+
+
+```sql
+create trigger trg_employee
+  on view_clients
+  instead of insert
+  as
+    
+```
