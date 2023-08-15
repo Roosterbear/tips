@@ -211,9 +211,43 @@ __instead of__
 
 
 ```sql
-create trigger trg_employee
-  on view_clients
+create trigger trg_empleadosclientes_insertar
+  on view_empleados_clientes
   instead of insert
   as
-    
+    insert into empleados
+    select documento, nombre, domicilio
+    from inserted where condicion = 'empleado'    
 ```
+
+__INSERTED__ <br/>
+
+Contains new values triggered by _INSERT_ or _UPDATE_. <br/>
+
+
+__DELETED__ <br/>
+
+Containsold values triggered by _DELETE_ or _UPDATE_. <br/>
+
+
+__SET NOCOUNT ON__ <br/>
+
+Suppress the affected columns counting message. _# affected rows_ <br/>
+
+__FETCH / OFFSET__ <br/>
+
+```sql
+select BussinessID, PersonalType
+from Person.person
+order by BussinessID ASC
+  offset 100 rows
+  fetch next 5 rows only
+```
+
+* Discard the first 100 rows
+* Take the next 5 rows
+* offset and fetch depend on __order by__
+
+
+
+
