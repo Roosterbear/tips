@@ -169,22 +169,23 @@ We need to have the next folders structure: <br/>
 
 >app
 
-__app/libraries/core.php__ <br/>
-__app/libraries/database.php__ <br/>
-__app/libraries/controller.php__ <br/>
+__app/libraries/__ core.php <br/>
+__app/libraries/__ database.php <br/>
+__app/libraries/__ controller.php <br/>
 __app/helpers__ <br/>
 __app/config__ <br/>
 __app/controllers__ <br/>
 __app/models__ <br/>
 __app/views__ <br/>
-__app/__ _bootstrap.php_ <br/>
+__app/__ bootstrap.php <br/>
+__app/__ .htaccess <br/>
 
 >public
 
-__public/css/style.css__ <br/>
-__public/js/main.css__ <br/>
+__public/css/__ style.css <br/>
+__public/js/__ main.css <br/>
 __public/img__ <br/>
-__public/index.php__ <br/>
+__public/__ index.php <br/>
 
 
 
