@@ -141,7 +141,7 @@ select title, price from books order by price
 ### TOP
 
 ```sql
-select top 5 tittle as book from books
+select top 5 title as book from books
 ```
 
 ### PARTITION BY

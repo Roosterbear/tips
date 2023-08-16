@@ -163,4 +163,17 @@ __http_response_code()__ <br/>
 
 
 
+# MVC
+
+We need to have the next folders structure: <br/>
+
+>app
+
+\t __app/libraries__ <br/>
+
+>public
+
+
+
+
 
