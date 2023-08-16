@@ -2,13 +2,46 @@
 
 We have to enclose our code in __<?php__ and __?>__ tags.
 
-__constants__ <br/>
+Run lampp in Linux: <br/>
+
+>./xampp start
+
+Stop service lampp in Linux: <br/>
+
+>./xampp stop
+
+ 
+
+## Constants
+
+__define__ <br/>
 
 ```php
 <?php 
-
 define('DOMAIN', 'www.google.com');
 ?>
+```
+
+__defined__ <br/>
+
+```php
+<?php 
+define('EXEC') or die;
+?>
+```
+
+* Checks if is _EXEC_ defined (with define or const)
+
+__var_dump()__ <br/>
+
+>var_dump($value);
+
+Shows the type and value of a variable. <br/>
+
+__print_r__ <br/>
+
+```php
+echo "<pre>".print_r($this->user, true)."</pre";
 ```
 
 __magic methods__ <br/>
@@ -30,3 +63,104 @@ public function __set($property, $value){
 }
 ?>
 ```
+
+__htmlspecialchars($id)__ <br/>
+
+* Escapes HTML special characters to avoid hacking the site.
+<br/>
+
+__header__ <br/>
+
+Sends us to other site: <br/>
+
+>header("Location: index.php");
+
+## STRINGS
+
+__strlen__ <br/>
+
+Length of a string <br/>
+
+>strlen($my_string);
+
+__str_word_count__ <br/>
+
+How many words has the string <br/>
+
+>str_word_count($my_string);
+
+
+__substr__ <br/>
+
+Substract a part of a string <br/>
+
+>substr($my_string, 0, 5);
+
+Where __0__ is position and __5__ is the number of characters. <br/>
+
+<br/>
+
+__implode / explode__ <br/>
+
+__rand()__ <br/>
+
+>rand(1,6)
+
+__mt_rand()__ <br/>
+
+__shuffle()__ <br/>
+
+### __toString()
+
+
+## SESSION
+
+## REQUEST
+
+__get__ <br/>
+
+__post__ <br/>
+
+
+## isset
+
+__md5()__ <br/>
+
+
+__include / require__ <br/>
+
+__is_numeric()__ <br/>
+
+__slug_url()__ <br/>
+
+__redirect()__ <br/>
+
+__sw_count()__ <br/>
+
+__empty()__ <br/>
+
+__file_exists()__ <br/>
+
+__readdir()__ <br/>
+
+__substr_count()__ <br/>
+
+__ob_start()__ <br/>
+
+__get_template_part()__ <br/>
+
+__password_hash__ <br/>
+
+__http_response_code()__ <br/>
+
+
+
+## INVOKE
+
+
+## GENERATORS
+
+
+
+
+
