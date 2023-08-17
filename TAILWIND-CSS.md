@@ -116,6 +116,10 @@ We can apply classes from Tailwind to a single class. Add it in the _main.css_ <
 ```
 
 
+```html
+<section class="w-[100] h-[100vh] bg-[url('images/image.jpg')] bg-center"></section>
+<div class="bg-[rgba(0,0,0,0.5)] max-w-[1170px] mx-auto rounded-[5px] sm:py-[50px]"></div>
+```
 
 
 
