@@ -127,6 +127,11 @@ __strings__ <br/>
 
 ## STRINGS IN JAVA ARE IMMUTABLE
 
+### StringBuilder
 
+StringBuilder sb = new StringBuilder();
+sb.append("Hola Mundo");
+
+<!-- TODO: A test with System.currentTimeMillis() -->
 
 
