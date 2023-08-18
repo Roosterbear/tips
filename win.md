@@ -44,19 +44,19 @@ The most used is 0F or 0A<br/>
 * Right click - open file location
 * Right click - properties - Run as administrator
 
-### Tip #2 _hide data in a photo_
 
-* Zip folder with secret data
+### Tip #2 _curl_ 
 
->copy /b kitten.jpg+secret.zip secretePhoto.jpg
+_QR Code_ <br/>
+>curl qrenco.de/https://google.com 
 
-### Tip #3 _encrypt data_
+_A dictionary_ <br/>
+>curl dict.org/d:word
 
-_encrypt_ <br/>
->cipher /E
 
-_decrypt_ <br/>
->cipher /W:directory
+### Tip #3 _delete temporary files_
+
+>del /s /q c:\Windows\temp\*
 
 
 ### Tip #4 _hide a folder_
@@ -67,7 +67,8 @@ _invisible_ <br/>
 _visible_ <br/>
 >attrib -h -s -r foldername
 
-### Tip #5 
+
+### Tip #5 _saved networks_
 
 >netsh wlan show profile
 >netsh wlan show profile "wifinetwork" key=clear 
@@ -81,12 +82,9 @@ findstr "Key Content")
 
 >scp wifi.bat root@xxx.xxx.xxx.xxx:~/wifi.bat
 
-### Tip #6 _map a folder_
+### Tip #6 _history_
 
->subst s: "C:\Users\lf\Documents"
-
-_delete map_ <br/>
->subst /d s:
+>doskey /history
 
 
 ### Tip #7 _change color_
@@ -97,31 +95,12 @@ _delete map_ <br/>
 ### Tip #8 _change prompt and title_
 
 >prompt hacker$G
->prompt {beautiful hacker}$G
+>prompt beautiful hacker$G
 >title Hackers
 
 _return original_ <br/>
 
 >prompt
-
-
-### Tip #9 _curl_ 
-
-_QR Code_ <br/>
->curl qrenco.de/https://google.com 
-
-_A dictionary_ <br/>
->curl dict.org/d:word
-
-### Tip #10 _delete temporary files_
-
->del /q /f /s %temp%\*
->del /s /q c:\Windows\temp\*
-
-### Tip #11 _history_
-
->doskey /history
-
 
 
 ## MMC (Microsoft Management Console)
