@@ -345,7 +345,7 @@ Install python installer: <br>
 
 
 inurl:/Portal/portal.mwsl
-
+inurl:"view/view.shtml?id="
 bettercap
 net.probe on
 net.show
