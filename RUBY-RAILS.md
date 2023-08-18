@@ -16,9 +16,30 @@ _if rvm is not installed:_ <br/>
 >\curl -sSL https://get.rvm.io | bash -s stable
 >rvm list known
 
+---
+---
+
+# RUBY
 
 
-## Start Project
+
+---
+---
+
+
+# RAILS
+
+## Start Project 'cabinet'
+
+>rails new cabinet
+
+__run server__ <br/>
+
+>rails server
+
+* We currently use __Puma__ as Web server, and not _WEBrick_
+
+
 
 _create welcome controller and index view_ <br/>
 
