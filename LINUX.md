@@ -31,7 +31,6 @@ _touch file_ <br />
 <br />
 
 ### cat
-
 We can create a __new__ file with: <br/>
 
 ```terminal
@@ -102,6 +101,17 @@ __create a folder with the current date in the name__
 ```terminal
 mkdir "$(date+"%Y-%m-%d")"
 ```
+__delete all PNG files__
+
+```terminal
+rm *.png
+```
+
+__delete all files, except...__
+```terminal
+rm !(*.html)
+```
+Delete all files except _.html_ files. <br/>
 
 ---
 
@@ -109,9 +119,53 @@ mkdir "$(date+"%Y-%m-%d")"
 
 We have 3 kind of permissions: <br/>
 
-READ <br/>
-WRITE <br/>
-EXECUTE <br/>
+READ _r_ <br/>
+WRITE _w_ <br/>
+EXECUTE _x_ <br/>
+
+
+We have 3 groups: <br/>
+
+USER _u_ <br/>
+GROUP _g_ <br/>
+OTHER _o_ <br/>
+
+
+__EXAMPLES__ <br/>
+
+>chmod o-x file1
+>chmod g+r file1
+>chmod +w file1
+>chmod go-w file1
+
+<br/>
+
+>sudo chmod ugo +rwx -R folder3
+
+* Where -R is _recursive_ <br/>
+
+
+__change owner permissions__ <br/>
+
+>chown lf file3
+
+
+__add a user to a group__ <br/>
+
+>add user lf vboxusers
+
+* Where lf is a _user_ and vboxusers is a _group_ <br/>
+
+__create a user__ <br/>
+
+>useradd lf
+
+__generate a password for a user__ <br/>
+
+>passwd lf
+
+* Where lf is the user to give a _password_ <br/>
+
 
 __remove the read permissions__
 
@@ -142,6 +196,7 @@ __change group__
 ```terminal
 chgrp security newIDs
 ```
+
 
 ---
 
@@ -195,6 +250,7 @@ __free__
 We can see the use of memmory of the system. It is better with _-h_ (for Humans) <br/>
 
 ## grep
+
 Command used as a filter to search keywords to find information. Usually used with __pipes__ (|). <br/>
 
 
@@ -272,33 +328,6 @@ To __upgrade__ to a new version our installed packages, we can use: <br/>
 apt-get upgrade
 ```
 
-#### Create a temporary alias
-
-```terminal
-alias aliasname='df . | awk "NR=2" | cut -d " " -f 1'
-```
-
-We need the command "alias" + the name of our alias + "=" + the command line in simple quotes. <br/>
-To execute the command, just type the alias name. If we close the terminal, this alias is gone. <br/>
-
-#### Create an alias
-
-```terminal
-vi ~/.bashrc
-```
-
-We look for alias. There we can see if the ~/.bash_aliases file exists.<br/>
-In that file, we can load all the alias we need the same way than temporary alias. <br/>
-
-We need the command "alias" + the name of our alias + "=" + the command line in simple quotes. <br/>
-__We need to restart the terminal or write:__ <br/>
-
-```terminal
-. ~/.bash_aliases
-```
-
-To execute the command, just type the alias name. <br/>
-
 __Knowing the console we are working with__ <br/>
 
 Just type: <br/>
@@ -306,6 +335,47 @@ Just type: <br/>
 ```terminal
 echo $SHELL
 ```
+
+__show gateways__ <br/>
+
+>route -n
+
+
+## Vi
+
+>vi file.txt
+
+__i__ Insert Mode <br/>
+
+_Esc_ Exit to command mode <br/>
+
+__:w__ Save <br/>
+
+__:q__ Exit <br/>
+
+__:q!__ Exit without save <br/>
+
+__:x__ Save and Exit <br/>
+
+_x_ Deletes a character <br/>
+
+_3x_ Deletes 3 characters <br/>
+
+_dd_ Deletes a line <br/>
+
+_3dd_ Deletes 3 lines <br/>
+
+_dw_ Deletes a word <br/>
+
+_p_ Paste before the cursor <br/>
+
+_P_ Paste after the cursor <br/>
+
+_o_ Insert below line <br/>
+
+_O_ Paste above line <br/>
+
+
 
 #### Create a script
 
@@ -330,6 +400,7 @@ chmod +x sayHello.sh
 ```
 
 Then we just run: __./sayHello.sh__ <br/>
+
 
 #### Run any script from anywhere
 
@@ -512,22 +583,8 @@ find ~ -type d -iname *python*
 
 ~ from home directory <br/>
 __d__ directories <br/>
-_iname_ it dowsn't matter if it's uppercase or lowercase. <br/>
+_iname_ it doesn't matter if it's uppercase or lowercase. <br/>
 That contains the word _python_ <br/>
-
-#### rm
-
-__delete all PNG files__
-
-```terminal
-rm *.png
-```
-
-__delete all files, except...__
-```terminal
-rm !(*.html)
-```
-Delete all files except _.html_ files. <br/>
 
 
 __math operations__
@@ -677,11 +734,36 @@ __information about an image__ <br/>
 identify imagen.png
 ```
 
+__list files from previous folder__ <br/>
+
+>ls ../
+
+__list processes__ <br/>
+
+>ps -axf
+
+__hard disk used__ <br/>
+
+>du
+
+__hard disk left__ <br/>
+
+>df
+
+__groups where I am in__ <br/>
+
+>groups
+
+
 __read NEWS without suscription__ <br/>
 
 ```terminal
 lynx https://www.periodico.com/noticias/2022-05-08/forbidden_news.html
 ```
+
+__open an image from terminal__ <br/>
+
+>eog photo.jpg
 
 __generate QR Codes__ <br/>
 
@@ -786,9 +868,6 @@ file - preferences - shortcuts <br/>
 Check: __split terminal__, __collapse subterminal__, __right subterminal__ and __left subterminal__ <br/>
 
 
-## Emacs
-
-__exit__ Ctrl+x Ctrl+c
 
 ---
 ---
