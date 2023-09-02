@@ -339,6 +339,33 @@ AV by default has a Hash signature, we have to edit the file: <br/>
 
 >. .\new_powerview.ps1
 
+### ACL - Access Control List
+
+Lists to manage and control access permitions
+
+
+### KERBEROS
+
+Authentication Protocol for Active Directory. <br/>
+
+We can use wireshark to scan Kerberos (KRB5) where we can find: <br/>
+
+* AS-REQ (Authentication Service Request) - Sends cname and sname
+* KRB Error: KRB5KDC_ERR_PREAUTH_REQUIRED
+  * User exists! - DC Requires a cipher Timestamp, otherwise: PRINCIPAL_UNKNOWN
+* AS-REP (Authentication Service Reply)
+* TGS (Ticket Granted Service)
+
+>We can use kerbrut
+
+>We can use Rubeus
+
+https://github.com/GhostPack/Rubeus <br/>
+
+* Go to __Compile Instructions__
+* __Install__ .Net Development Desktop from Visual Studio in the given link.
+* Open project (Choose _Rubeus.sln_)
+* Select Rubeus folder and go to __Compile__
 
 
 
