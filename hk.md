@@ -313,6 +313,12 @@ Stores information about users, groups and passwords. <br/>
 
 The SAM DB is checked by the __LSA__ Local Security Authority <br/>
 
+SAM is for cached credentials <br/>
+
+We can see them in C:\Users\jhon\Desktop\logonSessions\logonsessions.exe <br/>
+
+NTDS (NT Directory Server)
+
 ### LDAP - Lightweight Directory Access Protocol
 
 Is an Application Protocol that lets interact with Directory Services to store, read or modify information. <br/>
@@ -329,7 +335,7 @@ __copy from kali linux to windows__ <br/>
 
 __run PowerView__ <br/>
 
-AV by default has a Hash signature, we have to edit the file: <br/>
+AV's by default has a Hash signature, we have to edit the file to skip them: <br/>
 
 * From Kali Linux:
 
@@ -421,9 +427,6 @@ Install python installer: <br>
 ### RSTP
 
 
-
-
-
 inurl:/Portal/portal.mwsl
 inurl:"view/view.shtml?id="
 bettercap
@@ -433,3 +436,20 @@ set arp.spoof.targets 192.168.1.4
 arp.spoof on
 net.sniff on
 
+
+
+---
+
+---
+
+#      👁️👁️  
+
+## WEB
+
+>We can use subfinder
+
+* git clone https://github.com/projectdiscovery/subfinder.git
+* cd subfinder/v2/cmd/subfinder
+* go build .
+* mv subfinder /usr/local/bin/
+* subfinder -h
