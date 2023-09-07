@@ -92,28 +92,38 @@ rm file1 <br />
 
 __Deletes a directory with other files or directories__ <br />
 rm -rf important <br />
-__YOU HAVE TO BE VERY CAREFULLY WITH THIS DANGEROUS COMMAND__ ❗
+__YOU HAVE TO BE VERY CAREFULLY WITH THIS DANGEROUS COMMAND__ ❗ <br/>
 
 <br/>
 
-__create a folder with the current date in the name__
+__create a folder with the current date in the name__ <br/>
 
 ```terminal
 mkdir "$(date+"%Y-%m-%d")"
 ```
-__delete all PNG files__
+
+__delete all PNG files__ <br/>
 
 ```terminal
 rm *.png
 ```
 
-__delete all files, except...__
+__delete all files, except...__ <br/>
+
 ```terminal
 rm !(*.html)
 ```
 Delete all files except _.html_ files. <br/>
 
+__status error last command__ <br/>
+
+```terminal
+$?
+```
+
+
 ---
+
 
 ## PERMISSIONS
 
@@ -314,7 +324,54 @@ We can delete lines: <br/>
 sed '/pattern/d' file.txt 
 ```
 
-_
+---
+
+## SYSTEMCTL
+
+__Status__ <br/>
+
+```terminal
+sudo systemctl status apache
+```
+
+__Enable service__ <br/>
+
+```terminal
+sudo systemctl enable apache
+```
+
+## LOGS
+
+We can find them in: <br/>
+>/var/log
+
+
+__status__ <br/>
+
+```terminal
+sudo systemctl status apache
+```
+
+__disk used for logs__ <br/>
+
+```terminal
+sudo systemctl --disk-usage
+```
+
+__times system was reboot__ <br/>
+
+```terminal
+sudo systemctl --list-boots
+```
+
+__info by level__ <br/>
+
+```terminal
+sudo systemctl -p crit
+sudo systemctl -p err
+sudo systemctl -p info
+```
+
 
 
 
