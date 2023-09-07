@@ -294,23 +294,27 @@ grep file file.txt -n | cut -d ":" -f 1
 
 ## sed (Stream EDitor)
 
-We can replace text:
+We can replace text: <br/>
 
 ```terminal
 echo "hello there" | sed 's/there/here/'
 ```
 
-__cut__ <br/>
+
+We can delete lines: <br/>
 
 ```terminal
-echo "hello there i am here" | cut -f 5 -d " "
+sed '/pattern/d' file.txt 
 ```
 
-Where -f is the number of element and -d is the delimiter.
 
+We can delete lines: <br/>
 
-__awk__ <br/>
+```terminal
+sed '/pattern/d' file.txt 
+```
 
+_
 
 
 

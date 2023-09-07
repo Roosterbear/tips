@@ -421,23 +421,6 @@ Install python installer: <br>
 >rtspbrute -t target.txt
 
 
-
-### SNMP
-
-### RSTP
-
-
-inurl:/Portal/portal.mwsl
-inurl:"view/view.shtml?id="
-bettercap
-net.probe on
-net.show
-set arp.spoof.targets 192.168.1.4
-arp.spoof on
-net.sniff on
-
-
-
 ---
 
 ---
@@ -446,10 +429,17 @@ net.sniff on
 
 ## WEB
 
->We can use subfinder
+>we can use subfinder
 
-* git clone https://github.com/projectdiscovery/subfinder.git
-* cd subfinder/v2/cmd/subfinder
-* go build .
-* mv subfinder /usr/local/bin/
-* subfinder -h
+>we can use whatweb
+
+>we can use gobuster
+
+>we can use nuclei
+
+>we can use nikto
+
+>we can use ffuf to fuzzing
+
+>we can use burp suite
+
