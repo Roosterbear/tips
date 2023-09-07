@@ -292,6 +292,28 @@ __find line numbers where is a text__ <br/>
 grep file file.txt -n | cut -d ":" -f 1
 ```
 
+## sed (Stream EDitor)
+
+We can replace text:
+
+```terminal
+echo "hello there" | sed 's/there/here/'
+```
+
+__cut__ <br/>
+
+```terminal
+echo "hello there i am here" | cut -f 5 -d " "
+```
+
+Where -f is the number of element and -d is the delimiter.
+
+
+__awk__ <br/>
+
+
+
+
 ---
 
 #### installing stuff
@@ -826,47 +848,7 @@ We can see all the available boxes with: '_boxes -l_' and change it with:<br/>
 ```terminal
 echo mensaje | boxes -d stone
 ```
-
----
-
-### The Terminal
-
 __change console:__ sh - bash - zsh <br/>
-_we got to have zsh installed_ <br/>
-__install oh my zsh plugin:__ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" <br/>
-__install Powerlevel10k:__ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k <br/>
-__install emacs__ <br/>
-```terminal
-sudo apt-get update
-sudo apt-get install emacs 
-```
-Options - Customize Emacs - Custom Themes - Wombat
-
-__config .zshrc__ In home folder <br/>
-__ZSH_THEME__="powerlevel10k/powerlevel10k" <br/>
-<br/>
-
-__CLOSE TERMINAL__ <br/>
-<br/>
-
-__CONFIG TERMINAL WITH POWER LEVEL 10k__ <br/>
-<br/>
-
-__config .p10k.zsh__ In home folder <br/>
-1.- Comment all with _alt+x_ in __typeset__ -g POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS <br/>
-Keep _ip_ and _status_ <br/>
-2.- Just keep __os_icon__ and __dir__  in __typeset__ -g POWERLEVEL9K_LEFT_PROMPT_ELEMENTS <br/>
-
-__install zsh plugins from github for oh my zsh__ <br/>
-Install _zsh-autosuggestions_ and _zsh-syntax-highlighting_ <br/>
-Add to __.zshrc__ in plugins the plugins above. (Juste leave a __space__ between each plugin)<br/>
-
-__config terminal__ <br/>
-
-file - preferences - shortcuts <br/>
-
-Check: __split terminal__, __collapse subterminal__, __right subterminal__ and __left subterminal__ <br/>
-
 
 
 ---
