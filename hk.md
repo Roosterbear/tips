@@ -451,6 +451,10 @@ Install python installer: <br>
 
 >we can use cyberchef
 
-> We can use Load Balancing Detector
+>we can use Load Balancing Detector
 
-> We can use halberd
+>we can use halberd
+
+>we can use wafw00f
+
+>we can use FatRat
