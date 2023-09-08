@@ -443,3 +443,14 @@ Install python installer: <br>
 
 >we can use burp suite
 
+>we can use commix
+
+>we can use changeme
+
+>we can use gitleaks
+
+>we can use cyberchef
+
+> We can use Load Balancing Detector
+
+> We can use halberd
