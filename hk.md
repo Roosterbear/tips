@@ -470,7 +470,16 @@ wget http://192.168.20.137:8000/myfile.txt
 impacket-smbserver -smb2support test .
 ```
 
-Where test is 
+Where test is our shared folder and the "." is "this folder" <br/>
+We can acces from: \\192.168.20.137 and it will show our __test__ folder. <br/>
+
+From terminal, we can copy: <br/>
+
+```terminal
+copy \\192.168.20.137\test\test2.txt test2.txt
+```
+
+
 
 
 
