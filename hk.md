@@ -479,7 +479,16 @@ From terminal, we can copy: <br/>
 copy \\192.168.20.137\test\test2.txt test2.txt
 ```
 
+Annonymous FTP Server: <br/>
 
+```terminal
+twistd3 -n ftp -r .
+```
+
+```powershell
+ftp
+open 192.168.20.137 2121
+```
 
 
 
