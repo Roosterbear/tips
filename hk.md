@@ -500,6 +500,7 @@ open 192.168.20.137 2121
 #      👁️👁️  
 
 ## WEB
+
 >we can use netcat
 
 >we can use subfinder
@@ -532,7 +533,7 @@ open 192.168.20.137 2121
 
 >we can use FatRat
 
->we can use shodan
+>we can use Shodan
 
 >we can use port forwarding
 
@@ -542,6 +543,8 @@ open 192.168.20.137 2121
 
 >we can use msfconsole
 
+>we can use Beef
 
+>we can use cain
 
 
