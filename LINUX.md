@@ -2,6 +2,13 @@
 
 ## Linux commands for fun ⚙️ 
 
+### Shortcuts
+
+_ctrl+alt+t_ Open a new terminal <br/>
+_ctrl+L_ Clears the screen <br/>
+
+
+
 ### ls
 Lists the content of the current directory <br />
 -a _including hidden files_ <br />
