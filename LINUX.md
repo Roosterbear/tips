@@ -270,6 +270,36 @@ We can see the use of memmory of the system. It is better with _-h_ (for Humans)
 
 Command used as a filter to search keywords to find information. Usually used with __pipes__ (|). <br/>
 
+Its name is from g/re/p __Globally__ Regular Expression __Print__ <br/>
+
+<br/>
+
+__Literally__ <br/>
+
+We can use -F option or fgrep to ask for literal results as: <br/>
+
+>echo 'int a[5]' | grep -F 'a[5]'
+>echo 'int a[5]' | fgrep 'a[5]'
+
+<br/>
+
+__Case 'Insensitive' search__ <br/>
+
+>grep -i 'jam' quotes.txt
+_use regular expressions. Now they have two problems by Jamie Zawinski_ <br/>
+
+<br/>
+
+__Invert search__ <br/>
+
+>seq 5 | grep -v '3'
+1 <br/>
+2 <br/>
+4 <br/>
+5 <br/>
+
+<br/>
+
 
 __find lines with a text__ <br/>
 
@@ -308,6 +338,11 @@ __find line numbers where is a text__ <br/>
 ```terminal
 grep file file.txt -n | cut -d ":" -f 1
 ```
+
+Where __-n__ says the number of line <br/>
+Then we cut the rest, since we get the line, colon and the search. <br/>
+
+
 
 ## sed (Stream EDitor)
 
