@@ -562,7 +562,7 @@ position: fixed;
 
 Ejm. <br/>
 Make a blue rectangle 500px width, 300px height and 200px top-left from parent. <br/>
-Put a red circle 200px width and 150px top and 250px left.
+Put a red circle 200px width and 150px top and 250px left. <br/>
 
 __vertical centering__ <br/>
 
@@ -581,9 +581,26 @@ nav ul li{
   clear: both; // We have to include a div with this class after the menu
 }
 ```
+## VARIABLES
+
+we can assign variables: <br/>
+
+```css
+:root{
+  --primary-color: white;
+}
+```
+
+We can use them: <br/>
+
+```css
+p{
+  color: var(--primary-color);
+}
+```
 
 ## BOXES
-                                                                                                                                                                                                            
+                                                                                                                                                                     
 The elements in CSS has layers from center to the extreme. <br/>
 The first level is the content in itself. <br/>
 We can have a border outside the content. It can have color and width. <br/>
@@ -864,7 +881,8 @@ Instead: <br/>
 ```
 
 We can: <br/>
-```sass
+
+```css
 .nav{
   list-style: none;
     
