@@ -555,4 +555,6 @@ open 192.168.20.137 2121
 
 >we can use cain
 
+>check Apache Guacamole
 
+>check meshcentral
