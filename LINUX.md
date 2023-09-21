@@ -957,6 +957,24 @@ __change console:__ sh - bash - zsh <br/>
 ---
 ---
 
+## ---BASH---
+
+>#!usr/bin/env bash
+
+### We must not let blank spaces between equal sign
+>world="world"
+
+### %s is for a string variable
+### remember to add a $ to PRINT or CALL variables
+>printf "Hello %s$world\n"
+
+
+
+
+
+---
+---
+
 ## TIP for MAC 🍎 
 To access a folder in our network, we choose "Go" in the main menu. <br/>
 Then "Conect to server" <br/>
