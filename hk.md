@@ -2,6 +2,14 @@
 
  <br/>
 
+## ---CONCEPTS---
+
+__NAT:__ _Network Address Translation_ <br/>
+
+
+
+
+
 ## ---VIRTUALIZATION---
 
 You can get Virtualbox or __VMWare Workstation Player__ for free. <br/>
