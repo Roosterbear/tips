@@ -154,7 +154,7 @@ _mx_ is for __mail exchange__ <br/>
 
 >whatweb 192.168.1.1-192.16.1.255 --agression 3 -v --no-errors
 
-### SNORT
+### SNORT By Cisco
 
 __IDS__ Intrusion Detection System <br/>
 __IPS__ Intrusion Prevention System <br/>
