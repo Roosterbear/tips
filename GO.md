@@ -26,5 +26,9 @@ func main(){
 >Compile: go build program.go and then exec our program
 >Compile without creating or saving the executable: go run program.go
 >Runes are simple characters in single quotations and may contain almost any character
+>Go does not allow useless variables
+>We can not use parenthesis in loops and conditions
+>In packages use lowercase ALWAYS, no dashes, underscores or Capitalize
+
 
 
