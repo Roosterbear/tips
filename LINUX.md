@@ -7,8 +7,6 @@
 _ctrl+alt+t_ Open a new terminal <br/>
 _ctrl+L_ Clears the screen <br/>
 
-
-
 ### ls
 Lists the content of the current directory <br />
 -a _including hidden files_ <br />
@@ -70,6 +68,17 @@ We can see the last __10__ lines of a file with: <br/>
 ```terminal
 tails file.txt
 ```
+
+### nl
+
+We can number the rows by:
+
+
+```terminal
+nl /etc/snort/snort.conf
+```
+
+
 
 ### path expansion ♨️ 
 
