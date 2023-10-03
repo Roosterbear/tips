@@ -10,6 +10,24 @@ __JDK__ Java Development Kit <br/>
 
 Let instalation in root folder <br/>
 
+## CONCEPTS
+
+### Class
+
+A __template__ that describes the kinds of state and behavior that objects of its type support. <br/>
+
+### Object
+
+At runtime, when the Java Virtual Machine (JVM) encounters the _new_ keyword, it will use the appropiate __class__ to make an object which is an instance of that class. That object will have its own __state__, and __access__ to all the behaviors defined by his class. <br/>
+
+### State (_instance variables_)
+
+Each __object__ (_instance of a class_) will have its own unique set of instance variables as defined in the class. Collectively, the values assigned to an object's instance variables make up the object's state. <br/>
+
+### Behavior (_methods_)
+
+When a programmer creates a class, he creates methods for that class. Methods are where the class logic is stored. Methods are where the real work gets done. They are where algorithms get executed, and data gets manipulated.
+
 
 __JShell__  <br/>
 
