@@ -440,6 +440,18 @@ const flecha = ()=>{
 }
 ```
 
+
+🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 <br/>
+__Is extremely important to remeber that we must NOT use arrow functions as methods!__ <br/>
+_Arrow functions DO NOT have THIS_ <br/>
+### We can use arrow functions inside a method, BUT not AS methods.
+🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 <br/>
+<br/>
+
+
+
+
+
 __functions accepting callback functions__ <br/>
 
 We are going to create a function that takes a set of words and replaces them with a single string <br/>
