@@ -1,5 +1,21 @@
 # Javascript
 
+We can add Javascript code in an HTML file with the __script__ tag. <br/>
+
+
+```html
+<script src="app.js"></script>
+```
+
+* Normally we use to write that line above the _body_ close tag
+* We can add that line inside the _head_ tag, but sometimes we get troubles because the JS code requires the DOM to be loaded.
+
+In that cases where we have to add the line inside the head tag, we can use: <br/>
+
+* A listener with DOMContentLoaded to enclose our code.
+* Add __defer__ inside the _script_ open tag.
+
+
 ## LET
 Used instead _var_ to declare variables in the new standard. <br/>
 Javascript read all the _var_ variables first. Every __let__ is read when is created. <br/>
