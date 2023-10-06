@@ -73,12 +73,9 @@ tails file.txt
 
 We can number the rows by:
 
-
 ```terminal
 nl /etc/snort/snort.conf
 ```
-
-
 
 ### path expansion ♨️ 
 
@@ -136,8 +133,6 @@ __status error last command__ <br/>
 ```terminal
 $?
 ```
-
-
 ---
 
 
@@ -422,9 +417,6 @@ sudo systemctl -p crit
 sudo systemctl -p err
 sudo systemctl -p info
 ```
-
-
-
 
 ---
 
