@@ -1,6 +1,7 @@
 # Ruby on Rails
 
 * Think about Rails as a huge Ruby Library. <br/>
+* Rails provides a _framework,_ that is, a software library that provides utilities, conventions, and organizing principles to allow us to build complex web applications.
 * Usually, web applications accept user requests, query databases and responds with data rendered in templates. <br/>
 
 ### Don't repeat yourself
@@ -9,8 +10,19 @@
 ## Installation
 
 * Check Ruby installation <br/>
+* Install _RVM_ Ruby Version Manager <br/>
 
-## Start Project 'project'
+### See Ruby versions
+
+>rvm list
+
+### Create a gemset
+
+>rvm use ruby-2.4.1@lear-rails --create
+>gem install rails
+
+
+### Start a Project
 
 >rails new project
 >cd project
