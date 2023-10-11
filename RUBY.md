@@ -96,12 +96,33 @@ a_person = Person.new
 puts a_person.name
 ```
 
-
-
-
 ## Symbols
 
 * They are made of characters, but have a colon (_:_) before them. <br/>
 * They are _UNIQUE_ <br/>
 * In Hashes, they are used as _KEYS_
+
+## CLEAN CODE
+
+### Readability
+
+```ruby
+def sum(a,b)
+  a+b
+end
+```
+### Extensibility
+
+```ruby
+def log(message, level)
+  puts "#{level.to_s.upcase}: #{message}"
+end
+```
+
+### Simplicity
+
+```ruby
+log("An error occurred", :error)
+```
+
 
