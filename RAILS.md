@@ -1,43 +1,25 @@
-# Ruby and Rails
+# Ruby on Rails
+
+* Think about Rails as a huge Ruby Library. <br/>
+* Usually, web applications accept user requests, query databases and responds with data rendered in templates. <br/>
+
+### Don't repeat yourself
+### Convention over configuration
 
 ## Installation
 
->ruby -v
->sudo apt-get update
->sudo apt-get install ruby-full
->ruby -v
->gem install rails
->rails -v
->gem install bundler
+* Check Ruby installation <br/>
 
-_if it is not ruby current version:_ <br/>
->rvm use ruby-3.2.0
-_if rvm is not installed:_ <br/>
->\curl -sSL https://get.rvm.io | bash -s stable
->rvm list known
+## Start Project 'project'
 
----
----
-
-# RUBY
-
-
-
----
----
-
-
-# RAILS
-
-## Start Project 'cabinet'
-
->rails new cabinet
+>rails new project
+>cd project
 
 __run server__ <br/>
 
 >rails server
 
-* We currently use __Puma__ as Web server, and not _WEBrick_
+* We currently use __Puma__ as Web server, and not _WEBrick_ 
 
 
 
