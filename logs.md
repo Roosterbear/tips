@@ -18,3 +18,4 @@
 
 >Dejar solo una imagen de cada categoria en el sitio web
 >Hacer pruebas con tamaños y compresiones de imagenes, desactivar plugin, etc.
+>Respaldo y actualización de plugins
