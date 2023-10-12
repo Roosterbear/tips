@@ -14,3 +14,7 @@
 >Descargar nuevamente las imágenes originales de los correos
 >Respaldar imágenes originales intactas en disco externo
 
+## 11/10/2023
+
+>Dejar solo una imagen de cada categoria en el sitio web
+>Hacer pruebas con tamaños y compresiones de imagenes, desactivar plugin, etc.
