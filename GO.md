@@ -61,3 +61,26 @@ hello hello.go
 $ file hello
 hello: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, not stripped
 ```
+### Go Doc Documentation
+
+The __go doc__ command lets you interrogate documentation about a _package, method or variable._ This documentation is embedded as comments through your code. 
+
+```bash
+go doc fmt.Println
+```
+
+### Go Get Command
+
+If we have: <br/>
+
+```go
+package main
+
+import(
+"fmt"
+"net/http"
+"github.com/stacktitan/ldapauth"
+)
+```
+
+The last line import a package, but we can't access quite yet.
