@@ -103,37 +103,122 @@ rm file1 <br />
 -r _recursively_ <br />
 -f _force_ <br />
 
-__Deletes a directory with other files or directories__ <br />
+### Deletes a directory with other files or directories
 rm -rf important <br />
 __YOU HAVE TO BE VERY CAREFULLY WITH THIS DANGEROUS COMMAND__ ❗ <br/>
 
 <br/>
 
-__create a folder with the current date in the name__ <br/>
+### Create a folder with the current date in the name
 
 ```terminal
 mkdir "$(date+"%Y-%m-%d")"
 ```
 
-__delete all PNG files__ <br/>
+### Delete all PNG files
 
 ```terminal
 rm *.png
 ```
 
-__delete all files, except...__ <br/>
+### Delete all files, except...
 
 ```terminal
 rm !(*.html)
 ```
 Delete all files except _.html_ files. <br/>
 
-__status error last command__ <br/>
+### Status error last command
 
 ```terminal
 $?
 ```
 ---
+
+
+### Access USB
+
+We can see them in: <br/>
+
+```bash
+cd /media/user
+```
+
+or <br/>
+
+```bash
+cd /mnt/user
+```
+
+## COMPRESSION
+
+
+### Tarring
+
+We can compress lossy (_.mp3, .flac, .mp4, .png, .jpg_) and lossless ( _.tar, .zip, .rar_). <br/>
+
+To compress, we can tar them, it means, grouping them in a file. <br/>
+
+```bash
+tar -cvf MyCompressions.tar file1.txt file2.txt
+```
+
+Let's analyze the __-cvf__ parameters: <br/>
+
+* __c__ create
+* __v__ verbose
+* __f__ the following file
+
+See files in a __.jar__ file: <br/>
+
+```bash
+tar -tvf MyCompressions.tar
+```
+
+Extract files from a __.jar__file: <br/>
+
+```bash
+tar -xvf MyCompressions.tar
+```
+
+### Compressing
+
+* __gzip__ with extension _.tar.gz_ or _.tgz_ FASTER
+* __bzip2__ with extension _.tar.bz2_ SLOWEST - SMALLEST
+
+
+#### gzip
+
+Compress: <br/>
+
+```bash
+gzip MyCompressions.tar
+```
+__NOTICE__ that MyCompressions.tar was replaced by _MyCompressions.tar.gz_ !!!
+
+Uncompress: <br/>
+
+```bash
+gunzip MyCompressions.tar.gz
+```
+__NOTICE__ _MyCompressions.tar_ is back and _MyCompressions.tar.gz_ is gone !!!
+
+
+#### bzip2
+
+Compress: <br/>
+
+```bash
+bzip2 MyCompressions.tar
+```
+
+Uncompress: <br/>
+
+```bash
+bunzip2 MyCompressions.tar.gz
+```
+
+
 
 
 ## PERMISSIONS
