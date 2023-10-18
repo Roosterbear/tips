@@ -19,3 +19,11 @@
 >Dejar solo una imagen de cada categoria en el sitio web
 >Hacer pruebas con tamaños y compresiones de imagenes, desactivar plugin, etc.
 >Respaldo y actualización de plugins
+
+## 16/10/2023
+
+>Regresar las imagenes que estaban
+
+## 17/10/2023
+
+>Regresar las imagenes que estaban
