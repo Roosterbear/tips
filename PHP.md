@@ -10,7 +10,13 @@ Stop service lampp in Linux: <br/>
 
 >./xampp stop
 
- 
+We can use: <br/>
+
+```php
+<?php
+phpinfo();
+?>
+```
 
 ## Constants
 
