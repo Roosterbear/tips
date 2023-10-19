@@ -1,5 +1,10 @@
 # ELECTRONICS
 
+## VOLTAGE
+
+Conducts electrical energy with greater o lesser power. <br/>
+Its units are __Volts__ <br/>
+
 ## CURRENT
 
 The meaning of current in electronics is close to that of the current in a river. <br/><br/>
@@ -7,6 +12,12 @@ The meaning of current in electronics is close to that of the current in a river
 Is the amount of charge carried by electrons passing a point in a wire per second. <br/><br/>
 
 The unit of current is the __Ampere__ abbreviate as _amp_<br/><br/>
+
+
+## RESISTENCE
+
+Is the opposition to the flow of electrons to move through a conductor. <br/>
+Its unit is __Ohms__ <br/>
 
 ## Ohms
 
