@@ -20,6 +20,15 @@ Material that has very high resistence to electricity, like the plastic sheaths 
 
 Material with very LOW resistence to electricity as copper, aluminium, silver and gold.
 
+## Ohm Law
+
+I = V/R <br/>
+V = I*R <br/>
+R = V/I <br/>
+
+* __R__ Resistence
+* __I__ Current
+* __V__ Voltage
 
 ## MATERIALS
 
@@ -32,11 +41,44 @@ Material with very LOW resistence to electricity as copper, aluminium, silver an
 * Potentiometer (Panel mount, Single turn, 2k linear, 0.1 - 0.5 watts)
 * Resistors (1/4-watt, 470, 1k, 2k, 2.2 ohms)
 * LED [Light Emitting Diode] Any size and color
+* Protoboard
 
 ### The Meter
 
 * Black wire (lead) is for COM
 * Red wire (lead) is for V
+
+__PRECISION vs ACCURACY__ <br/>
+
+__Precision__ is give the same results <br/>
+__Accuracy__ is give the right result <br/>
+
+### PROTOBOARD
+
+* Lines with numbers are communicated 
+* The 2 lines in both sides between lines pink and blue are communicated too
+
+
+### USB 2.0
+
+* Has 4 cables
+* Black: Negative
+* Red: Positive
+* White: Data +
+* Green: Data -
+
+### COMPONENTS TECHNOLOGY
+
+* Through Hole Techonoly (THT)
+* Surface Mount Device (SMD)
+
+### CAPACITORS
+
+Used to store and release Electrical Energy in a circuit. <br/>
+Its main function is to store electrical charge and release it when neccessary.
+
+
+
 
 
 
