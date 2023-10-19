@@ -27,3 +27,13 @@
 ## 17/10/2023
 
 >Regresar las imagenes que estaban
+
+## 18/10/2023
+
+>Terminar de regresar las imagenes que estaban
+>Ver como agregar imagen grande como link de pagina a cada tatuaje
+
+## 19/10/2023 ---
+>Revisar características tatuaje que todos tengan y de forma correcta
+>Agregar imagen grande a cada tatuaje para que salga en la pagina principal
+>Borrar caracteristicas de tatuaje largas que no sirvan
