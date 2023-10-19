@@ -10,9 +10,7 @@ __JDK__ Java Development Kit <br/>
 
 Let instalation in root folder <br/>
 
-## CONCEPTS
-
-### Class
+## CLASS
 
 A __template__ that describes the kinds of state and behavior that objects of its type support. <br/>
 
@@ -29,7 +27,7 @@ Each __object__ (_instance of a class_) will have its own unique set of instance
 When a programmer creates a class, he creates methods for that class. Methods are where the class logic is stored. Methods are where the real work gets done. They are where algorithms get executed, and data gets manipulated.
 
 
-__JShell__  <br/>
+### JShell
 
 * __jshell__ to open the java shell
 * __/exit__ to exit
@@ -88,12 +86,19 @@ outer: for(int j = 0; j<=10; j++){
 }
 ```
 
-__arrays__ <br/>
+## ARRAYS
 
 Defining: <br/>
 
+__RECOMMENDED__ <br/>
 >double[] = array;
+
+_Legal but less readable_ <br/>
 >double array[];
+
+It's __NOT LEGAL__ to include the size of the array in your declaration. <br/>
+The __JVM__ doesn't  allocate space until you actually instantiate the array __OBJECT__ <br/>
+
 
 Both are right!! <br/>
 
@@ -107,6 +112,8 @@ int data[] = {
 
 Check the last __comma__ it is right that way! <br/>
 
+
+## ITERATIONS
 
 __enhanced FOR__ <br/>
 
@@ -126,12 +133,12 @@ for(;i<5;){
 }
 ```
 
-__constants__ <br/>
+## CONSTANTS
 
 >static final int MAX_SIZE = 1024;
 >static final boolean DEBUG = true;
 
-__random__ <br/>
+### RANDOM
 
 ```java
 int dice = (int)(Math.random()*6+1);
@@ -141,15 +148,13 @@ int dice = (int)(Math.random()*6+1);
 * If we multiply __by 6__ we get the numbers to consider
 * Math.random starts by 0, we need to __add 1__ to avoid this
 
-__strings__ <br/>
 
-## STRINGS IN JAVA ARE IMMUTABLE
+## STRINGS
+
+_STRINGS IN JAVA ARE IMMUTABLE_ <br/>
 
 ### StringBuilder
 
 StringBuilder sb = new StringBuilder();
 sb.append("Hola Mundo");
-
-<!-- TODO: A test with System.currentTimeMillis() -->
-
 
