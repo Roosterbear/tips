@@ -1,6 +1,34 @@
 # PYTHON
 
-## Python by all means
+Python by all means <br/>
+
+## PRINT
+
+```python
+print("Hello World !")
+```
+
+## INPUT
+
+```python
+print("Hola " + input("Como te llamas: "))
+```
+
+## VARIABLES
+
+```python
+name = input("Como te llamas? ")
+print("Mucho gusto "+name+", mi nombre es Mishelin")
+```
+
+## LEN
+
+```python
+name = input("Como te llamas? ")
+print("Mucho gusto "+name+", mi nombre es Michel")
+print("...sabias que tu nombre tiene "+str(len(name))+" letras?")
+```
+
 
 __sockets__ <br/>
 
