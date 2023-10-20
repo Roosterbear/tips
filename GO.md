@@ -69,7 +69,7 @@ The __go doc__ command lets you interrogate documentation about a _package, meth
 go doc fmt.Println
 ```
 
-### Go Get Command
+### Go Get Command / Go Modules
 
 If we have: <br/>
 
@@ -83,7 +83,40 @@ import(
 )
 ```
 
-The last line import a package, but we can't access quite yet.
+The last line import a package, but we can't access quite yet. <br/>
+
+__Current option:__ <br/>
+
+From your project root, exec: <br/>
+
+>go mod init
+
+It will create a _go.mod_ file. <br/>
+
+__Classic option:__ <br/>
+
+>go get github.com/stacktitan/ldapauth
+
+This command will download the package in the GOPATH. <br/>
+You can use it as:
+
+>import "github.com/stacktitan/ldapauth"
+
+To reload dependencies, run: <br/>
+
+>go get -u
+
+
+## SLICES AND MAPS
+
+__Slices__ are like arrays that you can dynamically resize and pass to function more efficiently. <br/>
+
+__Maps__ are associative arrays, unordered lists of key/value pairs that allow you to efficiently and quickly look up values for unique key. <br/>
+
+
+
+
+
 
 ### dep
 
