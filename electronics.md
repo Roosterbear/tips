@@ -5,13 +5,18 @@
 Conducts electrical energy with greater o lesser power. <br/>
 Its units are __Volts__ <br/>
 
+__VOLTAGE IS POTENTIAL__ <br/>
+
+
 ## CURRENT
 
 The meaning of current in electronics is close to that of the current in a river. <br/><br/>
 
-Is the amount of charge carried by electrons passing a point in a wire per second. <br/><br/>
+Its the amount of charge carried by electrons passing a point in a wire per second. <br/><br/>
 
 The unit of current is the __Ampere__ abbreviate as _amp_<br/><br/>
+
+__CURRENT IS ELECTRICITY IN ACTION__ <br/>
 
 
 ## RESISTENCE
@@ -40,6 +45,13 @@ R = V/I <br/>
 * __R__ Resistence
 * __I__ Current
 * __V__ Voltage
+
+## POWER
+
+The units of power are __WATTS__ <br/>
+
+power = (current)2 * resistence <br/>
+
 
 ## MATERIALS
 
