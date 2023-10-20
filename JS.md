@@ -1,4 +1,4 @@
-# Javascript
+# JAVASCRRIPT
 
 We can add Javascript code in an HTML file with the __script__ tag. <br/>
 
@@ -7,14 +7,17 @@ We can add Javascript code in an HTML file with the __script__ tag. <br/>
 <script src="app.js"></script>
 ```
 
-* Normally we use to write that line above the _body_ close tag
-* We can add that line inside the _head_ tag, but sometimes we get troubles because the JS code requires the DOM to be loaded.
+* Normally we used to write that line above the _body_ __CLOSE__ tag
+* We can add that line inside the _head_ tag, but sometimes we get troubles because the JS code requires the DOM to be loaded first.
 
 In that cases where we have to add the line inside the head tag, we can use: <br/>
 
-* A listener with DOMContentLoaded to enclose our code.
+* A listener with DOMContentLoaded to enclose our JS code.
 * Add __defer__ inside the _script_ open tag.
 
+```html
+<script src="app.js" defer></script>
+```
 
 ## LET
 Used instead _var_ to declare variables in the new standard. <br/>
@@ -31,7 +34,7 @@ We can create a scope with a function or a try-catch to block access to that var
 
 ## STRINGS
 
-__trim__ <br/>
+### TRIM
 
 Remove spaces at the start and the end of a text <br/>
 
@@ -55,7 +58,7 @@ let _text = text.trimEnd();
 ```
 <br/>
 
-__split__ <br/>
+### SPLIT
 
 Separates a text in characters into an Array. <br/>
 
@@ -65,13 +68,14 @@ let _text = text.split('');
 ```
 
 Separates a text by words based on a character into an Array <br/>
+In this case, we do not use any character, 
 
 ```javascript
 const text = "this is a text with spaces";
 let _text = text.split(' ');
 ```
 
-__join__ <br/>
+### JOIN
 
 Join the members of an Array, and can add a given character between them. <br/>
 
@@ -89,7 +93,7 @@ let procesado
 procesado = texto.split(" ").join("") // > "Textodeejemplo"
 ```
 
-__replace__ <br/>
+### REPLACE
 
 Replace the first occurrence of the first parameter with the content of the second parameter <br/>
 
@@ -98,7 +102,7 @@ const text = "HARRY POTTER";
 let movie = text.replace('H', 'Mr. H'); // Mr. HARRY POTTER
 ```
 
-__replace with regEx__ <br/>
+__replace with regEx to get rid blank spaces__ <br/>
 
 ```javascript
 const texto = "    Texto de ejemplo     "
@@ -110,12 +114,30 @@ __LOOK THAT regEx DOESN'T NEED QUOTES__ <br/>
 
 __expressions meanings__ <br/>
 
-__\s__ select blank spaces, tabs and line breaks <br/>
+__\s__ select blank SPACES, tabs and line breaks <br/>
 __+__  along with _\s_, takes more than one consecutive spaces <br/>
 __g__  allows tracking the process throughout the string <br/>
 <br/>
 
-__String interpolation__ <br/>
+
+__replace with regEx to get rid extra characters__ <br/>
+
+```javascript
+const texto = "Hola, este es un ejemplo!. No quiero signos como +, -, *. Tampoco guiones?. --"
+let procesado
+procesado = texto.toLowerCase().replace(/[]/gi, '')  
+```
+
+__expressions meanings__ <br/>
+
+__g__  GENERAL. Allows tracking the process throughout the string <br/>
+__i__  INDISTINCT. No matter if it is lowercase or uppercase <br/>
+<br/>
+
+
+
+
+## STRING INTERPOLATION
 We can add text with variables in a better way with the ``` ` ``` sign. <br/>
 
 ```javascript
@@ -130,7 +152,7 @@ console.log(message);
 
 ```
 
-__print in console__ <br/>
+## CONSOLE
 
 We can print a result or variables in the console to check our programs, and we can do it like:
 
@@ -176,9 +198,8 @@ We can create an array this way: <br/>
 const arreglo1 = [1,2,3,4,5,6,7];
 ```
 
-### Array Methods
+## FILTER
 
-__Filter__<br/>
 __Returns__ _a new array_ with the values that return true in a given condition.<br/>
 Iterates the array to evaluate every value within a condition. <br/>
 
@@ -188,7 +209,8 @@ hiWords = hiWords.filter(x=>x.indexOf("he")===0);
 console.log(hiWords);
 ```
 
-__Map__<br/>
+## MAP
+
 __Returns__ _a new array_ with the modified values of the array. <br/>
 
 ```javascript
@@ -213,6 +235,11 @@ __Some__<br/>
 
 
 __Every__<br/>
+
+🕦 
+
+
+__Reverse__<br/>
 
 🕦 
 
