@@ -2,17 +2,18 @@
 # Flexbox
 🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎 <br/>
 
-The Best way to layout inline blocks in ONE DIMENSION ALIGMENT. <br/>
-In some way, it moves like _mud in pipes_ <br/>
-
 __1.- We need a parent class to contain flexbox:__ <br/>
 
 ```css
 .container{
   display: flex;
-  gap: 1rem; // Space between elements
+  gap: 1rem; 
 }
 ```
+>gap is the space between elements
+
+* We need at last a child element.
+
 
 __2.- We need to add the direction at that container with flex-direction:__ <br/>
 
