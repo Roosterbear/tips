@@ -1,234 +1,19 @@
-# WEB
-
-## All about Web Programming
-
-### HTML, CSS and Tools
-
----
-
-# HTML
-
----
-
-### Basic structure
-
-We need tags to work with __HTML__<br/>
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="favicon.ico" />
-  <title>The Name of the Web Site</title>
-</head>
-<body>
-  <!-- All the content -->
-</body>
-</html>
-```
-
-
-### Fonts
-
-We can add new fonts this way: <br/>
-```html
-@font-face {
-  font-family: 'MyFont';
-  src: url('ruta/a/mifuente.woff2') format('woff2'),
-       url('ruta/a/mifuente.woff') format('woff');
-}
-
-.elemento {
-  font-family: 'MyFont', Arial, sans-serif;
-}
-```
-
-Google fonts to try...<br/>
-
-__Headers, Tittles__ <br/>
-Oswald, Amatic SC, Oregano, Alegreya, Flamenco, Lato, Tangerine, Lobster, GochiHand, <br/>
-Roboto, Merriweather, Raleway, Montserrat, Rock Salt, Cinzel, Poiret One, Indie Flower, Ruda, <br/>
-Permanent Marker, Kalam, Bangers, Gruppo, Cairo, Teko, Abril Fatface, Gloria Allelujah. <br/>
-
-__Content__ <br/>
-Source Sans Pro, Asap, Nunito, Open Sans, Cardo, Merriweather, Abel, Ruda, Teko, Arsenal, Homenaje, <br/>
-Signika Negative, Playfair Display.<br/>
-
-### Colors
-
-__AQUA__ _#00FFFF_ <br/>
-__BEIGE__ _#F5F5DC_ <br/>
-__BROWN__ _#A52A2A_ <br/>
-__CHOCOLATE__ _#D2691E_ <br/>
-__DARK GREY__ _#A9A9A9_ <br/>
-__STEEL BLUE__ _#4682B4_ <br/>
-__GOLD__ _#FFD700_ <br/>
-__WHEAT__ _#F5DEB3_ <br/>
-__INDIGO__ _#4B0082_ <br/>
-__IVORY__ _#FFFFF0_ <br/>
-__LAVENDER__ _#E6E6FA_ <br/>
-__MAROON__ _#800000_ <br/>
-__NAVY__ _#000080_ <br/>
-__OLIVE__ _#808000_ <br/>
-__ORANGE__ _#FFA500_ <br/>
-__SALMON__ _#FA8072_ <br/>
-__TOMATO__ _#FF6347_ <br/>
-__RUST__ _#B75B43_ <br/>
-__CHERRY__ _#B03060_ <br/>
-__IRISH__ _#369F69_ <br/>
-__SEA GREEN__ _#228A89_ <br/>
-__COPPER ROSE__ _#8F5555_ <br/>
-
-## Element
-The __HTML__ element has 3 elements: <br />
-Opening tag - Content - Closing tag
-```html
-<p>Hello World</p>
-```
-
-## Tag
-The tags has no text or closing tag:
-```html
-<br/>
-```
-
-## Attributes
-They go inside tag to enhance their self content. <br/>
-```html
-<div class="mi-clase">Hola</div>
-```
-It is a good practice to use double quotation mark to name the attributes, <br/>
-besides of to separate words with dashes.<br/>
-
-
-## Tables
-
-__Basic tags__ <br/>
-```html
-<table>
-  <tr>
-    <td>Data</td>
-  </tr>
-</table>
-```
-We need to create a new row with the tag: ```<tr>``` <br/>
-but we can add data inside tags like ```<td>``` only<br/>
-
-__Headers__ <br/>
-Instead using the tag ```<td>``` we use: ```<th>```<br/>
- 
-__Creating sections in a table__ <br/>
-We can create 3 extra sections and give them another look with styles thanks to tags: <br/>
-For headers: <br/>
-```html
-<thead>
-```
-For content: <br/>
-```html
-<tbody>
-```
-For footers: <br/>
-```html
-<tfoot>
-```
-
-__Join 2 columns:__
-```html
-<td colspan="2">
-```
-
-__Join 2 rows:__
-```html
-<td rowspan="2">
-```
-
-## Forms
-
-The main tag is ```<form>```<br/>
-Usually we have to add 4 items:<br/>
-__action:__ is the file that will handle our form<br/>
-__method:__ could be "_post_" or "_get_"<br/>
-__id:__ it is oriented to handle the element with CSS or javascript<br/>
-__name:__ it is oriented to the form submission<br/>
-
-__input__ <br/>
-It is used to get information from the user, and could be type: <br/>
-
-```html
-<input type="text">
-<input type="password">
-<input type="hidden">
-<input type="radio">
-<input type="checkbox">
-```
-<br/>
-
-__select__ <br/>
-It is used to give some options to choose: <br/>
-
-```html
-<select id="" name="" class="form-control">
-  <option value="0">Selecciona una opcion</option>
-  <option value="1">Opcion #1</option>
-  <option value="2">Opcion #2</option>
-</select>
-```
-
-__textarea__ <br/>
-It is like an input text, but bigger. <br/>
-```html
-<textarea rows="3"></textarea>
-```
-
-__radio button__ <br/>
-We have to use the same _name_ attribute to group radio buttons. <br/>
-We can distinguish them with the attribute _id_.<br/>
-To select a chosen we use the ```checked=checked``` or ```checked=true``` attribute<br/>
-Look at the next code:
-```html
-<input type="radio" name="sameol" id="radio1">Radio #1<br/>
-<input type="radio" name="sameol" id="radio2" checked="checked">Radio #2
-```
-
-__buttons__ <br/>
-
-```html
-<button>
-```
-
-We use the button tag when the button does an action inside the form or an especific job.
-
-```html
-<input type="button" value="Click me" onclick="miFuncion()">
-```
-
-We use input tag when we need an independent button to do an especififc job, and it's not asociated to a form.
-
-
-```html
-<a href="https://www.google.com" target="_blank">Visit Google</a>
-<a href="document.pdf" download>Download</a>
-```
-
-We use the 'a' tag when we need navigation actions or external links.
-
----
-
 # CSS
-
----
 
 There are 3 ways to add CSS code: <br/>
 
-1.- Adding a special extra file, for example: style.css and adding it's reference: <br/>
+* Adding a special extra file, for example: style.css and adding it's reference: <br/>
+
 ```html
 <link rel="stylesheet" href="style.css">
 ```
-2.- Between the ```<head>``` and ```</head>``` tags, adding the ```<style>``` and ```<style>``` tags <br />
-3.- And the less used and less recommended: Inside tags withe the "_style_" property.<br/>
+
+* Between the ```<head>``` and ```</head>``` tags, adding the ```<style>``` and ```<style>``` tags <br />
+
+
+* And the less used and less recommended: Inside tags withe the "_style_" property.<br/>
 (_still used in wordpress and old sites_). <br/>
+
 ```html
 <div style="background-color: #bbb;">Hello</div>
 ```
@@ -295,6 +80,7 @@ It will be __red__ <br/>
 
 <br/>
 
+
 ## FONTS 
 
 __measurements__ <br/>
@@ -352,6 +138,7 @@ We can add: disc, circle, upper-roman, lower-latin, square.
 
 ## PREFIXES
 Nowadays, it is not necessary to use prefixes (_-o, -moz, -webkit_), since browsers are compatible. <br/>
+
 
 ## CENTER
 
@@ -581,6 +368,8 @@ nav ul li{
   clear: both; // We have to include a div with this class after the menu
 }
 ```
+
+
 ## VARIABLES
 
 we can assign variables: <br/>
@@ -600,7 +389,7 @@ p{
 ```
 
 ## BOXES
-                                                                                                                                                                     
+
 The elements in CSS has layers from center to the extreme. <br/>
 The first level is the content in itself. <br/>
 We can have a border outside the content. It can have color and width. <br/>
@@ -630,10 +419,13 @@ We can use it when something changes. It delays the time that takes from state t
 _It will take half second to change color._
 <br/>
 
-__Keyframes__ <br/>
+
+## KEYFRAMES
+
 Used to define animations to apply gradual changes to an element. <br/>
 With a keyframe we can define the states between an animation and it's transformation. <br/>
 <br/>
+
 We use the rule __@keyframes__ and any name for the animation. <br/>
 
 ```css
@@ -685,172 +477,6 @@ It is a way to adapt the content to screen sizes. <br/>
   /* CSS only for screens below or equal to 600px width */
 }
 ```
-
-🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎 <br/>
-### Flexbox
-🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎🦎 <br/>
-The Best way to layout inline blocks in ONE DIMENSION ALIGMENT. <br/>
-In some way, it moves like _mud in pipes_ <br/>
-
-__1.- We need a parent class to contain flexbox:__ <br/>
-```css
-.container{
-  display: flex;
-  gap: 1rem; // Space between elements
-}
-```
-
-__2.- We need to add the direction at that container with flex-direction:__ <br/>
-```css
-.container{
-  display: flex;
-  flex-direction: column; // Or by default: row
-  gap: 1rem; // Space between elements
-}
-```
-_We won't see anything until we add elements (items)_. <br/>
-
-__Change the basis__ <br/>
-The basis is the axis that we select in flex-direction. <br/>
-We can change the size of every element with: <br/>
-```css
-.container > *{
-  flex-basis: 100px;
-}
-```
-
-__Wrap elements__ <br/>
-By default, the elements are displayed in nowrap. <br/>
-We must add to the parent: <br/>
-```css
-flex-wrap: wrap;
-```
-
-__Change order of elements__ <br/>
-We can change the order of an element with: <br/>
-```css
-.first{
-  order: 10; // will be displayed in the second place
-}
-
-.second{
-  order: 0; // will be displayed in the first place
-}
-```
-
-__justify-content__ <br/>
-
-* flex-start 
-* flex-end 
-* center
-* space-between 
-* space-around
-* space-evenly
-<br/>
-
-__align-items__ <br/>
-❗ ONLY WORKS WITH NO-WRAP ❗ <br/>
-
-* flex-start _Elements stick to the top edge_
-* flex-end _Elements stick to the bottom edge_
-* center _if elements have different height, they are centered by the middle in the center of the screen_
-* baseline  _If elements have different height, they are centered by the middle in the top of the screen_
-* stretch _Elements take all free space_
-
-_To see how it works, we have to add to the parent:_
-
-```css
-height: 70vh;
-```
-
-_If we want to change the align of only one item we can use in that element:_
-
-```css
-align-self: flex-end; // or whatever we want...
-```
-
-__Sizing__ <br/>
-
-```css
-flex-grow: 0;
-flex-shrink: 0;
-```
-
-__center elements__ <br/>
-
-```css
-display: flex;
-justify-content: center;
-align-items: center;
-```
-
-
-
-
-
-
-🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞 <br/>
-### GRID Layout
-🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞 <br/>
-
-The best way to create complex designs with different size blocks in 2 DIMENSION ALIGMENT. <br/>
-in some ways, it moves like _tetris_ <br/>
-
-__1.- We need a parent class to contain Grid Layout:__ <br/>
-```css
-.grid-layout{
-  display: grid;  
-}
-```
-
-__2.- We have to say how many rows and columns I want:__ <br/>
-```css
-.grid-layout{
-  display: grid; 
-  grid-template-columns: auto 1fr;
-  grid-template-rows: 100px 50%;
-}
-```
-_This way, every auto or value are a column._<br/>
-
-__3.- Size of an element:__ <br/>
-```css
-.box1{
-  grid-column: 1/3;
-}
-```
-Where 1 is the first line (not the space ❗). <br/>
-
-```css
-.box2{
-  grid-row: span: 2;
-}
-```
-
-__4.- Position of the element:__ <br/>
-
-```css
-.astronaut{
-  background-color: #03989e;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-```
-
-Also we can use just grid-area to set the 4 values: <br/>
-```css
-.cowboy{
-  grid-area: 2 / 1 / 3 / 3; 
-}
-```
-Where the order is: <br/>
-1.- grid-row-start <br/>
-2.- grid-column-start <br/>
-3.- grid-row-end and <br/>
-4.- grid-column-end <br/>
-
 
 ## SASS ♥️♥️♥️
 
@@ -956,15 +582,14 @@ Now we run: <br/>
 ```node
 npm run compile:sass
 ```
-
 If we need to be watching in every change, we can add the "-w" parameter.
 
-__gulp__ <br/>
+
+## GULP
 
 >sudo npm install -g gulp-cli
 
 >npm install --save-dev gulp
-
 
 
 
@@ -1038,9 +663,7 @@ __VSC in a RECOVERY window mode__<br/>
 ```terminal
 code -r .
 ```
-
 <br/>
-
 
 ## 👁️ UPLOAD A PROJECT TO GITHUB AS A WEB PAGE
 
