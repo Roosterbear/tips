@@ -18,7 +18,7 @@ phpinfo();
 ?>
 ```
 
-## Constants
+## CONSTANTS
 
 __define__ <br/>
 
