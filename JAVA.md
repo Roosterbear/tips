@@ -158,3 +158,29 @@ _STRINGS IN JAVA ARE IMMUTABLE_ <br/>
 StringBuilder sb = new StringBuilder();
 sb.append("Hola Mundo");
 
+
+
+
+## CLASSES
+
+
+
+
+### Instanceof
+
+In the code:
+
+```java
+Person worker = new Employee();
+```
+We have the type _Person_ called worker, and aims to the Employee __memory reference__. <br/>
+
+
+
+
+
+
+## LISTS
+
+>lista.forEach(System.out::println)
+
