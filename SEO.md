@@ -51,3 +51,24 @@ Search Engine Results Page <br/>
 * MOZCast
 * AlgoRoo
 
+## Google Search Console
+
+* INDEXING: Help us to send our pages to Google
+* ERRORS: We can find 404 pages or else
+* GROWTH: Patterns and tendencies
+* MONITORING: By device, country.
+
+Add GSC:
+
+* By prefix: Add code in head tag in our index.html
+* By domain: Add code in domain (Namecheap - Domain List - TXT Record)
+
+### Manually index page
+
+Request indexing from Google Search Console <br/>
+
+### SITE Map
+
+* HTML Site: XML-Sitemaps.com
+
+
