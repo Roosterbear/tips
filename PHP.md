@@ -2,7 +2,7 @@
 
 We have to enclose our code in __<?php__ and __?>__ tags.
 
-Run lampp in Linux: <br/>
+### Run lampp in Linux
 
 >./xampp start
 
@@ -10,7 +10,8 @@ Stop service lampp in Linux: <br/>
 
 >./xampp stop
 
-We can use: <br/>
+
+### PHP Info
 
 ```php
 <?php
@@ -32,54 +33,37 @@ __defined__ <br/>
 
 ```php
 <?php 
-define('EXEC') or die;
+defined('EXEC') or die;
 ?>
 ```
-
 * Checks if is _EXEC_ defined (with define or const)
 
-__var_dump()__ <br/>
+### var_dump()
 
 >var_dump($value);
 
 Shows the type and value of a variable. <br/>
 
-__print_r__ <br/>
+### print_r
 
 ```php
 echo "<pre>".print_r($this->user, true)."</pre";
 ```
 
-__magic methods__ <br/>
+### htmlspecialchars($id)
 
-```php
-<?php 
-
-public function __get($property){
-  if(property_exists($this, $property)){
-    return $this->$property;
-  }
-}
-
-public function __set($property, $value){
-  if(property_exists($this, $property)){
-    $this->$property = $value;
-  }
-  return $this;
-}
-?>
-```
-
-__htmlspecialchars($id)__ <br/>
-
-* Escapes HTML special characters to avoid hacking the site.
+* Escapes HTML special characters to avoid hacking the site. <br/>
 <br/>
 
-__header__ <br/>
+
+
+### HEADER
 
 Sends us to other site: <br/>
 
 >header("Location: index.php");
+
+
 
 ## STRINGS
 
@@ -119,16 +103,16 @@ __shuffle()__ <br/>
 ### __toString()
 
 
-## SESSION
+### SESSION
 
-## REQUEST
+### REQUEST
 
 __get__ <br/>
 
 __post__ <br/>
 
 
-## isset
+## isset()
 
 __md5()__ <br/>
 
