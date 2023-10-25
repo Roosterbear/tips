@@ -65,3 +65,14 @@
 ### o
 
 >insert a blank line below current line
+
+
+### Block Vim
+
+>ctrl+s
+
+### Unblock Vim
+
+>ctrl+q
+
+
