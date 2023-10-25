@@ -72,3 +72,12 @@ Request indexing from Google Search Console <br/>
 * HTML Site: XML-Sitemaps.com
 
 
+### Robots
+
+__mysite.com/robots.txt__ <br/>
+
+>User-agent: *
+>Disallow: /wp-admin/
+>Allow: /wp-admin/admin-ajax.php
+>Sitemap: https://mysite.com/post-sitemap.xml
+
