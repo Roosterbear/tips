@@ -327,7 +327,7 @@ __folder to actual process:__ cd $$ <br/>
 __executable of current task:__ ls -l exe <br/>
 <br/>
 
-__lsof__ _list open files_ <br/>
+### lsof _list open files_ 
 
 Give us detailed information about files used in current processes. <br/>
 Normally requires Admin privileges. <br/>
@@ -337,7 +337,27 @@ __We can list files that are listening TCP connections by:__ <br/>
 ```terminal
 sudo lsof -iTCP -sTCP:LISTEN -n -P
 ```
-__top__
+
+__List open files by a number of proccess (123)__ <br/>
+
+```terminal
+sudo lsof -p 123
+```
+
+__Opened files by a user__ <br/>
+
+```terminal
+sudo lsof -u usuario1
+```
+
+__Search active connections__ <br/>
+
+```terminal
+sudo lsof -i -P -n | grep LISTEN
+```
+
+
+### top
 
 Lists the processes running in the system. <br/>
 
@@ -347,7 +367,7 @@ _shift+m_ orders by memory use.
 _shift+p_ orders by CPU use.
 _shift+n_ orders by process.
 
-__htop__
+### htop
 
 A better version of __top__ which we can easily install. <br/>
 
