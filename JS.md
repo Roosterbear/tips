@@ -1082,18 +1082,40 @@ __Promises with Async and Await__ <br/>
 __Async__ is a way to use promises in any function. <br/>
 __Await__ can be used only with a function in Async and stops the program to wait an answer. <br/>
 
-__defer__ <br/>
 
-🕦 
+
+
+### defer
+
+Helps if you __need__ to add script tag in the head. <br/>
 
 ```html
 <script src="script.js" defer></script>
 ```
 
-## BABEL
+## NEW PROJECT ES6
 
-Create a __new__ project. <br/>
-use npm init to create the package.json <br/>
+Create a __new__ folder. <br/>
+
+>mkdir myproject
+>cd myproject
+
+Use npm init to create the __package.json__ <br/>
+
+>npm init -y
+
+Install __Webpack__ inside the project: <br/>
+
+>npm i --save-dev webpack
+>npm i --save-dev webpack-dev-server
+
+
+
+🕦  checking this from a book ---
+
+
+
+
 Install __Babel__ inside the project: <br/>
 
 ```terminal
