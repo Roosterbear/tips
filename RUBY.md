@@ -55,6 +55,34 @@ end
 a_person = Person.new
 ```
 
+### class variable
+
+Prefixed by @@ <br/>
+
+
+### class method
+
+Prefixed by self. <br/>
+
+```ruby
+class Car
+  @@number_of_cars = 0
+
+  def self.count
+    @@number_of_cars
+  end
+
+  def initialize
+    @@number_of_cars += 1
+  end
+end
+
+mercedes = Car.new
+puts "Autos creados: #{Car.count}"
+mazda = Car.new
+puts "Autos creados: #{Car.count}"
+```
+
 ## Accessors
 
 * If you need to access to an instance variable (_@name_) you will need getters and setters. <br/>

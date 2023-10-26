@@ -46,6 +46,10 @@
 
 >copy 3 lines
 
+### yw
+
+>copy a word
+
 ### u
 
 >Undo
