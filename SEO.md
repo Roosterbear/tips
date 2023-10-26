@@ -81,3 +81,43 @@ __mysite.com/robots.txt__ <br/>
 >Allow: /wp-admin/admin-ajax.php
 >Sitemap: https://mysite.com/post-sitemap.xml
 
+### Structured Data
+
+```html
+<head>
+<script type="application/ld+json">
+  {
+    "@context":"http://schema.org/"
+  }
+</script>
+</head>
+```
+
+* ES IMPORTANTE IR A SEARCH CONSOLE - INSPECCION URL PARA QUE INDEXE LA PAGINA
+
+## REDIRECTION
+
+__301__ PERMANENT <br/>
+__302__ TEMPORAL <br/>
+
+Verify protocols in:
+
+https://httpstatus.io/
+
+
+## AMP
+
+In Main Page:
+
+```html
+<link rel="amphtml" href="https://ejemplo.com/url/amp/index.html">
+```
+
+In AMP page: <br/>
+
+```html
+<link rel="canonical" href="https://ejemplo.com/url/index.html">
+```
+
+
+
