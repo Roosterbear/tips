@@ -29,6 +29,54 @@ print("Mucho gusto "+name+", mi nombre es Michel")
 print("...sabias que tu nombre tiene "+str(len(name))+" letras?")
 ```
 
+## RANDOM
+
+```python
+import random
+
+random_int = random.randint(1,6)
+print(random_int)
+```
+
+## FOR
+
+```python
+lista = {1,2,3}
+for i in lista:
+  print(i)
+```
+
+
+## IF
+
+```python
+pase = 1
+if pase == 1:
+  print("Tienes acceso, ADELANTE!")
+```
+
+
+### GUESSING A LETTER
+
+```python
+word_list = ["abeja","boa","camello"]
+import random
+chosen_word = random.choice(word_list)
+guess = input("Guess a letter: ").lower()
+for c in chosen_word:
+    if c == guess:
+        print("Right")
+    else:
+        print("wrong")
+```
+
+
+
+
+
+
+
+# 👁️👁️  
 
 __sockets__ <br/>
 
