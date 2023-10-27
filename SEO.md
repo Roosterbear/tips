@@ -148,3 +148,17 @@ Include CSS required in the first impression of the user inside the __HEAD__ tag
 * SemRush
 * __KWFinder__
 * Soovle
+
+## BEST SEO CONTENT
+
+* Top List (The Number __FIRST__)
+* Landing page for each search
+* Infography 
+* MEGA Article
+* Comparatives
+* Transcriptions
+* Categories
+* FAQ - Vital Content
+
+
+
