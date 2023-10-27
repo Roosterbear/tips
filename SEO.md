@@ -119,5 +119,32 @@ In AMP page: <br/>
 <link rel="canonical" href="https://ejemplo.com/url/index.html">
 ```
 
+### PAGE SPEED
+
+Try to be in green. It is the time that takes our site to load. <br/>
 
 
+
+### Critical CSS
+
+Include CSS required in the first impression of the user inside the __HEAD__ tag.
+
+
+## KEYWORDS
+
+* List words
+* Someone is looking that word?
+* Who appears in the __first results__
+* Make an Excel with your list and their __Type of Content__ (Commercial, Informative, Qualifying)
+* Let Search Engine show you other "keywords" leaving a __blank space__ in front of the text
+* See at the bottom of the Search Page in __"related searches"__
+* Click a search and __RETURN__ to the Search Page, _new_ related searches are now activated
+
+
+### TOOLS for Keyword
+
+* Keyword Tool
+* Answer the public
+* SemRush
+* __KWFinder__
+* Soovle
