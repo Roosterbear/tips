@@ -39,5 +39,28 @@
 >Borrar caracteristicas de tatuaje largas que no sirvan
 >Actualizar plugins
 
+Cómo lograr Alto Contrastre en un Tatuaje
+
+Debemos marcar bien los altos contrastres.
+En este ejemplo vamos a comenzar poniendo el color negro bien sólido.
+Esto con el fin de darle más soporte y que resalten más los otros colores.
+Es importante sobresaltar los colores fríos (blanco, gris) de los colores cálidos (negro, rojo).
+En este caso, adicionalmente pondremos un tono verde entre olivo y gris para que se vea con un tono intermedio,
+sin que llegue a verse como caricatura, sino más realista, con tonos ocres y sepias.
+
+El tatuaje es como una musiquita, que empiezas a tocar una tonadita, y esa te va llevando a otra.
+Lo mismo pasa con las formas y las texturas, vas trabajando de una manera que te lleva a otra, dependiendo
+como vayas viendo que se acomoda.
+
+Comenzamos con una base negro sólido, luego seguimos con los rojos, que en este tatuaje de Mictlantecuhtli
+(https://es.wikipedia.org/wiki/Mictlantecuhtli) metemos el undead de la gama de Zombie de Eternal (https://www.eternaltattoosupply.com/)
+y luego pasamos con el crimson Red y al final solo unos high lights con tonos Live Red para darle más volumen, 
+dejando que prevalezcan los tonos oscuros, ya que se presta la imagen a que sea un tono underground, y rojos que parezcan sangre seca que de la impresión que viene del inframundo. 
+
+Ya después le vamos a poner un poco de clay gray en las partes del efecto de humo.
+
+El gris va combinado con un morado tipo lila para que haya más matices y colorido, sin que se
+vea demasiado brillante o escandaloso.
+
 
 
