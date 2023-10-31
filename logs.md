@@ -38,3 +38,6 @@
 >Agregar imagen grande a cada tatuaje para que salga en la pagina principal
 >Borrar caracteristicas de tatuaje largas que no sirvan
 >Actualizar plugins
+
+
+
