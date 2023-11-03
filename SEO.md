@@ -93,7 +93,7 @@ __mysite.com/robots.txt__ <br/>
 </head>
 ```
 
-* ES IMPORTANTE IR A SEARCH CONSOLE - INSPECCION URL PARA QUE INDEXE LA PAGINA
+* IT IS IMPORTANT GO TO SEARCH CONSOLE - INSPECT URL TO INDEX THE PAGE
 
 ## REDIRECTION
 
@@ -149,16 +149,51 @@ Include CSS required in the first impression of the user inside the __HEAD__ tag
 * __KWFinder__
 * Soovle
 
+
 ## BEST SEO CONTENT
 
 * Top List (The Number __FIRST__)
-* Landing page for each search
+* Landing page for each possible search
 * Infography 
 * MEGA Article
-* Comparatives
+* Comparatives !!
 * Transcriptions
 * Categories
 * FAQ - Vital Content
+* Use pinterest !!
+
+## ENLACES
+
+>rel="nofollow"
+>rel="sponsored"
+>rel="ugc"
+
+## CATEGORIAS
+
+Create categories based on possible specific searches related to our products. <br/>
+
+
+## TIPS FOR YOUTUBE
+
+* Good __Title__
+* Add __hashtags__ inside our description
+* Add __menu__ with time
+* Name our files with keywords
+* Transcription of our video
+* Frequency
+* Lists
+
+## LOCAL SEO
+
+* Go to Local Guide
+* Take care of your grades
+
+
+
+
+
+
+
 
 
 
