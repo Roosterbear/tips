@@ -50,18 +50,23 @@ __for in__ <br/>
 ```python
 for i in range(3):
   print("Hola")
+  print(i)
 ```
+Numbers from 0 to 2 <br/>
+
 
 ```python
 for i in range(1,10):
   print(i)
 ```
+Numbers from 1 to 10 <br/>
+
 
 ```python
 for i in range(2,10,2):
   print(i)
 ```
-
+Numbers from 2 to 8
 
 
 
