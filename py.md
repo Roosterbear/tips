@@ -45,6 +45,24 @@ lista = {1,2,3}
 for i in lista:
   print(i)
 ```
+__for in__ <br/>
+
+```python
+for i in range(3):
+  print("Hola")
+```
+
+```python
+for i in range(1,10):
+  print(i)
+```
+
+```python
+for i in range(2,10,2):
+  print(i)
+```
+
+
 
 
 ## IF
