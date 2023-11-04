@@ -29,12 +29,20 @@ Will get _a.out_ as a compiled file, if we need a custom name: <br/>
 
 To compile in C++11 Standard:
 
->g++ -std=c++11 souce.cpp -o myname
-
+>g++ -std=c++11 source.cpp -o myname
 
 
 Or you can use the __code runner__ extension for VSCode <br/>
 
+
+### CREATE A GAME
+
+Install SFML: <br/>
+>sudo apt-get install libsfml-dev
+>sudo apt-get install cmake
+>sudo apt-get install libgl1-mesa-dev
+
+Download __Qt__
 
 
 

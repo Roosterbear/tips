@@ -1,12 +1,31 @@
 # WORDPRESS
 
-## All about Wordpress
+## PLUGINS
 
-### Woocommerce, Programming, Plugins and Themes
+>wp-content - plugins
 
----
+Add a file with a unique name and the next code: <br/>
 
-## Woocommerce
+```php
+<?php
+/*
+*
+* Plugin Name: The Name of Your Plugin
+* Plugin URI: www.myweb.com
+* Description: This plugin does not do a shit
+* Version: 1.0
+* Author: R00sterbear
+* License: GPL2
+*
+*
+*/
+?>
+```
+
+
+
+
+## WOOCOMMERCE
 
 __Discounts__ <br/>
 In simple products, we have to write the regular Price and Sale price (discounted price).<br/>
