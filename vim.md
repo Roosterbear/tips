@@ -4,6 +4,7 @@
 
 * Insert __i__
 * Visual __v__
+* Replace __R__
 * Command __esc__
 
 ## ---BASIC---
@@ -176,8 +177,9 @@
 >copy a word
 
 
+### yy
 
-
+>copy a line
 
 
 ## ---INSERT---
@@ -216,20 +218,28 @@
 
 > deletes current character
 
-### dw
-
-> deletes a word
-
 
 ### d3w
 
 > deletes 3 words
+
 
 ### d$
 
 > deletes the text in the current line from current character
 
 
+
+## ---PLUGINS---
+
+We have to install __plug__ <br/>
+
+```bash
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
+Instalar __easymotion__ y __nerdtree__ <br/>
 
 
 
