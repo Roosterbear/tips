@@ -1,5 +1,68 @@
 # WEBPACK
 
+## START
+
+* Create a folder to work in, and enter to it
+
+>npm init -y
+
+>yarn add -D webpack
+
+>mkdir src 
+
+* Create a __index.js__ inside
+* Add code: _console.log('Hi from webpack');_
+
+>mkdir dist
+
+* Create a __index.html__ inside
+* Add basic HTML code
+
+* In our project folder, create a: __webpack.config.js__ file
+* Add:
+
+```javascript
+const path = require('path');
+module.exports = {
+  entry: './src/index.js',
+  output: {
+    filename: 'bundle.js',
+    path: path.resolver(__dirname, 'dist')
+  }
+}
+```
+
+* Add reference in our __index.html__
+
+```html
+<script src="bundle.js"></script>
+```
+
+* Edit __package.json__:
+
+```json
+"scripts":{
+  "build":"webpack"
+}
+```
+
+* Exec:
+
+>yarn run build
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## DEV SERVER
 
 In a terminal, create a new folder to your project and hit enter. Then enter the folder. <br/>

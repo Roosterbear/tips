@@ -1,5 +1,22 @@
 # WORDPRESS
 
+## LOCAL INSTALLATION
+
+Install: <br/>
+
+>https://localwp.com/
+
+Configuration: <br/>
+
+* CREATE A NEW SITE - Site name: Roosterbear
+* Preferred
+* Add username, password and email
+
+
+## CUSTOMIZATION
+
+
+
 ## PLUGINS
 
 >wp-content - plugins
