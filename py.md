@@ -59,15 +59,20 @@ Numbers from 0 to 2 <br/>
 for i in range(1,10):
   print(i)
 ```
-Numbers from 1 to 10 <br/>
+Numbers from 1 to 9 <br/>
 
 
 ```python
 for i in range(2,10,2):
   print(i)
 ```
-Numbers from 2 to 8
+Numbers from 2 to 8 <br/>
 
+
+```python
+print([ _ for _ in range(10) if _ % 2 == 0])
+print([ i for i in range(10) if i % 2 == 0])
+```
 
 
 ## IF
