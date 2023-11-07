@@ -51,17 +51,22 @@ Search Engine Results Page <br/>
 * MOZCast
 * AlgoRoo
 
-## Google Search Console
+## SEARCH CONSOLE
 
 * INDEXING: Help us to send our pages to Google
 * ERRORS: We can find 404 pages or else
 * GROWTH: Patterns and tendencies
 * MONITORING: By device, country.
 
-Add GSC:
+Adding GSC:
 
+* Go to searchconsole.cc, is an abreviation
 * By prefix: Add code in head tag in our index.html
 * By domain: Add code in domain (Namecheap - Domain List - TXT Record)
+
+>Install by prefix, adding an html file to your root directory
+
+
 
 ### Manually index page
 

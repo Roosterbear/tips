@@ -1,6 +1,8 @@
 # carpiotattoos.com
 
-## 01/11/2023
+## noviembre 2023
+
+* Adding to Google Search Console
 
 >Respaldo
 >Corrección header idioma INGLÉS
