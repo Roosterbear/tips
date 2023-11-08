@@ -10,3 +10,5 @@ __Create account with our email__ <br/>
 * Plan - Personal
 * Add card information
 * Add Mobile phone number
+
+
