@@ -51,6 +51,13 @@ Download __Qt__
 
 ## C#
 
+Install Visual Studio: <br/>
+
+>community 2019
+>Desktop
+>.NET Framework 4
+>Register to avoid nasty 
+
 Install Mono: <br/>
 
 >sudo apt-get install -y mono-complete mono-devel mono-develop
