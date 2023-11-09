@@ -126,6 +126,10 @@
 
 ## ---COPY, CUT AND PASTE---
 
+### v - y - p
+
+>copy a character or just some selected characters 
+
 
 ### dd
 

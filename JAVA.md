@@ -1,26 +1,24 @@
 # JAVA
 
-## VERSIONS
-
-* Java SE: __Standard Edition__
-* Java EE: __Enterprise Edition__
-* Java ME: __Micro Edition__
-
-__JDK__ Java Development Kit <br/>
+## JDK - Java Development Kit
 
 Let instalation in root folder <br/>
+
 
 ## CLASS
 
 A __template__ that describes the kinds of state and behavior that objects of its type support. <br/>
 
+
 ### Object
 
 At runtime, when the Java Virtual Machine (JVM) encounters the _new_ keyword, it will use the appropiate __class__ to make an object which is an instance of that class. That object will have its own __state__, and __access__ to all the behaviors defined by his class. <br/>
 
+
 ### State (_instance variables_)
 
 Each __object__ (_instance of a class_) will have its own unique set of instance variables as defined in the class. Collectively, the values assigned to an object's instance variables make up the object's state. <br/>
+
 
 ### Behavior (_methods_)
 
@@ -184,3 +182,14 @@ We have the type _Person_ called worker, and aims to the Employee __memory refer
 
 >lista.forEach(System.out::println)
 
+
+
+
+
+
+
+## MAVEN
+
+* It is a tool to manage projects
+* Its main function is to help developers to build, manage and organize Software Projects
+* Uses a configuration file called __"pom.xml"__ (_Project Object Model_)
