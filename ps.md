@@ -17,6 +17,9 @@ Let's try looking for aliases: <br/>
 Realize that the real command for _dir_ or _ls_ is __get-childitem__ <br/>
 
 
+---
+
+
 ## The BIG Three cmdlets
 
 ### get-command
@@ -24,3 +27,12 @@ Realize that the real command for _dir_ or _ls_ is __get-childitem__ <br/>
 ### get-help
 
 ### get-member
+
+
+---
+
+
+
+
+
+## ACTIVE DIRECTORY with Powershell

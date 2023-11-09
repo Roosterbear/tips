@@ -1,12 +1,17 @@
 #      👁️👁️  
 
-## WHIRESHARK
+# WHIRESHARK
 
-Its a tool for _capturing_, _presenting_ and _analyzing_ traffic from a network interface. <br/>
+Its a tool for: <br/>
+
+* Capturing
+* Presenting
+* Analyzing traffic from a network interface
 
 
+Works on: <br/>
 
-__TCP/IP__ <br/>
+## TCP/IP
 
 Sends data in little packages <br/>
 
@@ -17,43 +22,64 @@ It has 4 layers:
 * Transport (UDP, TCP)
 * Application (DNS, TLS)
 
-_router_ <br/>
+### Router
 
 Divides Broadcast Domains <br/>
 
-_switch_ <br/>
+
+### Switch
 
 Divides Collision Domains <br/>
+
+
+Includes: <br/>
 
 _npcap_ driver for link layer for Windows <br/>
 
 _Libpcap_ driver for link layer for Linux <br/>
 
----
-
 _Dumpcap_ Capture Engine <br/>
 
 
-__SECTIONS__ <br/>
+## SECTIONS
 
 We have 3 basic panels:
 
-_package list panel_ <br/>
+
+### Package list panel
 
 Every little package in a row. <br/>
 
-_details panel_ <br/>
+
+### Details panel
 
 It has two sections: <br/>
-<br/>
 
 * Metadata from Wireshark
 * TCP/IP Headers
 
 
-_bytes panel_ <br/>
+### Bytes panel
 
 Info in hexadecimal and ASCII <br/>
 
-<br/>
+
+
+## SOCKET
+
+Is the __IP Address__ and the __Port__ <br/>
+
+Note that in Wireshark, by default, we have not a port column. <br/>
+We can add a column with Source and Destination ports easily: <br/>
+
+* Select a __packet__
+* Go to __Detail Panel__
+* Open __Transmission Control Protocol__
+* Right click on __source port__
+* Select __Apply as Column__
+
+
+
+
+
 
