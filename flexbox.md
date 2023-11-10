@@ -12,7 +12,7 @@ __1.- We need a parent class to contain flexbox:__ <br/>
 ```
 >gap is the space between elements
 
-* We need at last a child element.
+* We need at least a child element.
 
 
 __2.- We need to add the direction at that container with flex-direction:__ <br/>

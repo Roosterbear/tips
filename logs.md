@@ -2,7 +2,13 @@
 
 ## noviembre 2023
 
-* Adding to Google Search Console
+* Agregación de Google Search Console
+* Creación de cuenta Pinterest
+* Se agregaron fotos para crear PIN en Pinterest
+* Se agregó LOGO y FONDO en cuenta de Pinterest
+* Se agregó el sitio web a Pinterest
+
+
 
 >Respaldo
 >Corrección header idioma INGLÉS
