@@ -4,6 +4,8 @@ Python by all means <br/>
 
 ## PRINT
 
+* In v3 you need parenthesis 
+
 ```python
 print("Hello World !")
 ```
