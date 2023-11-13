@@ -13,3 +13,6 @@
 >Respaldo
 >Corrección header idioma INGLÉS
 >Agregar plugin para SEO (Yoast)
+>Actualizacion de plugins
+>Creación de artículo basado en video de youtube (con fotos)
+
