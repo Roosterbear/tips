@@ -137,7 +137,24 @@ mafile = open("file.txt","at")
 mafile.write("This text will be below the last one")
 ```
 
+* DELETE
 
+```python
+import os
+os.remove("file.txt")                       
+```
+
+* SAVE BINARY FILE
+
+```python
+import pickle
+
+malist = ["blue", "red", "black", "green"]
+
+mafile = open("file.pckl","wb")
+pickle.dump(malist,mafile)
+mafile.close()
+```
 ### LAMBDA
 
 We can use __lambda__:
