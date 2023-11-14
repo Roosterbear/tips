@@ -1,7 +1,5 @@
 # PYTHON
 
-Python by all means <br/>
-
 ## PRINT
 
 * In v3 you need parenthesis 
@@ -100,9 +98,55 @@ for c in chosen_word:
         print("wrong")
 ```
 
+### CLASSES
+
+```python
+class Car:
+  def __init__(self,color):
+    self.color = color
+
+  def show_color(self):
+    print("This car is {}".format(self.color))
+
+  car = Car("Black")
+  car.show_color()
+```
+
+### FILES
+
+* READ
+
+```python
+mafile = open("file.txt","rt")
+data = mafile.read()
+print(data)
+```
+>Where "rt" is "read - text", that means, "read only for a text file"
+
+* WRITE
+
+```python
+mafile = open("file.txt","wt")
+mafile.write("This text will erase the last one")
+```
+
+* APPEND
+
+```python
+mafile = open("file.txt","at")
+mafile.write("This text will be below the last one")
+```
 
 
+### LAMBDA
 
+We can use __lambda__:
+
+>variable = lambda parameter:use of parameter
+
+```python
+answer = lambda number: number*2
+```
 
 
 
