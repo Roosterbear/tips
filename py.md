@@ -155,6 +155,20 @@ mafile = open("file.pckl","wb")
 pickle.dump(malist,mafile)
 mafile.close()
 ```
+
+* READ BINARY FILE
+
+```python
+import pickle
+
+mafile = open("file.pckl","rb")
+llf = pickle.load(mafile)
+
+print(llf)
+```
+
+
+
 ### LAMBDA
 
 We can use __lambda__:

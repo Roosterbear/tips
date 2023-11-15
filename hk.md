@@ -27,6 +27,40 @@ Sets up a _private_ network on the host machine, all the traffic from the VM wil
 The VM will be able to communicate with other Virtual Machines in the host only network as well as the host, but it will not be able to connect with internet or the local network. <br/>
 
 
+## LABS
+
+* Only VMs for the Labs (Attackers and Hosts)
+* Preferably Use VMWare
+* Use an external SSD drive to mount your Labs
+* All VMs will be interconnected and isolated from any other external network
+* VMWare allows us to create a virtual network without the need for a router or switch. 
+* Each virtual machine should obtain an IP address through DHCP. 
+* The DHCP server will be managed internally by VMWare
+* Download a Kali Linux for VMWare
+* Once you have installed VMware Workstation Player/Pro
+* Unzip the Kali Linux (.7z) and open the .vmx file from VMware.
+* Adjust Network Adapter to NAT
+* Adjust your resources (like RAM and Processor)
+* VMware will ask you whether you moved or copied the virtual machine
+* Choose 'I Copied It' to proceed
+* Start session with kali/kali
+* Change pasword from terminal with: passwd
+* Update Kali:
+>sudo apt update && sudo apt dist-upgrade -y
+* Install open-vm-tools for VMWare in a terminal of Kali and type:
+>sudo apt-get install open-vm-tools-desktop fuse3
+* Restart:
+>sudo reboot
+
+
+
+
+
+
+
+
+
+
 # 👁️👁️  
 
 ## Nessus
