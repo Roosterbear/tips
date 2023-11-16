@@ -94,16 +94,91 @@ _Do not type spaces between the equal sign_ <br/>
 >export myvariable
 
 * To delete a variable, we type:
-
 >unset myVariable
 
+* We can use an alias temporaly:
+>alias ll='ls -al'
+
+* If we want the Alias to be persistent, we can modify de __~/.zshrc__ file:
+>source ~/.zshrc
+
+* To show ALL Aliases, just:
+>alias
+
+* to delete an Alias, type:
+>unalias myAlias
+
+## SYSTEM ENUMERATION
+
+__"It is when we search for system information to better understand the machine we are attacking."__ <br/>
+>uname -a
+>cat /etc/issue
+
+### LS
+
+__"List files and directories"__ <br/>
+
+* Including hidden files:
+>ls -a
+
+* Including details:
+>ls -l
+
+* Including the content of directories:
+>ls -lR
 
 
+### TOUCH
 
+__"Creates a new file"__ <br/>
+>touch newfile.txt
 
+* If it was created yet, the command modifies the __access__ and __modified__ _timestamp_ <br/>
+* Modify just the __access__ timestamp:
+>touch newfile.txt -a
+>stat newfile
 
+* Modify just the __modified__ timpestamp:
+>touch newfile.txt -m
+>stat newfile
 
+* __CHANGE__ the date of timestamp:
+>touch -d newfile.txt "2023-11-16 08:33:51"
+>stat newfile
 
+* Use the timestamp of a file as __reference__ to other file
+>touch -r ejemplo.py ejemplo2.py
+
+### RM
+
+__"Deletes a file or directory"__ <br/>
+
+* Deletes a directory, including its contents:
+>rm -r mydirectory
+
+* Deletes a file or directory even though it has read-only permissions without prompts:
+>rm -f myfile
+
+### MANIPULATING FILES
+
+* Copy a file
+>cp file /directory
+
+* Move a file
+>mv file /directory
+
+* Rename a file
+>mv file newname
+
+* Create a soft link
+>ln -s sourcefile.txt /tmp/mylink.txt
+_Is like a direct access icon_ <br/>
+_If the source file is deleted, the link get useless and throws an error_ <br/>
+
+* Create a hard link
+>ln sourcefile.txt /tmp/mirror.txt
+_Is like a mirror file_ <br/>
+_If the source file is deleted, the link is a backup still working_ <br/>
 
 
 
