@@ -4,13 +4,12 @@
 
 You can get Virtualbox or __VMWare Workstation Player__ for free. <br/>
 
-* For bundle file, change permissions, and run it with __sudo ./VMWare__...
+* For bundle file, CHANGE PERMISSIONS, and run it with __sudo ./VMWare__...
 
-* Uncompress the Kali Linux and move the folder to /home/Virtual Machines, you can rename it as just Kali.
+_Uninstall VMWare Workstartion Player and Pro_:
 
-* Choose Open Project and then select the folder Kali
-
->user: kali, password: kali
+>sudo vmware-installer -u vmware-player
+>sudo vmware-installer -u vmware-workstation
 
 __Configuring the Network__<br/>
 
@@ -57,7 +56,7 @@ __Configuring the Network__<br/>
 >sudo reboot
 
 
-### Preparing Target Metasploitables
+### Preparing Targets Metasploitables
 
 * Like the Attaker VM, install Metasploitable1 (Windows Server 2008) Target (vagrant/vagrant)
 * Open as Administrator a CMD window and type:
@@ -68,6 +67,38 @@ __Configuring the Network__<br/>
 * with VMWare Pro, shutdown the Metaspolitable and save a snapshot
 * In the Windows 10 VM, use the same configuration as the last one (Users/Passw0rd!)
 * Install the Metasploitable2 (msfadmin/msfadmin)
+
+
+## BASICS
+
+* We can use variables. To load a variable, use:
+>echo $PATH
+_Where PATH is the variable and we load it with the $ sign_ <br/>
+
+* We can create our variables:
+>myvariable=100
+>echo $myVariable
+_Do not type spaces between the equal sign_ <br/>
+
+* To see our Environment Variables we use:
+>env
+
+* To see all variables we use:
+>set
+
+* Commands to check our variable:
+>set | grep myVariable
+>env | grep myVariable
+
+* To convert a local variable to environment variable, use:
+>export myvariable
+
+* To delete a variable, we type:
+
+>unset myVariable
+
+
+
 
 
 
