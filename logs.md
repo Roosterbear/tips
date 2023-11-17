@@ -7,12 +7,12 @@
 * Se agregaron fotos para crear PIN en Pinterest
 * Se agregó LOGO y FONDO en cuenta de Pinterest
 * Se agregó el sitio web a Pinterest
+* Respaldo antes de actualizar plugins y modificar
+* Actualización de plugins
+* Respaldo de corrección Header y Footer en Inglés con actualizaciones
 
 
 
->Respaldo
->Corrección header idioma INGLÉS
 >Agregar plugin para SEO (Yoast)
->Actualizacion de plugins
 >Creación de artículo basado en video de youtube (con fotos)
 
