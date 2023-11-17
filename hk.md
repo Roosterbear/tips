@@ -37,6 +37,8 @@ __Configuring the Network__<br/>
 * Each virtual machine should obtain an IP address through DHCP. 
 * The DHCP server will be managed internally by VMWare
 
+
+
 ### Preparing Attaker VM
 
 * Download a Kali Linux for VMWare
@@ -108,11 +110,13 @@ _Do not type spaces between the equal sign_ <br/>
 * to delete an Alias, type:
 >unalias myAlias
 
+
 ## SYSTEM ENUMERATION
 
 __"It is when we search for system information to better understand the machine we are attacking."__ <br/>
 >uname -a
 >cat /etc/issue
+
 
 ### LS
 
@@ -149,6 +153,7 @@ __"Creates a new file"__ <br/>
 * Use the timestamp of a file as __reference__ to other file
 >touch -r ejemplo.py ejemplo2.py
 
+
 ### RM
 
 __"Deletes a file or directory"__ <br/>
@@ -158,6 +163,7 @@ __"Deletes a file or directory"__ <br/>
 
 * Deletes a file or directory even though it has read-only permissions without prompts:
 >rm -f myfile
+
 
 ### MANIPULATING FILES
 
@@ -179,6 +185,45 @@ _If the source file is deleted, the link get useless and throws an error_ <br/>
 >ln sourcefile.txt /tmp/mirror.txt
 _Is like a mirror file_ <br/>
 _If the source file is deleted, the link is a backup still working_ <br/>
+
+* Wildcards
+>ls -l sys*
+_files starting with "sys"_ <br/>
+
+>ls -l sys[1-5]*
+_files starting with "sys" and a number between 1 and 5_ <br/>
+
+>ls -l file??.txt
+_files starting with "file", then 2 characters and TXT type_ <br/>
+
+* Seek files
+>which nmap
+>whereis nmap
+
+__locate__ <br/>
+>locate mimikatz.exe
+_this command uses locate.db and updates its data eventually_ <br/>
+_to update locate DB:_ <br/>
+>sudo updatedb
+
+__find__ <br/>
+>find / -name text.txt
+_finds from root the file text.txt_ <br/>
+>find . -type f -name "*.jpg"
+_finds from current directory, all JPG files_ <br/>
+>find /etc -user kali -size 1M -type f -name "*.txt" 
+_finds from etc directory, TXT files larger than 1Mb from the kali user_ <br/>
+>find /home -type d -iname "user"
+_finds all DIRECTORIES with the name "user" with NO CASE SENSITIVE_ <br/>
+
+
+## REDIRECTION AND PIPING
+
+
+
+
+
+
 
 
 
