@@ -21,11 +21,7 @@ __values__ <br/>
 
 __constants__ <br/>
 >const val name = "Fernando"
-__constants has to be in an outter__
-
-
-
-
+_constants has to be in an external context_
 
 * Kotlin is __NOT__ dinamically typed
 * We do not __need__ to _declare_ a type
@@ -37,6 +33,7 @@ __constants has to be in an outter__
 >var name: String = "Fernando"
 >var isAdult: Boolean
 >var isMan = true
+
 
 ## ARRAYS AND LISTS
 
@@ -82,6 +79,33 @@ fun main(){
   println(letterSet.size)
 }
 ```
+
+## CONDITIONS
+
+```kotlin
+if (vip == true) saludo = "Hello Gentleman"
+else saludo = "Hello"
+```
+__If the code inside condition is ONE line, we do not need curly braces__ <br/>
+
+
+## WHEN
+
+```kotlin
+val fecha = "05/07/2022"
+var mes = fecha.subSequence(3,5).toString.toInt()
+when(mes){
+  1,2 -> println("OFERTAS DE INVIERNO")  
+  12 -> println("OFERTAS DE NAVIDAD")
+  else -> {
+    println("No hay ofertas")
+    println("Espera por nuevas ofertas")
+  }
+}
+```
+
+
+
 
 ## ANDROID STUDIO
 

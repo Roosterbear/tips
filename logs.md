@@ -12,7 +12,8 @@
 * Respaldo de corrección Header y Footer en Inglés con actualizaciones
 
 
-
+>Reenviar correos de usuarios del sitio
+>Mejorar blog
 >Agregar plugin para SEO (Yoast)
 >Creación de artículo basado en video de youtube (con fotos)
 
