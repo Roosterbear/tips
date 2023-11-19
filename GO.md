@@ -61,6 +61,7 @@ hello hello.go
 $ file hello
 hello: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, not stripped
 ```
+
 ### Go Doc Documentation
 
 The __go doc__ command lets you interrogate documentation about a _package, method or variable._ This documentation is embedded as comments through your code. 
@@ -82,29 +83,48 @@ import(
 "github.com/stacktitan/ldapauth"
 )
 ```
-
 The last line import a package, but we can't access quite yet. <br/>
 
 __Current option:__ <br/>
-
 From your project root, exec: <br/>
-
 >go mod init
-
 It will create a _go.mod_ file. <br/>
 
+
 __Classic option:__ <br/>
-
 >go get github.com/stacktitan/ldapauth
-
 This command will download the package in the GOPATH. <br/>
 You can use it as:
-
 >import "github.com/stacktitan/ldapauth"
-
 To reload dependencies, run: <br/>
-
 >go get -u
+
+
+## ITERATIONS
+
+```go
+package main
+import "fmt"
+
+func main(){
+  a := "Hola"
+  for i,t := range a{
+    fmt.Printf("%d: %s",i,string(t))
+  }
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## SLICES AND MAPS
