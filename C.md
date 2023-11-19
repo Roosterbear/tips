@@ -10,12 +10,88 @@ programming languages. <br/>
 
 To compile in Linux, use: <br/>
 
->gcc -o program myprogram.c
+>gcc program.c -o program 
 
 Or you can use the __code runner__ extension for VSCode <br/>
 
---
+```c
+#include<stdio.h>
 
+int main(){
+  printf("Hola mundo !!")  ;
+}
+```
+
+### CONSTANTS
+
+>const double PI = 3.1416;
+>#define AGE = 47
+
+## CONDITIONS
+
+```c
+if (AGE==true){
+  printf("Age is true!");
+}
+```
+
+```c
+switch(LIVES){
+  case 0:
+    /* do something*/
+    break;
+  case 1:
+    /* do something*/
+    break;
+  default:
+    /* do something*/
+    break;
+}
+```
+
+## ITERATIONS
+
+```c
+for(int i = 0;i<10;i++){
+  /* do something */
+}
+```
+
+```c
+while(i<10){
+  /* do something */
+}
+```
+
+```c
+do{
+  /* do something */
+}while(i<10);
+```
+
+## ARRAYS
+
+```c
+const int SIZE = 5;
+int prices[SIZE];
+```
+
+
+```c
+int prices = {1,2,3,4,5};
+```
+
+
+
+
+
+
+
+
+
+
+
+--
 
 ## C++
 

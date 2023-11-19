@@ -13,6 +13,7 @@
 
 
 >Reenviar correos de usuarios del sitio
+>Agregar correo carpiotat2@gmail.com a los destinos de mensajes del sitio
 >Mejorar blog
 >Agregar plugin para SEO (Yoast)
 >Creación de artículo basado en video de youtube (con fotos)
