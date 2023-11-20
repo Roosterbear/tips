@@ -1,6 +1,9 @@
 # Go
 
-## Hello world
+## HELLO WORLD
+
+* create a file example.go
+* type: 
 
 ```go
 package main
@@ -11,6 +14,13 @@ func main(){
   fmt.Printf("Hello World Hacker!")
 }
 ```
+* You can just:
+>go run example.go
+
+* Or compile:
+>go build example.go
+>./example
+
 
 ## Principles
 

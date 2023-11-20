@@ -1,18 +1,9 @@
-# C C++ & C#
+# C
 
---
-In this file, I want to compile information about C, C++ and C# <br/>
-programming languages. <br/>
---
+## HELLO WORLD
 
-
-## C
-
-To compile in Linux, use: <br/>
-
->gcc program.c -o program 
-
-Or you can use the __code runner__ extension for VSCode <br/>
+* create a file example.c
+* Type: 
 
 ```c
 #include<stdio.h>
@@ -21,6 +12,11 @@ int main(){
   printf("Hola mundo !!")  ;
 }
 ```
+
+To compile in Linux, use: <br/>
+>gcc program.c -o program 
+>./program
+
 
 ### CONSTANTS
 

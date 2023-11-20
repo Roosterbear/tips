@@ -1,8 +1,24 @@
 # JAVA
 
-## JDK - Java Development Kit
+## HELLO WORLD
 
-Let instalation in root folder <br/>
+* create a file Example.java
+* type:
+
+```java
+public class Example{
+  public static void main(String[] args){
+    System.out.println("Hello World!");
+  }
+}
+```
+
+* compile:
+>sudo javac Example.java
+
+* execute:
+>sudo java Example
+
 
 
 ## CLASS
