@@ -223,31 +223,7 @@ Remember to add "build" to the path, and you're done! <br/>
 
 ---
 
-# React Native
 
-React Native is a __Framework__ to build native movile apps, offering control and flexibility. <br/>
-Expo CLI is a tool that simplify and accelerate the development of apps, giving an additional layer of abstraction. <br/>
-
-__create a expo cli project__ <br/>
-
-```node
-npm install -g expo-cli
-expo init AwesomeProject
-cd AwesomeProject
-npm start
-```
-
-__create a react native project__
-```node
-npx create-react-native-app uber-eats-clone
-```
-
-Choose _template_ <br/>
-Choose _blank_ <br/>
-
-```node
-cd uber-eats-clone
-```
 
 ---
 
