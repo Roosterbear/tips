@@ -304,8 +304,13 @@ __Regex__ <br/>
 
 ### &&
 * Chain commands
-* Controls the execution of the second command __IF__ the first throws > 0
+* Stops with the first failed command
+* Controls the execution of the second command __IF__ the first throws and exit code > 0
 >grep "aa" file.txt && rm file.txt
+
+### ||
+* Chains commands
+* Stops with the first successful command
 
 
 
