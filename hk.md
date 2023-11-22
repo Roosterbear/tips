@@ -228,12 +228,84 @@ _finds all DIRECTORIES with the name "user" with NO CASE SENSITIVE_ <br/>
 * To piping, use __|__ and send the output to a command
 >ls | wc -l
 
-## REGEx
 
-* __^__ It aligns with the beginning of the line
-* __*__ It aligns with the end of the line
-* __.__ It aligns with ONE (any) character
-* __^__ It aligns with the beginning of the line
+### grep
+
+* Used to search patterns, most of the time, pipes the STDOUT to get data
+>grep "word" file.txt
+
+__Regex__ <br/>
+
+* __^__ Matches with the beginning of the line
+* __$__ Matches with the end of the line
+* __.__ Matches with ONE (any) character
+* __*__ Matches with 0 - N characters
+* __[]__ Matches with characters inside (a list[abc] or range[a-z])
+* __[^]__ Matches with non of the characters inside (a list[abc] or range[a-z])
+* __\+__ Matches one or more preceding character and only one of the next character
+>cat file.txt | grep "a+b" __look for exact characters__
+>cat file.txt | grep "a\+b" __look for any number of "a" with a "b" next to it
+* __\?__ Matches zero or one preceding character and one or more next character
+>cat file.txt | grep "a\?b" __look for any number of "b" and zero or one "a" before
+
+### sed
+
+* Replace text
+>sed 's/+/_/' file.txt
+* __s__ replace
+* Replace + by _
+* Check that has to en with "/"
+* Replace just the first character found
+
+>sed 's/a/z/g' file.txt
+* Replace all characters found
+
+### cut
+
+* Gets text from a line
+* __-f__ selects field
+* __-d__ selects delimiter (_JUST ONE CHARACTER_)
+>echo "blackberries, figs, mammees" | cut -f 2 -d ","
+
+### awk
+
+* Process data like cut, but can use _MORE_ than ONE character as delimiter
+>echo "Hola:::mundo:::como:::estas" | awk -F ":::" ' {print $1, $2}'
+
+
+## COMPARATING FILES
+
+### comm
+
+* Compares 2 files
+* Show lines exclusive in file 1
+* Show lines exclusive in file 2
+* Show lines shared in both files
+* __Flag__ _-n_ can remove 1st, 2nd or 3rd
+>comm -12 file1.txt file2.txt
+
+
+### diff
+
+* shows differences between files
+* Standard format:
+> diff file1.txt file2.txt
+* Unified format:
+> diff -u file1.txt file2.txt
+* Recursive files in directories:
+>diff -r directory1 directory2
+
+
+## COMMAND LISTS
+
+### ;
+* Separates commands
+>echo "Mi user is";whoami
+
+### &&
+* Chain commands
+* Controls the execution of the second command __IF__ the first throws > 0
+>grep "aa" file.txt && rm file.txt
 
 
 
