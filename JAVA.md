@@ -174,12 +174,6 @@ sb.append("Hola Mundo");
 
 
 
-
-## CLASSES
-
-
-
-
 ### Instanceof
 
 In the code:

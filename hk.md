@@ -219,6 +219,93 @@ _finds all DIRECTORIES with the name "user" with NO CASE SENSITIVE_ <br/>
 
 ## REDIRECTION AND PIPING
 
+* There are 3 flows we can _redirect_: __INPUT__, __OUTPUT__ and __ERROR__
+* We can use the output character: __>__ to redirect de output to another
+* To get the _ERRROR_ output, use __2>__
+>ls -al doesnotexist.txt 2> myerror.txt
+* To count words, we can use _wc -m_ and the input character: __<__
+>wc -m < file.txt
+* To piping, use __|__ and send the output to a command
+>ls | wc -l
+
+## REGEx
+
+* __^__ It aligns with the beginning of the line
+* __*__ It aligns with the end of the line
+* __.__ It aligns with ONE (any) character
+* __^__ It aligns with the beginning of the line
+
+
+
+
+
+
+
+## PENTESTING PHASES
+
+* __Engagement__ with the client. 
+
+* __Reconnaissance__ the information gathering
+
+* __Vulnerability Explotation__ identifying vulnerabilities in a system
+
+* __Explotation__ test and attack the target
+
+* __Clean-up__ delete files, exploits or accounts used in the pentesting
+
+* __Report__ Recommendations and potential fixes for discovered information
+
+
+### Reconnaissance
+
+* __Pasive footprinting__ or __OSINT__ Open Source Intelligence
+>Involves gathering information about the target without their awareness
+>All the information we can get from outside, by public sources:
+* WHOIS Databases
+* Search Engines
+* Social Networks
+* Web Pages
+* Job postings that need to inform the vacancy requirements
+* Geo-Labeled pictures 
+<br/>
+
+* __Data to get:__
+>Networking:
+* Domains
+* Net segments
+* IP direction
+* DNS Servers
+
+>Systems:
+* Operative Systems
+* Web Technologies
+* Location
+
+>Organization
+* Names
+* Phone numbers
+* E-mails
+* News
+
+
+## PROTECTION AND ANONYMITY
+
+* Assessing your anonymity while browsing the Internet:
+
+>https://coveryourtracks.eff.org/
+>https://browserleaks.com/
+
+* Virtual Machine __Trace Labs OSINT__ to researches:
+
+>https://www.tracelabs.org/initiatives/osint-vm
+
+* Extensions for browsers:
+>Ublock Origin
+>Privacy Badger
+>User-Agent Switcher and Manager
+
+
+
 
 
 
