@@ -2,13 +2,19 @@
 
 ## STARTING
 
+* Open IntelliJ
+* Create a New Project Hello
+* Right click in Hello/src and choose __New__
+* Name it _Hello.kt_
+
+
 ```kotlin
 fun main(){
   print("Hello world !")
 }
 ```
 * We do not need classes
-* We do not use ";" at the end
+* We do not need to use ";" at the end
 
 
 ## VARIABLES, VALUES AND CONSTANTS
@@ -18,10 +24,12 @@ __variables__ <br/>
 
 __values__ <br/>
 >val name = "Fernando"
+_values can not change_ <br/>
 
 __constants__ <br/>
 >const val name = "Fernando"
-_constants has to be in an external context_
+_constants has to be in an external context_<br/>
+_constants either can not change_ <br/>
 
 * Kotlin is __NOT__ dinamically typed
 * We do not __need__ to _declare_ a type
@@ -103,6 +111,54 @@ when(mes){
   }
 }
 ```
+
+## REPEAT
+
+```kotlin
+repeat(5){
+  print("@")
+}
+```
+
+## FUNCTIONS
+
+
+```kotlin
+fun printbase(caracter: String){
+  print(caracter)
+}
+```
+
+## NULLS
+
+* By default, Kotlin does not allow __NULLs__
+* If we want a variable to accept NULLs, you need to declare it with __?__:
+>var str: String?=null
+
+### Call secure functions
+>w?.eat()
+* if w is not null, exec _eat()_
+
+### let
+```kotlin
+w?.let{
+  println(it.hunger)
+}
+```
+* let has to be between _curly brackets_
+* _it_ can access the object properties
+
+
+### ELVIS Operator
+>w?.eat() ?: -1
+
+
+
+
+
+
+
+
 
 
 
