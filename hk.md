@@ -311,6 +311,37 @@ __Regex__ <br/>
 ### ||
 * Chains commands
 * Stops with the first successful command
+>grep "zz" file.txt && rm file.txt
+
+
+
+## USERS
+
+* Lock user
+>sudo usermod -L theuser
+
+* Unlock user
+>sudo usermod -U theuser
+
+* User Configuration
+>sudo chage -l theuser
+
+* Expire user
+>sudo chage -E 2001-01-01 theuser
+
+* Show current user Groups
+>groups
+
+* Session as root
+>sudo -i
+>su
+
+* Change user
+>su theuser
+
+
+
+
 
 
 
@@ -380,6 +411,29 @@ __Regex__ <br/>
 >Ublock Origin
 >Privacy Badger
 >User-Agent Switcher and Manager
+
+## SEARCH TIPS
+
+* site
+>site: domain.com something
+
+* intitle
+>intitle: something interesting
+
+* inurl
+>inurl: hacking
+
+* link
+>link: mywebsite.com
+
+* type
+>mysearch .pdf
+>mysearch type:pdf
+>mysearch ext:pdf
+
+* Exploit Database: 
+>https://www.exploit-db.com/google-hacking-database/
+
 
 
 
