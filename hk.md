@@ -340,6 +340,49 @@ __Regex__ <br/>
 >su theuser
 
 
+## PERMISSIONS
+
+>levels
+* __u__ user
+* __g__ group
+* __o__ other
+
+>access
+* __r__ read
+* __w__ write
+* __x__ execute
+
+>files
+* __read__ copy or read a text file
+* __write__ change the file
+* __execute__ open a binary file / execute a script
+
+>directories
+* __read__ list the inner files
+* __write__ delete the directory
+* __execute__ enter the folder or directory
+
+__There are 2 ways to change permissions: symbolic and numerical (_octal_)__ <br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
