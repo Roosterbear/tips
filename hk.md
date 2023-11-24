@@ -364,7 +364,52 @@ __Regex__ <br/>
 
 __There are 2 ways to change permissions: symbolic and numerical (_octal_)__ <br/>
 
+### symbolic
+>chomod u=rwx,g+rw,o-r file.txt
 
+* __a__ means "ALL"
+>chomod a=rx file.txt
+
+### numeric
+>chmod 777 file.txt
+
+* __7__ is the maximum permissions to give (_read - write - execute_)
+* The order is: _user, group, other_
+* __4__ is for _READ_ 
+* __2__ is for _WRITE_
+* __1__ is for _EXECUTE_
+
+>chmod 754 file.txt
+* _read - write - execute_ permissions for the owner
+* _read - execute_ permissions for the group
+* _read_ permissions for others
+
+### chown
+
+* Changes the owner
+>chown root file.txt
+
+### suid _(set user ID)_
+* Allow current user exec the file with the _OWNER_ rights
+>chmod u+s file
+* Now you can see the permission with _ls -l_
+
+* Delete SUID
+>chmod u-s file
+
+### sgid _(set group ID)_
+* Allow current user exec the file with the _GROUP_ rights
+>chmod g+s file
+* Now you can see the permission with _ls -l_
+
+* Delete SUID
+>chmod g-s file
+
+### sticky bit
+* For directories
+* Restricts the deletion of files
+* Only their owner or the owner of the parent directory can delete the file
+>chmod +t directory
 
 
 
