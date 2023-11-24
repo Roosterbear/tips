@@ -412,6 +412,17 @@ __There are 2 ways to change permissions: symbolic and numerical (_octal_)__ <br
 >chmod +t directory
 
 
+## PROCCESS
+
+* create a process in background:
+>ping google &
+_The __&__ at the end sends the process at bg_ <br/>
+* suspend a process (ctrl+z)
+* cancel a process (ctrl+c)
+* back to suspended process:
+>fg
+* send to background:
+>bg
 
 
 
