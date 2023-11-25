@@ -415,16 +415,77 @@ __There are 2 ways to change permissions: symbolic and numerical (_octal_)__ <br
 ## PROCCESS
 
 * create a process in background:
->ping google &
+>ping google.com &
 _The __&__ at the end sends the process at bg_ <br/>
-* suspend a process (ctrl+z)
-* cancel a process (ctrl+c)
-* back to suspended process:
+
+* suspend a process (_ctrl+z_)
+* cancel a process (_ctrl+c_)
+
+* send to front or get back from suspended process:
 >fg
-* send to background:
+
+* send to background or get back from suspended process:
 >bg
 
+* see process in the current terminal:
+>jobs
 
+* modify on certain job:
+>fg %1
+>bg %2
+>fg %%
+>bg %+
+>fg %-
+_Where % help us to tell the process number_ <br/>
+_%% and %+ represent current job_ <br/>
+_%- represent the previous job_ <br/>
+
+* list process in the current shell
+>ps
+
+* list ALL system process:
+>ps -e
+
+* list ALL system process in complete format:
+>ps -ef
+
+* finish a process:
+>kill 7172
+_where 7172 is the process number_ <br/>
+
+
+## APT
+_Advanced Package Tool_ <br/>
+
+* update
+>apt update
+
+* upgrade
+>apt upgrade
+
+* search a package
+>apt-cache search rails
+
+* description of a package
+>apt show rails
+
+* install a package
+>sudo apt install rails
+
+* remove a package
+>sudo apt remove rails
+
+* remove ALL from a package and user configuration files
+>sudo apt remove --purge rails
+
+* delete dependencies from a package
+>sudo apt autoremove
+
+* list installed packages in the system
+>dpkg -l
+
+* show detailed information about a package
+>dpkg -s packagename
 
 
 
