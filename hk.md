@@ -488,24 +488,53 @@ _Advanced Package Tool_ <br/>
 >dpkg -s packagename
 
 
+## PROGRAMMED TASKS
+
+### cron
+
+* Daemon that allow you the execution of tasks
+* We can find them in _/etc/cron.*_
+* The '*' could be: __daily, hourly, monthly, weekly__
+* We can add our tasks in the __/etc/crontab__ file
+>cat /etc/crontab
+* Select editor:
+>crontab -e
+* Choose editor again:
+>select-editor
 
 
+## MONITORING
 
+* The common commands to see a file are: _head_ and __tails__
+* _head_ list first lines
+* _tails_ list last lines, and it is very __useful__ for logs
+>tails -f log.txt
+* The parameter _"-f"_ (__follow__) is useful to update constantly the output
+* __watch__ is very useful to repeat a command every 2 secs. to see differences
+* We can use -n _x_ where "x" is the number of seconds
+* Used in the commands: __ls -al__, __top__, __w__, __free__
+* Stop watch: _ctrl+c_
 
+### Logging
 
+* Are saved in __/var/log__
+>tail -5 /var/log/auth.log
 
+* Record for event session:
+>who /var/log/wtmp
 
+* Kernel records from devices attached to system:
+>dmesg
 
+* Records from __systemd__
+>jornaulctl
+* __-r__ revere order
+* __-f__ follow, to update new lines
+* __u__ specify a unit
+>journal -r -f -u NetworkManager
 
-
-
-
-
-
-
-
-
-
+ * __free__ information about memory. _-m_ or _-g_ megas or gigas
+ * __df__ disk free. _-h_ human version
 
 
 
@@ -593,6 +622,44 @@ _Advanced Package Tool_ <br/>
 
 * Exploit Database: 
 >https://www.exploit-db.com/google-hacking-database/
+
+
+## WHOIS
+
+* In some countries is not allowed to show data from __whois__
+* In other countries, some domain __registrars__ charge for hide this information
+* __viewdns.info__
+
+### Certificate Transparency: The New WHOIS
+
+* WHOIS data is no longer readily available
+* There is another source through the Certificate Transparency service
+
+---
+
+Web browsers do a good job in detecting malicious websites. <br/>
+
+By using __SSL/TLS certificates__ and employing __HTTP Strict Transport Security__ 
+features on web servers, browsers can identify an imposter site 
+attempting to impersonate a legitimate one. <br/>
+
+However, what browsers don't do well is identify the presence of 
+a malicious certificate issued by a Certification Authority _(CA)_ <br/>
+
+__Certificate Transparency__ is a requirement for CAs where they must publish records of 
+all issued certificates. <br/>
+
+The records data undergoes scrutiny and audits, allowing other CAs to identify 
+any suspicious activity. <br/>
+
+---
+
+* We can check the available Certificate Transparency search services from 
+various sources, for example: __https://crt.sh__ <br/>
+
+
+
+
 
 
 
