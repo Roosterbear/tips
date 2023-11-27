@@ -1,5 +1,35 @@
 # JAVA
 
+## INSTALLATION
+
+>https://www.oracle.com/java/technologies/javase/jdk15-archive-downloads.html
+>https://www.globalmentoring.com.mx/software/jdk15/index.html
+
+* We can use OpenJDK for developing
+* For Production, it is better Oracle JDK for the updates and support 
+
+### In Windows
+
+* You will need a directory, the closest to root, like: __c:/java
+* The simplest name, without space or special characters
+* Extract file
+* In the System Properties, go to _Environment Variables_
+* Config user _(PATH)_, add __NEW__ and paste the path to _bin_
+* Delete any other path to JDK, just let ONLY one
+* Create a NEW Variable and name it: __JAVA_HOME__
+* Let the path __without__ bin directory
+* Test in Powershell
+
+
+### In Linux
+
+* Go to /etc/profile or /etc/environment or ~/.bashrc
+* Open __~/.bashrc__ and add:
+>export JAVA_HOME = /usr/java/jdk-15.x.x
+
+
+* Also, Install Apache Netbeans
+
 ## HELLO WORLD
 
 * create a file Example.java

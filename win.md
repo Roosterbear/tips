@@ -1,5 +1,15 @@
 # WINDOWS TRICKS
 
+## SCREENSHOT
+
+* __win+shift+s__
+
+## FIDO
+
+* __Fast IDentity Online__
+* _Used to attach it to a USB_
+
+
 ## BAT (Command Line)
 
 __@echo off__<br/>
