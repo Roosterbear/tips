@@ -657,6 +657,74 @@ any suspicious activity. <br/>
 * We can check the available Certificate Transparency search services from 
 various sources, for example: __https://crt.sh__ <br/>
 
+* We can check __WEBBACK MACHINE__ for older versions of webs.
+
+## EMAIL FOOTPRINTING
+
+* Is the process of gathering emails accounts
+* We can search in google, but there are other tools
+* Email accounts may have a format like name.surname
+* We can use harvester in _Kali Linux_
+* The command _theHarvester_ by itself, give us help
+* Lets get 5 email accounts from udg.mx from bing:
+>theHarvester -d udg.mx -b bing -l 5
+
+* Also can use: 
+>https://haveibeenpwned.com
+>https://www.osintframework.com/
+>https://spiderfoot.net.
+
+
+## SCANNING
+__Active Footprinting or OSINT__
+
+* Discover Active Hosts to get a list of IP addresses
+* Discover open ports in every IP address
+* identify software 
+* Discover OS
+
+### Six Flags of TCP
+
+* __SYN__ The beginning of 3-Hand-shake
+* __ACK__ Confirm the reception of a transmission and secuence number
+* __PSH__ When 1 the receiver must inform about stored data
+* __URG__ When 1, receiver gives priority and stop other processes
+* __FIN__ When 1, there will not be more transmisions
+* __RST__ When error, turns to 1. Useful to scan ports
+
+### 3 Hand Shake
+
+>PC sends __SYN, 100__ to SERV
+>SERV sends __ACK, 101__ and its __SYN, 200__ to PC
+>PC responds with __ACK, 201__
+* Now there is a __connection__
+
+### Test the 3 Hand Shake
+
+_PC1_ <br/>
+* Init a service of __Netcat__ 
+* Active Listening, Disable name resolution, Verbose and add port 50000
+>nc -lnvp 50000
+
+_PC2_ <br/>
+* Open _wireshark_
+* Use filer: xxx.xxx.xxx.xxx and not arp (x...->PC1 IP address)
+* In terminal:
+>nc -nvv xxx.xxx.xxx.xxx 50000
+* We can send messages from terminal
+* _Ctrl+c_ to cancel communication
+
+### Test UDP
+
+* The same, but command for PC1:
+>nc -lunvvp 60000
+* Command for PC2:
+>nc -nvvu xxx.xxx.xxx.xxx 60000
+* We can see that _wireshark_ does not show anything, until we send messages
+
+
+
+
 
 
 

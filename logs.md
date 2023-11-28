@@ -10,11 +10,12 @@
 * Respaldo antes de actualizar plugins y modificar
 * Actualización de plugins
 * Respaldo de corrección Header y Footer en Inglés con actualizaciones
+* Creación de artículo basado en video de youtube (con fotos)
+* Reenviar correos de usuarios del sitio
+* Agregar correo carpiotat2@gmail.com a los destinos de mensajes del sitio
+* Agregar ciudad y país a los datos generales
 
 
->Reenviar correos de usuarios del sitio
->Agregar correo carpiotat2@gmail.com a los destinos de mensajes del sitio
 >Mejorar blog
 >Agregar plugin para SEO (Yoast)
->Creación de artículo basado en video de youtube (con fotos)
 
