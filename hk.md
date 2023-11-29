@@ -722,6 +722,47 @@ _PC2_ <br/>
 >nc -nvvu xxx.xxx.xxx.xxx 60000
 * We can see that _wireshark_ does not show anything, until we send messages
 
+### Active Hosts Detection
+
+We must use plenty of tools to detect host
+
+__Netdiscovery__ <br/>
+* uses ARP _(Address Resolution Protocol)_
+* Devices send ARP requests as broadcast type
+>sudo netdiscover -r 192.168.132.0/24 -i eth0
+
+__Nmap__ <br/>
+* A variant for Nmap is _-sn_ and works with:
+* ICMP Ping Requests
+* TCP SYN Scan at 443 port
+* TCP ACK Scan at 80 port
+* A ICMP time-stamp request
+>sudo nmap -sn 10.0.0.0/24
+
+* In Kali do a ping sweep:
+>fping -a -g 192.168.10.0/24 2> /dev/null
+
+* Now an ARP request:
+>sudo netdiscover -r 192.168.10.0/24
+
+* Composed ping:
+>sudo nmap -sn 192.168.10.254 -T4 --disable-arp
+
+#### TCP Connect Scanning
+
+* Use it when you can not do a TCP SYN scanning
+* Use it if you do not have root permissions
+* Do not use TCP connect _if you have TCP SYN_
+* TCP Connect uses the Operative System to stablish connections
+* The OS stablish a TCP connection with the target and its ports
+* The OS stablish the 3 hand-shake
+>nmap -sT 192.168.132.1
+
+
+
+
+
+
 
 
 
