@@ -758,6 +758,37 @@ __Nmap__ <br/>
 * The OS stablish the 3 hand-shake
 >nmap -sT 192.168.132.1
 
+#### TCP SYN Scanning
+
+* Known as _stealthy_ scan
+* Start, but do not complet the whole process of 3 Hand-shake
+* In the 3rd step, sends __RST__
+>sudo nmap -sS 192.168.132.1
+
+#### UDP port Scanning
+
+* DNS, NTP, SNMP use UDP
+* You must always include a UDP Scan in a penetration test
+* Used to be _very slow_
+>sudo nmap -sU 192.168.132.1
+* If port is open, the application responds
+* The Scan registers the _datagram_
+* The Scan responds with a __ICMP packet__ _"port unreachable"_
+
+#### Range of Ports Scanning
+
+* We can give a range of ports as a parameter with __-p__
+>sudo nmap -sS 192.168.132.1 -p 1-100
+>sudo nmap -sS 192.168.132.1 -p 137-139, 145
+* We can see open ports:
+>netstat -antup | less
+>netstat -antup | grep :511
+>netstat -antup | grep udp 
+
+_
+
+
+
 
 
 
