@@ -1,21 +1,18 @@
 # carpiotattoos.com
 
-## noviembre 2023
+## diciembre 2023
 
-* Agregación de Google Search Console
-* Creación de cuenta Pinterest
-* Se agregaron fotos para crear PIN en Pinterest
-* Se agregó LOGO y FONDO en cuenta de Pinterest
-* Se agregó el sitio web a Pinterest
-* Respaldo antes de actualizar plugins y modificar
-* Actualización de plugins
-* Respaldo de corrección Header y Footer en Inglés con actualizaciones
-* Creación de artículo basado en video de youtube (con fotos)
-* Reenviar correos de usuarios del sitio
-* Agregar correo carpiotat2@gmail.com a los destinos de mensajes del sitio
-* Agregar ciudad y país a los datos generales
+* Cambio de 2 pines en PINTEREST
+* Cambio en artículo de noviembre
 
-
+>Crear articulo basado en video de youtube
+>Agregar pin de articulo basado en youtube
+>Agregar pin de primer articulo en PINTEREST
+>Agregar fotos nuevas
+>Agregar videos nuevos
+>Agregar un video a Pinterest
+>Crear secciones de tatuajes en la web para agregar a Pinterest
 >Mejorar blog
 >Agregar plugin para SEO (Yoast)
+
 
