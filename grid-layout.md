@@ -1,6 +1,4 @@
-🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞 <br/>
 # GRID Layout
-🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞🐞 <br/>
 
 The best way to create complex designs with different size blocks in 2 DIMENSION ALIGMENT. <br/>
 in some ways, it moves like _tetris_ <br/>

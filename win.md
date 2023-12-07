@@ -4,6 +4,10 @@
 
 * __win+shift+s__
 
+## TASK MANAGER
+
+* __ctrl+shift+esc__
+
 ## FIDO
 
 * __Fast IDentity Online__

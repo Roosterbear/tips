@@ -1,6 +1,4 @@
-#      👁️👁️  
-
-## Active Directory
+# Active Directory 👁️👁️  
 
 Stores information of resources of a network. <br/>
 

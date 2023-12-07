@@ -89,7 +89,7 @@ int prices = {1,2,3,4,5};
 
 --
 
-## C++
+# C++
 
 To compile in Linux, use: <br/>
 
@@ -121,7 +121,7 @@ Download __Qt__
 --
 
 
-## C#
+# C#
 
 Install Visual Studio: <br/>
 
