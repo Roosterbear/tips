@@ -4,6 +4,8 @@
 
 * The compiler checks the syntax of our code
 * Then translates it to assembly language
+
+
 ## Preprocessor Directives
 
 * The most used is: __FILE INCLUSION DIRECTIVE__
@@ -39,10 +41,15 @@ To compile in Linux, use: <br/>
 >./program
 
 
-### CONSTANTS
+## CONSTANTS
 
 >const double PI = 3.1416;
 >#define AGE = 47
+
+
+## BOOLEANS
+
+* C does not have Boolean data type
 
 ## CONDITIONS
 
