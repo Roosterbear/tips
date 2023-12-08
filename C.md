@@ -1,5 +1,26 @@
 # C
 
+## Compiler
+
+* The compiler checks the syntax of our code
+* Then translates it to assembly language
+## Preprocessor Directives
+
+* The most used is: __FILE INCLUSION DIRECTIVE__
+
+```c
+#include<stdio.h>
+#include<conio.h>
+```
+
+* __MACRO SUBSTITUTION DIRECTIVE__
+
+```c
+#define MAX 100
+```
+* We can use __MAX__ as _100_
+
+
 ## HELLO WORLD
 
 * create a file example.c
