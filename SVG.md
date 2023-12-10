@@ -32,7 +32,7 @@
 * You can either use __ry__
 * If there is no _ry_, takes the same value as _rx_
 
-## Lines
+## LINES
 
 * By default, a line has no color
 * To change color, use _stroke_
@@ -40,12 +40,38 @@
 * To change width, use _stroke-width_
 >stroke-width="10"
 
+## CIRCLES
+
+```html
+<circle cx="200" cy="200" r="50"
+fill="" fill-opacity="0.4"
+stroke="rgb(0 0 0)" stroke-width="10" />
+```
 
 
+## ELLIPSE
+
+```html
+<ellipse cx="200" cy="400" rx="200" ry="50" fill="none" stroke="green" />
+<ellipse cx="200" cy="00" rx="200" ry="50" fill="none" stroke="green" />
+<ellipse cx="400" cy="200" rx="50" ry="200" fill="none" stroke="green" />
+<ellipse cx="00" cy="200" rx="50" ry="200" fill="none" stroke="green" />
 
 
+<ellipse cx="200" cy="200" rx="50" ry="200" fill="none" stroke="blue" 
+transform="rotate(10 200 200)"/>
+```
+* In transform-rotate, the values are: (grades x y)
+* We can increment by 10 grades to create an __atom__
 
 
+## POLYLINE
+
+<polyline points="250 250 250 150 300 150 250 250"
+fill="none" stroke="orange" transform="rotate(0 250 250)" />
+
+* The shape can be closed or not
+* We can increment by 30 grades to create a __flower__
 
 
 
