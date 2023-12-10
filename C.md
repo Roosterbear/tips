@@ -49,7 +49,23 @@ To compile in Linux, use: <br/>
 
 ## BOOLEANS
 
-* C does not have Boolean data type
+-- 
+* _C_ __DOES NOT HAVE BOOLEAN DATA TYPE__
+--
+
+
+## CHARS
+
+--
+* _C_ __TREATS CHARACTERS AS INTEGERS__
+
+* So, if we compare in a switch: 
+>case 'a'
+
+* We really are doing:
+>case 97
+--
+
 
 ## CONDITIONS
 
@@ -93,6 +109,14 @@ do{
 }while(i<10);
 ```
 
+## RECEIVE DATA FROM USER
+
+
+```c
+puts("Enter value: ");
+scanf("%c",&ch);
+```
+
 ## ARRAYS
 
 ```c
@@ -105,6 +129,11 @@ int prices[SIZE];
 int prices = {1,2,3,4,5};
 ```
 
+## POINTERS
+
+* ALWAYS store __INTEGER__ entities
+* Is the only variable whose data type we do not have to specify
+* To define a _pointer_ we use '*' character
 
 
 
@@ -133,6 +162,29 @@ To compile in C++11 Standard:
 
 
 Or you can use the __code runner__ extension for VSCode <br/>
+
+
+## LIBRARIES
+
+* __cstdio__ is oriented to _C_ like _printf_
+* __iostream__ is oriented to _C++_ like: _cout_, _cin_
+
+
+```c++
+#include<iostream>
+using namespace std;
+
+int main(){
+  int arre[] = {1,2,3};
+  for(int i=0;i<=2;i++){
+    cout<<arre[i];
+    cout<<"\n";
+  }  
+}
+```
+
+
+
 
 
 ### CREATE A GAME
