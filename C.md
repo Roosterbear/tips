@@ -183,8 +183,23 @@ int main(){
 }
 ```
 
+## TEMPLATES
 
+```c++
+#include<iostream>
+template<typename T>
 
+T Max(T x, T y){
+  std::cout<<typeid(T).name()<<std::endl;
+  return x>y?x:y;
+}
+
+int main(){
+  auto num = Max(3.3f, 5.8f);
+  std::cout<<num<<std::endl;
+  return 0;
+}
+```
 
 
 ### CREATE A GAME
