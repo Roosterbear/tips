@@ -67,11 +67,35 @@ transform="rotate(10 200 200)"/>
 
 ## POLYLINE
 
+```html
 <polyline points="250 250 250 150 300 150 250 250"
 fill="none" stroke="orange" transform="rotate(0 250 250)" />
-
+```
 * The shape can be closed or not
 * We can increment by 30 grades to create a __flower__
+
+
+## PATH
+
+```html
+<path d="M 20 20 L 200 20 V 50 H 20">
+<path d="m 20 20 l 200 20 v 50 h 20">
+<path d="M 90 20 C 5 45 165 65 60 100">
+<path d="M 100 130 a 1 1 0 0 0 30 0">
+<path d="M 130 100 a 2 2 0 0 0 0 30">
+<path d="M 100 130 a 3 3 0 0 0 30 0">
+<path d="M 100 100 a 4 4 0 0 0 0 30">
+```
+* Capital Letters consider coordinates absolute
+* Small letters consider coordinates relatives to the previous point
+* __M__ Move to
+* __L__,__H__,__V__ Line to
+* __C__,__S__ Cubic Bezier Curve
+* __Q__,__T__ Quadratic Bezier Curve
+* __Z__ Close path
+
+
+
 
 
 
