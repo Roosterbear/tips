@@ -29,6 +29,7 @@
 * You can either use __ry__
 * If there is no _ry_, takes the same value as _rx_
 
+
 ## LINES
 
 * By default, a line has no color
@@ -37,9 +38,14 @@
 * To change width, use _stroke-width_
 >stroke-width="10"
 
+```html
+<line stroke="green" x1="5" y1="5" x2="400" y2="5" stroke-width="2">
+```
+
+
 ## CIRCLES
 
-* __DO NOT__ use x or y
+* __DO NOT__ use x or y for position
 * Use _cx_ and _cy_ instead
 
 
@@ -66,7 +72,21 @@ transform="rotate(10 200 200)"/>
 * We can increment by 10 grades to create an __atom__
 
 
+## POLYGON
+
+* We make every angle with _x_ and _y_ pairs
+* Always is __CLOSED__
+
+```html
+<polygon points="200, 10, 250, 190, 160, 210"
+                fill="green" stroke="black"/>
+```
+
+
 ## POLYLINE
+
+* We can create any kind of shape
+
 
 ```html
 <polyline points="250 250 250 150 300 150 250 250"
@@ -101,6 +121,12 @@ fill="none" stroke="orange" transform="rotate(0 250 250)" />
 * We can group elements with the __g__ tag
 
 
+## TEXT
+
+
+```html
+<text x=50 y=50 fill="green">SVG Rocks!</text>
+```
 
 
 
