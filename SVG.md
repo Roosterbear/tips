@@ -9,7 +9,7 @@
   <rect width="300" height="100" x="40" y="20" />
 </svg>
 ```
-* Extensions: __SVG__ by Jock, __SVG Preview__ by Simon Siefke and __SVG Snippets__ by Sidthesloth
+* Extensions in VSC: __SVG__ by Jock, __SVG Preview__ by Simon Siefke and __SVG Snippets__ by Sidthesloth
 
 ## Rectangle
 
@@ -23,9 +23,6 @@
   <rect x="20" y="20" width="100" height="100" fill="blue">
 </svg>
 ```
-
-### Round Corners
-
 * Use __rx__ to round corners
 * The range is 1-50
 >rx="5"
@@ -41,6 +38,10 @@
 >stroke-width="10"
 
 ## CIRCLES
+
+* __DO NOT__ use x or y
+* Use _cx_ and _cy_ instead
+
 
 ```html
 <circle cx="200" cy="200" r="50"
@@ -86,13 +87,18 @@ fill="none" stroke="orange" transform="rotate(0 250 250)" />
 <path d="M 100 130 a 3 3 0 0 0 30 0">
 <path d="M 100 100 a 4 4 0 0 0 0 30">
 ```
-* Capital Letters consider coordinates absolute
-* Small letters consider coordinates relatives to the previous point
-* __M__ Move to
+* __d__ is for data
+* Capital Letters consider absolute coordinates
+* Small letters consider relative coordinates to the previous point
+* __M__ Move to a coordinate without drawing
 * __L__,__H__,__V__ Line to
 * __C__,__S__ Cubic Bezier Curve
 * __Q__,__T__ Quadratic Bezier Curve
 * __Z__ Close path
+
+## GROUP
+
+* We can group elements with the __g__ tag
 
 
 
