@@ -9,6 +9,10 @@
 * Se agregó plugin para SEO (Yoast)
 * Optimización SEO con Yoast
 * Creación de seccion en la web para agregar a Pinterest
+* Respaldo 28-12-2023 antes de actualizar plugins
+* Actualización de plugins
+* Respaldo 28-12-2023 después de actualizar plugins
+* Cambio de testimonio, agregación de foto.
 
 
 >Crear articulo basado en video de youtube
@@ -17,8 +21,6 @@
 >Agregar fotos nuevas
 >Agregar videos nuevos
 >Agregar un video a Pinterest
-
-
 
 
 SVG
