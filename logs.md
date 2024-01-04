@@ -17,14 +17,11 @@
 * Creación de articulo nuevo basado en video de youtube
 * Captura, edicion y subida de imagenes para articulo
 * Meta descripcion para SEO a "Como lograr Alto Contraste en un Tatuaje"
-* 
+* Meta descripcion para SEO a "Como hacer efecto pelaje en un Tatuaje"
+* Edicion y subida de 3 tatuajes en sitio web
+* Creacion de PIN de articulo basado en video de youtube en Pinterest
 
 
->Agregar pin de articulo basado en youtube
->Agregar pin de primer articulo en PINTEREST
->Agregar fotos nuevas
->Agregar videos nuevos
->Agregar un video a Pinterest
 
 
 SVG
