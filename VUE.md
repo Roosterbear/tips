@@ -31,7 +31,7 @@ new Vue({
 </div>
 <script src="app.js"></script>
 ```
-- We can change _v-on:click_ by __@click__
+* We can change _v-on:click_ by __@click__
 
 ```javascript
 new Vue({
@@ -58,7 +58,7 @@ new Vue({
 </div>
 <script src="app.js"></script>
 ```
-- We can change _v-bind:class_ by just __:class__
+* We can change _v-bind:class_ by just __:class__
 
 ```javascript
 new Vue({
@@ -81,4 +81,20 @@ new Vue({
 ```
 
 
+## INSTALLATION
+
+>npm install -g @vue/cli
+
+or
+
+>yarn global add @vue/cli
+
+## CREATE A PROJECT
+
+>vue create my-project
+
+* Manually Select features
+* Select _Babel_ __VUEX__ _CSS Pre-processors_ 
+* Deselect _Linter_
+* Select version 3.x
 
