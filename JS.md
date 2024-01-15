@@ -2,7 +2,6 @@
 
 We can add Javascript code in an HTML file with the __script__ tag. <br/>
 
-
 ```html
 <script src="app.js"></script>
 ```
@@ -483,16 +482,12 @@ const flecha = ()=>{
 }
 ```
 
-
 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 <br/>
 __Is extremely important to remeber that we must NOT use arrow functions as methods!__ <br/>
 _Arrow functions DO NOT have THIS_ <br/>
 ### We can use arrow functions inside a method, BUT not AS methods.
 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 <br/>
 <br/>
-
-
-
 
 
 __functions accepting callback functions__ <br/>
