@@ -33,6 +33,8 @@ We can create a scope with a function or a try-catch to block access to that var
 
 ## STRINGS
 
+
+🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 <br/>
 ### TRIM
 
 Remove spaces at the start and the end of a text <br/>
@@ -190,6 +192,8 @@ console.log(Number.MAX_VALUE * 2)
 __Remove blank spaces in a text__ <br/>
 We can use the __.trim()__ function to remove blank spaces in a text variable.
 
+
+
 ## ARRAYS
 We can create an array this way: <br/>
 
@@ -197,6 +201,7 @@ We can create an array this way: <br/>
 const arreglo1 = [1,2,3,4,5,6,7];
 ```
 
+🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 <br/>
 ## FILTER
 
 __Returns__ _a new array_ with the values that return true in a given condition.<br/>
@@ -308,7 +313,13 @@ function count(){
 
 Now, count is a higher order function that returns a new function. <br/>
 
+
+
+🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 <br/>
+🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 <br/>
 ### Event Listeners
+🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 <br/>
+🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 <br/>
 
 We can add listeners to the DOM and adding it an anonymous function like: <br/>
 
