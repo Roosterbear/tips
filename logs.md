@@ -6,8 +6,9 @@
 * Respaldo antes de actualizacion de plugins
 * Actualizacion de plugins
 * Respaldo despues de actualizacion de plugins
-* Modificacion de area de Talleres para agregar videos de youtube del tema
-
-
+* Modificacion de Talleres, agregando videos del canal
+* Creación de artículo nuevo basado en video de youtube
+* Captura, edición y subida de imágenes para artículo
+* Creación de nuevo PIN basado en último artículo para Pinterest
 
 
