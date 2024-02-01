@@ -12,6 +12,9 @@
 * Creación de nuevo PIN basado en último artículo para Pinterest
 * Descarga, Edición y Subida de 7 videos
 * Descarga, Edición y Subida de 1 imagen
+* Creación de tablero en Pinterest "Tatuajes de Animales"
+* Organización de cuenta en Pinterest
+* Creación de pines con imagenes de tatuajes de animales
 
 
 
