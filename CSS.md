@@ -64,7 +64,7 @@ The most important: <br/>
 Less important <br/>
 ```<style> /* code */<style>```  <br />
 
-The less important <br/>
+The least important <br/>
 ```html
 <link rel="stylesheet" href="style.css">
 ```
