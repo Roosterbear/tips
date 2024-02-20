@@ -785,28 +785,6 @@ __Nmap__ <br/>
 >netstat -antup | grep :511
 >netstat -antup | grep udp 
 
-_
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
