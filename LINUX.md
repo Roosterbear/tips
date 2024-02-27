@@ -170,7 +170,7 @@ See files in a __.jar__ file: <br/>
 tar -tvf MyCompressions.tar
 ```
 
-Extract files from a __.jar__file: <br/>
+Extract files from a __.tar__file: <br/>
 
 ```bash
 tar -xvf MyCompressions.tar
