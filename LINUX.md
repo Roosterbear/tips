@@ -109,11 +109,6 @@ __YOU HAVE TO BE VERY CAREFULLY WITH THIS DANGEROUS COMMAND__ ❗ <br/>
 
 <br/>
 
-### Create a folder with the current date in the name
-
-```terminal
-mkdir "$(date+"%Y-%m-%d")"
-```
 
 ### Delete all PNG files
 
