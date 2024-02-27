@@ -210,7 +210,7 @@ bzip2 MyCompressions.tar
 Uncompress: <br/>
 
 ```bash
-bunzip2 MyCompressions.tar.gz
+bunzip2 MyCompressions.tar.bz2
 ```
 
 
