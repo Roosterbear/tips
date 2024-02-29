@@ -1,24 +1,20 @@
 # CSS
 
-There are 3 ways to add CSS code: <br/>
-
-* Adding a special extra file, for example: style.css and adding it's reference: <br/>
+* From a file
 
 ```html
 <link rel="stylesheet" href="style.css">
 ```
-
 * Between the ```<head>``` and ```</head>``` tags, adding the ```<style>``` and ```<style>``` tags <br />
 
-
-* And the less used and less recommended: Inside tags withe the "_style_" property.<br/>
+* And the less used and less recommended: Inside tags with the "_style_" property.<br/>
 (_still used in wordpress and old sites_). <br/>
 
 ```html
 <div style="background-color: #bbb;">Hello</div>
 ```
 
-### Clean properties
+## Clean properties
 
 ```css
 *{
@@ -136,9 +132,6 @@ ul{
 We can add: disc, circle, upper-roman, lower-latin, square.
 
 
-## PREFIXES
-Nowadays, it is not necessary to use prefixes (_-o, -moz, -webkit_), since browsers are compatible. <br/>
-
 
 ## CENTER
 
@@ -151,7 +144,6 @@ Adding padding: <br/>
   padding: 7% 15%;
 }
 ```
-
 7% will be top and bottom <br/>
 15% will be left and right <br/>
 
@@ -676,7 +668,171 @@ __4.- Takes some minutes to be published and we'll have to wait__ 🕜  <br/
 ssh {__user__}__@__{__host__} <br/>
 
 
+# Flexbox
+
+__1.- We need a parent class to contain flexbox:__ <br/>
+
+```css
+.container{
+  display: flex;
+  gap: 1rem; 
+}
+```
+>gap is the space between elements
+
+* We need at least a child element.
 
 
+__2.- We need to add the direction at that container with flex-direction:__ <br/>
+
+```css
+.container{
+  display: flex;
+  flex-direction: column; // Or by default: row
+  gap: 1rem; // Space between elements
+}
+```
+_We won't see anything until we add elements (items)_. <br/>
+
+__Change the basis__ <br/>
+
+The basis is the axis that we select in flex-direction. <br/>
+We can change the size of every element with: <br/>
+
+```css
+.container > *{
+  flex-basis: 100px;
+}
+```
+
+__Wrap elements__ <br/>
+
+By default, the elements are displayed in nowrap. <br/>
+We must add to the parent: <br/>
+
+```css
+flex-wrap: wrap;
+```
+
+__Change order of elements__ <br/>
+
+We can change the order of an element with: <br/>
+
+```css
+.first{
+  order: 10; // will be displayed in the second place
+}
+
+.second{
+  order: 0; // will be displayed in the first place
+}
+```
+
+## justify-content
+
+* flex-start 
+* flex-end 
+* center
+* space-between 
+* space-around
+* space-evenly
+<br/>
+
+## align-items
+
+❗ ONLY WORKS WITH NO-WRAP ❗ <br/>
+
+* flex-start _Elements stick to the top edge_
+* flex-end _Elements stick to the bottom edge_
+* center _if elements have different height, they are centered by the middle in the center of the screen_
+* baseline  _If elements have different height, they are centered by the middle in the top of the screen_
+* stretch _Elements take all free space_
+
+_To see how it works, we have to add to the parent:_
+
+```css
+height: 70vh;
+```
+
+_If we want to change the align of only one item we can use in that element:_
+
+```css
+align-self: flex-end; // or whatever we want...
+```
+
+## SIZING
+
+```css
+flex-grow: 0;
+flex-shrink: 0;
+```
+
+## CENTER ELEMENTS
+
+```css
+display: flex;
+justify-content: center;
+align-items: center;
+```
+
+# GRID Layout
+
+The best way to create complex designs with different size blocks in 2 DIMENSION ALIGMENT. <br/>
+in some ways, it moves like _tetris_ <br/>
+
+__1.- We need a parent class to contain Grid Layout:__ <br/>
+```css
+.grid-layout{
+  display: grid;  
+}
+```
+
+__2.- We have to say how many rows and columns I want:__ <br/>
+```css
+.grid-layout{
+  display: grid; 
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 100px 50%;
+}
+```
+_This way, every auto or value are a column._<br/>
+
+__3.- Size of an element:__ <br/>
+```css
+.box1{
+  grid-column: 1/3;
+}
+```
+Where 1 is the first line (not the space ❗). <br/>
+
+```css
+.box2{
+  grid-row: span: 2;
+}
+```
+
+__4.- Position of the element:__ <br/>
+
+```css
+.astronaut{
+  background-color: #03989e;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+```
+
+Also we can use just grid-area to set the 4 values: <br/>
+```css
+.cowboy{
+  grid-area: 2 / 1 / 3 / 3; 
+}
+```
+Where the order is: <br/>
+1.- grid-row-start <br/>
+2.- grid-column-start <br/>
+3.- grid-row-end and <br/>
+4.- grid-column-end <br/>
 
 

@@ -125,18 +125,6 @@ func main(){
 ```
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 ## SLICES AND MAPS
 
 __Slices__ are like arrays that you can dynamically resize and pass to function more efficiently. <br/>
