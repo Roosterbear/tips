@@ -7,7 +7,7 @@
 ```
 * Between the ```<head>``` and ```</head>``` tags, adding the ```<style>``` and ```<style>``` tags <br />
 
-* And the less used and less recommended: Inside tags with the "_style_" property.<br/>
+* And Inside tags with the "_style_" property.<br/>
 (_still used in wordpress and old sites_). <br/>
 
 ```html
