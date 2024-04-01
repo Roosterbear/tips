@@ -16,4 +16,7 @@
 * Modificación de página 404 en inglés
 * Respaldo 20-03-2024
 * Modificación de imágenes para 50 tatuajes y 7 de premios
+* Modificacion de Listings de premios
 * Subida de imágenes a las secciones correspondientes
+* Actualización de información para SEO de todos los premios
+* Respaldo de sitio 30-03-2024
