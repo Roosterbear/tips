@@ -1,22 +1,9 @@
 # carpiotattoos.com
 
-## marzo 2024
+## abril 2024
 
-* Actualizacion de plugins
-* Borrado de respaldos antiguos en el servidor
-* Respaldo 11-03-2024
-* Creación de cuenta en DISQUS
-* Actualización de 17 plugins 20-03-2024
-* Instalación de plugin para DISQUS
-* Cambio a modo actualizaciones automáticas de plugins
-* Cambio de testimonio nuevo en página versión inglés
-* Plugin para agregar DISQUS como moderador de comentarios
-* Configuración de plugin de DISQUS.
-* Modificación de página 404 en español
-* Modificación de página 404 en inglés
-* Respaldo 20-03-2024
-* Modificación de imágenes para 50 tatuajes y 7 de premios
-* Modificacion de Listings de premios
-* Subida de imágenes a las secciones correspondientes
-* Actualización de información para SEO de todos los premios
-* Respaldo de sitio 30-03-2024
+* Respaldo 24-04-2024
+* Captura de información de entrevista para artículo Blog
+* Icono de pinterest en Ingles y Español
+* Datos de contacto como footer para que salga en todas las páginas
+* 
