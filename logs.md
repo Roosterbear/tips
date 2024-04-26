@@ -6,4 +6,6 @@
 * Captura de información de entrevista para artículo Blog
 * Icono de pinterest en Ingles y Español
 * Datos de contacto como footer para que salga en todas las páginas
-* 
+* Formateo de articulo blog
+* Fotos para artículo blog
+
