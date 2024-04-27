@@ -8,4 +8,6 @@
 * Datos de contacto como footer para que salga en todas las páginas
 * Formateo de articulo blog
 * Fotos para artículo blog
+* Creación de video con fotos para youtube
+* Creación de portada para video de youtube
 
