@@ -1,13 +1,6 @@
 # VUE
 
-* Small, Easy, reusable and Simple to integrate
->Add Vetur and Material Icon plugins in VSC
->CDN: https://unpkg.com/vue@next for latest version
->CDN: https://cdn.jsdelivr.net/npm/vue/dist/vue.js
-
 * In a JS file, the semicolon is not used
-* The object of VUE is to create a website more __INTERACTIVE__ and __DYNAMIC__
-
 
 ## VUE in a simple way ---SHOWING A MESSAGE---
 
@@ -23,7 +16,7 @@
 new Vue({
   el:'#app',
   data:{
-    title:'Hellow World!'
+    title:'Hello World!'
   }
 });
 ```
@@ -56,7 +49,6 @@ new Vue({
 
 ## VUE in a simple way ---ADDING STYLE---
 
-
 ```html
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <div id="app">
@@ -86,7 +78,6 @@ new Vue({
   background-color:blue;
 }
 ```
-
 
 ## INSTALLATION
 

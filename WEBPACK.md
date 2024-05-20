@@ -2,12 +2,10 @@
 
 ## START
 
-* Create a folder to work in, and enter to it
-
+> mkdir project
+>cd project
 >npm init -y
-
 >yarn add -D webpack
-
 >mkdir src 
 
 * Create a __index.js__ inside
