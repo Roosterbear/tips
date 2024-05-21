@@ -1,20 +1,15 @@
-# LINUX
+# LINUX ===============================================================
 
-## Linux commands for fun ⚙️ 
+## ls -----------------------------------------------------------------
 
-### Shortcuts
-
-_ctrl+alt+t_ Open a new terminal <br/>
-_ctrl+L_ Clears the screen <br/>
-
-### ls
 Lists the content of the current directory <br />
 -a _including hidden files_ <br />
 -l _Whole data of every files (date, permissions, owner, group)_ <br />
 -r _Reverse order_ <br />
 <br />
 
-### cp
+## cp -----------------------------------------------------------------
+
 Copies files
 __copy content from file1 to file2__ <br /> 
 _cp file1 file2_ <br />
@@ -22,7 +17,8 @@ __copy files to directory dir__ <br />
 _cp file1,file2 dir_ <br />
 <br />
 
-### mv
+## mv -----------------------------------------------------------------
+
 Moves files <br />
 __moves content from file1 to file2__ <br />
 _mv file1 file2_ <br />
@@ -30,12 +26,14 @@ __moves files to directory dir__ <br />
 _mv file1, file2 dir_ <br />
 <br />
 
-### touch
+## touch --------------------------------------------------------------
+
 Creates a new file or updates the timestamp of that file <br />
 _touch file_ <br />
 <br />
 
-### cat
+## cat ----------------------------------------------------------------
+
 We can create a __new__ file with: <br/>
 
 ```terminal
@@ -55,7 +53,7 @@ We can add data with: <br/>
 cat >> file.txt
 ```
 
-### head and tail
+## head and tail ------------------------------------------------------
 
 We can see the first __10__ lines of a file with: <br/>
 
@@ -69,7 +67,7 @@ We can see the last __10__ lines of a file with: <br/>
 tails file.txt
 ```
 
-### nl
+## nl -----------------------------------------------------------------
 
 We can number the rows by:
 
@@ -77,7 +75,7 @@ We can number the rows by:
 nl /etc/snort/snort.conf
 ```
 
-### path expansion ♨️ 
+## path expansion -----------------------------------------------------
 
 We can open, list or name a file with characters like a dash with path expansion. <br/>
 If I have a folder named "---old---", I just can change the directory this way: <br/>
@@ -88,50 +86,52 @@ cd -- ---old---
 
 The __path expansion__ uses double dash between the comand and the name of the file / directory. <br/>
 
-### mkdir
+## mkdir --------------------------------------------------------------
+
 Creates a new directory <br />
 _mkdir dire_ <br />
 <br />
 
-### rmdir
+## rmdir --------------------------------------------------------------
+
 Deletes an empty directory <br />
 _rmdir dire_ <br />
 
-### rm
+## rm -----------------------------------------------------------------
+
 Deletes a file or definitely <br />
 rm file1 <br />
 -r _recursively_ <br />
 -f _force_ <br />
 
-### Deletes a directory with other files or directories
+## Deletes a directory with other files or directories ----------------
+
 rm -rf important <br />
 __YOU HAVE TO BE VERY CAREFULLY WITH THIS DANGEROUS COMMAND__ ❗ <br/>
 
 <br/>
 
 
-### Delete all PNG files
+## Delete all PNG files -----------------------------------------------
 
 ```terminal
 rm *.png
 ```
 
-### Delete all files, except...
+## Delete all files, except... ----------------------------------------
 
 ```terminal
 rm !(*.html)
 ```
 Delete all files except _.html_ files. <br/>
 
-### Status error last command
+## Status error last command ------------------------------------------
 
 ```terminal
 $?
 ```
----
 
-
-### Access USB
+## Access USB ---------------------------------------------------------
 
 We can see them in: <br/>
 
@@ -145,10 +145,7 @@ or <br/>
 cd /mnt/user
 ```
 
-## COMPRESSION
-
-
-### Tarring
+## Tarring ------------------------------------------------------------
 
 We can compress lossy (_.mp3, .flac, .mp4, .png, .jpg_) and lossless ( _.tar, .zip, .rar_). <br/>
 
@@ -176,13 +173,13 @@ Extract files from a __.tar__file: <br/>
 tar -xvf MyCompressions.tar
 ```
 
-### Compressing
+## Compressing --------------------------------------------------------
 
 * __gzip__ with extension _.tar.gz_ or _.tgz_ FASTER
 * __bzip2__ with extension _.tar.bz2_ SLOWEST - SMALLEST
 
 
-#### gzip
+### gzip
 
 Compress: <br/>
 
@@ -199,7 +196,7 @@ gunzip MyCompressions.tar.gz
 __NOTICE__ _MyCompressions.tar_ is back and _MyCompressions.tar.gz_ is gone !!!
 
 
-#### bzip2
+### bzip2
 
 Compress: <br/>
 
@@ -213,10 +210,7 @@ Uncompress: <br/>
 bunzip2 MyCompressions.tar.bz2
 ```
 
-
-
-
-## PERMISSIONS
+## PERMISSIONS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 We have 3 kind of permissions: <br/>
 
@@ -298,12 +292,10 @@ __change group__
 chgrp security newIDs
 ```
 
+## PROCESS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
----
+## ps -----------------------------------------------------------------
 
-## Process in Linux
-
-### ps
 Display user processes. <br/>
 We can use the options below: <br/>
 
@@ -322,7 +314,7 @@ __folder to actual process:__ cd $$ <br/>
 __executable of current task:__ ls -l exe <br/>
 <br/>
 
-### lsof _list open files_ 
+## lsof ---------------------------------------------------------------
 
 Give us detailed information about files used in current processes. <br/>
 Normally requires Admin privileges. <br/>
@@ -351,8 +343,21 @@ __Search active connections__ <br/>
 sudo lsof -i -P -n | grep LISTEN
 ```
 
+## Redirect output to a file ------------------------------------------
 
-### top
+__Creating__ <br/>
+
+```terminal
+ls / > list_of_root.txt
+```
+__Adding__ <br/>
+
+```terminal
+sudo lsof -i -P -n | grep LISTEN
+```
+
+
+## top ----------------------------------------------------------------
 
 Lists the processes running in the system. <br/>
 
@@ -362,7 +367,7 @@ _shift+m_ orders by memory use.
 _shift+p_ orders by CPU use.
 _shift+n_ orders by process.
 
-### htop
+## htop ---------------------------------------------------------------
 
 A better version of __top__ which we can easily install. <br/>
 
@@ -370,7 +375,7 @@ __free__
 
 We can see the use of memmory of the system. It is better with _-h_ (for Humans) <br/>
 
-## grep
+## grep ---------------------------------------------------------------
 
 Command used as a filter to search keywords to find information. Usually used with __pipes__ (|). <br/>
 
@@ -421,7 +426,7 @@ grep file file.txt -n
 We can use _-c_ to count the lines. <br/>
 We can use _-w_ to look only separate words. <br/>
 
-## pipes |
+## pipes --------------------------------------------------------------
 
 Sends the output of a command to another command. <br/>
 
@@ -448,7 +453,7 @@ Then we cut the rest, since we get the line, colon and the search. <br/>
 
 
 
-## sed (Stream EDitor)
+## sed (Stream EDitor) ------------------------------------------------
 
 We can replace text: <br/>
 
@@ -470,9 +475,12 @@ We can delete lines: <br/>
 sed '/pattern/d' file.txt 
 ```
 
----
+## LOGS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-## SYSTEMCTL
+We can find them in: <br/>
+>/var/log
+
+## systemctl ----------------------------------------------------------
 
 __Status__ <br/>
 
@@ -485,12 +493,6 @@ __Enable service__ <br/>
 ```terminal
 sudo systemctl enable apache
 ```
-
-## LOGS
-
-We can find them in: <br/>
->/var/log
-
 
 __status__ <br/>
 
@@ -518,9 +520,8 @@ sudo systemctl -p err
 sudo systemctl -p info
 ```
 
----
 
-#### installing stuff
+## INSTALLING @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 Before installing something, maybe we want to know if it is available. <br/>
 
@@ -567,43 +568,7 @@ __show gateways__ <br/>
 >route -n
 
 
-## Vi
-
->vi file.txt
-
-__i__ Insert Mode <br/>
-
-_Esc_ Exit to command mode <br/>
-
-__:w__ Save <br/>
-
-__:q__ Exit <br/>
-
-__:q!__ Exit without save <br/>
-
-__:x__ Save and Exit <br/>
-
-_x_ Deletes a character <br/>
-
-_3x_ Deletes 3 characters <br/>
-
-_dd_ Deletes a line <br/>
-
-_3dd_ Deletes 3 lines <br/>
-
-_dw_ Deletes a word <br/>
-
-_p_ Paste before the cursor <br/>
-
-_P_ Paste after the cursor <br/>
-
-_o_ Insert below line <br/>
-
-_O_ Paste above line <br/>
-
-
-
-#### Create a script
+## SCRIPTS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 We can edit a new file with vi: <br/>
 
@@ -628,7 +593,7 @@ chmod +x sayHello.sh
 Then we just run: __./sayHello.sh__ <br/>
 
 
-#### Run any script from anywhere
+## Run any script from anywhere ---------------------------------------
 
 Check: <br/>
 
@@ -677,77 +642,7 @@ or <br/>
 echo $@ | tr '[:lower]' '[:upper]' 
 ```
 
----
----
-
-## Terminal tips
-
-__The TAB key help us to complete commands__ <br/>
-<br/>
-
-__ctrl+a__ <br/>
-Go to the beginning of the line. <br/>
-
-__ctrl+e__ <br/>
-Go to the end of the line. <br/>
-
----
-
-__alt+b__ <br/>
-Jump to the last command in the line. <br/>
-
-__alt+f__ <br/>
-Jump to the next command in the line. <br/>
-
----
-
-__ctrl+u__ <br/>
-Deletes from cursor to the beginning of the line. <br/>
-
-__ctrl+k__ <br/>
-Deletes from cursor to the end of the line. <br/>
-
-__ctrl+w__ <br/>
-Deletes the word (_every space separates a word_) before the cursor in the line. <br/>
-
-__alt+d__ <br/>
-Deletes the word (_every space separates a word_) after the cursor in the line. <br/>
-
----
-
-__ctrl+l__ <br/>
-Clears the terminal without deleting the __current line__. <br/>
-
-__ctrl+d__ <br/>
-Deletes the character after cursor or close the terminal if there is nothing 
-
-__ctrl+t__
-Exchange the characters with each other.
-
----
-
-__ctrl+alt+t__ <br/>
-Opens a new terminal. <br/>
-
-__add the output of a command to a file__ <br/>
-
-```terminal
-ls > file.txt
-```
-
-__add the output of a command to a file without deleting the last information__ <br/>
-
-```terminal
-ls >> file.txt
-```
-
-__delete the content of a file__ <br/>
-
-```terminal
-cat dev/null > file.txt
-```
-
-#### save the path of a directory
+## Save the path of a directory ---------------------------------------
 
 ```terminal
 pushd .
@@ -759,7 +654,7 @@ Now we can change the directory and get back with: <br/>
 popd
 ```
 
-#### history
+## history ------------------------------------------------------------
 
 To show all commands we typed, we use: _history_ <br/>
 
@@ -787,6 +682,18 @@ __modify and run the last command__ <br/>
 fc
 ```
 We just modify the line and the command will be executed. <br/>
+
+
+
+
+
+
+
+
+
+---
+---
+---
 
 
 #### Find
@@ -1072,14 +979,6 @@ __change console:__ sh - bash - zsh <br/>
 
 
 
-
----
----
-
-## TIP for MAC 🍎 
-To access a folder in our network, we choose "Go" in the main menu. <br/>
-Then "Conect to server" <br/>
-Write, for example: "smb:\\172.16.xxx.xxx"<br/>
 
 
 

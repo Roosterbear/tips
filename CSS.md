@@ -1,17 +1,9 @@
 # CSS
 
-* From a file
+## Add CSS file
 
 ```html
 <link rel="stylesheet" href="style.css">
-```
-* Between the ```<head>``` and ```</head>``` tags, adding the ```<style>``` and ```<style>``` tags <br />
-
-* And Inside tags with the "_style_" property.<br/>
-(_still used in wordpress and old sites_). <br/>
-
-```html
-<div style="background-color: #bbb;">Hello</div>
 ```
 
 ## Clean properties

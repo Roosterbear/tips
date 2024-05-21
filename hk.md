@@ -751,3 +751,11 @@ __Nmap__ <br/>
 >Then go to https://kali:8834/ to configure your scanner
 
 
+---
+---
+
+## TIP for MAC 🍎 
+To access a folder in our network, we choose "Go" in the main menu. <br/>
+Then "Conect to server" <br/>
+Write, for example: "smb:\\172.16.xxx.xxx"<br/>
+
