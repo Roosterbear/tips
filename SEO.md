@@ -2,21 +2,6 @@
 
 Search Engine Optimization <br/>
 
-## SEO Triad
-
-* Code
-* Strategy
-* Content
-
-## SEM
-
-Search Engine Marketing <br/>
-
-## SERP
-
-Search Engine Results Page <br/>
-
-
 ## SEARCHES
 
 * Search "audifonos" in the Amazon web page
@@ -24,26 +9,6 @@ Search Engine Results Page <br/>
 
 * Search "audifonos" in the web, except in Amazon
 >audifonos -amazon.com
-
-### Black Hat SEO
-
-* Buy links
-* Copy/Paste, Tools or Software to create content
-* Repeat keywords a lot of times
-* Hide text with CSS
-
-### Gray Hat SEO
-
-* Low quality content
-* Exact domains
-
-### White Hat SEO
-
-* Meet the Google standards
-* 5000 words articles, as a guide
-* Structured Data
-* Unique content
-
 
 ## TOOLS
 
@@ -65,7 +30,6 @@ Adding GSC:
 * By domain: Add code in domain (Namecheap - Domain List - TXT Record)
 
 >Install by prefix, adding an html file to your root directory
-
 
 
 ### Manually index page
@@ -172,33 +136,4 @@ Include CSS required in the first impression of the user inside the __HEAD__ tag
 >rel="nofollow"
 >rel="sponsored"
 >rel="ugc"
-
-## CATEGORIAS
-
-Create categories based on possible specific searches related to our products. <br/>
-
-
-## TIPS FOR YOUTUBE
-
-* Good __Title__
-* Add __hashtags__ inside our description
-* Add __menu__ with time
-* Name our files with keywords
-* Transcription of our video
-* Frequency
-* Lists
-
-## LOCAL SEO
-
-* Go to Local Guide
-* Take care of your grades
-
-
-
-
-
-
-
-
-
 
