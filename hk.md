@@ -1,31 +1,6 @@
 # I am the 👁️  in the sky 🔓
 
-__Configuring the Network__<br/>
-
-#### Bridged Network
-
-* Connects the VM directly to the local network, it is another node with its own IP address.
-
-#### NAT (Network Address Translation)
-
-* Sets up a _private_ network on the host machine, all the traffic appear to come from the host machine's IP address. 
-
-#### Host only network
-
-* The VM will be able to communicate with other Virtual Machines.  
-* It will not be able to connect with internet or the local network. 
-
-## BASICS
-
-* We can use variables. To load a variable, use:
->echo $PATH
-_Where PATH is the variable and we load it with the $ sign_ <br/>
-
-* We can create our variables:
->myvariable=100
->echo $myVariable
-_Do not type spaces between the equal sign_ <br/>
-
+1
 * To see our Environment Variables we use:
 >env
 

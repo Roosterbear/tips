@@ -592,6 +592,11 @@ chmod +x sayHello.sh
 
 Then we just run: __./sayHello.sh__ <br/>
 
+* We can create our variables:
+>myvariable=100
+>echo $myVariable
+_Do not type spaces between the equal sign_ <br/>
+
 
 ## Run any script from anywhere ---------------------------------------
 
