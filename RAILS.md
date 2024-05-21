@@ -1,59 +1,52 @@
-# Ruby on Rails
+# Ruby on Rails ===========================================================
 
-* Think about Rails as a huge Ruby Library. <br/>
-* Rails provides a _framework,_ that is, a software library that provides utilities, conventions, and organizing principles to allow us to build complex web applications.
-* Usually, web applications accept user requests, query databases and responds with data rendered in templates. <br/>
 
-### Don't repeat yourself
-### Convention over configuration
+## INSTALLATION @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-## Installation
+## Update RVM version -----------------------------------------------------
 
-* Check Ruby installation <br/>
-* Install _RVM_ Ruby Version Manager <br/>
+>rvm get stable
 
-### See Ruby versions
+## See Ruby versions ------------------------------------------------------
 
 >rvm list
 
-### Create a gemset
+## Choose a version -------------------------------------------------------
 
->rvm use ruby-2.4.1@lear-rails --create
+>rvm use ruby-2.7.0@learn-rails --create
 >gem install rails
 
-
-### Start a Project
+## Start a Project --------------------------------------------------------
 
 >rails new project
 >cd project
 
-__run server__ <br/>
+## Run server -------------------------------------------------------------
 
 >rails server
 
 * We currently use __Puma__ as Web server, and not _WEBrick_ 
 
 
-
-_create welcome controller and index view_ <br/>
+## Create welcome controller and index view -------------------------------
 
 >rails generate controller welcome index
 
 
-_create routes_ <br/>
-
-* rake routes is deprecated starting from rails 6.1!, instead: <br/>
+## Create routes ----------------------------------------------------------
 
 >rails routes
 
+* rake routes is deprecated starting from rails 6.1!, instead: <br/>
 
-_changing our starter page:_ <br/>
+
+## Changing our starter page ----------------------------------------------
 
 __app/config/locales/routes.rb__ <br/>
 
 >root 'welcome#index'
 
-_adding gems_ <br/>
+## Adding gems ------------------------------------------------------------
 
 * Go to: __https://rubygems.org/__ 
 * Look for a gem
