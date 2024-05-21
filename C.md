@@ -1,11 +1,5 @@
 # C
 
-## Compiler
-
-* The compiler checks the syntax of our code
-* Then translates it to assembly language
-
-
 ## Preprocessor Directives
 
 * The most used is: __FILE INCLUSION DIRECTIVE__
@@ -25,7 +19,7 @@
 
 ## HELLO WORLD
 
-* create a file example.c
+* create a file _example.c_
 * Type: 
 
 ```c
@@ -137,123 +131,3 @@ int prices = {1,2,3,4,5};
 
 
 
-
-
-
-
-
-
-
---
-
-# C++
-
-To compile in Linux, use: <br/>
-
->g++ myprogram.cpp
-
-Will get _a.out_ as a compiled file, if we need a custom name: <br/>
-
->g++ myprogram.cpp -o myname
-
-To compile in C++11 Standard:
-
->g++ -std=c++11 source.cpp -o myname
-
-
-Or you can use the __code runner__ extension for VSCode <br/>
-
-
-## LIBRARIES
-
-* __cstdio__ is oriented to _C_ like _printf_
-* __iostream__ is oriented to _C++_ like: _cout_, _cin_
-
-
-```c++
-#include<iostream>
-using namespace std;
-
-int main(){
-  int arre[] = {1,2,3};
-  for(int i=0;i<=2;i++){
-    cout<<arre[i];
-    cout<<"\n";
-  }  
-}
-```
-
-## TEMPLATES
-
-```c++
-#include<iostream>
-template<typename T>
-
-T Max(T x, T y){
-  std::cout<<typeid(T).name()<<std::endl;
-  return x>y?x:y;
-}
-
-int main(){
-  auto num = Max(3.3f, 5.8f);
-  std::cout<<num<<std::endl;
-  return 0;
-}
-```
-
-
-### CREATE A GAME
-
-Install SFML: <br/>
->sudo apt-get install libsfml-dev
->sudo apt-get install cmake
->sudo apt-get install libgl1-mesa-dev
-
-Download __Qt__
-
-
-
---
-
-
-# C#
-
-Install Visual Studio: <br/>
-
->community 2019
->Desktop
->.NET Framework 4
->Register to avoid nasty 
-
-Install Mono: <br/>
-
->sudo apt-get install -y mono-complete mono-devel mono-develop
-
-
-## ASP
-
->Visual C# - Windows - Web
->ASP.NET Application
->Framework 4.5.2
->MVC template
->Change Authentication - Without authentication
->Uncheck Host in the Cloud
->Install SQL Server Management Studio
-
-
-
-
-
-## Restaurant APP
-
->Visual C# - Windows - Desktop
->Windows Forms Application (.NET Framework)
-
-
-
-
-
-
-## XAMARIN
-
->Development for movile devices with .NET
