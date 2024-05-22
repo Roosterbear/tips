@@ -1,6 +1,6 @@
-# C
-
-## Preprocessor Directives
+# C ===================================================================
+ 
+## Preprocessor Directives --------------------------------------------
 
 * The most used is: __FILE INCLUSION DIRECTIVE__
 
@@ -14,10 +14,10 @@
 ```c
 #define MAX 100
 ```
-* We can use __MAX__ as _100_
+Now we can use __MAX__ as _100_ <br/>
 
 
-## HELLO WORLD
+## HELLO WORLD @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 * create a file _example.c_
 * Type: 
@@ -35,33 +35,31 @@ To compile in Linux, use: <br/>
 >./program
 
 
-## CONSTANTS
+## Constants ----------------------------------------------------------
 
 >const double PI = 3.1416;
 >#define AGE = 47
 
 
-## BOOLEANS
+## Booleans -----------------------------------------------------------
 
 -- 
 * _C_ __DOES NOT HAVE BOOLEAN DATA TYPE__
 --
 
 
-## CHARS
+## Chars --------------------------------------------------------------
 
---
-* _C_ __TREATS CHARACTERS AS INTEGERS__
+* __C__ treats characters as integers
 
 * So, if we compare in a switch: 
 >case 'a'
 
 * We really are doing:
 >case 97
---
 
 
-## CONDITIONS
+## Conditions ---------------------------------------------------------
 
 ```c
 if (AGE==true){
@@ -83,7 +81,7 @@ switch(LIVES){
 }
 ```
 
-## ITERATIONS
+## Iterations ---------------------------------------------------------
 
 ```c
 for(int i = 0;i<10;i++){
@@ -103,7 +101,7 @@ do{
 }while(i<10);
 ```
 
-## RECEIVE DATA FROM USER
+## Get data from user -------------------------------------------------
 
 
 ```c
@@ -111,7 +109,7 @@ puts("Enter value: ");
 scanf("%c",&ch);
 ```
 
-## ARRAYS
+## Arrays -------------------------------------------------------------
 
 ```c
 const int SIZE = 5;
@@ -123,7 +121,7 @@ int prices[SIZE];
 int prices = {1,2,3,4,5};
 ```
 
-## POINTERS
+## POINTERS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 * ALWAYS store __INTEGER__ entities
 * Is the only variable whose data type we do not have to specify
