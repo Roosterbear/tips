@@ -1,4 +1,22 @@
-# GIT
+# GIT =================================================================
+
+## Initial Configurations @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+### Basic configuration -----------------------------------------------
+
+```git
+git config --global user.name "Roosterbear"
+
+git config --global user.email "fernandoroosterbear@gmail.com"
+```
+
+## 👁️ UPLOAD A PROJECT TO GITHUB AS A WEB PAGE @@@@@@@@@@@@@@@@@@@@@@@@@
+
+__1.- Create a New Repository__ <br/>
+__2.- Add File - Upload Files__ <br/>
+__3.- Tab "Settings" - Pages - Branch "main"__ <br/>
+__4.- Takes some minutes to be published and we'll have to wait__ 🕜  <br/>
+
 
 🔥 __If we have a project in our local machine__ <br/>
 
@@ -58,13 +76,13 @@ git push origin local
 ‼️ REMEMBER TO SEND IT TO LOCAL BRANCH ‼️  <br/>
 
 
-__View changes__ <br/>
+## 🔥 View changes ----------------------------------------------------
 
 ```git
 git status
 ```
 
-🔥 __Merge branches__ <br/>
+## 🔥 Merge branches --------------------------------------------------
 
 Go to the __main__ branch: <br/>
 
@@ -86,35 +104,35 @@ git merge local
 
 <br/>
 
-__empty folders__ <br/>
+## 🔥 Empty folders ---------------------------------------------------
 
 🔥🔥🔥 git does not upload empty folders !! 🔥🔥🔥 <br/>
 <br/>
 
 
-## GIT IGNORE 🔥🔥🔥
+## GIT IGNORE 🔥🔥🔥 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 Create a file named _.gitignore_ <br/>
 
 Add folders to be ignored kinda: folder1/ <br/>
 Add files to be ignored just by: important.php/ <br/>
 
-__see ignored__ <br/>
+## See ignored --------------------------------------------------------
 
 ```git
 git status --ignored
 ```
 
-__exceptions in .gitignore file__ <br/>
+## Exceptions in .gitignore file --------------------------------------
 
 ```git
 *.txt
 !important.txt
 ```
-_include file.txt besides txt files are ignored_ <br/>
+_include file important.txt besides txt files are ignored_ <br/>
 
 
-__if a file is in an ignored folder__ <br/>
+## If a file is in an ignored folder ----------------------------------
 
 ```git
 !folder/
@@ -122,7 +140,7 @@ folder/*
 !folder/*.txt
 ```
 
-__Clear already commited files, but included in__ _.gitignored_ <br/>
+## Clear commited files to ignore -------------------------------------
 
 ```git
 git rm -r --cached .
@@ -131,7 +149,7 @@ git commit -m "removing files included in .gitignore
 git push origin main
 ```
 
-## LOGS
+## LOGS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 __List commits__ <br/>
 
@@ -178,7 +196,7 @@ __Complete info from a single commit__
 git show 1d6a825
 ```
 
-## BRANCHES
+## BRANCHES @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 __What branch we are__ <br/>
 
@@ -240,22 +258,13 @@ __Discard PERMANENTLY any change in a commit__ <br/>
 git reset --hard 1d6a825
 ```
 
+## ERRORS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-<br/><br/><br/><br/><br/>
-
-## Initial Configurations
-> INITIAL (Just the first time configuration)
-
-#### Basic configuration
-```git
-git config --global user.name "Roosterbear"
-
-git config --global user.email "fernandoroosterbear@gmail.com"
-```
-
-## ERRORS
 __fatal: rehusando fusionar historias no relacionadas__ <br/>
+
+```git
 git pull --allow-unrelated-histories origin main
+```
 
 __Backwards commit__ <br/>
 
@@ -268,6 +277,7 @@ __Delete a file in repository without deleting the local__ <br/>
 ```git
 git rm --cached file.txt
 ```
+
 __Delete a whole directory in repository without deleting the local__ <br/>
 
 ```git

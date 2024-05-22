@@ -1,12 +1,12 @@
-# CSS
-
-## Add CSS file
+# CSS =================================================================
+ 
+## Add CSS file -------------------------------------------------------
 
 ```html
 <link rel="stylesheet" href="style.css">
 ```
 
-## Clean properties
+## Clean properties ---------------------------------------------------
 
 ```css
 *{
@@ -16,11 +16,11 @@
 }
 ```
 
-## HOW CSS ACTS? 🐉 
+## HOW CSS ACTS? 🐉  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 Let's see from less to the most priority in how a cascade works:
 
-### Position (1/4)
+### Position (1/4) ----------------------------------------------------
 
 Cascade sheets takes the values of properties, and change them as if they fall. <br/>
 
@@ -33,7 +33,7 @@ li{
 It will be __blue__ because acts like a cascade, from top to bottom. <br/>
 First, color will be red, but we overwrite to blue later.<br/>
 
-### Specificity (2/4)
+### Specificity (2/4) -------------------------------------------------
 
 There is another reason for CSS to take certain value, and it is the _specificity_, <br/>
 where is a degree of the selector value. <br/>
@@ -43,7 +43,8 @@ __2.- attribute__ Like ```li[draggable]``` <br/>
 __3.- class__ Like ```.my-class``` <br/>
 __4.- element__ Like ```li``` <br/>
 
-### Type [the way we add CSS] (3/4)
+
+### Type [the way we add CSS] (3/4) -----------------------------------
 
 The most important: <br/>
 ```html
@@ -56,7 +57,7 @@ The least important <br/>
 ```html
 <link rel="stylesheet" href="style.css">
 ```
-### Importance (4/4)
+### Importance (4/4) --------------------------------------------------
 
 ```css
 li{
@@ -69,7 +70,7 @@ It will be __red__ <br/>
 <br/>
 
 
-## FONTS 
+## FONTS --------------------------------------------------------------
 
 __measurements__ <br/>
 
@@ -124,8 +125,7 @@ ul{
 We can add: disc, circle, upper-roman, lower-latin, square.
 
 
-
-## CENTER
+## CENTER -------------------------------------------------------------
 
 __center an element__ <br/>
 
@@ -170,7 +170,7 @@ To get images in a perfect size, we can add: <br/>
 
 Especial for blocks. <br/>
 
-## IMAGES
+## IMAGES -------------------------------------------------------------
 
 There are two properties that makes better our images with CSS:
 
@@ -182,7 +182,7 @@ img{
 ```
 
 
-## BACKGROUNDS
+## BACKGROUNDS --------------------------------------------------------
 
 ```css
 body{
@@ -207,7 +207,7 @@ body{
  __cover__ is used to adapt the background to the entire image regardless of the device. <br/>
  
 
-## SELECTORS
+## SELECTORS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 __child__ <br/>
 
@@ -298,7 +298,7 @@ __pseudo-classes__
 ::first-child <br/>
 <br/>
 
-## POSITIONING 🧭 
+## POSITIONING 🧭  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 __static__ <br/>
 
@@ -354,7 +354,7 @@ nav ul li{
 ```
 
 
-## VARIABLES
+## VARIABLES ----------------------------------------------------------
 
 we can assign variables: <br/>
 
@@ -372,7 +372,7 @@ p{
 }
 ```
 
-## BOXES
+## BOXES --------------------------------------------------------------
 
 The elements in CSS has layers from center to the extreme. <br/>
 The first level is the content in itself. <br/>
@@ -381,7 +381,7 @@ Between content and border there is a blank __space__ called _padding_. <br/>
 We have another __space__, between border and the outside of the element, called _margin_, where the rest of the page are. <br/>
 
 
-## CHANGING ELEMENTS 🦋 
+## CHANGING ELEMENTS 🦋  -----------------------------------------------
 
 __Radius__ 🔘 <br/>
 To make a picture or a shape rounded, we can add the property:
@@ -404,7 +404,7 @@ _It will take half second to change color._
 <br/>
 
 
-## KEYFRAMES
+## KEYFRAMES ----------------------------------------------------------
 
 Used to define animations to apply gradual changes to an element. <br/>
 With a keyframe we can define the states between an animation and it's transformation. <br/>
@@ -446,9 +446,9 @@ If we want to change the aspect of the mouse cursor, we can chang it with: <br/>
 pointer, crosshair, e-resize, grab, help, move, progress, text, wait, no-allowed, no-drop <br/>
 
 
-## RESPONSIVE DESIGN 🦎
+## RESPONSIVE DESIGN 🦎 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-### Media Queries
+### Media Queries -----------------------------------------------------
 
 It is a way to adapt the content to screen sizes. <br/>
 
@@ -462,205 +462,8 @@ It is a way to adapt the content to screen sizes. <br/>
 }
 ```
 
-## SASS ♥️♥️♥️
 
-♥️ We can have __variables__! <br/>
-
-```sass
-$color-primary: #f9ed69;
-```
-
-♥️ Nested code <br/>
-
-Instead: <br/>
-
-```css
-.nav{
-  list-style: none;
-}
-
-.nav li{
-  display: inline-block;
-  margin-left: 30px;
-}
-
-.nav li:first-child{
-  margin: 0;
-}
-
-```
-
-We can: <br/>
-
-```css
-.nav{
-  list-style: none;
-    
-  li{
-    display: inline-block;
-    margin-left: 30px;
-  }
-  
-  &:first-child{
-    margin: 0;
-  }
-}
-```
-
-♥️ Mixins: <br/>
-
-__create a mixin:__ <br/>
-
-```sass
-@mixin clearfix{
-  
-}
-
-@mixin coolfont($color){
-
-}
-```
-
-__use a mixin:__ <br/>
-
-```sass
-@include clearfix;
-  
-```
-
-
-__compile SASS__ <br/>
-
-```terminal
-npm init
-npm install node-sass --save-dev
-```
-
-🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️ <br/>
-IF WE LOST OUR DEPENDENCY FILES, WE CAN USE:
-
-```node
-npm install
-```
-AND THE PACKAGE.json WILL BE USEFUL TO RE-INSTALL DEPENDENCIES. <br/>
-### The difference between --save and --save-dev is that 
-### save is for dependencies (for our app) and --save-dev is for developer (to code).
-🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️ <br/>
-
-We need to edit our _package.json_ in the script section: <br/>
-
-```json
-"scripts":{
-  "compile:sass": "node-sass sass/main.scss css/style.css"
-},
-```
-
-Where __compile:sass__ is the name of our script. <br/>
-_node-sass_ is the command to compile SASS files <br/>
-_sass/main.scss_ is the path of our origin SASS files. <br/>
-_css/style_ is the path of our final file in CSS. <br/>
-
-<br/>
-Now we run: <br/>
-
-```node
-npm run compile:sass
-```
-If we need to be watching in every change, we can add the "-w" parameter.
-
-
-## GULP
-
->sudo npm install -g gulp-cli
-
->npm install --save-dev gulp
-
-
-
-## 👁️ SNIPPETS in VSC
-
-__1.- Ctrl+Shift+p and write 'user snippet'__ <br/>
-__2.- Select file extension wher to apply__ <br/>
-__3.- Write your code like:__ <br/>
-
-
-```json
-"Media Query":{
-		"prefix":"mq",
-		"body":[
-			"@media (min-width: $1px){",
-			"\t$2",
-			"}"
-		]
-	}
-```
-
-__"Media Query"__ is just the name. <br/>
-__"prefix"__ is the trigger, choose a meaningful and short one!. <br/>
-__"Body"__ is where the code goes. <br/>
-__$1__ The place to write code after trigger our snippet. <br/>
-__\n__ A line break. <br/>
-
-
-```json
-"Pictures": {
-		"prefix": "im",
-		"body": [
-			"<picture>",
-			"\t<source ",
-			"\t\tsizes=\"1920w, 1280w, 640w\"",
-			"\t\tsrcset=\"$1.avif 1920w",
-			"\t\t\t\t\t\t\t$1-1280.avif 1280w",
-			"\t\t\t\t\t\t\t$1-640.avif 640w\"",
-			"\t\ttype=\"image/avif\"",
-			"/>",
-			"\t<source ",
-			"\t\tsizes=\"1920w, 1280w, 640w\"",
-			"\t\tsrcset=\"$1.webp 1920w",
-			"\t\t\t\t\t\t\t$1-1280.webp 1280w",
-			"\t\t\t\t\t\t\t$1-640.webp 640w\"",
-			"\t\ttype=\"image/webp\"",
-			"/>",
-			"\t<source ",
-			"\t\tsizes=\"1920w, 1280w, 640w\"",
-			"\t\tsrcset=\"$1.jpg 1920w",
-			"\t\t\t\t\t\t\t$1-1280.jpg 1280w",
-			"\t\t\t\t\t\t\t$1-640.jpg 640w\"",
-			"\t\ttype=\"image/jpeg\"",
-			"/>",
-			"\t<img loading=\"lazy\" decoding=\"async\" src=\"$1.jpg\" lazyalt=\"imagen\" width=\"500\" height=\"300\" />",
-			"</picture>"
-		]
-	}
-```
-
-<br/>
-
-__open VSC in a terminal from current folder__<br/>
-
-```terminal
-code .
-```
-
-__VSC in a RECOVERY window mode__<br/>
-
-```terminal
-code -r .
-```
-<br/>
-
-## 👁️ UPLOAD A PROJECT TO GITHUB AS A WEB PAGE
-
-__1.- Create a New Repository__ <br/>
-__2.- Add File - Upload Files__ <br/>
-__3.- Tab "Settings" - Pages - Branch "main"__ <br/>
-__4.- Takes some minutes to be published and we'll have to wait__ 🕜  <br/>
-
-## 👁️ SSH
-ssh {__user__}__@__{__host__} <br/>
-
-
-# Flexbox
+## Flexbox @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 __1.- We need a parent class to contain flexbox:__ <br/>
 
@@ -720,7 +523,7 @@ We can change the order of an element with: <br/>
 }
 ```
 
-## justify-content
+### justify-content ---------------------------------------------------
 
 * flex-start 
 * flex-end 
@@ -730,7 +533,7 @@ We can change the order of an element with: <br/>
 * space-evenly
 <br/>
 
-## align-items
+### align-items -------------------------------------------------------
 
 ❗ ONLY WORKS WITH NO-WRAP ❗ <br/>
 
@@ -752,14 +555,14 @@ _If we want to change the align of only one item we can use in that element:_
 align-self: flex-end; // or whatever we want...
 ```
 
-## SIZING
+## Sizing -------------------------------------------------------------
 
 ```css
 flex-grow: 0;
 flex-shrink: 0;
 ```
 
-## CENTER ELEMENTS
+## Center Elements ----------------------------------------------------
 
 ```css
 display: flex;
@@ -767,7 +570,7 @@ justify-content: center;
 align-items: center;
 ```
 
-# GRID Layout
+## GRID Layout @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 The best way to create complex designs with different size blocks in 2 DIMENSION ALIGMENT. <br/>
 in some ways, it moves like _tetris_ <br/>
