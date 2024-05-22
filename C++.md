@@ -1,22 +1,19 @@
-# C++
-
-To compile in Linux, use: <br/>
+# C++ =================================================================
+ 
+## Compile in Linux ---------------------------------------------------
 
 >g++ myprogram.cpp
 
-Will get _a.out_ as a compiled file, if we need a custom name: <br/>
+* Will get _a.out_ as a compiled file, if we need a custom name: 
 
 >g++ myprogram.cpp -o myname
 
-To compile in C++11 Standard:
+* To compile in C++11 Standard:
 
 >g++ -std=c++11 source.cpp -o myname
 
 
-Or you can use the __code runner__ extension for VSCode <br/>
-
-
-## LIBRARIES
+## Libraries ----------------------------------------------------------
 
 * __cstdio__ is oriented to _C_ like _printf_
 * __iostream__ is oriented to _C++_ like: _cout_, _cin_
@@ -35,7 +32,7 @@ int main(){
 }
 ```
 
-## TEMPLATES
+## TEMPLATES @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 ```c++
 #include<iostream>
@@ -52,13 +49,3 @@ int main(){
   return 0;
 }
 ```
-
-
-### CREATE A GAME
-
-Install SFML: <br/>
->sudo apt-get install libsfml-dev
->sudo apt-get install cmake
->sudo apt-get install libgl1-mesa-dev
-
-Download __Qt__
