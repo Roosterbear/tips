@@ -7,4 +7,5 @@
 * Creacion de portada para video descargado para youtube
 * Actualizacion de plugins
 * Respaldo 14/05/2024
+* Captura y redacción basada en video para artículo en blog
 
