@@ -13,5 +13,8 @@
 * Descarga y edicion de imagenes para articulo del mes
 * Actualizacion de plugins
 * Respaldo 28/05/2024
+* Descarga de 13 imágenes desde Instagram para sitio web
+* Edición de 13 imágenes nuevas desde instagram al sitio web
+* Subida y categorización de 13 imágenes 
 
 
