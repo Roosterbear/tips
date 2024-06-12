@@ -1,20 +1,13 @@
 # carpiotattoos.com
 
-## mayo 2024
+## junio 2024
 
-* Envio de estadisticas desde enero 2024
-* Descarga de video para subir a Youtube
-* Creacion de portada para video descargado para youtube
-* Subida de video a Youtube
-* Actualizacion de plugins
-* Respaldo 14/05/2024
-* Captura y redacción basada en video para artículo en blog
-* Edicion de imagen principal de articulo del mes
-* Descarga y edicion de imagenes para articulo del mes
-* Actualizacion de plugins
-* Respaldo 28/05/2024
-* Descarga de 13 imágenes desde Instagram para sitio web
-* Edición de 13 imágenes nuevas desde instagram al sitio web
-* Subida y categorización de 13 imágenes 
+* Reenvio de correos de visitantes del sitio
+* Link en video de "Chucky" en Youtube del sitio web
+* Promoción de sitio y marca en Facebook por medio de video de Youtube
+* Promoción por Facebook por medio de __11__ publicaciones de tatuajes en el mes
+* Se agrego numero de whatsapp al pie de pagina del sitio web
+* Se agrego numero de whatsapp a la pagina de contacto
+* Actualizacion de plugins 7/06/2024
 
 
