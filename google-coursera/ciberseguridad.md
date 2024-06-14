@@ -60,8 +60,16 @@ by a specific group of users. <br/>
 
 __USB Baiting__ By a malicious software in a USB
 
+## CISSP Domains
 
-
+> __Security and risk management__ [Goals and Objectives, compliance and law]
+> __Asset Security__ [Storage, maintenance, retention or destruction of data]
+> __Security Architecture and Engineering__ [Optimizes Tools and Systems]
+> __Communication and Network Security__ [Manage and secures networks]
+> __Identity and access management__ [Users to follow policies to control assets]
+> __Security Assessment and Testing__ [Audits to monitor risks]
+> __Security Operations__ [Investigations and preventive measures]
+> __Software Development Security__ [Secure Coding Practices]
 
 
 
