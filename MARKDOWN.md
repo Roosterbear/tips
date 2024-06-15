@@ -31,8 +31,9 @@ __Add a quote__ <br/>
 Begin the text with the ">" sign and let a blank space.
 
 # TASK LIST
-Type a dash, a blank space and brackets.
-If you want a checked item, type an "x" inside brackets, otherwise, let a blank space
+Type a dash, a blank space and brackets. <br/>
+If you want a checked item, type an "x" inside brackets, <br/>
+otherwise, let a blank space. <br/>
 
 # LISTS
 
