@@ -71,6 +71,19 @@ __USB Baiting__ By a malicious software in a USB
 > __Security Operations__ [Investigations and preventive measures]
 > __Software Development Security__ [Secure Coding Practices]
 
+## Components of Security Frameworks
+
+1.- Identifying and documenting security goals
+2.- Setting guidelines to achieve security goals
+3.- Implementing strong security processes
+4.- Monitoring and communicating results
+
+## CIA Triad (_is a guide_)
+
+- [] __Confidentiality__ - Only authorized user can access specific assets or data
+- [] __Integrity__ - Data is correct, authentic and reliable
+- [] __Availability__ - Data is accesible to those who are authorized to access it
+
 
 
 

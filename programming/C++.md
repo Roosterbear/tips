@@ -32,6 +32,24 @@ int main(){
 }
 ```
 
+## SORTING @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+### Direct Sorting (Basic)
+
+> Bubble
+> Selection
+> Insert
+
+### Indirect (Advanced)
+
+> Shell
+> Quick sort
+> Radix sort
+
+
+
+
+
 ## TEMPLATES @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 ```c++
