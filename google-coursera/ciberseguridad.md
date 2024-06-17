@@ -84,6 +84,14 @@ __USB Baiting__ By a malicious software in a USB
 - [] __Integrity__ - Data is correct, authentic and reliable
 - [] __Availability__ - Data is accesible to those who are authorized to access it
 
+## Ethical Principles
+
+1.- Confidentiality - PII confidential and safe
+2.- Privacy Protections - Safeguarding personal information from unauthorized use
+3.- Laws - Rules recognized by a community and enforced by a governing entity
+
+
+
 
 
 

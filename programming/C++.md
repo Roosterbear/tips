@@ -36,9 +36,9 @@ int main(){
 
 ### Direct Sorting (Basic)
 
-> Bubble
-> Selection
-> Insert
+> Bubble - The lighter number is popping to the top like a soda bubble
+> Insert - Check with the number of the left
+> Selection - Seek the minimum number in each iteration
 
 ### Indirect (Advanced)
 
