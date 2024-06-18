@@ -42,28 +42,71 @@ int main(){
 
 ### Indirect (Advanced)
 
-> Shell
-> Quick sort
+> Shell - Divide the elements between 2
+> Quick sort - Divide and conquer, use a pivot
 > Radix sort
 
+## Structs
 
+A Collection of one or more type of elements. <br/>
 
+```c++
+struct CD_Colection{
+  char title[30];
+  char artist[25];
+  int numSongs;
+  float price;
+  char date[20];
+};
+
+// We can declare the struct variables before closing the struct
+// Between "}" and ";"
+int main(){
+  struct CD_Colection cd1,cd2, cd3;
+}
+
+// we can fill the data with curly braces, Ej cd1 = {title="Hysteria"}
+// We can access with our struct variable and its field, Ej. cd1.tittle
+
+// We can get user data from (field, size, when to finish):
+cin.getline(cd1.title,30,'\n');
+
+```
 
 
 ## TEMPLATES @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 ```c++
 #include<iostream>
-template<typename T>
 
-T Max(T x, T y){
-  std::cout<<typeid(T).name()<<std::endl;
-  return x>y?x:y;
-}
+template <class TIPOD>
+void mostrarAbs(TIPOD numero);
 
 int main(){
-  auto num = Max(3.3f, 5.8f);
-  std::cout<<num<<std::endl;
-  return 0;
+  int num1 = -4;
+  float num2 = 3.1416;
+  double num3 = 123.456789;
+
+  mostrarAbs(num1);
+  mostrarAbs(num2);
+  mostrarAbs(num3);
+
+
 }
+
+template <class TIPOD>
+void mostrarAbs(TIPOD numero){
+  if(numero < 0){
+    numero = numero * -1;
+  }
+
+  cout<<"El valor absoluto es: "<<numero<<endl;
+}
+
 ```
+
+## POINTERS
+
+Is a variable where we store a memory address <br/>
+
+
