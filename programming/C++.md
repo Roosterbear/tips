@@ -72,6 +72,48 @@ int main(){
 cin.getline(cd1.title,30,'\n');
 
 ```
+> We can use Array Structs and nested structs: <br/>
+
+```c++
+// This struct will be part of employee
+struct info_address{
+  char address[30];
+  char city[20];
+}
+
+// Here we use the info_address struct
+struct employee{
+  char name[20];
+  struct info_address employee_address;
+  double salary;
+}employees[2];
+
+// Save information
+int main(){
+  for(int i=0;i<2;i++){
+    fflush(stdin); // Empty buffer
+    cout<<"Digite su nombre: ";
+    cin.getline(employee[i].name,20,'\n');
+    cout<<"Digite su direccion: ";
+    cin.getline(employee[i].employee_address.address,30,'\n');
+    cout<<"Digite ciudad: ";
+    cin.getline(employee[i].employee_address.city,20,'\n');
+    cout<<"Digite salario: ";
+    cin>>employee[i].salario;
+    cout<<"\n";
+  }
+
+  // Print information
+  for(int i=0;i<2;i++){
+    cout<<"Nombre: "<<empleados[i].nombre<<endl;
+    cout<<"Direccion: "<<empleados[i].employee_address.address<<endl;
+    cout<<"Ciudad: "<<empleados[i].employee.city<<endl;
+    cout<<"Salario: "<<empleados[i].salario<<endl;  
+  }
+}
+
+```
+
 
 
 ## TEMPLATES @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
