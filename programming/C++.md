@@ -114,8 +114,6 @@ int main(){
 
 ```
 
-
-
 ## TEMPLATES @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 ```c++
@@ -220,4 +218,60 @@ void mostrarDatos(Persona p){
 
 Is a variable where we store a memory address <br/>
 
+```c++
+#include<iostream>
+using namespace std;
 
+// PRIME NUMBERS
+int main(){
+  int numero, *dir_numero, cont = 0;
+
+  cout<<"digite un numero: "; cin>>numero;
+  dir_numero = &numero;
+
+  // is a prime number?
+  for(int i = 1;i<*dir_numero;i++){
+    if(*dir_numero%i==0){
+      cont++;
+    }
+  }
+
+  if(cont>2){
+    cout<<"El numero "<<*dir_numero<<" NO es primo"<<endl;
+    cout<<"Posicion en memoria: "<<dir_numero<<endl;
+  }else{
+    cout<<"El numero "<<*dir_numero<<" SI es primo"<<endl;
+    cout<<"Posicion en memoria: "<<dir_numero<<endl;
+  }
+
+}
+
+```
+
+## Arrays and Pointers
+
+```c++
+#include<iostream>
+using namespace std;
+
+int main(){
+  int numeros[] = {1,2,3,4,5,6,7,8,9};
+  int *dir_numeros;
+
+  // We do not need to use: dir_numeros = &numeros[0]; Just:
+  dir_numeros = numeros;
+
+  for(int i = 0;i<9;i++){
+    cout<<"\nElemento del vector: ["<<i<<"] es: "<<*dir_numeros++endl;
+    cout<<"Posicion de memoria: "<<numeros[i]<<" es: "<<dir_numeros++endl;
+  }
+
+}
+```
+
+
+## Dynamic Assignment of Arrays
+
+```c++
+
+```
