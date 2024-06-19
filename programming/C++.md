@@ -273,5 +273,27 @@ int main(){
 ## Dynamic Assignment of Arrays
 
 ```c++
+#include<iostream>
+#include<stdlib.h>
 
+using namespace std;
+
+void pedirNotas();
+
+int numCalif, *calif;
+
+int main(){
+  
+}
+
+void pedirNotas(){
+  cout<<"Digite ek numero de calificaciones: ";
+  cin>>numCalif;
+
+  calif = new int[numCalif];
+
+  for(int i=0;i<numCalif;i++){
+    cout<<"Ingrese una nota: "; cin>>calif[i];
+  }
+}
 ```
