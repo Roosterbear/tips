@@ -46,7 +46,7 @@ int main(){
 > Quick sort - Divide and conquer, use a pivot
 > Radix sort
 
-## Structs
+## STRUCTS
 
 A Collection of one or more type of elements. <br/>
 
@@ -121,8 +121,10 @@ int main(){
 ```c++
 #include<iostream>
 
+// Function Prototype --------
 template <class TIPOD>
 void mostrarAbs(TIPOD numero);
+// ---------------------------
 
 int main(){
   int num1 = -4;
@@ -143,6 +145,73 @@ void mostrarAbs(TIPOD numero){
   }
 
   cout<<"El valor absoluto es: "<<numero<<endl;
+}
+
+```
+## REFERENCE PARAMETERS
+
+> We send the memory address of a variable
+
+```c++
+#include<iostream>
+using namespace std;
+
+void new_value(int&, int&);
+
+int main(){
+  int num1, num2;
+
+  cout<<"Digite 2 numeros: ";
+  cin>>num1>>num2;
+
+  new_value(num1,num2);
+
+  cout<<"El primer NUEVO valor es: "<<num1<<endl;
+  cout<<"El segundo NUEVO valor es: "<<num2<<endl;
+
+}
+
+void new_value(int& xnum, int&ynum){
+  cout<<"El primer valor es: "<<xnum<<endl;
+  cout<<"El segundo valor es: "<<ynum<<endl;
+
+  // We can change the values:
+  xnum = 123;
+  ynum = 456;
+}
+
+```
+
+## STRUCT PARAMETERS
+
+```c++
+#include<iostream>
+using namespace std;
+
+struct Persona{
+	char nombre[30];
+	int edad;
+}p1;
+
+// prototype
+void pedirDatos();
+void mostrarDatos(Persona);
+
+int main(){
+	pedirDatos();
+	mostrarDatos(p1);
+}
+
+void pedirDatos(){
+	cout<<"Digite su nombre: ";
+	cin.getline(p1.nombre,30,'\n');
+	cout<<"Digite su edad: ";
+	cin>>p1.edad;
+}
+
+void mostrarDatos(Persona p){
+	cout<<"Nombre: "<<p.nombre<<endl;
+	cout<<"Edad: "<<p.edad<<endl;
 }
 
 ```
