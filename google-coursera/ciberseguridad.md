@@ -90,6 +90,27 @@ __USB Baiting__ By a malicious software in a USB
 2.- Privacy Protections - Safeguarding personal information from unauthorized use
 3.- Laws - Rules recognized by a community and enforced by a governing entity
 
+## Security Information and Event Management (SIEM) Tools
+
+> Collects and analyzes LOG data to monitor critical activities as Splunk or Chronicle
+
+## Declaracion profesional
+
+Actualmente trabajo en el departamento de sistemas de una universidad.
+Dentro de mis labores se encuentra manejar informacion personal en sistemas y bases de datos.
+Es importante cuidar la informacion e informar a los usuarios de riesgos en la seguridad.
+Me interesa mucho la seguridad ya que en mi trabajo han habido ataques y me gustaria ayudar.
+Me motiva poder pensar como los atacantes y crear formas de defensa indestructibles.
+Me entusiasma poder crear trampas para atacantes y divertirme.
+Me apasiona programar y crear herramientas de gran utillidad para usuarios o administradores.
+Tengo facilidad de comunicacion tanto escrita como verbal y me gusta programar.
+Tambien me gusta cuidar los detalles y soy muy pragmatico.
+
+
+
+
+
+
 
 
 
