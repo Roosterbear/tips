@@ -17,7 +17,7 @@
 
 * __cstdio__ is oriented to _C_ like _printf_
 * __iostream__ is oriented to _C++_ like: _cout_, _cin_
-
+* __string__ for string methods like: _strupr()_
 
 ```c++
 #include<iostream>
@@ -255,15 +255,15 @@ int main(){
 using namespace std;
 
 int main(){
-  int numeros[] = {1,2,3,4,5,6,7,8,9};
+  int numeros[] = {1,2,3,4,5};
   int *dir_numeros;
 
   // We do not need to use: dir_numeros = &numeros[0]; Just:
   dir_numeros = numeros;
 
-  for(int i = 0;i<9;i++){
-    cout<<"\nElemento del vector: ["<<i<<"] es: "<<*dir_numeros++endl;
-    cout<<"Posicion de memoria: "<<numeros[i]<<" es: "<<dir_numeros++endl;
+  for(int i = 0;i<5;i++){
+    cout<<"\nElemento del vector: ["<<i<<"] es: "<<*dir_numeros<<endl;
+    cout<<"Posicion de memoria: "<<numeros[i]<<" es: "<<dir_numeros++<<endl;
   }
 
 }
@@ -279,11 +279,15 @@ int main(){
 using namespace std;
 
 void pedirNotas();
+void mostrarNotas();
 
 int numCalif, *calif;
 
 int main(){
-  
+  pedirNotas();
+  mostrarNotas();
+
+  delete[] calif;
 }
 
 void pedirNotas(){
@@ -294,6 +298,13 @@ void pedirNotas(){
 
   for(int i=0;i<numCalif;i++){
     cout<<"Ingrese una nota: "; cin>>calif[i];
+  }
+}
+
+void mostrarNotas(){
+  cout<<"\nMostrando notas del usuario\n";
+  for(int i=0;i<numCalif;i++){
+    cout<<calif[i]<<endl;
   }
 }
 ```
