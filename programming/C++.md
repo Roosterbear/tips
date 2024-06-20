@@ -308,3 +308,72 @@ void mostrarNotas(){
   }
 }
 ```
+## FILES
+
+```c++
+#include<iostream>
+#include<stdlib.h>
+#include<fstream>
+
+using namespace std;
+
+void escribir();
+
+int main(){
+  escribir();
+
+  system("pause");
+}
+
+void escribir(){
+  ofstream archivo;
+  string nombreArchivo, frase;
+
+  cout<<"Digite el nombre del archivo: ";
+  getline(cin,nombreArchivo);
+
+  archivo.open(nombreArchivo.c_str(), ios::out);
+
+  if(archivo.fail()){
+    cout<<"No se pudo abrir el archivo";
+    exit(1);
+  }
+
+  cout<<"\nDigite el contenido del archivo: ";
+  getline(cin,frase);
+  archivo<<frase;
+
+  archivo.close();
+
+}
+```
+
+## CLASSES
+
+```c++
+// Punto.h
+class Punto{
+  // Attributes
+  private:
+    int x,y;
+
+  // Methods
+  public:
+    // Constructor with parameters
+    Punto(int _x, int _y){
+      x = _x;
+      y = _y;
+    }
+
+    // Constructor without parameters
+    Punto(){
+      x = y = 0;
+    }
+
+    void setX(int valorX);
+    void setY(int valorY);
+    int getX();
+    int getY();
+    
+}
+```
