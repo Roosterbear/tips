@@ -155,6 +155,7 @@ Focused on _securing_ digital and physical _assets_. <br/>
 It's also related to the storage, maintenance, retention <br/>
 and _destruction_ of data. <br/>
 
+
 ### CISSP Domain #3 - Security Architecture and Engineering
 
 Focused on optimizing data security by ensuring _effective tools_, <br/>
@@ -164,10 +165,22 @@ __Shared responsability__ <br/>
 All individuals within an organization take an active role in lowering risk <br/>
 and maintaining both physical and virtual security. <br/>
 
-### CISSP Domain #3 - Communication and Network Security
+
+### CISSP Domain #4 - Communication and Network Security
 
 Focused on managing and securing physical _networks and wireless communications_. <br/>
 
+
+### CISSP Domain #5 - Identity and access management
+
+Focused on access and authorization to keep data secure, by making sure users <br/>
+follow established policies to control and manage assets. <br/>
+
+
+### CISSP Domain #5 - Identity and access management
+
+Focused on conducting security control testing, collecting and analyzing data, <br/>
+and conducting security audits to monitor
 
 
 
