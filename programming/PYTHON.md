@@ -115,6 +115,30 @@ for c in chosen_word:
         print("wrong")
 ```
 
+### DICTIONARY
+
+
+```python
+dictionary = {
+  "Bug":"An error in a program",
+  "Function":"A piece of code"
+}
+
+#Add new item
+dictionary["Loop"] = "The action of doing something over and over again"
+
+#Retrieve an item
+print(dictionary["Bug"])
+
+#List nested in a Dictionary
+travel = {
+  "France":["Paris","Lille","Dijon"],
+  "Germany":["Berlin","Hamburg","Stuttgart"]
+}
+
+```
+
+
 ### CLASSES
 
 ```python
