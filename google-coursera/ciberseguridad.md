@@ -236,9 +236,9 @@ __RISK MANAGEMENT FRAMEWORK__ [RMF]<br/>
 * Categorize _Risk management processes and tasks_
 * Select _Documentation of Controls_
 * Implement _Plans of Security and Privacy_
-* Assess _if controlas are correct_
+* Assess[valoraciones] _if controlas are correct_
 * Authorize _being accountable[responsable] for privacy risks in an organization_
-* Monitor _be aware of how systemas are operating_
+* Monitor _be aware of how systems are operating_
 
 
 
