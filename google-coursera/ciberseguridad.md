@@ -1,6 +1,6 @@
 # Cybersecurity
 
-## Foundations of Cybersecurity 🔐🔐🔐🔐🔐🔐🔐
+## [1] Foundations of Cybersecurity 🔐🔐🔐🔐🔐🔐🔐
 
 ### Cybersecurity Activities
 
@@ -131,7 +131,7 @@ Tambien me gusta cuidar los detalles y soy muy pragmatico.
 
 
 
-## Play Safe: Manage Security Risks 🔐🔐🔐🔐🔐🔐🔐
+## [2] Play Safe: Manage Security Risks 🔐🔐🔐🔐🔐🔐🔐
 
 
 ### CISSP Domain #1 - Security and Risk Management
@@ -174,38 +174,84 @@ Focused on managing and securing physical _networks and wireless communications_
 ### CISSP Domain #5 - Identity and access management
 
 Focused on access and authorization to keep data secure, by making sure users <br/>
-follow established policies to control and manage assets. <br/>
+follow established policies to control and manage assets. _(Not to use the same user_) <br/>
+
+* IAM 
+
+> __Identification__ Verification of the users who they are
+> __Authentication__ Verification process to prove the identity
+> __Authorization__ Related to their level of access after confirmed identity
+> __Accountability__ Monitoring and recording user actions
 
 
-### CISSP Domain #5 - Identity and access management
+### CISSP Domain #6 - Security Assessment and Testing
 
-Focused on conducting security control testing, collecting and analyzing data, <br/>
-and conducting security audits to monitor
-
-
-
+Focused on conducting security control testing, collecting and analyzing data <br/>
+and conducting security audits to monitor for risks, threats and vulnerabilities. <br/>
+_Find better ways_ <br/>
 
 
+### CISSP Domain #7 - Security Operations
 
-## Connect and Protect: Networks and Network Security 🔐🔐🔐🔐🔐🔐🔐
-
-
-
-
-
-
-
-
-## Tools of the Trade: Linux and SQL 🔐🔐🔐🔐🔐🔐🔐
+Focused on conducting investigations and implementing preventive measures. <br/>
 
 
 
+### CISSP Domain #8 - Software Development Security 
+
+Focused on using secure coding practices. <br/>
+
+__THREAD__ <br/>
+Any circumstance or event that can _negatively impact_ assets <br/>
+
+__RISK__ <br/>
+The posibility of a threat to impact the confidentiality, <br/>
+integrity or availability of an asset. <br/>
+
+__VULNERABILITY__ <br/>
+A weakness that can be exploited by a threat. <br/>
+[Outdated firewall-software, weak password, unprotected data and PEOPLE] <br/>
+
+__SOCIAL ENGINEERING__ <br/>
+A manipulation technique that exploits _human error_ <br/>
+to gain private information, access or valuables. <br/>
+_phishing_ is a way of social engineering. <br/>
+
+__RANSOMWARE__ <br/>
+A malicious attack where threat actors encrypt an organization's data <br/>
+and demand payment to restore access. <br/>
+
+__DEEP WEB__ <br/>
+Generally requires authorization to access it. [intranet]<br/>
+
+__DARK WEB__ <br/>
+Can only be accessed by using special software. [criminals]<br/>
+
+__NIST__ National Institute of Standards and Technology <br/>
+
+
+__RISK MANAGEMENT FRAMEWORK__ [RMF]<br/>
+
+* Prepare _Necessary Activities before a breach occurs_
+* Categorize _Risk management processes and tasks_
+* Select _Documentation of Controls_
+* Implement _Plans of Security and Privacy_
+* Assess _if controlas are correct_
+* Authorize _being accountable[responsable] for privacy risks in an organization_
+* Monitor _be aware of how systemas are operating_
+
+
+
+## [3] Connect and Protect: Networks and Network Security 🔐🔐🔐🔐🔐🔐🔐
 
 
 
 
 
-## Assets, Threads and Vulnerabilities 🔐🔐🔐🔐🔐🔐🔐
+
+
+
+## [4] Tools of the Trade: Linux and SQL 🔐🔐🔐🔐🔐🔐🔐
 
 
 
@@ -214,7 +260,7 @@ and conducting security audits to monitor
 
 
 
-## Sound the Alarm: Detection and Response 🔐🔐🔐🔐🔐🔐🔐
+## [5] Assets, Threads and Vulnerabilities 🔐🔐🔐🔐🔐🔐🔐
 
 
 
@@ -223,7 +269,7 @@ and conducting security audits to monitor
 
 
 
-## Automate Cybersecurity Task with Python 🔐🔐🔐🔐🔐🔐🔐
+## [6] Sound the Alarm: Detection and Response 🔐🔐🔐🔐🔐🔐🔐
 
 
 
@@ -232,7 +278,16 @@ and conducting security audits to monitor
 
 
 
-## Put to Work: Prepare for Cybersecurity Jobs 🔐🔐🔐🔐🔐🔐🔐
+## [7] Automate Cybersecurity Task with Python 🔐🔐🔐🔐🔐🔐🔐
+
+
+
+
+
+
+
+
+## [8] Put to Work: Prepare for Cybersecurity Jobs 🔐🔐🔐🔐🔐🔐🔐
 
 
 
