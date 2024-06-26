@@ -93,11 +93,11 @@ __USB Baiting__ By a malicious software in a USB
 4.- Monitoring and communicating results
 
 
-### CIA Triad (_is a guide_)
+### CIA Triad (_is a guide or model that inform about organization risk_)
 
-- [] __Confidentiality__ - Only authorized user can access specific assets or data
-- [] __Integrity__ - Data is correct, authentic and reliable
-- [] __Availability__ - Data is accesible to those who are authorized to access it
+- [] __Confidentiality__ - Only authorized user can access _SPECIFIC_ assets or data
+- [] __Integrity__ - Data is _CORRECT_, authentic and reliable
+- [] __Availability__ - Data is accesible to those who are _AUTHORIZED_ to access it
 
 
 ### Ethical Principles
@@ -229,6 +229,10 @@ Can only be accessed by using special software. [criminals]<br/>
 
 __NIST__ National Institute of Standards and Technology <br/>
 
+__CyberSecurity Framework__ [CSF]<br/>
+A voluntary framework that consist of standards, <br/>
+guidelines and best practices to manage cybersecurity risk. <br/>
+
 
 __RISK MANAGEMENT FRAMEWORK__ [RMF]<br/>
 
@@ -239,6 +243,52 @@ __RISK MANAGEMENT FRAMEWORK__ [RMF]<br/>
 * Assess[valoraciones] _if controlas are correct_
 * Authorize _being accountable[responsable] for privacy risks in an organization_
 * Monitor _be aware of how systems are operating_
+
+__Security Frameworks__ <br/>
+_Guidelines_ used for _building plans_ to help mitigate risk and threats <br/>
+to data and privacy <br/>
+
+__Encryption__ <br/>
+The process of converting data from a readable format to an _encoded_ format. <br/>
+Used to ensure confidentiality of sensitive data. <br/>
+
+__Ciphertext__ <br/>
+Is the raw encoded message that is _unreadable_ to humans and computers. <br/>
+Can't be readable until it's been decrypted into its original plaintext form. <br/>
+
+__Authentication__ <br/>
+The process of verifying who someone or something is. (_login_)<br/>
+More advanced is Multi-factor authentication (_MFA_) that <br/>
+challenge the user to demostrate that they are who they claim to be <br/>
+with additional form of authentication as a security code, biometrics. <br/>
+
+__Biometrics__ <br/>
+Unique physical characteristics thet can be used to verify a person identity. <br/>
+[fingerprint],[eye-scan],[palm-scan] and [voice]<br/>
+
+__Vishing__ <br/>
+The exploitation of electronic voice communication to obtain sensitive information <br/>
+or to impersonate a known source. <br/>
+
+__Authorization__ <br/>
+The Concept of granting access to specific resources within a system. <br/>
+
+__Controls__ <br/>
+Used to reduce the impact of a threat, risk or vulnerability, and are: <br/>
+
+* [Physical] Doors, Guards, CCTV, Access cards
+* [Technical] Firewalls, Multi-Factor Authentication, Antivirus
+* [Administrative] Function separation, Authorization, Assets Clasification
+
+
+
+
+
+
+
+
+
+
 
 
 
