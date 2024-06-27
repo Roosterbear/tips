@@ -329,8 +329,8 @@ Purposes: <br/>
 
 Elements: <br/>
 
-* __SCOPE__ and Goals -> _Criteria_
-* __RISK__ assessment[evaluacion]
+* __SCOPE__ and Goals -> _Criteria_ / _outline_ [boceto]
+* __RISK__ assessment[evaluacion] -> _identify_
 * __CONTROLS__ assessment
 * __ASSESSING__ compliance[cumplimiento]
 * Communicating __RESULTS__
