@@ -227,12 +227,25 @@ Generally requires authorization to access it. [intranet]<br/>
 __DARK WEB__ <br/>
 Can only be accessed by using special software. [criminals]<br/>
 
-__NIST__ National Institute of Standards and Technology <br/>
 
 __CyberSecurity Framework__ [CSF]<br/>
+Part of _National Institute of Standards and Technology_ [NIST] <br/>
 A voluntary framework that consist of standards, <br/>
 guidelines and best practices to manage cybersecurity risk. <br/>
 
+Its _CORE_ functions are: <br/> 
+
+* Identify -> Manage Risk and its effect
+* Protect -> Strategy to mitigate by policies, procedures, training and tools
+* Detect -> Identify potential incidents - Improving monitoring to speed detections
+* Respond -> Proper procedures to contain, neutralize, analyze incidents - improvements
+* Recover -> Returning affected systems back to normal operation
+
+Used for -> MANAGE RISK, IMPLEMENT STRATEGIES AND LEARN FROM MISTAKES<br/>
+
+__S.P. 800-53__ <br/>
+Aunified framework for protecting the security of information systems <br/>
+within the federal government. <br/>
 
 __RISK MANAGEMENT FRAMEWORK__ [RMF]<br/>
 
@@ -281,7 +294,18 @@ Used to reduce the impact of a threat, risk or vulnerability, and are: <br/>
 * [Administrative] Function separation, Authorization, Assets Clasification
 
 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+__Open Web Applications Security Project__ [OWASP] <br/>
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+Principles: <br/>
+
+* Minimize attack surface area -> _all potential vulnerabilities_
+* Principle of __LEAST__ Privilege -> _just the access required to their everyday tasks_
+* Defense in Depth -> _multiple security controls_
+* Separation of duties -> _no one should be given so many privileges_
+* Keep security simple -> _avoid unnecessarily complicated solutions_
+* Fix security issues correctly -> _identify root cause, correct and test to ensure_
 
 
 
