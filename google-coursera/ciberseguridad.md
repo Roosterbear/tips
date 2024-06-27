@@ -307,6 +307,33 @@ Principles: <br/>
 * Keep security simple -> _avoid unnecessarily complicated solutions_
 * Fix security issues correctly -> _identify root cause, correct and test to ensure_
 
+---
+
+Other prnciples: <br/>
+
+* Default configuration
+* Secure Fail
+* Not trust in services
+* Avoid security by darkness
+
+
+__Security audit__ <br/>
+A review of an organization's security controls, policies and procedures <br/>
+against a set of expectations <br/>
+
+Purposes: <br/>
+
+* Identify organizational risk
+* Assess controls
+* Correct compliance[cumplimiento] issues
+
+Elements: <br/>
+
+* __SCOPE__ and Goals -> _Criteria_
+* __RISK__ assessment[evaluacion]
+* __CONTROLS__ assessment
+* __ASSESSING__ compliance[cumplimiento]
+* Communicating __RESULTS__
 
 
 
