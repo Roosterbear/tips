@@ -331,15 +331,53 @@ Elements: <br/>
 
 * __SCOPE__ and Goals -> _Criteria_ / _outline_ [boceto]
 * __RISK__ assessment[evaluacion] -> _identify_
-* __CONTROLS__ assessment
-* __ASSESSING__ compliance[cumplimiento]
-* Communicating __RESULTS__
+* __CONTROLS__ assessment -> 
+  1. _administrative_[human]
+  2. _technical_[hardware/software] 
+  3. _physical_ [access_to_assets]
+* __ASSESSING__ compliance[cumplimiento] -> adhering to _regulations_
+  1. [GDPR] _GENERAL DATA PROTECTION REGULATION_
+  2. [PCI-DSS] _PAYMENT CARD INDUSTRY - DATA SECURITY STANDARD_
+* Communicating __RESULTS__ -> summarizes to _stakeholders_
+
+Factors:
+
+* Type of industry
+* Size of organization
+* Goverment regulations links
+* Geographic Location of the business
+* Comercial Decision
 
 
+__AUDIT__
+
+- Check scope
+- Choose controls
+- Rate controls
+- Choose norms and standards
+- Explain scope, goals, findings
 
 
+__SIEM (Security Incident and Event Management) Tools__
 
+[LINUX]
+Is a widely used Open Source System that allows you to adapt it to your needs <br/>
+through a command line interface. <br/>
 
+[SURICATA]
+Open Source Network Analysis and Threat Detection Software, used to analyze
+network traffic, identify suspicious behaviors and generate logs helping to
+uncover potential threats, risk or vulnerabilities.
+
+[SPLUNK]
+Allow reviewing organization data through dashboards. This helps security
+professionals manage the internal infrastructure by collecting, searching,
+monitoring and analyzing log data from multiple sources, allowing them to
+observe the entirety of an organization's daily operations.
+
+[CHRONICLE]
+Native SIEM Tool in the Google Cloud that keep, analyze and search log data
+to identify potencial threats, risks and security vulnerabilities.
 
 
 
