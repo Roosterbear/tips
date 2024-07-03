@@ -436,18 +436,127 @@ _Playbooks are living documents_ <br/>
 
 ## [3] Connect and Protect: Networks and Network Security 🔐🔐🔐🔐🔐🔐🔐
 
+__NETWORK__ <br/>
+
+A group of connected devices. <br/>
 
 
+__Local Area Network__ [LAN] <br/>
+
+A network that spans a small area like an office building, <br/>
+a school or a home. <br/>
 
 
+__HUB__ <br/>
+
+A network device that broadcast information to every device on the network. <br/>
 
 
+__Switch__ <br/>
+
+A device that makes connections between specific devices on a network <br/>
+by sending and receiving data between them. Keeps MAC addresses. <br/>
 
 
+__Router__ <br/>
+
+A network device that connects multiple network together. <br/>
+Can block traffic as a Firewall. <br/>
 
 
+__Modem__ <br/>
+
+A device that connects your router to the internet and brings internet access to the LAN <br/>
 
 
+__Virtualization Tools__ <br/>
+
+Pieces of software thet perform network operations. <br/>
+
+
+__Firewall__ <br/>
+
+A Security Device that monitor the traffic of a Network. <br/>
+
+
+__Server__ <br/>
+
+Provide a service in a Network. <br/>
+
+
+__Cloud Computing__ <br/>
+
+The practice of using remote servers, applications and network services <br/>
+that are hosted on the internet instead of on local physical devices. <br/>
+
+
+__Cloud Network__ <br/>
+
+A collection of servers or computers that stores resources and data
+in remote data centers that can be accessed via internet. <br/>
+
+
+-> A Cloud Service Providers offer [CSP]:
+
+- On-demand storage
+- Processing power
+- Analytics
+
+[SaaS] - Software as a Service
+[IaaS] - Infraestructure as a Service
+[PaaS] - Plattform as a Service
+
+
+__DATA PACKET__ <br/>
+
+A basic unit of information that travels from one device to another within a network. <br/>
+
+-> _Header_ -> IP address / MAC address / Protocol Number <br/>
+-> _Body_ -> The Message <br/>
+-> _Footer_ -> Signals to the receiving device that the packet is finished <br/>
+
+
+__Bandwidth__ <br/>
+
+The amount of data a device receives every second. <br/>
+
+
+__Speed__ <br/>
+
+The rate at which data packets are received or downloaded. <br/>
+
+
+__Packet Sniffing__ <br/>
+
+The Practice of capturing and inspecting data packets across a network. <br/>
+
+
+__Transmission Control Protocol__ [TCP] <br/>
+
+An internet communication protocol that allows two devices to form <br/>
+a connection and stream data. <br/>
+
+__Internet Protocol__ [IP] <br/>
+
+A set of standards used for routing and addressing data packets <br/>
+as they travel between devices on a network. <br/>
+
+
+__PORT__ <br/>
+
+A software-based location that organizes the sending and receiving <br/>
+of data between devices on a network. <br/>
+Divide traffic into segments. <br/>
+
+- [25] Email
+- [443] Secure internet communication
+- [20] Large File Transfers
+
+
+__TCP/IP Model__ <br/>
+
+A Framework used to visualize how data is organized <br/>
+and transmitted across the Network. <br/>
 
 
 
