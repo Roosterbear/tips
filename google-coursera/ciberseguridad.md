@@ -349,7 +349,7 @@ Factors:
 * Comercial Decision
 
 
-__AUDIT__
+__AUDIT__ <br/>
 
 - Check scope
 - Choose controls
@@ -358,7 +358,7 @@ __AUDIT__
 - Explain scope, goals, findings
 
 
-__SIEM (Security Incident and Event Management) Tools__
+__SIEM (Security Incident and Event Management) Tools__ <br/>
 
 [LINUX]
 Is a widely used Open Source System that allows you to adapt it to your needs <br/>
@@ -380,8 +380,73 @@ Native SIEM Tool in the Google Cloud that keep, analyze and search log data
 to identify potencial threats, risks and security vulnerabilities.
 
 
+__Playbook__ <br/>
+
+A manual that provides details about any operational action.
+
+
+__Incident Response__ <br/>
+
+An organization's quick attempt to identify an attack, contain the damage <br/>
+and correct the effects of security breach. <br/>
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ <br/>
+__INCIDENT RESPONSE PLAYBOOK PHASES__ <br/>
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ <br/>
+
+* PREPARATION
+- Mitigate potential impact
+- Documenting procedures
+- Establishing staffing plans 
+- Educating users.
+- Sets the Foundation for successful incident response
+
+* DETECTION AND ANALYSIS
+- Uses defined processes and technology [tools]
+- Determine whether a breach has occurred
+
+* CONTAINMENT
+- Prevent further or major damage
+- Reduce immediate impact
+- Security proffesionals TAKE ACTION
+
+* ERADICATION AND RECOVERY
+- Complete removal of artifacts
+- Return to normal operations
+- Restoration
+
+* POST INCIDENT ACTIVITY
+- Documenting the incident
+- Inform to organization leadership
+- Apply lessons learned for future incidents
+
+* COORDINATION
+- Sharing information
+- In agreement to Standards
+
+_Playbooks are living documents_ <br/>
+-> We could modify a manual when: <br/>
+
+[*] A flaw is detected
+[*] Standards changed
+[*] Security outlook improves
+
+
 
 ## [3] Connect and Protect: Networks and Network Security 🔐🔐🔐🔐🔐🔐🔐
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
