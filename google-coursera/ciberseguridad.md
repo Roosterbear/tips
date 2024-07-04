@@ -116,23 +116,20 @@ __USB Baiting__ By a malicious software in a USB
 
 [
 Currently I work in the IT Departament of a university.
-
+Manage personal information and Databases are one of my duties.
+It is very important to keep information safe and inform about Security Risks.
+I'm very interested in security, though there were attacks in my job, and I want to help.
+I like to think like an attacker y make undestructibles ways of defense.
+I'm excited about make traps to attackers and get some fun about it.
+I'm love programming and make very useful tools for users or administrators.
+I have facility for both written and verbal communication and I like to program
+I'm a pragmatic person and I like take care of details
 ]
 
-Actualmente trabajo en el departamento de sistemas de una universidad.
-Dentro de mis labores se encuentra manejar informacion personal en sistemas y bases de datos.
-Es importante cuidar la informacion e informar a los usuarios de riesgos en la seguridad.
-Me interesa mucho la seguridad ya que en mi trabajo han habido ataques y me gustaria ayudar.
-Me motiva poder pensar como los atacantes y crear formas de defensa indestructibles.
-Me entusiasma poder crear trampas para atacantes y divertirme.
-Me apasiona programar y crear herramientas de gran utillidad para usuarios o administradores.
-Tengo facilidad de comunicacion tanto escrita como verbal y me gusta programar.
-Tambien me gusta cuidar los detalles y soy muy pragmatico.
 
 
 
 ## [2] Play Safe: Manage Security Risks 🔐🔐🔐🔐🔐🔐🔐
-
 
 ### CISSP Domain #1 - Security and Risk Management
 
@@ -294,9 +291,9 @@ Used to reduce the impact of a threat, risk or vulnerability, and are: <br/>
 * [Administrative] Function separation, Authorization, Assets Clasification
 
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-__Open Web Applications Security Project__ [OWASP] <br/>
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+### Open Web Applications Security Project [OWASP] 
+
 
 Principles: <br/>
 
@@ -391,9 +388,7 @@ An organization's quick attempt to identify an attack, contain the damage <br/>
 and correct the effects of security breach. <br/>
 
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ <br/>
-__INCIDENT RESPONSE PLAYBOOK PHASES__ <br/>
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ <br/>
+### INCIDENT RESPONSE PLAYBOOK PHASES
 
 * PREPARATION
 - Mitigate potential impact
@@ -523,7 +518,7 @@ The amount of data a device receives every second. <br/>
 
 __Speed__ <br/>
 
-The rate at which data packets are received or downloaded. <br/>
+The rate at which data packets are received or downloaded. Bits/s <br/>
 
 
 __Packet Sniffing__ <br/>
@@ -540,6 +535,16 @@ __Internet Protocol__ [IP] <br/>
 
 A set of standards used for routing and addressing data packets <br/>
 as they travel between devices on a network. <br/>
+
+__IP address__ <br/>
+
+A unique string of characters that identifies the location of device on internet. <br/>
+There are 2 versions: _IPv4_ and _IPv6_ <br/>
+
+__MAC address__ <br/>
+
+A unique alphanumeric identifier that is assigned to each physical device on a network. <br/>
+
 
 
 __PORT__ <br/>
@@ -558,6 +563,14 @@ __TCP/IP Model__ <br/>
 A Framework used to visualize how data is organized <br/>
 and transmitted across the Network. <br/>
 
+
+### PROTOCOLS
+
+
+
+__Domain Name System__ [DNS] <br/>
+
+A network protocol that translates internet domain names into IP addresses. <br/>
 
 
 
