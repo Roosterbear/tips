@@ -116,11 +116,13 @@ __USB Baiting__ By a malicious software in a USB
 
 [
 Currently I work in the IT Departament of a university.
-Manage personal information and Databases are one of my duties.
-It is very important to keep information safe and inform about Security Risks.
+To Manage personal information and Databases are one of my duties.
+I sure that it is very important to keep information safe and inform about Security Risks.
+
 I'm very interested in security, though there were attacks in my job, and I want to help.
 I like to think like an attacker y make undestructibles ways of defense.
 I'm excited about make traps to attackers and get some fun about it.
+
 I'm love programming and make very useful tools for users or administrators.
 I have facility for both written and verbal communication and I like to program
 I'm a pragmatic person and I like take care of details
@@ -526,11 +528,6 @@ __Packet Sniffing__ <br/>
 The Practice of capturing and inspecting data packets across a network. <br/>
 
 
-__Transmission Control Protocol__ [TCP] <br/>
-
-An internet communication protocol that allows two devices to form <br/>
-a connection and stream data. <br/>
-
 __Internet Protocol__ [IP] <br/>
 
 A set of standards used for routing and addressing data packets <br/>
@@ -567,13 +564,37 @@ and transmitted across the Network. <br/>
 ### PROTOCOLS
 
 
+#### Communitacion
+
+__Transmission Control Protocol__ [TCP] <br/>
+
+An internet communication protocol that allows two devices to form <br/>
+a connection and stream data. <br/>
+Uses the _Handshake_ -> SYN - SYN/ACK - ACK <br/>
+
+
+__User Datagram Protocol__ [UDP] <br/>
+
+No connection link between devices. _Transport Layer_ Protocol<br/>
+
+
+__Hyper Text Transfer Protocol__ [HTTP] <br/>
+
+_Application Layer_ Protocol the brings a method of communication <br/>
+between Clients and Server. Uses the _80_ port.<br/>
+
 
 __Domain Name System__ [DNS] <br/>
 
 A network protocol that translates internet domain names into IP addresses. <br/>
 
 
+#### Management
 
+
+
+
+#### Security
 
 
 
