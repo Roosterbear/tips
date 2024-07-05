@@ -29,16 +29,16 @@ Are responsible for monitoring and protecting information and systems.
 
 ### Skills
 
-> Communication
-> Collaboration
-> Analysis
-> Problem solving
+> Communication <br/>
+> Collaboration <br/>
+> Analysis <br/>
+> Problem solving <br/>
 
----
+<br/>
 
-> Programming Languages
-> Security Incident and Event Management (SIEM) Tools
-> Computer Forensic
+> Programming Languages <br/>
+> Security Incident and Event Management (SIEM) Tools <br/>
+> Computer Forensic <br/>
 
 ### Personal Information
 
@@ -64,47 +64,47 @@ __Whaling__ is for high ranking people in an organization. <br/>
 __Business Email Compromise__ is when a threat agent pretends to be a person <br/>
 known to the victim and tries to get them to send money or provide confidential <br/>
 company information. <br/>
-
-__Vishing__ By voice (telephone)
+ 
+__Vishing__ By voice (telephone) <br/>
 
 __Watering Hole__ A threat actor compromises a website frequently visited <br/>
 by a specific group of users. <br/>
 
-__USB Baiting__ By a malicious software in a USB
+__USB Baiting__ By a malicious software in a USB <br/>
 
 
 ### CISSP Domains
 
-> __Security and risk management__ [Goals and Objectives, compliance and law]
-> __Asset Security__ [Storage, maintenance, retention or destruction of data]
-> __Security Architecture and Engineering__ [Optimizes Tools and Systems]
-> __Communication and Network Security__ [Manage and secures networks]
-> __Identity and access management__ [Users to follow policies to control assets]
-> __Security Assessment and Testing__ [Audits to monitor risks]
-> __Security Operations__ [Investigations and preventive measures]
-> __Software Development Security__ [Secure Coding Practices]
+> __Security and risk management__ [Goals and Objectives, compliance and law] <br/>
+> __Asset Security__ [Storage, maintenance, retention or destruction of data] <br/>
+> __Security Architecture and Engineering__ [Optimizes Tools and Systems] <br/>
+> __Communication and Network Security__ [Manage and secures networks] <br/>
+> __Identity and access management__ [Users to follow policies to control assets] <br/>
+> __Security Assessment and Testing__ [Audits to monitor risks] <br/>
+> __Security Operations__ [Investigations and preventive measures] <br/>
+> __Software Development Security__ [Secure Coding Practices] <br/>
 
 
 ### Components of Security Frameworks
 
-1.- Identifying and documenting security goals
-2.- Setting guidelines to achieve security goals
-3.- Implementing strong security processes
-4.- Monitoring and communicating results
+1.- Identifying and documenting security goals <br/>
+2.- Setting guidelines to achieve security goals <br/>
+3.- Implementing strong security processes <br/>
+4.- Monitoring and communicating results <br/>
 
 
 ### CIA Triad (_is a guide or model that inform about organization risk_)
 
-- [] __Confidentiality__ - Only authorized user can access _SPECIFIC_ assets or data
-- [] __Integrity__ - Data is _CORRECT_, authentic and reliable
-- [] __Availability__ - Data is accesible to those who are _AUTHORIZED_ to access it
+- __Confidentiality__ - Only authorized user can access _SPECIFIC_ assets or data <br/>
+- __Integrity__ - Data is _CORRECT_, authentic and reliable <br/>
+- __Availability__ - Data is accesible to those who are _AUTHORIZED_ to access it <br/>
 
 
 ### Ethical Principles
 
-1.- Confidentiality - PII confidential and safe
-2.- Privacy Protections - Safeguarding personal information from unauthorized use
-3.- Laws - Rules recognized by a community and enforced by a governing entity
+1.- Confidentiality - PII confidential and safe <br/>
+2.- Privacy Protections - Safeguarding personal information from unauthorized use <br/>
+3.- Laws - Rules recognized by a community and enforced by a governing entity <br/>
 
 
 ### Security Information and Event Management (SIEM) Tools
@@ -114,19 +114,18 @@ __USB Baiting__ By a malicious software in a USB
 
 ### Professional Declaration
 
-[
-Currently I work in the IT Departament of a university.
-To Manage personal information and Databases are one of my duties.
-I sure that it is very important to keep information safe and inform about Security Risks.
 
-I'm very interested in security, though there were attacks in my job, and I want to help.
-I like to think like an attacker y make undestructibles ways of defense.
-I'm excited about make traps to attackers and get some fun about it.
+>Currently I work in the IT Departament of a university. <br/>
+>To Manage personal information and Databases are one of my duties. <br/>
+>I sure that it is very important to keep information safe and inform about Security Risks. <br/>
 
-I'm love programming and make very useful tools for users or administrators.
-I have facility for both written and verbal communication and I like to program
-I'm a pragmatic person and I like take care of details
-]
+>I'm very interested in security, though there were attacks in my job, and I want to help.<br/>
+>I like to think like an attacker y make undestructibles ways of defense. <br/>
+>I'm excited about make traps to attackers and get some fun about it. <br/>
+
+>I'm love programming and make very useful tools for users or administrators. <br/>
+>I have facility for both written and verbal communication and I like to program <br/>
+>I'm a pragmatic person and I like take care of details <br/>
 
 
 
@@ -177,10 +176,10 @@ follow established policies to control and manage assets. _(Not to use the same 
 
 * IAM 
 
-> __Identification__ Verification of the users who they are
-> __Authentication__ Verification process to prove the identity
-> __Authorization__ Related to their level of access after confirmed identity
-> __Accountability__ Monitoring and recording user actions
+> __Identification__ Verification of the users who they are <br/>
+> __Authentication__ Verification process to prove the identity <br/>
+> __Authorization__ Related to their level of access after confirmed identity <br/>
+> __Accountability__ Monitoring and recording user actions <br/>
 
 
 ### CISSP Domain #6 - Security Assessment and Testing
@@ -234,11 +233,11 @@ guidelines and best practices to manage cybersecurity risk. <br/>
 
 Its _CORE_ functions are: <br/> 
 
-* Identify -> Manage Risk and its effect
-* Protect -> Strategy to mitigate by policies, procedures, training and tools
-* Detect -> Identify potential incidents - Improving monitoring to speed detections
-* Respond -> Proper procedures to contain, neutralize, analyze incidents - improvements
-* Recover -> Returning affected systems back to normal operation
+* Identify -> Manage Risk and its effect <br/>
+* Protect -> Strategy to mitigate by policies, procedures, training and tools <br/>
+* Detect -> Identify potential incidents - Improving monitoring to speed detections <br/>
+* Respond -> Proper procedures to contain, neutralize, analyze incidents - improvements <br/>
+* Recover -> Returning affected systems back to normal operation <br/>
 
 Used for -> MANAGE RISK, IMPLEMENT STRATEGIES AND LEARN FROM MISTAKES<br/>
 
@@ -248,13 +247,13 @@ within the federal government. <br/>
 
 __RISK MANAGEMENT FRAMEWORK__ [RMF]<br/>
 
-* Prepare _Necessary Activities before a breach occurs_
-* Categorize _Risk management processes and tasks_
-* Select _Documentation of Controls_
-* Implement _Plans of Security and Privacy_
-* Assess[valoraciones] _if controlas are correct_
-* Authorize _being accountable[responsable] for privacy risks in an organization_
-* Monitor _be aware of how systems are operating_
+* Prepare _Necessary Activities before a breach occurs_ <br/>
+* Categorize _Risk management processes and tasks_ <br/>
+* Select _Documentation of Controls_ <br/>
+* Implement _Plans of Security and Privacy_ <br/>
+* Assess[valoraciones] _if controlas are correct_ <br/>
+* Authorize _being accountable[responsable] for privacy risks in an organization_ <br/>
+* Monitor _be aware of how systems are operating_ <br/>
 
 __Security Frameworks__ <br/>
 _Guidelines_ used for _building plans_ to help mitigate risk and threats <br/>
@@ -288,9 +287,9 @@ The Concept of granting access to specific resources within a system. <br/>
 __Controls__ <br/>
 Used to reduce the impact of a threat, risk or vulnerability, and are: <br/>
 
-* [Physical] Doors, Guards, CCTV, Access cards
-* [Technical] Firewalls, Multi-Factor Authentication, Antivirus
-* [Administrative] Function separation, Authorization, Assets Clasification
+* [Physical] Doors, Guards, CCTV, Access cards <br/>
+* [Technical] Firewalls, Multi-Factor Authentication, Antivirus <br/>
+* [Administrative] Function separation, Authorization, Assets Clasification <br/>
 
 
 
@@ -299,21 +298,21 @@ Used to reduce the impact of a threat, risk or vulnerability, and are: <br/>
 
 Principles: <br/>
 
-* Minimize attack surface area -> _all potential vulnerabilities_
-* Principle of __LEAST__ Privilege -> _just the access required to their everyday tasks_
-* Defense in Depth -> _multiple security controls_
-* Separation of duties -> _no one should be given so many privileges_
-* Keep security simple -> _avoid unnecessarily complicated solutions_
-* Fix security issues correctly -> _identify root cause, correct and test to ensure_
+* Minimize attack surface area -> _all potential vulnerabilities_ <br/>
+* Principle of __LEAST__ Privilege -> _just the access required to their everyday tasks_ <br/>
+* Defense in Depth -> _multiple security controls_ <br/>
+* Separation of duties -> _no one should be given so many privileges_ <br/>
+* Keep security simple -> _avoid unnecessarily complicated solutions_ <br/>
+* Fix security issues correctly -> _identify root cause, correct and test to ensure_ <br/>
 
 ---
 
 Other prnciples: <br/>
 
-* Default configuration
-* Secure Fail
-* Not trust in services
-* Avoid security by darkness
+* Default configuration <br/>
+* Secure Fail <br/>
+* Not trust in services <br/>
+* Avoid security by darkness <br/>
 
 
 __Security audit__ <br/>
@@ -322,66 +321,67 @@ against a set of expectations <br/>
 
 Purposes: <br/>
 
-* Identify organizational risk
-* Assess controls
-* Correct compliance[cumplimiento] issues
+* Identify organizational risk <br/>
+* Assess controls <br/>
+* Correct compliance[cumplimiento] issues <br/>
 
 Elements: <br/>
 
-* __SCOPE__ and Goals -> _Criteria_ / _outline_ [boceto]
-* __RISK__ assessment[evaluacion] -> _identify_
-* __CONTROLS__ assessment -> 
-  1. _administrative_[human]
-  2. _technical_[hardware/software] 
-  3. _physical_ [access_to_assets]
-* __ASSESSING__ compliance[cumplimiento] -> adhering to _regulations_
-  1. [GDPR] _GENERAL DATA PROTECTION REGULATION_
-  2. [PCI-DSS] _PAYMENT CARD INDUSTRY - DATA SECURITY STANDARD_
-* Communicating __RESULTS__ -> summarizes to _stakeholders_
+* __SCOPE__ and Goals -> _Criteria_ / _outline_ [boceto] <br/>
+* __RISK__ assessment[evaluacion] -> _identify_ <br/>
+* __CONTROLS__ assessment ->  <br/>
+  1. _administrative_[human] <br/>
+  2. _technical_[hardware/software] <br/>
+  3. _physical_ [access_to_assets] <br/>
+* __ASSESSING__ compliance[cumplimiento] -> adhering to _regulations_ <br/>
+  1. [GDPR] _GENERAL DATA PROTECTION REGULATION_ <br/>
+  2. [PCI-DSS] _PAYMENT CARD INDUSTRY - DATA SECURITY STANDARD_ <br/>
+* Communicating __RESULTS__ -> summarizes to _stakeholders_ <br/>
 
-Factors:
+<br/>
+Factors:<br/>
 
-* Type of industry
-* Size of organization
-* Goverment regulations links
-* Geographic Location of the business
-* Comercial Decision
+* Type of industry <br/>
+* Size of organization <br/>
+* Goverment regulations links <br/>
+* Geographic Location of the business <br/>
+* Comercial Decision <br/>
 
 
 __AUDIT__ <br/>
 
-- Check scope
-- Choose controls
-- Rate controls
-- Choose norms and standards
-- Explain scope, goals, findings
+- Check scope <br/>
+- Choose controls <br/>
+- Rate controls <br/>
+- Choose norms and standards <br/>
+- Explain scope, goals, findings <br/>
 
 
 __SIEM (Security Incident and Event Management) Tools__ <br/>
 
-[LINUX]
+[LINUX] <br/>
 Is a widely used Open Source System that allows you to adapt it to your needs <br/>
 through a command line interface. <br/>
 
-[SURICATA]
-Open Source Network Analysis and Threat Detection Software, used to analyze
-network traffic, identify suspicious behaviors and generate logs helping to
-uncover potential threats, risk or vulnerabilities.
+[SURICATA] <br/>
+Open Source Network Analysis and Threat Detection Software, used to analyze <br/>
+network traffic, identify suspicious behaviors and generate logs helping to <br/>
+uncover potential threats, risk or vulnerabilities. <br/>
 
-[SPLUNK]
-Allow reviewing organization data through dashboards. This helps security
-professionals manage the internal infrastructure by collecting, searching,
-monitoring and analyzing log data from multiple sources, allowing them to
-observe the entirety of an organization's daily operations.
+[SPLUNK] <br/>
+Allow reviewing organization data through dashboards. This helps security <br/>
+professionals manage the internal infrastructure by collecting, searching, <br/>
+monitoring and analyzing log data from multiple sources, allowing them to <br/>
+observe the entirety of an organization's daily operations. <br/>
 
-[CHRONICLE]
-Native SIEM Tool in the Google Cloud that keep, analyze and search log data
-to identify potencial threats, risks and security vulnerabilities.
+[CHRONICLE] <br/>
+Native SIEM Tool in the Google Cloud that keep, analyze and search log data <br/>
+to identify potencial threats, risks and security vulnerabilities. <br/>
 
 
 __Playbook__ <br/>
 
-A manual that provides details about any operational action.
+A manual that provides details about any operational action. <br/>
 
 
 __Incident Response__ <br/>
@@ -392,42 +392,42 @@ and correct the effects of security breach. <br/>
 
 ### INCIDENT RESPONSE PLAYBOOK PHASES
 
-* PREPARATION
-- Mitigate potential impact
-- Documenting procedures
-- Establishing staffing plans 
-- Educating users.
-- Sets the Foundation for successful incident response
-
-* DETECTION AND ANALYSIS
-- Uses defined processes and technology [tools]
-- Determine whether a breach has occurred
-
-* CONTAINMENT
-- Prevent further or major damage
-- Reduce immediate impact
-- Security proffesionals TAKE ACTION
-
-* ERADICATION AND RECOVERY
-- Complete removal of artifacts
-- Return to normal operations
-- Restoration
-
-* POST INCIDENT ACTIVITY
-- Documenting the incident
-- Inform to organization leadership
-- Apply lessons learned for future incidents
-
-* COORDINATION
-- Sharing information
-- In agreement to Standards
+* PREPARATION <br/>
+- Mitigate potential impact <br/>
+- Documenting procedures <br/>
+- Establishing staffing plans <br/>
+- Educating users <br/>
+- Sets the Foundation for successful incident response <br/>
+<br/>
+* DETECTION AND ANALYSIS<br/>
+- Uses defined processes and technology [tools]<br/>
+- Determine whether a breach has occurred<br/>
+<br/>
+* CONTAINMENT<br/>
+- Prevent further or major damage<br/>
+- Reduce immediate impact<br/>
+- Security proffesionals TAKE ACTION<br/>
+<br/>
+* ERADICATION AND RECOVERY<br/>
+- Complete removal of artifacts<br/>
+- Return to normal operations<br/>
+- Restoration<br/>
+<br/>
+* POST INCIDENT ACTIVITY<br/>
+- Documenting the incident<br/>
+- Inform to organization leadership<br/>
+- Apply lessons learned for future incidents<br/>
+<br/>
+* COORDINATION<br/>
+- Sharing information<br/>
+- In agreement to Standards<br/>
 
 _Playbooks are living documents_ <br/>
 -> We could modify a manual when: <br/>
 
-[*] A flaw is detected
-[*] Standards changed
-[*] Security outlook improves
+[*] A flaw is detected<br/>
+[*] Standards changed<br/>
+[*] Security outlook improves<br/>
 
 
 
@@ -495,13 +495,13 @@ in remote data centers that can be accessed via internet. <br/>
 
 -> A Cloud Service Providers offer [CSP]:
 
-- On-demand storage
-- Processing power
-- Analytics
+- On-demand storage <br/>
+- Processing power <br/>
+- Analytics <br/>
 
-[SaaS] - Software as a Service
-[IaaS] - Infraestructure as a Service
-[PaaS] - Plattform as a Service
+[SaaS] - Software as a Service <br/>
+[IaaS] - Infraestructure as a Service <br/>
+[PaaS] - Plattform as a Service <br/>
 
 
 __DATA PACKET__ <br/>
@@ -550,9 +550,9 @@ A software-based location that organizes the sending and receiving <br/>
 of data between devices on a network. <br/>
 Divide traffic into segments. <br/>
 
-- [25] Email
-- [443] Secure internet communication
-- [20] Large File Transfers
+- [25] Email<br/>
+- [443] Secure internet communication<br/>
+- [20] Large File Transfers<br/>
 
 
 __TCP/IP Model__ <br/>
@@ -562,6 +562,7 @@ and transmitted across the Network. <br/>
 
 
 ### PROTOCOLS
+Rules to describe the delivery order. <br/>
 
 
 #### Communitacion
@@ -651,6 +652,52 @@ Is on _Application_ Layer. Port _22_ <br/>
 [WEP] Wired Equivalent Privacy - 1999 <br/>
 [WPA] WiFi Protected Access - 2003 <br/>
 - Uses Temporal Key Integrity Protocol [TKIP] <br/>
+[WPA3] Uses Simultaneous Authentication of Equals [SAE] <br/>
+
+
+
+
+### FIREWALLS
+
+There are _HARDWARE_ and _SOFTWARE_ firewalls. <br/>
+
+
+__STATEFUL__ [+]<br/>
+
+A class of Firewall that keeps track of information<br/>
+passing through it and proactively filters out threats.<br/>
+
+
+__STATELESS__ [-]<br/>
+
+A class of Firewall that operates based on predefined rules <br/>
+and does not keep track of information from data packets. <br/>
+
+
+__NEXT GENERATION FIREWALL__ [NGFW] <br/>
+
+- Deep packet inspection <br/>
+- Intrusion protection <br/>
+- Threat intelligence <br/>
+
+
+__Port Filtering__ <br/>
+
+Is a a firewall function that block or allows certain <br/>
+port numbers to limit unwanted communication <br/>
+
+### VPN (Virtual Private Networks)
+
+Is a Network Security Service that changes your public IP address <br/>
+and hides your virtual location (_uses encapsulation_)<br/>
+so that you can keep your data private when you are <br/>
+using a public network like the internet. <br/>
+
+
+__Encapsulation__ <br/>
+
+A proccess performed by a VPN service that protects your data<br/>
+by wrapping sensitive data in other data packets.<br/>
 
 
 
