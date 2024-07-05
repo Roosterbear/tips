@@ -4,10 +4,10 @@
 
 ### Cybersecurity Activities
 
-> Detect and respond to attacks
-> Monitoring and protecting networks
-> Investigating incidents
-> Write code to automate task
+> Detect and respond to attacks <br/>
+> Monitoring and protecting networks <br/>
+> Investigating incidents <br/>
+> Write code to automate task <br/>
 
 
 ### Definition of Cybersecurity
@@ -589,12 +589,79 @@ __Domain Name System__ [DNS] <br/>
 A network protocol that translates internet domain names into IP addresses. <br/>
 
 
+__Address Resolution Protocol__ [ARP] <br/>
+
+Is on _Internet_ Layer. To translate a IP address from data packets into a MAC address. <br/>
+
+
+
 #### Management
 
+__Simple Network Management Protocol__ [SNMP] <br/>
 
+Used to monitor and manage devices. <br/>
+Can restore a password or change basic configuration. <br/>
+Also can ask requests to get information about used bandwith. <br/>
+Is on _Application_ Layer. <br/>
+
+
+__Internet Control Messages Protocol__ [ICMP] <br/>
+
+Used to get information about transmission errors between devices. <br/>
+Also is a fast solution to connectivity issues like latency <br/>
+by using the _ping_ command.
+Is on _Internet_ Layer. <br/>
+
+
+__Post Office Protocol__ [POP] <br/>
+
+_Application_ Layer to manage emails
+Ports _110_ (not encrypted) and _995_.
+
+
+__Internet Messages Access Protocol__ [IMAP] <br/>
+
+Downloads the headers and uses _143_ (not encrypted) and _993_ for TSL.
+
+
+__Simple Mail Transfer Protocol__ [SMTP] <br/>
+
+Routes and transmites emails and works with the software Message Transfer Agent [MTA] <br/>
+Uses the _25_ (not encrypted) and _587_ for TSL.
 
 
 #### Security
+
+__Hyper-Text Transmission Protocol - Secure__ [HTTPS] <br/>
+
+Secure method of communication between server and client. <br/>
+Uses Secure Sockets Layer [SSL] and Transport Layer Security [TSL] <br/>
+Uses port _443_ and is on _Application_ Layer. <br/>
+
+
+__Secure File Transfer Protocol__ [SFTP] <br/>
+
+Uses the [SSH] Secure SHELL Protocol and [AES] Advanced Encryption Standard. <br/>
+Is on _Application_ Layer. Port _22_ <br/>
+
+
+
+->IEE 802.11 Starndards for Wireless
+
+[WEP] Wired Equivalent Privacy - 1999 <br/>
+[WPA] WiFi Protected Access - 2003 <br/>
+- Uses Temporal Key Integrity Protocol [TKIP] <br/>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
