@@ -670,13 +670,13 @@ passing through it and proactively filters out threats.<br/>
 
 __STATELESS__ [-]<br/>
 
-A class of Firewall that operates based on predefined rules <br/>
+A class of Firewall that operates _BASED ON PREDEFINED RULES_ <br/>
 and does not keep track of information from data packets. <br/>
 
 
 __NEXT GENERATION FIREWALL__ [NGFW] <br/>
 
-- Deep packet inspection <br/>
+- _DEEP_ packet _INSPECTION_ <br/>
 - Intrusion protection <br/>
 - Threat intelligence <br/>
 
@@ -698,6 +698,95 @@ __Encapsulation__ <br/>
 
 A proccess performed by a VPN service that protects your data<br/>
 by wrapping sensitive data in other data packets.<br/>
+
+
+__Security Zone__ <br/>
+
+A segment of a network that protects the internal network from internet. <br/>
+
+
+__Proxy Server__ <br/>
+
+A Server that fulfills the requests of a client by forwarding them<br/>
+on to other servers. <br/>
+
+
+__Forward Proxy Server__ <br/>
+
+Regulates and restricts a _person's_ access to the internet. <br/>
+
+
+__Reverse proxy server__ <br/>
+
+Regulates and restrict the _internet's_ access to an internal server. <br/>
+
+
+No controlled zone -> Part of the network out of the organization. <br/>
+Controlled zone -> Subnet that protect the internal network from external. <br/>
+  ->Demilitarized or Security zone -> Network that protects internal network from internet. <br/>
+                                  -> Like Web Servers, DNS, Email and File Servers, etc. <br/>
+  ->Internal network->Private servers and data to protect. <br/>
+  ->Restricted Zone->Highly confidential information only accessible to employees with privileges. <br/>
+
+
+
+### ATTACKS
+
+__Network intrusion attacks__ <br/>
+
+* Malware <br/>
+* Spoofing <br/>
+* Packet sniffing <br/>
+* Packet flooding <br/>
+
+__Organization can be harmed by__ <br/>
+
+* Leaking information <br/>
+* Damaging reputation <br/>
+* Customer retention <br/>
+* Money and Time cost <br/>
+
+__Denial of Service Attack__ [DoS] <br/>
+
+An attack that targets a network or server and _floods it_ with network traffic. <br/>
+
+
+__Distribuited denial of service attack__ [DDoS] <br/>
+
+A type of denial of service attack that uses _multiple devices_ or servers <br/>
+in _different locations_ to flood the target network with unwanted traffic. <br/>
+
+
+__SYN flood attack__ <br/>
+
+A type of DoS attack that simulates a TCP connection <br/>
+and floods a server with SYN packets. <br/>
+
+
+__Internet Control Message Protocol__ [ICMP] <br/>
+
+An internet protocol used by devices to tell each other about <br/>
+data transmission error across the network. <br/>
+
+__ICMP flood__ <br/>
+
+A type of DoS attack performed by an attacker <br/>
+repeatedly sending ICMP packets to a network server. <br/>
+
+
+__Ping of Death__ <br/>
+
+A type of DoS attack caused when hacker pings a system by sending it <br/>
+an oversized ICMP packet that is bigger than 64Kb. <br/>
+
+
+__tcpdump__ <br/>
+
+Command Line Network Protocol Analyzer. <br/>
+Brings a brief packet analysis, converts key information about network traffic.<br/>
+Shows the source and destiny IP address and also the ports used in communications.<br/>
+
+
 
 
 
