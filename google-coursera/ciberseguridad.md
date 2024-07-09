@@ -835,6 +835,43 @@ __Attack surface__ <br/>
 All the potential vulnerabillities that a threat actor could exploit. <br/>
 
 
+__Operating System__ <br/>
+
+The interface between computer hardware and the user. <br/>
+
+__Patch Update__ <br/>
+
+A software and operating system update that addresses <br/>
+security vulnerabilities within a program or product. <br/>
+
+__Multi-factor authentication__ [MFA] <br/>
+
+A security measure which requires a user to verify their identity<br/>
+in two or more ways to access a system or network. <br/>
+
+* Something you know <br/>
+* Something you have <br/>
+* Something unique about you <br/>
+
+
+__Brute force attack__ <br/>
+
+A Trial and Error process to discover private information and could be: <br/>
+
+* Simple -> Trying any combination. <br/>
+* Dictionary -> Using a list. <br/>
+
+
+__Virtual Machines__ [VM]
+
+Physical computers in software versions. Give us an additional layer of security. <br/>
+Can be very helpful to test. <br/>
+
+
+__Sandboxes__ <br/>
+
+A test area to exec software out of our network, try patches, suspicious software (or files), <br/>
+identify errors, detect vulnerabilities and simulate scenarios of an attack. <br/>
 
 
 
