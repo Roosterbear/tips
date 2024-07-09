@@ -748,7 +748,8 @@ __Organization can be harmed by__ <br/>
 
 __Denial of Service Attack__ [DoS] <br/>
 
-An attack that targets a network or server and _floods it_ with network traffic. <br/>
+An attack that targets a network or server and _floods it_ with network traffic<br/>
+to disrupt the normal business operation by overloading the organization's network. <br/>
 
 
 __Distribuited denial of service attack__ [DDoS] <br/>
@@ -785,6 +786,58 @@ __tcpdump__ <br/>
 Command Line Network Protocol Analyzer. <br/>
 Brings a brief packet analysis, converts key information about network traffic.<br/>
 Shows the source and destiny IP address and also the ports used in communications.<br/>
+
+
+__Passive packet sniffing__ <br/>
+
+A type of attack where data packets are read in transit. <br/>
+
+
+__Active packet sniffing__ <br/>
+
+A type of attack where data packets are manipulated in transit. <br/>
+
+
+__IP Spoofing__ <br/>
+
+A network attack performed when an attacker changes the source IP<br/>
+of a data packet to impersonate an authorized system and gain<br/>
+access to a network. <br/>
+
+
+__On-path attack__ <br/>
+
+An attack where a malicious actor places themselves in the middle of an<br/>
+authorized connection (IP spoofing) and intercepts or alters the data transit. <br/>
+
+
+__Replay attack__ <br/>
+
+A network attack performed when a malicious actor intercepts a data packet <br/>
+in transit and delays it or repeats it at another time. Use IP spoofing. <br/>
+
+
+__Smurf attack__ <br/>
+
+A network attack performed when an attacker sniffs <br/>
+an authorized user's IP and floods it with packets. <br/>
+
+
+
+### SECURITY HARDENING
+
+The process of strengthening a system to reduce its vulnerabillity <br/>
+and attack surface on Hardware, OS, Applications, DB and Networks. <br/>
+
+
+__Attack surface__ <br/>
+
+All the potential vulnerabillities that a threat actor could exploit. <br/>
+
+
+
+
+
 
 
 
