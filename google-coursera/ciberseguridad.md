@@ -837,12 +837,14 @@ All the potential vulnerabillities that a threat actor could exploit. <br/>
 
 __Operating System__ <br/>
 
-The interface between computer hardware and the user. <br/>
+The interface between computer hardware and the user/software. <br/>
+
 
 __Patch Update__ <br/>
 
 A software and operating system update that addresses <br/>
 security vulnerabilities within a program or product. <br/>
+
 
 __Multi-factor authentication__ [MFA] <br/>
 
@@ -862,7 +864,7 @@ A Trial and Error process to discover private information and could be: <br/>
 * Dictionary -> Using a list. <br/>
 
 
-__Virtual Machines__ [VM]
+__Virtual Machines__ [VM] <br/>
 
 Physical computers in software versions. Give us an additional layer of security. <br/>
 Can be very helpful to test. <br/>
@@ -873,6 +875,89 @@ __Sandboxes__ <br/>
 A test area to exec software out of our network, try patches, suspicious software (or files), <br/>
 identify errors, detect vulnerabilities and simulate scenarios of an attack. <br/>
 
+
+__Hashing__ <br/>
+
+Uniderectional function that converts information in an unique value to determine its integrity. <br/>
+
+
+__Salting__ <br/>
+
+Adds random characters to Hash passwords, increasing length and complexity of values, 
+making them more secure. <br/>
+
+
+__Multifactor Authentication__ [MFA]<br/>
+
+Security measure that ask a user for 2 or more ways of authentication. <br/>
+[2FA] Two Factor Authentications have only 2 ways of verification. <br/>
+
+
+__Completely Automated Public Turing - test to tell - Computers and Humans Apart__ [CAPTCHA] <br/>
+
+Is a challenge-response authentication by a simple test, preventing a password to be forced. <br/>
+reCAPTCHA is a Google Service. <br/>
+
+
+__Password Policies__ <br/>
+
+Good practices in patterns of complexity, frequency in updates and login attempts <br/>
+before the account is suspended. <br/>
+
+
+__PORT Filtering__ <br/>
+
+Allow access to most used ports for normal operations of a network. <br/>
+Block any port that is not used. <br/>
+
+
+__TRAFFIC LOG__ <br/>
+
+Flag[S] - Connection Start<br/>
+Flag[F] - Connection Finish<br/>
+Flag[P] - Data Push<br/>
+Flag[R] - Connection Reset<br/>
+
+
+__Network Security Hardening__ <br/>
+
+* Port filtering <br/>
+* Network access privileges <br/>
+* Encryption<br/>
+
+-> Tasks performed:
+
+* Firewall rules maintenance<br/>
+* Network log analysis<br/>
+* Patch updates<br/>
+* Server backups<br/>
+
+
+__Intrusion Detection System__ [IDS]<br/>
+
+Monitor the activity of a system and _alerts_ about intrusions.<br/>
+Based on malicious traffic signatures and known attacks. <br/>
+Do not stop the traffic and is before a FIREWALL. <br/>
+
+
+__Intrusion Prevent System__ [IPS]<br/>
+
+Monitor the activity of a system and take action or _stops_ traffic.<br/>
+Can be false positives, and break the legitemate traffic. <br/>
+
+
+__Security Incident and Event Management__ [SIEM] <br/>
+
+A tool that gathers and analyzes logs from IDS, IPS, Firewalls, VPN, proxies<br/>
+and DNS in real time. <br/>
+
+
+__Cloud Network__ <br/>
+
+A collection of servers or computers that stores resources and data <br/>
+in remote data centers that can be accessed via internet. <br/>
+
+->poke and prod!<br/>
 
 
 
