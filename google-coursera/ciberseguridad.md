@@ -959,6 +959,19 @@ in remote data centers that can be accessed via internet. <br/>
 
 ->poke and prod!<br/>
 
+__Identity Access Management__ <br/>
+
+A set of processes and technologies that help manage digital identities<br/>
+and authorize the access to resources in the cloud.<br/>
+
+
+__Day-0 Attacks__ <br/>
+
+Is a exploit that is unknown. The CSP can patch their hypervisors and migrate<br/>
+loads of jobs to another VMs.<br/>
+
+
+
 
 
 
