@@ -971,6 +971,7 @@ Is a exploit that is unknown. The CSP can patch their hypervisors and migrate<br
 loads of jobs to another VMs.<br/>
 
 
+
 ## [4] Tools of the Trade: Linux and SQL 🔐🔐🔐🔐🔐🔐🔐
 
 
@@ -993,6 +994,7 @@ Is the last instruction that starts the Operative System. <br/>
 User -> Application -> Operative System -> Hardware <br/>
 
 
+
 __User Interface__ <br/>
 
 A program that allows the user to control the functions <br/>
@@ -1009,13 +1011,32 @@ May include: <br/>
 * Task Bar <br/>
 * Desktop with icons and shortcuts <br/>
 
+
 __Command-Line Interface__ [CLI] <br/>
 
 A text-based user interface that uses commands <br/>
 to interact with computer. <br/>
 
 
- 
+__User__ <br/>
+
+People that interact with computer. Starts and manage jobs.<br/>
+
+
+__Applications__ <br/>
+
+A program designed to do a specific job. <br/>
+
+
+__Shell__ <br/>
+
+Command interpreter based on text. <br/>
+
+
+__File Hierarchy System__ [FHS] <br/>
+
+A part of the Linux System that organizes data and specifies the location<br/>
+where data are stored. 
 
 
 
