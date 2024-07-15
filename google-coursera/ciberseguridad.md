@@ -971,25 +971,64 @@ Is a exploit that is unknown. The CSP can patch their hypervisors and migrate<br
 loads of jobs to another VMs.<br/>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## [4] Tools of the Trade: Linux and SQL 🔐🔐🔐🔐🔐🔐🔐
+
+
+__Basic Input Output System__ [BIOS] <br/>
+
+A microchip used in old computers to load basic instructions to start the PC. <br/>
+
+
+__Unified Extensible Firmware Interface__ [UEFI] <br/>
+
+A microchip that holds load instructions in moderns computers, replacing BIOS.<br/>
+Provide enhanced security functions
+
+
+__Bootloader__ <br/>
+
+Is the last instruction that starts the Operative System. <br/>
+
+
+User -> Application -> Operative System -> Hardware <br/>
+
+
+__User Interface__ <br/>
+
+A program that allows the user to control the functions <br/>
+of the Operating System. <br/>
+
+
+__Graphical User Interface__ [GUI] <br/>
+
+A user interface that uses icons on the screen<br/>
+to manage different tasks on the computer. <br/>
+
+May include: <br/>
+* Start Menu <br/>
+* Task Bar <br/>
+* Desktop with icons and shortcuts <br/>
+
+__Command-Line Interface__ [CLI] <br/>
+
+A text-based user interface that uses commands <br/>
+to interact with computer. <br/>
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
