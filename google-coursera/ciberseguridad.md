@@ -1039,7 +1039,11 @@ A part of the Linux System that organizes data and specifies the location<br/>
 where data are stored. 
 
 
+__Kernel__ <br/>
 
+Component of the Linux OS that manage the processes and memory. <br/>
+It communicates with applications to lead commands. <br/>
+Controls main functions of Hardware. <br/>
 
 
 
