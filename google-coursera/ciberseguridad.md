@@ -1046,6 +1046,44 @@ It communicates with applications to lead commands. <br/>
 Controls main functions of Hardware. <br/>
 
 
+__Hardware__ <br/>
+
+Physical components in a computer. Internal as a hard disk or peripherial. <br/>
+
+_Peripherial_ <br/>
+
+Not essential components that may be plugged easily. <br/>
+
+_Internal_ <br/>
+
+* CPU -> Main component where all the jobs are made. <br/>
+* RAM -> Short-term memory. <br/>
+* Hard Disk -> Long-term memory. <br/>
+
+
+__Penetration test__ <br/>
+
+A simulated attack that helps identify vulnerabilities in systems, <br/>
+networks, websites, applications and processes. <br/>
+
+
+__Digital forensics__ <br/>
+
+The practice of collecting and analyzing data to determine<br/>
+what has happened after an attack. <br/>
+
+* tcpdump <br/>
+* Wireshark <br/>
+* Autopsy <br/>
+
+
+
+
+
+
+
+
+
 
 
 
