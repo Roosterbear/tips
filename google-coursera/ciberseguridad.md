@@ -1077,6 +1077,47 @@ what has happened after an attack. <br/>
 * Autopsy <br/>
 
 
+__Shell__ <br/>
+
+The command-line interpreter. <br/>
+
+
+__Command__ <br/>
+
+An instruction telling the computer to do something. <br/>
+
+
+__Standard input__ <br/>
+
+Information received by the OS via the command line. <br/>
+
+
+__String data__ <br/>
+
+Data consisting of an ordered sequence of characters. <br/>
+
+
+__Standard output__ <br/>
+
+Information returned by the OS through the shell. <br/>
+
+
+__Standard error__ <br/>
+
+Error messages returned by the OS through the shell. <br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
