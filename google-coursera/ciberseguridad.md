@@ -1107,7 +1107,40 @@ __Standard error__ <br/>
 Error messages returned by the OS through the shell. <br/>
 
 
+Commands: <br/>
 
+* [cat]   Displays the content of a file <br/>
+* [cd]    Navigates between directories <br/>
+* [pwd]   Prints the working directory onto the screen <br/>
+* [ls]    Displays the names of files and directories <br/>
+          in the current working directory <br/>
+* [head]  Show first 10 lines <br/>
+* [tail]  Show last 10 lines <br/>
+* [less]  A page at a time of a file <br/>
+          space -> next page <br/>
+          b -> previous page <br/>
+          Down arrow -> advance a line <br/>
+          Up arrow -> back a line <br/>
+          q -> exit <br/>
+
+---------------------------------------------------------------- <br/>
+
+* [grep]  Searches a specified file and returns all lines <br/>
+          in the file containing a specified string <br/>
+* [|]     __Piping__ Sends the _standard output_ of one command as <br/>
+          _standard input_ to another command for further processing <br/>
+* [find]  used to search directories and files that meet specified criteria <br/>
+          -name ->  distinguishes names in upper / lowercase <br/>
+          -iname -> no matter upper / lowercase <br/>
+          -mtime -> -3 (Days ago)
+
+
+
+
+
+<br/>
+<br/>
+<br/>
 
 
 
