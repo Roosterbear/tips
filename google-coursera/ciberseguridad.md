@@ -1202,6 +1202,15 @@ chmod u+rwx,g-x login_sessions.txt
 chmod u=r,g=w login_sessions.txt
 ```
 
+__Root user (superuser)__ <br/>
+
+A user with elevated provileges to modify the system. <br/> 
+
+The problems with loggin in as a root are:
+
+* Security risks
+* Irreversible mistakes
+
 
 
 
