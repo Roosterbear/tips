@@ -1125,14 +1125,14 @@ Commands: <br/>
 
 ---------------------------------------------------------------- <br/>
 
-* [grep]  Searches a specified file and returns all lines <br/>
-          in the file containing a specified string <br/>
-* [|]     __Piping__ Sends the _standard output_ of one command as <br/>
-          _standard input_ to another command for further processing <br/>
-* [find]  used to search directories and files that meet specified criteria <br/>
-          -name ->  distinguishes names in upper / lowercase <br/>
-          -iname -> no matter upper / lowercase <br/>
-          -mtime -> -3 (Days ago) <br/>
+* [grep]    Searches a specified file and returns all lines <br/>
+            in the file containing a specified string <br/>
+* [Pipping] Sends the _standard output_ of one command as _standard input_ to another<br/>
+            command for further processing, using the pipe (|)character. <br/>
+* [find]    used to search directories and files that meet specified criteria <br/>
+            -name ->  distinguishes names in upper / lowercase <br/>
+            -iname -> no matter upper / lowercase <br/>
+            -mtime -> -3 (Days ago) <br/>
 
 ---------------------------------------------------------------- <br/>
 
@@ -1152,6 +1152,39 @@ __Nano__ text Editor for beginners <br/>
 
 [ctrl+o] -> save
 [ctrl+x] -> exit
+
+
+__Permissions__ <br/>
+
+The type of access granted for a file or directory. <br/>
+Are represented for 10 characters: <br/>
+
+drwxrwxrwx <br/>
+
+[d]   Indicates if is a directory, instead [-] indicates that is a file. <br/>
+[rwx] The first 3 group of rwx indicates the _user_ type permissions. <br/>
+[rwx] The second 3 group of rwx indicates the _group_ type permissions. <br/>
+[rwx] The third 3 group of rwx indicates the _other_ type permissions. <br/>
+
+
+__Types of permission__<br/>
+
+[read]    Contents on the file can be read. <br/>
+[write]   Allows modifications of contents of the file. <br/>
+[execute] Execute a file or access files in a directory. <br/>
+
+
+__Types of owners__ <br/>
+
+[user]  The owner of a file. <br/>
+[group] Multi-user environment. <br/>
+[other] Anyone else. <br/>
+
+
+
+* 
+
+
 
 
 
