@@ -1132,7 +1132,30 @@ Commands: <br/>
 * [find]  used to search directories and files that meet specified criteria <br/>
           -name ->  distinguishes names in upper / lowercase <br/>
           -iname -> no matter upper / lowercase <br/>
-          -mtime -> -3 (Days ago)
+          -mtime -> -3 (Days ago) <br/>
+
+---------------------------------------------------------------- <br/>
+
+* [mkdir] Create a new directory <br/>
+
+* [rmdir] Remove a directory <br/>
+
+* [touch] Creates a new file <br/>
+
+* [rm]    Removes or delete a file <br/>
+
+* [mv]    Moves a file or directory to a new location <br/>
+
+* [cp]    Copy a file or directory into a new location <br/>
+
+__Nano__ text Editor for beginners <br/>
+
+[ctrl+o] -> save
+[ctrl+x] -> exit
+
+
+
+
 
 
 
