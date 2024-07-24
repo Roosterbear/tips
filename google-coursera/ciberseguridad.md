@@ -1169,20 +1169,39 @@ drwxrwxrwx <br/>
 
 __Types of permission__<br/>
 
-[read]    Contents on the file can be read. <br/>
-[write]   Allows modifications of contents of the file. <br/>
-[execute] Execute a file or access files in a directory. <br/>
+[read]    Contents on the file can be read. Represented by [r] <br/>
+[write]   Allows modifications of contents of the file. Represented by [w] <br/>
+[execute] Execute a file or access files in a directory. Represented by [x] <br/>
 
 
 __Types of owners__ <br/>
 
-[user]  The owner of a file. <br/>
-[group] Multi-user environment. <br/>
-[other] Anyone else. <br/>
+[user]  The owner of a file. Represented by [u]<br/>
+[group] Multi-user environment. Represented by [g] <br/>
+[other] Anyone else. Represented by [o] <br/>
 
 
+__Listing files__ <br/>
 
-* 
+* ls -l -> Displays permissions to files and directories. <br/>
+* ls -a -> Displays hidden files. <br/>
+
+-> Hidden files starts with "." <br/>
+
+__chmod__ <br/>
+
+It changes permission on files and directories. <br/>
+
+[+] Add a permission. <br/>
+[-] Take permission away. <br/>
+[=] Assign permissions to user, groups or other. <br/>
+
+
+```bash
+chmod u+rwx,g-x login_sessions.txt
+chmod u=r,g=w login_sessions.txt
+```
+
 
 
 
