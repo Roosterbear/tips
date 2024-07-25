@@ -1206,10 +1206,48 @@ __Root user (superuser)__ <br/>
 
 A user with elevated provileges to modify the system. <br/> 
 
-The problems with loggin in as a root are:
+The problems with loggin in as a root are: <br/>
 
-* Security risks
-* Irreversible mistakes
+* Security risks <br/>
+* Irreversible mistakes <br/>
+
+
+__sudo__ <br/>
+
+Temporarily grants elevated permissions to specific users. <br/>
+
+
+__useradd__ <br/>
+
+Adds a user to the system. <br/>
+
+
+__userdel__ <br/>
+
+Deletes a user from the system. <br/>
+
+
+__usermod__ <br/>
+
+Modify user account. <br/>
+[-g] Set main group. <br/>
+[-G] Set additional group. <br/>
+[-l] Changes user name. <br/>
+[-L] Blocks a user account. <br/>
+[-d] Changes directory. <br/>
+
+
+__groupdel__ <br/>
+
+Deletes a group. <br/>
+
+_Remember:_ <br/>
+-> When we creates a new user, a new group of the same name is created. <br/>
+
+
+
+
+
 
 
 
