@@ -975,6 +975,9 @@ loads of jobs to another VMs.<br/>
 ## [4] Tools of the Trade: Linux and SQL 🔐🔐🔐🔐🔐🔐🔐
 
 
+### LINUX
+
+
 __Basic Input Output System__ [BIOS] <br/>
 
 A microchip used in old computers to load basic instructions to start the PC. <br/>
@@ -1243,6 +1246,73 @@ Deletes a group. <br/>
 
 _Remember:_ <br/>
 -> When we creates a new user, a new group of the same name is created. <br/>
+
+
+__man__ <br/>
+
+Displays information on other commands and how they work. <br/>
+
+
+__whatis__ <br/>
+
+Displays a description of a command on a single line. <br/>
+
+
+__apropos__ <br/>
+
+Searches the manual page descriptions for a specified string. <br/>
+[-a] -> Will return only the commands that contain both strings. <br/>
+
+
+
+### SQL
+
+
+
+__Primary Key__ <br/>
+
+A column where every row has a unique entry. Can only be one primary key. <br/>
+
+
+__Foreign Key__ <br/>
+
+A column in a table that is a primary key in another table. <br/>
+
+
+[SQL] __Structured Query Language__ <br/>
+
+A programming language used to create, interact with and request information from a database. <br/>
+
+
+__Query__ <br/>
+
+A request for data from a database table or a combination of tables. <br/>
+
+
+__Log__ <br/>
+
+A record of events that occur within an organization's systems. <br/>
+
+
+__SELECT__ <br/>
+
+Indicates which columns to return. <br/>
+
+
+__FROM__ <br/>
+
+Indicates which table to query. <br/>
+
+
+__Syntax__ <br/>
+
+The rules that determine what is correctly structured <br/>
+in a computing language. <br/>
+
+
+
+
+
 
 
 
