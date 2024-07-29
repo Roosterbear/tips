@@ -1310,8 +1310,30 @@ The rules that determine what is correctly structured <br/>
 in a computing language. <br/>
 
 
+__ORDER BY__ <br/>
+
+Order the records returned by a query in sequence, <br/>
+and specify the column on which to base. <br/>
 
 
+__Filtering__ <br/>
+
+Selecting data that match a certain condition. <br/>
+
+
+__WHERE__ <br/>
+
+Indicates the condition for a filter. <br/>
+
+
+__LIKE__ <br/>
+
+Used with WHERE to search for a pattern in a column. <br/>
+
+
+__BETWEEN__ <br/>
+
+An operator that filters for numbers or dates within a range. <br/>
 
 
 
