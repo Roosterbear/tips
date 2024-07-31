@@ -1336,6 +1336,53 @@ __BETWEEN__ <br/>
 An operator that filters for numbers or dates within a range. <br/>
 
 
+__AND__ <br/>
+
+Specifies that both conditions must be met simultaneously. <br/>
+
+
+__OR__ <br/>
+
+Specifies that either condition can be met. <br/>
+
+
+__NOT__ <br/>
+
+Negates a condition. <br/>
+-> where NOT price = 100 <br/>
+-> where price <> 100 <br/>
+-> where price != 100 <br/>
+
+
+__NULL__ <br/>
+
+Represents a missing value due to any reason. <br/>
+
+
+__LEFT JOIN__ <br/>
+
+Returns all of the records of the first table, but only returns rows <br/>
+of the second table that match on a specified column. <br/>
+
+
+__RIGHT JOIN__ <br/>
+
+Returns all of the records of the second table, but only returns rows <br/>
+from the first table that match on a specified column. <br/>
+
+
+__FULL OUTER JOIN__ <br/>
+
+Returns all records from both tables. <br/>
+
+
+
+
+
+
+
+
+
 
 
 
