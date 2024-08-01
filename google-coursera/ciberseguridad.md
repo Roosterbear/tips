@@ -1379,63 +1379,12 @@ Returns all records from both tables. <br/>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br/>
-<br/>
-<br/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## [5] Assets, Threads and Vulnerabilities 🔐🔐🔐🔐🔐🔐🔐
+
+
+
+
+
 
 
 
@@ -1454,6 +1403,8 @@ Returns all records from both tables. <br/>
 
 
 ## [7] Automate Cybersecurity Task with Python 🔐🔐🔐🔐🔐🔐🔐
+
+
 
 
 
