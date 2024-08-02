@@ -1,14 +1,16 @@
 # LINUX ===============================================================
 
-## ls -----------------------------------------------------------------
+## MOVING ON LINUX
+
+### ls -----------------------------------------------------------------
 
 Lists the content of the current directory <br />
--a _including hidden files_ <br />
--l _Whole data of every files (date, permissions, owner, group)_ <br />
--r _Reverse order_ <br />
+-a including hidden files <br />
+-l Whole data of every files (date, permissions, owner, group) <br />
+-r Reverse order <br />
 <br />
 
-## cp -----------------------------------------------------------------
+### cp -----------------------------------------------------------------
 
 Copies files
 __copy content from file1 to file2__ <br /> 
@@ -17,7 +19,7 @@ __copy files to directory dir__ <br />
 _cp file1,file2 dir_ <br />
 <br />
 
-## mv -----------------------------------------------------------------
+### mv -----------------------------------------------------------------
 
 Moves files <br />
 __moves content from file1 to file2__ <br />
@@ -26,13 +28,13 @@ __moves files to directory dir__ <br />
 _mv file1, file2 dir_ <br />
 <br />
 
-## touch --------------------------------------------------------------
+### touch --------------------------------------------------------------
 
 Creates a new file or updates the timestamp of that file <br />
 _touch file_ <br />
 <br />
 
-## cat ----------------------------------------------------------------
+### cat ----------------------------------------------------------------
 
 We can create a __new__ file with: <br/>
 
@@ -53,7 +55,7 @@ We can add data with: <br/>
 cat >> file.txt
 ```
 
-## head and tail ------------------------------------------------------
+### head and tail ------------------------------------------------------
 
 We can see the first __10__ lines of a file with: <br/>
 
@@ -67,7 +69,7 @@ We can see the last __10__ lines of a file with: <br/>
 tails file.txt
 ```
 
-## nl -----------------------------------------------------------------
+### nl -----------------------------------------------------------------
 
 We can number the rows by:
 
@@ -75,7 +77,7 @@ We can number the rows by:
 nl /etc/snort/snort.conf
 ```
 
-## path expansion -----------------------------------------------------
+### path expansion -----------------------------------------------------
 
 We can open, list or name a file with characters like a dash with path expansion. <br/>
 If I have a folder named "---old---", I just can change the directory this way: <br/>
@@ -86,25 +88,29 @@ cd -- ---old---
 
 The __path expansion__ uses double dash between the comand and the name of the file / directory. <br/>
 
-## mkdir --------------------------------------------------------------
+
+### mkdir --------------------------------------------------------------
 
 Creates a new directory <br />
 _mkdir dire_ <br />
 <br />
 
-## rmdir --------------------------------------------------------------
+
+### rmdir --------------------------------------------------------------
 
 Deletes an empty directory <br />
 _rmdir dire_ <br />
 
-## rm -----------------------------------------------------------------
+
+### rm -----------------------------------------------------------------
 
 Deletes a file or definitely <br />
 rm file1 <br />
 -r _recursively_ <br />
 -f _force_ <br />
 
-## Deletes a directory with other files or directories ----------------
+
+### Deletes a directory with other files or directories ----------------
 
 rm -rf important <br />
 __YOU HAVE TO BE VERY CAREFULLY WITH THIS DANGEROUS COMMAND__ ❗ <br/>
@@ -112,26 +118,28 @@ __YOU HAVE TO BE VERY CAREFULLY WITH THIS DANGEROUS COMMAND__ ❗ <br/>
 <br/>
 
 
-## Delete all PNG files -----------------------------------------------
+### Delete all PNG files -----------------------------------------------
 
 ```terminal
 rm *.png
 ```
 
-## Delete all files, except... ----------------------------------------
+
+### Delete all files, except... ----------------------------------------
 
 ```terminal
 rm !(*.html)
 ```
 Delete all files except _.html_ files. <br/>
 
-## Status error last command ------------------------------------------
+
+### Status error last command ------------------------------------------
 
 ```terminal
 $?
 ```
 
-## Access USB ---------------------------------------------------------
+### Access USB ---------------------------------------------------------
 
 We can see them in: <br/>
 
@@ -145,7 +153,11 @@ or <br/>
 cd /mnt/user
 ```
 
-## Tarring ------------------------------------------------------------
+
+
+## FILES
+
+### Tarring ------------------------------------------------------------
 
 We can compress lossy (_.mp3, .flac, .mp4, .png, .jpg_) and lossless ( _.tar, .zip, .rar_). <br/>
 
@@ -173,13 +185,13 @@ Extract files from a __.tar__file: <br/>
 tar -xvf MyCompressions.tar
 ```
 
-## Compressing --------------------------------------------------------
+### Compressing --------------------------------------------------------
 
-* __gzip__ with extension _.tar.gz_ or _.tgz_ FASTER
-* __bzip2__ with extension _.tar.bz2_ SLOWEST - SMALLEST
+* __gzip__ with extension _.tar.gz_ or _.tgz_ FASTER <br/>
+* __bzip2__ with extension _.tar.bz2_ SLOWEST - SMALLEST <br/>
 
 
-### gzip
+__gzip__
 
 Compress: <br/>
 
@@ -196,7 +208,7 @@ gunzip MyCompressions.tar.gz
 __NOTICE__ _MyCompressions.tar_ is back and _MyCompressions.tar.gz_ is gone !!!
 
 
-### bzip2
+__bzip2__ <br/>
 
 Compress: <br/>
 
@@ -210,7 +222,9 @@ Uncompress: <br/>
 bunzip2 MyCompressions.tar.bz2
 ```
 
-## PERMISSIONS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+## PERMISSIONS 
+
+### Intro -------------------------------------------------------------
 
 We have 3 kind of permissions: <br/>
 
@@ -292,9 +306,35 @@ __change group__
 chgrp security newIDs
 ```
 
-## PROCESS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+## Users --------------------------------------------------------------
 
-## ps -----------------------------------------------------------------
+* Lock user
+>sudo usermod -L theuser
+
+* Unlock user
+>sudo usermod -U theuser
+
+* User Configuration
+>sudo chage -l theuser
+
+* Expire user
+>sudo chage -E 2001-01-01 theuser
+
+* Show current user Groups
+>groups
+
+* Session as root
+>sudo -i
+>su
+
+* Change user
+>su theuser
+
+
+
+## PROCESS 
+
+### ps ----------------------------------------------------------------
 
 Display user processes. <br/>
 We can use the options below: <br/>
@@ -314,7 +354,7 @@ __folder to actual process:__ cd $$ <br/>
 __executable of current task:__ ls -l exe <br/>
 <br/>
 
-## lsof ---------------------------------------------------------------
+### lsof ---------------------------------------------------------------
 
 Give us detailed information about files used in current processes. <br/>
 Normally requires Admin privileges. <br/>
@@ -343,7 +383,7 @@ __Search active connections__ <br/>
 sudo lsof -i -P -n | grep LISTEN
 ```
 
-## Redirect output to a file ------------------------------------------
+### Redirect output to a file ------------------------------------------
 
 __Creating__ <br/>
 
@@ -357,7 +397,7 @@ sudo lsof -i -P -n | grep LISTEN
 ```
 
 
-## top ----------------------------------------------------------------
+### top ----------------------------------------------------------------
 
 Lists the processes running in the system. <br/>
 
@@ -367,7 +407,7 @@ _shift+m_ orders by memory use.
 _shift+p_ orders by CPU use.
 _shift+n_ orders by process.
 
-## htop ---------------------------------------------------------------
+### htop ---------------------------------------------------------------
 
 A better version of __top__ which we can easily install. <br/>
 
@@ -375,7 +415,7 @@ __free__
 
 We can see the use of memmory of the system. It is better with _-h_ (for Humans) <br/>
 
-## grep ---------------------------------------------------------------
+### grep ---------------------------------------------------------------
 
 Command used as a filter to search keywords to find information. Usually used with __pipes__ (|). <br/>
 
@@ -426,7 +466,35 @@ grep file file.txt -n
 We can use _-c_ to count the lines. <br/>
 We can use _-w_ to look only separate words. <br/>
 
-## pipes --------------------------------------------------------------
+* Used to search patterns, most of the time, pipes the STDOUT to get data
+>grep "word" file.txt
+
+__Regex__ <br/>
+
+* __^__ Matches with the beginning of the line
+* __$__ Matches with the end of the line
+* __.__ Matches with ONE (any) character
+* __*__ Matches with 0 - N characters
+* __[]__ Matches with characters inside (a list[abc] or range[a-z])
+* __[^]__ Matches with non of the characters inside (a list[abc] or range[a-z])
+* __\+__ Matches one or more preceding character and only one of the next character
+>cat file.txt | grep "a+b" __look for exact characters__
+>cat file.txt | grep "a\+b" __look for any number of "a" with a "b" next to it
+* __\?__ Matches zero or one preceding character and one or more next character
+>cat file.txt | grep "a\?b" __look for any number of "b" and zero or one "a" before
+
+
+### pipes --------------------------------------------------------------
+
+* There are 3 flows we can _redirect_: __INPUT__, __OUTPUT__ and __ERROR__
+* We can use the output character: __>__ to redirect de output to another
+* To get the _ERRROR_ output, use __2>__
+>ls -al doesnotexist.txt 2> myerror.txt
+* To count words, we can use _wc -m_ and the input character: __<__
+>wc -m < file.txt
+* To piping, use __|__ and send the output to a command
+>ls | wc -l
+
 
 Sends the output of a command to another command. <br/>
 
@@ -453,7 +521,7 @@ Then we cut the rest, since we get the line, colon and the search. <br/>
 
 
 
-## sed (Stream EDitor) ------------------------------------------------
+### sed (Stream EDitor) ------------------------------------------------
 
 We can replace text: <br/>
 
@@ -474,6 +542,35 @@ We can delete lines: <br/>
 ```terminal
 sed '/pattern/d' file.txt 
 ```
+
+* Replace text
+>sed 's/+/_/' file.txt
+* __s__ replace
+* Replace + by _
+* Check that has to en with "/"
+* Replace just the first character found
+
+>sed 's/a/z/g' file.txt
+* Replace all characters found
+
+### cut
+
+* Gets text from a line
+* __-f__ selects field
+* __-d__ selects delimiter (_JUST ONE CHARACTER_)
+>echo "blackberries, figs, mammees" | cut -f 2 -d ","
+
+
+
+
+### awk
+
+* Process data like cut, but can use _MORE_ than ONE character as delimiter
+>echo "Hola:::mundo:::como:::estas" | awk -F ":::" ' {print $1, $2}'
+
+
+
+
 
 ## LOGS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
@@ -688,14 +785,6 @@ fc
 ```
 We just modify the line and the command will be executed. <br/>
 
-
-
-
-
-
-
-
-
 ---
 ---
 ---
@@ -725,13 +814,37 @@ _iname_ it doesn't matter if it's uppercase or lowercase. <br/>
 That contains the word _python_ <br/>
 
 
-__math operations__
+* Wildcards
+>ls -l sys*
+_files starting with "sys"_ <br/>
 
-```terminal
-echo 3+2 | bc
-expr 3 + 2
-echo $((3+2))
-```
+>ls -l sys[1-5]*
+_files starting with "sys" and a number between 1 and 5_ <br/>
+
+>ls -l file??.txt
+_files starting with "file", then 2 characters and TXT type_ <br/>
+
+* Seek files
+>which nmap
+>whereis nmap
+
+__locate__ <br/>
+>locate mimikatz.exe
+_this command uses locate.db and updates its data eventually_ <br/>
+_to update locate DB:_ <br/>
+>sudo updatedb
+
+__find__ <br/>
+>find / -name text.txt
+_finds from root the file text.txt_ <br/>
+>find . -type f -name "*.jpg"
+_finds from current directory, all JPG files_ <br/>
+>find /etc -user kali -size 1M -type f -name "*.txt" 
+_finds from etc directory, TXT files larger than 1Mb from the kali user_ <br/>
+>find /home -type d -iname "user"
+_finds all DIRECTORIES with the name "user" with NO CASE SENSITIVE_ <br/>
+
+
 
 #### tar
 
@@ -965,6 +1078,73 @@ We can see all the available boxes with: '_boxes -l_' and change it with:<br/>
 echo mensaje | boxes -d stone
 ```
 __change console:__ sh - bash - zsh <br/>
+
+
+
+__math operations__
+
+```terminal
+echo 3+2 | bc
+expr 3 + 2
+echo $((3+2))
+```
+
+
+
+## COMPARATING FILES
+
+### comm
+
+* Compares 2 files
+* Show lines exclusive in file 1
+* Show lines exclusive in file 2
+* Show lines shared in both files
+* __Flag__ _-n_ can remove 1st, 2nd or 3rd
+>comm -12 file1.txt file2.txt
+
+
+### diff
+
+* shows differences between files
+* Standard format:
+> diff file1.txt file2.txt
+* Unified format:
+> diff -u file1.txt file2.txt
+* Recursive files in directories:
+>diff -r directory1 directory2
+
+
+## COMMAND LISTS
+
+### ;
+* Separates commands
+>echo "Mi user is";whoami
+
+### &&
+* Chain commands
+* Stops with the first failed command
+* Controls the execution of the second command __IF__ the first throws and exit code > 0
+>grep "aa" file.txt && rm file.txt
+
+### ||
+* Chains commands
+* Stops with the first successful command
+>grep "zz" file.txt && rm file.txt
+
+
+
+## Soft and Hard Links
+
+* Create a soft link
+>ln -s sourcefile.txt /tmp/mylink.txt
+_Is like a direct access icon_ <br/>
+_If the source file is deleted, the link get useless and throws an error_ <br/>
+
+* Create a hard link
+>ln sourcefile.txt /tmp/mirror.txt
+_Is like a mirror file_ <br/>
+_If the source file is deleted, the link is a backup still working_ <br/>
+
 
 
 ---
