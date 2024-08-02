@@ -1268,7 +1268,6 @@ Searches the manual page descriptions for a specified string. <br/>
 ### SQL
 
 
-
 __Primary Key__ <br/>
 
 A column where every row has a unique entry. Can only be one primary key. <br/>
