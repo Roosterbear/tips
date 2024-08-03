@@ -226,18 +226,25 @@ bunzip2 MyCompressions.tar.bz2
 
 ### Intro -------------------------------------------------------------
 
-We have 3 kind of permissions: <br/>
+>levels
+* __u__ user
+* __g__ group
+* __o__ other
 
-READ _r_ <br/>
-WRITE _w_ <br/>
-EXECUTE _x_ <br/>
+>access
+* __r__ read
+* __w__ write
+* __x__ execute
 
+>files
+* __read__ copy or read a text file
+* __write__ change the file
+* __execute__ open a binary file / execute a script
 
-We have 3 groups: <br/>
-
-USER _u_ <br/>
-GROUP _g_ <br/>
-OTHER _o_ <br/>
+>directories
+* __read__ list the inner files
+* __write__ delete the directory
+* __execute__ enter the folder or directory
 
 
 __EXAMPLES__ <br/>
@@ -305,6 +312,59 @@ __change group__
 ```terminal
 chgrp security newIDs
 ```
+
+__There are 2 ways to change permissions: symbolic and numerical (_octal_)__ <br/>
+
+### symbolic
+>chomod u=rwx,g+rw,o-r file.txt
+
+* __a__ means "ALL"
+>chomod a=rx file.txt
+
+### numeric
+>chmod 777 file.txt
+
+* __7__ is the maximum permissions to give (_read - write - execute_)
+* The order is: _user, group, other_
+* __4__ is for _READ_ 
+* __2__ is for _WRITE_
+* __1__ is for _EXECUTE_
+
+>chmod 754 file.txt
+* _read - write - execute_ permissions for the owner
+* _read - execute_ permissions for the group
+* _read_ permissions for others
+
+### chown
+
+* Changes the owner
+>chown root file.txt
+
+### suid _(set user ID)_
+* Allow current user exec the file with the _OWNER_ rights
+>chmod u+s file
+* Now you can see the permission with _ls -l_
+
+* Delete SUID
+>chmod u-s file
+
+### sgid _(set group ID)_
+* Allow current user exec the file with the _GROUP_ rights
+>chmod g+s file
+* Now you can see the permission with _ls -l_
+
+* Delete SUID
+>chmod g-s file
+
+### sticky bit
+* For directories
+* Restricts the deletion of files
+* Only their owner or the owner of the parent directory can delete the file
+>chmod +t directory
+
+
+
+
 
 ## Users --------------------------------------------------------------
 
@@ -567,6 +627,55 @@ sed '/pattern/d' file.txt
 
 * Process data like cut, but can use _MORE_ than ONE character as delimiter
 >echo "Hola:::mundo:::como:::estas" | awk -F ":::" ' {print $1, $2}'
+
+
+## PROGRAMMED TASKS
+
+### cron
+
+* Daemon that allow you the execution of tasks
+* We can find them in _/etc/cron.*_
+* The '*' could be: __daily, hourly, monthly, weekly__
+* We can add our tasks in the __/etc/crontab__ file
+>cat /etc/crontab
+* Select editor:
+>crontab -e
+* Choose editor again:
+>select-editor
+
+
+## MONITORING
+
+* The common commands to see a file are: _head_ and __tails__
+* _head_ list first lines
+* _tails_ list last lines, and it is very __useful__ for logs
+>tails -f log.txt
+* The parameter _"-f"_ (__follow__) is useful to update constantly the output
+* __watch__ is very useful to repeat a command every 2 secs. to see differences
+* We can use -n _x_ where "x" is the number of seconds
+* Used in the commands: __ls -al__, __top__, __w__, __free__
+* Stop watch: _ctrl+c_
+
+### Logging
+
+* Are saved in __/var/log__
+>tail -5 /var/log/auth.log
+
+* Record for event session:
+>who /var/log/wtmp
+
+* Kernel records from devices attached to system:
+>dmesg
+
+* Records from __systemd__
+>jornaulctl
+* __-r__ revere order
+* __-f__ follow, to update new lines
+* __u__ specify a unit
+>journal -r -f -u NetworkManager
+
+ * __free__ information about memory. _-m_ or _-g_ megas or gigas
+ * __df__ disk free. _-h_ human version
 
 
 
