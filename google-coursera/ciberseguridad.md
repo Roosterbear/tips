@@ -1381,6 +1381,118 @@ Returns all records from both tables. <br/>
 ## [5] Assets, Threads and Vulnerabilities 🔐🔐🔐🔐🔐🔐🔐
 
 
+__RISK__ <br/>
+
+Anything that can impact the confidentiality, integrity,<br/>
+or availability of an asset. <br/>
+
+
+__Security Risk Planning__ <br/>
+
+_Assets_ -> An item perceived as having value to an organization. <br/>
+_Threats_ -> Any circumstance or event that can negatively impact assets. <br/>
+_Vulnerabilities_ -> A weakness that can be exploited by a threat. <br/>
+
+
+__Asset management__ <br/>
+
+The process of tracking assets and risks that affect them. <br/>
+
+
+__Asset inventory__ <br/>
+
+A catalog of assets that need to be protected. <br/>
+
+
+__Asset classification__ <br/>
+
+The practice of labeling assets based on sensitivity <br/>
+and importance to an organization. <br/>
+
+_Public_ -> Shared with anyone <br/>
+_Internal-only_ -> Shared with anyone inside organization <br/>
+_Confidential_ -> Accessed by those working on a specific project <br/>
+_Restricted_ -> Highly sensitive and must be protected <br/>
+
+
+__Data__ <br/>
+
+Information that is translated, processed or stored by a computer <br/>
+
+
+__Satates of data__ <br/>
+
+_In use_ -> Data being accessed by one or more users <br/>
+_In transit_ -> Data traveling from one point to another <br/>
+_At rest_ -> Data not currently being accessed <br/>
+
+
+__Information Security__ [infoSec]<br/>
+
+The practice of keeping data in all states away <br/>
+from unauthorized users <br/>
+
+__Software as a Service__ [SaaS]<br/>
+
+Front-end applications, as Gmail, Slack or Zoom <br/>
+
+__Platform as a Service__ [PaaS]<br/>
+
+Development Tools to code as Google App Engine, Heroku and VMWare CloudFoundry <br/>
+
+__Infrastructure as a Service__ [IaaS]<br/>
+
+Servers for data process as Google Cloud or Azure<br/>
+
+
+__Types of risk categories__ <br/>
+
+_Damage_ <br/>
+_Disclosure_ <br/>
+_Loss of information_ <br/>
+
+
+__Elements of a security plan__ <br/>
+
+_Policies_ <br/>
+->Set of rules that reduces risk and protects information <br/>
+_Standards_ <br/>
+->References that inform how to set policies <br/>
+_Procedures_ <br/>
+->Step by step instructions to perform a specific security task <br/>
+
+
+__Compliance__ <br/>
+
+The process of adhering to internal standards and external regulations <br/>
+
+
+__Regulations__ <br/>
+
+Rules set by a government or other authority to control the way <br/>
+something is done in a large scale <br/>
+
+
+
+__NIST Cybersecurity Framework__ <br/>
+
+A voluntary framework that consists of standards, guidelines and <br/>
+best practices to manage cybersecurity risk <br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
