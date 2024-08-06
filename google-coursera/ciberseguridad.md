@@ -1480,6 +1480,110 @@ A voluntary framework that consists of standards, guidelines and <br/>
 best practices to manage cybersecurity risk <br/>
 
 
+__Functions of the NIST CSF Core__ <br/>
+
+[Identify]<br/>
+[Protect]<br/>
+[Detect]<br/>
+[Respond]<br/>
+[Recover]<br/>
+
+
+__Security Controls__ <br/>
+
+Safeguards designed to reduce specific security risks <br/>
+
+
+__Information Privacy__ <br/>
+
+The protection of un authorized access and istribution of data <br/>
+
+
+__Data owner__ <br/>
+
+The person that decides who can access, edit, use or destroy <br/>
+their information <br/>
+
+
+__Data custodian__ <br/>
+
+Anyone or anything that's responsible <br/>
+
+
+__Type of accounts__ <br/>
+
+[invited]<br/>
+[user]<br/>
+[service]<br/>
+[privileged]<br/>
+
+
+__Type of Audits__ <br/>
+
+[use]<br/>
+[privileges]<br/>
+[accounts]<br/>
+
+__Privacy vs Security__ <br/>
+
+[privacy] protect against unauthorized access and dissemination of data (CONTROL)<br/>
+[security] keep away data from unauthorized users (SAVE)<br/>
+
+
+__Audit vs Evaluation__ <br/>
+
+[audit] checks controls, policies and procedures<br/>
+[evaluation] test security measures against threats<br/>
+
+
+__Personally Identifiable Information__ [PII] <br/>
+
+Any information that can be used to infer an individual's identity <br/>
+
+
+__Cryptography__ <br/>
+
+The process of transforming information into a form <br/>
+that unintended readers can't understand <br/>
+
+
+__Algorithm__ <br/>
+
+A set of rules used that solve a problem <br/>
+
+
+__Cipher__ <br/>
+
+An algorithm that encrypts information <br/>
+
+
+__Cryptographic key__ <br/>
+
+A mechanism that decrypts ciphertext <br/>
+
+
+__Brute Force Attack__ <br/>
+
+A trial and error process of discovering private information <br/>
+
+
+__Public Key Infrastructure__ [PKI]<br/>
+
+An encryption framework that secures the exchange of information online <br/>
+
+
+__Asymmetric Encryption__ <br/>
+
+The use of a public and private key pair for encryption <br/>
+and data decryption of data <br/>
+
+
+__Symmetric Encryption__ <br/>
+
+The use of a single secret key to exchange information <br/>
+
+
+
 
 
 
