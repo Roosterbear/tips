@@ -1576,11 +1576,20 @@ __Asymmetric Encryption__ <br/>
 
 The use of a public and private key pair for encryption <br/>
 and data decryption of data <br/>
+->[RSA],[DSA]
 
 
 __Symmetric Encryption__ <br/>
 
 The use of a single secret key to exchange information <br/>
+->[3DES],[AES]
+
+->Both Encryptions rely on sharing keys that can be misused, lost or stolen <br/>
+
+
+__Digital certificate__ <br/>
+
+A file that verifies the identity of a public key holder <br/>
 
 
 
