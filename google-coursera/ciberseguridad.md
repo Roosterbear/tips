@@ -1672,7 +1672,7 @@ __AAA Framework__ <br/>
 * Accounting <br/>
 
 
-__Factors of authentication__ <br/>
+__Factors of AUTHENTICATION__ <br/>
 
 [Knowledge] Something that the user knows <br/>
 [Ownership] Something that the user possesses <br/>
@@ -1687,9 +1687,66 @@ A security measure which requires a user to verify their identity <br/>
 in two or more ways to access a system or network. <br/>
 
 
-__Mechanisms of authorization__ <br/>
+__Mechanisms of AUTHORIZATION__ <br/>
+
 
 _Separation of duties_ <br/>
+
+The principle that users should not be given levels of authorization <br/>
+that would allow them to misuse a system <br/>
+
+
+_Basic auth_ <br/>
+
+The technology used to establish a user's request to access a server <br/>
+
+
+_OAuth_ <br/>
+
+An open-standard authorization protocol that shares designated <br/>
+access between applications. <br/>
+Uses API tokens to verify access between you and a service provider. <br/>
+
+
+_API Token_ <br/>
+
+A small block of encrypted code that contains information about a user. <br/>
+
+
+_Session_ <br/>
+
+A sequence of network HTTP basic auth requests and responses associated <br/>
+with the same user. <br/>
+
+
+_Session ID_ <br/>
+
+A unique token that identifies a user and their device while accessing the system <br/>
+
+
+_Session cookie_ <br/>
+
+A token that websites use to validate a session and determine <br/>
+how long that session should last <br/>
+
+
+_Session hijacking_ <br/>
+
+An event when attackers obtain a legitimate user's session ID <br/>
+
+
+[IAM] _Identity Access Management_ <br/>
+
+[MAC] _Mandatory Access Control_ <br/>
+
+[DAC] _Discretionary Access Control_ <br/>
+
+[RBAC] _Role-Based Access Control_ <br/>
+
+
+
+
+
 
 
 
