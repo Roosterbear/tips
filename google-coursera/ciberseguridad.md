@@ -1592,7 +1592,28 @@ __Digital certificate__ <br/>
 A file that verifies the identity of a public key holder <br/>
 
 
+[Lab] <br/>
 
+```text
+Lq rughu wr uhfryhu brxu ilohv brx zloo qhhg wr hqwhu wkh iroorzlqj frppdqg:
+
+rshqvvo dhv-256-fef -sengi2 -d -g -lq T1.hqfubswhg -rxw T1.uhfryhuhg -n hwwxeuxwh
+```
+
+```bash
+cat .leftShift3 | tr "d-za-cD-ZA-C" "a-zA-Z"
+```
+
+Note: The tr command translates text from one set of characters to another, using a mapping. The first parameter to the tr command represents the input set of characters, and the second represents the output set of characters. Hence, if you provide parameters “abcd” and “pqrs”, and the input string to the tr command is “ac”, the output string will be “pr". 
+
+
+```bash
+openssl aes-256-cbc -pbkdf2 -a -d -in Q1.encrypted -out Q1.recovered -k ettubrute
+```
+
+Although you don't need to memorize this command, to help you better understand the syntax used, let's break it down.
+
+In this instance, the openssl command reverses the encryption of the file with a secure symmetric cipher, as indicated by AES-256-CBC. The -pbkdf2 option is used to add extra security to the key, and -a indicates the desired encoding for the output. The -d indicates decrypting, while -in specifies the input file and -out specifies the output file. The -k specifies the password, which in this example is ettubrute.
 
 
 
