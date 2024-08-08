@@ -1592,29 +1592,109 @@ __Digital certificate__ <br/>
 A file that verifies the identity of a public key holder <br/>
 
 
-[Lab] <br/>
+------------------------ [Lab] ------------------------------- <br/>
 
-```text
-Lq rughu wr uhfryhu brxu ilohv brx zloo qhhg wr hqwhu wkh iroorzlqj frppdqg:
 
-rshqvvo dhv-256-fef -sengi2 -d -g -lq T1.hqfubswhg -rxw T1.uhfryhuhg -n hwwxeuxwh
-```
+Lq rughu wr uhfryhu brxu ilohv brx zloo qhhg wr hqwhu wkh iroorzlqj frppdqg: <br/>
+
+rshqvvo dhv-256-fef -sengi2 -d -g -lq T1.hqfubswhg -rxw T1.uhfryhuhg -n hwwxeuxwh <br/>
+
 
 ```bash
 cat .leftShift3 | tr "d-za-cD-ZA-C" "a-zA-Z"
 ```
 
-Note: The tr command translates text from one set of characters to another, using a mapping. The first parameter to the tr command represents the input set of characters, and the second represents the output set of characters. Hence, if you provide parameters “abcd” and “pqrs”, and the input string to the tr command is “ac”, the output string will be “pr". 
+_Note:_ The __tr__ command translates text from one set of characters to another, <br/>
+using a mapping. <br/>
+The first parameter to the __tr__ command represents the input set of characters, <br/>
+and the second represents the output set of characters. <br/> 
+Hence, if you provide parameters “abcd” and “pqrs”, and the input string to the __tr__ command <br/>
+is “ac”, the output string will be “pr". <br/>
 
 
 ```bash
 openssl aes-256-cbc -pbkdf2 -a -d -in Q1.encrypted -out Q1.recovered -k ettubrute
 ```
 
-Although you don't need to memorize this command, to help you better understand the syntax used, let's break it down.
+Although you don't need to memorize this command, to help you better understand the syntax used, let's break it down.<br/>
 
-In this instance, the openssl command reverses the encryption of the file with a secure symmetric cipher, as indicated by AES-256-CBC. The -pbkdf2 option is used to add extra security to the key, and -a indicates the desired encoding for the output. The -d indicates decrypting, while -in specifies the input file and -out specifies the output file. The -k specifies the password, which in this example is ettubrute.
+In this instance, the openssl command reverses the encryption of the file with a secure symmetric cipher, <br/>
+as indicated by AES-256-CBC. <br/>
+The -pbkdf2 option is used to add extra security to the key, and -a indicates the desired encoding for the output. <br/>
+The -d indicates decrypting, while -in specifies the input file and -out specifies the output file. <br/>
+The -k specifies the password, which in this example is ettubrute. <br/>
 
+
+__Hash Function__ <br/>
+
+An algorithm that produces a code that _CAN'T BE DECRYPTED_. <br/>
+
+
+```bash
+sha256sum newfile.txt
+```
+->[SHA] Secure Hash Algorithm (SHA-1, SHA-224, SHA-256, SHA-384, SHA-512)
+
+__Non Repudiation__ <br/>
+
+The concept that the authenticity of information can't be denied. <br/>
+
+
+__Rainbow Tables__ <br/>
+
+Is a file with weak passwords and their hashes. <br/>
+
+
+__Salting__ <br/>
+
+Additional protection to strengthen hash functions. <br/>
+Is a random chain of characters added BEFORE hashing. <br/>
+
+
+__Comparing__ <br/>
+
+```bash
+sha256sum file1 >> hashed1
+sha256sum file2 >> hashed2
+cmp hashed1 hashed2
+```
+
+__Access controls__ <br/>
+
+Security controls that manage access, authorization, and <br/>
+accountability of information. <br/>
+
+
+__AAA Framework__ <br/>
+
+* Authentication <br/>
+* Authorization <br/>
+* Accounting <br/>
+
+
+__Factors of authentication__ <br/>
+
+[Knowledge] Something that the user knows <br/>
+[Ownership] Something that the user possesses <br/>
+[Characteristic] Something the user is <br/>
+
+
+[SSO] __Simple Sign On__ <br/>
+
+[MFA] __Multi-Factor Authentication__ <br/>
+
+A security measure which requires a user to verify their identity <br/>
+in two or more ways to access a system or network. <br/>
+
+
+__Mechanisms of authorization__ <br/>
+
+_Separation of duties_ <br/>
+
+
+
+
+<br/>
 
 
 
