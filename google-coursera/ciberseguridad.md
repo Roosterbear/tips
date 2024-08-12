@@ -1710,7 +1710,8 @@ Uses API tokens to verify access between you and a service provider. <br/>
 
 _API Token_ <br/>
 
-A small block of encrypted code that contains information about a user. <br/>
+A small block of encrypted code that contains information about a user, <br/>
+like permissions or user identity. <br/>
 
 
 _Session_ <br/>
@@ -1742,6 +1743,181 @@ An event when attackers obtain a legitimate user's session ID <br/>
 [DAC] _Discretionary Access Control_ <br/>
 
 [RBAC] _Role-Based Access Control_ <br/>
+
+
+
+_Vulnerability_ <br/>
+
+A weakness that can be exploited by a threat. <br/>
+
+
+_Exploit_ <br/>
+
+A way of taking advantage of a vulnerability. <br/>
+
+
+_Vulnerability management_ <br/>
+
+The process of finding and patching vulnerabilities. <br/>
+
+* Identify vulnerabilities <br/>
+* Consider potential exploits <br/>
+* Prepare defenses against threats <br/>
+* Evaluate those defenses <br/>
+
+
+_Zero-day_ <br/>
+
+An exploit that was previously unknown <br/>
+
+
+_Defense in depth strategy_ <br/>
+
+* Perimeter Layer - from external access, like passwords <br/>
+* Network Layer - authorization by firewalls <br/>
+* Endpoint Layer - devices protected by AV <br/>
+* Application Layer - MFA <br/>
+* Data Layer - Asset clasification <br/>
+
+
+_Exposure_ <br/>
+
+A mistake that can be exploited by a threat <br/>
+
+
+[CVE] List - _Common Vulnerabilities and Exposures List_._ <br/>
+
+An openly accessible dictionary of known vulnerabilities and exposures <br/>
+
+
+[MITRE] A collection of non-profit research and development centers <br/>
+
+
+[CNA] _CVE Numbering Authority_ <br/>
+
+An organization that volunteers to analyze and distribute information on eligible CVE.
+
+
+_CVE list criteria_ <br/>
+
+1. Independent of other issues <br/>
+2. Recognized as a potential security risk <br/>
+3. Submitted with supporting evidence <br/>
+4. Only affect one codebase <br/>
+
+
+[CVSS] Common Vulnerability Scoring System <br/>
+
+A measurement system that scores the severity of a vulnerability <br/>
+
+
+[OWASP] _Open Web Application Security Project_ <br/>
+
+A non-profit foundation to improve software security. <br/>
+Is a plattform for professionals to share information. <br/>
+
+* Loss of Control Access <br/>
+* Cryptographic Failures <br/>
+* Injection <br/>
+* Unsafe Design <br/>
+* Incorrect Security Configuration <br/>
+* Outdated and Vulnerable Components <br/>
+* Identity and Authentication Failures <br/>
+* Software Failures and Data Integrity <br/>
+* Monitoring and Logs Failures <br/>
+* Server-side requests spoofing <br/>
+
+
+_Vulnerability Assessment_ <br/>
+
+The internal review process of an organization's security systems <br/>
+
+1. Identification <br/>
+2. Vulnerability Analysis <br/>
+3. Risk Assessment <br/>
+4. Remediation <br/>
+
+
+[EOL] - End Of Life
+
+Software outdate - Not recommended to install <br/>
+
+
+_Attack Surface_ <br/>
+
+All the potential vulnerabilities that a threat actor could exploit <br/>
+
+
+_Security hardening_ <br/>
+
+The process of strengthening a system to reduce its vulnerabilities and attack surface <br/>
+
+
+[APT] _Advanced Persistent Threat_ <br/>
+
+Actors keeping access to a system for a long time <br/>
+
+
+_Access Points_ <br/>
+
+Are Attack Vectors that a threat agent will use, like: <br/>
+
+* Direct Access - Physical <br/>
+* Extraible Media - USB or portable devices <br/>
+* Social Media - Content interchange <br/>
+* Email - Personal and commercial <br/>
+* Wireless Networks - On buildings <br/>
+* Cloud services <br/>
+* Supply Chains - Providers <br/>
+
+
+_Attack Vectors_ <br/>
+
+The pathways attackers use to penetrate security defenses. <br/>
+
+
+_Defending Attack Vectors_ <br/>
+
+1. Educating users <br/>
+2. Applying the principle of least privilege <br/>
+3. Using the right security controls and tools <br/>
+4. Building a diverse security team <br/>
+
+
+_Brute Force Tools_ <br/>
+
+* Aircrack-ng <br/>
+* Hashcat <br/>
+* John The Ripper <br/>
+* Ophcrack <br/>
+* THC Hydra <br/>
+
+
+_Brute Force Prevention Measures_ <br/>
+
+* Hashing and Salting <br/>
+* MFA <br/>
+* CAPTCHA <br/>
+* Password Policies <br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
