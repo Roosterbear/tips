@@ -2,4 +2,5 @@
 
 ## agosto 2024
 
-* Redirecciones realizadas: 
+* Redirecciones realizadas: 152
+* Actualizacion de 12 plugins 12-08-2024
