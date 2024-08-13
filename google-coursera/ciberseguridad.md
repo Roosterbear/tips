@@ -1378,7 +1378,7 @@ Returns all records from both tables. <br/>
 
 
 
-## [5] Assets, Threads and Vulnerabilities 🔐🔐🔐🔐🔐🔐🔐
+## [5] Assets, Threats and Vulnerabilities 🔐🔐🔐🔐🔐🔐🔐
 
 
 __RISK__ <br/>
@@ -1756,7 +1756,7 @@ _Exploit_ <br/>
 A way of taking advantage of a vulnerability. <br/>
 
 
-_Vulnerability management_ <br/>
+_Vulnerability MANAGEMENT_ <br/>
 
 The process of finding and patching vulnerabilities. <br/>
 
@@ -1771,13 +1771,13 @@ _Zero-day_ <br/>
 An exploit that was previously unknown <br/>
 
 
-_Defense in depth strategy_ <br/>
+_Defense in depth strategy_ -> LAYERS<br/>
 
 * Perimeter Layer - from external access, like passwords <br/>
 * Network Layer - authorization by firewalls <br/>
 * Endpoint Layer - devices protected by AV <br/>
-* Application Layer - MFA <br/>
-* Data Layer - Asset clasification <br/>
+* Application Layer - Part of an application, as MFA <br/>
+* Data Layer - CRITICAL INFORMATION that must be protected <br/>
 
 
 _Exposure_ <br/>
@@ -1848,6 +1848,11 @@ _Attack Surface_ <br/>
 All the potential vulnerabilities that a threat actor could exploit <br/>
 
 
+_Attack Vectors_ <br/>
+
+The pathways attackers use to penetrate security defenses. <br/>
+
+
 _Security hardening_ <br/>
 
 The process of strengthening a system to reduce its vulnerabilities and attack surface <br/>
@@ -1869,11 +1874,6 @@ Are Attack Vectors that a threat agent will use, like: <br/>
 * Wireless Networks - On buildings <br/>
 * Cloud services <br/>
 * Supply Chains - Providers <br/>
-
-
-_Attack Vectors_ <br/>
-
-The pathways attackers use to penetrate security defenses. <br/>
 
 
 _Defending Attack Vectors_ <br/>
@@ -1899,6 +1899,90 @@ _Brute Force Prevention Measures_ <br/>
 * MFA <br/>
 * CAPTCHA <br/>
 * Password Policies <br/>
+
+
+_Threat_ <br/>
+
+Any circumstance or event that can negatively impact assets <br/>
+
+
+_Social Engineering_ <br/>
+
+A manipulation technique that exploits human error to gain <br/>
+private information, access or valuables. <br/>
+
+
+_Stages of Social Engineering_ <br/>
+
+1. Prepare <br/>
+2. Establish trust <br/>
+3. Use persuasion tactics <br/>
+4. Disconnect from the target <br/>
+
+
+_Preventing Social Engineering_ <br/>
+
+* Implementing managerial controls <br/>
+* Staying informed of trends <br/>
+* Sharing your knowledge with others <br/>
+
+
+_Types of Social Engineering_ <br/>
+
+* Baiting <br/>
+* Phishing <br/>
+* Quid pro quo <br/>
+* Tailgating / Piggybacking <br/>
+* Watering Hole <br/>
+
+
+_Phishing_ <br/>
+
+The use of digital communications to trick people <br/>
+into revealing sensitive data or deploying malicious software <br/>
+
+_Phishing Kit_ <br/>
+
+A collection of software tools needed to launch a phishing campaign <br/>
+
+* Malicious attachments <br/>
+* Fake data-collection form <br/>
+* Fraudulent web links <br/>
+
+
+_Smishing_ <br/>
+
+The use of text messages to obtain sensitive information <br/>
+or to impersonate a known source <br/>
+
+
+_Vishing_ <br/>
+
+The exploitation of electronic voice communication <br/>
+to obtain sensitive information or impersonate a known source <br/>
+
+
+_Malware_ <br/>
+
+Software designed to harm devices or networks <br/>
+
+
+_Virus_ <br/>
+
+Malicious code written to interfere with computer operations <br/>
+and cause damage to data and software <br/>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
