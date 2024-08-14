@@ -1965,12 +1965,97 @@ to obtain sensitive information or impersonate a known source <br/>
 _Malware_ <br/>
 
 Software designed to harm devices or networks <br/>
+Virus, Worm, Trojan, Ransomware and Spyware <br/>
 
 
 _Virus_ <br/>
 
 Malicious code written to interfere with computer operations <br/>
 and cause damage to data and software <br/>
+
+
+_Worm_ <br/>
+
+Malware that can duplicate and spread itself across <br/>
+systems on its own <br/>
+
+
+_Trojan_ <br/>
+
+Malware that looks like a legitimate file or program <br/>
+
+
+_Ransomware_ <br/>
+
+Type of malicious attack where attackers encrypt <br/>
+an organization's data and demand payment to restore access <br/>
+
+
+_Spyware_ <br/>
+
+Malware that's used to gather and sell information without consent <br/>
+
+
+_Adware_ <br/>
+
+Used to display digital advertising in applications <br/>
+
+
+_Rootkit_ <br/>
+
+Provides remote access to a computer. Used to open a backdoor to install <br/>
+other software or network security attacks. <br/>
+
+
+_Botnet_ <br/>
+
+A set of infected computers under control of a "herder" to do jobs <br/>
+
+
+_Cryptojacking_ <br/>
+
+Installs software to illegally mine cryptocurrencies <br/>
+
+Signs: <br/>
+
+* Slowdown <br/>
+* Increased CP usage <br/>
+* Sudden system crashes <br/>
+* Fast draining batteries <br/>
+* Unusually high electricity costs <br/>
+
+
+_Web-based exploits_ <br/>
+
+Malicious code or behavior that's used to take advantage <br/>
+of coding flaws in a web application <br/>
+
+
+_Input sanitization_ <br/>
+
+Programming that validates inputs from users and other programs <br/>
+
+
+__Cross-site scripting__ [XSS] <br/>
+
+An injection attack that inserts code into a vulnerable website <br/>
+or web application using [HTML] and [Javascript] <br/>
+Can give access to session cookies, geolocation, webcams or microphones <br/>
+
+There are 3 types: <br/>
+
+1. _REFLECTED:_ <br/>
+An instance when malicious script is sent to a server and activated <br/>
+during the server's response <br/>
+
+2. _STORED:_ <br/>
+An instance when malicious script is injected directly on the server <br/>
+
+3. _DOM-Based:_ <br/>
+An instance when malicious script exists in the webpage a browser loads <br/>
+
+
+
 
 
 
