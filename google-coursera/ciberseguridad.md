@@ -2055,68 +2055,43 @@ An instance when malicious script is injected directly on the server <br/>
 An instance when malicious script exists in the webpage a browser loads <br/>
 
 
+_Prepared sentences_ <br/>
+
+We can use them to protect our code from XSS, creating sentences <br/>
+executed before passing to a Database <br/>
 
 
+_Threat Modeling_ <br/>
+
+The process of identifying assets, their vulnerabillities and <br/>
+how each is exposed to threats <br/>
+
+1. Define the scope  - INVENTORY OF ASSETS AND CLASSIFICATION <br/>
+2. Identify threats - POTENTIAL THREAT ACTORS <br/>
+3. Characterize the environment - APPLY ATTACKER MINDSET <br/>
+4. Analyze threats - EXISTING PROTECTIONS AND GAPS <br/>
+5. Mitigate Risks - PLAN TO AVOID, TRANSFER, REDUCE OR ACCEPT RISK <br/>
+6. Evaluate Findings - DOCUMENT SUCCESS OR LESSONS LEARNED <br/>
+
+_Attack Tree_ <br/>
+
+A Diagram that maps a threats to assets <br/>
 
 
+[PASTA] Framework <br/>
+__Process for Attack Simulation and Threat Analysis__ <br/>
 
+1. Define objectives - HOW INFORMATION IS HANDLED, WHAT WE WANT <br/>
+2. Define the technical scope - IDENTIFY COMPONENTS AND INTERACTIONS <br/>
+3. Decompose the application - FLOW DIAGRAM OF EXISTING CONTROLS <br/>
+4. Perform a threat analysis - GATHER INFORMATION, ATTACKER MINDSET <br/>
+5. Perform a vulnerability analysis - DEEP INVESTIGATION TO ROOT THE PROBLEM <br/>
+6. Conduct Attack Modeling - SIMULATING ATTACK by Attack Tree <br/>
+7. Analyze risk and impact - ASSEMBLES ALL INFORMATION COLLECTED <br/>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[STRIDE] - By Microsoft <br/>
+[Trike] - Open Source Tool <br/>
+[VAST] Visual Agile Simple Threat - Part of ThreatModeler Platform <br/>
 
 
 
@@ -2129,21 +2104,16 @@ An instance when malicious script exists in the webpage a browser loads <br/>
 
 
 
+
+
+
+
+
+
 ## [7] Automate Cybersecurity Task with Python 🔐🔐🔐🔐🔐🔐🔐
 
 
-
-
-
-
-
-
-
-
 ## [8] Put to Work: Prepare for Cybersecurity Jobs 🔐🔐🔐🔐🔐🔐🔐
-
-
-
 
 
 
