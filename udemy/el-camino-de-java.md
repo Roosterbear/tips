@@ -1,6 +1,6 @@
 # EL CAMINO DE JAVA
 
-## CONCEPTOS BASICOS @@@@@@@@@@@@@@@@@@@@@@@@@@@@
+## CONCEPTOS BASICOS @@@@@@@@@@@@@@@@@@@@@@@
 
 ### Tipos de Datos
 
@@ -72,7 +72,7 @@ do{
 > Brinca al inicio del ciclo
 
 
-## PROGRAMACION ORIENTADA A OBJETOS @@@@@@@@@@@@@
+## PROGRAMACION ORIENTADA A OBJETOS @@@@@@@@
 
 > Es un metodo de programacion que IMITA la manera en que
 > hacemos las cosas.
@@ -112,6 +112,6 @@ Existen 3 propiedades principales: <br/>
 
 
 
-## EXCEPCIONES @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+## EXCEPCIONES @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 > Todas las excepciones son objetos de la clase Throwable

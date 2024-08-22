@@ -1,7 +1,5 @@
 🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙 <br/>
-#
 # BASIC TUTORIAL OF .md FILES IN MARKDOWN
-#
 🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙 <br/>
 
 __A New row:__ We use the HTML single tag "br" <br/>
