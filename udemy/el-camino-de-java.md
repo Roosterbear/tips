@@ -111,6 +111,18 @@ Existen 3 propiedades principales: <br/>
 > siempre y cuando el tipo de datos sea DIFERENTE
 
 
+### Niveles de acceso
+
+|  | Clase | Package | Subclase | Mundo | Proteccion |
+| :---: | :---: | :-----: | :-----: | :-----: | :-----: |
+| public | si | si | si | si | sin proteccion |
+| protected | si | si | si | NO | protegido contra el mundo |
+| private | si | NO | NO | NO | acceso solo la CLASE |
+| ninguno | si | si | NO | NO | acceso private-package |
+
+
+
+
 
 ## EXCEPCIONES @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
