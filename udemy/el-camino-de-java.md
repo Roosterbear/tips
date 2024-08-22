@@ -80,11 +80,13 @@ do{
 
 Existen 3 propiedades principales: <br/>
 
-[Encapsulamiento] <br/>
+* Encapsulamiento
 > Es la combinacionde un registro
 > con funciones paramanipular sus datos
 > con lo que forma un nuevo tipo de dato: EL OBJETO
 
+### Herencia
+>Se refiere a...
 
 
 
