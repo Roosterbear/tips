@@ -17,13 +17,6 @@ Array.sort(miArreglo);
 ```
 
 
-
-## CONDICIONES @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-### If
-
-
-
 ## CICLOS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 
@@ -80,15 +73,24 @@ do{
 
 Existen 3 propiedades principales: <br/>
 
-* Encapsulamiento
+### Encapsulamiento
 > Es la combinacionde un registro
 > con funciones paramanipular sus datos
 > con lo que forma un nuevo tipo de dato: EL OBJETO
 
 ### Herencia
->Se refiere a...
+> Se refiere a definir un objeto y entonces usarlo para
+> construir una jerarquia de objetos descendientes
+> donde cada descendiente hereda el acceso al codigo y datos
+> de su antecesor
 
-
+### Polimorfismo
+> Es darle un nombre a la ACCION que se comparte
+> de arriba a abajo en la jerarquia de objetos,
+> donde cada objeto en la misma jerarquia
+> implementa la accion de una forma unica para si mismo
+> Es la capacidad de las clases de definir su propio COMPORTAMIENTO
+> ademas de heredar la funcionalidad de su antecesor.
 
 
 ### Clases
@@ -104,6 +106,6 @@ Existen 3 propiedades principales: <br/>
 
 
 
-## EXCEPCIONES
+## EXCEPCIONES @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 > Todas las excepciones son objetos de la clase Throwable
