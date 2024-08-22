@@ -1,6 +1,6 @@
 # EL CAMINO DE JAVA
 
-## ARREGLOS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+## ARREGLOS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 Podemos declarar arrays de las siguientes formas: <br/>
 
@@ -18,13 +18,13 @@ Array.sort(miArreglo);
 
 
 
-## CONDICIONES @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+## CONDICIONES @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 ### If
 
 
 
-## CICLOS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+## CICLOS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 
 ### Ciclo FOR Mejorado
@@ -73,7 +73,21 @@ do{
 > Brinca al inicio del ciclo
 
 
-## PROGRAMACION ORIENTADA A OBJETOS @@@@@@@@@@@@@@@@@@@@@@@
+## PROGRAMACION ORIENTADA A OBJETOS @@@@@@@@@@@@@
+
+> Es un metodo de programacion que IMITA la manera en que
+> hacemos las cosas.
+
+Existen 3 propiedades principales: <br/>
+
+[Encapsulamiento] <br/>
+> Es la combinacionde un registro
+> con funciones paramanipular sus datos
+> con lo que forma un nuevo tipo de dato: EL OBJETO
+
+
+
+
 
 ### Clases
 
