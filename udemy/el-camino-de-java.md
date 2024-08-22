@@ -1,6 +1,16 @@
 # EL CAMINO DE JAVA
 
-## ARREGLOS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+## CONCEPTOS BASICOS @@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+### Tipos de Datos
+
+* int
+* double
+* String
+* bool
+
+
+### Arrays
 
 Podemos declarar arrays de las siguientes formas: <br/>
 
@@ -15,10 +25,6 @@ int arr[] = new int[5];
 ```java
 Array.sort(miArreglo);
 ```
-
-
-## CICLOS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
 
 ### Ciclo FOR Mejorado
 
