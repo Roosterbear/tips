@@ -144,10 +144,6 @@ Circle c = new Point(); //ERROR: El contenido es mas general que la variable
 Rectangle r = new Point(); //ERROR: La variable es mas especifica que el contenido
 ```
 
-
-
-
-
 ## EXCEPCIONES @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 > Todas las excepciones son objetos de la clase Throwable

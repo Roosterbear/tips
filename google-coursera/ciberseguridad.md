@@ -4,22 +4,22 @@
 
 ### Cybersecurity Activities
 
-> Detect and respond to attacks <br/>
-> Monitoring and protecting networks <br/>
-> Investigating incidents <br/>
-> Write code to automate task <br/>
+> Detect and respond to attacks 
+> Monitoring and protecting networks 
+> Investigating incidents 
+> Write code to automate task 
 
 
 ### Definition of Cybersecurity
 
-The practice of ensuring confidentiality, integrity <br/>
-and availability of information by protecting networks, devices, <br/>
-people and data from unauthorized access or criminal exploitation <br/>
+> The practice of ensuring confidentiality, integrity 
+> and availability of information by protecting networks, devices,
+> people and data from unauthorized access or criminal exploitation
 
 
 ### Threat Actor
 
-Person or group who presents a security risk.
+> Person or group who presents a security risk.
 
 
 ### Security Analyst
