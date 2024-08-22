@@ -115,10 +115,34 @@ Existen 3 propiedades principales: <br/>
 
 |  | Clase | Package | Subclase | Mundo | Proteccion |
 | :---: | :---: | :-----: | :-----: | :-----: | :-----: |
-| public | si | si | si | si | sin proteccion |
-| protected | si | si | si | NO | protegido contra el mundo |
-| private | si | NO | NO | NO | acceso solo la CLASE |
-| ninguno | si | si | NO | NO | acceso private-package |
+| Public | si | si | si | si | Sin proteccion |
+| Protected | si | si | si | NO | Protegido contra el Mundo |
+| Private | si | NO | NO | NO | Acceso solo la __CLASE__ |
+| Ninguno | si | si | NO | NO | Acceso _private-package_ |
+
+
+### Herencia
+
+```java
+public class Point{
+  public int x, y;
+}
+
+public class Circle extends Point{
+  public int radius;
+}
+
+public class Rectangle extends Point{
+  public int width, height;
+}
+
+Point p = new Point(); // CORRECTO: Es del mismo tipo
+Point c = new Circle(); // CORRECTO: La variable es mas general que el tipo
+Point r = new Rectangle(); // CORRECTO: La variable es mas grande que el contenido
+
+Circle c = new Point(); //ERROR: El contenido es mas general que la variable
+Rectangle r = new Point(); //ERROR: La variable es mas especifica que el contenido
+```
 
 
 
