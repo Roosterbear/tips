@@ -24,87 +24,88 @@
 
 ### Security Analyst
 
-Are responsible for monitoring and protecting information and systems.
+> Are responsible for monitoring and protecting information and systems.
 
 
 ### Skills
 
-> Communication <br/>
-> Collaboration <br/>
-> Analysis <br/>
-> Problem solving <br/>
+* Communication 
+* Collaboration
+* Analysis
+* Problem solving
 
 <br/>
 
-> Programming Languages <br/>
-> Security Incident and Event Management (SIEM) Tools <br/>
-> Computer Forensic <br/>
+* Programming Languages
+* Security Incident and Event Management (SIEM) Tools
+* Computer Forensic
+
 
 ### Personal Information
 
-__PII__ - Personal Identifiable Information <br/>
-__SPII__ - Sensitive Personal Identifiable Information <br/>
+* __PII__ - Personal Identifiable Information
+* __SPII__ - Sensitive Personal Identifiable Information
 
 ### Social Engineering
 
-A manipulation technique that exploits human error to gain private information, <br/>
-access or valuables <br/>
+> A manipulation technique that exploits human error to gain private information, 
+> access or valuables
 
 
 ### Phishing
 
-The use of digital communications to trick people <br/>
-into revealing sensitive data or deploying malicious software. <br/>
+> The use of digital communications to trick people
+> into revealing sensitive data or deploying malicious software. 
 
-The __Spear phishing__ ("_dirigido_") is a targeted attack on a specific person <br/>
-or group of people that appears to come from reliable source. <br/>
+> The __Spear phishing__ ("_dirigido_") is a targeted attack on a specific person 
+> or group of people that appears to come from reliable source.
 
-__Whaling__ is for high ranking people in an organization. <br/>
+> __Whaling__ is for high ranking people in an organization.
 
-__Business Email Compromise__ is when a threat agent pretends to be a person <br/>
-known to the victim and tries to get them to send money or provide confidential <br/>
-company information. <br/>
+> __Business Email Compromise__ is when a threat agent pretends to be a person
+> known to the victim and tries to get them to send money or provide confidential
+> company information. 
  
-__Vishing__ By voice (telephone) <br/>
+> __Vishing__ By voice (_telephone_)
 
-__Watering Hole__ A threat actor compromises a website frequently visited <br/>
-by a specific group of users. <br/>
+> __Watering Hole__ A threat actor compromises a website frequently visited
+> by a specific group of users.
 
-__USB Baiting__ By a malicious software in a USB <br/>
+> __USB Baiting__ By a malicious software in a USB 
 
 
 ### CISSP Domains
 
-> __Security and risk management__ [Goals and Objectives, compliance and law] <br/>
-> __Asset Security__ [Storage, maintenance, retention or destruction of data] <br/>
-> __Security Architecture and Engineering__ [Optimizes Tools and Systems] <br/>
-> __Communication and Network Security__ [Manage and secures networks] <br/>
-> __Identity and access management__ [Users to follow policies to control assets] <br/>
-> __Security Assessment and Testing__ [Audits to monitor risks] <br/>
-> __Security Operations__ [Investigations and preventive measures] <br/>
-> __Software Development Security__ [Secure Coding Practices] <br/>
+* __Security and risk management__ Goals and Objectives, compliance and law
+* __Asset Security__ Storage, maintenance, retention or destruction of data
+* __Security Architecture and Engineering__ Optimizes Tools and Systems
+* __Communication and Network Security__ Manage and secures networks
+* __Identity and access management__ Users to follow policies to control assets
+* __Security Assessment and Testing__ Audits to monitor risks
+* __Security Operations__ Investigations and preventive measures
+* __Software Development Security__ Secure Coding Practices
 
 
 ### Components of Security Frameworks
 
-1.- Identifying and documenting security goals <br/>
-2.- Setting guidelines to achieve security goals <br/>
-3.- Implementing strong security processes <br/>
-4.- Monitoring and communicating results <br/>
+1. Identifying and documenting security goals
+2. Setting guidelines to achieve security goals
+3. Implementing strong security processes
+4. Monitoring and communicating results 
 
 
 ### CIA Triad (_is a guide or model that inform about organization risk_)
 
-- __Confidentiality__ - Only authorized user can access _SPECIFIC_ assets or data <br/>
-- __Integrity__ - Data is _CORRECT_, authentic and reliable <br/>
-- __Availability__ - Data is accesible to those who are _AUTHORIZED_ to access it <br/>
+- __Confidentiality__ - Only authorized user can access _SPECIFIC_ assets or data
+- __Integrity__ - Data is _CORRECT_, authentic and reliable
+- __Availability__ - Data is accesible to those who are _AUTHORIZED_ to access it
 
 
 ### Ethical Principles
 
-1.- Confidentiality - PII confidential and safe <br/>
-2.- Privacy Protections - Safeguarding personal information from unauthorized use <br/>
-3.- Laws - Rules recognized by a community and enforced by a governing entity <br/>
+1. Confidentiality - PII confidential and safe
+2. Privacy Protections - Safeguarding personal information from unauthorized use
+3. Laws - Rules recognized by a community and enforced by a governing entity
 
 
 ### Security Information and Event Management (SIEM) Tools
@@ -114,10 +115,9 @@ __USB Baiting__ By a malicious software in a USB <br/>
 
 ### Professional Declaration
 
-
->Currently I work in the IT Departament of a university. <br/>
->To Manage personal information and Databases are one of my duties. <br/>
->I sure that it is very important to keep information safe and inform about Security Risks. <br/>
+> Currently I'm working at the IT Departament of a university. 
+> To Manage Personal Information and Databases are one of my duties. 
+> I sure that it is very important to keep information safe and inform about Security Risks. 
 
 >I'm very interested in security, though there were attacks in my job, and I want to help.<br/>
 >I like to think like an attacker y make undestructibles ways of defense. <br/>
