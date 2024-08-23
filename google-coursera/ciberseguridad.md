@@ -2098,9 +2098,28 @@ __Process for Attack Simulation and Threat Analysis__ <br/>
 ## [6] Sound the Alarm: Detection and Response 🔐🔐🔐🔐🔐🔐🔐
 
 
+### NIST Incident Response LifeCycle
 
+1. Preparation
+2. Detection and Analysis
+3. Containment, Eradication and Recovery
+4. Post-Incident Activity
 
+__Incident__
 
+> An occurence that actually or imminently _jeopardizes_
+> without lawful authority the confidentiality, integrity,
+> or availability of information or an information system;
+> or constitutes a violation or imminent threat of violation
+> of law, security policies, security procedures or
+> acceptable use policies.
+
+__Event__
+
+> An observable occurence on a network, system or device
+
+__ALL SECURITY INCIDENTS ARE EVENTS__
+_Not All events are Security Incidents_
 
 
 
