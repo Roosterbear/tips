@@ -2118,8 +2118,67 @@ __Event__
 
 > An observable occurence on a network, system or device
 
-__ALL SECURITY INCIDENTS ARE EVENTS__
-_Not All events are Security Incidents_
+__ALL SECURITY INCIDENTS ARE EVENTS__ <br/>
+_Not All events are Security Incidents_ <br/>
+
+
+__The 5W's of an incident__
+
+1. Who triggered the incident
+2. What happened
+3. When the incident took place
+4. Where the incident took place
+5. Why the incident occurred
+
+
+__Incident Handler's Journal__
+
+> A form of documentation used in incident response
+
+* Write the incident date
+* Description
+* Use 5W's
+* Observations and questions
+
+
+__Computer Security Incident Response Teams__ (_CSIRT_)
+
+> A specialized group of security professionals that are trained
+> in incident management and response
+
+1. Manage incidents
+2. Provide services and resources for response and recovery
+3. Prevent future incidents from occurring
+
+* Is a shared responsability
+* Must share information between departments
+
+__Roles of CSIRT__
+
+* _Security Analyst_ - Investigate Security ALERTS and Rate them
+* _Technical lead_ - Guide Security Incidents in their lifecycle
+* _Incident Coordinator_ Tracks / Manages activities of involved Teams
+
+
+__Security Operations Center__ _SOC_
+
+* Independent
+* Blue Team participation
+
+
+__Elements of a Security Plan__
+
+* Policies
+* Standards
+* Procedures
+
+
+__Incident Response Plan__ 
+
+> A document that outlines the procedures to take in each step
+> of incident response
+
+
 
 
 
