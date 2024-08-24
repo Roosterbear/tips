@@ -115,17 +115,23 @@
 
 ### Professional Declaration
 
-> Currently I'm working at the IT Departament of a university. 
-> To Manage Personal Information and Databases are one of my duties. 
-> I sure that it is very important to keep information safe and inform about Security Risks. 
+> Currently I'm working at the IT Departament of an university. 
+> Managing Personal Information and Databases are one of my duties. 
+> I'm sure that it is very important to keep information safe 
+> and inform about Security Risks.
 
->I'm very interested in security, though there were attacks in my job, and I want to help.<br/>
->I like to think like an attacker y make undestructibles ways of defense. <br/>
->I'm excited about make traps to attackers and get some fun about it. <br/>
+<br/>
 
->I'm love programming and make very useful tools for users or administrators. <br/>
->I have facility for both written and verbal communication and I like to program <br/>
->I'm a pragmatic person and I like take care of details <br/>
+> I'm very interested in security, though there were attacks 
+> in my job, and I want to help.
+> I like to think like an attacker and make undestructibles ways of defense. 
+> I'm excited about make traps to attackers and get some fun about it.
+
+<br/>
+
+> I love programming and make very useful tools for users or administrators. 
+> I have facility for both written and verbal communication and I like to program 
+> I'm a pragmatic person and I like take care of details 
 
 
 
@@ -134,162 +140,199 @@
 
 ### CISSP Domain #1 - Security and Risk Management
 
-Focused on defining security goals and objectives, <br/>
-risk mitigation, compliance[cumplimiento], business continuity <br/>
-and legal regulations. <br/>
+> Focused on defining security goals and objectives, 
+> risk mitigation, compliance[cumplimiento], business continuity 
+> and legal regulations.
 
-__Risk Mitigation__ <br/>
-The process of having the right _procedures and rules_ <br/>
-in place to quickly reduce the impact of a risk like a breach[infraccion]. <br/>
+__Risk Mitigation__ 
 
-__Business continuity__ <br/>
-An organization's ability to maintain their everyday productivity <br/>
-by establishing risk disaster _recovery plans_. <br/>
+> The process of having the right _procedures and rules_ 
+> in place to quickly reduce the impact of a risk like a breach[infraccion]. 
+
+__Business continuity__
+
+> An organization's ability to maintain their everyday productivity 
+> by establishing risk disaster _recovery plans_. 
 
 
 ### CISSP Domain #2 - Asset Security
 
-Focused on _securing_ digital and physical _assets_. <br/>
-It's also related to the storage, maintenance, retention <br/>
-and _destruction_ of data. <br/>
+> Focused on _securing_ digital and physical _assets_. 
+> It's also related to the storage, maintenance, retention 
+> and _destruction_ of data. 
 
 
 ### CISSP Domain #3 - Security Architecture and Engineering
 
-Focused on optimizing data security by ensuring _effective tools_, <br/>
-systems and processes are in place to protect an organization's assets and data. <br/>
+> Focused on optimizing data security by ensuring _effective tools_, 
+> systems and processes are in place to protect an organization's assets and data.
 
-__Shared responsability__ <br/>
-All individuals within an organization take an active role in lowering risk <br/>
-and maintaining both physical and virtual security. <br/>
+__Shared responsability__ 
+
+> All individuals within an organization take an active role in lowering risk 
+> and maintaining both physical and virtual security.
 
 
 ### CISSP Domain #4 - Communication and Network Security
 
-Focused on managing and securing physical _networks and wireless communications_. <br/>
+> Focused on managing and securing physical _networks and wireless communications_.
 
 
 ### CISSP Domain #5 - Identity and access management
 
-Focused on access and authorization to keep data secure, by making sure users <br/>
-follow established policies to control and manage assets. _(Not to use the same user_) <br/>
+> Focused on access and authorization to keep data secure, by making sure users
+> follow established policies to control and manage assets. 
+> _(Not to use the same user_) 
 
 * IAM 
 
-> __Identification__ Verification of the users who they are <br/>
-> __Authentication__ Verification process to prove the identity <br/>
-> __Authorization__ Related to their level of access after confirmed identity <br/>
-> __Accountability__ Monitoring and recording user actions <br/>
+> __Identification__ Verification of the users who they are
+> __Authentication__ Verification process to prove the identity
+> __Authorization__ Related to their level of access after confirmed identity
+> __Accountability__ Monitoring and recording user actions
 
 
 ### CISSP Domain #6 - Security Assessment and Testing
 
-Focused on conducting security control testing, collecting and analyzing data <br/>
-and conducting security audits to monitor for risks, threats and vulnerabilities. <br/>
-_Find better ways_ <br/>
+> Focused on conducting security control testing, collecting and analyzing data
+> and conducting security audits to monitor for risks, threats and vulnerabilities. 
+
+* _Find better ways_ 
 
 
 ### CISSP Domain #7 - Security Operations
 
-Focused on conducting investigations and implementing preventive measures. <br/>
+> Focused on conducting investigations and implementing preventive measures.
 
 
 
 ### CISSP Domain #8 - Software Development Security 
 
-Focused on using secure coding practices. <br/>
+> Focused on using secure coding practices.
 
-__THREAD__ <br/>
-Any circumstance or event that can _negatively impact_ assets <br/>
+__THREAD__
 
-__RISK__ <br/>
-The posibility of a threat to impact the confidentiality, <br/>
-integrity or availability of an asset. <br/>
-
-__VULNERABILITY__ <br/>
-A weakness that can be exploited by a threat. <br/>
-[Outdated firewall-software, weak password, unprotected data and PEOPLE] <br/>
-
-__SOCIAL ENGINEERING__ <br/>
-A manipulation technique that exploits _human error_ <br/>
-to gain private information, access or valuables. <br/>
-_phishing_ is a way of social engineering. <br/>
-
-__RANSOMWARE__ <br/>
-A malicious attack where threat actors encrypt an organization's data <br/>
-and demand payment to restore access. <br/>
-
-__DEEP WEB__ <br/>
-Generally requires authorization to access it. [intranet]<br/>
-
-__DARK WEB__ <br/>
-Can only be accessed by using special software. [criminals]<br/>
+> Any circumstance or event that can _negatively impact_ assets 
 
 
-__CyberSecurity Framework__ [CSF]<br/>
-Part of _National Institute of Standards and Technology_ [NIST] <br/>
-A voluntary framework that consist of standards, <br/>
-guidelines and best practices to manage cybersecurity risk. <br/>
+__RISK__ 
 
-Its _CORE_ functions are: <br/> 
+> The posibility of a threat to impact the confidentiality, 
+> integrity or availability of an asset.
 
-* Identify -> Manage Risk and its effect <br/>
-* Protect -> Strategy to mitigate by policies, procedures, training and tools <br/>
-* Detect -> Identify potential incidents - Improving monitoring to speed detections <br/>
-* Respond -> Proper procedures to contain, neutralize, analyze incidents - improvements <br/>
-* Recover -> Returning affected systems back to normal operation <br/>
 
-Used for -> MANAGE RISK, IMPLEMENT STRATEGIES AND LEARN FROM MISTAKES<br/>
+__VULNERABILITY__ 
 
-__S.P. 800-53__ <br/>
-Aunified framework for protecting the security of information systems <br/>
-within the federal government. <br/>
+> A weakness that can be exploited by a threat. 
+> [Outdated firewall-software, weak password, unprotected data and PEOPLE] 
 
-__RISK MANAGEMENT FRAMEWORK__ [RMF]<br/>
 
-* Prepare _Necessary Activities before a breach occurs_ <br/>
-* Categorize _Risk management processes and tasks_ <br/>
-* Select _Documentation of Controls_ <br/>
-* Implement _Plans of Security and Privacy_ <br/>
-* Assess[valoraciones] _if controlas are correct_ <br/>
-* Authorize _being accountable[responsable] for privacy risks in an organization_ <br/>
-* Monitor _be aware of how systems are operating_ <br/>
+__SOCIAL ENGINEERING__ 
 
-__Security Frameworks__ <br/>
-_Guidelines_ used for _building plans_ to help mitigate risk and threats <br/>
-to data and privacy <br/>
+> A manipulation technique that exploits _human error_ 
+> to gain private information, access or valuables. 
+> _phishing_ is a way of social engineering. 
 
-__Encryption__ <br/>
-The process of converting data from a readable format to an _encoded_ format. <br/>
-Used to ensure confidentiality of sensitive data. <br/>
 
-__Ciphertext__ <br/>
-Is the raw encoded message that is _unreadable_ to humans and computers. <br/>
-Can't be readable until it's been decrypted into its original plaintext form. <br/>
+__RANSOMWARE__
 
-__Authentication__ <br/>
-The process of verifying who someone or something is. (_login_)<br/>
-More advanced is Multi-factor authentication (_MFA_) that <br/>
-challenge the user to demostrate that they are who they claim to be <br/>
-with additional form of authentication as a security code, biometrics. <br/>
+> A malicious attack where threat actors encrypt an organization's data
+> and demand payment to restore access.
 
-__Biometrics__ <br/>
-Unique physical characteristics thet can be used to verify a person identity. <br/>
-[fingerprint],[eye-scan],[palm-scan] and [voice]<br/>
 
-__Vishing__ <br/>
-The exploitation of electronic voice communication to obtain sensitive information <br/>
-or to impersonate a known source. <br/>
+__DEEP WEB__
 
-__Authorization__ <br/>
-The Concept of granting access to specific resources within a system. <br/>
+> Generally requires authorization to access it. [intranet]
 
-__Controls__ <br/>
-Used to reduce the impact of a threat, risk or vulnerability, and are: <br/>
+__DARK WEB__
 
-* [Physical] Doors, Guards, CCTV, Access cards <br/>
-* [Technical] Firewalls, Multi-Factor Authentication, Antivirus <br/>
-* [Administrative] Function separation, Authorization, Assets Clasification <br/>
+> Can only be accessed by using special software. [criminals]
+
+
+__CyberSecurity Framework__ [CSF]
+
+> Part of _National Institute of Standards and Technology_ [NIST]
+> A voluntary framework that consist of standards,
+> guidelines and best practices to manage cybersecurity risk.
+
+
+Its _CORE_ functions are: <br/>
+
+* Identify -> Manage Risk and its effect
+* Protect -> Strategy to mitigate by policies, procedures, training and tools
+* Detect -> Identify potential incidents - Improving monitoring to speed detections
+* Respond -> Procedures: contain, neutralize, analyze incidents / improvements
+* Recover -> Returning affected systems back to normal operation
+
+<br/>
+Used for -> MANAGE RISK, IMPLEMENT STRATEGIES AND LEARN FROM MISTAKES <br/>
+
+__S.P. 800-53__
+
+> Unified framework for protecting the security of information systems
+> within the federal government.
+
+__RISK MANAGEMENT FRAMEWORK__ [RMF]
+
+* Prepare _Necessary Activities before a breach occurs_
+* Categorize _Risk management processes and tasks_
+* Select _Documentation of Controls_
+* Implement _Plans of Security and Privacy_
+* Assess[valoraciones] _if controlas are correct_ 
+* Authorize _being accountable[responsable] for privacy risks in an organization_
+* Monitor _be aware of how systems are operating_
+
+
+__Security Frameworks__
+
+> _Guidelines_ used for _building plans_ to help mitigate risk and threats
+> to data and privacy
+
+
+__Encryption__
+
+> The process of converting data from a readable format to an _encoded_ format.
+> Used to ensure confidentiality of sensitive data.
+
+
+__Ciphertext__
+
+> Is the raw encoded message that is _unreadable_ to humans and computers.
+> Can't be readable until it's been decrypted into its original plaintext form.
+
+
+__Authentication__
+
+> The process of verifying who someone or something is. (_login_)
+> More advanced is Multi-factor authentication (_MFA_) that
+> challenge the user to demostrate that they are who they claim to be
+> with additional form of authentication as a security code, biometrics.
+
+
+__Biometrics__
+
+> Unique physical characteristics thet can be used to verify a person identity.
+> [fingerprint],[eye-scan],[palm-scan] and [voice]
+
+
+__Vishing__
+
+> The exploitation of electronic voice communication to obtain sensitive information
+> or to impersonate a known source.
+
+
+__Authorization__
+
+> The Concept of granting access to specific resources within a system. 
+
+
+__Controls__ 
+
+> Used to reduce the impact of a threat, risk or vulnerability, and are:
+
+* [Physical] Doors, Guards, CCTV, Access cards
+* [Technical] Firewalls, Multi-Factor Authentication, Antivirus
+* [Administrative] Function separation, Authorization, Assets Clasification
 
 
 
@@ -298,678 +341,729 @@ Used to reduce the impact of a threat, risk or vulnerability, and are: <br/>
 
 Principles: <br/>
 
-* Minimize attack surface area -> _all potential vulnerabilities_ <br/>
-* Principle of __LEAST__ Privilege -> _just the access required to their everyday tasks_ <br/>
-* Defense in Depth -> _multiple security controls_ <br/>
-* Separation of duties -> _no one should be given so many privileges_ <br/>
-* Keep security simple -> _avoid unnecessarily complicated solutions_ <br/>
-* Fix security issues correctly -> _identify root cause, correct and test to ensure_ <br/>
+* Minimize attack surface area -> _all potential vulnerabilities_
+* Principle of __LEAST__ Privilege -> _access required everyday tasks_
+* Defense in Depth -> _multiple security controls_
+* Separation of duties -> _no one should be given so many privileges_
+* Keep security simple -> _avoid unnecessarily complicated solutions_
+* Fix security issues correctly -> _identify root cause, correct and test to ensure_
 
 ---
 
 Other prnciples: <br/>
 
-* Default configuration <br/>
-* Secure Fail <br/>
-* Not trust in services <br/>
-* Avoid security by darkness <br/>
+* Default configuration
+* Secure Fail
+* Not trust in services
+* Avoid security by darkness
 
 
-__Security audit__ <br/>
-A review of an organization's security controls, policies and procedures <br/>
-against a set of expectations <br/>
+__Security audit__
+
+> A review of an organization's security controls, policies and procedures
+> against a set of expectations
 
 Purposes: <br/>
 
-* Identify organizational risk <br/>
-* Assess controls <br/>
-* Correct compliance[cumplimiento] issues <br/>
+* Identify organizational risk
+* Assess controls
+* Correct compliance[cumplimiento] issues
 
 Elements: <br/>
 
-* __SCOPE__ and Goals -> _Criteria_ / _outline_ [boceto] <br/>
-* __RISK__ assessment[evaluacion] -> _identify_ <br/>
-* __CONTROLS__ assessment ->  <br/>
-  1. _administrative_[human] <br/>
-  2. _technical_[hardware/software] <br/>
-  3. _physical_ [access_to_assets] <br/>
-* __ASSESSING__ compliance[cumplimiento] -> adhering to _regulations_ <br/>
-  1. [GDPR] _GENERAL DATA PROTECTION REGULATION_ <br/>
-  2. [PCI-DSS] _PAYMENT CARD INDUSTRY - DATA SECURITY STANDARD_ <br/>
-* Communicating __RESULTS__ -> summarizes to _stakeholders_ <br/>
+* __SCOPE__ and Goals -> _Criteria_ / _outline_ [boceto] 
+* __RISK__ assessment[evaluacion] -> _identify_ 
+* __CONTROLS__ assessment -> 
+  1. _administrative_[human]
+  2. _technical_[hardware/software]
+  3. _physical_ [access_to_assets]
+* __ASSESSING__ compliance[cumplimiento] -> adhering to _regulations_ 
+  1. [GDPR] _GENERAL DATA PROTECTION REGULATION_
+  2. [PCI-DSS] _PAYMENT CARD INDUSTRY - DATA SECURITY STANDARD_
+* Communicating __RESULTS__ -> summarizes to _stakeholders_
 
 <br/>
+
 Factors:<br/>
 
-* Type of industry <br/>
-* Size of organization <br/>
-* Goverment regulations links <br/>
-* Geographic Location of the business <br/>
-* Comercial Decision <br/>
+* Type of industry
+* Size of organization
+* Goverment regulations links
+* Geographic Location of the business
+* Comercial Decision
 
 
-__AUDIT__ <br/>
+__AUDIT__ 
 
-- Check scope <br/>
-- Choose controls <br/>
-- Rate controls <br/>
-- Choose norms and standards <br/>
-- Explain scope, goals, findings <br/>
-
-
-__SIEM (Security Incident and Event Management) Tools__ <br/>
-
-[LINUX] <br/>
-Is a widely used Open Source System that allows you to adapt it to your needs <br/>
-through a command line interface. <br/>
-
-[SURICATA] <br/>
-Open Source Network Analysis and Threat Detection Software, used to analyze <br/>
-network traffic, identify suspicious behaviors and generate logs helping to <br/>
-uncover potential threats, risk or vulnerabilities. <br/>
-
-[SPLUNK] <br/>
-Allow reviewing organization data through dashboards. This helps security <br/>
-professionals manage the internal infrastructure by collecting, searching, <br/>
-monitoring and analyzing log data from multiple sources, allowing them to <br/>
-observe the entirety of an organization's daily operations. <br/>
-
-[CHRONICLE] <br/>
-Native SIEM Tool in the Google Cloud that keep, analyze and search log data <br/>
-to identify potencial threats, risks and security vulnerabilities. <br/>
+- Check scope
+- Choose controls
+- Rate controls
+- Choose norms and standards
+- Explain scope, goals, findings
 
 
-__Playbook__ <br/>
-
-A manual that provides details about any operational action. <br/>
+__SIEM (Security Incident and Event Management) Tools__
 
 
-__Incident Response__ <br/>
+__LINUX__
 
-An organization's quick attempt to identify an attack, contain the damage <br/>
-and correct the effects of security breach. <br/>
+> Is a widely used Open Source System that allows you to adapt it to your needs
+> through a command line interface.
+
+
+__SURICATA__
+
+> Open Source Network Analysis and Threat Detection Software, used to analyze
+> network traffic, identify suspicious behaviors and generate logs helping to
+> uncover potential threats, risk or vulnerabilities.
+
+
+__SPLUNK__
+
+> Allow reviewing organization data through dashboards. This helps security
+> professionals manage the internal infrastructure by collecting, searching,
+> monitoring and analyzing log data from multiple sources, allowing them to
+> observe the entirety of an organization's daily operations. 
+
+
+__CHRONICLE__
+
+> Native SIEM Tool in the Google Cloud that keep, analyze and search log data
+> to identify potencial threats, risks and security vulnerabilities.
+
+
+__Playbook__
+
+> A manual that provides details about any operational action.
+
+
+__Incident Response__
+
+> An organization's quick attempt to identify an attack, contain the damage
+> and correct the effects of security breach.
 
 
 ### INCIDENT RESPONSE PLAYBOOK PHASES
 
-* PREPARATION <br/>
-- Mitigate potential impact <br/>
-- Documenting procedures <br/>
-- Establishing staffing plans <br/>
-- Educating users <br/>
-- Sets the Foundation for successful incident response <br/>
-<br/>
-* DETECTION AND ANALYSIS<br/>
-- Uses defined processes and technology [tools]<br/>
-- Determine whether a breach has occurred<br/>
-<br/>
-* CONTAINMENT<br/>
-- Prevent further or major damage<br/>
-- Reduce immediate impact<br/>
-- Security proffesionals TAKE ACTION<br/>
-<br/>
-* ERADICATION AND RECOVERY<br/>
-- Complete removal of artifacts<br/>
-- Return to normal operations<br/>
-- Restoration<br/>
-<br/>
-* POST INCIDENT ACTIVITY<br/>
-- Documenting the incident<br/>
-- Inform to organization leadership<br/>
-- Apply lessons learned for future incidents<br/>
-<br/>
-* COORDINATION<br/>
-- Sharing information<br/>
-- In agreement to Standards<br/>
+* PREPARATION
+- Mitigate potential impact
+- Documenting procedures
+- Establishing staffing plans
+- Educating users
+- Sets the Foundation for successful incident response
 
-_Playbooks are living documents_ <br/>
+<br/>
+
+* DETECTION AND ANALYSIS
+- Uses defined processes and technology [tools]
+- Determine whether a breach has occurred
+
+<br/>
+
+* CONTAINMENT
+- Prevent further or major damage
+- Reduce immediate impact
+- Security proffesionals TAKE ACTION
+
+<br/>
+
+* ERADICATION AND RECOVERY
+- Complete removal of artifacts
+- Return to normal operations
+- Restoration
+
+<br/>
+
+* POST INCIDENT ACTIVITY
+- Documenting the incident
+- Inform to organization leadership
+- Apply lessons learned for future incidents
+
+<br/>
+
+* COORDINATION
+- Sharing information
+- In agreement to Standards
+
+_Playbooks are living documents_
+
 -> We could modify a manual when: <br/>
 
-[*] A flaw is detected<br/>
-[*] Standards changed<br/>
-[*] Security outlook improves<br/>
+* A flaw is detected
+* Standards changed
+* Security outlook improves
 
 
 
 ## [3] Connect and Protect: Networks and Network Security 🔐🔐🔐🔐🔐🔐🔐
 
-__NETWORK__ <br/>
+__NETWORK__
 
-A group of connected devices. <br/>
-
-
-__Local Area Network__ [LAN] <br/>
-
-A network that spans a small area like an office building, <br/>
-a school or a home. <br/>
+> A group of connected devices.
 
 
-__HUB__ <br/>
+__Local Area Network__ [LAN]
 
-A network device that broadcast information to every device on the network. <br/>
-
-
-__Switch__ <br/>
-
-A device that makes connections between specific devices on a network <br/>
-by sending and receiving data between them. Keeps MAC addresses. <br/>
+> A network that spans a small area like an office building,
+> a school or a home.
 
 
-__Router__ <br/>
+__HUB__
 
-A network device that connects multiple network together. <br/>
-Can block traffic as a Firewall. <br/>
-
-
-__Modem__ <br/>
-
-A device that connects your router to the internet and brings internet access to the LAN <br/>
+> A network device that broadcast information to every device on the network.
 
 
-__Virtualization Tools__ <br/>
+__Switch__
 
-Pieces of software thet perform network operations. <br/>
-
-
-__Firewall__ <br/>
-
-A Security Device that monitor the traffic of a Network. <br/>
+> A device that makes connections between specific devices on a network
+> by sending and receiving data between them. Keeps MAC addresses.
 
 
-__Server__ <br/>
+__Router__
 
-Provide a service in a Network. <br/>
-
-
-__Cloud Computing__ <br/>
-
-The practice of using remote servers, applications and network services <br/>
-that are hosted on the internet instead of on local physical devices. <br/>
+> A network device that connects multiple network together.
+> Can block traffic as a Firewall.
 
 
-__Cloud Network__ <br/>
+__Modem__
 
-A collection of servers or computers that stores resources and data
-in remote data centers that can be accessed via internet. <br/>
-
-
--> A Cloud Service Providers offer [CSP]:
-
-- On-demand storage <br/>
-- Processing power <br/>
-- Analytics <br/>
-
-[SaaS] - Software as a Service <br/>
-[IaaS] - Infraestructure as a Service <br/>
-[PaaS] - Plattform as a Service <br/>
+> A device that connects your router to the internet 
+> and brings internet access to the LAN
 
 
-__DATA PACKET__ <br/>
+__Virtualization Tools__
+
+> Pieces of software thet perform network operations.
+
+
+__Firewall__
+
+> A Security Device that monitor the traffic of a Network.
+
+
+__Server__
+
+> Provide a service in a Network.
+
+
+__Cloud Computing__
+
+> The practice of using remote servers, applications and network services
+> that are hosted on the internet instead of on local physical devices.
+
+
+__Cloud Network__
+
+> A collection of servers or computers that stores resources and data
+> in remote data centers that can be accessed via internet.
+
+
+-> A Cloud Service Providers offer [CSP]: <br/>
+
+- On-demand storage
+- Processing power
+- Analytics
+
+* __SaaS__ - Software as a Service
+* __IaaS__ - Infraestructure as a Service
+* __PaaS__ - Plattform as a Service
+
+
+__DATA PACKET__
 
 A basic unit of information that travels from one device to another within a network. <br/>
 
--> _Header_ -> IP address / MAC address / Protocol Number <br/>
--> _Body_ -> The Message <br/>
--> _Footer_ -> Signals to the receiving device that the packet is finished <br/>
+> _Header_ -> IP address / MAC address / Protocol Number
+> _Body_ -> The Message
+> _Footer_ -> Signals to the receiving device that the packet is finished
 
 
-__Bandwidth__ <br/>
+__Bandwidth__
 
-The amount of data a device receives every second. <br/>
-
-
-__Speed__ <br/>
-
-The rate at which data packets are received or downloaded. Bits/s <br/>
+> The amount of data a device receives every second.
 
 
-__Packet Sniffing__ <br/>
+__Speed__
 
-The Practice of capturing and inspecting data packets across a network. <br/>
-
-
-__Internet Protocol__ [IP] <br/>
-
-A set of standards used for routing and addressing data packets <br/>
-as they travel between devices on a network. <br/>
-
-__IP address__ <br/>
-
-A unique string of characters that identifies the location of device on internet. <br/>
-There are 2 versions: _IPv4_ and _IPv6_ <br/>
-
-__MAC address__ <br/>
-
-A unique alphanumeric identifier that is assigned to each physical device on a network. <br/>
+> The rate at which data packets are received or downloaded. Bits/s
 
 
+__Packet Sniffing__
 
-__PORT__ <br/>
-
-A software-based location that organizes the sending and receiving <br/>
-of data between devices on a network. <br/>
-Divide traffic into segments. <br/>
-
-- [25] Email<br/>
-- [443] Secure internet communication<br/>
-- [20] Large File Transfers<br/>
+> The Practice of capturing and inspecting data packets across a network.
 
 
-__TCP/IP Model__ <br/>
+__Internet Protocol__ [IP]
 
-A Framework used to visualize how data is organized <br/>
-and transmitted across the Network. <br/>
+> A set of standards used for routing and addressing data packets
+> as they travel between devices on a network.
+
+
+__IP address__
+
+> A unique string of characters that identifies the location of device on internet.
+> There are 2 versions: _IPv4_ and _IPv6_
+
+
+__MAC address__
+
+> A unique alphanumeric identifier that is assigned to each 
+> physical device on a network.
+
+
+__PORT__
+
+> A software-based location that organizes the sending and receiving
+> of data between devices on a network.
+> Divides traffic into segments.
+
+- __[25]__ Email
+- __[443]__ Secure internet communication
+- __[20]__ Large File Transfers
+
+
+__TCP/IP Model__
+
+> A Framework used to visualize how data is organized
+> and transmitted across the Network.
 
 
 ### PROTOCOLS
-Rules to describe the delivery order. <br/>
+
+> Rules to describe the delivery order.
 
 
 #### Communitacion
 
-__Transmission Control Protocol__ [TCP] <br/>
+__Transmission Control Protocol [TCP]__
 
-An internet communication protocol that allows two devices to form <br/>
-a connection and stream data. <br/>
-Uses the _Handshake_ -> SYN - SYN/ACK - ACK <br/>
-
-
-__User Datagram Protocol__ [UDP] <br/>
-
-No connection link between devices. _Transport Layer_ Protocol<br/>
+> An internet communication protocol that allows two devices to form
+> a connection and stream data.
+> Uses the _Handshake_ -> SYN - SYN/ACK - ACK
 
 
-__Hyper Text Transfer Protocol__ [HTTP] <br/>
+__User Datagram Protocol [UDP]__
 
-_Application Layer_ Protocol the brings a method of communication <br/>
-between Clients and Server. Uses the _80_ port.<br/>
-
-
-__Domain Name System__ [DNS] <br/>
-
-A network protocol that translates internet domain names into IP addresses. <br/>
+> No connection link between devices. _Transport Layer_ Protocol
 
 
-__Address Resolution Protocol__ [ARP] <br/>
+__Hyper Text Transfer Protocol__ [HTTP]
 
-Is on _Internet_ Layer. To translate a IP address from data packets into a MAC address. <br/>
+> _Application Layer_ Protocol the brings a method of communication
+> between Clients and Server. Uses the _80_ port.
+
+
+__Domain Name System [DNS]__
+
+> A network protocol that translates internet domain names into IP addresses.
+
+
+__Address Resolution Protocol [ARP]__
+
+> Is on _Internet_ Layer. 
+> To translate a IP address from data packets into a MAC address.
 
 
 
 #### Management
 
-__Simple Network Management Protocol__ [SNMP] <br/>
+__Simple Network Management Protocol [SNMP]__
 
-Used to monitor and manage devices. <br/>
-Can restore a password or change basic configuration. <br/>
-Also can ask requests to get information about used bandwith. <br/>
-Is on _Application_ Layer. <br/>
-
-
-__Internet Control Messages Protocol__ [ICMP] <br/>
-
-Used to get information about transmission errors between devices. <br/>
-Also is a fast solution to connectivity issues like latency <br/>
-by using the _ping_ command.
-Is on _Internet_ Layer. <br/>
+> Used to monitor and manage devices. 
+> Can restore a password or change basic configuration.
+> Also can ask requests to get information about used bandwith.
+> Is on _Application_ Layer.
 
 
-__Post Office Protocol__ [POP] <br/>
+__Internet Control Messages Protocol [ICMP]__
 
-_Application_ Layer to manage emails
-Ports _110_ (not encrypted) and _995_.
-
-
-__Internet Messages Access Protocol__ [IMAP] <br/>
-
-Downloads the headers and uses _143_ (not encrypted) and _993_ for TSL.
+> Used to get information about transmission errors between devices.
+> Also is a fast solution to connectivity issues like latency
+> by using the _ping_ command.
+> Is on _Internet_ Layer.
 
 
-__Simple Mail Transfer Protocol__ [SMTP] <br/>
+__Post Office Protocol [POP]__
 
-Routes and transmites emails and works with the software Message Transfer Agent [MTA] <br/>
-Uses the _25_ (not encrypted) and _587_ for TSL.
+> _Application_ Layer to manage emails
+> Ports _110_ (not encrypted) and _995_.
+
+
+__Internet Messages Access Protocol [IMAP]__
+
+> Downloads the headers and uses _143_ (not encrypted) and _993_ for TSL.
+
+
+__Simple Mail Transfer Protocol [SMTP]__
+
+> Routes and transmites emails and works with 
+> the software Message Transfer Agent [MTA]
+> Uses the _25_ (not encrypted) and _587_ for TSL.
 
 
 #### Security
 
-__Hyper-Text Transmission Protocol - Secure__ [HTTPS] <br/>
+__Hyper-Text Transmission Protocol - Secure [HTTPS]__
 
-Secure method of communication between server and client. <br/>
-Uses Secure Sockets Layer [SSL] and Transport Layer Security [TSL] <br/>
-Uses port _443_ and is on _Application_ Layer. <br/>
-
-
-__Secure File Transfer Protocol__ [SFTP] <br/>
-
-Uses the [SSH] Secure SHELL Protocol and [AES] Advanced Encryption Standard. <br/>
-Is on _Application_ Layer. Port _22_ <br/>
+> Secure method of communication between server and client.
+> Uses Secure Sockets Layer __[SSL]__ and Transport Layer Security __[TSL]__
+> Uses port _443_ and is on _Application_ Layer.
 
 
+__Secure File Transfer Protocol [SFTP]__
 
-->IEE 802.11 Starndards for Wireless
-
-[WEP] Wired Equivalent Privacy - 1999 <br/>
-[WPA] WiFi Protected Access - 2003 <br/>
-- Uses Temporal Key Integrity Protocol [TKIP] <br/>
-[WPA3] Uses Simultaneous Authentication of Equals [SAE] <br/>
+> Uses the __[SSH]__ Secure SHELL Protocol and 
+> __[AES]__ Advanced Encryption Standard.
+> Is on _Application_ Layer. Port _22_ 
 
 
+* IEE 802.11 Starndards for Wireless
+
+1. __[WEP]__ Wired Equivalent Privacy - _1999_
+2. __[WPA]__ WiFi Protected Access - _2003_
+  - Uses Temporal Key Integrity Protocol __[TKIP]__
+3. __[WPA3]__ Uses Simultaneous Authentication of Equals __[SAE]__
 
 
 ### FIREWALLS
 
-There are _HARDWARE_ and _SOFTWARE_ firewalls. <br/>
+> There are _HARDWARE_ and _SOFTWARE_ firewalls.
 
 
-__STATEFUL__ [+]<br/>
+__STATEFUL__ [+]
 
-A class of Firewall that keeps track of information<br/>
-passing through it and proactively filters out threats.<br/>
-
-
-__STATELESS__ [-]<br/>
-
-A class of Firewall that operates _BASED ON PREDEFINED RULES_ <br/>
-and does not keep track of information from data packets. <br/>
+> A class of Firewall that keeps track of information
+> passing through it and proactively filters out threats.
 
 
-__NEXT GENERATION FIREWALL__ [NGFW] <br/>
+__STATELESS__ [-]
 
-- _DEEP_ packet _INSPECTION_ <br/>
-- Intrusion protection <br/>
-- Threat intelligence <br/>
+> A class of Firewall that operates _BASED ON PREDEFINED RULES_
+> and does not keep track of information from data packets.
 
 
-__Port Filtering__ <br/>
+__NEXT GENERATION FIREWALL__ [NGFW]
 
-Is a a firewall function that block or allows certain <br/>
-port numbers to limit unwanted communication <br/>
+- _DEEP_ packet _INSPECTION_
+- Intrusion protection
+- Threat intelligence
+
+
+__Port Filtering__
+
+> Is a a firewall function that block or allows certain
+> port numbers to limit unwanted communication
+
 
 ### VPN (Virtual Private Networks)
 
-Is a Network Security Service that changes your public IP address <br/>
-and hides your virtual location (_uses encapsulation_)<br/>
-so that you can keep your data private when you are <br/>
-using a public network like the internet. <br/>
+> Is a Network Security Service that changes your public IP address
+> and hides your virtual location (_uses encapsulation_)
+> so that you can keep your data private when you are
+> using a public network like the internet.
 
 
-__Encapsulation__ <br/>
+__Encapsulation__
 
-A proccess performed by a VPN service that protects your data<br/>
-by wrapping sensitive data in other data packets.<br/>
-
-
-__Security Zone__ <br/>
-
-A segment of a network that protects the internal network from internet. <br/>
+> A proccess performed by a VPN service that protects your data
+> by wrapping sensitive data in other data packets.
 
 
-__Proxy Server__ <br/>
+__Security Zone__
 
-A Server that fulfills the requests of a client by forwarding them<br/>
-on to other servers. <br/>
-
-
-__Forward Proxy Server__ <br/>
-
-Regulates and restricts a _person's_ access to the internet. <br/>
+> A segment of a network that protects the internal network from internet.
 
 
-__Reverse proxy server__ <br/>
+__Proxy Server__
 
-Regulates and restrict the _internet's_ access to an internal server. <br/>
+> A Server that fulfills the requests of a client by forwarding them
+> on to other servers.
 
 
-No controlled zone -> Part of the network out of the organization. <br/>
-Controlled zone -> Subnet that protect the internal network from external. <br/>
-  ->Demilitarized or Security zone -> Network that protects internal network from internet. <br/>
-                                  -> Like Web Servers, DNS, Email and File Servers, etc. <br/>
-  ->Internal network->Private servers and data to protect. <br/>
-  ->Restricted Zone->Highly confidential information only accessible to employees with privileges. <br/>
+__Forward Proxy Server__
+
+> Regulates and restricts a _person's_ access to the internet.
+
+
+__Reverse proxy server__
+
+> Regulates and restrict the _internet's_ access to an internal server.
+
+---
+
+* __No controlled zone__ 
+
+> Part of the network out of the organization.
+
+* __Controlled zone__ 
+
+> Subnet that protect the internal network from external.
+
+* __Demilitarized or Security zone__ 
+
+> Network that protects internal network from internet.
+> Like Web Servers, DNS, Email and File Servers, etc. 
+
+* __Internal network__
+
+> Private servers and data to protect.
+  
+* __Restricted Zone__
+
+> Highly confidential information only accessible to employees with privileges. 
 
 
 
 ### ATTACKS
 
-__Network intrusion attacks__ <br/>
+__Network intrusion attacks__ 
 
-* Malware <br/>
-* Spoofing <br/>
-* Packet sniffing <br/>
-* Packet flooding <br/>
-
-__Organization can be harmed by__ <br/>
-
-* Leaking information <br/>
-* Damaging reputation <br/>
-* Customer retention <br/>
-* Money and Time cost <br/>
-
-__Denial of Service Attack__ [DoS] <br/>
-
-An attack that targets a network or server and _floods it_ with network traffic<br/>
-to disrupt the normal business operation by overloading the organization's network. <br/>
+* Malware
+* Spoofing
+* Packet sniffing
+* Packet flooding
 
 
-__Distribuited denial of service attack__ [DDoS] <br/>
+__Organization can be harmed by__
 
-A type of denial of service attack that uses _multiple devices_ or servers <br/>
-in _different locations_ to flood the target network with unwanted traffic. <br/>
-
-
-__SYN flood attack__ <br/>
-
-A type of DoS attack that simulates a TCP connection <br/>
-and floods a server with SYN packets. <br/>
+* Leaking information
+* Damaging reputation
+* Customer retention 
+* Money and Time cost
 
 
-__Internet Control Message Protocol__ [ICMP] <br/>
+__Denial of Service Attack [DoS]__
 
-An internet protocol used by devices to tell each other about <br/>
-data transmission error across the network. <br/>
-
-__ICMP flood__ <br/>
-
-A type of DoS attack performed by an attacker <br/>
-repeatedly sending ICMP packets to a network server. <br/>
+> An attack that targets a network or server and _floods it_ 
+> with network traffic to disrupt the normal business operation 
+> by overloading the organization's network.
 
 
-__Ping of Death__ <br/>
+__Distribuited denial of service attack [DDoS]__
 
-A type of DoS attack caused when hacker pings a system by sending it <br/>
-an oversized ICMP packet that is bigger than 64Kb. <br/>
-
-
-__tcpdump__ <br/>
-
-Command Line Network Protocol Analyzer. <br/>
-Brings a brief packet analysis, converts key information about network traffic.<br/>
-Shows the source and destiny IP address and also the ports used in communications.<br/>
+> A type of denial of service attack that uses _multiple devices_ or servers 
+> in _different locations_ to flood the target network with unwanted traffic.
 
 
-__Passive packet sniffing__ <br/>
+__SYN flood attack__
 
-A type of attack where data packets are read in transit. <br/>
-
-
-__Active packet sniffing__ <br/>
-
-A type of attack where data packets are manipulated in transit. <br/>
+> A type of DoS attack that simulates a TCP connection
+> and floods a server with SYN packets.
 
 
-__IP Spoofing__ <br/>
+__Internet Control Message Protocol [ICMP]__
 
-A network attack performed when an attacker changes the source IP<br/>
-of a data packet to impersonate an authorized system and gain<br/>
-access to a network. <br/>
-
-
-__On-path attack__ <br/>
-
-An attack where a malicious actor places themselves in the middle of an<br/>
-authorized connection (IP spoofing) and intercepts or alters the data transit. <br/>
+> An internet protocol used by devices to tell each other about
+> data transmission error across the network.
 
 
-__Replay attack__ <br/>
+__ICMP flood__
 
-A network attack performed when a malicious actor intercepts a data packet <br/>
-in transit and delays it or repeats it at another time. Use IP spoofing. <br/>
+> A type of DoS attack performed by an attacker
+> repeatedly sending ICMP packets to a network server.
 
 
-__Smurf attack__ <br/>
+__Ping of Death__
 
-A network attack performed when an attacker sniffs <br/>
-an authorized user's IP and floods it with packets. <br/>
+> A type of DoS attack caused when hacker pings a system by sending it
+> an oversized ICMP packet that is bigger than 64Kb.
+
+
+__tcpdump__
+
+> Command Line Network Protocol Analyzer.
+> Brings a brief packet analysis, converts key information about network traffic.
+> Shows the source and destiny IP address and also the ports used in communications.
+
+
+__Passive packet sniffing__
+
+> A type of attack where data packets are read in transit.
+
+
+__Active packet sniffing__
+
+> A type of attack where data packets are manipulated in transit.
+
+
+__IP Spoofing__
+
+> A network attack performed when an attacker changes the source IP
+> of a data packet to impersonate an authorized system and gain
+> access to a network.
+
+
+__On-path attack__
+
+> An attack where a malicious actor places themselves in the middle of an
+> authorized connection (IP spoofing) and intercepts or alters the data transit.
+
+
+__Replay attack__
+
+> A network attack performed when a malicious actor intercepts a data packet
+> in transit and delays it or repeats it at another time. Use IP spoofing.
+
+
+__Smurf attack__
+
+> A network attack performed when an attacker sniffs
+> an authorized user's IP and floods it with packets.
 
 
 
 ### SECURITY HARDENING
 
-The process of strengthening a system to reduce its vulnerabillity <br/>
-and attack surface on Hardware, OS, Applications, DB and Networks. <br/>
+> The process of strengthening a system to reduce its vulnerabillity
+> and attack surface on Hardware, OS, Applications, DB and Networks.
 
 
-__Attack surface__ <br/>
+__Attack surface__
 
-All the potential vulnerabillities that a threat actor could exploit. <br/>
+> All the potential vulnerabillities that a threat actor could exploit.
 
 
-__Operating System__ <br/>
+__Operating System__
 
-The interface between computer hardware and the user/software. <br/>
+> The interface between computer hardware and the user/software.
 
 
-__Patch Update__ <br/>
+__Patch Update__
 
-A software and operating system update that addresses <br/>
-security vulnerabilities within a program or product. <br/>
+> A software and operating system update that addresses
+> security vulnerabilities within a program or product. 
 
 
-__Multi-factor authentication__ [MFA] <br/>
+__Multi-factor authentication [MFA]__
 
-A security measure which requires a user to verify their identity<br/>
-in two or more ways to access a system or network. <br/>
+> A security measure which requires a user to verify their identity
+> in two or more ways to access a system or network. 
 
-* Something you know <br/>
-* Something you have <br/>
-* Something unique about you <br/>
+* Something you know
+* Something you have
+* Something unique about you
 
 
-__Brute force attack__ <br/>
+__Brute force attack__
 
-A Trial and Error process to discover private information and could be: <br/>
+> A Trial and Error process to discover private information and could be:
 
-* Simple -> Trying any combination. <br/>
-* Dictionary -> Using a list. <br/>
+* Simple -> Trying any combination.
+* Dictionary -> Using a list.
 
 
-__Virtual Machines__ [VM] <br/>
+__Virtual Machines [VM]__
 
-Physical computers in software versions. Give us an additional layer of security. <br/>
-Can be very helpful to test. <br/>
+> Physical computers in software versions. Give us an additional layer of security.
+> Can be very helpful to test.
 
 
-__Sandboxes__ <br/>
+__Sandboxes__
 
-A test area to exec software out of our network, try patches, suspicious software (or files), <br/>
-identify errors, detect vulnerabilities and simulate scenarios of an attack. <br/>
+> A test area to exec software out of our network, 
+> try patches, suspicious software (or files), 
+> identify errors, detect vulnerabilities 
+> and simulate scenarios of an attack. 
 
 
-__Hashing__ <br/>
+__Hashing__ 
 
-Uniderectional function that converts information in an unique value to determine its integrity. <br/>
+> Uniderectional function that converts information 
+> in an unique value to determine its integrity.
 
 
-__Salting__ <br/>
+__Salting__
 
-Adds random characters to Hash passwords, increasing length and complexity of values, 
-making them more secure. <br/>
+> Adds random characters to Hash passwords, 
+> increasing length and complexity of values, 
+> making them more secure.
 
 
-__Multifactor Authentication__ [MFA]<br/>
+__Multifactor Authentication [MFA]__
 
-Security measure that ask a user for 2 or more ways of authentication. <br/>
-[2FA] Two Factor Authentications have only 2 ways of verification. <br/>
+> Security measure that ask a user for 2 or more ways of authentication.
+> __[2FA]__ Two Factor Authentications have only 2 ways of verification.
 
 
-__Completely Automated Public Turing - test to tell - Computers and Humans Apart__ [CAPTCHA] <br/>
+__Completely Automated Public Turing Computers and Humans Apart [CAPTCHA]__
 
-Is a challenge-response authentication by a simple test, preventing a password to be forced. <br/>
-reCAPTCHA is a Google Service. <br/>
+> Is a challenge-response authentication by a simple test, 
+> preventing a password to be forced.
+> reCAPTCHA is a Google Service.
 
 
-__Password Policies__ <br/>
+__Password Policies__
 
-Good practices in patterns of complexity, frequency in updates and login attempts <br/>
-before the account is suspended. <br/>
+> Good practices in patterns of complexity, 
+> frequency in updates and login attempts 
+> before the account is suspended.
 
 
-__PORT Filtering__ <br/>
+__PORT Filtering__
 
-Allow access to most used ports for normal operations of a network. <br/>
-Block any port that is not used. <br/>
+> Allow access to most used ports for normal operations of a network.
+> Block any port that is not used.
 
 
-__TRAFFIC LOG__ <br/>
+__TRAFFIC LOG__
 
-Flag[S] - Connection Start<br/>
-Flag[F] - Connection Finish<br/>
-Flag[P] - Data Push<br/>
-Flag[R] - Connection Reset<br/>
+* Flag[S] - Connection Start
+* Flag[F] - Connection Finish
+* Flag[P] - Data Push
+* Flag[R] - Connection Reset
 
 
-__Network Security Hardening__ <br/>
+__Network Security Hardening__
 
-* Port filtering <br/>
-* Network access privileges <br/>
-* Encryption<br/>
+* Port filtering
+* Network access privileges
+* Encryption
 
--> Tasks performed:
+-> Tasks performed: <br/>
 
-* Firewall rules maintenance<br/>
-* Network log analysis<br/>
-* Patch updates<br/>
-* Server backups<br/>
+* Firewall rules maintenance
+* Network log analysis
+* Patch updates
+* Server backups
 
 
-__Intrusion Detection System__ [IDS]<br/>
+__Intrusion Detection System [IDS]__
 
-Monitor the activity of a system and _alerts_ about intrusions.<br/>
-Based on malicious traffic signatures and known attacks. <br/>
-Do not stop the traffic and is before a FIREWALL. <br/>
+> Monitor the activity of a system and _alerts_ about intrusions.
+> Based on malicious traffic signatures and known attacks.
+> Do not stop the traffic and is before a FIREWALL.
 
 
-__Intrusion Prevent System__ [IPS]<br/>
+__Intrusion Prevent System [IPS]__
 
-Monitor the activity of a system and take action or _stops_ traffic.<br/>
-Can be false positives, and break the legitemate traffic. <br/>
+> Monitor the activity of a system and take action or _stops_ traffic.
+> Can be false positives, and break the legitemate traffic.
 
 
-__Security Incident and Event Management__ [SIEM] <br/>
+__Security Incident and Event Management__ [SIEM]
 
-A tool that gathers and analyzes logs from IDS, IPS, Firewalls, VPN, proxies<br/>
-and DNS in real time. <br/>
+> A tool that gathers and analyzes logs from IDS, IPS, Firewalls, VPN, proxies
+> and DNS in real time.
 
 
-__Cloud Network__ <br/>
+__Cloud Network__
 
-A collection of servers or computers that stores resources and data <br/>
-in remote data centers that can be accessed via internet. <br/>
+> A collection of servers or computers that stores resources and data 
+> in remote data centers that can be accessed via internet.
 
-->poke and prod!<br/>
+__[poke and prod!]__ -> "Picarle"
+<br/>
 
-__Identity Access Management__ <br/>
+__Identity Access Management__
 
-A set of processes and technologies that help manage digital identities<br/>
-and authorize the access to resources in the cloud.<br/>
+> A set of processes and technologies that help manage digital identities
+> and authorize the access to resources in the cloud.
 
 
-__Day-0 Attacks__ <br/>
+__Day-0 Attacks__
 
-Is a exploit that is unknown. The CSP can patch their hypervisors and migrate<br/>
-loads of jobs to another VMs.<br/>
-
+> Is a exploit that is unknown. The CSP can patch their hypervisors and migrate
+> loads of jobs to another VMs.
 
 
 ## [4] Tools of the Trade: Linux and SQL 🔐🔐🔐🔐🔐🔐🔐
@@ -978,155 +1072,156 @@ loads of jobs to another VMs.<br/>
 ### LINUX
 
 
-__Basic Input Output System__ [BIOS] <br/>
+__Basic Input Output System [BIOS]__
 
-A microchip used in old computers to load basic instructions to start the PC. <br/>
-
-
-__Unified Extensible Firmware Interface__ [UEFI] <br/>
-
-A microchip that holds load instructions in moderns computers, replacing BIOS.<br/>
-Provide enhanced security functions
+> A microchip used in old computers to load basic instructions to start the PC.
 
 
-__Bootloader__ <br/>
+__Unified Extensible Firmware Interface [UEFI]__
 
-Is the last instruction that starts the Operative System. <br/>
-
-
-User -> Application -> Operative System -> Hardware <br/>
+> A microchip that holds load instructions in moderns computers, replacing BIOS.
+> Provide enhanced security functions
 
 
+__Bootloader__
 
-__User Interface__ <br/>
+> Is the last instruction that starts the Operative System.
 
-A program that allows the user to control the functions <br/>
-of the Operating System. <br/>
+User __->__ Application __->__ Operative System __->__ Hardware <br/>
 
 
-__Graphical User Interface__ [GUI] <br/>
+__User Interface__
 
-A user interface that uses icons on the screen<br/>
-to manage different tasks on the computer. <br/>
+> A program that allows the user to control the functions 
+> of the Operating System.
+
+
+__Graphical User Interface [GUI]__
+
+> A user interface that uses icons on the screen
+> to manage different tasks on the computer.
 
 May include: <br/>
-* Start Menu <br/>
-* Task Bar <br/>
-* Desktop with icons and shortcuts <br/>
+
+* Start Menu
+* Task Bar
+* Desktop with icons and shortcuts
 
 
-__Command-Line Interface__ [CLI] <br/>
+__Command-Line Interface [CLI]__
 
-A text-based user interface that uses commands <br/>
-to interact with computer. <br/>
-
-
-__User__ <br/>
-
-People that interact with computer. Starts and manage jobs.<br/>
+> A text-based user interface that uses commands
+> to interact with computer.
 
 
-__Applications__ <br/>
+__User__
 
-A program designed to do a specific job. <br/>
-
-
-__Shell__ <br/>
-
-Command interpreter based on text. <br/>
+> People that interact with computer. Starts and manage jobs.
 
 
-__File Hierarchy System__ [FHS] <br/>
+__Applications__
 
-A part of the Linux System that organizes data and specifies the location<br/>
-where data are stored. 
-
-
-__Kernel__ <br/>
-
-Component of the Linux OS that manage the processes and memory. <br/>
-It communicates with applications to lead commands. <br/>
-Controls main functions of Hardware. <br/>
+> A program designed to do a specific job.
 
 
-__Hardware__ <br/>
+__Shell__
 
-Physical components in a computer. Internal as a hard disk or peripherial. <br/>
-
-_Peripherial_ <br/>
-
-Not essential components that may be plugged easily. <br/>
-
-_Internal_ <br/>
-
-* CPU -> Main component where all the jobs are made. <br/>
-* RAM -> Short-term memory. <br/>
-* Hard Disk -> Long-term memory. <br/>
+> Command interpreter based on text.
 
 
-__Penetration test__ <br/>
+__File Hierarchy System [FHS]__
 
-A simulated attack that helps identify vulnerabilities in systems, <br/>
-networks, websites, applications and processes. <br/>
-
-
-__Digital forensics__ <br/>
-
-The practice of collecting and analyzing data to determine<br/>
-what has happened after an attack. <br/>
-
-* tcpdump <br/>
-* Wireshark <br/>
-* Autopsy <br/>
+> A part of the Linux System that organizes data and specifies the location
+> where data are stored. 
 
 
-__Shell__ <br/>
+__Kernel__
 
-The command-line interpreter. <br/>
-
-
-__Command__ <br/>
-
-An instruction telling the computer to do something. <br/>
+> Component of the Linux OS that manage the processes and memory.
+> It communicates with applications to lead commands.
+> Controls main functions of Hardware.
 
 
-__Standard input__ <br/>
+__Hardware__
 
-Information received by the OS via the command line. <br/>
-
-
-__String data__ <br/>
-
-Data consisting of an ordered sequence of characters. <br/>
+> Physical components in a computer. Internal as a hard disk or peripherial.
 
 
-__Standard output__ <br/>
+_Peripherial_ 
 
-Information returned by the OS through the shell. <br/>
-
-
-__Standard error__ <br/>
-
-Error messages returned by the OS through the shell. <br/>
+> Not essential components that may be plugged easily. 
 
 
+_Internal_
+
+* __CPU__ -> Main component where all the jobs are made.
+* __RAM__ -> Short-term memory.
+* __Hard Disk__ -> Long-term memory.
+
+
+__Penetration test__
+
+> A simulated attack that helps identify vulnerabilities in systems, 
+> networks, websites, applications and processes.
+
+
+__Digital forensics__ 
+
+> The practice of collecting and analyzing data to determine
+> what has happened after an attack.
+
+* tcpdump
+* Wireshark
+* Autopsy
+
+
+__Shell__
+
+> The command-line interpreter.
+
+
+__Command__
+
+> An instruction telling the computer to do something.
+
+
+__Standard input__
+
+> Information received by the OS via the command line.
+
+
+__String data__ 
+
+> Data consisting of an ordered sequence of characters.
+
+
+__Standard output__ 
+
+> Information returned by the OS through the shell.
+
+
+__Standard error__
+
+> Error messages returned by the OS through the shell.
+
+<br/>
 Commands: <br/>
 
-* [cat]   Displays the content of a file <br/>
-* [cd]    Navigates between directories <br/>
-* [pwd]   Prints the working directory onto the screen <br/>
-* [ls]    Displays the names of files and directories <br/>
-          in the current working directory <br/>
-* [head]  Show first 10 lines <br/>
-* [tail]  Show last 10 lines <br/>
-* [less]  A page at a time of a file <br/>
-          space -> next page <br/>
-          b -> previous page <br/>
-          Down arrow -> advance a line <br/>
-          Up arrow -> back a line <br/>
-          q -> exit <br/>
+* __cat__   Displays the content of a file
+* __cd__    Navigates between directories
+* __pwd__   Prints the working directory onto the screen
+* __ls__    Displays the names of files and directories 
+            in the current working directory 
+* __head__  Show first 10 lines 
+* __tail__  Show last 10 lines 
+* __less__  A page at a time of a file 
+            space -> next page 
+            b -> previous page 
+            Down arrow -> advance a line 
+            Up arrow -> back a line 
+            q -> exit 
 
----------------------------------------------------------------- <br/>
+---
 
 * [grep]    Searches a specified file and returns all lines <br/>
             in the file containing a specified string <br/>
