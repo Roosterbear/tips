@@ -1062,7 +1062,7 @@ __Identity Access Management__
 
 __Day-0 Attacks__
 
-> Is a exploit that is unknown. The CSP can patch their hypervisors and migrate
+> Is an exploit that is unknown. The CSP can patch their hypervisors and migrate
 > loads of jobs to another VMs.
 
 
