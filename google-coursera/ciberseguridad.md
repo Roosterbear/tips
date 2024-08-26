@@ -2274,6 +2274,80 @@ __Incident Response Plan__
 > of incident response
 
 
+__Tool Types__
+
+* Detection and Management Tools
+* Documentation Tools
+* Investigate Tools (_Sniffers_)
+
+
+__Documentation__
+
+> Any form of recorded content that is used for 
+> a specific purpose. There is not a standard.
+> Can be audio, digital, handwritten or video
+
+* Playbooks
+* Incident Handlers Journals
+* Policies
+* Plans
+* Final Reports
+
+_Playbooks_
+
+> A manual that provides details about any operational action
+
+
+_Popular Processor Tools_
+
+* Google Docs
+* OneNote
+* Evernote
+* Notepad++
+
+
+_Ticketing System_
+
+* Jira (_Document and Track Incidents_)
+
+
+__Intrusion Detection System (IDS)__
+
+> An application that monitors system and network
+> activity and produces alerts on possible intrusions
+
+
+__Intrusion Prevention System (IPS)__
+
+> An application that monitors system activity
+> for intrusions and take action to stop the activity
+
+* Snort
+* Suricata
+* Sagan
+* Kismet
+* Zeek
+
+
+_Detection Categories_
+
+1. Positive TRUE __Correct detection of a REAL incident__
+2. Negative TRUE __No Malicious Activity and NO ALERTS__
+3. Positive False __Alert triggers and there is NO REAL Incident__
+4. Negative False __Malicious activity, but NO Alerts__
+
+
+__Endpoint Detection and Response__
+
+
+
+
+
+
+
+
+
+
 
 
 
