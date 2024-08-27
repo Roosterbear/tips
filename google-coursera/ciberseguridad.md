@@ -37,7 +37,7 @@
 <br/>
 
 * Programming Languages
-* Security Incident and Event Management (SIEM) Tools
+* Security Information and Event Management (SIEM) Tools
 * Computer Forensic
 
 
@@ -402,7 +402,7 @@ __AUDIT__
 - Explain scope, goals, findings
 
 
-__SIEM (Security Incident and Event Management) Tools__
+__SIEM (Security Information and Event Management) Tools__
 
 
 __LINUX__
@@ -1040,7 +1040,7 @@ __Intrusion Prevent System [IPS]__
 > Can be false positives, and break the legitemate traffic.
 
 
-__Security Incident and Event Management__ [SIEM]
+__Security Information and Event Management__ [SIEM]
 
 > A tool that gathers and analyzes logs from IDS, IPS, Firewalls, VPN, proxies
 > and DNS in real time.
@@ -2338,6 +2338,25 @@ _Detection Categories_
 
 
 __Endpoint Detection and Response__
+
+
+
+__(SIEM)__
+
+> An application that collects and analyzes log data to monitor
+> critical activities in an organization
+> COLLECT, ANALYZE AND REPORT
+
+
+__Security Orchestration, Automation and Response (SOAR)__
+
+> A collection of applications tools and workflows that uses
+> automation to respond to security events
+> AUTOMATE AND CENTRALIZE
+
+
+
+
 
 
 
