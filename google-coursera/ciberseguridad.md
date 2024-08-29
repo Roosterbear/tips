@@ -2355,6 +2355,33 @@ __Security Orchestration, Automation and Response (SOAR)__
 > AUTOMATE AND CENTRALIZE
 
 
+__Network Traffic__
+
+> The amount of data that moves across a network
+
+
+__Network data__
+
+> The data that's transmitted between devices on a network
+
+
+__Indicators of compromise (IOC)__
+
+> Observable evidence that suggests signs of a potential security incident
+
+
+__Data exfiltration__
+
+> Unauthorized transmission of data from a system
+
+
+
+
+
+
+
+
+
 
 
 
