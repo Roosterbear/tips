@@ -9,5 +9,7 @@
 * Respaldo tatuajesperros.com 20-08-2024
 * Edicion de imagen de logo nuevo para fondo negro
 * Cambio de logo tatuajes perros
-* Actualizacion de 7 plugins
+* Actualizacion de 12 plugins
 * Respaldo de tatuajesperros.com 24-08-2024
+* Desconexión en Pinterest de carpiotattoos
+
