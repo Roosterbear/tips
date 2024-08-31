@@ -2368,6 +2368,8 @@ __Network data__
 __Indicators of compromise (IOC)__
 
 > Observable evidence that suggests signs of a potential security incident
+> Search anomalies with a way to detect an attack.
+> Gives evidence that helps to identify and respond incidents easily.
 
 
 __Data exfiltration__
@@ -2375,21 +2377,101 @@ __Data exfiltration__
 > Unauthorized transmission of data from a system
 
 
+__Pivoting__
+
+> A tactic known as Lateral movement.
+> When a Hacker spend time exploring the network with the goal
+> of expanding and maintaining their access to other systems
+> on the network to identify valuable assets (Lateral Movement).
+
+
+__Defensive Measures__
+
+1. Prevent attacker access
+2. Monitor Network Activity
+3. Protect assets
+4. Detect and Stop exfiltration
+
+
+__Components of a packet__
+
+1. Header - Ports, IP Source and Destination
+2. Payload - Actual data delivered
+3. Footer - Signifies the End of the Packet
+
+
+__PORTS__
+
+> Non-Physical locations on a computer that organize 
+> Data transmission between devices on a network
+
+
+__Network Protocol Analyzer (Packet Sniffer)__
+
+> A Tool designed to capture and analyze data traffic
+> within a network
+
+
+__Packet capture (P-cap)__
+
+> A file containing data packets intercepted from an interface or network.
 
 
 
+__Wireshark__
+
+> Open Source Protocol Analyzer with a GUI
 
 
+__Display Filters__
+
+> Useful when inspecting large volumes of information
 
 
+__Comparison Operators__
+
+|  | Type | Symbol | Abreviature |
+| :---: | :---: | :-----: | 
+| Equal | == | eq |
+| Not Equal | != | ne |
+| Greater than | > | gt |
+| Less than | < | lt |
+| Greater or Equal | >= | ge |
+| Less or Equal | <= | le |
+
+> You can use __and__, __or__, parentheses,  
+> "_contains_" operator or regular expressions (_matches_). 
 
 
+__Filters by protocols:__
 
+* dns
+* http
+* ftp
+* ssh
+* arp
+* icmp
 
+_Filtering IP address_
 
+> ip.addr == 172.21.224.2
 
+_Filtering IP source_
 
+> ip.src == 172.21.224.2
 
+_Filtering IP destination_
+
+> ip.dst == 172.21.224.2
+
+_Filtering MAC address_
+
+> eth.addr == 00:70:f4:23:18:c4
+
+_Filtering Ports_
+
+> udp.port == 53
+> tcp.port == 25
 
 
 
