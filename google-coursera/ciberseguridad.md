@@ -2509,15 +2509,20 @@ __Broken chain of custody__
 
 __Triage__
 
-> The prioritizing of incidents according to their level of importance or urgency
+> The prioritizing of incidents 
+> according to their level of importance or urgency
 
 
 __Eradication__
 
-> The Complete removal of incident elements from all affected systems
+> The Complete removal of incident elements 
+> from all affected systems
 
 
+__Post-incident activity phase__
 
+> The process of reviewing an incident 
+> to identify areas for improvement during incident handling
 
 
 
