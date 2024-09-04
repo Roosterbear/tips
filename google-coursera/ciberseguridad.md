@@ -2475,6 +2475,58 @@ _Filtering Ports_
 
 
 
+__tcpdump__
+
+* _tos_ Type of Service - Value in Hexadecimal, different packets treated with different care
+* _ttl_ Time To Live - How long a packet can travel across a network before dropped
+* _id, offset, flags_ - Fragmentation - How reassemble packets in the correct order
+* _proto_ - Protocol used
+* _length_ - Length of the packet
+* _cksum_ - Checksum to determine if any errors have occurred
+
+
+__Analysis__
+
+> Investigation and Alerts validation
+
+
+__Benefits of Documentation__
+
+* Transparency
+* Standarization
+* Clarity
+
+
+__Chain of Custody__
+
+> The process of documenting evidence possession and control during an incident lifecycle
+
+
+__Broken chain of custody__
+
+> Inconsistencies in the collection and logging of evidence in the chain of custody
+
+
+__Triage__
+
+> The prioritizing of incidents according to their level of importance or urgency
+
+
+__Eradication__
+
+> The Complete removal of incident elements from all affected systems
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
