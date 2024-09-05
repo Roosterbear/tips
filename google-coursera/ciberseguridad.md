@@ -2525,6 +2525,36 @@ __Post-incident activity phase__
 > to identify areas for improvement during incident handling
 
 
+__Logs__
+
+* Network
+* System
+* Application
+* Security
+* Authentication
+
+
+__Log Details__
+
+* Date
+* Time
+* Location
+* Action
+* Names
+
+
+__Log Analysis__
+
+> The process of examining logs to identify events of interest
+
+
+__Log Formats__
+
+> Syslog
+> JSON
+
+
+
 
 
 
