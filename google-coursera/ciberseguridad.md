@@ -2554,6 +2554,39 @@ __Log Formats__
 > JSON
 
 
+__Telemetry__
+
+> The Collection and transmission of data for analysis
+
+
+__Intrusion Detection System (IDS)__
+
+> An application that monitors activity and alerts on possible intrusions
+
+
+__Endpoint__
+
+> Any device connected on a network
+
+
+__Host-based Intrusion Detection System__
+
+> An application that monitors the activity of the host on which it's installed
+
+
+__Network-based Intrusion Detection System__
+
+> An application that collects and monitors network traffic and network data
+
+
+__Signature Analysis__
+
+> A detection method used to find events of interest
+
+
+
+
+
 
 
 
