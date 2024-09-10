@@ -2584,8 +2584,22 @@ __Signature Analysis__
 > A detection method used to find events of interest
 
 
+__RULES__
+
+> Rules or Signatures are used to identify patterns, conditions and specific behaviors
+> about traffic. The Signature Analysis helps to find interest events, and have 3 components:
+
+* Action: What to do if finds a match -> _ALERT_, _PASS_, _DROP_, _REJECT_
+* Header: Information about Network Traffic -> IP addresses, Ports, Protocols
+* Options: Options to Customize Signatures
 
 
+__LOG Files__
+
+> Suricata creates 2 log files:
+
+* eve.json: Standard -> Detailed information and metadata about events / alerts
+* fast.log: Minimum Alert -> Legacy file format, not suitable for incident response
 
 
 
