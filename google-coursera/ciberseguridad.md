@@ -2602,6 +2602,16 @@ __LOG Files__
 * fast.log: Minimum Alert -> Legacy file format, not suitable for incident response
 
 
+__SPLUNK__
+
+> Data Analysis Platform
+
+
+__SPL Search Processing Language__
+
+> Splunk's Query Language
+
+
 
 
 
