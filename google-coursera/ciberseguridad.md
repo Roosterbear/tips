@@ -2612,10 +2612,20 @@ __SPL Search Processing Language__
 > Splunk's Query Language
 
 
+__Chronicle__
+
+> Uses the YARA-L
 
 
+__YARA-L__
+
+> A computer language used to create rules for searching through ingested log data
 
 
+__Types of Search__
+
+* UDM (Unified Data Model) search
+* Raw log search
 
 
 
