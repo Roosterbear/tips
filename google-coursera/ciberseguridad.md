@@ -2644,17 +2644,47 @@ __Types of Search__
 
 
 
-
-
-
-
-
-
-
-
-
-
 ## [7] Automate Cybersecurity Task with Python 🔐🔐🔐🔐🔐🔐🔐
+
+
+
+__Automation__
+
+> The use of technology to reduce human and manual effort to perform
+> common and repetitive tasks
+
+
+__Advantages of Python__
+
+* Resembles human language
+* Less code
+* Easy to read
+* Standard guidelines
+* Online support
+* Built-in code
+
+
+__Automates Tasks__
+
+* Logs Analysis
+* Malware Analysis
+* Access Control Lists Management
+* Intrusions Detection
+* Compliance Control
+* Network Analysis
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## [8] Put to Work: Prepare for Cybersecurity Jobs 🔐🔐🔐🔐🔐🔐🔐
