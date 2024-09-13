@@ -2548,6 +2548,11 @@ __Log Analysis__
 > The process of examining logs to identify events of interest
 
 
+__syslog entry__
+
+> Header, message and structured data
+
+
 __Log Formats__
 
 > Syslog
@@ -2581,7 +2586,7 @@ __Network-based Intrusion Detection System__
 
 __Signature Analysis__
 
-> A detection method used to find events of interest
+> A detection method used to find events of interest (By patterns)
 
 
 __RULES__
@@ -2591,7 +2596,7 @@ __RULES__
 
 * Action: What to do if finds a match -> _ALERT_, _PASS_, _DROP_, _REJECT_
 * Header: Information about Network Traffic -> IP addresses, Ports, Protocols
-* Options: Options to Customize Signatures
+* Options: Options to Customize Signatures -> Flow: match direction of network flow.
 
 
 __LOG Files__
@@ -2606,11 +2611,21 @@ __SPLUNK__
 
 > Data Analysis Platform
 
+* host 
+
+> Specify the host name, like a network device or another system
+
+
+* source
+
+> Identify the file name from the source of an event
+
 
 __SPL Search Processing Language__
 
 > Splunk's Query Language
 
+---
 
 __Chronicle__
 
