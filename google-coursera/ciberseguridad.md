@@ -258,14 +258,15 @@ __CyberSecurity Framework__ [CSF]
 
 Its _CORE_ functions are: <br/>
 
-* Identify -> Manage Risk and its effect
-* Protect -> Strategy to mitigate by policies, procedures, training and tools
-* Detect -> Identify potential incidents - Improving monitoring to speed detections
-* Respond -> Procedures: contain, neutralize, analyze incidents / improvements
-* Recover -> Returning affected systems back to normal operation
+* __Identify__ - Manage Risk and its effect
+* __Protect__ - Strategy to mitigate by policies, procedures, training and tools
+* __Detect__ - Identify potential incidents - Improving monitoring to speed detections
+* __Respond__ - Procedures: contain, neutralize, analyze incidents / improvements
+* __Recover__ - Returning affected systems back to normal operation
 
 <br/>
-Used for -> MANAGE RISK, IMPLEMENT STRATEGIES AND LEARN FROM MISTAKES <br/>
+
+> Used for - __MANAGE RISK, IMPLEMENT STRATEGIES AND LEARN FROM MISTAKES__
 
 __S.P. 800-53__
 
@@ -341,16 +342,16 @@ __Controls__
 
 Principles: <br/>
 
-* Minimize attack surface area -> _all potential vulnerabilities_
-* Principle of __LEAST__ Privilege -> _access required everyday tasks_
-* Defense in Depth -> _multiple security controls_
-* Separation of duties -> _no one should be given so many privileges_
-* Keep security simple -> _avoid unnecessarily complicated solutions_
-* Fix security issues correctly -> _identify root cause, correct and test to ensure_
+* Minimize attack surface area - _all potential vulnerabilities_
+* Principle of __LEAST__ Privilege - _access required everyday tasks_
+* Defense in Depth - _multiple security controls_
+* Separation of duties - _no one should be given so many privileges_
+* Keep security simple - _avoid unnecessarily complicated solutions_
+* Fix security issues correctly - _identify root cause, correct and test to ensure_
 
 ---
 
-Other prnciples: <br/>
+__Another principles:__ <br/>
 
 * Default configuration
 * Secure Fail
@@ -363,28 +364,28 @@ __Security audit__
 > A review of an organization's security controls, policies and procedures
 > against a set of expectations
 
-Purposes: <br/>
+__Purposes:__ <br/>
 
 * Identify organizational risk
 * Assess controls
 * Correct compliance[cumplimiento] issues
 
-Elements: <br/>
+__Elements:__ <br/>
 
-* __SCOPE__ and Goals -> _Criteria_ / _outline_ [boceto] 
-* __RISK__ assessment[evaluacion] -> _identify_ 
-* __CONTROLS__ assessment -> 
+* __SCOPE__ and Goals - _Criteria_ / _outline_ [boceto] 
+* __RISK__ assessment[evaluacion] - _identify_ 
+* __CONTROLS__ assessment:  
   1. _administrative_[human]
   2. _technical_[hardware/software]
   3. _physical_ [access_to_assets]
-* __ASSESSING__ compliance[cumplimiento] -> adhering to _regulations_ 
+* __ASSESSING__ compliance[cumplimiento] - adhering to _regulations_ 
   1. [GDPR] _GENERAL DATA PROTECTION REGULATION_
   2. [PCI-DSS] _PAYMENT CARD INDUSTRY - DATA SECURITY STANDARD_
-* Communicating __RESULTS__ -> summarizes to _stakeholders_
+* Communicating __RESULTS__ - summarizes to _stakeholders_
 
 <br/>
 
-Factors:<br/>
+__Factors:__ <br/>
 
 * Type of industry
 * Size of organization
@@ -393,16 +394,13 @@ Factors:<br/>
 * Comercial Decision
 
 
-__AUDIT__ 
+__AUDIT__ <br/>
 
 - Check scope
 - Choose controls
 - Rate controls
 - Choose norms and standards
 - Explain scope, goals, findings
-
-
-__SIEM (Security Information and Event Management) Tools__
 
 
 __LINUX__
@@ -445,49 +443,55 @@ __Incident Response__
 
 ### INCIDENT RESPONSE PLAYBOOK PHASES
 
-* PREPARATION
-- Mitigate potential impact
-- Documenting procedures
-- Establishing staffing plans
-- Educating users
-- Sets the Foundation for successful incident response
+* __PREPARATION__
+
+1. Mitigate potential impact
+2. Documenting procedures
+3. Establishing staffing plans
+4. Educating users
+5. Sets the Foundation for successful incident response
 
 <br/>
 
-* DETECTION AND ANALYSIS
-- Uses defined processes and technology [tools]
-- Determine whether a breach has occurred
+* __DETECTION AND ANALYSIS__
+
+1. Uses defined processes and technology [tools]
+2. Determine whether a breach has occurred
 
 <br/>
 
-* CONTAINMENT
-- Prevent further or major damage
-- Reduce immediate impact
-- Security proffesionals TAKE ACTION
+* __CONTAINMENT__
+
+1. Prevent further or major damage
+2. Reduce immediate impact
+3. Security proffesionals TAKE ACTION
 
 <br/>
 
-* ERADICATION AND RECOVERY
-- Complete removal of artifacts
-- Return to normal operations
-- Restoration
+* __ERADICATION AND RECOVERY__
+
+1. Complete removal of artifacts
+2. Return to normal operations
+3. Restoration
 
 <br/>
 
-* POST INCIDENT ACTIVITY
-- Documenting the incident
-- Inform to organization leadership
-- Apply lessons learned for future incidents
+* __POST INCIDENT ACTIVITY__
+
+1. Documenting the incident
+2. Inform to organization leadership
+3. Apply lessons learned for future incidents
 
 <br/>
 
-* COORDINATION
-- Sharing information
-- In agreement to Standards
+* __COORDINATION__
 
-_Playbooks are living documents_
+1. Sharing information
+2. In agreement to Standards
 
--> We could modify a manual when: <br/>
+__Playbooks are living documents__
+
+> We could modify a manual when: 
 
 * A flaw is detected
 * Standards changed
@@ -558,7 +562,7 @@ __Cloud Network__
 > in remote data centers that can be accessed via internet.
 
 
--> A Cloud Service Providers offer [CSP]: <br/>
+> A Cloud Service Providers offer [CSP]: 
 
 - On-demand storage
 - Processing power
@@ -573,9 +577,9 @@ __DATA PACKET__
 
 A basic unit of information that travels from one device to another within a network. <br/>
 
-> _Header_ -> IP address / MAC address / Protocol Number
-> _Body_ -> The Message
-> _Footer_ -> Signals to the receiving device that the packet is finished
+> _Header_ - IP address / MAC address / Protocol Number
+> _Body_ - The Message
+> _Footer_ - Signals to the receiving device that the packet is finished
 
 
 __Bandwidth__
@@ -639,7 +643,7 @@ __Transmission Control Protocol [TCP]__
 
 > An internet communication protocol that allows two devices to form
 > a connection and stream data.
-> Uses the _Handshake_ -> SYN - SYN/ACK - ACK
+> Uses the _Handshake_ - SYN - SYN/ACK - ACK
 
 
 __User Datagram Protocol [UDP]__
@@ -948,8 +952,8 @@ __Brute force attack__
 
 > A Trial and Error process to discover private information and could be:
 
-* Simple -> Trying any combination.
-* Dictionary -> Using a list.
+* Simple - Trying any combination.
+* Dictionary - Using a list.
 
 
 __Virtual Machines [VM]__
@@ -1019,7 +1023,7 @@ __Network Security Hardening__
 * Network access privileges
 * Encryption
 
--> Tasks performed: <br/>
+- Tasks performed: <br/>
 
 * Firewall rules maintenance
 * Network log analysis
@@ -1051,7 +1055,7 @@ __Cloud Network__
 > A collection of servers or computers that stores resources and data 
 > in remote data centers that can be accessed via internet.
 
-__[poke and prod!]__ -> "Picarle"
+__[poke and prod!]__ - "Picarle"
 <br/>
 
 __Identity Access Management__
@@ -1087,7 +1091,7 @@ __Bootloader__
 
 > Is the last instruction that starts the Operative System.
 
-User __->__ Application __->__ Operative System __->__ Hardware <br/>
+User - Application - Operative System - Hardware <br/>
 
 
 __User Interface__
@@ -1154,9 +1158,9 @@ _Peripherial_
 
 _Internal_
 
-* __CPU__ -> Main component where all the jobs are made.
-* __RAM__ -> Short-term memory.
-* __Hard Disk__ -> Long-term memory.
+* __CPU__ - Main component where all the jobs are made.
+* __RAM__ - Short-term memory.
+* __Hard Disk__ - Long-term memory.
 
 
 __Penetration test__
@@ -1215,11 +1219,11 @@ Commands: <br/>
 * __head__  Show first 10 lines 
 * __tail__  Show last 10 lines 
 * __less__  A page at a time of a file 
-            space -> next page 
-            b -> previous page 
-            Down arrow -> advance a line 
-            Up arrow -> back a line 
-            q -> exit 
+            space - next page 
+            b - previous page 
+            Down arrow - advance a line 
+            Up arrow - back a line 
+            q - exit 
 
 ---
 
@@ -1228,9 +1232,9 @@ Commands: <br/>
 * [Pipping] Sends the _standard output_ of one command as _standard input_ to another<br/>
             command for further processing, using the pipe (|)character. <br/>
 * [find]    used to search directories and files that meet specified criteria <br/>
-            -name ->  distinguishes names in upper / lowercase <br/>
-            -iname -> no matter upper / lowercase <br/>
-            -mtime -> -3 (Days ago) <br/>
+            -name -  distinguishes names in upper / lowercase <br/>
+            -iname - no matter upper / lowercase <br/>
+            -mtime - -3 (_Days ago_) <br/>
 
 ---------------------------------------------------------------- <br/>
 
@@ -1248,8 +1252,8 @@ Commands: <br/>
 
 __Nano__ text Editor for beginners <br/>
 
-[ctrl+o] -> save
-[ctrl+x] -> exit
+[ctrl+o] - save
+[ctrl+x] - exit
 
 
 __Permissions__ <br/>
@@ -1281,10 +1285,10 @@ __Types of owners__ <br/>
 
 __Listing files__ <br/>
 
-* ls -l -> Displays permissions to files and directories. <br/>
-* ls -a -> Displays hidden files. <br/>
+* ls -l - Displays permissions to files and directories. <br/>
+* ls -a - Displays hidden files. <br/>
 
--> Hidden files starts with "." <br/>
+- Hidden files starts with "." <br/>
 
 __chmod__ <br/>
 
@@ -1340,23 +1344,24 @@ __groupdel__ <br/>
 Deletes a group. <br/>
 
 _Remember:_ <br/>
--> When we creates a new user, a new group of the same name is created. <br/>
+
+> When we creates a new user, a new group of the same name is created. 
 
 
 __man__ <br/>
 
-Displays information on other commands and how they work. <br/>
+> Displays information on other commands and how they work. 
 
 
 __whatis__ <br/>
 
-Displays a description of a command on a single line. <br/>
+> Displays a description of a command on a single line. 
 
 
 __apropos__ <br/>
 
-Searches the manual page descriptions for a specified string. <br/>
-[-a] -> Will return only the commands that contain both strings. <br/>
+> Searches the manual page descriptions for a specified string. 
+> [-a] -> Will return only the commands that contain both strings. 
 
 
 
@@ -1442,32 +1447,33 @@ Specifies that either condition can be met. <br/>
 
 __NOT__ <br/>
 
-Negates a condition. <br/>
--> where NOT price = 100 <br/>
--> where price <> 100 <br/>
--> where price != 100 <br/>
+__Negates a condition__ <br/>
+
+> where NOT price = 100 
+> where price <> 100
+> where price != 100
 
 
 __NULL__ <br/>
 
-Represents a missing value due to any reason. <br/>
+> Represents a missing value due to any reason.
 
 
 __LEFT JOIN__ <br/>
 
-Returns all of the records of the first table, but only returns rows <br/>
-of the second table that match on a specified column. <br/>
+> Returns all of the records of the first table, but only returns rows
+> of the second table that match on a specified column.
 
 
 __RIGHT JOIN__ <br/>
 
-Returns all of the records of the second table, but only returns rows <br/>
-from the first table that match on a specified column. <br/>
+> Returns all of the records of the second table, but only returns rows 
+> from the first table that match on a specified column. 
 
 
 __FULL OUTER JOIN__ <br/>
 
-Returns all records from both tables. <br/>
+> Returns all records from both tables. 
 
 
 
@@ -1478,36 +1484,36 @@ Returns all records from both tables. <br/>
 
 __RISK__ <br/>
 
-Anything that can impact the confidentiality, integrity,<br/>
-or availability of an asset. <br/>
+> Anything that can impact the confidentiality, integrity,
+> or availability of an asset. 
 
 
 __Security Risk Planning__ <br/>
 
-_Assets_ -> An item perceived as having value to an organization. <br/>
-_Threats_ -> Any circumstance or event that can negatively impact assets. <br/>
-_Vulnerabilities_ -> A weakness that can be exploited by a threat. <br/>
+> _Assets_ - An item perceived as having value to an organization. 
+> _Threats_ - Any circumstance or event that can negatively impact assets. 
+> _Vulnerabilities_ - A weakness that can be exploited by a threat. 
 
 
 __Asset management__ <br/>
 
-The process of tracking assets and risks that affect them. <br/>
+> The process of tracking assets and risks that affect them.
 
 
 __Asset inventory__ <br/>
 
-A catalog of assets that need to be protected. <br/>
+> A catalog of assets that need to be protected. 
 
 
 __Asset classification__ <br/>
 
-The practice of labeling assets based on sensitivity <br/>
-and importance to an organization. <br/>
+> The practice of labeling assets based on sensitivity
+> and importance to an organization.
 
-_Public_ -> Shared with anyone <br/>
-_Internal-only_ -> Shared with anyone inside organization <br/>
-_Confidential_ -> Accessed by those working on a specific project <br/>
-_Restricted_ -> Highly sensitive and must be protected <br/>
+* _Public_ - Shared with anyone 
+* _Internal-only_ - Shared with anyone inside organization
+* _Confidential_ - Accessed by those working on a specific project
+* _Restricted_ -> Highly sensitive and must be protected
 
 
 __Data__ <br/>
@@ -1664,27 +1670,27 @@ A trial and error process of discovering private information <br/>
 
 __Public Key Infrastructure__ [PKI]<br/>
 
-An encryption framework that secures the exchange of information online <br/>
+> An encryption framework that secures the exchange of information online
 
 
 __Asymmetric Encryption__ <br/>
 
-The use of a public and private key pair for encryption <br/>
-and data decryption of data <br/>
-->[RSA],[DSA]
+> The use of a public and private key pair for encryption 
+> and data decryption of data 
+> [RSA],[DSA]
 
 
 __Symmetric Encryption__ <br/>
 
-The use of a single secret key to exchange information <br/>
-->[3DES],[AES]
+> The use of a single secret key to exchange information
+> [3DES],[AES]
 
-->Both Encryptions rely on sharing keys that can be misused, lost or stolen <br/>
+__Both Encryptions rely on sharing keys that can be misused, lost or stolen__ <br/>
 
 
 __Digital certificate__ <br/>
 
-A file that verifies the identity of a public key holder <br/>
+> A file that verifies the identity of a public key holder
 
 
 ------------------------ [Lab] ------------------------------- <br/>
@@ -1699,11 +1705,14 @@ rshqvvo dhv-256-fef -sengi2 -d -g -lq T1.hqfubswhg -rxw T1.uhfryhuhg -n hwwxeuxw
 cat .leftShift3 | tr "d-za-cD-ZA-C" "a-zA-Z"
 ```
 
-_Note:_ The __tr__ command translates text from one set of characters to another, <br/>
+_Note:_ <br/>
+The __tr__ command translates text from one set of characters to another, <br/>
 using a mapping. <br/>
-The first parameter to the __tr__ command represents the input set of characters, <br/>
+The first parameter to the __tr__ command represents the input <br/>
+set of characters, <br/>
 and the second represents the output set of characters. <br/> 
-Hence, if you provide parameters “abcd” and “pqrs”, and the input string to the __tr__ command <br/>
+Hence, if you provide parameters “abcd” and “pqrs”, <br/>
+and the input string to the __tr__ command <br/>
 is “ac”, the output string will be “pr". <br/>
 
 
@@ -1711,12 +1720,16 @@ is “ac”, the output string will be “pr". <br/>
 openssl aes-256-cbc -pbkdf2 -a -d -in Q1.encrypted -out Q1.recovered -k ettubrute
 ```
 
-Although you don't need to memorize this command, to help you better understand the syntax used, let's break it down.<br/>
+Although you don't need to memorize this command, <br/>
+to help you better understand the syntax used, let's break it down.<br/>
 
-In this instance, the openssl command reverses the encryption of the file with a secure symmetric cipher, <br/>
+In this instance, the openssl command reverses the encryption 
+of the file with a secure symmetric cipher, <br/>
 as indicated by AES-256-CBC. <br/>
-The -pbkdf2 option is used to add extra security to the key, and -a indicates the desired encoding for the output. <br/>
-The -d indicates decrypting, while -in specifies the input file and -out specifies the output file. <br/>
+The -pbkdf2 option is used to add extra security to the key, <br/>
+and -a indicates the desired encoding for the output. <br/>
+The -d indicates decrypting, while -in specifies the input file <br/>
+and -out specifies the output file. <br/>
 The -k specifies the password, which in this example is ettubrute. <br/>
 
 
@@ -1728,22 +1741,22 @@ An algorithm that produces a code that _CAN'T BE DECRYPTED_. <br/>
 ```bash
 sha256sum newfile.txt
 ```
-->[SHA] Secure Hash Algorithm (SHA-1, SHA-224, SHA-256, SHA-384, SHA-512)
+> [SHA] Secure Hash Algorithm (SHA-1, SHA-224, SHA-256, SHA-384, SHA-512)
 
 __Non Repudiation__ <br/>
 
-The concept that the authenticity of information can't be denied. <br/>
+>The concept that the authenticity of information can't be denied. 
 
 
 __Rainbow Tables__ <br/>
 
-Is a file with weak passwords and their hashes. <br/>
+> Is a file with weak passwords and their hashes. 
 
 
 __Salting__ <br/>
 
-Additional protection to strengthen hash functions. <br/>
-Is a random chain of characters added BEFORE hashing. <br/>
+> Additional protection to strengthen hash functions. 
+> Is a random chain of characters added BEFORE hashing. 
 
 
 __Comparing__ <br/>
@@ -1756,15 +1769,15 @@ cmp hashed1 hashed2
 
 __Access controls__ <br/>
 
-Security controls that manage access, authorization, and <br/>
-accountability of information. <br/>
+> Security controls that manage access, authorization, and 
+> accountability of information. 
 
 
 __AAA Framework__ <br/>
 
-* Authentication <br/>
-* Authorization <br/>
-* Accounting <br/>
+* Authentication 
+* Authorization 
+* Accounting 
 
 
 __Factors of AUTHENTICATION__ <br/>
@@ -1778,8 +1791,8 @@ __Factors of AUTHENTICATION__ <br/>
 
 [MFA] __Multi-Factor Authentication__ <br/>
 
-A security measure which requires a user to verify their identity <br/>
-in two or more ways to access a system or network. <br/>
+> A security measure which requires a user to verify their identity 
+> in two or more ways to access a system or network. 
 
 
 __Mechanisms of AUTHORIZATION__ <br/>
@@ -2647,7 +2660,6 @@ __Types of Search__
 ## [7] Automate Cybersecurity Task with Python 🔐🔐🔐🔐🔐🔐🔐
 
 
-
 __Automation__
 
 > The use of technology to reduce human and manual effort to perform
@@ -2674,6 +2686,40 @@ __Automates Tasks__
 * Network Analysis
 
 
+__Comment__
+
+> A note programmers make about the intention behind the code
+
+
+__Syntax__
+
+> The rules that determine what is correctly structured
+> in a computer language
+
+
+__Data Type__
+
+> Category for a particular type of data item
+
+
+__String Data__
+
+> Data consisting of an ordered sequence of characters
+
+
+__Float Data__
+
+> Data consisting of a number with a decimal point
+
+
+__Integer Data__
+
+> Data consisting of a number that does not include decimal point
+
+
+__List Data__
+
+> Data structure that consists of a collection of data in sequential form
 
 
 
