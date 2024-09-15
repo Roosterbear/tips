@@ -1,1 +1,0 @@
-# Seguridad Informatica - Servidores Linux: Hardening
