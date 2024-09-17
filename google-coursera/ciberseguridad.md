@@ -2722,6 +2722,15 @@ __List Data__
 > Data structure that consists of a collection of data in sequential form
 
 
+__Variables__
+
+> A container that stores data
+
+
+__type()__
+
+> A function that return the data type of its input
+
 
 
 
