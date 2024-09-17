@@ -7,7 +7,7 @@
 Podemos declarar arrays de las siguientes formas: <br/>
 
 ```java
-double[] array;
+double[] arr;
 int arr[] = {1,2,3};
 int arr[] = new int[5];
 ```
@@ -134,6 +134,19 @@ Point r = new Rectangle(); // CORRECTO: La variable es mas grande que el conteni
 Circle c = new Point(); //ERROR: El contenido es mas general que la variable
 Rectangle r = new Point(); //ERROR: La variable es mas especifica que el contenido
 ```
+
+## WRAPPERS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+> Tipos de datos de referencia basados en __PRIMITIVOS__
+
+| Primitivo | Clase Equivalente | 
+| :---: | :---: | 
+| byte | Byte | 
+| short | Short | 
+
+
+
+
 
 ## EXCEPCIONES @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
