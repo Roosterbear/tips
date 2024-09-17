@@ -2,14 +2,6 @@
 
 ## CONCEPTOS BASICOS @@@@@@@@@@@@@@@@@@@@@@@
 
-### Tipos de Datos
-
-* int
-* double
-* String
-* bool
-
-
 ### Arrays
 
 Podemos declarar arrays de las siguientes formas: <br/>
@@ -102,7 +94,6 @@ Existen 3 propiedades principales: <br/>
 ### Clases
 
 > Son moldes para crear objetos
-
 
 
 ### Sobrecarga de metodos

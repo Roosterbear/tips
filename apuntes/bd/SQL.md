@@ -3,55 +3,66 @@
 ## SQL Server
 
 __DDL__ _Data Definition Language_ <br/>
-Like CREATE, ALTER or DROP. <br/>
+
+> Like CREATE, ALTER or DROP. 
 
 __DML__ _Data Manipulation Language_ <br/>
-Like SELECT, INSERT, UPDATE, DELETE <br/>
+
+> Like SELECT, INSERT, UPDATE, DELETE 
 
 __DCL__ _Data Control Language_ <br/>
-COMMIT, ROLLBACK, GRANT, REVOKE <br/>
+
+> COMMIT, ROLLBACK, GRANT, REVOKE 
+
 
 __Schema__ <br/>
 
-Set of Databases oriented to the user <br/>
+> Set of Databases oriented to the user 
 
 <br/>
 
->sp_help 'table'
-
-Shows the _structure_ of the table 'table' and timestamp of creation. <br/>
-We can use the same for _stored procedures_ and _views_ <br/>
+```sql
+sp_help 'table'
+```
+> Shows the _structure_ of the table 'table' and timestamp of creation. 
+> We can use the same for _stored procedures_ and _views_ 
 <br/>
 
->sp_helptext 'view'
-
-Shows the code from a _stored procedure_ or _view_ <br/>
+```sql
+sp_helptext 'view'
+```
+> Shows the code from a _stored procedure_ or _view_ 
 <br/>
 
->sp_columns 'table'
-
-Shows more info from a table. <br/>
+```sql
+sp_columns 'table'
+```
+> Shows more info from a table. 
 <br/>
 
->select * from sys.tables
-
-List __ALL__ the tables <br/>
+```sql
+select * from sys.tables
+```
+>List __ALL__ the tables 
 <br/>
 
->select table_name from information_schema.tables
->where table_type = 'base table' order by 'table_name'
-
-List all __SCHEMAS__ and tables <br/>
+```sql
+select table_name from information_schema.tables
+where table_type = 'base table' order by 'table_name'
+```
+> List all __SCHEMAS__ and tables <br/>
 <br/>
 
->sp_helpconstraint table
-
-Shows restrictions from the table <br/>
+```sql
+sp_helpconstraint table
+```
+> Shows restrictions from the table 
 <br/>
 
->sp_depends procedure
-
-Shows if an object depends of procedure <br/>
+```sql
+sp_depends procedure
+```
+> Shows if an object depends of procedure 
 <br/>
 
 

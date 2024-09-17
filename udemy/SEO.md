@@ -5,10 +5,8 @@
 ### Dominio
 
 * Usar __Namecheap__ o _GoDaddy_
-* Elige un nombre exacto y __sonoro__
-* No es necesario usar guiones de ningun tipo
-
-> Un subdominio es un nombre antes del dominio, tipo blog.misitio.com
+* Nombre exacto y __sonoro__
+* No usar guiones de ningun tipo
 
 
 ### Hosting
@@ -17,18 +15,9 @@
 * Que tenga instalador de Wordpress
 
 
-### Permalinks o enlaces permanentes
-
-* Debemos usar URLs amigables
-
-
 ### Indexar a Google
 
 * Buscar el dominio en google como: _site:misitio.com_
-
-
-### Knowledge Graph
-
 
 
 ### Site Map
@@ -66,37 +55,6 @@ sitemap:  https://misitio.com/category-sitemap.xml
 
 1.- Crear cuenta
 2.- Meter codigo en nuestro header del sitio web
-
-
-### Microformatos
-
-> Estan en schema.org
-
-
-## Herramientas
-
-* SEMRush Sensor
-* MOZCast
-* AlgoRoo
-
-
-### Análisis de Keywords
-
-* Listar palabras
-* Alguien esta buscando esa palabra?
-* Quién aparece en los __primeros resultados__
-* Crear un Excel con nuestra lista y el __Tipo de Contenido__ 
-* Dejar que el buscador nos muestre más palabras dejando un __espacio en blanco__ después del texto
-* Ver las __"búsquedas relacionadas"__
-
-
-### Herramientas para Palabras Clave
-
-* Keyword Tool
-* Answer the public
-* SemRush
-* __KWFinder__
-* Soovle
 
 
 ## SEARCH CONSOLE

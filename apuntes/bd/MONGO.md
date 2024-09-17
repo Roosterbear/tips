@@ -8,7 +8,7 @@
 4.- Now write the destiny path: _usr/local/mongodb_ <br/>
 Go to Home directory and create a bash file, then edit it:
 
-```terminal
+```bash
 cd ~
 touch .bash_profile
 vim .bash_profile
@@ -62,16 +62,16 @@ In Terminal Type: _mongod_ <br/>
 
 If launchs an SocketException Error: Address already in use, check old instance:
 
-```terminal
+```bash
 sudo lsof -iTCP -sTCP:LISTEN -n -P
 ```
 Then kill process:
 
-```terminal
+```bash
 sudo kill ###
 ```
 
-Where _###_ is the PID. <br/>
+> Where _###_ is the PID. 
 
 ---
 
