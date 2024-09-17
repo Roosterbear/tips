@@ -137,16 +137,46 @@ Rectangle r = new Point(); //ERROR: La variable es mas especifica que el conteni
 
 ## WRAPPERS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-> Tipos de datos de referencia basados en __PRIMITIVOS__
+> Tipos de datos de referencia o clase basados en __PRIMITIVOS__
+> Dan mayor funcionallidad para operaciones de comprobaciones y conversiones
 
 | Primitivo | Clase Equivalente | 
 | :---: | :---: | 
 | byte | Byte | 
 | short | Short | 
+| int | Integer | 
+| long | Long | 
+| float | Float | 
+| double | Double | 
+| char | Character | 
+| boolean | Boolean | 
 
+__BOXING__
 
+> Ya no se utiliza el constructor _new_ para crear __wrappers__
+> La forma de crear un wrapper de manera explicita con __valueOf__
 
+```java
+Integer i = Integer.valueOf(123456);
+```
 
+> Aunque podemos hacerlo de manera implícita
+
+```java
+Integer i = 123456;
+```
+
+__UNBOXING__
+
+> De igual manera podemos convertir de manera implícita y explícita:
+
+```java
+Integer intObjeto = 123456;
+
+int num1 = intObjeto.intValue();
+int num2 = intObjeto;
+
+```
 
 ## EXCEPCIONES @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
