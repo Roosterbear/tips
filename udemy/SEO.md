@@ -57,6 +57,22 @@ sitemap:  https://misitio.com/category-sitemap.xml
 2.- Meter codigo en nuestro header del sitio web
 
 
+
+### SERP - Search Engine Results Page
+
+* site:misitio.com
+
+> busca solo contenido de un sitio web
+
+* busqueda -misitio.com
+
+> una busqueda de un tema que no sea en nuestro sitio
+
+
+
+
+
+
 ## SEARCH CONSOLE
 
 > Ir a searchconsole.cc
