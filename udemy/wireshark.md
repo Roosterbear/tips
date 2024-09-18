@@ -9,15 +9,30 @@
 > Los Routers dividen DOMINIOS DE BROADCAST
 > Los Switches dividen DOMINIO DE COLISION
 
+__Pantalla Inicial__
 
-* LISTADO DE PAQUETES
-* DETALLES DE PAQUETE
+> En la pantalla de inicio se muestran las __INTERFACES__
+> Cada interface muestra lineas de vida llamadas __SPARK LINES__
+
+
+* __PANEL LISTA DE PAQUETES__
+  > 1. __No__ - Número secuencial conforme se capturan los paquetes
+  > 2. __Time__ - Tiempo transcurrido a partir de la primer captura
+  > 3. __Source__ - IP origen
+  > 4. __Destination__ - IP destino
+  > 5. __Protocol__ - Protocolo de más alto nivel usado en el paquete
+  > 6. __Length__ - Tamaño en Bytes del paquete
+  > 7. __Info__ - La mayor información posible del paquete
+
+
+* __PANEL DETALLES DE PAQUETE__
   > 1. __Metadata__
   > 2. __Capa de Enlace__
   > 3. __Capa de Red__
   > 4. __Capa de Transporte__
   > 5. __Capa de Aplicacion__
-* 
+* __PANEL DE BYTES__
+  > Muestra la información del paquete en __Hexadecimal__ y en __ASCII__
 
 
 ## Filtros
