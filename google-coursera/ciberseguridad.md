@@ -2675,7 +2675,7 @@ __Advantages of Python__
 * Online support
 * Built-in code
 
-
+ 
 __Automates Tasks__
 
 * Logs Analysis
@@ -2732,7 +2732,24 @@ __type()__
 > A function that return the data type of its input
 
 
+__Conditionals__
 
+```python
+operating_system = 3
+if operating_system < 3:
+  print("Updates needed")
+else:
+  print("No updates needed")
+  
+```
+
+__Loops__
+
+```python
+for i in range(3):
+  print("No se pudo establecer la conexión")
+
+```
 
 
 
