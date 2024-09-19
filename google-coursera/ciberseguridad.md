@@ -2751,6 +2751,13 @@ for i in range(3):
 
 ```
 
+__Function__
+
+> A section of code that can be reused in a program
+
+
+
+
 
 
 

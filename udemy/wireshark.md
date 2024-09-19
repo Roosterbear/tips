@@ -15,7 +15,7 @@ __Pantalla Inicial__
 > Cada interface muestra lineas de vida llamadas __SPARK LINES__
 
 
-* __PANEL LISTA DE PAQUETES__
+* __PANEL DE LISTA__
   > 1. __No__ - Número secuencial conforme se capturan los paquetes
   > 2. __Time__ - Tiempo transcurrido a partir de la primer captura
   > 3. __Source__ - IP origen
@@ -24,16 +24,22 @@ __Pantalla Inicial__
   > 6. __Length__ - Tamaño en Bytes del paquete
   > 7. __Info__ - La mayor información posible del paquete
 
-
-* __PANEL DETALLES DE PAQUETE__
+* __PANEL DE DETALLES__
   > 1. __Metadata__
   > 2. __Capa de Enlace__
   > 3. __Capa de Red__
   > 4. __Capa de Transporte__
   > 5. __Capa de Aplicacion__
+
 * __PANEL DE BYTES__
   > Muestra la información del paquete en __Hexadecimal__ y en __ASCII__
 
 
 ## Filtros
+
+```bash
+ip.src==192.168.0.0/16
+ip.src==192.168.0.0/16 and ip.dst==192.168.0.0/16
+tcp.port eq 25 or icmp
+```
 
