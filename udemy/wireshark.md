@@ -46,6 +46,10 @@ __Socket__
 3. Elegimos _"Apply as Column"_
 
 
+## Quitar columnas
+
+1. Para _eliminar_ - Botón Derecho - Eliminar
+2. Para __ocultar__ - Botón Derecho Encabezado - Quitar Selección
 
 
 ## Filtros
