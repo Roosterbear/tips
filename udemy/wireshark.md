@@ -34,6 +34,19 @@ __Pantalla Inicial__
 * __PANEL DE BYTES__
   > Muestra la información del paquete en __Hexadecimal__ y en __ASCII__
 
+__Socket__
+
+> Es el conjunto de una dirección IP y el puerto
+
+
+## Agregar columnas
+
+1. En el Panel de Detalles, seleccionamos un dato que necesitemos
+2. Damos click con el __botón DERECHO__ sobre ese dato
+3. Elegimos _"Apply as Column"_
+
+
+
 
 ## Filtros
 
