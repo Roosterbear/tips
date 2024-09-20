@@ -2766,6 +2766,54 @@ __Argument__
 > The data brought into a function when it is called 
 
 
+__Return statement__
+
+> Statement that executes inside a function and sends information back
+> to the function call
+
+
+__sorted()__
+
+> Helps to order a list
+
+
+__Library__
+
+> A collection of modules that provide code users can access
+> in their programs
+
+* Beautiful Soup
+* NumPy
+
+
+__Module__
+
+> A Python file that contains additional functions,
+> variables, classes and any kind of runnable code
+
+* re
+* csv
+* glob
+* os
+* time
+* datetime
+
+
+__PEP (_Python Enhancement Proposals_) 8 style guide__
+
+> A resource that provides stylistic guidelines
+> for origrammers working in Python
+
+
+__Indentation__
+
+> Space added at the beginning of a line of code
+
+
+
+
+
+
 
 
 
