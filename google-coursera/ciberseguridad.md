@@ -2756,6 +2756,16 @@ __Function__
 > A section of code that can be reused in a program
 
 
+__Parameter__
+
+> An object that is included in a function definition
+
+
+__Argument__
+
+> The data brought into a function when it is called 
+
+
 
 
 
