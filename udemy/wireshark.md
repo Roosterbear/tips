@@ -52,6 +52,24 @@ __Socket__
 2. Para __ocultar__ - Botón Derecho Encabezado - Quitar Selección
 
 
+## Aislar columnas
+
+1. Primero creamos una columna nueva, Ej. Host
+2. Damos __DOBLE CLICK__ al encabezado para ordenarlas
+3. Ahora estan juntos los paquetes que tengan contenido en Host
+
+
+## Disectores
+
+> Es un componente que interpreta y muestra los datos de un protocolo específico
+
+1. __Método Estático__ - Interpreta los _números de puerto_ conocidos en la capa de transporte
+2. __Método Heurístico__ - Intenta adivinar el protocolo en un _puerto no-estándar_
+3. __Método Manual__ - Lo asignamos un protocolo por medio de _Decode As_
+
+
+
+
 ## Filtros
 
 ```bash
