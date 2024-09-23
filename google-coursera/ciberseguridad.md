@@ -2810,6 +2810,58 @@ __Indentation__
 > Space added at the beginning of a line of code
 
 
+__str()__
+
+> Converts the input object into a string
+
+
+__len()__
+
+> Return the number of elements in an object
+> Ex. id_chars = len(employee_id)
+
+
+__method__
+
+> A function that belongs to a specific data type
+
+
+__.upper()__
+
+> Returns a copy of the string in all uppercase letters
+
+
+__.lower()__
+
+> Return a copy of the string in all lowercase letters
+
+
+__INDEX()__
+
+> A number assigned to every element in a sequence of a STRING that indicates its position
+> We can get more than 1 character with _slices:_
+> Ex. print("Hello"[0:4]) returns "Hell". 
+> The first number is the start, the second, where to stop (but not to show!)
+
+
+__.index()__
+
+> Method that finds the first occurrence of the input
+> in a string and returns its location
+> Ex. print("HELLO".index("E"))
+> To find the index of letter "E" in "HELLO"
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
