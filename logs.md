@@ -4,6 +4,8 @@
 
 * Redirecciones finales
 * Cambio de enlaces en Pines de Pinterest
-* Eliminacion de contenido de carpiotattoos.com
+* Eliminacion contenido de carpiotattoos.com para evitar duplicado
 * Agregación de site maps en google search console
+* Obtención de 12 imágenes nuevas de instagram para tatuajes
+
 
