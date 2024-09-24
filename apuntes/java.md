@@ -2,6 +2,17 @@
 
 ## CONCEPTOS BASICOS @@@@@@@@@@@@@@@@@@@@@@@
 
+
+### Estructura
+
+```java
+public class HolaMundo{
+  public static void main(String[] args){
+    System.out.println("Hola Mundo");
+  }
+}
+```
+
 ### Arrays
 
 Podemos declarar arrays de las siguientes formas: <br/>
@@ -72,8 +83,8 @@ do{
 Existen 3 propiedades principales: <br/>
 
 ### Encapsulamiento
-> Es la combinacionde un registro
-> con funciones paramanipular sus datos
+> Es la combinacion de un registro
+> con funciones para manipular sus datos
 > con lo que forma un nuevo tipo de dato: EL OBJETO
 
 ### Herencia
@@ -135,6 +146,34 @@ Circle c = new Point(); //ERROR: El contenido es mas general que la variable
 Rectangle r = new Point(); //ERROR: La variable es mas especifica que el contenido
 ```
 
+
+> EL COMPILADOR AGREGA POR DEFAULT:
+
+* UN CONSTRUCTOR 
+* UNA LLAMADA A super()
+
+> LOS CONSTRUCTORES SE LLAMAN IGUAL QUE LA CLASE
+> LOS CONSTRUCTORES NO LLEVAN TIPO DE RETORNO
+> LOS CONSTRUCTORES NO LLEVAN ARGUMENTOS
+> LOS CONSTRUCTORES SE LLAMAN SOLO AL CREAR UNA INSTANCIA
+
+
+### Accesors / Mutators
+
+> Debido a que los datos de una instancia es por lo general
+> declarados con visibilidad __privada__
+> una clase provee servicios para acceder y modificar valores.
+<br/>
+
+> Un método como __getData__ se le llama __ACCESOR__ porque 
+> provee acceso de "solo-lectura" a un valor particular.
+<br/>
+
+> Igualmente, un método como __setData__ se llama __MUTATOR__
+> porque cambia un valor en particular.
+<br/>
+
+
 ## WRAPPERS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 > Tipos de datos de referencia o clase basados en __PRIMITIVOS__
@@ -154,13 +193,13 @@ Rectangle r = new Point(); //ERROR: La variable es mas especifica que el conteni
 __BOXING__
 
 > Ya no se utiliza el constructor _new_ para crear __wrappers__
-> La forma de crear un wrapper de manera explicita con __valueOf__
+> La forma de crear un wrapper de manera explicita es con __valueOf__
 
 ```java
 Integer i = Integer.valueOf(123456);
 ```
 
-> Aunque podemos hacerlo de manera implícita
+> O más comunmente, de manera implícita (directa)
 
 ```java
 Integer i = 123456;
@@ -175,8 +214,66 @@ Integer intObjeto = 123456;
 
 int num1 = intObjeto.intValue();
 int num2 = intObjeto;
+```
+
+## ENUM
+
+> Son una alternativa al uso de CONSTANTES
+> ya que describen un conjunto de elementos
+> que pueden ser asignados o comparados.
+
+```java
+public enum PowerStatus {OFFLINE, ONLINE};
+```
+
+> Lo podemos usar de la siguiente manera:
+
+```java
+PowerStatus pow = PowerStatus.ONLINE;
+if(pow = PowerStatus.ONLINE){
+  System.out.println("Encendido");
+}
+```
+
+
+## String Builder
+
+```java
+StringBuilder sb = new StringBuilder();
+sb.append("Hola Mundo");
+```
+
+## StringTokenizer
+
+```java
+import java.util.StringTokenizer;
+public class StringTokenizerDemo{
+  public static void main(String[] args){
+    String str = "1,2,3,4,5,6,7,8,9";
+    StringTokenizer st = new StringTokenizer(str, ", ");
+    while(st.hasMoreTokens()){
+      String s = st.nextToken();
+      System.out.println(s);
+    }
+  }
+
+}
 
 ```
+
+## Interface
+
+> Es un conjunto de declaraciones de métodos
+> Es como establecer un CONTRATO, donde una clase
+> declara que implementa todos los métodos
+> establecidos en esa interface
+
+
+## Anotaciones
+
+> Es la manera de tener una REFERENCIA dentro de la clase
+> y mostrar información UTIL
+
 
 ## EXCEPCIONES @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
