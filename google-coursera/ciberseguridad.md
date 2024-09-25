@@ -2878,8 +2878,22 @@ __Algorithm__
 > A set of rules that solve a problem
 
 
+### REGULAR EXPRESSIONS
 
+#### +
 
+> Represents one or more occurrences of a specific character
+> Ex. "a+" can get: "a", "aaaa"
+
+### \w
+
+> Matches with any alphanumeric character
+> but it does not match symbols
+> Ex. "\w" can get "1","c"
+
+### \w+
+
+> This combination can get: "security", "abc123", "192"
 
 
 
