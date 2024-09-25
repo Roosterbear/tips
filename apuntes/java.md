@@ -216,6 +216,19 @@ int num1 = intObjeto.intValue();
 int num2 = intObjeto;
 ```
 
+## DATE 
+
+> Tenemos que importar __java.util.Date__
+
+```java
+SimpleDateFormat df1 = new SimpleDateFormat("dd MMMM, yyyy");
+SimpleDateFormat df2 = new SimpleDateFormat("dd-MM-yyyy");
+SimpleDateFormat df3 = new SimpleDateFormat("dd/MMM/yyyy");
+
+String fechaStr = df.format(fecha);
+```
+
+
 ## ENUM
 
 > Son una alternativa al uso de CONSTANTES
