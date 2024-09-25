@@ -2852,6 +2852,32 @@ __.index()__
 > To find the index of letter "E" in "HELLO"
 
 
+__.insert()__
+
+> Adds an element in a specific position inside a list
+
+```python
+my_list = ["a","b","c"]
+my_list.insert(1,"ab")
+# now is ["a","ab","b","c"]
+```
+
+
+__.remove()__
+
+> Removes the first occurrence of a specific element in a list
+
+```python
+my_list = ["a","b","c"]
+my_list.remove("ab")
+# now is ["a","b","c"] again
+```
+
+__Algorithm__
+
+> A set of rules that solve a problem
+
+
 
 
 
