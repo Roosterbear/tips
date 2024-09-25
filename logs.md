@@ -7,5 +7,6 @@
 * Eliminacion contenido de carpiotattoos.com para evitar duplicado
 * Agregación de site maps en google search console
 * Obtención de 12 imágenes nuevas de instagram para tatuajes
-
+* Edición de 12 imágenes nuevas de tatuajes
+* Subir a sitio web 12 imágenes nuevas de tatuajes
 
