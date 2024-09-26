@@ -2943,7 +2943,7 @@ print(re.findall("\d{1,3}", "h32rb17 k825t0m c2994eh"))
 
 ```python
 # IP pattern !!!!
-pattern = "\d{3}\.\d{3}\.\d{3}\.\d{3}"
+pattern = "\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}"
 ```
 
 
