@@ -2896,7 +2896,55 @@ __Algorithm__
 > This combination can get: "security", "abc123", "192"
 
 
+### .
 
+> Any character
+
+
+### \d
+
+> All digits
+
+```python
+import re
+print(re.findall("\d","h32rb17"))
+# ['3','2','1',7']
+```
+
+### \s
+
+> Spaces
+
+
+### \.
+
+> Period.
+
+
+### Combinations
+
+```python
+import re
+print(re.findall("\d+","h32rb17"))
+# ['32','17']
+```
+
+```python
+import re
+print(re.findall("\d{2}", "h32rb17 k825t0m c2994eh"))
+# ['32', '17', '82', '29', '94']
+```
+
+```python
+import re
+print(re.findall("\d{1,3}", "h32rb17 k825t0m c2994eh"))
+# ['32', '17', '825', '0', '299', '4']
+```
+
+```python
+# IP pattern !!!!
+pattern = "\d{3}\.\d{3}\.\d{3}\.\d{3}"
+```
 
 
 
