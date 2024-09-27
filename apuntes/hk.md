@@ -16,5 +16,4 @@ sudo openvpn File.ovpn
 8. Start a Machine
 
 
-## hackerone.com
 
