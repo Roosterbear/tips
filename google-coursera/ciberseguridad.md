@@ -2948,6 +2948,44 @@ pattern = "\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}"
 
 
 
+### with
+
+> Handles errors and manages external resources
+
+
+__open()__
+
+> Opens a file in Python
+
+```python
+with open("login_atempts.txt", "r") as file:
+
+```
+
+__.read()__
+
+> Converts files into strings
+
+```python
+with open("login_atempts.txt", "r") as file:
+  file_text = file.read()
+
+print(file_text)
+```
+
+
+## Parsing
+
+> The process of converting data into a more readable format
+
+
+__.split()__
+
+> Converts a string into a list
+
+
+
+
 
 
 

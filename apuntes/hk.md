@@ -17,3 +17,33 @@ sudo openvpn File.ovpn
 
 
 
+## Gathering
+
+https://sitereport.netcraft.com/
+https://builtwith.com/
+https://crt.sh/
+
+
+__dirb__
+
+* Trabajar desde consola de Kali Linux
+
+```bash
+dirb https://dominio.com
+dirb https://dominio.com -X .php,.html
+dirb https://dominio.com -o  out.txt
+```
+
+__gobuster__
+
+```bash
+gobuster dir -u https://dominio.com -w common.txt -o out.txt
+```
+
+## Burp Suite
+
+
+
+
+
+
