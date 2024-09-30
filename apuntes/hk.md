@@ -42,6 +42,19 @@ gobuster dir -u https://dominio.com -w common.txt -o out.txt
 
 ## Burp Suite
 
+* Viene por default en __KALI LINUX__
+* Instalar la extensión __Foxy Proxy__
+* Ir a __Configuracion__
+* Poner un titulo a la conexion
+* Agregar direccion de localhost y puerto 8080
+* En el navegador escribir __http://burp__
+* Bajar certificado con el botón __CA Certificate__
+* Abrir configuración de __Firefox__
+* Buscar la opcion __"Ver Certificados"__ 
+* Oprimir el boton __importar__
+* Elegir el archivo bajado anteriormente 
+* Checar ambas opciones
+
 
 
 
