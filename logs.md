@@ -9,4 +9,5 @@
 * Obtención de 12 imágenes nuevas de instagram para tatuajes
 * Edición de 12 imágenes nuevas de tatuajes
 * Subir a sitio web 12 imágenes nuevas de tatuajes
-
+* Artículo "Tatuajes de perros"
+* 
