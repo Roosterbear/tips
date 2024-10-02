@@ -14,55 +14,57 @@ __DCL__ _Data Control Language_ <br/>
 
 > COMMIT, ROLLBACK, GRANT, REVOKE 
 
-
 __Schema__ <br/>
 
 > Set of Databases oriented to the user 
 
-<br/>
 
+
+
+> Shows the _structure_ of the table 'table' and timestamp of creation. 
 ```sql
 sp_help 'table'
 ```
-> Shows the _structure_ of the table 'table' and timestamp of creation. 
 > We can use the same for _stored procedures_ and _views_ 
 <br/>
 
+
+> Shows the code from a _stored procedure_ or _view_ 
 ```sql
 sp_helptext 'view'
 ```
-> Shows the code from a _stored procedure_ or _view_ 
 <br/>
 
+
+> Shows more info from a table. 
 ```sql
 sp_columns 'table'
 ```
-> Shows more info from a table. 
 <br/>
 
+> List __ALL__ the tables 
 ```sql
 select * from sys.tables
 ```
->List __ALL__ the tables 
 <br/>
 
+> List all __SCHEMAS__ and tables <br/>
 ```sql
 select table_name from information_schema.tables
 where table_type = 'base table' order by 'table_name'
 ```
-> List all __SCHEMAS__ and tables <br/>
 <br/>
 
+> Shows restrictions from the table 
 ```sql
 sp_helpconstraint table
 ```
-> Shows restrictions from the table 
 <br/>
 
+> Shows if an object depends of procedure 
 ```sql
 sp_depends procedure
 ```
-> Shows if an object depends of procedure 
 <br/>
 
 
@@ -97,6 +99,7 @@ __106__ 19 Jan 2015 <br/>
 __107__ Jan 19, 2015 <br/>
 __108__ 09:18:27 <br/>
 __126__ 2015-01-19 <br/>
+
 
 ### datepart
 
