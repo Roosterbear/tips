@@ -78,29 +78,10 @@ sumarUno(5).then(nuevoNumero=>{
 > solo es necesario poner como parámetro la funcion de promesa:
 
 ```javascript
+
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+> Los errores se manejan con el reject
 
 
 
