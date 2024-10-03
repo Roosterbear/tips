@@ -3004,24 +3004,6 @@ login_check(usernames, "eraab")
 
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## [8] Put to Work: Prepare for Cybersecurity Jobs 🔐🔐🔐🔐🔐🔐🔐
 
 
