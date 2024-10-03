@@ -14,3 +14,161 @@
 > Es el CORAZON de las Aplicaciones WEB Progresivas
 > Es el intermediario entre la pagina web y el INTERNET
 > Es un archivo de Javascript
+
+## Repaso Javascript
+
+1. Crear index.html
+2. Instalar __http-server__
+
+```bash
+sudo npm install http-server -g
+```
+
+3. Ejecutar desde la carpeta del proyecto en shell:
+
+```shell
+http-server -p 8081
+```
+* La opcion -p es por si el puerto 8080 _(default)_ está ocupado
+* Tambien podemos usar el plugin __live server__ de __VSCode__
+* Cancelamos con _ctrl+c_
+
+
+### CALLBACK HELL
+
+> Se utilizan los callbacks para funciones asíncronas
+> Ya que con el return nos regresaría UNDEFINED
+
+```javascript
+function sumarUno(numero, callback){
+  setTimeout(function(){
+    callback(numero);
+  }),800;
+}
+
+sumarUno(5, function(numeroValor){
+  console.log(nuevoValor);
+});
+```
+> Si queremos hacer algo con ese valor regresado o agregar más código
+> se crea un programa dificil de mantener
+ 
+### PROMESAS
+
+```javascript
+function sumarUno(numero){
+  var promesa = new Promise(function(resolve,reject){
+    setTimeout(function(){
+      resolve(numero+1);
+    },800);
+  });
+  return promesa;
+}
+
+sumarUno(5).then(nuevoNumero=>{
+  console.log(nuevoNumero);
+  return sumarUno(nuevoNumero);
+})
+.then(nuevoNumero=>{
+  console.log(nuevoNumero);
+});
+```
+
+> Si vamos a regresar el mismo numero que pasamos a la funcion
+> solo es necesario poner como parámetro la funcion de promesa:
+
+```javascript
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

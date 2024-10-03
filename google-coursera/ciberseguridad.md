@@ -2983,6 +2983,26 @@ __.split()__
 
 > Converts a string into a list
 
+```python
+with open("login_attempts", "r") as file:
+  file_text =  file.read()
+
+usernames = file_text.split()
+
+def login_check(login_list, current_user):
+  counter = 0
+  for i in login_list:
+    if i == current_user:
+      counter = counter + 1
+  
+  if counter >= 3:
+    return "Cuenta bloqueada"
+  else:
+    return "You can log in"
+
+login_check(usernames, "eraab")
+
+```
 
 
 
