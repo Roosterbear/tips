@@ -1,25 +1,6 @@
 # PYTHON
 
-## VIRTUAL ENVIRONMENT
-
-### Create the Virtual Environment
-
->python3 -m venv <carpeta>
-
-### Activate the Virtual Environment
-
-* Vamos a la carpeta que creamos y luego a __bin__
-
->source activate
-
-### Exit Virtual Environment
-
->deactivate
-
-
 ## PRINT
-
-* In v3 you need parenthesis 
 
 ```python
 print("Hello World !")
@@ -30,6 +11,9 @@ print("Hello World !")
 ```python
 print("Hola " + input("Como te llamas: "))
 ```
+> Te pide tu nombre y luego imprime el texto con tu nombre
+
+
 
 ## VARIABLES
 

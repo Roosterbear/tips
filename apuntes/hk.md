@@ -60,3 +60,6 @@ gobuster dir -u https://dominio.com -w common.txt -o out.txt
 
 
 
+# check
+
+Restart-Computer -ComputerName "172.16.33.10" -Force

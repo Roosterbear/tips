@@ -78,11 +78,69 @@ sumarUno(5).then(nuevoNumero=>{
 > solo es necesario poner como parámetro la funcion de promesa:
 
 ```javascript
+function sumarUno(numero){
+  var promesa = new Promise(function(resolve, reject){
+    console.log(numero);
+    if(numero >=7){
+      reject("Numero mayor o igual a 7");
+    }
+    setTimeout(function(){
+      resolve(numero+1);
+      
+    },1200);
+  });
+  return promesa;
+}
+
+sumarUno(5)
+  .then(sumarUno)
+  .then(sumarUno)
+  .then(sumarUno)
+  .then(sumarUno)
+  .then(sumarUno)
+  .catch(error=>{
+    console.log("ERROR EN PROMESA "+error);
+  })
+```
+> Los errores se manejan con el reject
+> Nos ayudamos del catch para lanzar los errores generados
+<br/>
+
+> __Promise.all()__ nos sirve para regresar promesas 
+> pero también cualquier otra cosa en el orden en que se mandan
+
+```javascript
+function lento(numero){
+  return new Promise(function(resolve, reject){    
+    setTimeout(function(){
+      resolve(numero+numero);
+    },1000);
+  });
+}
+
+function rapido(numero){
+  return new Promise(function(resolve, reject){
+    
+    setTimeout(function(){
+      //resolve(numero+numero);
+      reject("valio");
+    },100);
+  });
+}
+
+//lento(9).then(console.log);
+//rapido(2).then(console.log);
+
+
+Promise.all([lento(1),rapido(5),true])
+  .then(respuestas=>{
+    console.log(respuestas);
+  })
+  .catch(console.log);
 
 ```
 
-> Los errores se manejan con el reject
-
+> Si algo llega a fallar, todo falla
 
 
 
