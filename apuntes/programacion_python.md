@@ -14,13 +14,13 @@ print("Hola " + input("Como te llamas: "))
 > Te pide tu nombre y luego imprime el texto con tu nombre
 
 
-
 ## VARIABLES
 
 ```python
 name = input("Como te llamas? ")
 print("Mucho gusto "+name+", mi nombre es Mishelin")
 ```
+
 
 ## LEN
 
@@ -29,6 +29,21 @@ name = input("Como te llamas? ")
 print("Mucho gusto "+name+", mi nombre es Michel")
 print("...sabias que tu nombre tiene "+str(len(name))+" letras?")
 ```
+
+# MODULE
+
+> Podemos crear nuestro propio módulo
+
+```python
+# my_module.py
+my_variable = "Hola desde Modulo"
+
+# ejemplo.py
+import my_module
+
+print(my_module.my_variable)
+```
+
 
 ## RANDOM
 
@@ -46,35 +61,25 @@ lista = {1,2,3}
 for i in lista:
   print(i)
 ```
-__for in__ <br/>
 
 ```python
+#Numbers from 0 to 2
 for i in range(3):
   print("Hola")
   print(i)
 ```
-Numbers from 0 to 2 <br/>
-
 
 ```python
+#Numbers from 1 to 9
 for i in range(1,10):
   print(i)
 ```
-Numbers from 1 to 9 <br/>
-
 
 ```python
+#Numbers from 2 to 8 steps by 2
 for i in range(2,10,2):
   print(i)
 ```
-Numbers from 2 to 8 <br/>
-
-
-```python
-print([ _ for _ in range(10) if _ % 2 == 0])
-print([ i for i in range(10) if i % 2 == 0])
-```
-
 
 ## IF
 
@@ -88,8 +93,10 @@ if pase == 1:
 ### GUESSING A LETTER
 
 ```python
-word_list = ["abeja","boa","camello"]
+# Importamos la libreria
 import random
+word_list = ["abeja","boa","camello"]
+# Elegimos una palabra
 chosen_word = random.choice(word_list)
 guess = input("Guess a letter: ").lower()
 for c in chosen_word:
@@ -100,7 +107,6 @@ for c in chosen_word:
 ```
 
 ### DICTIONARY
-
 
 ```python
 dictionary = {
@@ -120,6 +126,14 @@ travel = {
   "Germany":["Berlin","Hamburg","Stuttgart"]
 }
 
+```
+
+```python
+# Podemos imprimir directamente una lista
+# Esa lista puede tener ciertas condiciones
+print([ i for i in range(10) if i % 2 == 0])
+# Podemos usar _ como variable
+print([ _ for _ in range(10) if _ % 2 == 0])
 ```
 
 
@@ -203,6 +217,11 @@ We can use __lambda__:
 ```python
 answer = lambda number: number*2
 ```
+
+
+
+
+
 
 
 
