@@ -9,17 +9,14 @@ print("Hello World !")
 ## INPUT
 
 ```python
+# Esta es una forma rara de mezclar input y print
 print("Hola " + input("Como te llamas: "))
+
+# Esta es la forma normal
+nombre = input("Como te llamas? ")
+print("Hola "+nombre+"!!, mucho gusto!")
 ```
 > Te pide tu nombre y luego imprime el texto con tu nombre
-
-
-## VARIABLES
-
-```python
-name = input("Como te llamas? ")
-print("Mucho gusto "+name+", mi nombre es Mishelin")
-```
 
 
 ## LEN
@@ -121,8 +118,6 @@ fruits[0] = "Mammee"
 
 # Agregar al final
 fruits.append("Kiwi")
-
-
 
 ```
 
