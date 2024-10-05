@@ -89,23 +89,6 @@ if pase == 1:
   print("Tienes acceso, ADELANTE!")
 ```
 
-
-### GUESSING A LETTER
-
-```python
-# Importamos la libreria
-import random
-word_list = ["abeja","boa","camello"]
-# Elegimos una palabra
-chosen_word = random.choice(word_list)
-guess = input("Guess a letter: ").lower()
-for c in chosen_word:
-    if c == guess:
-        print("Right")
-    else:
-        print("wrong")
-```
-
 ### DICTIONARY
 
 ```python
@@ -127,6 +110,22 @@ travel = {
 }
 
 ```
+
+### LISTS
+
+```python
+fruits = ["Apple", "Fig", "Blackberry"]
+
+# Cambiar en cierto indice:
+fruits[0] = "Mammee"
+
+# Agregar al final
+fruits.append("Kiwi")
+
+
+
+```
+
 
 ```python
 # Podemos imprimir directamente una lista
