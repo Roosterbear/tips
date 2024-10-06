@@ -86,6 +86,28 @@ if pase == 1:
   print("Tienes acceso, ADELANTE!")
 ```
 
+### LISTS
+
+```python
+fruits = ["Apple", "Fig", "Blackberry"]
+
+# Cambiar en cierto indice:
+fruits[0] = "Mammee"
+
+# Agregar al final
+fruits.append("Kiwi")
+
+```
+
+```python
+# Podemos imprimir directamente una lista
+# Esa lista puede tener ciertas condiciones
+print([ i for i in range(10) if i % 2 == 0])
+# Podemos usar _ como variable
+print([ _ for _ in range(10) if _ % 2 == 0])
+```
+
+
 ### DICTIONARY
 
 ```python
@@ -107,29 +129,6 @@ travel = {
 }
 
 ```
-
-### LISTS
-
-```python
-fruits = ["Apple", "Fig", "Blackberry"]
-
-# Cambiar en cierto indice:
-fruits[0] = "Mammee"
-
-# Agregar al final
-fruits.append("Kiwi")
-
-```
-
-
-```python
-# Podemos imprimir directamente una lista
-# Esa lista puede tener ciertas condiciones
-print([ i for i in range(10) if i % 2 == 0])
-# Podemos usar _ como variable
-print([ _ for _ in range(10) if _ % 2 == 0])
-```
-
 
 ### CLASSES
 
