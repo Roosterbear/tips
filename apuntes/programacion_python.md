@@ -16,40 +16,6 @@ print("Hola " + input("Como te llamas: "))
 nombre = input("Como te llamas? ")
 print("Hola "+nombre+"!!, mucho gusto!")
 ```
-> Te pide tu nombre y luego imprime el texto con tu nombre
-
-
-## LEN
-
-```python
-name = input("Como te llamas? ")
-print("Mucho gusto "+name+", mi nombre es Michel")
-print("...sabias que tu nombre tiene "+str(len(name))+" letras?")
-```
-
-# MODULE
-
-> Podemos crear nuestro propio módulo
-
-```python
-# my_module.py
-my_variable = "Hola desde Modulo"
-
-# ejemplo.py
-import my_module
-
-print(my_module.my_variable)
-```
-
-
-## RANDOM
-
-```python
-import random
-
-random_int = random.randint(1,6)
-print(random_int)
-```
 
 ## FOR
 
@@ -60,21 +26,8 @@ for i in lista:
 ```
 
 ```python
-#Numbers from 0 to 2
-for i in range(3):
-  print("Hola")
-  print(i)
-```
-
-```python
 #Numbers from 1 to 9
 for i in range(1,10):
-  print(i)
-```
-
-```python
-#Numbers from 2 to 8 steps by 2
-for i in range(2,10,2):
   print(i)
 ```
 
@@ -85,6 +38,15 @@ pase = 1
 if pase == 1:
   print("Tienes acceso, ADELANTE!")
 ```
+
+## LEN
+
+```python
+name = input("Como te llamas? ")
+print("Mucho gusto "+name+", mi nombre es Michel")
+print("...sabias que tu nombre tiene "+str(len(name))+" letras?")
+```
+
 
 ### LISTS
 
@@ -116,19 +78,26 @@ dictionary = {
   "Function":"A piece of code"
 }
 
-#Add new item
+# Agregar un elemento
 dictionary["Loop"] = "The action of doing something over and over again"
 
-#Retrieve an item
+# Obtener un elemento
 print(dictionary["Bug"])
 
-#List nested in a Dictionary
+# Listas anidadas
 travel = {
   "France":["Paris","Lille","Dijon"],
   "Germany":["Berlin","Hamburg","Stuttgart"]
 }
 
 ```
+
+### TUPLES
+
+> Son como listas pero INMUTABLES
+
+mi_tupla = (1,2,3,4,5,6,7)
+
 
 ### CLASSES
 
@@ -143,6 +112,69 @@ class Car:
   car = Car("Black")
   car.show_color()
 ```
+
+# MODULE
+
+> Usamos un modulo con import
+
+```python
+import turtle
+
+tortuga = turtle.Turtle()
+```
+
+> Para utilizar con frecuencia algo del modulo
+> conviene escribir lo siguiente
+
+```python
+from turtle import Turtle()
+
+tortuga = Turtle()
+```
+
+> Podemos crear nuestro propio módulo
+
+```python
+# my_module.py
+my_variable = "Hola desde Modulo"
+
+# ejemplo.py
+import my_module
+
+print(my_module.my_variable)
+```
+
+## TURTLE
+
+```python
+from turtle import Turtle, Screen
+
+tim = Turtle()
+tim.shape("turtle")
+tim.color("green")
+
+for _ in range(4):
+  # Go in pixels
+  tim.forward(100)
+
+  # Move in grades
+  tim.left(90)
+
+screen = Screen()
+# Wait
+screen.exitonclick()
+```
+
+
+## RANDOM
+
+```python
+import random
+
+random_int = random.randint(1,6)
+print(random_int)
+```
+
 
 ### FILES
 
@@ -201,6 +233,58 @@ print(llf)
 
 
 
+
+
+### COPY TO GYM !!
+
+
+```python
+from turtle import Turtle, Screen
+import random
+
+tim = Turtle()
+colores = ["IndianRed","black","SeaGreen","SlateGray","DeepSkyBlue","DarkOrchid","CornFlowerBlue"]
+
+def dibujar_figura(lados):
+  angulo = 360 / lados
+  for _ in range(lados):
+    tim.forward(100)
+    tim.right(angulo)
+
+for forma in range(3, 11):
+  tim.color(random.choice(colores))
+  dibujar_figura(forma)
+
+screen = Screen()
+screen.exitonclick()
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### LAMBDA
 
 We can use __lambda__:
@@ -210,12 +294,6 @@ We can use __lambda__:
 ```python
 answer = lambda number: number*2
 ```
-
-
-
-
-
-
 
 
 # 👁️👁️  
