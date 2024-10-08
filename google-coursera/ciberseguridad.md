@@ -3007,11 +3007,35 @@ login_check(usernames, "eraab")
 ## [8] Put to Work: Prepare for Cybersecurity Jobs 🔐🔐🔐🔐🔐🔐🔐
 
 
+### Information Lifecycle
+
+* Identify assets and the MOST important information
+* Evaluate Security Measures and Policies
+* Protect identified assets
+* Supervise the processes
+
+> PROTECTING THE DATA AND ASSETS OF AN ORGANIZATION
+> IS THE PRIMARY GOAL OF A SECURITY TEAM
 
 
+### Incident Escalation
+
+> The process of identifying a potential security incident, triaging it,
+> and handling it off to a more experienced team member
 
 
+### Essential skills to scalate security incidents
 
+* Attention to detail
+* Ability to follow an organization's escalation guidelines or processes
+
+> CISO: Chief Information Security Officer
+
+A problem can cause:
+
+* Costs money to the company
+* Exposes sensitive customer data
+* Damage in Company's reputation
 
 
 
