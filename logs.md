@@ -10,10 +10,10 @@
 
 # UT - Datos
 
-## Semana #6
+## Semana #7
 
 Planta: 3
-ESET: 10
-Mantenimientos: 7
-Atención: 28
+ESET: 
+Mantenimientos: 
+Atención: 
 CURSO: 85% 
