@@ -106,7 +106,10 @@ sumarUno(5)
 > Nos ayudamos del catch para lanzar los errores generados
 <br/>
 
-> __Promise.all()__ nos sirve para regresar promesas 
+
+#### Promise.all
+
+> Nos sirve para regresar promesas 
 > pero también cualquier otra cosa en el orden en que se mandan
 
 ```javascript
@@ -141,6 +144,13 @@ Promise.all([lento(1),rapido(5),true])
 ```
 
 > Si algo llega a fallar, todo falla
+
+#### promise.race
+
+> Pone a competir a las promesas
+> que se pasan como parámetro
+> y solo importa la que se resuelva primero
+
 
 
 
