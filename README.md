@@ -1,4 +1,3 @@
-__This is my space to take notes, instead of writting in notebooks__<br/>
-__This an alibi to practice writting in Markdown and practice English.__<br/>
+__This is my space to take notes, instead of writting in real notebooks__<br/>
 By __@Roosterbear__ 👍
 

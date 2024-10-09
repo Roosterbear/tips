@@ -2,7 +2,6 @@
 
 ## CONCEPTOS BASICOS @@@@@@@@@@@@@@@@@@@@@@@
 
-
 ### Estructura
 
 ```java
@@ -29,7 +28,10 @@ int arr[] = new int[5];
 Array.sort(miArreglo);
 ```
 
-### Ciclo FOR Mejorado
+
+### CICLOS
+
+#### Ciclo FOR Mejorado
 
 * Normal
 
@@ -47,7 +49,7 @@ for(double d:arr){
 }
 ```
 
-### While
+#### While
 
 ```java
 double sum = 0;
@@ -59,7 +61,7 @@ while(n<arr.length){
 return sum/arr.length;
 ```
 
-### Do While
+#### Do While
 
 ```java
 int n = 0;
@@ -80,14 +82,17 @@ do{
 > Es un metodo de programacion que IMITA la manera en que
 > hacemos las cosas.
 
-Existen 3 propiedades principales: <br/>
+
+* Existen 3 propiedades principales: 
 
 ### Encapsulamiento
+
 > Es la combinacion de un registro
 > con funciones para manipular sus datos
 > con lo que forma un nuevo tipo de dato: EL OBJETO
 
 ### Herencia
+
 > Se refiere a definir un objeto y entonces usarlo para
 > construir una jerarquia de objetos descendientes
 > donde cada descendiente hereda el acceso al codigo y datos
@@ -147,6 +152,9 @@ Rectangle r = new Point(); //ERROR: La variable es mas especifica que el conteni
 ```
 
 
+### Constructores
+
+
 > EL COMPILADOR AGREGA POR DEFAULT:
 
 * UN CONSTRUCTOR 
@@ -190,7 +198,7 @@ Rectangle r = new Point(); //ERROR: La variable es mas especifica que el conteni
 | char | Character | 
 | boolean | Boolean | 
 
-__BOXING__
+* __BOXING__
 
 > Ya no se utiliza el constructor _new_ para crear __wrappers__
 > La forma de crear un wrapper de manera explicita es con __valueOf__
@@ -205,7 +213,7 @@ Integer i = Integer.valueOf(123456);
 Integer i = 123456;
 ```
 
-__UNBOXING__
+* __UNBOXING__
 
 > De igual manera podemos convertir de manera implícita y explícita:
 
@@ -249,14 +257,127 @@ if(pow = PowerStatus.ONLINE){
 ```
 
 
-## String Builder
+## STRINGS
+
+> LAS CADENAS SON INMUTABLES !
+<br/>
+
+> Cada vez que sustituimos una cadena por otra
+> simplemente estamos apuntando a objetos diferentes
+> se crea uno diferente por cada cadena diferente
+> en el POOL de Cadenas
+
+### length()
+
+```java
+var cadena = "Hola Mundo";
+var longitud = cadena.length();
+```
+
+### replace()
+
+```java
+var cadena = "Hola Mundo";
+var nueva = cadena.replace('o','a');
+```
+> Sustituye todas las letras 'o' por la letra 'a'
+
+
+### toUpperCase()
+
+```java
+var cadena = "Hola Mundo";
+var nueva = cadena.toUpperCase();
+```
+> Cambia todas las letras a MAYÚSCULAS
+
+### toLowerCase()
+
+```java
+var cadena = "Hola Mundo";
+var nueva = cadena.toLowerCase();
+```
+> Cambia todas las letras a minúsculas
+
+
+### trim()
+
+> Elimina TODOS los espacios ANTES y DESPUES de la cadena
+
+```java
+var cadena = "   Hola Mundo               ";
+var nueva = cadena.trim();
+```
+
+### strip()
+
+> Al igual que trim(), elimina espacios en blanco
+> al principio y al final, pero es mas completo 
+> trabaja a partir de Java 11
+
+
+### substring()
+
+> Toma varios caracteres de una cadena
+
+```java
+var cadena = "Hola Mundo";
+var nueva = cadena.substring(0,4);
+// Toma "Hola"
+```
+> En este caso, toma los caracteres desde la posición 0 
+> hasta la 4 (sin incluir ese caracter)
+
+```java
+var cadena = "Hola Mundo";
+var nueva = cadena.substring(5);
+// Toma "Mundo"
+```
+> Toma la cadena a partir del indice hasta el final
+
+
+### indexOf()
+
+```java
+var cadena = "Hola Mundo";
+var indice = cadena.indexOf("Mundo");
+// Regresa 5
+```
+
+
+### concat()
+
+> Nos ayuda a concatenar cadenas al igual que "+"
+
+```java
+var hola = "Hola";
+var todos = hola.concat(" a todos");
+```
+
+### join()
+
+> Nos ayuda a juntar cadenas al igual que "+" y concat
+
+```java
+var hola = "Hola";
+var mundo = "Mundo";
+var todos = hola.join(" ",hola,mundo,"adios!");
+```
+> En este caso, el primer parametro es 
+> el caracter con el que vamos a unir las cadenas
+
+
+### String Builder
+
 
 ```java
 StringBuilder sb = new StringBuilder();
 sb.append("Hola Mundo");
 ```
 
-## StringTokenizer
+
+
+### StringTokenizer
 
 ```java
 import java.util.StringTokenizer;
@@ -274,7 +395,24 @@ public class StringTokenizerDemo{
 
 ```
 
-## Interface
+### charAt()
+
+> Recupera un caracter de una cadena
+
+
+```java
+var cadena = "Hola mundo";
+var primer_caracter = charAt(0);
+```
+
+
+
+
+
+
+
+
+## Interfaces
 
 > Es un conjunto de declaraciones de métodos
 > Es como establecer un CONTRATO, donde una clase
