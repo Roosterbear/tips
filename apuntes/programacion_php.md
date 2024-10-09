@@ -1,14 +1,24 @@
 # PHP
 
-We have to enclose our code in __<?php__ and __?>__ tags.
+> We have to enclose our code in:
 
-### Run lampp in Linux
+```php
+<?php 
+// Our code! - This is a comment
+?>
+```
 
->./xampp start
+* Run lampp in Linux
 
-Stop service lampp in Linux: <br/>
+```bash
+./xampp start
+```
 
->./xampp stop
+* Stop service lampp in Linux
+
+```bash
+./xampp stop
+```
 
 
 ### PHP Info
@@ -21,7 +31,8 @@ phpinfo();
 
 ## CONSTANTS
 
-__define__ <br/>
+
+* __define__ 
 
 ```php
 <?php 
@@ -29,20 +40,23 @@ define('DOMAIN', 'www.google.com');
 ?>
 ```
 
-__defined__ <br/>
+* __defined__
 
 ```php
 <?php 
 defined('EXEC') or die;
 ?>
 ```
-* Checks if is _EXEC_ defined (with define or const)
+> Checks if _EXEC_ is defined (with define or const)
+
 
 ### var_dump()
 
->var_dump($value);
+```php
+var_dump($value);
+```
 
-Shows the type and value of a variable. <br/>
+> Shows the type and value of a variable. 
 
 ### print_r
 
@@ -50,133 +64,60 @@ Shows the type and value of a variable. <br/>
 echo "<pre>".print_r($this->user, true)."</pre";
 ```
 
-### htmlspecialchars($id)
+```php
+htmlspecialchars($id)
+```
+> Escapes HTML special characters to avoid hacking the site. 
 
-* Escapes HTML special characters to avoid hacking the site. <br/>
 <br/>
-
 
 
 ### HEADER
 
-Sends us to other site: <br/>
+> Sends us to other site 
 
->header("Location: index.php");
-
+```php
+header("Location: index.php");
+```
 
 
 ## STRINGS
 
-__strlen__ <br/>
 
-Length of a string <br/>
+* __strlen__ 
 
->strlen($my_string);
+> Length of a string 
 
-__str_word_count__ <br/>
+```php
+strlen($my_string);
+```
+
+* __str_word_count__ 
 
 How many words has the string <br/>
 
->str_word_count($my_string);
+```php
+str_word_count($my_string);
+```
 
 
-__substr__ <br/>
+* __substr__ 
 
-Substract a part of a string <br/>
+> Substract a part of a string
 
->substr($my_string, 0, 5);
+```php
+substr($my_string, 0, 5);
+```
 
-Where __0__ is position and __5__ is the number of characters. <br/>
+> Where __0__ is position and __5__ is the number of characters. 
 
 <br/>
 
-__implode / explode__ <br/>
 
-__rand()__ <br/>
+* __rand()__ 
 
->rand(1,6)
-
-__mt_rand()__ <br/>
-
-__shuffle()__ <br/>
-
-### __toString()
-
-
-### SESSION
-
-### REQUEST
-
-__get__ <br/>
-
-__post__ <br/>
-
-
-## isset()
-
-__md5()__ <br/>
-
-__include / require__ <br/>
-
-__is_numeric()__ <br/>
-
-__slug_url()__ <br/>
-
-__redirect()__ <br/>
-
-__sw_count()__ <br/>
-
-__empty()__ <br/>
-
-__file_exists()__ <br/>
-
-__readdir()__ <br/>
-
-__substr_count()__ <br/>
-
-__ob_start()__ <br/>
-
-__get_template_part()__ <br/>
-
-__password_hash__ <br/>
-
-__http_response_code()__ <br/>
-
-
-
-## INVOKE
-
-
-## GENERATORS
-
-
-
-
-# MVC
-
-We need to have the next folders structure: <br/>
-
->app
-
-__app/libraries/__ core.php <br/>
-__app/libraries/__ database.php <br/>
-__app/libraries/__ controller.php <br/>
-__app/helpers__ <br/>
-__app/config__ <br/>
-__app/controllers__ <br/>
-__app/models__ <br/>
-__app/views__ <br/>
-__app/__ bootstrap.php <br/>
-__app/__ .htaccess <br/>
-
->public
-
-__public/css/__ style.css <br/>
-__public/js/__ main.css <br/>
-__public/img__ <br/>
-__public/__ index.php <br/>
-
-
-
+```php
+rand(1,6)
+```
 
 
