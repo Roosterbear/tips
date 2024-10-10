@@ -3038,9 +3038,50 @@ A problem can cause:
 * Damage in Company's reputation
 
 
+### Escalation
+
+> Tell a superior about a security incident
 
 
+### Malware infection
 
+> An incident type that occurs when malicious software designed to
+> disrupt a system infiltrates an organization's computer or network
+
+
+### Unauthorized access
+
+> An incident type that occurs when an individual 
+> gains digital or physical access to a system or
+> application without permission
+> __ALL UNAUTHORIZED ACCESS AND IMPROPER USAGE ARE IMPORTANT TO ESCALATE__
+
+* __Bruce Force Attacks__
+
+> Use trial and error to compromise passwords,
+> login credentials and encryption keys.
+
+
+### Improper Usage
+
+> An incident type that occurs when an employee of an organization
+> violates the organization's acceptable use policies
+
+
+### Roles in Escalation
+
+* Data owners
+* Data controllers
+* Data processors
+* Data custodians
+* Data Protection Officers
+
+
+### Escalation Policy
+
+> A set of actions that outline who should be notified
+> when an incident alert occurs and how that incident
+> should be handled
 
 
 
