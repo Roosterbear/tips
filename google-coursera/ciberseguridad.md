@@ -3083,5 +3083,92 @@ A problem can cause:
 > when an incident alert occurs and how that incident
 > should be handled
 
+### Stakeholders
+
+> An individual or group that has an interest in the decisions
+> or activities of an organization
+
+
+### Risk Manager Responsabilities
+
+* Identify risks
+* Manage the response to security incidents
+* Notify the legal department
+* Inform the organization's public relations team
+
+
+### CEO Responsabilities 
+
+* Financial and managerial decisions
+* Report to shareholders
+* Manage operations
+
+
+### CFO Responsabilities
+
+* Manage financial operations
+* Costs of tools and strategies
+
+
+### CISO Responsabilities
+
+* Develop an organization's security architecture
+* Conduct risk analysis and system audits
+* Create security and business continuity plans
+
+
+### Operations Manager Responsabilities
+
+* Oversee security professionals
+* Work directly with analysts
+* Responsible for daily maintenance of security operations
+
+
+### Communicate the story
+
+* Email
+* Document
+* Visual Representation - Charts and Graphs
+* Phone or Vide Calls
+* Spreadsheet
+* Incident Management or Ticketing Systems
+
+
+### Effective Communication
+
+* Get to the point
+* Follow the protocols
+* Communicate with impact
+
+
+### Resources
+
+* OWASP
+* CSO Online
+* Krebs on Security
+* Dark Reading
+
+
+### Job searching sites
+
+* ZipRecruiter
+* Indeed
+* Monster Jobs
+
+
+### Create a CV
+
+1. Name
+2. Title
+3. Contact (Phone / Email)
+4. Summary State
+
+
+
+
+
+
+
+
 
 
