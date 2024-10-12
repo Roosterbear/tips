@@ -3232,18 +3232,3 @@ A problem can cause:
 > A brief summary of your experience, skills and background
 > Short, in normal pace, genuine, direct. 
 > Express enthusiasm and interest in the company
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
