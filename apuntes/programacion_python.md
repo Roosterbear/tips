@@ -240,7 +240,7 @@ with open("weather_data.csv") as data_file:
   data = csv.reader(data_file)
   temperatures = []
   for row in data:
-    if row[1] =! "temp":
+    if row[1] != "temp":
       temperatures.append(int(row[1]))
 
   print(temperatures)
@@ -248,10 +248,33 @@ with open("weather_data.csv") as data_file:
 
 ## PANDAS
 
-> There are 2 data types in Pandas:
+> Hay 2 tipos de datos en Pandas:
 
 1. __Series__ - 1-dimensional
 2. __DataFrame__ - 2-dimensional
+
+
+## LIST COMPREHENSION
+
+> Cuando queremos crear una lista a partir de otra
+
+```python
+# Si tenemos una lista
+numbers = [1,2,3]
+# Y queremos crear una lista nueva con el doble de esos numeros
+dobles = []
+# Usamos este codigo
+for n in numbers:
+  doble = n + n
+  dobles.append(doble)  
+```
+
+> Podemos crear esa lista con una sola linea
+
+```python
+numbers = [1,2,3]
+dobles = [n + n for n in numbers]
+```
 
 
 
