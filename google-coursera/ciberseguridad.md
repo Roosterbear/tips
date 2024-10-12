@@ -3140,6 +3140,12 @@ A problem can cause:
 * Follow the protocols
 * Communicate with impact
 
+### Security Operations Center (SOC) Analyst
+
+* Ensuring security incidents are handled rapidly and efficiently
+* Following established policies and procedures
+
+
 
 ### Resources
 
@@ -3159,9 +3165,78 @@ A problem can cause:
 ### Create a CV
 
 1. Name
-2. Title
+2. Professional Title
 3. Contact (Phone / Email)
 4. Summary State
+
+
+### What to add to your resume (Skills)
+
+* Programming Languages
+* Linux line-command
+* Security mindset
+* Frameworks and Controls
+* SIEM Tools
+* Packet Sniffers
+
+
+### Transferable and technical skills
+
+* Detail oriented
+* Collaborative
+* Written and verbal communication skills
+
+
+### The Technical interview
+
+* Answer confidently and concisely
+* It's okay to say that you don't know
+
+
+### TCP/IP Model
+
+> Framework to visualize how the data are organized and transmitted across a network
+
+
+### OSI Model
+
+> Standarized concept that describes the SEVEN layers that computers use
+> to communicate and send data across the network
+
+### SIEM Tools
+
+> Event Management Tools to identify and analyze threats, risks and vulnerabilities.
+
+
+### Rapport
+
+> A friendly relationship in which the people involved understand
+> each other's ideas and communicate well with each other
+
+
+### STAR Method
+
+> To answer "Tell about a time when you encountered a challenge on the job"
+
+* __SITUATION__ - What was the SITUATION
+* __TASK__ - What you had to DO
+* __ACTION__ - What YOU DID to resolve the situation
+* __RESULT__ - The problem RESOLVED
+
+> What you don't know, BE HONEST
+> You're a quick learner and eager to develop that SKILL
+
+
+### Elevator pitch
+
+> A brief summary of your experience, skills and background
+> Short, in normal pace, genuine, direct. 
+> Express enthusiasm and interest in the company
+
+
+
+
+
 
 
 
