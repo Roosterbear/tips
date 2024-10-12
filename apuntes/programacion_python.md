@@ -176,7 +176,7 @@ print(random_int)
 ```
 
 
-### FILES
+## FILES
 
 * READ
 
@@ -231,6 +231,27 @@ llf = pickle.load(mafile)
 print(llf)
 ```
 
+### CSV
+
+```python
+import csv
+
+with open("weather_data.csv") as data_file:
+  data = csv.reader(data_file)
+  temperatures = []
+  for row in data:
+    if row[1] =! "temp":
+      temperatures.append(int(row[1]))
+
+  print(temperatures)
+```
+
+## PANDAS
+
+> There are 2 data types in Pandas:
+
+1. __Series__ - 1-dimensional
+2. __DataFrame__ - 2-dimensional
 
 
 
