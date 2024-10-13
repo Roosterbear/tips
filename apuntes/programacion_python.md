@@ -276,6 +276,43 @@ numbers = [1,2,3]
 dobles = [n + n for n in numbers]
 ```
 
+## ARGUMENTOS
+
+### Argumentos Avanzados
+
+> Podemos poner valores por default
+
+```python
+def foo(a=1, b=2, c=3):
+  print(a,b,c)
+
+foo(4)
+# Prints 4,2,3
+foo(b=7)
+# Prints 1,7,3
+```
+
+### Args
+
+> Agregamos un parametro (args) antecediendo un asterisco
+> Esto permite capturar varios argumentos en la funcion
+
+```
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
