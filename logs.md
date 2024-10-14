@@ -13,7 +13,7 @@
 ## Semana #7
 
 Planta: 3
-ESET: 
-Mantenimientos: 
-Atención: 
-CURSO: 85% 
+ESET: 15
+Mantenimientos: 4
+Atención: 25
+CURSO: 100% 
