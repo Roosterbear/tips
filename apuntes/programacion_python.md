@@ -176,7 +176,7 @@ print(random_int)
 ```
 
 
-### FILES
+## FILES
 
 * READ
 
@@ -230,6 +230,87 @@ llf = pickle.load(mafile)
 
 print(llf)
 ```
+
+### CSV
+
+```python
+import csv
+
+with open("weather_data.csv") as data_file:
+  data = csv.reader(data_file)
+  temperatures = []
+  for row in data:
+    if row[1] != "temp":
+      temperatures.append(int(row[1]))
+
+  print(temperatures)
+```
+
+## PANDAS
+
+> Hay 2 tipos de datos en Pandas:
+
+1. __Series__ - 1-dimensional
+2. __DataFrame__ - 2-dimensional
+
+
+## LIST COMPREHENSION
+
+> Cuando queremos crear una lista a partir de otra
+
+```python
+# Si tenemos una lista
+numbers = [1,2,3]
+# Y queremos crear una lista nueva con el doble de esos numeros
+dobles = []
+# Usamos este codigo
+for n in numbers:
+  doble = n + n
+  dobles.append(doble)  
+```
+
+> Podemos crear esa lista con una sola linea
+
+```python
+numbers = [1,2,3]
+dobles = [n + n for n in numbers]
+```
+
+## ARGUMENTOS
+
+### Argumentos Avanzados
+
+> Podemos poner valores por default
+
+```python
+def foo(a=1, b=2, c=3):
+  print(a,b,c)
+
+foo(4)
+# Prints 4,2,3
+foo(b=7)
+# Prints 1,7,3
+```
+
+### Args
+
+> Agregamos un parametro (args) antecediendo un asterisco
+> Esto permite capturar varios argumentos en la funcion
+
+```
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
