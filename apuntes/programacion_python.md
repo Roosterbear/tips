@@ -181,8 +181,8 @@ print(random_int)
 * READ
 
 ```python
-mafile = open("file.txt","rt")
-data = mafile.read()
+with open("file.txt","r") as file:
+  data = file.read()
 print(data)
 ```
 >Where "rt" is "read - text", that means, "read only for a text file"
@@ -190,15 +190,16 @@ print(data)
 * WRITE
 
 ```python
-mafile = open("file.txt","wt")
-mafile.write("This text will erase the last one")
+with open("file.txt","w") as file:
+  file.write("Soy SATAN")
 ```
 
 * APPEND
 
 ```python
-mafile = open("file.txt","at")
-mafile.write("This text will be below the last one")
+with open("file.txt","a") as file:
+  file.write("Soy SATAN")
+  file.write("Rey SATAN, Rey Seguro")
 ```
 
 * DELETE
@@ -297,9 +298,22 @@ foo(b=7)
 > Agregamos un parametro (args) antecediendo un asterisco
 > Esto permite capturar varios argumentos en la funcion
 
-```
+```python
+def sum(*args):
+  resultado = 0
+  for a in args:
+    resultado += a
+
+  print(resultado)
+
+sum(2,6,9,8,1,2,3,4,6,7)
 ```
 
+
+### Kwargs
+
+```python
+```
 
 
 
