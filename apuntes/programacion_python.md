@@ -247,14 +247,6 @@ with open("weather_data.csv") as data_file:
   print(temperatures)
 ```
 
-## PANDAS
-
-> Hay 2 tipos de datos en Pandas:
-
-1. __Series__ - 1-dimensional
-2. __DataFrame__ - 2-dimensional
-
-
 ## LIST COMPREHENSION
 
 > Cuando queremos crear una lista a partir de otra
@@ -309,20 +301,49 @@ def sum(*args):
 sum(2,6,9,8,1,2,3,4,6,7)
 ```
 
-
 ### Kwargs
 
+> Básicamente es un diccionario que representa llaves y valores
+
 ```python
+def calculate(**kwargs):
+  print(kwargs)
+
+calculate(add=3, multiply=5)
+```
+
+
+## Tkinter
+
+> Importamos:
+
+```python
+from tkinter import *
+
+window = Tk()
+window.title("Mi primera GUI")
+window.minsize(width=500, height=300)
+
+# Label
+my_label = Label(Text="Esto no se va a ver", font=("Arial",24, "bold"))
+my_label.pack(side="left")
+
+my_label["text"] = "New Text"
+my_label.config(text="New Text")
+
+# Button
+button = Button(text="Click Me")
+
 ```
 
 
 
+## PANDAS
 
+> Hay 2 tipos de datos en Pandas:
 
-
-
-
-
+1. __Series__ - 1-dimensional
+2. __DataFrame__ - 2-dimensional
 
 
 
