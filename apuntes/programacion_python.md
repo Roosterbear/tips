@@ -322,17 +322,27 @@ from tkinter import *
 
 window = Tk()
 window.title("Mi primera GUI")
-window.minsize(width=500, height=300)
+window.geometry("800x600")
+window.minsize(width=500, height=300) # Checa place y grid
 
 # Label
 my_label = Label(Text="Esto no se va a ver", font=("Arial",24, "bold"))
-my_label.pack(side="left")
+my_label.pack()
 
 my_label["text"] = "New Text"
 my_label.config(text="New Text")
 
 # Button
-button = Button(text="Click Me")
+def button_clicked():
+  new_text = input.get()
+  my_label.config(text=new_text)
+
+button = Button(text="Click Me", command=button_clicked)
+button.pack()
+
+# Entry
+input = Entry(width=10)
+input.pack()
 
 ```
 
