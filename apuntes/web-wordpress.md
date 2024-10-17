@@ -38,6 +38,29 @@
 ?>
 ```
 
+## Functions
+
+> Editamos el index.php de nuestro plugin
+> Podemos crear nuevas funciones o usar funciones de Wordpress
+
+```php
+<?php
+function greet($name){
+  echo "<p>Hola $name, bienvenido a Wordpress </p>";
+}
+
+// funciones propias
+greet('Jacinto');
+greet('Jeremias');
+
+// funciones de Wordpress
+bloginfo('name');
+bloginfo('description');
+
+?>
+```
+
+
 ## Hooks
 
 

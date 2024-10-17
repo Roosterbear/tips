@@ -315,6 +315,8 @@ calculate(add=3, multiply=5)
 
 ## Tkinter
 
+### Ventana Sencilla
+
 > Importamos:
 
 ```python
@@ -346,6 +348,17 @@ input.pack()
 
 ```
 
+### Pomodoro Project
+
+```python
+import tkinter
+
+PINK = "#e2979c"
+RED = "#e7305b"
+GREEN = "9bdeac"
+YELLOW = "#f7f5dd"
+
+```
 
 
 ## PANDAS
