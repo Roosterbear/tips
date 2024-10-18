@@ -145,7 +145,7 @@ __MySQL__  SELECT SLEEP(10)
 ### Payloads usados en SQL
 
 > Mostrar todo
-* or 1=1
+* or 1=1 -- -
 
 > Probar cuántas columnas tiene la consulta
 * order by 3
