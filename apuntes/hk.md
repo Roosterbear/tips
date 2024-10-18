@@ -1,7 +1,7 @@
 # I am the 👁️  in the sky 🔓
 
 ## ------------------------------------------------------
-## tryhackme.com
+## Instalación tryhackme.com
 ## ------------------------------------------------------
 
 1. Sign in
@@ -17,6 +17,23 @@ sudo openvpn File.ovpn
 7. Now we can go to __Learn__ and access a Room
 8. Start a Machine
 
+
+### ------------------------------------------------------
+## Instalación de Burp Suite
+### ------------------------------------------------------
+
+* Viene por default en __KALI LINUX__
+* Instalar la extensión __Foxy Proxy__
+* Ir a __Configuracion__
+* Poner un titulo a la conexion
+* Agregar direccion de localhost y puerto 8080
+* En el navegador escribir __http://burp__
+* Bajar certificado con el botón __CA Certificate__
+* Abrir configuración de __Firefox__
+* Buscar la opcion __"Ver Certificados"__ 
+* Oprimir el boton __importar__
+* Elegir el archivo bajado anteriormente 
+* Checar ambas opciones
 
 
 ### ------------------------------------------------------
@@ -43,25 +60,6 @@ __gobuster__
 ```bash
 gobuster dir -u https://dominio.com -w common.txt -o out.txt
 ```
-
-
-### ------------------------------------------------------
-## Burp Suite
-### ------------------------------------------------------
-
-* Viene por default en __KALI LINUX__
-* Instalar la extensión __Foxy Proxy__
-* Ir a __Configuracion__
-* Poner un titulo a la conexion
-* Agregar direccion de localhost y puerto 8080
-* En el navegador escribir __http://burp__
-* Bajar certificado con el botón __CA Certificate__
-* Abrir configuración de __Firefox__
-* Buscar la opcion __"Ver Certificados"__ 
-* Oprimir el boton __importar__
-* Elegir el archivo bajado anteriormente 
-* Checar ambas opciones
-
 
 ### ------------------------------------------------------
 ## SQL Injection
@@ -105,7 +103,42 @@ __Microsoft__  WAITFOR DELAY '0:0:10'
 __PostgreSQL__  SELECT pg_sleep(10)
 __MySQL__  SELECT SLEEP(10)
 
+### Authentication Vulnerability
+
+1. Localizar el email de usuario
+2. Abrir Burp Suite
+3. Intercept __ON__
+4. Poner cualquier password
+5. Oprimir __Forward__ 
+6. Identificar Solicitud de Autenticación
+7. Botón derecho, elegir __Send to Intruder__
+8. Seleccionar el texto del password y oprimir __Add__
+9. Dejar __Sniper__ como tipo de ataque
+10. Agrega (_Load_) el archivo de lista de palabras
+11. Se instala en Kali Linux con: sudo apt-get install seclists
+12. Se guardan en _/usr/share/wordlists/SecLists/Passwords/Common-Credentials/best1050.txt_
+13. __Start attack__
+14. Ordena por _length_ o por _Status code_ 
+15. Si aparece el status __200__ será el password correcto
+
+
+### Directory Traversal
+
+1. Abrimos una imagen del sitio en una pestaña nueva
+2. Abrimos __Burp Suite__
+3. Capturamos la solicitud con Burp Suite (__Intercept on__)
+4. Send to Repeater
+5. Manipula el nombre del archivo con: /etc/passwd 
+6. Si sale __No such file__, intenta con más profundidad: /../etc/passwd
 
 
 
 
+
+
+
+
+
+### ------------------------------------------------------
+## 
+### ------------------------------------------------------
