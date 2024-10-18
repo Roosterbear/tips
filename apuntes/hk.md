@@ -1,8 +1,8 @@
 # I am the 👁️  in the sky 🔓
 
-## ------------------------------------------------------
-## Instalación tryhackme.com
-## ------------------------------------------------------
+### ------------------------------------------------------
+##  Instalación tryhackme.com
+### ------------------------------------------------------
 
 1. Sign in
 2. Menu - Access
@@ -133,12 +133,38 @@ __MySQL__  SELECT SLEEP(10)
 
 
 
-
-
-
-
-
-
 ### ------------------------------------------------------
-## 
+##  ----- DOMINANDO SQL INJECTION -----
 ### ------------------------------------------------------
+
+1. Crear cuenta en https://portswigger.net/web-security/all-labs
+2. usar correo temporal en https://temp-mail.org/
+3. Crear cuenta y guardar correo y password
+
+
+### Payloads usados en SQL
+
+> Mostrar todo
+* or 1=1
+
+> Probar cuántas columnas tiene la consulta
+* order by 3
+* union select 1,2,3
+
+### Extrayendo informacion oculta
+
+> Agregamos
+
+
+
+
+
+
+
+
+
+
+
+
+
+

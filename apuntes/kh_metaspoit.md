@@ -23,3 +23,10 @@
 > Los buscamos como: search auxiliary
 > Son herramientas para recoleccion de informacion
 > y escaneo de vulnerabilidades
+
+## EXPLOITS
+
+
+
+
+## PAYLOADS
