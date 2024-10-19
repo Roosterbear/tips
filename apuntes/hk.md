@@ -4,11 +4,12 @@
 ##  Instalación tryhackme.com
 ### ------------------------------------------------------
 
-1. Sign in
+1. Sign in FROM __Kali Linux__
 2. Menu - Access
-3. Download VPN File from __Kali Linux__
+3. Download VPN File
 4. Open folder in a terminal
-5. Exec: 
+5. Install openvpn: sudo apt install openvpn
+6. Exec: 
 
 ```bash
 sudo openvpn File.ovpn
@@ -101,7 +102,7 @@ gobuster dir -u https://dominio.com -w common.txt -o out.txt
 __Oracle__  dbms.pipe.receive_message(('a'),10)
 __Microsoft__  WAITFOR DELAY '0:0:10'
 __PostgreSQL__  SELECT pg_sleep(10)
-__MySQL__  SELECT SLEEP(10)
+__MySQL__  SELECT S LEEP(10)
 
 ### Authentication Vulnerability
 
@@ -174,7 +175,7 @@ __MySQL__  SELECT SLEEP(10)
 *  con suerte podría ser el Administrador
 
 
-
+ 
 
 
 
