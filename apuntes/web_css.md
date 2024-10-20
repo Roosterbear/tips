@@ -631,3 +631,272 @@ Where the order is: <br/>
 4.- grid-column-end <br/>
 
 
+## CSS Art !
+
+### FONDO
+
+* Patrón a seguir para fondo:
+
+1. Altura / Ancho
+2. Fondo
+3. Posición
+4. Transform
+5. Bordes
+6. Extras
+
+* Crear HTML con etiqueta __DIV__ "container"
+* Llamar archivo CSS
+
+```css
+.container{
+  height: 500px;
+  width: 500px;
+  background: #4c2e82;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border-radius: 5%;
+  box-shadow: 12px 12px 10px #bbb;
+}
+```
+
+### Cara
+
+* Agregar DIV "ferb" dentro de "container"
+```css
+.ferb{
+  /* medidas */
+  height: 250px;
+  width: 60px;
+  /* color */
+  background: #fce2c4;
+  border: 4px solid #ffa945;
+  border-bottom: none;
+  /* relativo al padre (fondo container)*/
+  position: relative;
+  /* mover */
+  left:220px;
+  top: 100px;
+  transform: rotate(5deg);
+}
+```
+
+### Boca
+
+```css
+.ferb::before{
+  content:"";
+  height: 15px;
+  width: 15px;
+  /* color */
+  background: #fce2c4;
+  border-left: 5px solid #ffa945;
+  border-bottom: 3px solid #ffa945;
+  border-bottom-left-radius: 10px;
+  /* para moverlo fuera del rostro */
+  position: absolute;
+  /* mover */
+  top: 170px;
+  left: -12px;
+  transform: skew(-42deg);
+}
+```
+
+## Oido
+
+```css
+.ferb::after{
+  content: "";
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  /* color */
+  background: #fce2c4;
+  border-radius: 50%;
+  border: 4px solid #ffa945;
+  border-top: none;
+  border-left: none;
+  /* mover */
+  left: 55px;
+  top: 80px;
+  transform: rotate(-40deg);
+}
+```
+
+
+### Nariz
+
+* Agregar DIV "nose" bajo "ferb"
+```css
+.nose{
+  height: 50px;
+  width: 50px;
+  background: #fce2c4;
+  position: relative;
+  left: 172px;
+  bottom: 92px;
+  border: 4px solid #ffa945;
+  border-right: none;
+  border-radius: 12px 0 0 12px;
+  transform: rotate(5deg);
+  z-index: 100;
+}
+
+.nose::before{
+  content: "";
+  height: 10px;
+  width: 30px;
+  background: #fce2c4;
+  position: absolute;
+  left: 30px;
+  top: -4px;
+  border-top: 4px solid #ffa945;
+}
+
+```
+
+
+### Ojos
+
+* Agregar DIV "eye" bajo "nose"
+```css
+
+.eye{
+  height: 45px;
+  width: 40px;
+  background: #fff;
+  position: relative;
+  left: 206px;
+  bottom: 188px;
+  border-radius: 50%;
+  border: 3px solid #000;
+  transform: rotate(5deg);
+}
+
+.eye::before{
+  content: "";
+  height: 12px;
+  width: 10px;
+  background: #000;
+  position: absolute;
+  left: 14px;
+  top: 22px;
+  border-radius: 50%;
+  transform: rotate(15deg);
+}
+
+.eye::after{
+  content: "";
+  height: 4px;
+  width: 4px;
+  background: #fff;
+  position: absolute;
+  left: 18px;
+  top: 24px;
+  border-radius: 50%;
+}
+
+.second-eye{
+  width: 40px;
+  height: 40px;
+  bottom: 224px;
+  left:234px;
+}
+
+.second-eye::before{
+  top: 10px;
+}
+
+.second-eye::after{
+  top: 14px;
+}
+```
+
+### Cabello
+
+* Agregar DIV "hair" bajo "eye" y dentro 5 DIVs sin clase
+```css
+
+.hair{
+ position: relative;
+ left: 10px;
+ bottom: 250px;
+ z-index: 100; 
+}
+
+.hair>div:nth-child(1){
+  height: 30px;
+  width: 100px;
+  position: absolute;
+  left: 180px;
+  bottom: 40px;
+  border-top: 20px solid #008000;
+  border-radius: 50px 40px 0 0;
+  transform: rotate(30deg);
+}
+
+.hair>div:nth-child(2){
+  height: 30px;
+  width: 100px;
+  position: absolute;
+  left: 200px;
+  bottom: 40px;
+  border-top: 20px solid #008000;
+  border-radius: 50px 40px 0 0;
+  transform: rotate(70deg);
+}
+
+.hair>div:nth-child(3){
+  height: 30px;
+  width: 80px;
+  position: absolute;
+  left: 220px;
+  bottom: 50px;
+  border-top: 20px solid #008000;
+  border-radius: 50px 40px 0 0;
+  transform: rotate(130deg);
+}
+
+.hair>div:nth-child(4){
+  height: 30px;
+  width: 100px;
+  position: absolute;
+  left: 200px;
+  bottom: 20px;
+  border-top: 20px solid #008000;
+  border-radius: 50px 40px 0 0;
+  transform: rotate(20deg);
+}
+
+
+.hair>div:nth-child(5){
+  height: 30px;
+  width: 50px;
+  position: absolute;
+  left: 260px;
+  bottom: 20px;
+  border-top: 20px solid #008000;
+  border-radius: 50px 40px 0 0;
+  transform: rotate(10deg);
+}
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
