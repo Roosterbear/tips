@@ -411,6 +411,13 @@ var primer_caracter = charAt(0);
 
 
 
+## CLASES ABSTRACTAS
+
+
+## INTERFACES
+
+
+## TIPOS GENERICOS
 
 
 
