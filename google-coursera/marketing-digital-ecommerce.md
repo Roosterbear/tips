@@ -1,12 +1,12 @@
-# Digital MArketing & E-Commerce
+# Digital Marketing & e-commerce
 
 ## [1] Attracting customers through search engines and online ads 🤑​💰​💳​
 
-### E-commerce
+### e-commerce
 
 > The buying and selling of goods and services online
 
-### E-commerce purchases
+### e-commerce purchases
 
 * Physical products - Books, Home goods, Electronics
 * Digital products - eBooks, online courses
@@ -16,7 +16,7 @@
 ### Digital marketing
 
 > The practice of reaching consumers online through digital channels
-> with the aim of turning them into customers
+> with the aim of turning them into customers ()
 
 * Digital channels: websites, search engines, email or social media.
 
@@ -28,10 +28,41 @@
 * Storytelling
 
 
+### Careers
+
+* In-house - Deep Knowledge
+* Agency - Multiple industries, flexible expertise
 
 
+### Digital Marketing Coordinator
+
+* Identify objectives
+* SEO best practices
+* Social media texts
+* Marketing Campaigns 
+* Assign content development and follow up on it
+* Clients activities monitoring
 
 
+### e-commerce Analyst
+
+* Ensure that customer interactions align with business objectives
+* Use SEO 
+* Measure traffic with social media advertising
+* Measure results in email campaigns
+* Data Analysis in Website or App
+* Edit content in Website
+* Execute and monitor loyalty programs
+
+
+### e-commerce
+
+* B2C - Business To Consume r
+* C2C - Consumer To Consumer
+> eBay, Etsy, Facebook Market Place
+* B2B - Business To Business
+* B2C - Consumer To Business
+> Freelancers, Influencers
 
 ## [2] Angaging customers on social media 🤑​💰​💳​
 ## [3] Creating email campains 🤑​💰​💳​
