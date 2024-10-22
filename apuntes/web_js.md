@@ -1119,9 +1119,6 @@ Install __Webpack__ inside the project: <br/>
 
 🕦  checking this from a book ---
 
-
-
-
 Install __Babel__ inside the project: <br/>
 
 ```terminal
