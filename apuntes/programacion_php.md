@@ -1,5 +1,7 @@
 # PHP
 
+## BASICO
+
 > We have to enclose our code in:
 
 ```php
@@ -8,16 +10,21 @@
 ?>
 ```
 
-* Run lampp in Linux
+### Run/Stop lampp in Linux
 
 ```bash
 ./xampp start
 ```
 
-* Stop service lampp in Linux
-
 ```bash
 ./xampp stop
+```
+
+### Reinstalar phpMyAdmin
+
+```bash
+sudo apt-get remove --purge phpmyadmin
+sudo apt-get install phpmyadmin
 ```
 
 
@@ -29,10 +36,7 @@ phpinfo();
 ?>
 ```
 
-## CONSTANTS
-
-
-* __define__ 
+### define
 
 ```php
 <?php 
@@ -40,7 +44,7 @@ define('DOMAIN', 'www.google.com');
 ?>
 ```
 
-* __defined__
+### defined
 
 ```php
 <?php 
@@ -55,7 +59,6 @@ defined('EXEC') or die;
 ```php
 var_dump($value);
 ```
-
 > Shows the type and value of a variable. 
 
 ### print_r
@@ -84,7 +87,7 @@ header("Location: index.php");
 ## STRINGS
 
 
-* __strlen__ 
+### strlen
 
 > Length of a string 
 
@@ -92,7 +95,7 @@ header("Location: index.php");
 strlen($my_string);
 ```
 
-* __str_word_count__ 
+### str_word_count
 
 How many words has the string <br/>
 
@@ -100,8 +103,7 @@ How many words has the string <br/>
 str_word_count($my_string);
 ```
 
-
-* __substr__ 
+### substr
 
 > Substract a part of a string
 
@@ -114,10 +116,56 @@ substr($my_string, 0, 5);
 <br/>
 
 
-* __rand()__ 
+### implode
+
+> Une en una cadena los elementos de un Array
+
+```php
+$libros = ['libro1','libro2','libro3'];
+$une = implode(" ", $libros);
+```
+
+### explode
+
+> Separa una cadena por un caracter como elementos de un Array
+
+```php
+$arreglo = explode(" ", $une);
+```
+
+### rand()
 
 ```php
 rand(1,6)
 ```
 
+### isset()
 
+
+
+
+### empty()
+
+> Revisa si es vacío, null, 0 o false
+
+
+
+### is_null()
+
+
+
+
+
+
+## AVANZADO
+
+### Archivos
+
+
+```html
+<form action="import" method="post" enctype="multipart/form-data">
+  <label for="file"></label>
+  <input type="file" name="file">
+  <input type="submit" name="submit" value="Import Students">
+</form>
+```
