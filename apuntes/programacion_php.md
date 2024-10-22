@@ -169,3 +169,87 @@ rand(1,6)
   <input type="submit" name="submit" value="Import Students">
 </form>
 ```
+
+
+
+
+
+
+
+## CODEIGNITER
+
+### Consultar
+
+> Como consultar una tabla de una BD en Codeigniter
+
+```php
+<?php
+$this->db->select("*");
+$this->db->from("empleados");
+$this->db->where("id=1");
+$query = $this->db->get();
+?>
+```
+
+> Saber si existen registros de esa consulta
+
+```php
+<?php
+if($query->num_rows()>0){
+  return $query->result();
+}else{
+  return NULL;
+}
+?>
+```
+
+> Funcion equivalente a "select * from"
+
+```php
+<?php 
+$query = $this->db->get('contactos');
+$resultado = $query->result();
+?>
+```
+
+### Insertar
+
+> Dentro de nuestro modelo, crear una función
+> creamos un array con los datos de la tabla
+
+```php
+<?php 
+$array = array(
+  "nombre"=>"Luis",
+  "apellido"=>"Perea",
+  "materia"=>2
+);
+$this->db->insert("empleados",$array);
+?>
+```
+
+
+
+```
+```
+
+
+
+
+
+```
+```
+
+
+
+
+```
+```
+
+
+
+
+```
+```
+
+
