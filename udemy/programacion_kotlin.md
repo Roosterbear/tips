@@ -5,6 +5,7 @@
 1. Instalar IntelliJ IDEA Community
 2. Crear nuevo proyecto de Kotlin
 3. Agregar en __src__ un nuevo archivo __Main.kt__
+4. Instalar plugins de __VSCode:__ Kotlin y Kotlin Language
 
 ```kotlin
 fun main(){
@@ -17,13 +18,22 @@ fun main(){
 > Hay variables reutilizables y NO reutilizables
 
 * REUTILIZABLES 
-> var nombre = "Luis"
+
+```kotlin
+var nombre = "Luis"
+```
 
 * NO Reutilizables
-> val numero = 10 
+
+```kotlin
+val numero = 10 
+```
 
 * Especificar el tipo
-> val age: Byte = 20
+
+```kotlin
+val age: Byte = 20
+```
 
 > PODEMOS USAR LA TECNICA SEO PARA CREAR NOMBRES DE VARIABLES
 > ES DECIR, USAR LA FORMA MAS OBVIA DE BUSCAR ALGO
@@ -32,8 +42,10 @@ fun main(){
 ## Strings
 
 > Para escribir variables dentro de cadenas usamos:
-> "Total: ${variable}"
 
+```kotlin
+val texto = "Total: $variable"
+```
 
 ## Métodos de conversión
 
@@ -43,14 +55,43 @@ fun main(){
 ## Arrays
 
 > Siempre guardan sus valores de forma consecutiva en memoria
-> val myArray = arrayOf(1,"hola",true)
-> val emptyArray = emptyArray<Int>()
-> val numeros = IntArray(size)
+
+```kotlin
+val myArray = arrayOf(1,"hola",true)
+val emptyArray = emptyArray<Int>()
+val numeros = IntArray(size)
+```
+
+## When
+
+* Con opciones Booleanas
+
+```kotlin
+when (loggedIn){
+   true -> println("Logueado")
+   false -> println("NO Logueado")
+}
+```
+
+* Con varios valores como If
+
+```kotlin
+val mensaje = when (loggedIn){
+   0 -> println("Logged out")
+   1 -> println("Logged in")
+   -1 -> println("Down")
+   else -> "Not found"
+}
+```
 
 
-
-
-
+```kotlin
+val total = when(productPrices){
+  is DoubleArray ->productPrices.sum().roundToInt().toString()
+  is Double ->productPrices.roundToInt().toString()
+  else ->productPrices.toString()
+}
+```
 
 
 
