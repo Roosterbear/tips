@@ -64,6 +64,33 @@
 * B2C - Consumer To Business
 > Freelancers, Influencers
 
+
+### How Digital Marketing Generates VALUE
+
+* DM It is more than SELL and running ads to drive sales
+* Audience __TRUST__ your Brand
+* Customer back for a second or more __PURCHASE__
+* Guides customer __interactions__
+* Reach customers before, during and after purchase
+* Know their audience
+* Create __tailored content__ for social media
+* Avoids unnecessary expenses
+* Adapts to __NEW__ technologies
+* Reach the target audience more accurately
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## [2] Angaging customers on social media 🤑​💰​💳​
 ## [3] Creating email campains 🤑​💰​💳​
 ## [4] Measuring and analyzing results 🤑​💰​💳​
