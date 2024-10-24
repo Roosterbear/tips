@@ -1,6 +1,6 @@
 # KOTLIN
 
-## Introducción
+## INTRODUCCION
 
 1. Instalar IntelliJ IDEA Community
 2. Crear nuevo proyecto de Kotlin
@@ -13,7 +13,7 @@ fun main(){
 }
 ```
 
-## Variables
+### Variables
 
 > Hay variables reutilizables y NO reutilizables
 
@@ -39,7 +39,7 @@ val age: Byte = 20
 > ES DECIR, USAR LA FORMA MAS OBVIA DE BUSCAR ALGO
 
 
-## Strings
+### Strings
 
 > Para escribir variables dentro de cadenas usamos:
 
@@ -47,12 +47,13 @@ val age: Byte = 20
 val texto = "Total: $variable"
 ```
 
-## Métodos de conversión
+
+### Métodos de conversión
 
 > Los tipos de datos cuentan con FUNCIONES que podemos usar
 
 
-## Arrays
+### Arrays
 
 > Siempre guardan sus valores de forma consecutiva en memoria
 
@@ -62,7 +63,19 @@ val emptyArray = emptyArray<Int>()
 val numeros = IntArray(size)
 ```
 
-## When
+
+> Para ver el tamaño de un array:
+
+```kotlin
+val greetings = arrayOf("Hola", "como", "estas")
+greeting.size
+```
+
+
+## ESTRUCTURAS DE CONTROL
+
+
+### When
 
 * Con opciones Booleanas
 
@@ -92,6 +105,15 @@ val total = when(productPrices){
   else ->productPrices.toString()
 }
 ```
+
+### ForIn
+
+```kotlin
+for(i in 0..4){
+  println(i)
+}
+```
+
 
 
 
