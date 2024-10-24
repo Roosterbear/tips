@@ -78,6 +78,74 @@
 * Adapts to __NEW__ technologies
 * Reach the target audience more accurately
 
+### Inclusive Marketing
+
+* Ethnicity
+* Socio-economic status
+* Age
+* Capabilities
+* Gender
+* Sexual orientation
+* Religion
+* Geographical location
+* Culture
+* Political orientation
+* Military Status
+* Languages
+ 
+> Debemos preguntarnos: ¿A qué clientes quiero alcanzar?
+
+### PAIN POINTS
+
+> Specific problems potential customers want to solve
+> Instead of asking "How do we sell more products"
+> Ask: "How do we help customers address their pain points 
+> or achieve their goals"
+
+
+### CUSTOMER JOURNEY
+
+> The path you take from learning about a product 
+> to getting your questions answered to making a purchase
+
+
+### TOUCHPOINT
+
+> Each interaction with a brand during a purchase journey
+
+
+### CUSTOMER JOURNEY MAP
+
+> A visualization of the touchpoints a typical customer
+> encounters along their purchase journey
+
+
+### DIGITAL MARKETING FUNNEL
+
+> A visual representation of the process through
+> which people go from first learning about a brand
+> to becoming loyal customers
+
+* Tiers
+
+1. __Awareness__ - Know a company
+2. __Consideration__ - Think doing business with a company
+3. __Conversion__ - Decides to make a purchase / Become a customer
+4. __Loyalty__ - Reasons to RETURN
+
+
+### Target audience
+
+> The group of people most likely to purchase a company's products
+
+
+
+
+
+
+
+
+
 
 
 
