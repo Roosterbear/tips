@@ -102,9 +102,6 @@ println("$saludo $intro $nombre")
 ```
 
 
-
-
-
 ## ESTRUCTURAS DE CONTROL
 
 ### When
@@ -169,6 +166,17 @@ numbers.forEach { number ->
 }
 ```
 
+## Clases
+
+
+### Clases de Datos
+
+> Son clases especiales, ideales para almacenar datos. Generan métodos como:
+
+* toString()
+* equals()
+* hashCode()
+* copy()
 
 
 ## FUNCIONES
@@ -176,23 +184,86 @@ numbers.forEach { number ->
 
 ### Funciones
 
-```
+```kotlin
+fun sumar(a: Int, b: Int): Int {
+    return a + b
+}
+
+fun main() {
+    val resultado = sumar(5, 3)
+    println("La suma de 5 y 3 es: $resultado")
+}
+
 ```
 
 
 ### Funciones con Argumentos Nombrados
 
-```
+```kotlin
+fun greet(name: String, greeting: String = "Hello") {
+    println("$greeting, $name!")
+}
+
+fun main() {
+    greet(name = "Juan", greeting = "Hola")
+    greet(greeting = "Hi", name = "Ana")
+    greet(name = "Carlos")
+}
 ```
 
 
 ### Funciones Infix
 
+> Son funciones que se utilizan sin el operador "."
+> La funcion "to" ya viene incluida en Kotlin
+
+```kotlin
+fun main() {
+    val pair = "key" to "value"
+    println(pair) // Output: (key, value)
+}
 ```
+
+```kotlin
+data class Vector(val x: Int, val y: Int)
+
+infix fun Vector.add(other: Vector): Vector {
+    return Vector(this.x + other.x, this.y + other.y)
+}
+
+fun main() {
+    val vector1 = Vector(1, 2)
+    val vector2 = Vector(3, 4)
+    val result = vector1 add vector2
+    println(result) // Output: Vector(x=4, y=6)
+}
 ```
 
+### Funciones LAMBDA
 
+> Son una función SIMPLIFICADA o Bloque de código
+> Se construyen solo con llaves
+> La flecha divide los parámetros del cuerpo
 
+```kotlin
+val suma = { x:Int, y:Int -> x + y }
+
+print(suma(1,2))
+```
+
+> Declarar una variable de tipo lambda
+
+```kotlin
+val addToFive: (Int)->Int = {
+  it + 5
+}
+
+println(addToFive(5))
+```
+
+### Función de ORDEN SUPERIOR
+
+> Reciben como parámetro OTRA función
 
 
 
