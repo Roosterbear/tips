@@ -63,7 +63,10 @@ bloginfo('description');
 
 ## Hooks
 
+> Existen dos tipos:
 
+1. __Filtros__ - Modifican textos o variables
+2. __Acciones__ - Se ejecutan con Eventos del sitio
 
 
 
