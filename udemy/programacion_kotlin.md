@@ -159,11 +159,19 @@ for(i in saludos.indices){
 
 ### Foreach
 
+> Es mejor para COLECCIONES
+
 ```kotlin
 val numbers = listOf(1, 2, 3, 4, 5)
 numbers.forEach { number ->
     println(number)
 }
+```
+> Podemos auxiliarnos del iterador de lambda "it"
+
+```kotlin
+val numbers = listOf(1, 2, 3, 4, 5)
+numbers.forEach { println(it)}
 ```
 
 ## Clases
@@ -266,13 +274,73 @@ println(addToFive(5))
 > Reciben como parámetro OTRA función
 
 
+## COLECCIONES
 
+> Las siguientes colecciones son INMUTABLES
+> Les agregamos mutable para hacerlas MUTABLES
 
+### List
 
+> Ya las habíamos visto anteriormente con "forEach"
 
+```kotlin
+val numbers = listOf(1, 2, 3, 4, 5)
+numbers.forEach { println(it)}
+```
 
+### Set
 
+> Guarda solo valores UNICOS
+> Es decir, desecha los repetidos
 
+```kotlin
+val numbers = setOf(1, 2, 2, 3, 1)
+numbers.forEach { println(it) }
+```
+
+### Map
+
+> Guarda clave - valor
+
+```kotlin
+val listado = mapOf(
+    1 to "Rock", 
+    2 to "Jazz",
+    3 to "Electronic"
+)
+    
+listado.forEach { 
+  val llave = it.key
+  val valor = it.value
+  println("$llave. $valor")
+}
+```
+
+### Predicados Funcionales
+
+* filter / filterNot / partition
+
+```kotlin
+val edades = listOf(22,34,17,14,15,48,45,19)
+val mayores = edades.filter{it >= 18}
+val menores = edades.filterNot{it >= 18}
+
+println(mayores.joinToString())
+println(menores.joinToString())
+
+val usa = edades.partition{it >= 21}
+val mayoresUSA = usa.first
+val menoresUSA = usa.second
+
+println(mayoresUSA.joinToString())
+println(menoresUSA.joinToString())
+```
+
+## OPERADOR ELVIS
+
+```kotlin
+return ?:0
+```
 
 
 
