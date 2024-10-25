@@ -139,6 +139,49 @@
 > The group of people most likely to purchase a company's products
 
 
+### Awareness tactics
+
+* Optimizing website content around specific search terms
+* Paying ADS on websites, social media, email or video platforms
+* Promotional partnerships with other brands or influencers
+
+
+### LEAD
+
+> A potential customer who has interacted with a brand 
+> and shared personal information like an email address
+
+
+### METRIC
+
+> A quantifiable measurement used to track
+> and assess progress towards an objective
+
+
+### IMPRESSIONS
+
+> The total number of times and AD appears on people's screens
+
+
+### REACH
+
+> The total number of unique individuals who
+> encounter an AD across their different devices
+
+
+### FREQUENCY
+
+> How many times each individual encounters 
+> an AD in a given timeframe
+
+
+### Measuring consideration
+
+* How often customers search for your business online
+* Number of first-time visitors
+* Number of pages per visitor
+* How long visitors spend on a page
+* Email or newsletter signup
 
 
 
