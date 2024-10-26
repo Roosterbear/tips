@@ -85,7 +85,9 @@ const About = lazy(()=> import("./pages/about"))
 
 > Agregamos a nuestro proyecto:
 > yarn add react-helmet
---
+
+----
+
 > Agregamos a nuestra page de Home:
  
 ```jsx
