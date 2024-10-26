@@ -85,9 +85,6 @@ const About = lazy(()=> import("./pages/about"))
 
 > Agregamos a nuestro proyecto:
 > yarn add react-helmet
-
-----
-
 > Agregamos a nuestra page de Home:
  
 ```jsx
@@ -105,3 +102,72 @@ const Home = ()=>{
 
 export default Home;
 ```
+
+
+### SNAP
+
+> Activa SEO
+
+1. Instalar:
+
+> yarn add --dev react-snap
+
+2. Modificar __package.json__ 
+
+> Agregamos el script después del build:
+
+```json
+"postbuild": "react-snap",
+```
+
+```jsx
+import Reacr from 'react';
+import { render, hydrate } from react-dom;
+import "./index.css";
+import App from "./App";
+import reportWebVitals from './reportWebVitals';
+
+const rootElement = document.getElementById("root");
+
+if (rootElement.hasChildNodes()){
+  hydrate(<App />, rootElement);
+}else{
+  render(<App />, rootElement);
+}
+
+reportWebVitals();
+```
+
+> Agregar en el package.json despues de los scripts
+
+```json
+"reactSnap": {
+  "source":"build",
+  "miniyHtml":{
+    "collapseWhitespace":false,
+    "removeComments":false
+  }
+},
+```
+
+> yarn build
+
+## Netlify
+
+1. Crear cuenta
+2. Add new site
+3. Deploy manually
+4. Subir carpeta build
+
+
+
+
+
+
+
+
+
+
+
+
+
