@@ -134,6 +134,13 @@
 4. __Loyalty__ - Reasons to RETURN
 
 
+### AWARENESS
+
+> Is when a potential customer encounters your brand for the first time.
+
+> THE FIRST STEP TO GET THE RIGHT AUDIENCE IS __RESEARCH__
+
+
 ### Target audience
 
 > The group of people most likely to purchase a company's products
@@ -175,6 +182,27 @@
 > an AD in a given timeframe
 
 
+### MEASURING
+
+> Measuring outcomes at each stage of the funnel
+> allows you to find out what you're doing right,
+> what you're doing wrong and where you could improve.
+
+
+### MEASURING AWARENESS
+
+* Impressions
+> Total number of times an AD appears on peoples' screens
+
+* Reach
+> Total number of UNIQUE individuals who encounter 
+> an AD across their different devices
+
+* Frequency
+> How many times each individual encounters an AD in a given timeframe
+
+
+
 ### Measuring consideration
 
 * How often customers search for your business online
@@ -182,6 +210,73 @@
 * Number of pages per visitor
 * How long visitors spend on a page
 * Email or newsletter signup
+
+
+### Consideration tactics - GET THE CUSTOMER TO MAKE A PURCHASE
+
+* Serve ADS based on products and pages visited
+* Blog posts, newsletters, webinars
+* Samples, tools trial memberships
+
+
+### Conversion tactics
+
+* Accurate products descriptions
+* Smooth checkout process
+* Clear returns policy
+* Product-focused ads
+* Clearly organized website
+
+
+### Conversion 
+
+> When a potential customer takes a desired action, like making a purchase
+
+
+### Measuring conversion
+
+* Number of conversions
+* Time to conversion
+* Cost per conversion
+* Average number of touchpoints
+* Average order size
+
+
+### Cart abandonment
+
+> When a customer adds an item to their cart,
+> but doesn't complete the purchase
+
+
+
+### Loyalty tactics
+
+* Great experience during and after purchase
+* Follow-up emails
+* Rewards programs
+* Social media engagement
+
+
+
+### Measuring loyalty
+
+* Rate of repeat purchases
+* Length of time between purchases
+* Number of orders per customer
+* Rate of account activation after sign-up
+* Engagement with rewards programs
+
+
+### TENDENCIES
+
+* Small business
+* Immersive Experiences (VR, AR, Chatbots)
+* Innovative Distribution (Drones or Autonomous Vehicle)
+
+
+
+
+
 
 
 
