@@ -284,10 +284,73 @@ root.render(
 > import TarjetaFruta from './components/TarjetaFruta'
 
 
+### Refs
 
-### Portales
+> Se hicieron para sustituir el __getElementById()__
+> En este ejemplo instalamos: npm install chart.js
 
-> ?
+```jsx
+import React from 'react'
+import Chart from 'chart.js'
+
+class Graficas extends Component{
+  grafica = React.createRef()
+
+  componentDidMount(){
+    const ctx = this.grafica.current.getContext('2d');
+
+    /* AQUI VA EL CODIGO DE EJEMPLO DE CHART.JS */
+
+
+  }
+
+  class App extends Component{
+    render(){
+      return(
+        <div>
+          <h1>Usando refs</h1>
+          <Graficas />
+        </div>
+      )
+    }
+  }
+
+}
+```
+
+### FORMA CORRECTA DE AGREGAR UN EMOJI
+
+```jsx
+<span role="img" arial-label='unicorn'>
+🦄​
+</span>
+```
+
+### INPUTS CONTROLADOS
+
+> 
+
+
+
+```jsx
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
