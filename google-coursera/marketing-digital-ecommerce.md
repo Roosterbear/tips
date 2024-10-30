@@ -274,8 +274,35 @@
 * Innovative Distribution (Drones or Autonomous Vehicle)
 
 
+### Brand
+
+> How a business or organization is perceived by the public
 
 
+### Brand equity - VALOR DE MARCA
+
+> The __VALUE__ consumers attribute to one brands's offerings
+> when compared with similar products from another brand
+
+> The __TRUST__ people have in the familiar brand
+> ADDS to its overall value
+
+
+### 13 Topics to AVOID
+
+1. Military conflicts
+2. Obscene content
+3. Drugs
+4. Tobacco
+5. Adult content
+6. Weapons
+7. Crime
+8. Death / Violence
+9. Online piracy
+10. Hate Speech
+11. Terrorism
+12. Spam
+13. Fake News
 
 
 
