@@ -305,6 +305,223 @@
 13. Fake News
 
 
+### Digital marketing strategy
+
+> A plan for achieving specific goals through online 
+> channels to support and advance business objectives
+
+
+### Media mix
+
+> The combination of digital channels you use to reach 
+> your goals, and how you divide your budget among them
+
+
+### Effective digital marketing strategy
+
+* Research your audience
+* Set goals
+* Review existing media for gaps
+* Select marketing channels
+* Plan content
+* Measure and analyze results
+
+
+### Customer Persona
+
+> A Group of similar kind of people within your audience
+> Use __HubSpot__ or __Up close & Persona__ to create a Customer Persona
+
+
+### Business goals
+
+> Desired aims, achievements or outcomes for a business
+> IMPACT A COMPANY AT ALL LEVELS
+
+
+### Business goals
+
+* Increasing profits
+* Gaining new customers
+* Improving customer service
+* Raising productivity
+* Launching new products or services
+
+> "Grow our number of active customers by 25% over the next two years
+> adding five frequently-requested features to our software"
+
+
+### Marketing goals
+
+> Specific objectives in a marketing plan or strategy
+> that should support a business larger aims
+> ARE SPECIFIC TO MARKETING EFFORTS
+
+
+* Raising brand awareness
+* Increasing web traffic
+* Generating new leads
+* Driving sales or conversions
+
+> "We will increase our lead generation by 40% in the next year
+> by running upper-funnel ADS the highlight our new features
+> and increasing our mid-funnel budget by 20%"
+
+
+### CATEGORIES OF DIGITAL MEDIA
+
+1. __PAID__ A form of digital promotion a brand pays to put online
+
+2. __OWNED__ Website content, Blogs, eBooks, Social Media content
+
+3. __EARNED__ Positive digital exposure through recommendations
+
+
+
+### Search Engine Optimization (SEO)
+
+> A set of practices designed to increase 
+> the quantity of traffic to a website
+
+
+### Keywords
+
+> Commonly-used search terms
+
+
+### Search Engine Results Pages (SERPs)
+
+> The pages of results produced when someone performs a search
+
+
+### Keyword research
+
+> The process of identifying common search terms and phrases
+> consumers use to find products or services online
+
+
+### Search Engine Marketing (SEM)
+
+> The process of GENERATING TRAFFIC to a website through 
+> paid ADs that appear on search engine results pages
+
+
+### AD Auction
+
+> How a search engine determines which ads to display and 
+> the order they're shown, when someone performs a search
+
+
+### Pay-per-click Advertising (PPC)
+
+> An advertising model where you pay only when someone clicks on your AD
+
+
+### Cost-per-click (CPC)
+
+> The amount you pay when someone click on a PPC AD
+
+
+### Remarketing
+
+> Allows you to identify previous customers or visitors to your website
+> and serve them paid ADs on other sites and social media platforms
+
+
+### Display Marketing
+
+> Marketing elements in websites (Video, GIF, Text)
+
+
+### Social Media DRAWBACK
+
+> Can't control the platforms themselves
+> It can shut down or change their algorithm
+
+
+### Social Media Marketing
+
+> Creating and publiching content for social media platforms
+> in order to drive engagement and promote a brand or product
+
+
+### 5 pillars of social media marketing
+
+1. Strategy 
+  * __KNOW WHO YOUR AUDIENCE IS AND WHICH SOCIAL MEDIA THEY USE__
+  * __UNDERSTAND YOUR GOALS__
+  * __CREATE EFFECTIVE AND RELEVANT CONTENT__
+
+2. Planning and publishing 
+  * __WHEN TO POST CONTENT__
+  * __HOW OFTEN TO POST CONTENT__
+
+3. Listening and engagement
+  * __TRACK AND ANALYZE CONVERSATIONS AND MENTIONS RELATED TO YOUR BRAND__
+  * __RESPOND TO AND ENGAGE WITH CUSTOMERS__
+
+4. Analytics and reporting
+  * __FIND OUT HOW CONTENT OR CAMPAIGNS ARE PERFORMING__
+  * __COMMUNICATE RESULTS__
+  * __USE INSIGHTS TO RESPOND TO TRENDS OR GUIDE FUTURE STRATEGIES__
+
+5. Paid social media
+  * __EXPAND A BRAND'S REACH__
+  * __REMARKET PRODUCTS__
+  * __SERVE ADS TO HIGHLY SPECIFIC CUSTOMER GROUPS__
+  * __GROW THEIR EMAIL LISTS__
+
+
+### SPAM (Junk Mail)
+
+> Unwanted emails sent out in bulk to a mass recipient list
+
+
+### Email marketing
+
+> When a brand sends messages to a list of existing suscribers
+> to share information, drive sales or create community
+> __RELEVANT AND HELPFUL CONTENT TO PEOPLE WHO'VE AGREED TO RECEIVE IT__
+
+
+### Email segmentation
+
+> Dividing an email subscriber list into smaller groups or segments,
+> based on criteria like interests, location or purchase history
+
+
+### Personalization
+
+> Customizing email content for individual suscribers
+
+* Address each recipient directly
+* Send promotions for special events
+* Send messages that match customers in the funnel
+* Follow up on previous interactions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
