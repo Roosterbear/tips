@@ -50,13 +50,19 @@
 > Incluye la lista para bajar dependencias
 > Scripts: nombres cortos de scripts del proyecto
 
+
+
 ## PRIMERA APP
+
 
 ### --- BUENAS PRACTICA ---
 
 > Crear una carpeta "__components__"
 > Crear componente, comenzando en __MAYUSCULAS__
+> Llamar igual al archivo como al componente
 > Debemos crear funciones, y pueden ser:
+
+* HolaMundo.js
 
 ```jsx
 import React from 'react';
@@ -70,6 +76,7 @@ export default function HolaMundo(){
   );
 }
 ```
+* HolaMundo.js
 
 ```jsx
 import React from 'react';
@@ -91,7 +98,10 @@ export default HolaMundo;
 
 > Podemos crear más componentes en un archivo, pero:
 > Solo puede existir __UN COMPONENTE DEFAULT__ por archivo
-> Para agregar componentes que no son default ->
+
+* 
+
+> __PARA AGREGAR COMPONENTES QUE NO SON DEFAULT__: ->
 > Envolvemos el componente entre llaves: __{SegundoComponente}__
 
 > Un componente SOLO devuelve __UN ELEMENTO__
@@ -103,10 +113,41 @@ export default HolaMundo;
   <h2>Roosterbear</h2>
 </>
 ```
+> Si queremos tener FUNCIONES, las ponemos ANTES del __RETURN__
 
-> Si queremos tener funciones, las ponemos ANTES del __RETURN__
+
+## PROPS
 
 
+```jsx
+import React from 'react';
+
+export defaul function Saludar(props){
+  console.log(props);
+
+  return(
+    <div>
+      <h2>Hola Roosterbear</h2>
+    </div>
+  );
+}
+```
+> En nuestra aplicación principal, importamos y agregamos el componente:
+
+```jsx
+import Saludar from './components/Saludar'
+
+<Saludar />
+```
+
+
+
+
+
+
+
+```jsx
+```
 
 
 

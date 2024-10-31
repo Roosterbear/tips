@@ -10,17 +10,14 @@
 
 > Transcribe Javascript Moderno a Código Compatible
 
-
 ### Webpack
 
 > Crea módulos empaquetados para distribuir código
 > Puede integrar código CSS, imágenes o Fuentes
 
-
 ### Chrome Dev Tools
 
 > Se abren con la tecla __F12__ o con _ctrl+shift+i_
-
 
 
 
@@ -71,8 +68,6 @@
 ### COMPONENTES
 
 * Tan solo SON UNA FUNCION que retorna un valor
-* PODEMOS USAR LA FUNCIÓN FLECHA
-* Si solo agregamos el COMPONENTE podemos omitir el return 
 * Si el retorno es simple, usamos UNA sola linea
 * Si regresamos varias lineas, usamos PARÉNTESIS.
 
@@ -326,14 +321,12 @@ class Graficas extends Component{
 </span>
 ```
 
-### INPUTS CONTROLADOS
-
-> 
-
-
 
 ```jsx
 ```
+
+
+## ANIMACIONES Y TRANSICIONES EN REACT
 
 
 
