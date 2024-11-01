@@ -140,13 +140,49 @@ import Saludar from './components/Saludar'
 <Saludar />
 ```
 
+### PASAR UN OBJETO A UN COMPONENTE POR PROPS
 
-
-
-
-
+> App.js
 
 ```jsx
+import './App.css';
+import Saludo from './components/Saludo'
+
+function App() {
+  const user = {
+    name:"Luis Fernando",
+    edad:48,
+    library:"React",
+    so:"Linux",
+    language:"Go"
+  }
+
+  return (
+    <>      
+      <Saludo userInfo={user}/>
+    </>
+  );
+}
+export default App;
+```
+> Saludo.js
+
+```jsx
+import React from 'react'
+
+export default function Saludo(props){
+  return(
+    <>
+      <h1>Soy {props.userInfo.name}</h1>
+      <h2>tengo {props.userInfo.edad} años</h2>
+      <h3>{`y me gusta usar 
+        ${props.userInfo.so} y programar en 
+        ${props.userInfo.language} y
+        ${props.userInfo.library}`}
+      </h3>
+    </>
+  );
+}
 ```
 
 
