@@ -500,6 +500,77 @@
 * Follow up on previous interactions
 
 
+### Performance marketing
+
+> The process of using concrete information about customers 
+> behaviors to plan and refine marketing and sales strategies
+
+
+### Customer lifetime value
+
+> The average revenue generated per customer 
+> over a certain period of time
+
+
+### ROAS (Return On AD Spend)
+
+> How much revenue is gained versus how much was spent
+
+
+### DATA
+
+> A collection of facts or information
+
+
+### Key Performance indicator (KPI)
+
+> A measurement used to gauge how successful a business
+> is in its effort to reach a business or marketing goal
+
+
+### Data analytics
+
+> Monitor and evaluating data to gain actionable insights
+
+
+### Ways of working with data
+
+* Pulling
+> Collecting data from analytics tools and putting it in a spreadsheet or database
+
+* Reporting
+> Organizing and summarizing data to track performance across marketing and sales efforts
+
+* Analyzing
+> Examing data in order to draw conclusions, make predictions
+> and drive informed decision-making
+
+
+### Atribution
+
+> Determing which content and channels are responsible 
+> for generating the leads, conversions or sign-ups
+
+
+### Atribution models
+
+* Data-driven
+> Measures customer engagement with marketing content across 
+> channels to understand what's motivating them to take action
+
+* First click
+> Assigns all the credit to the first touchpoint
+> that eventually leads to a conversation
+
+* Last click
+> Assigns all the credit to the last known 
+> touchpoint before convertion
+
+* Linear
+> Assigns equal credit to each touchpoint
+> along the customer journey
+
+
 
 
 
