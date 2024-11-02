@@ -185,8 +185,49 @@ export default function Saludo(props){
 }
 ```
 
+### PASANDO FUNCIONES ENTRE COMPONENTES POR PROPS
 
+> App.js
 
+```jsx
+import './App.css';
+import Saludar from './components/Saludar'
+
+function App() {
+  const user = {
+    name:"Luis Fernando"
+  }
+
+  const saludarFn = name=>{
+    console.log("Hola "+name);
+  }
+
+  return (
+    <>      
+      <Saludar userInfo={user} saludarFn={saludarFn}/>
+    </>
+  );
+}
+export default App;
+```
+
+> Saludar
+
+```jsx
+import React from 'react'
+
+export default function Saludar(props){
+  return(
+    <>
+      <button onClick={()=>props.saludarFn(props.userInfo.name)}>
+      Saludar
+      </button>
+    </>
+  );
+}
+```
+> Necesitamos agregar la FUNCIÓN DE FLECHA para que
+> NO se ejecute la función de manera automática
 
 
 
