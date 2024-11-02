@@ -1,4 +1,4 @@
-# REACT
+# BEGINNING REACT
 
 ## Trucos
 
@@ -35,3 +35,98 @@ root.render(
     <App/>
 )
 ```
+
+### MEJORANDO LA VISTA
+
+> Instalamos: npm install react-icons --save
+> Importamos:
+
+```jsx
+import React, {Component} from 'react'
+import {IoIosStar, IoIosStarOutline} from 'react-icons/io'
+
+class Rating extends Component{
+  render(){
+    return(
+      <>
+        <IoIosStar/>
+      </>
+    )
+  }
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
