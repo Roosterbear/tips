@@ -571,6 +571,27 @@
 > along the customer journey
 
 
+### Data storytelling
+
+> Conveying data insights to a specific audience
+> using a clear and compelling narrative
+
+* __Data__ - characters in a play
+* __Narrative__ - plot of a play - EXPLAIN YOUR IDEAS
+* __Visualization__ - costumes of a play
+
+
+### Parts of a History
+
+1. Context
+2. Conflict
+3. Resolution
+
+
+### How to find Job opportunities
+
+
+
 
 
 
