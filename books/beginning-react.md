@@ -24,7 +24,7 @@ class App extends Component{
   render(){
     return(
       <div>
-        <Button>Default</Button>
+        <Button variant="primary">Default</Button>
       </div>
     )
   }
@@ -50,14 +50,19 @@ class Rating extends Component{
     return(
       <>
         <IoIosStar/>
+        <IoIosStarOutline/>
       </>
     )
   }
 }
 ```
 
+### MEJORES FORMULARIOS CON FORMIK
 
+> Instalamos: npm install formik --save
 
+```jsx
+```
 
 
 
