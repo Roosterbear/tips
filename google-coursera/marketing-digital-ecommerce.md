@@ -588,7 +588,8 @@
 3. Resolution
 
 
-### How to find Job opportunities
+
+## [2] Attract and Engage Customers with Digital Marketing 🤑​💰​💳​
 
 
 
@@ -633,7 +634,12 @@
 
 
 
-## [2] Angaging customers on social media 🤑​💰​💳​
+
+
+
+
+
+
 ## [3] Creating email campains 🤑​💰​💳​
 ## [4] Measuring and analyzing results 🤑​💰​💳​
 ## [5] Managing customer relationships 🤑​💰​💳​
