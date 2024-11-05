@@ -592,6 +592,21 @@
 ## [2] Attract and Engage Customers with Digital Marketing 🤑​💰​💳​
 
 
+### CUSTOMER PERSONA
+
+> A Group of similar persons in a desirable public, help us to:
+
+* Better understand the customer's perspective
+* Easier to create customized content
+* Effective AD targeting
+
+
+
+
+
+
+
+
 
 
 
