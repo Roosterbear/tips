@@ -385,8 +385,55 @@ export default function App(){
 
 > Instalamos: npm install react-router-dom
 
+> Importamos:
 
+```jsx
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+```
 
+> Creamos una carpeta llamada "pages"
+> Dentro de ella creamos dos archivos de componentes: contacto.js y acerca.js
+> Importamos nuestras páginas:
+> Agregamos nuestras rutas:
+
+```jsx
+import React from 'react';
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import Contacto from './pages/Contacto';
+import Acerca from './pages/Acerca';
+
+export default App(){
+  return(
+    <div>
+      <h1>React Router</h1>
+      <Router>
+        /* PONEMOS NUESTROS LINKS */
+        <div>
+          <Link to="/">
+            <Button>Home</Button>
+          </Link>
+          <Link to="/contacto">
+            <Button>Contacto</Button>
+          </Link>
+          <Link to="/acerca">
+            <Button>Acerca</Button>
+          </Link>
+        </div>
+
+        /* LAS RUTAS VAN DENTRO DE ROUTER */
+        <Switch>          
+          <Route path="/contacto">
+            <Contacto/>
+          </Route>
+          <Route path="/acerca">
+            <Acerca/>
+          </Route>
+        </Switch>
+      </Router>
+    </div>
+  );
+}
+```
 
 
 
