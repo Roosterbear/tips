@@ -1,12 +1,14 @@
 # CSS =================================================================
  
-## Add CSS file -------------------------------------------------------
+## INTRODUCTION
+
+### Add CSS file ------------------------------------------------------
 
 ```html
 <link rel="stylesheet" href="style.css">
 ```
 
-## Clean properties ---------------------------------------------------
+### Clean properties ---------------------------------------------------
 
 ```css
 *{
@@ -18,11 +20,12 @@
 
 ## HOW CSS ACTS? 🐉  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-Let's see from less to the most priority in how a cascade works:
+> Let's see from less to the most priority in how a cascade works:
 
 ### Position (1/4) ----------------------------------------------------
 
-Cascade sheets takes the values of properties, and change them as if they fall. <br/>
+> Cascade sheets takes the values of properties, 
+> and change them as if they fall. 
 
 ```css
 li{
@@ -30,30 +33,35 @@ li{
   color: blue;
 }
 ```
-It will be __blue__ because acts like a cascade, from top to bottom. <br/>
-First, color will be red, but we overwrite to blue later.<br/>
+> It will be __blue__ because acts like a cascade, 
+> from top to bottom.
+> First, color will be red, but we overwrite to blue later.
 
 ### Specificity (2/4) -------------------------------------------------
 
-There is another reason for CSS to take certain value, and it is the _specificity_, <br/>
-where is a degree of the selector value. <br/>
+> There is another reason for CSS to take certain value, 
+> and it is the _specificity_, <
+> where is a degree of the selector value.
 
-__1.- id__ The most valuated property, like ```#principal``` <br/>
-__2.- attribute__ Like ```li[draggable]``` <br/>
-__3.- class__ Like ```.my-class``` <br/>
-__4.- element__ Like ```li``` <br/>
+1. __id__ The most valuated property, like ```#principal``` 
+2. __attribute__ Like ```li[draggable]``` 
+3. __class__ Like ```.my-class``` 
+4. __element__ Like ```li``` 
 
 
 ### Type [the way we add CSS] (3/4) -----------------------------------
 
-The most important: <br/>
+> The most important:
+
 ```html
 <div style=""> </div>
 ```
-Less important <br/>
-```<style> /* code */<style>```  <br />
+> Less important 
 
-The least important <br/>
+```<style> /* code */<style>```  
+
+> The least important
+
 ```html
 <link rel="stylesheet" href="style.css">
 ```
@@ -65,25 +73,29 @@ li{
   color: blue;
 }
 ```
-It will be __red__ <br/>
+> It will be __red__ 
 
-<br/>
 
 
 ## FONTS --------------------------------------------------------------
 
-__measurements__ <br/>
+### Measurements
 
-_px_ standard measurement to divide minimum spaces of color. <br/>
-_em_ relative measurement for fonts, it is equal to the letter M size from default font <br/>
-_rem_ based on the root font of the HTML <br/>
+> _px_ standard measurement to divide minimum spaces of color. 
+> _em_ relative measurement for fonts, 
+> it is equal to the letter M size from default font 
+> _rem_ based on the root font of the HTML
 
-__rem HACK__ ❗❗❗ <br/>
+
+### rem HACK❗❗❗
+
 ```html
-  font-size: 62.5%; /* 1rem NOW is 10px ❗ */
+  font-size: 62.5%; 
 ```
+> 1rem NOW is 10px ❗
 
-__remove underline__ <br/>
+
+### Remove underline
 
 ```css
 a:hover{
@@ -91,7 +103,7 @@ a:hover{
 }
 ```
 
-__remove the dotted line from links__ <br/>
+### Remove the dotted line from links
 
 ```css
 a{
@@ -99,7 +111,7 @@ a{
 }
 ```
 
-__space between letters__ <br/>
+### Space between letters
 
 ```css
 p{
@@ -107,7 +119,7 @@ p{
 }
 ```
 
-__add indent__
+### Add indent
 
 ```css
 p{
@@ -115,35 +127,36 @@ p{
 }
 ```
 
-__remove black circles from lists__ <br/>
+### Remove black circles from lists
 
 ```css
 ul{
   list-style-type: none; /* or shorthand: list-style: */
 }
 ```
-We can add: disc, circle, upper-roman, lower-latin, square.
+> We can add: disc, circle, upper-roman, lower-latin, square.
 
 
 ## CENTER -------------------------------------------------------------
 
-__center an element__ <br/>
 
-Adding padding: <br/>
+### Center an element
+
+> Adding padding:
 
 ```css
 #features{
   padding: 7% 15%;
 }
 ```
-7% will be top and bottom <br/>
-15% will be left and right <br/>
+> 7% will be top and bottom 
+> 15% will be left and right
 
-This is perfect for a _section_ <br/>
+> This is perfect for a _section_ 
 
-__center a text__ <br/>
+### Center a text
 
-Add a class and centering like: <br/>
+> Add a class and centering like:
 
 ```css
 .feature-box{
@@ -152,7 +165,7 @@ Add a class and centering like: <br/>
 }
 ```
 
-__center blocks__ </br>
+### Center blocks
 
 ```css
 img{
@@ -161,18 +174,31 @@ img{
 }
 ```
 
-To get images in a perfect size, we can add: <br/>
+> To get images in a perfect size, we can add: 
 
 ```css
   display: block;
   max-width: 100%;
 ```
+> Especial for blocks
 
-Especial for blocks. <br/>
+
+### Vertical centering
+
+> We have to put a height and a line-height with the __same value__. 
+
+```css
+.box{
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+}
+```
+
 
 ## IMAGES -------------------------------------------------------------
 
-There are two properties that makes better our images with CSS:
+> There are two properties that makes better our images with CSS:
 
 ```css
 img{
@@ -192,11 +218,12 @@ body{
   background-position: center center;
 }
 ```
- We can use in background-repeat: no-repeat, repeat, repeat-x, repeat-y. <br/>
+ > We can use in background-repeat: no-repeat, repeat, repeat-x, repeat-y. 
  
- In background-position, the first center is for top and bottom, the second is for left and right. <br/>
+ > In background-position, the first center is for top and bottom, 
+ > the second is for left and right. 
  
- __fixed background__ <br/>
+ ### Fixed background
  
  ```css
   background-attachment: fixed;
@@ -204,14 +231,15 @@ body{
   height: 95vh;
  ```
  
- __cover__ is used to adapt the background to the entire image regardless of the device. <br/>
+ > __cover__ is used to adapt the background to the entire image 
+ > regardless of the device. 
  
 
 ## SELECTORS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-__child__ <br/>
+### Child
 
-We have this CSS: <br/>
+> We have this CSS:
 
 ```css
 div > strong{
@@ -219,16 +247,16 @@ div > strong{
 }
 ```
 
-And we have this HTML: <br/>
+> And we have this HTML:
 
 ```html
 <strong>This doesn't change color</strong>
 <div><strong>This will be RED actually</strong></div>
 ```
 
-__descendent__
+### Descendent
 
-Is a tag inside other tag, no matter the depth <br/>
+> Is a tag inside other tag, no matter the depth
 
 ```css
 div strong{
@@ -236,7 +264,7 @@ div strong{
 }
 ```
 
-We can check this in the HTML: <br/>
+> We can check this in the HTML: 
 
 ```html
 <div>
@@ -250,9 +278,9 @@ We can check this in the HTML: <br/>
 </div>
 ```
 
-__adyacent__
+### Adyacent
 
-A tag that follows another.
+> A tag that follows another.
 
 ```css
 p + p{
@@ -260,7 +288,7 @@ p + p{
 }
 ```
 
-__attribute selectors__
+### Attribute selectors
 
 ```css
 a[href ^ = "#"]{  /* Begins with...*/
@@ -277,7 +305,7 @@ a[href $ = "#"]{  /* Ends with...*/
 }
 ```
 
-__pseudo-elements__
+### Pseudo-elements
 
 ::after <br/>
 ::before <br/>
@@ -286,7 +314,8 @@ __pseudo-elements__
 ::first-line <br/>
 <br/>
 
-__pseudo-classes__
+### Pseudo-classes
+
 ::checked <br/>
 ::disabled <br/>
 ::enabled <br/>
@@ -300,46 +329,48 @@ __pseudo-classes__
 
 ## POSITIONING 🧭  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-__static__ <br/>
+### Static
 
-Takes the default values of the element (block, inline-block, inline): <br/>
-It doesn't move from it's original position. <br/>
+> Takes the default values of the element (block, inline-block, inline): 
+> It doesn't move from it's original position.
+
 ```css
 position: static;
 ```
-__relative__<br/>
 
-Moves it's position based in the container with: __top__ and __left__. <br/>
+### Relative
+
+> Moves it's position based in the container with: __top__ and __left__. 
+
 ```css
 position: relative;
 ```
 
-__absolute__<br/>
+### Absolute
 
-Moves it's position relative to the nearest positioned ancestor with: __top__ and __left__.<br />
-We need that the ancestor to be "relative" to work this position. <br/>
+> Moves it's position relative to the nearest positioned ancestor with: 
+> __top__ and __left__.
+> We need the ancestor to be "relative" to work this position.
+
 ```css
 position: absolute;
 ```
 
-__fixed__<br/>
+### Fixed
 
-Position relative to the top left corner of the browser window. <br/>
-Sticks like gum, does not move with scroll. <br/>
+> Position relative to the top left corner of the browser window. 
+> Sticks like gum, does not move with scroll.
 
 ```css
 position: fixed;
 ```
 
-Ejm. <br/>
-Make a blue rectangle 500px width, 300px height and 200px top-left from parent. <br/>
-Put a red circle 200px width and 150px top and 250px left. <br/>
+> Ejm.
+> Make a blue rectangle 500px width, 
+> 300px height and 200px top-left from parent. 
+> Put a red circle 200px width and 150px top and 250px left. 
 
-__vertical centering__ <br/>
-
-We have to put a height and a line-height with the __same value__. <br/>
-
-__Menu with Float__ (old school) <br/>
+__Menu with Float__ (old school) 
 
 ```css
 nav ul li{
@@ -356,7 +387,7 @@ nav ul li{
 
 ## VARIABLES ----------------------------------------------------------
 
-we can assign variables: <br/>
+> We can assign variables: 
 
 ```css
 :root{
@@ -364,7 +395,7 @@ we can assign variables: <br/>
 }
 ```
 
-We can use them: <br/>
+> We can use them:
 
 ```css
 p{
@@ -374,22 +405,30 @@ p{
 
 ## BOXES --------------------------------------------------------------
 
-The elements in CSS has layers from center to the extreme. <br/>
-The first level is the content in itself. <br/>
-We can have a border outside the content. It can have color and width. <br/>
-Between content and border there is a blank __space__ called _padding_. <br/>
-We have another __space__, between border and the outside of the element, called _margin_, where the rest of the page are. <br/>
+> The elements in CSS has layers from center to the extreme. 
+> The first level is the content in itself. 
+> We can have a border outside the content. 
+> It can have color and width. 
+> Between content and border there is a blank __space__ called _padding_. 
+> We have another __space__, between border and the outside of the element, 
+> called _margin_, where the rest of the page are. 
 
 
 ## CHANGING ELEMENTS 🦋  -----------------------------------------------
 
-__Radius__ 🔘 <br/>
-To make a picture or a shape rounded, we can add the property:
+### Radius 🔘 
+
+> To make a picture or a shape rounded, we can add the property:
+
 ```css
 border-radius: 50%;
 ```
-__Transition__ ⏲️ <br/>
-We can use it when something changes. It delays the time that takes from state to other.<br/>
+
+### Transition ⏲️ 
+
+> We can use it when something changes. 
+> It delays the time that takes from state to other.
+
 ```css
 .elemento {
   background: blue;
@@ -400,17 +439,17 @@ We can use it when something changes. It delays the time that takes from state t
   background: red;
 }
 ```
-_It will take half second to change color._
-<br/>
+> It will take half second to change color.
+
 
 
 ## KEYFRAMES ----------------------------------------------------------
 
-Used to define animations to apply gradual changes to an element. <br/>
-With a keyframe we can define the states between an animation and it's transformation. <br/>
-<br/>
+> Used to define animations to apply gradual changes to an element. 
+> With a keyframe we can define the states between an animation 
+> and it's transformation. 
 
-We use the rule __@keyframes__ and any name for the animation. <br/>
+> We use the rule __@keyframes__ and any name for the animation. 
 
 ```css
 @keyframes myAnimation {
@@ -429,7 +468,8 @@ We use the rule __@keyframes__ and any name for the animation. <br/>
 }
 ```
 
-Now we can apply it: <br/>
+> Now we can apply it: 
+
 ```css
 .elemento {
   animation-name: myAnimation;
@@ -441,16 +481,19 @@ Now we can apply it: <br/>
 }
 ```
 
-__Cursor__ ✋🏼 <br/>
-If we want to change the aspect of the mouse cursor, we can chang it with: <br/>
-pointer, crosshair, e-resize, grab, help, move, progress, text, wait, no-allowed, no-drop <br/>
+### Cursor ✋🏼 
+
+> If we want to change the aspect of the mouse cursor, 
+> we can chang it with: 
+> pointer, crosshair, e-resize, grab, help, move, 
+> progress, text, wait, no-allowed, no-drop 
 
 
 ## RESPONSIVE DESIGN 🦎 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 ### Media Queries -----------------------------------------------------
 
-It is a way to adapt the content to screen sizes. <br/>
+> It is a way to adapt the content to screen sizes.
 
 ```css
 @media (min-width: 768px){
@@ -465,7 +508,7 @@ It is a way to adapt the content to screen sizes. <br/>
 
 ## Flexbox @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-__1.- We need a parent class to contain flexbox:__ <br/>
+1. We need a parent class to contain flexbox:
 
 ```css
 .container{
@@ -473,12 +516,12 @@ __1.- We need a parent class to contain flexbox:__ <br/>
   gap: 1rem; 
 }
 ```
->gap is the space between elements
+> Gap is the space between elements
 
-* We need at least a child element.
+> __We need at least a child element__
 
 
-__2.- We need to add the direction at that container with flex-direction:__ <br/>
+2. We need to add the direction at that container with flex-direction:
 
 ```css
 .container{
@@ -487,12 +530,12 @@ __2.- We need to add the direction at that container with flex-direction:__ <br/
   gap: 1rem; // Space between elements
 }
 ```
-_We won't see anything until we add elements (items)_. <br/>
+> _We won't see anything until we add elements (items)_
 
-__Change the basis__ <br/>
+### Change the basis
 
-The basis is the axis that we select in flex-direction. <br/>
-We can change the size of every element with: <br/>
+> The basis is the axis that we select in flex-direction. 
+> We can change the size of every element with:
 
 ```css
 .container > *{
@@ -500,26 +543,28 @@ We can change the size of every element with: <br/>
 }
 ```
 
-__Wrap elements__ <br/>
+### Wrap elements
 
-By default, the elements are displayed in nowrap. <br/>
-We must add to the parent: <br/>
+>By default, the elements are displayed in nowrap.
+> We must add to the parent:
 
 ```css
 flex-wrap: wrap;
 ```
 
-__Change order of elements__ <br/>
+### Change order of elements
 
-We can change the order of an element with: <br/>
+> We can change the order of an element with:
 
 ```css
 .first{
-  order: 10; // will be displayed in the second place
+  order: 10; 
+  /* Will be displayed in the second place */
 }
 
 .second{
-  order: 0; // will be displayed in the first place
+  order: 0; 
+  /* Will be displayed in the first place */
 }
 ```
 
@@ -535,7 +580,7 @@ We can change the order of an element with: <br/>
 
 ### align-items -------------------------------------------------------
 
-❗ ONLY WORKS WITH NO-WRAP ❗ <br/>
+❗ ONLY WORKS WITH NO-WRAP ❗ 
 
 * flex-start _Elements stick to the top edge_
 * flex-end _Elements stick to the bottom edge_
@@ -555,14 +600,14 @@ _If we want to change the align of only one item we can use in that element:_
 align-self: flex-end; // or whatever we want...
 ```
 
-## Sizing -------------------------------------------------------------
+### Sizing -------------------------------------------------------------
 
 ```css
 flex-grow: 0;
 flex-shrink: 0;
 ```
 
-## Center Elements ----------------------------------------------------
+### Center Elements ----------------------------------------------------
 
 ```css
 display: flex;
@@ -572,17 +617,20 @@ align-items: center;
 
 ## GRID Layout @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-The best way to create complex designs with different size blocks in 2 DIMENSION ALIGMENT. <br/>
-in some ways, it moves like _tetris_ <br/>
+> The best way to create complex designs with different size 
+> blocks in 2 DIMENSION ALIGMENT.
+> in some ways, it moves like _tetris_ 
 
-__1.- We need a parent class to contain Grid Layout:__ <br/>
+1. We need a parent class to contain Grid Layout:
+
 ```css
 .grid-layout{
   display: grid;  
 }
 ```
 
-__2.- We have to say how many rows and columns I want:__ <br/>
+2. We have to say how many rows and columns I want:
+
 ```css
 .grid-layout{
   display: grid; 
@@ -590,15 +638,17 @@ __2.- We have to say how many rows and columns I want:__ <br/>
   grid-template-rows: 100px 50%;
 }
 ```
-_This way, every auto or value are a column._<br/>
+> _This way, every auto or value are a column._
 
-__3.- Size of an element:__ <br/>
+3. Size of an element:
+
 ```css
 .box1{
   grid-column: 1/3;
 }
 ```
-Where 1 is the first line (not the space ❗). <br/>
+
+> Where 1 is the first line (not the space ❗).
 
 ```css
 .box2{
@@ -606,7 +656,7 @@ Where 1 is the first line (not the space ❗). <br/>
 }
 ```
 
-__4.- Position of the element:__ <br/>
+4. Position of the element:
 
 ```css
 .astronaut{
@@ -618,17 +668,18 @@ __4.- Position of the element:__ <br/>
 }
 ```
 
-Also we can use just grid-area to set the 4 values: <br/>
+> Also we can use just grid-area to set the 4 values: 
+
 ```css
 .cowboy{
   grid-area: 2 / 1 / 3 / 3; 
 }
 ```
-Where the order is: <br/>
-1.- grid-row-start <br/>
-2.- grid-column-start <br/>
-3.- grid-row-end and <br/>
-4.- grid-column-end <br/>
+> Where the order is: 
+1. grid-row-start 
+2. grid-column-start 
+3. grid-row-end and 
+4. grid-column-end 
 
 
 ## CSS Art !
@@ -664,6 +715,7 @@ Where the order is: <br/>
 ### Cara
 
 * Agregar DIV "ferb" dentro de "container"
+
 ```css
 .ferb{
   /* medidas */
@@ -703,7 +755,7 @@ Where the order is: <br/>
 }
 ```
 
-## Oido
+### Oido
 
 ```css
 .ferb::after{
