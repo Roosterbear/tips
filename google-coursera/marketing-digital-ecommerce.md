@@ -601,6 +601,34 @@
 * Effective AD targeting
 
 
+### Ways to collect customer data
+
+* Review customer data
+* Conduct customer interviews
+* Analyze web data
+* Send out surveys
+
+
+### COMPONENTS
+
+1. Traits
+2. Objectives
+3. Barriers
+
+
+### Demographics
+
+> Information specific to the customer, such as age, gender identity,
+> income, family size, occupation, education and location
+
+
+### Customer persona barrier
+
+> What is preventing the customer from achieving their goal
+
+
+
+
 
 
 
