@@ -627,7 +627,57 @@
 > What is preventing the customer from achieving their goal
 
 
+### Benefits of a marketing funnel
 
+1. Consider the buyer's journey
+2. Optimize your marketing strategy
+
+
+
+### Strategies
+
+> Support the plan to achieve the marketing goal and tend to be more general ideas
+
+
+### Tactics
+
+> Actions taken to make the plan happen
+
+
+
+### AWARENESS STAGE
+
+> When a potential customer first becomes aware of the product or service
+
+
+#### Awareness strategies and tactics
+
+* Search Engine Optimization (__Potitioning__)
+* Search Engine Marketing (__pay ADs__)
+* Display ADs (__Photos, Videos or Text__)
+* Social Media Marketing (__Content__)
+* Social Media Adversiting (__ADs__)
+* Video marketing (__Youtube__)
+* Influencer marketing (__Partner that show our product__)
+* Content marketing (__Valuable shares as a eBook__)
+
+
+
+
+### CONSIDERATION STAGE
+
+> When you build interest for your product or service
+
+
+#### Consideration strategies and tactics
+
+* Unique selling proposition (__why is better than competition__)
+* Testimonials (__great experience and problems solved__)
+* Case Studies (__explains progression__) 
+* Remarketing ADs (__to previous purchaser__)
+* Webinars (__Lives__) 
+* Email marketing (__promotional or educational content to a email list__)
+* Social Media Marketing (__interest to followers__)
 
 
 
