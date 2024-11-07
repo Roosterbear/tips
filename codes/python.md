@@ -46,14 +46,6 @@ from math import sqrt as s, pi as p
 from math import *
 ```
 
-## BeautifulSoup
-
-> bs4 es la libreria de BeautifulSoup
-> sirve para extraer datos de archivos HTML
-> usada para el web scrapping
-
-
-
 ## Requests
 
 > Nos sirve para hacer solicitudes HTTP
@@ -61,17 +53,42 @@ from math import *
 ### requests.get(url)
 
 ```python
-response = requests.get('https://api.example.com/data')
+import requests
+response = requests.get('https://jsonplaceholder.typicode.com/comments')
 print(response.text)
 ```
 
-### requests.post(url, data)
-### requests.put(url, data)
-### requests.delete(url)
-### requests.head(url)
-### requests.options(url)
-### requests.patch(url, data)
-### requests.Session()
+
+### deque
+
+> Es una cola de __doble extremo__
+> Para usar __deque__ necesitamos importarla
+
+```python
+from collections import deque
+
+user_url = str(input('[+] Enter target URL to scan: '))
+
+# Creamos una cola con deque
+# Y agregamos lo que nos mande el usuario
+urls = deque([usr_url])
+
+# Para sacar el primer elemento de la izquierda:
+# Para sacar elementos a la derecha, solo se usa pop
+cola = urls.popleft()
+print(cola)
+
+```
+
+
+
+## BeautifulSoup
+
+> bs4 es la libreria de BeautifulSoup
+> sirve para extraer datos de archivos HTML
+> usada para el web scrapping
+
+
 
 
 
