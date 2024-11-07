@@ -681,6 +681,68 @@
 
 
 
+### CONVERSION STAGE
+
+> The process to get a potential customer to take a desired action
+
+
+#### Conversation rate
+
+> The percentage of users or website visitors that take a desired action
+
+
+#### Convertion strategies and tactics
+
+* Optimize the checkout process
+* Add better photos
+* Strengthen the copy
+* Add live chat
+* Pursue abandoned carts
+* Increase website speed
+* Offer a trial or money back guarantee
+* Experiment with A/B tests
+
+
+#### A/B test
+
+> __WHEN YOU COMPARE TWO VERSIONS OF A WEBPAGE__
+> __TO DETERMINE WHICH HAS THE HIGHEST CONVERSION RATE__
+
+
+
+### LOYALTY STAGE
+
+> When customers become repeat customers and brand advocates
+
+
+#### Loyalty strategies and tactics
+
+* Rewards programs
+* Email marketing
+* Social shares
+* Remarketing customers
+* Encourage reviews
+* Birthday and anniversary offers
+* Freebies
+* Amusing confirmation messages
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
