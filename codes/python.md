@@ -74,11 +74,29 @@ user_url = str(input('[+] Enter target URL to scan: '))
 urls = deque([usr_url])
 
 # Para sacar el primer elemento de la izquierda:
-# Para sacar elementos a la derecha, solo se usa pop
 cola = urls.popleft()
 print(cola)
-
 ```
+
+## CONJUNTOS
+
+> No permite __ELEMENTOS REPETIDOS__
+
+```python
+numeros = set()
+
+# Agregar un numero
+numeros.add(1)
+
+# Agregar de un iterable
+mas_numeros = {1,2,3,4,5,6}
+numeros.update(mas_numeros)
+
+# Agregar de otro CONJUNTO
+otros_numeros = {5,6,7}
+numeros |= otros_numeros
+```
+
 
 
 
