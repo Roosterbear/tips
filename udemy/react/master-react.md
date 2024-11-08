@@ -68,6 +68,11 @@ useEffect(()=>{
   getUsuariosAjaxAW();
 },[])
 ```
+## PROYECTO RED SOCIAL
+
+1. Crear una carpeta para nuestro proyecto
+2. Ejecutar:
+> npm init
 
 
 
