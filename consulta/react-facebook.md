@@ -19,9 +19,14 @@
 > Se actualiza por componente y sus hijos
 
 
-### Primer Aplicación
+## PRIMER APLICACION
 
+
+### Tener instalado NPM
 > npm install -g create-react-app
+
+
+### CREAR UNA APLICACION NUEVA 
 > npx create-react-app first-app
 > Entrar a la carpeta y ejecutar: yarn start
 
