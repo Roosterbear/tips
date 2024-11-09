@@ -727,6 +727,67 @@
 * Amusing confirmation messages
 
 
+### Main processes of a search engine
+
+* __Crawling__ - The Process of finding new or updated pages
+* __Indexing__ - Web content with its location 
+* __Serving__ - When algorithm starts to work
+
+
+### Search Engine
+
+> Software that locates information on a search query
+
+
+### Algorithm
+
+> Automated software that helps locate information to answer a user's query
+> The purpose of the search algorithm is to deliver the beste results for a search
+> SET OF INSTRUCTIONS FOR SOLVING A PROBLEM OR ACCOMPLISHING A TASK
+
+
+### HOW RANKING A WEB PAGE
+
+1. THE MEANING OF THE QUERY (Words typed into Google Search Bar - INTENT of Query)
+2. Webpage relevance
+3. Content quality
+4. User Experience, USABILITY
+5. Context and settings
+6. What's on other websites
+7. Location, past search history
+
+
+
+### Key factors for SERPs
+
+1. Meaning of the query
+2. Relevance of webpages
+3. Quality of the content
+4. Usability of webpages
+5. Context and settings
+
+
+### Search Engine Results Pages (SERPs)
+
+> Appear whenever someone performs a search query
+
+
+#### SERPs features
+
+* Featured snippet - SPECIAL BOX THAT DISPLAYS INFORMATION ABOUT A PAGE
+* Rich results - ADDITIONAL FEATURES IN SEARCH RESULTS
+* Images - APPEARS WHEN DETERMINES THAT VISUAL CONTENT IS VALUABLE TO SEARCH
+* Videos
+* Local results - Maps
+
+
+#### Another Search Engines
+
+* Yahoo
+* Bing
+* DuckDuckGo
+* Baidu (China)
+* Yandex (Rusia)
 
 
 
