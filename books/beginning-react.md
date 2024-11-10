@@ -5,7 +5,7 @@
 ### RECORRER UN ARRAY
 
 - [Google](www.google.com) - Esto va a Google.
-- [Inicio](# BEGINNING REACT) Esto no.
+- [Instalar Bootstrap](#instalar-bootstrap) - Esto no.
 
 > Después de la función flecha no necesitamos llaves
 > Podríamos agregar paréntesis
