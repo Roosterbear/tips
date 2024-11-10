@@ -53,3 +53,13 @@ To headlines in tables, we add a row with ":---:" enclosed in "pipes" with an sp
 | :---: | :---: | :-----: |
 | 1,1 | 1,2 | 1,3 |
 | 2,1 | 2,2 | 2,3 |
+
+
+# MENU
+
+> Podemos crear un menu !!
+> Podemos agregar enlaces internos o externos
+
+
+- [Google](www.google.com) - Esto va a Google.
+- [Inicio](#basic-tutorial-of-md-files-in-markdown) - Esto no.
