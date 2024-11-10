@@ -2,6 +2,31 @@
 
 ## Trucos
 
+### RECORRER UN ARRAY
+
+- [Google]("www.google.com") - Esto va a Google.
+
+> Después de la función flecha no necesitamos llaves
+> Podríamos agregar paréntesis
+
+```jsx
+function App() {
+  
+  const languages = ["Go", "Javascript", "Ruby", "Java"]
+  
+  return (
+    <div className="App">
+      <ul>
+      {
+        languages.map((num, index)=>
+        <li key={index}>{num}</li>)
+      }
+      </ul>
+    </div>  
+  );
+}
+```
+
 ### INSTALAR BOOTSTRAP
 
 > Agregar a nuestro HTML:
