@@ -9,11 +9,11 @@
 
 ## Datos Semana #11
 
-Planta: 3
-ESET: 16
-Mantenimientos: 13
-Atención: 35
-CURSO: 16% 
+Planta: 
+ESET: 
+Mantenimientos:
+Atención:
+CURSO: % 
 
 
 ---------------------------

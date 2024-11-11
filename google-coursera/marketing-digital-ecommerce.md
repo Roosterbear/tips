@@ -790,7 +790,40 @@
 * Yandex (Rusia)
 
 
+### SEO - Search Engine Optimization
 
+> The process of increasing the visibility of website pages on
+> search engines in order to attract more relevant traffic
+
+
+#### SEO Tasks
+
+* __REVIEW WEBSITE CONTENT OR STRUCTIRE__
+> Well organized for engine algorithms to crawl easily
+
+* __TECHNICAL WEBSITE DEVELOPMENT__
+> Hosting, redirect, error pages, load page speed and Javascript
+
+* __CONTENT DEVELOPMENT__
+> Visitor experience
+
+* __KEYWORD RESEARCH__
+> Find phrases
+
+
+#### Pre-SEO work
+
+* Know your website or organization's goal
+* Know the customers
+* Brainstorm content for __PEOPLE__ first
+* Know your competitors well
+
+
+
+#### Google Search Console
+
+> This tool helps people monitor, maintain and troubleshoot
+> a website presence in Google search results
 
 
 
