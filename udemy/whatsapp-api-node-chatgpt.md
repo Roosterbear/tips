@@ -2,7 +2,7 @@
 
 ## CONSIDERACIONES
 
-> Necesitaremos: VSCode, Postman, NodeJS.
-> Crear una __CUENTA AZURE__
-> Crear una __CUENTA FACEBOOK PARA DESARROLLADORES__
-
+1. Necesitaremos: VSCode, Postman, NodeJS.
+2. Crear una __CUENTA AZURE__
+3. Crear una __CUENTA FACEBOOK PARA DESARROLLADORES__
+4. Entramos a [https://developers.facebook.com/] developers.facebook.com
