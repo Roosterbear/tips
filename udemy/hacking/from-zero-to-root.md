@@ -41,6 +41,40 @@
 14. Entramos a una página, por ejemplo: wikipedia
 15. Vemos que ya nos intercepta, le damos __FORWARD__
 
+### POST / GET Y HTTPS / HTTP
+
+1. Encendemos FoxyProxy en el Navegador
+2. Checamos que nuestro __INTERCEPT__ esté encendido
+3. Nos logueamos con credenciales falsas en __hack-yourself-first.com__
+4. __EN BURP SUITE SE INTERCEPTA LA PETICIÓN__
+5. Click derecho y send to __REPEATER__
+6. Nos cambiamos a la pestaña __REPEATER__
+7. Oprimimos __Send__
+8. En la parte derecha, click derecho a __Show response in Browser__
+
+
+### PortSwigger
+
+1. Buscar los laboratorios de __Autenticación__
+2. Entrar al lab: __Username enumeration via different responses__
+3. Checar que este encendido el FoxyProxy en el Navegador
+4. Checamos que nuestro __INTERCEPT__ esté encendido
+5. Hacer intento de Login (_cualquier usuario y contraseña_)
+6. Atacar con __INTRUDER__ (Ctrl+i)
+7. Vamos a la pestaña de __Positions__
+8. Oprimimos el boton __CLEAR__
+9. Seleccionamos el texto (_campo_) del usuario
+10. Oprimimos __Add__
+11. Utilizaremos el ataque __Sniper__
+12. Vamos a la pestaña __Payloads__
+13. Elegimos __Lista simple__
+14. Pegamos nuestra lista
+15. Vamos a la pestaña de __Options__
+16. Oprimimos __CLEAR__
+17. Copiamos y Pegamos el mensaje de __Invalid username__
+18. Oprimimos __Star Attack__
+19. Observa usuarios que no tengan __Invalid username__
+20. Repetir pasos para __password__
 
 
 
