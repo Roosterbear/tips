@@ -826,18 +826,32 @@
 > a website presence in Google search results
 
 
+#### Keyword stuffing
+
+> The practice of loading a webpage with keywords or numbers in an
+> attempt to manipulate a site's ranking in the search results
 
 
+#### Bounce rate
+
+> The percent of visitors that view one page and then LEAVE the site
 
 
+#### Check Structure
+
+1. HTTPS
+2. 404 Pages
+3. Sitemaps
 
 
+#### Copy
+
+> Texto publicitario
 
 
+#### USP - Unique Selling Proposition
 
-
-
-
+> Explanation of why our product is unique
 
 
 
