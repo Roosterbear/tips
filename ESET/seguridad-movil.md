@@ -30,9 +30,12 @@
 4. Puedes perder la garantía del equipo
 
 
+## Ataques Homográficos
 
+> Cuando un sitio se registra por un cibercriminal con un nombre 
+> parecido al original y obtiene certificados válidos
 
-
+> Se puede obtener mediante el punycode!
 
 
 
