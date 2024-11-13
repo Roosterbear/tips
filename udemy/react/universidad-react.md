@@ -322,7 +322,40 @@ class Graficas extends Component{
 ```
 
 
-## ANIMACIONES Y TRANSICIONES EN REACT
+## STYLED COMPONENTS
+
+* Instalar:
+> npm i styled-components
+
+* Importamos:
+> import styled from 'styled-components'
+
+* Crear nuestro componente con un __const__
+* Agregar extensión de VSC: __vscode-styled-components__
+
+
+```jsx
+const Header = styled.header`
+  background: linear-gradient(20deg, #db7093, #daa375);
+  text-align: center;
+  border-radius: 0.2em;
+  color: #fff;
+  padding: 0.3em;
+  margin: 0.3em;
+  font-size: 14px;
+`
+
+const App = () =>{
+  return(
+    <div>
+      <Header>
+        <h1>Styled Components</h1>
+      </Header>
+    </div>
+  )
+}
+```
+
 
 
 
