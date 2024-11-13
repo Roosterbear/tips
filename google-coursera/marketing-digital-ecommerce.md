@@ -854,8 +854,37 @@
 > Explanation of why our product is unique
 
 
+#### Website optimization recommendations
+
+* Make the website useful and interesting
+* Know what visitors want and give it to them
+* Act in a way that cultivates user trust
+* Make expertise and authoritativeness clear
+* Provide an appropriate amount of content for your subject
 
 
+#### THE TEXT MUST BE
+
+* Descriptive
+* Accurate
+* Easy to detect
+* Useful
+
+
+#### Google Images best practices
+
+* Create a great user experience
+* Descriptive TITLES, CAPTIONS and FILENAMES
+* Alt text
+* Optimize for speed
+* Use __PAGE SPEED INSIGHTS__
+
+
+#### Common ERRORS
+
+* Forget about clients
+* Mobile site in a different domain
+* Not seeking inspiration (from competition)
 
 
 
