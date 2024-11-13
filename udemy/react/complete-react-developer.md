@@ -1,7 +1,25 @@
 # COMPLETE REACT DEVELOPER 42 Hrs
 
-## 
+## PROYECTO CRWN CLOTHING
 
+### Github
+
+* Cambiar de rama:
+> git checkout mi-rama
+
+* Crear rama:
+> git checkout -b otra-rama
+
+### Crear Proyecto
+
+> npx create-react-app crwn-clothing
+
+* Entramos a la carpeta crwn-clothing creada
+* La abrimos con VSC
+* En el componente App dejamos un hola mundo
+* Ejecutamos el proyecto:
+
+> yarn start
 
 
 
