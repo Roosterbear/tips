@@ -335,8 +335,10 @@ class Graficas extends Component{
 
 
 ```jsx
+const colorPrimario = '#789dfe';
+
 const Header = styled.header`
-  background: linear-gradient(20deg, #db7093, #daa375);
+  background: ${colorPrimario};
   text-align: center;
   border-radius: 0.2em;
   color: #fff;
