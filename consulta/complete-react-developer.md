@@ -422,7 +422,7 @@ $main-color: black;
 33. Checar Apollo y GraphQL
 34. Checar React Memo
 35. [React Interview Questions:](https://github.com/sudheerj/reactjs-interview-questions?tab=readme-ov-file)
-36. 
+36. Checar Test con: Jest, Enzyme, Mocks and Spies, Snapshot Testing, Connected Components
 
 
 
