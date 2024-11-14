@@ -210,14 +210,219 @@ $main-color: black;
 }
 ```
 22. Utilizar __createContext__
-23. 
+23. Agregar productos:
+
+```json
+[
+  {
+    "id": 1,
+    "name": "Brown Brim",
+    "imageUrl": "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+    "price": 25
+  },
+  {
+    "id": 2,
+    "name": "Blue Beanie",
+    "imageUrl": "https://i.ibb.co/ypkgK0X/blue-beanie.png",
+    "price": 18
+  },
+  {
+    "id": 3,
+    "name": "Brown Cowboy",
+    "imageUrl": "https://i.ibb.co/QdJwgmp/brown-cowboy.png",
+    "price": 35
+  },
+  {
+    "id": 4,
+    "name": "Grey Brim",
+    "imageUrl": "https://i.ibb.co/RjBLWxB/grey-brim.png",
+    "price": 25
+  },
+  {
+    "id": 5,
+    "name": "Green Beanie",
+    "imageUrl": "https://i.ibb.co/YTjW3vF/green-beanie.png",
+    "price": 18
+  },
+  {
+    "id": 6,
+    "name": "Palm Tree Cap",
+    "imageUrl": "https://i.ibb.co/rKBDvJX/palm-tree-cap.png",
+    "price": 14
+  },
+  {
+    "id": 7,
+    "name": "Red Beanie",
+    "imageUrl": "https://i.ibb.co/bLB646Z/red-beanie.png",
+    "price": 18
+  },
+  {
+    "id": 8,
+    "name": "Wolf Cap",
+    "imageUrl": "https://i.ibb.co/1f2nWMM/wolf-cap.png",
+    "price": 14
+  },
+  {
+    "id": 9,
+    "name": "Blue Snapback",
+    "imageUrl": "https://i.ibb.co/X2VJP2W/blue-snapback.png",
+    "price": 16
+  }
+]
+```
 
 
+24. Estilo del carrito:
 
+```scss
+.cart-icon-container {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 
+  .shopping-icon {
+    width: 24px;
+    height: 24px;
+  }
 
+  .item-count {
+    position: absolute;
+    font-size: 10px;
+    font-weight: bold;
+    bottom: 12px;
+  }
+}
+```
 
+25. Estilo del desplegable:
 
+```scss
+.cart-dropdown-container {
+  position: absolute;
+  width: 240px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: white;
+  top: 90px;
+  right: 40px;
+  z-index: 5;
+
+  .empty-message {
+    font-size: 18px;
+    margin: 50px auto;
+  }
+
+  .cart-items {
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+  }
+
+  button {
+    margin-top: auto;
+  }
+}
+```
+
+26. Estilo del checkout:
+
+```scss
+.checkout-container {
+  width: 55%;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto 0;
+
+  .checkout-header {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid darkgrey;
+
+    .header-block {
+      text-transform: capitalize;
+      width: 23%;
+
+      &:last-child {
+        width: 8%;
+      }
+    }
+  }
+
+  .total {
+    margin-top: 30px;
+    margin-left: auto;
+    font-size: 36px;
+  }
+}
+```
+
+27. Estilo de los items del checkout:
+
+```scss
+.checkout-item-container {
+  width: 100%;
+  display: flex;
+  min-height: 100px;
+  border-bottom: 1px solid darkgrey;
+  padding: 15px 0;
+  font-size: 20px;
+  align-items: center;
+
+  .image-container {
+    width: 23%;
+    padding-right: 15px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .name,
+  .quantity,
+  .price {
+    width: 23%;
+  }
+
+  .quantity {
+    display: flex;
+
+    .arrow {
+      cursor: pointer;
+    }
+
+    .value {
+      margin: 0 10px;
+    }
+  }
+
+  .remove-button {
+    padding-left: 12px;
+    cursor: pointer;
+  }
+}
+```
+
+28. OJO con los redirects en __Netlify__
+29. Checar: Reducer y Context
+30. Checar Generator Funcions
+31. Checar Redux Saga
+32. Checar createSlice
+33. Checar Apollo y GraphQL
+34. Checar React Memo
+35. (React Interview Questions:)[https://github.com/sudheerj/reactjs-interview-questions?tab=readme-ov-file]
+36. 
 
 
 
