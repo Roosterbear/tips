@@ -421,7 +421,7 @@ $main-color: black;
 32. Checar createSlice
 33. Checar Apollo y GraphQL
 34. Checar React Memo
-35. (React Interview Questions:)[https://github.com/sudheerj/reactjs-interview-questions?tab=readme-ov-file]
+35. [React Interview Questions:](https://github.com/sudheerj/reactjs-interview-questions?tab=readme-ov-file)
 36. 
 
 
