@@ -888,6 +888,66 @@
 
 
 
+#### Webpage title element
+
+> Provides both the user and search engines with a page's TOPIC
+
+* Acurrately describe the topic
+* Unique title element
+* Brief
+
+
+#### Meta description
+
+> Provides the search engines a summary of what the page is ABOUT
+
+* Add to EVERY page
+* SUMMARIZE the page content
+* UNIQUE Descriptions for EACH page
+
+
+#### Rich Results
+
+> Enhanced results in Google search with extra visual or interactive features
+
+
+#### Structured data
+
+> Code used to describe a webpages' content better to search engines
+
+
+#### Structured data markup
+
+> Way of providing additional machine-readable information within a web page
+
+
+#### Schema
+
+> The type of code used for structured data markups
+
+
+__NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
+
+
+
+#### Knowledge Pane Details
+
+* Web link
+* Logo
+* Industry
+* Description
+* Social Media
+
+
+#### Knowledge Pane Steps
+
+1. Create a Business profile in Google
+2. Verify property
+3. Update the Knowledge Pane of your site
+4. Add structured data to get rich results
+
+
+
 
 
 
