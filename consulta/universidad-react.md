@@ -358,6 +358,14 @@ const App = () =>{
 }
 ```
 
+## TESTS
+
+* Utilizar __expect__
+
+> npm run test
+
+> Para enzyme, instalar __adapter__ para version React que usemos
+
 
 
 
