@@ -1,4 +1,4 @@
-# MASTER EN REACT 39 Hrs.
+# MASTER EN REACT
 
 ## INTRODUCCIÓN
 
@@ -68,22 +68,19 @@ useEffect(()=>{
   getUsuariosAjaxAW();
 },[])
 ```
-## PROYECTO RED SOCIAL
+
+
+## PROYECTO
 
 1. Crear una carpeta para nuestro proyecto
 2. Ejecutar:
 > npm init
 
-
-
-
-
-
-
-
-
-
-
+3. Usar __bcrypt__
+4. Usar __JWT__
+5. Agregar la librería __moment__
+6. Emplear __Formik__ y __Yup__ para formularios
+7. __react-time_ago__ para mostrar mejor el tiempo
 
 
 
