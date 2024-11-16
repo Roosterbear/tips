@@ -26,4 +26,43 @@
 > Crear CLON de un objeto: const persona2 = {...persona};
 
 
+## PRIMERA APLICACION
+
+* Usar __CRA__ para proyectos sencillos
+* Usar __Vite__ para proyectos PROFESIONALES
+* Usar __npm__ para dependencias GLOBALES
+* Usar __yarn__ para dependencias LOCALES
+
+1. Instalar con Vite:
+> yarn create vite
+
+2. Nos pedira informacion del proyecto. Poner nombre y en React con JS.
+3. Entrar a la __CARPETA DEL PROYECTO__ y abrirla en VSC
+
+> OBSERVACION: Ambos crean un proyecto tipo __NODE__
+
+
+## DIFERENCIAS ENTRE CRA Y VITE
+
+### CREATE-REACT-APP
+
+1. Crea un __package-lock.json__ que nos dice como se originó el proyecto.
+2. __.gitignore__ para indicar lo que no queremos que se suba a GIT o Github
+3. __package.json__ con info del proyecto, scripts y dependencias
+> Por ejemplo, tenemos los scripts para levantar el servidor de desarrollo,
+> construye la version de producción con tree-shaking, pruebas y el eject (NO USAR)
+4. __README.md__ lo que queremos mostrar en Github, Bitbucket, etc.
+5. __PODEMOS VISUALIZARLO CON VSC__ como Markdown: Open Preview
+6. La carpeta __node_modules__ de las cuales casi ninguna llega a __PRODUCCIÓN__
+
+
+
+
+
+
+
+
+
+
+
 
