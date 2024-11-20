@@ -989,7 +989,44 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 > __Bing__ para agregar páginas al rastreo e indexación
 
 
+#### Search Engine Marketing (SEM)
 
+> Increasing a product or service's visibility on a 
+> search engine results page through paid advertising
+
+* __ADVANTAGES__
+
+1. Reach likely customers
+2. Quickly appearing in the search result pages
+3. Learn which ADs are driving sales
+4. Control over where you send the searchers
+
+
+* __TYPES OF ADS__
+
+1. Text
+2. Shopping
+3. Local Services
+4. Maps
+5. Call
+
+
+* AD extension
+
+> Featured additional information about a business, such as
+> additional website links, a phone number or an address
+
+1. Sitelink
+2. Call
+3. Location
+4. Price
+5. Structured snippets
+
+
+#### Pay-Per-Click (PPC) Advertising
+
+> Type of advertising model that allows businesses
+> to pay only when someone click on an AD
 
 
 
