@@ -911,9 +911,9 @@
 > Enhanced results in Google search with extra visual or interactive features
 
 
-#### Structured data
+#### STRUCTURED DATA
 
-> Code used to describe a webpages' content better to search engines
+> __Code used to DESCRIBE a webpages' content BETTER to Search Engines__
 
 
 #### Structured data markup
@@ -946,6 +946,47 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 3. Update the Knowledge Pane of your site
 4. Add structured data to get rich results
 
+
+
+#### Search Console first steps
+
+1. Add and verify website ownership
+2. Ensure Google can find and read your pages
+3. Review any mobile usability errors
+4. Consider submitting a sitemap
+
+* Sitemap
+
+> A file that provides information about the pages, videos 
+> and other files on a site and the relationships between them.
+
+5. Monitor your site's performance
+
+> The most beneficial features in GSC are: __Reports & Metrics__
+
+
+#### Search Console REPORTS
+
+* Overview page - __SUMMARY OF SITE HEALTH__
+* Web Search Performance report - __SEO RELATED METRICS__
+* Links report - __WHICH WEBSITES LINK TO YOURS__
+* Coverage report - __INDEX STATUS__
+* Manual actions report - __ACTIONS TO DO IN WEBPAGES THAT DOES NOT COMPLIANT__
+* Security issues report - __IF YOUR SITE WAS HACKED OR IS HARMFUL TO USERS__
+
+
+#### Terms
+
+* __Impressions__ Your site in a search (SERP)
+* __CTR__ Click Through Rate
+
+> Clicks divided by Impression (by 100)
+
+
+#### Bing Webmaster Tools
+
+> Servicio gratuito para el motor de búsqueda de Microsoft 
+> __Bing__ para agregar páginas al rastreo e indexación
 
 
 
