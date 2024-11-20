@@ -54,7 +54,23 @@
 4. __README.md__ lo que queremos mostrar en Github, Bitbucket, etc.
 5. __PODEMOS VISUALIZARLO CON VSC__ como Markdown: Open Preview
 6. La carpeta __node_modules__ de las cuales casi ninguna llega a __PRODUCCIÓN__
+7. En public nos encontramos con el __manifest.json__ que es para una __PWA__
+8. En __index.html__ es donde se montará la Single Page Application
 
+* __LOS ARCHIVOS .lock NOSE MANIPULAN!__
+
+### Vite
+
+* __TIENE MENOS DEPENDENCIAS__
+* __ES MEJOR EL HOT RELOAD__
+* El index.html esta en raíz
+* No hay una carpeta 
+* No tiene un README.md
+* No tiene un robots.txt
+* No tiene un manifest.json
+* INLUYE un vite.config.js
+* INLUYE un yarn.lock
+* Utiliza archivos .jsx
 
 
 
