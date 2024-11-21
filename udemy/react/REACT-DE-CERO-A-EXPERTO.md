@@ -138,7 +138,18 @@ export const FirstApp({title, subTitle}) =>{
 
 ## propTypes
 
+* __Instalado con CRA__
+* __INSTALAR con Vite__
+> yarn add prop-types
 
+> Al final del componente agregar:
+
+```jsx
+App.propTypes = {
+  title: PropTypes.string.isRequired,
+  subTitle: PropTypes.string
+}
+```
 
 
 
