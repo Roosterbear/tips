@@ -77,9 +77,16 @@
 20. Repetir pasos para __password__
 
 
+### Dirsearch
+
+1. Bajar de github
+2. Ejecutar:
+> python3 dirsearch.py -u http://ctf05.root-me.org/ -e php -f -t 100
 
 
+### SQL Injection
 
+* Usar %20 o el signo "+" para __ESPACIOS__
 
 
 
