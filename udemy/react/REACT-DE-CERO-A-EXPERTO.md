@@ -83,9 +83,60 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 )
 ```
 
+> __NO PODEMOS REGRESAR UN OBJETO__
+
+> Para regresar un objeto, usamos:
+
+```javascript
+const miObjeto = {
+  nombre: 'Fernando'
+}
+JSON.stringify(miObjeto);
+```
+
+## AGREGAR CSS
+
+* Creamos nuestro archivo _style.css_
+
+```css
+html, body{
+  background-color: #21232A;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.3rem;
+  padding: 70px;
+}
+```
+* Lo agregamos a nuestro componente:
+
+```jsx
+import './style.css'
+```
+
+## props
+
+> Se usan para crear __COMUNICACIÓN__ entre componentes
+> Normalmente no las trabajamos directamente
+> __Desestructuramos cada valor__
+
+```jsx
+export const FirstApp({title, subTitle}) =>{
+  return(
+    <>
+      <h1>{title}</h1>
+      <h2>{subTitle}</h2>
+    </>
+  )
+}
+```
+> Le pasamos los valores por medio del componente:
+
+```jsx
+<FirstApp title="Hola, como estas", subTitle="...esto es un subititulo"/>
+```
 
 
-
+## propTypes
 
 
 
