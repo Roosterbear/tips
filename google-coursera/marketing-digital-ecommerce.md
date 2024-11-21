@@ -989,7 +989,8 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 > __Bing__ para agregar páginas al rastreo e indexación
 
 
-#### Search Engine Marketing (SEM)
+
+### Search Engine Marketing (SEM)
 
 > Increasing a product or service's visibility on a 
 > search engine results page through paid advertising
@@ -1029,9 +1030,58 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 > to pay only when someone click on an AD
 
 
+#### Campaign
+
+> ADs that share a budget, location targeting and another settings
+
+
+#### Steps to create a Google AD
+
+1. Define your campaign goal
+2. Choose the campaign type
+3. Set a budget for your campaign
+4. Choose your bidding strategy
+5. Select your audience targeting
+6. Create your AD
+7. Set up conversions
 
 
 
+#### Broad match
+
+> Show your ads on phrases that relate to your keyword
+
+
+#### Phrase match
+
+> Keywords that include the meaning of your keyword
+
+
+#### Exact match
+
+> Searches that have the same meaning or same intent as the keyword
+
+
+#### AD Auction
+
+> How Google determines which ADs show, in what order,
+> for each search result that contains text ADs
+
+
+#### Factors that determine AD Rank
+
+1. Your bid
+2. Quality of your ADs and landing page
+3. AD Extensions
+
+
+#### BEST PRACTICES
+
+1. __AVOID GENERIC SALES LANGUAGE__
+2. __INCLUDE A KEYWORD IN THE TITLE__
+3. __FOCUS ON USER NEEDS AND BENEFITS__
+
+> __OPTIMIZE YOUR LANDING PAGE__
 
 
 
