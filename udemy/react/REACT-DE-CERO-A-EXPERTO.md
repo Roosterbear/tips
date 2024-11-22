@@ -138,9 +138,15 @@ export const FirstApp({title, subTitle}) =>{
 
 ## propTypes
 
-* __Instalado con CRA__
-* __INSTALAR con Vite__
+* __YA Instalado con CRA__
+* __Se debe INSTALAR con Vite__
 > yarn add prop-types
+
+Importamos la libreria:
+
+```jsx
+import PropTypes from 'prop-types';
+```
 
 > Al final del componente agregar:
 
@@ -151,7 +157,48 @@ App.propTypes = {
 }
 ```
 
+## defaultProps
+
+```jsx
+App.defaultProps = {
+  title: 'No hay titulo',
+  subTitle: 'No hay subtitulo',
+  // Podemos agregar props
+  name: 'Fernando'
+}
+```
+
+## EVENTOS
+
+### evento click
+
+* Se maneja con la palabra __onClick__
+* Se recomienda __SEPARAR__ la función
+> Si __UNICAMENTE__ recibimos y usamos el evento
+> __NO ES NECESARIO PONERLO__
+
+```jsx
+  function add(e){
+    console.log(e);
+  }
+
+  return(
+    <>
+      <h1>CounterApp</h1>
+      <button onClick={add}>
+        +1
+      </button>
+    </>
+  )
+```
 
 
+## HOOKS
+
+> __SON FUNCIONES__
+> Comienzan con la palabra __use__
+
+
+### useState
 
 
