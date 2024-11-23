@@ -1131,7 +1131,15 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 #### YOUTUBE ADs
 
 * TrueView
-> There are 2 types: videos you can o
+> There are 2 types: videos you can skip and videos you can not skip
+
+* __OVERLAY__ Image or Text
+* __IN-DISPLAY__ ADs
+
+1. Cheap
+2. Effective
+3. Help reach your Audience
+
 
 
 
