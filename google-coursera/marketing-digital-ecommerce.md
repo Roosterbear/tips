@@ -1084,9 +1084,54 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 > __OPTIMIZE YOUR LANDING PAGE__
 
 
+### Display Advertising
+
+> Visual AD formats placed on websites or applications
 
 
+#### Google Display Network
 
+> A group of more than 2 millions websites,
+> videos and apps where display ADs can appear
+
+
+#### UPLOADED DISPLAY AD
+
+> You create the graphic:
+
+* Banner (468x60)
+* Leaderboard (728x90)
+* Skyscraper (120x600)
+
+
+#### RESPONSIVE DISPLAY AD
+
+> You uplod images, headlines, logos, videos and descriptions
+> Google Ads will automatically generate ad combinations
+
+* Google recommends 5 headlines, 5 images and 5 descriptions
+
+
+#### Responsive display AD Best Practices
+
+* Upload recommended number of assets
+* Create unique and effective copy
+* Ensure the landing page keeps the customer experience cohesive
+* Rotate in new display ADs every few weeks
+
+
+#### Responsive display AD tips for images
+
+* Use images with a __STRONG__ visual __FOCUS__
+* Do not overlay a logo, text or button
+* Ensure the background suits the product
+> The background should __NOT STAND OUT__ more than or overshadow the product
+
+
+#### YOUTUBE ADs
+
+* TrueView
+> There are 2 types: videos you can o
 
 
 
