@@ -7,9 +7,18 @@
 > curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
 > REINICIA LA TERMINAL !!!
+
+* Para windows instalar:
+> https://github.com/coreybutler/nvm-windows/releases
+> Instalar la versión mas nueva de Node
+
+
 > Instala la version de Node deseada: nvm install 14.4.0.
 > Cambia la version: nvm use --delete-prefix v20.18.0
 > npm install -g vite
+
+* Si no tenemos yarn:
+> npm install -g yarn
 
 
 ## PRIMERA APLICACION
@@ -26,6 +35,10 @@
 3. Entrar a la __CARPETA DEL PROYECTO__ y abrirla en VSC
 
 > OBSERVACION: Ambos crean un proyecto tipo __NODE__
+
+* Si nos manda error:
+> Instalar __DEPENDENCIAS__ con: yarn install
+
 
 
 ## DIFERENCIAS ENTRE CRA Y VITE
