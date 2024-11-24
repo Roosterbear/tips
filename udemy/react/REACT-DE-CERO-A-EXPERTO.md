@@ -214,4 +214,92 @@ App.defaultProps = {
 
 ### useState
 
+```jsx
+import {useState} from 'react';
+
+export function CounterApp(){
+
+  const [contador, setContador] = useState(0);
+
+  const add = ()=>{
+    setContador(jfk=>jfk+1);
+  }
+  
+  return(
+    <>
+      <h1>CounterApp <span>{contador}</span></h1>
+      <button onClick={add}>
+        +1
+      </button>
+    </>
+  )
+}
+```
+
+
+## PRUEBAS
+
+> AL MENOS DEBEMOS HACER PRUEBA DE LA __RUTA CRÍTICA__
+
+### AAA
+
+* Arrange (__ARREGLAR__)
+> Preparamos el ambiente (__Sujeto de Pruebas__)
+> Inicializamos variables
+> Hacemos las importaciones necesarias
+
+* Act (__ACTUAR__)
+> Aplicamos el __estímulo__
+> Llamamos métodos
+> Simulamos clicks
+> Realizamos acciones
+
+* Assert (__AFIRMAR__)
+> __OBSERVAR EL COMPORTAMIENTO RESULTANTE__
+> Vemos que algo suceda o no, como es esperado
+
+1. Pueden salir errores a pesar de las pruebas
+2. Se ejecutan SOLO en el ambiente de desarrollo
+3. Pueden dar falsos (positivos o negativos)
+4. Son necesarias
+
+
+### PRUEBAS UNITARIAS
+> Enfocada a pequeñas funcionalidades
+
+### PRUEBAS DE INTEGRACIÓN
+> Enfocadas a cómo reaccionan varias piezas en conjunto
+
+
+### INSTALACIÓN
+> yarn add --dev jest
+
+* Agregar en nuestro package.json
+
+```json
+{
+  "scripts":{
+    "test": "jest"
+  }
+}
+```
+
+* Ejecutamos con:
+> yarn test
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
