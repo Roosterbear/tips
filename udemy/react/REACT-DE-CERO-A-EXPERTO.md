@@ -4,14 +4,9 @@
 
 * Manten actualizado Node:
 
-> curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+> curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 
 > REINICIA LA TERMINAL !!!
-
-* Para windows instalar:
-> https://github.com/coreybutler/nvm-windows/releases
-> Instalar la versión mas nueva de Node
-
 
 > Instala la version de Node deseada: nvm install 14.4.0.
 > Cambia la version: nvm use --delete-prefix v20.18.0
@@ -23,12 +18,7 @@
 
 ## PRIMERA APLICACION
 
-* Usar __CRA__ para proyectos sencillos
-* Usar __Vite__ para proyectos PROFESIONALES
-* Usar __npm__ para dependencias GLOBALES
-* Usar __yarn__ para dependencias LOCALES
-
-1. Instalar con Vite:
+1. Instalar con __Vite__:
 > yarn create vite
 
 2. Nos pedira informacion del proyecto. Poner nombre y en React con JS.
@@ -42,6 +32,12 @@
 
 
 ## DIFERENCIAS ENTRE CRA Y VITE
+
+* Usar __CRA__ para proyectos sencillos
+* Usar __Vite__ para proyectos PROFESIONALES
+* Usar __npm__ para dependencias GLOBALES
+* Usar __yarn__ para dependencias LOCALES
+
 
 ### CREATE-REACT-APP
 
@@ -67,6 +63,8 @@
 * No tiene un manifest.json
 * INLUYE un vite.config.js
 * Utiliza archivos .jsx
+
+
 
 ## EJECUTAR LA APLICACION
 
@@ -287,7 +285,10 @@ export function CounterApp(){
 * Ejecutamos con:
 > yarn test
 
+* Debemos tener cierta información para que se ejecuten pruebas.
 
+* Instalamos:
+> yarn add -D @types/jest
 
 
 
