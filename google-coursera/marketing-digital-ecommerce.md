@@ -1142,38 +1142,37 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## [3] Creating email campains 🤑​💰​💳​
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## [4] Measuring and analyzing results 🤑​💰​💳​
 ## [5] Managing customer relationships 🤑​💰​💳​
 ## [6] Optimizing an e-commerce store 🤑​💰​💳​
