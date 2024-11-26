@@ -131,7 +131,7 @@ import './style.css'
 > __Desestructuramos cada valor__
 
 ```jsx
-export const FirstApp({title, subTitle}) =>{
+export const FirstApp = ({title, subTitle}) =>{
   return(
     <>
       <h1>{title}</h1>
@@ -282,13 +282,42 @@ export function CounterApp(){
 }
 ```
 
+### PRIMER PRUEBA
+
 * Ejecutamos con:
 > yarn test
 
-* Debemos tener cierta información para que se ejecuten pruebas.
+1. __SE RECOMIENDA TENER UNA CARPETA "tests"__
+2. Ahi tendríamos una copia de todo nuestro proyecto en versión __"test"__
+3. Al menos debemos tener un archivo con extensión __".test.jsx"__ 
+4. Agregar como mínimo:
+
+```jsx
+test('Esto no puede fallar',()=>{
+
+})
+```
 
 * Instalamos:
 > yarn add -D @types/jest
+
+* Ahora agregamos una prueba:
+
+```jsx
+describe('PRUEBA PARA COMPONENTE <App/>',()=>{
+    test('Esto no falla',()=>{
+        const mensaje1 = 'Hola mundo';
+        const mensaje2 = mensaje1.trim();
+    
+        expect(mensaje1).toBe(mensaje2);
+    })
+})
+```
+
+* Nos ayuda mucho tener las __"types"__:
+> yarn add -D @types/jest
+
+* __NO PODEMOS HACER PRUEBAS DE ALGO QUE NO TENERMOS EXPORTADO__
 
 
 
