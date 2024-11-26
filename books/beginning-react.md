@@ -83,13 +83,6 @@ class Rating extends Component{
 }
 ```
 
-### MEJORES FORMULARIOS CON FORMIK
-
-> Instalamos: npm install formik --save
-
-```jsx
-```
-
 
 
 
