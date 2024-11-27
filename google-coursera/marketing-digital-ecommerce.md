@@ -16,39 +16,41 @@
 # Foundations of Digital Marketing and E-commerce
 [Inicio](#digital-marketing--e-commerce) 
 
-### e-commerce
+- [x] e-commerce 
 
 > The buying and selling of goods and services online
 
-### e-commerce purchases
+- [x] e-commerce purchases
 
-* Physical products - Books, Home goods, Electronics
-* Digital products - eBooks, online courses
-* Services - Vacations, Appointments
-* Software - Word processing or photo editing programs
-
-### Digital marketing
-
-> The practice of reaching consumers online through digital channels
-> with the aim of turning them into customers ()
-
-* Digital channels: websites, search engines, email or social media.
+| Product | Example |
+|------|------| 
+| Physical products | Books, Home goods, Electronics |
+| Digital products | eBooks, online courses |
+| Services | Vacations, Appointments |
+| Software | Word processing or photo editing programs |
 
 
-### Transferable skill
+
+|Digital marketing|
+|----------------- |
+| The practice of reaching consumers online through digital channels with the aim of turning them into customers |
+| Digital channels: websites, search engines, email or social media. |
+
+
+- [x] Transferable skill
 
 * Curiosity
 * Analytical mindset
 * Storytelling
 
 
-### Careers
+- [x] Careers
 
 * In-house - Deep Knowledge
 * Agency - Multiple industries, flexible expertise
 
 
-### Digital Marketing Coordinator
+- [x] Digital Marketing Coordinator
 
 * Identify objectives
 * SEO best practices
@@ -58,7 +60,7 @@
 * Clients activities monitoring
 
 
-### e-commerce Analyst
+- [x] e-commerce Analyst
 
 * Ensure that customer interactions align with business objectives
 * Use SEO 
@@ -69,7 +71,7 @@
 * Execute and monitor loyalty programs
 
 
-### e-commerce
+- [x] e-commerce
 
 * B2C - Business To Consume r
 * C2C - Consumer To Consumer
