@@ -1,6 +1,6 @@
 # Digital Marketing & e-commerce
 
-## [1] Attracting customers through search engines and online ads 🤑​💰​💳​
+## [1] Foundations of Digital Marketing and E-commerce 🤑​💰​💳​
 
 ### e-commerce
 
@@ -1142,7 +1142,123 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 
 
 
-## [3] Creating email campains 🤑​💰​💳​
+## [3] From likes to Leads: Interact with Customers Online 🤑​💰​💳​
+
+
+### Social Media
+> Any digital tool that enables users to create and share content publicly
+
+* Brand awareness
+> how familiar people are with a particular business or product
+
+#### Benefits of social media marketing
+
+* Increase brand awareness
+* Target new customers
+* Build stronger relationships with existing customers
+* Drive traffic to your website
+* Generate leads
+* Gain valuable insights
+* Cost-effective
+
+
+* __Lead__
+> Someone who took a specific action that made them a potential customer
+> (filling out a form, subscribing a free trial, clicking a link to a discount code)
+
+
+#### Five core pillars of social media marketing
+
+1. Strategy
+
+  * The goals of your campaign
+  * The social media platforms you'll use
+  * The types of content you'll post
+
+2. Planning and publishing
+
+  * Have a consistent presence
+  * Schedule posts in advance
+  * Consider timing and frequency
+
+3. Listening and engagement
+
+> __SOCIAL LISTENING__
+> Tracking and analyzing conversations and trends related to your brand
+
+  * Understand what people think about your brand
+  * Inform marketing decisions
+  * Learn what content resonates best with your audience
+  * Increase people's positive experience with your brand
+
+> __ENGAGEMENT__
+> How your audience interacts with your brand on social media
+
+4. Analytics and reporting
+
+> __SOCIAL MEDIA ANALYTICS__
+> The process of collecting data from your social media
+> platforms and analyzing that data to make business decisions
+
+  * Tell you how your campaign is performing
+  * Drive social media marketing strategy
+  * Share social media reports with stakeholders
+
+> __SOCIAL MEDIA REPORT__
+> A document that presents relevant data and analysis 
+> about your social media activities
+
+5. Paid social media
+
+  * Control and target your marketing
+  * Reach a wider audience
+  * Grow your brand on social media
+
+
+#### Earned media
+> Personal or public promotion of a brand or product
+
+* Customer reviews and testimonials
+* Mentions and comments on social media platforms
+* Shares, retweets and likes of your posts
+* Content about your business on third-party sites
+* Blog posts about your business
+* User-generated conten related to your business
+
+* User-Generated Content (UGC)
+> Any content created by people rather than brands
+
+* Organic social media
+> Any social media activity that does not require a paid promotion
+
+#### Owned media
+> All the digital content a brand fully controls
+
+* Blog sites
+* Social media profiles
+* Community forums
+
+#### Paid media
+> Any form of digital promotion a brand pays to put online
+
+
+#### Marketing funnel
+> A graphic representation of the process through which people go
+> from learning about a brand to becoming loyal customers
+
+1. Awareness - __CAPTURE AUDIENCE'S ATTENTION__
+2. Consideration - __PROVIDE MORE DETAILED INFORMATION AND BUILD TRUST__
+3. Conversion - __CAPITALIZE ON INTEREST PEOPLE ALREADY SHOWN AND OFFER INCENTIVES__
+4. Loyalty - __NURTURE RELATIONSHIPS WITH YOUR CUSTOMER TO REMAIN IN THEIR MINDS__
+
+
+#### Marketing "Rule of seven"
+> A potential customer must see a message at least 
+> seven times before they're ready to take action
+
+#### Remarketing
+> A strategy in which you use paid ADs to raget customers
+> who have visited your website, app or social media profile
 
 
 
@@ -1169,11 +1285,7 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 
 
 
-
-
-
-
-## [4] Measuring and analyzing results 🤑​💰​💳​
-## [5] Managing customer relationships 🤑​💰​💳​
-## [6] Optimizing an e-commerce store 🤑​💰​💳​
-## [7] Preparing for jobs 🤑​💰​💳​
+## [4] Think Outside the inbox: Email Marketing 🤑​💰​💳​
+## [5] Assess for Success: Marketing Analytics and Measurement 🤑​💰​💳​
+## [6] Make the Sale: Build, Launch and Manage E-commerce Stores 🤑​💰​💳​
+## [7] Satisfaction Guaranteed: Develop Customer Loyalty Online 🤑​💰​💳​
