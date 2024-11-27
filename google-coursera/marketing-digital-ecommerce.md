@@ -1,6 +1,20 @@
-# Digital Marketing & e-commerce
+# DIGITAL MARKETING & E-COMMERCE
+<br/>
+<hr/>
 
-## [1] Foundations of Digital Marketing and E-commerce 🤑​💰​💳​
+* [Foundations of Digital Marketing and E-commerce](#foundations-of-digital-marketing-and-e-commerce)
+* [Attract and Engage Customers with Digital Marketing](#attract-and-engage-customers-with-digital-marketing)
+* [From Likes to Leads - Interact with Customers Online](#from-likes-to-leads-interact-with-customers-online)
+* [Think Outside The Inbox - Email Marketing](#think-outside-the-inbox-email-marketing)
+* [Assess for Success Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
+* [Make the Sale - Build Launch and Manage E-Commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
+* [Satisfaction Guaranteed Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
+
+<hr/>
+
+🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​
+# Foundations of Digital Marketing and E-commerce
+[Inicio](#digital-marketing--e-commerce) 
 
 ### e-commerce
 
@@ -587,10 +601,12 @@
 2. Conflict
 3. Resolution
 
+<hr/>
 
-
-## [2] Attract and Engage Customers with Digital Marketing 🤑​💰​💳​
-
+🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​
+# Attract and Engage Customers with Digital Marketing
+[CURSO#2]
+[Inicio](#digital-marketing--e-commerce) 
 
 ### CUSTOMER PERSONA
 
@@ -1140,10 +1156,11 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 2. Effective
 3. Help reach your Audience
 
+<hr/>
 
-
-## [3] From likes to Leads: Interact with Customers Online 🤑​💰​💳​
-
+🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​
+# From likes to Leads: Interact with Customers Online
+[Inicio](#digital-marketing--e-commerce) 
 
 ### Social Media
 > Any digital tool that enables users to create and share content publicly
@@ -1283,9 +1300,26 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 
 
 
+<hr/>
 
+🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​
+# Think Outside the inbox: Email Marketing
+[Inicio](#digital-marketing--e-commerce) 
 
-## [4] Think Outside the inbox: Email Marketing 🤑​💰​💳​
-## [5] Assess for Success: Marketing Analytics and Measurement 🤑​💰​💳​
-## [6] Make the Sale: Build, Launch and Manage E-commerce Stores 🤑​💰​💳​
-## [7] Satisfaction Guaranteed: Develop Customer Loyalty Online 🤑​💰​💳​
+<hr/>
+
+🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​
+# Assess for Success: Marketing Analytics and Measurement
+[Inicio](#digital-marketing--e-commerce) 
+
+<hr/>
+
+🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​
+# Make the Sale: Build, Launch and Manage E-commerce Stores
+[Inicio](#digital-marketing--e-commerce) 
+
+<hr/>
+
+🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​
+# Satisfaction Guaranteed: Develop Customer Loyalty Online
+[Inicio](#digital-marketing--e-commerce) 
