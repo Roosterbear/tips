@@ -81,7 +81,7 @@
 > Freelancers, Influencers
 
 
-### How Digital Marketing Generates VALUE
+- [x] How Digital Marketing Generates VALUE
 
 * DM It is more than SELL and running ads to drive sales
 * Audience __TRUST__ your Brand
@@ -94,7 +94,7 @@
 * Adapts to __NEW__ technologies
 * Reach the target audience more accurately
 
-### Inclusive Marketing
+- [x] Inclusive Marketing
 
 * Ethnicity
 * Socio-economic status
@@ -111,7 +111,7 @@
  
 > Debemos preguntarnos: ¿A qué clientes quiero alcanzar?
 
-### PAIN POINTS
+- [x] PAIN POINTS
 
 > Specific problems potential customers want to solve
 > Instead of asking "How do we sell more products"
@@ -119,35 +119,35 @@
 > or achieve their goals"
 
 
-### CUSTOMER JOURNEY
+- [x] CUSTOMER JOURNEY
 
 > The path you take from learning about a product 
 > to getting your questions answered to making a purchase
 
 
-### TOUCHPOINT
+- [x] TOUCHPOINT
 
 > Each interaction with a brand during a purchase journey
 
 
-### CUSTOMER JOURNEY MAP
+- [x] CUSTOMER JOURNEY MAP
 
 > A visualization of the touchpoints a typical customer
 > encounters along their purchase journey
 
 
-### DIGITAL MARKETING FUNNEL
+## DIGITAL MARKETING FUNNEL
 
 > A visual representation of the process through
 > which people go from first learning about a brand
 > to becoming loyal customers
 
-* Tiers
-
-1. __Awareness__ - Know a company
-2. __Consideration__ - Think doing business with a company
-3. __Conversion__ - Decides to make a purchase / Become a customer
-4. __Loyalty__ - Reasons to RETURN
+| Tiers | Description |
+| ----- | ----- |
+| __Awareness__ | Know a company |
+| __Consideration__ | Think doing business with a company |
+| __Conversion__ | Decides to make a purchase / Become a customer |
+| __Loyalty__ | Reasons to RETURN |
 
 
 ### AWARENESS
@@ -157,55 +157,55 @@
 > THE FIRST STEP TO GET THE RIGHT AUDIENCE IS __RESEARCH__
 
 
-### Target audience
+* Target audience
 
 > The group of people most likely to purchase a company's products
 
 
-### Awareness tactics
+- [x] Awareness tactics
 
 * Optimizing website content around specific search terms
 * Paying ADS on websites, social media, email or video platforms
 * Promotional partnerships with other brands or influencers
 
 
-### LEAD
+- [x] LEAD
 
 > A potential customer who has interacted with a brand 
 > and shared personal information like an email address
 
 
-### METRIC
+- [x] METRIC
 
 > A quantifiable measurement used to track
 > and assess progress towards an objective
 
 
-### IMPRESSIONS
+- [x] IMPRESSIONS
 
 > The total number of times and AD appears on people's screens
 
 
-### REACH
+- [x] REACH
 
 > The total number of unique individuals who
 > encounter an AD across their different devices
 
 
-### FREQUENCY
+- [x] FREQUENCY
 
 > How many times each individual encounters 
 > an AD in a given timeframe
 
 
-### MEASURING
+- [x] MEASURING
 
 > Measuring outcomes at each stage of the funnel
 > allows you to find out what you're doing right,
 > what you're doing wrong and where you could improve.
 
 
-### MEASURING AWARENESS
+- [x] MEASURING AWARENESS
 
 * Impressions
 > Total number of times an AD appears on peoples' screens
@@ -218,8 +218,9 @@
 > How many times each individual encounters an AD in a given timeframe
 
 
+### CONSIDERATION
 
-### Measuring consideration
+- [x] Measuring consideration
 
 * How often customers search for your business online
 * Number of first-time visitors
@@ -228,14 +229,17 @@
 * Email or newsletter signup
 
 
-### Consideration tactics - GET THE CUSTOMER TO MAKE A PURCHASE
+- [x] Consideration tactics - GET THE CUSTOMER TO MAKE A PURCHASE
 
 * Serve ADS based on products and pages visited
 * Blog posts, newsletters, webinars
 * Samples, tools trial memberships
 
 
-### Conversion tactics
+### CONVERSION
+> When a potential customer takes a desired action, like making a purchase
+
+- [x] Conversion tactics
 
 * Accurate products descriptions
 * Smooth checkout process
@@ -244,12 +248,7 @@
 * Clearly organized website
 
 
-### Conversion 
-
-> When a potential customer takes a desired action, like making a purchase
-
-
-### Measuring conversion
+- [x] Measuring conversion
 
 * Number of conversions
 * Time to conversion
@@ -258,14 +257,15 @@
 * Average order size
 
 
-### Cart abandonment
+- [x] Cart abandonment
 
 > When a customer adds an item to their cart,
 > but doesn't complete the purchase
 
 
+### LOYALTY
 
-### Loyalty tactics
+- [x] Loyalty tactics
 
 * Great experience during and after purchase
 * Follow-up emails
@@ -273,8 +273,7 @@
 * Social media engagement
 
 
-
-### Measuring loyalty
+- [x] Measuring loyalty
 
 * Rate of repeat purchases
 * Length of time between purchases
@@ -283,19 +282,19 @@
 * Engagement with rewards programs
 
 
-### TENDENCIES
+- [x] TENDENCIES
 
 * Small business
 * Immersive Experiences (VR, AR, Chatbots)
 * Innovative Distribution (Drones or Autonomous Vehicle)
 
 
-### Brand
+- [x] Brand
 
 > How a business or organization is perceived by the public
 
 
-### Brand equity - VALOR DE MARCA
+- [x] Brand equity - VALOR DE MARCA
 
 > The __VALUE__ consumers attribute to one brands's offerings
 > when compared with similar products from another brand
@@ -304,70 +303,68 @@
 > ADDS to its overall value
 
 
-### 13 Topics to AVOID
+| 13 Topics to AVOID |
+| ------ |
+| Military conflicts|
+| Obscene content|
+| Drugs|
+| Tobacco|
+| Adult content|
+| Weapons|
+| Crime|
+| Death / Violence|
+| Online piracy|
+| Hate Speech|
+| Terrorism|
+| Spam|
+| Fake News|
 
-1. Military conflicts
-2. Obscene content
-3. Drugs
-4. Tobacco
-5. Adult content
-6. Weapons
-7. Crime
-8. Death / Violence
-9. Online piracy
-10. Hate Speech
-11. Terrorism
-12. Spam
-13. Fake News
 
-
-### Digital marketing strategy
+- [x] Digital marketing strategy
 
 > A plan for achieving specific goals through online 
 > channels to support and advance business objectives
 
 
-### Media mix
+- [x] Media mix
 
 > The combination of digital channels you use to reach 
 > your goals, and how you divide your budget among them
 
 
-### Effective digital marketing strategy
+| Effective digital marketing strategy |
+| ------- |
+| Research your audience|
+| Set goals|
+| Review existing media for gaps|
+| Select marketing channels|
+| Plan content|
+| Measure and analyze results|
 
-* Research your audience
-* Set goals
-* Review existing media for gaps
-* Select marketing channels
-* Plan content
-* Measure and analyze results
 
-
-### Customer Persona
-
+- [x] Customer Persona
 > A Group of similar kind of people within your audience
 > Use __HubSpot__ or __Up close & Persona__ to create a Customer Persona
 
 
-### Business goals
-
+- [x] Business goals
 > Desired aims, achievements or outcomes for a business
 > IMPACT A COMPANY AT ALL LEVELS
 
 
-### Business goals
-
-* Increasing profits
-* Gaining new customers
-* Improving customer service
-* Raising productivity
-* Launching new products or services
+| Business goals |
+| ------- |
+| Increasing profits|
+| Gaining new customers|
+| Improving customer service|
+| Raising productivity|
+| Launching new products or services|
 
 > "Grow our number of active customers by 25% over the next two years
 > adding five frequently-requested features to our software"
 
 
-### Marketing goals
+- [x] Marketing goals
 
 > Specific objectives in a marketing plan or strategy
 > that should support a business larger aims
@@ -384,7 +381,7 @@
 > and increasing our mid-funnel budget by 20%"
 
 
-### CATEGORIES OF DIGITAL MEDIA
+## CATEGORIES OF DIGITAL MEDIA
 
 1. __PAID__ A form of digital promotion a brand pays to put online
 
@@ -394,74 +391,62 @@
 
 
 
-### Search Engine Optimization (SEO)
-
+- [x] Search Engine Optimization (SEO)
 > A set of practices designed to increase 
 > the quantity of traffic to a website
 
 
-### Keywords
-
+- [x] Keywords
 > Commonly-used search terms
 
 
-### Search Engine Results Pages (SERPs)
-
+- [x] Search Engine Results Pages (SERPs)
 > The pages of results produced when someone performs a search
 
 
-### Keyword research
-
+- [x] Keyword research
 > The process of identifying common search terms and phrases
 > consumers use to find products or services online
 
 
-### Search Engine Marketing (SEM)
-
+- [x] Search Engine Marketing (SEM)
 > The process of GENERATING TRAFFIC to a website through 
 > paid ADs that appear on search engine results pages
 
 
-### AD Auction
-
+- [x] AD Auction
 > How a search engine determines which ads to display and 
 > the order they're shown, when someone performs a search
 
 
-### Pay-per-click Advertising (PPC)
-
+- [x] Pay-per-click Advertising (PPC)
 > An advertising model where you pay only when someone clicks on your AD
 
 
-### Cost-per-click (CPC)
-
+- [x] Cost-per-click (CPC)
 > The amount you pay when someone click on a PPC AD
 
 
-### Remarketing
-
+- [x] Remarketing
 > Allows you to identify previous customers or visitors to your website
 > and serve them paid ADs on other sites and social media platforms
 
 
-### Display Marketing
-
+- [x] Display Marketing
 > Marketing elements in websites (Video, GIF, Text)
 
 
-### Social Media DRAWBACK
-
+- [x] Social Media DRAWBACK
 > Can't control the platforms themselves
 > It can shut down or change their algorithm
 
 
-### Social Media Marketing
-
+- [x] Social Media Marketing
 > Creating and publiching content for social media platforms
 > in order to drive engagement and promote a brand or product
 
 
-### 5 pillars of social media marketing
+## 5 Pillars of Social Media Marketing
 
 1. Strategy 
   * __KNOW WHO YOUR AUDIENCE IS AND WHICH SOCIAL MEDIA THEY USE__
@@ -488,26 +473,22 @@
   * __GROW THEIR EMAIL LISTS__
 
 
-### SPAM (Junk Mail)
-
+- [x] SPAM (Junk Mail)
 > Unwanted emails sent out in bulk to a mass recipient list
 
 
-### Email marketing
-
+- [x] Email marketing
 > When a brand sends messages to a list of existing suscribers
 > to share information, drive sales or create community
 > __RELEVANT AND HELPFUL CONTENT TO PEOPLE WHO'VE AGREED TO RECEIVE IT__
 
 
-### Email segmentation
-
+- [x] Email segmentation
 > Dividing an email subscriber list into smaller groups or segments,
 > based on criteria like interests, location or purchase history
 
 
-### Personalization
-
+- [x] Personalization
 > Customizing email content for individual suscribers
 
 * Address each recipient directly
@@ -516,59 +497,48 @@
 * Follow up on previous interactions
 
 
-### Performance marketing
-
+- [x] Performance marketing
 > The process of using concrete information about customers 
 > behaviors to plan and refine marketing and sales strategies
 
 
-### Customer lifetime value
-
+- [x] Customer lifetime value
 > The average revenue generated per customer 
 > over a certain period of time
 
 
-### ROAS (Return On AD Spend)
-
+- [x] ROAS (Return On AD Spend)
 > How much revenue is gained versus how much was spent
 
 
-### DATA
-
+- [x] DATA
 > A collection of facts or information
 
 
-### Key Performance indicator (KPI)
-
+- [x] Key Performance indicator (KPI)
 > A measurement used to gauge how successful a business
 > is in its effort to reach a business or marketing goal
 
 
-### Data analytics
-
+- [x] Data analytics
 > Monitor and evaluating data to gain actionable insights
 
 
-### Ways of working with data
+## Ways of working with data
 
-* Pulling
-> Collecting data from analytics tools and putting it in a spreadsheet or database
-
-* Reporting
-> Organizing and summarizing data to track performance across marketing and sales efforts
-
-* Analyzing
-> Examing data in order to draw conclusions, make predictions
-> and drive informed decision-making
+| Name | Definition |
+| ------- | ------- |
+| Pulling| Collecting data from analytics tools and putting it in a spreadsheet or database|
+| Reporting| Organizing and summarizing data to track performance across marketing and sales efforts|
+| Analyzing| Examing data in order to draw conclusions, make predictions and drive informed decision-making|
 
 
-### Atribution
-
+- [x] Atribution
 > Determing which content and channels are responsible 
 > for generating the leads, conversions or sign-ups
 
 
-### Atribution models
+- [x] Atribution models
 
 * Data-driven
 > Measures customer engagement with marketing content across 
@@ -587,8 +557,7 @@
 > along the customer journey
 
 
-### Data storytelling
-
+- [x] Data storytelling
 > Conveying data insights to a specific audience
 > using a clear and compelling narrative
 
@@ -597,7 +566,7 @@
 * __Visualization__ - costumes of a play
 
 
-### Parts of a History
+- [x] Parts of a History
 
 1. Context
 2. Conflict
@@ -1164,13 +1133,13 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 # From likes to Leads: Interact with Customers Online
 [Inicio](#digital-marketing--e-commerce) 
 
-### Social Media
+- [x] Social Media
 > Any digital tool that enables users to create and share content publicly
 
-* Brand awareness
+- [x] Brand awareness
 > how familiar people are with a particular business or product
 
-#### Benefits of social media marketing
+- [x] Benefits of social media marketing
 
 * Increase brand awareness
 * Target new customers
@@ -1181,26 +1150,26 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 * Cost-effective
 
 
-* __Lead__
+- [x] __Lead__
 > Someone who took a specific action that made them a potential customer
 > (filling out a form, subscribing a free trial, clicking a link to a discount code)
 
 
-#### Five core pillars of social media marketing
+## 5 Core Pillars of Social Media Marketing
 
-1. Strategy
+### 1. Strategy
 
   * The goals of your campaign
   * The social media platforms you'll use
   * The types of content you'll post
 
-2. Planning and publishing
+### 2. Planning and publishing
 
   * Have a consistent presence
   * Schedule posts in advance
   * Consider timing and frequency
 
-3. Listening and engagement
+### 3. Listening and engagement
 
 > __SOCIAL LISTENING__
 > Tracking and analyzing conversations and trends related to your brand
@@ -1213,7 +1182,7 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 > __ENGAGEMENT__
 > How your audience interacts with your brand on social media
 
-4. Analytics and reporting
+### 4. Analytics and reporting
 
 > __SOCIAL MEDIA ANALYTICS__
 > The process of collecting data from your social media
@@ -1227,14 +1196,14 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 > A document that presents relevant data and analysis 
 > about your social media activities
 
-5. Paid social media
+### 5. Paid social media
 
   * Control and target your marketing
   * Reach a wider audience
   * Grow your brand on social media
 
 
-#### Earned media
+- [x] Earned media
 > Personal or public promotion of a brand or product
 
 * Customer reviews and testimonials
@@ -1250,32 +1219,34 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 * Organic social media
 > Any social media activity that does not require a paid promotion
 
-#### Owned media
+- [x] Owned media
 > All the digital content a brand fully controls
 
 * Blog sites
 * Social media profiles
 * Community forums
 
-#### Paid media
+- [x] Paid media
 > Any form of digital promotion a brand pays to put online
 
 
-#### Marketing funnel
+## Marketing funnel
 > A graphic representation of the process through which people go
 > from learning about a brand to becoming loyal customers
 
-1. Awareness - __CAPTURE AUDIENCE'S ATTENTION__
-2. Consideration - __PROVIDE MORE DETAILED INFORMATION AND BUILD TRUST__
-3. Conversion - __CAPITALIZE ON INTEREST PEOPLE ALREADY SHOWN AND OFFER INCENTIVES__
-4. Loyalty - __NURTURE RELATIONSHIPS WITH YOUR CUSTOMER TO REMAIN IN THEIR MINDS__
+| Tier | Description |
+| ------- | ------- |
+| Awareness | __CAPTURE AUDIENCE'S ATTENTION__ |
+| Consideration | __PROVIDE MORE DETAILED INFORMATION AND BUILD TRUST__ |
+| Conversion | __CAPITALIZE ON INTEREST PEOPLE ALREADY SHOWN AND OFFER INCENTIVES__ |
+| Loyalty | __NURTURE RELATIONSHIPS WITH YOUR CUSTOMER TO REMAIN IN THEIR MINDS__ |
 
 
-#### Marketing "Rule of seven"
+- [x] Marketing "Rule of seven"
 > A potential customer must see a message at least 
 > seven times before they're ready to take action
 
-#### Remarketing
+- [x] Remarketing
 > A strategy in which you use paid ADs to raget customers
 > who have visited your website, app or social media profile
 
