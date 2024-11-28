@@ -22,6 +22,7 @@
     - [5. Paid social media](#5-paid-social-media)
   - [Marketing Funnel](#marketing-funnel)
   - [Campaign Goals](#campaign-goals)
+  - [How to identify your target audience](#how-to-identify-your-target-audience)
 - [Think Outside the inbox: Email Marketing](#think-outside-the-inbox-email-marketing)
 - [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
@@ -1281,7 +1282,29 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 > plan your schedule and set milestones
 
 
+- [x] Target audience
+> The group of people most likely to purchase your company's products
 
+- [x] Social media target audience
+> The specific group of people you want your company
+> to reach on social media platforms
+
+
+## How to identify your target audience
+
+1. Compile information about your current customers
+   > Demographic information
+   - Age
+   - Location
+   - Language
+   - Interests
+   - Needs
+2. Assess how people engage with your brand
+  > __Social listening__
+  > Tracking your social media platforms for mentions 
+  > and conversations about your brand
+3. Research what social media platforms your target audience uses
+4. Observe the competition
 
 
 
