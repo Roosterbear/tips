@@ -2,13 +2,30 @@
 <br/>
 <hr/>
 
-* [Foundations of Digital Marketing and E-commerce](#foundations-of-digital-marketing-and-e-commerce)
-* [Attract and Engage Customers with Digital Marketing](#attract-and-engage-customers-with-digital-marketing)
-* [From Likes to Leads - Interact with Customers Online](#from-likes-to-leads-interact-with-customers-online)
-* [Think Outside The Inbox - Email Marketing](#think-outside-the-inbox-email-marketing)
-* [Assess for Success Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
-* [Make the Sale - Build Launch and Manage E-Commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
-* [Satisfaction Guaranteed Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
+- [DIGITAL MARKETING \& E-COMMERCE](#digital-marketing--e-commerce)
+- [Foundations of Digital Marketing and E-commerce](#foundations-of-digital-marketing-and-e-commerce)
+  - [DIGITAL MARKETING FUNNEL](#digital-marketing-funnel)
+    - [AWARENESS](#awareness)
+    - [CONSIDERATION](#consideration)
+    - [CONVERSION](#conversion)
+    - [LOYALTY](#loyalty)
+  - [CATEGORIES OF DIGITAL MEDIA](#categories-of-digital-media)
+  - [5 Pillars of Social Media Marketing](#5-pillars-of-social-media-marketing)
+  - [Ways of working with data](#ways-of-working-with-data)
+- [Attract and Engage Customers with Digital Marketing](#attract-and-engage-customers-with-digital-marketing)
+- [From likes to Leads: Interact with Customers Online](#from-likes-to-leads-interact-with-customers-online)
+  - [5 Core Pillars of Social Media Marketing](#5-core-pillars-of-social-media-marketing)
+    - [1. Strategy](#1-strategy)
+    - [2. Planning and publishing](#2-planning-and-publishing)
+    - [3. Listening and engagement](#3-listening-and-engagement)
+    - [4. Analytics and reporting](#4-analytics-and-reporting)
+    - [5. Paid social media](#5-paid-social-media)
+  - [Marketing Funnel](#marketing-funnel)
+  - [Campaign Goals](#campaign-goals)
+- [Think Outside the inbox: Email Marketing](#think-outside-the-inbox-email-marketing)
+- [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
+- [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
+- [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
 
 <hr/>
 
@@ -579,8 +596,7 @@
 [CURSO#2]
 [Inicio](#digital-marketing--e-commerce) 
 
-### CUSTOMER PERSONA
-
+- [x] CUSTOMER PERSONA
 > A Group of similar persons in a desirable public, help us to:
 
 * Better understand the customer's perspective
@@ -588,7 +604,7 @@
 * Effective AD targeting
 
 
-### Ways to collect customer data
+- [x] Ways to collect customer data
 
 * Review customer data
 * Conduct customer interviews
@@ -596,48 +612,48 @@
 * Send out surveys
 
 
-### COMPONENTS
+- [x] COMPONENTS
 
 1. Traits
 2. Objectives
 3. Barriers
 
 
-### Demographics
+- [x] Demographics
 
 > Information specific to the customer, such as age, gender identity,
 > income, family size, occupation, education and location
 
 
-### Customer persona barrier
+- [x] Customer persona barrier
 
 > What is preventing the customer from achieving their goal
 
 
-### Benefits of a marketing funnel
+- [x] Benefits of a marketing funnel
 
 1. Consider the buyer's journey
 2. Optimize your marketing strategy
 
 
 
-### Strategies
+- [x] Strategies
 
 > Support the plan to achieve the marketing goal and tend to be more general ideas
 
 
-### Tactics
+- [x] Tactics
 
 > Actions taken to make the plan happen
 
 
 
-### AWARENESS STAGE
+- [x] AWARENESS STAGE
 
 > When a potential customer first becomes aware of the product or service
 
 
-#### Awareness strategies and tactics
+- [x] Awareness strategies and tactics
 
 * Search Engine Optimization (__Potitioning__)
 * Search Engine Marketing (__pay ADs__)
@@ -651,12 +667,11 @@
 
 
 
-### CONSIDERATION STAGE
-
+- [x] CONSIDERATION STAGE
 > When you build interest for your product or service
 
 
-#### Consideration strategies and tactics
+- [x] Consideration strategies and tactics
 
 * Unique selling proposition (__why is better than competition__)
 * Testimonials (__great experience and problems solved__)
@@ -668,17 +683,15 @@
 
 
 
-### CONVERSION STAGE
-
+- [x] CONVERSION STAGE
 > The process to get a potential customer to take a desired action
 
 
-#### Conversation rate
-
+- [x] Conversation rate
 > The percentage of users or website visitors that take a desired action
 
 
-#### Convertion strategies and tactics
+- [x] Convertion strategies and tactics
 
 * Optimize the checkout process
 * Add better photos
@@ -690,19 +703,17 @@
 * Experiment with A/B tests
 
 
-#### A/B test
-
+- [x] A/B test
 > __WHEN YOU COMPARE TWO VERSIONS OF A WEBPAGE__
 > __TO DETERMINE WHICH HAS THE HIGHEST CONVERSION RATE__
 
 
 
-### LOYALTY STAGE
-
+- [x] LOYALTY STAGE
 > When customers become repeat customers and brand advocates
 
 
-#### Loyalty strategies and tactics
+- [x] Loyalty strategies and tactics
 
 * Rewards programs
 * Email marketing
@@ -714,26 +725,25 @@
 * Amusing confirmation messages
 
 
-### Main processes of a search engine
+- [x] Main processes of a search engine
 
 * __Crawling__ - The Process of finding new or updated pages
 * __Indexing__ - Web content with its location 
 * __Serving__ - When algorithm starts to work
 
 
-### Search Engine
-
+- [x] Search Engine
 > Software that locates information on a search query
 
 
-### Algorithm
+- [x] Algorithm
 
 > Automated software that helps locate information to answer a user's query
 > The purpose of the search algorithm is to deliver the beste results for a search
 > SET OF INSTRUCTIONS FOR SOLVING A PROBLEM OR ACCOMPLISHING A TASK
 
 
-### HOW RANKING A WEB PAGE
+- [x] HOW RANKING A WEB PAGE
 
 1. THE MEANING OF THE QUERY (Words typed into Google Search Bar - INTENT of Query)
 2. Webpage relevance
@@ -745,7 +755,7 @@
 
 
 
-### Key factors for SERPs
+- [x] Key factors for SERPs
 
 1. Meaning of the query
 2. Relevance of webpages
@@ -754,12 +764,12 @@
 5. Context and settings
 
 
-### Search Engine Results Pages (SERPs)
+- [x] Search Engine Results Pages (SERPs)
 
 > Appear whenever someone performs a search query
 
 
-#### SERPs features
+- [x] SERPs features
 
 * Featured snippet - SPECIAL BOX THAT DISPLAYS INFORMATION ABOUT A PAGE
 * Rich results - ADDITIONAL FEATURES IN SEARCH RESULTS
@@ -768,7 +778,7 @@
 * Local results - Maps
 
 
-#### Another Search Engines
+- [x] Another Search Engines
 
 * Yahoo
 * Bing
@@ -777,13 +787,13 @@
 * Yandex (Rusia)
 
 
-### SEO - Search Engine Optimization
+- [x] SEO - Search Engine Optimization
 
 > The process of increasing the visibility of website pages on
 > search engines in order to attract more relevant traffic
 
 
-#### SEO Tasks
+- [x] SEO Tasks
 
 * __REVIEW WEBSITE CONTENT OR STRUCTIRE__
 > Well organized for engine algorithms to crawl easily
@@ -798,7 +808,7 @@
 > Find phrases
 
 
-#### Pre-SEO work
+- [x] Pre-SEO work
 
 * Know your website or organization's goal
 * Know the customers
@@ -807,41 +817,40 @@
 
 
 
-#### Google Search Console
+- [x] Google Search Console
 
 > This tool helps people monitor, maintain and troubleshoot
 > a website presence in Google search results
 
 
-#### Keyword stuffing
+- [x] Keyword stuffing
 
 > The practice of loading a webpage with keywords or numbers in an
 > attempt to manipulate a site's ranking in the search results
 
 
-#### Bounce rate
+- [x] Bounce rate
 
 > The percent of visitors that view one page and then LEAVE the site
 
 
-#### Check Structure
+- [x] Check Structure
 
 1. HTTPS
 2. 404 Pages
 3. Sitemaps
 
 
-#### Copy
+- [x] Copy
 
 > Texto publicitario
 
 
-#### USP - Unique Selling Proposition
-
+- [x] USP - Unique Selling Proposition
 > Explanation of why our product is unique
 
 
-#### Website optimization recommendations
+- [x] Website optimization recommendations
 
 * Make the website useful and interesting
 * Know what visitors want and give it to them
@@ -850,7 +859,7 @@
 * Provide an appropriate amount of content for your subject
 
 
-#### THE TEXT MUST BE
+- [x] THE TEXT MUST BE
 
 * Descriptive
 * Accurate
@@ -858,7 +867,7 @@
 * Useful
 
 
-#### Google Images best practices
+- [x] Google Images best practices
 
 * Create a great user experience
 * Descriptive TITLES, CAPTIONS and FILENAMES
@@ -867,7 +876,7 @@
 * Use __PAGE SPEED INSIGHTS__
 
 
-#### Common ERRORS
+- [x] Common ERRORS
 
 * Forget about clients
 * Mobile site in a different domain
@@ -875,8 +884,7 @@
 
 
 
-#### Webpage title element
-
+- [x] Webpage title element
 > Provides both the user and search engines with a page's TOPIC
 
 * Acurrately describe the topic
@@ -884,8 +892,7 @@
 * Brief
 
 
-#### Meta description
-
+- [x] Meta description
 > Provides the search engines a summary of what the page is ABOUT
 
 * Add to EVERY page
@@ -893,31 +900,26 @@
 * UNIQUE Descriptions for EACH page
 
 
-#### Rich Results
-
+- [x] Rich Results
 > Enhanced results in Google search with extra visual or interactive features
 
 
-#### STRUCTURED DATA
-
+- [x] STRUCTURED DATA
 > __Code used to DESCRIBE a webpages' content BETTER to Search Engines__
 
 
-#### Structured data markup
-
+- [x] Structured data markup
 > Way of providing additional machine-readable information within a web page
 
 
-#### Schema
-
+- [x] Schema
 > The type of code used for structured data markups
 
 
 __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 
 
-
-#### Knowledge Pane Details
+- [x] Knowledge Pane Details
 
 * Web link
 * Logo
@@ -926,7 +928,7 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 * Social Media
 
 
-#### Knowledge Pane Steps
+- [x] Knowledge Pane Steps
 
 1. Create a Business profile in Google
 2. Verify property
@@ -935,7 +937,7 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 
 
 
-#### Search Console first steps
+- [x] Search Console first steps
 
 1. Add and verify website ownership
 2. Ensure Google can find and read your pages
@@ -952,7 +954,7 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 > The most beneficial features in GSC are: __Reports & Metrics__
 
 
-#### Search Console REPORTS
+- [x] Search Console REPORTS
 
 * Overview page - __SUMMARY OF SITE HEALTH__
 * Web Search Performance report - __SEO RELATED METRICS__
@@ -962,7 +964,7 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 * Security issues report - __IF YOUR SITE WAS HACKED OR IS HARMFUL TO USERS__
 
 
-#### Terms
+- [x] Terms
 
 * __Impressions__ Your site in a search (SERP)
 * __CTR__ Click Through Rate
@@ -970,14 +972,14 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 > Clicks divided by Impression (by 100)
 
 
-#### Bing Webmaster Tools
+- [x] Bing Webmaster Tools
 
 > Servicio gratuito para el motor de búsqueda de Microsoft 
 > __Bing__ para agregar páginas al rastreo e indexación
 
 
 
-### Search Engine Marketing (SEM)
+- [x] Search Engine Marketing (SEM)
 
 > Increasing a product or service's visibility on a 
 > search engine results page through paid advertising
@@ -1011,18 +1013,18 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 5. Structured snippets
 
 
-#### Pay-Per-Click (PPC) Advertising
+- [x] Pay-Per-Click (PPC) Advertising
 
 > Type of advertising model that allows businesses
 > to pay only when someone click on an AD
 
 
-#### Campaign
+- [x] Campaign
 
 > ADs that share a budget, location targeting and another settings
 
 
-#### Steps to create a Google AD
+- [x] Steps to create a Google AD
 
 1. Define your campaign goal
 2. Choose the campaign type
@@ -1034,35 +1036,31 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 
 
 
-#### Broad match
-
+- [x] Broad match
 > Show your ads on phrases that relate to your keyword
 
 
-#### Phrase match
-
+- [x] Phrase match
 > Keywords that include the meaning of your keyword
 
 
-#### Exact match
-
+- [x] Exact match
 > Searches that have the same meaning or same intent as the keyword
 
 
-#### AD Auction
-
+- [x] AD Auction
 > How Google determines which ADs show, in what order,
 > for each search result that contains text ADs
 
 
-#### Factors that determine AD Rank
+- [x] Factors that determine AD Rank
 
 1. Your bid
 2. Quality of your ADs and landing page
 3. AD Extensions
 
 
-#### BEST PRACTICES
+- [x] BEST PRACTICES
 
 1. __AVOID GENERIC SALES LANGUAGE__
 2. __INCLUDE A KEYWORD IN THE TITLE__
@@ -1071,19 +1069,16 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 > __OPTIMIZE YOUR LANDING PAGE__
 
 
-### Display Advertising
-
+- [x] Display Advertising
 > Visual AD formats placed on websites or applications
 
 
-#### Google Display Network
-
+- [x] Google Display Network
 > A group of more than 2 millions websites,
 > videos and apps where display ADs can appear
 
 
-#### UPLOADED DISPLAY AD
-
+- [x] UPLOADED DISPLAY AD
 > You create the graphic:
 
 * Banner (468x60)
@@ -1091,15 +1086,14 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 * Skyscraper (120x600)
 
 
-#### RESPONSIVE DISPLAY AD
-
+- [x] RESPONSIVE DISPLAY AD
 > You uplod images, headlines, logos, videos and descriptions
 > Google Ads will automatically generate ad combinations
 
 * Google recommends 5 headlines, 5 images and 5 descriptions
 
 
-#### Responsive display AD Best Practices
+- [x] Responsive display AD Best Practices
 
 * Upload recommended number of assets
 * Create unique and effective copy
@@ -1107,7 +1101,7 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 * Rotate in new display ADs every few weeks
 
 
-#### Responsive display AD tips for images
+- [x] Responsive display AD tips for images
 
 * Use images with a __STRONG__ visual __FOCUS__
 * Do not overlay a logo, text or button
@@ -1115,7 +1109,7 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 > The background should __NOT STAND OUT__ more than or overshadow the product
 
 
-#### YOUTUBE ADs
+- [x] YOUTUBE ADs
 
 * TrueView
 > There are 2 types: videos you can skip and videos you can not skip
@@ -1230,7 +1224,7 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 > Any form of digital promotion a brand pays to put online
 
 
-## Marketing funnel
+## Marketing Funnel
 > A graphic representation of the process through which people go
 > from learning about a brand to becoming loyal customers
 
@@ -1249,6 +1243,46 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 - [x] Remarketing
 > A strategy in which you use paid ADs to raget customers
 > who have visited your website, app or social media profile
+
+
+## Campaign Goals
+
+* Hold you accountable
+* Guide your budget
+* Measure your success
+
+- [x] Includes:
+
+* Building Brand awareness
+* Managing Brand reputation
+* Sales and Lead Generation
+* Increasing Community Engagement
+* Increasing Web Traffic
+* Gaining Customer and Competitive Insights
+
+- [x] S.M.A.R.T.
+
+* Specific
+> Specifying exactly what you want to achieve
+> helps you determine when you've achieved it.
+
+* Measurable
+> A goal is measurable when you can determine
+> objectively that it has been met
+
+* Attainable
+> An attainable goal is realistic given any constraints
+
+* Relevant
+> A relevant goal will benefit your business
+
+* Time-bound
+> Making your goal time-bound helps you
+> plan your schedule and set milestones
+
+
+
+
 
 
 
