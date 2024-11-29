@@ -1307,6 +1307,23 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 4. Observe the competition
 
 
+- [x] Considerations when choosing platforms
+
+* How different platforms work
+* Target audience
+* Goals
+* Company
+* Competitors
+* Resources
+
+
+- [x] Design of the Brand Identity
+
+* Standarize your brand colors in social media
+* Influencers that reflect your brand identity
+* Make a voice of your brand
+
+
 
 
 
