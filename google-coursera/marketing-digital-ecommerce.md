@@ -1324,6 +1324,20 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 * Make a voice of your brand
 
 
+- [x] Common social media content buckets
+
+* Entertaining - Viral videos, jokes, comics, contests, giveaways and memes
+  - __Meme__ is an amusing or interesting item that spread widely online
+* Educational - Builds trust as industry leader with information and wisdom to share
+* Inspirational - Makes your brand seem more authentic, reincforces value and vision
+* Conversational - Encourages your audience to engage with you
+* Promotional Content - Talks about your products 
+
+
+
+
+
+
 
 
 
