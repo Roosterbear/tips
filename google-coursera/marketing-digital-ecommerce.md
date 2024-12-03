@@ -4,6 +4,16 @@
 
 - [DIGITAL MARKETING \& E-COMMERCE](#digital-marketing--e-commerce)
 - [Foundations of Digital Marketing and E-commerce](#foundations-of-digital-marketing-and-e-commerce)
+  - [e-commerce](#e-commerce)
+    - [e-commerce purchases](#e-commerce-purchases)
+  - [Digital marketing](#digital-marketing)
+    - [Digital channels](#digital-channels)
+    - [Transferable skill](#transferable-skill)
+    - [Careers](#careers)
+    - [Digital Marketing Coordinator](#digital-marketing-coordinator)
+    - [e-commerce Analyst](#e-commerce-analyst)
+    - [e-commerce](#e-commerce-1)
+    - [How Digital Marketing Generates VALUE](#how-digital-marketing-generates-value)
   - [DIGITAL MARKETING FUNNEL](#digital-marketing-funnel)
     - [AWARENESS](#awareness)
     - [CONSIDERATION](#consideration)
@@ -23,6 +33,16 @@
   - [Marketing Funnel](#marketing-funnel)
   - [Campaign Goals](#campaign-goals)
   - [How to identify your target audience](#how-to-identify-your-target-audience)
+  - [COMMON SOCIAL MEDIA CONTENT BUCKETS](#common-social-media-content-buckets)
+  - [How to aquire earned media](#how-to-aquire-earned-media)
+  - [When to publish](#when-to-publish)
+    - [Chronological feed](#chronological-feed)
+    - [Social media algorithm](#social-media-algorithm)
+  - [Real-Time Marketing](#real-time-marketing)
+  - [Benefits of a social media calendar](#benefits-of-a-social-media-calendar)
+  - [Developing a social media calendar](#developing-a-social-media-calendar)
+  - [Hootsuite](#hootsuite)
+    - [Write the content](#write-the-content)
 - [Think Outside the inbox: Email Marketing](#think-outside-the-inbox-email-marketing)
 - [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
@@ -34,11 +54,11 @@
 # Foundations of Digital Marketing and E-commerce
 [Inicio](#digital-marketing--e-commerce) 
 
-- [x] e-commerce 
+## e-commerce 
 
 > The buying and selling of goods and services online
 
-- [x] e-commerce purchases
+### e-commerce purchases
 
 | Product | Example |
 |------|------| 
@@ -48,27 +68,33 @@
 | Software | Word processing or photo editing programs |
 
 
+## Digital marketing
 
-|Digital marketing|
-|----------------- |
-| The practice of reaching consumers online through digital channels with the aim of turning them into customers |
-| Digital channels: websites, search engines, email or social media. |
+> The practice of reaching consumers online through digital channels with the aim of turning them into customers 
 
 
-- [x] Transferable skill
+### Digital channels
+
+  * Websites
+  * Search engines
+  * Eemail 
+  * Social media. 
+
+
+### Transferable skill
 
 * Curiosity
 * Analytical mindset
 * Storytelling
 
 
-- [x] Careers
+### Careers
 
 * In-house - Deep Knowledge
 * Agency - Multiple industries, flexible expertise
 
 
-- [x] Digital Marketing Coordinator
+### Digital Marketing Coordinator
 
 * Identify objectives
 * SEO best practices
@@ -78,7 +104,7 @@
 * Clients activities monitoring
 
 
-- [x] e-commerce Analyst
+### e-commerce Analyst
 
 * Ensure that customer interactions align with business objectives
 * Use SEO 
@@ -89,7 +115,7 @@
 * Execute and monitor loyalty programs
 
 
-- [x] e-commerce
+### e-commerce
 
 * B2C - Business To Consume r
 * C2C - Consumer To Consumer
@@ -99,7 +125,7 @@
 > Freelancers, Influencers
 
 
-- [x] How Digital Marketing Generates VALUE
+### How Digital Marketing Generates VALUE
 
 * DM It is more than SELL and running ads to drive sales
 * Audience __TRUST__ your Brand
@@ -1324,24 +1350,89 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 * Make a voice of your brand
 
 
-- [x] Common social media content buckets
+## COMMON SOCIAL MEDIA CONTENT BUCKETS
 
-* Entertaining - Viral videos, jokes, comics, contests, giveaways and memes
+* __ENTERTAINING__ - Viral videos, jokes, comics, contests, giveaways and memes
   - __Meme__ is an amusing or interesting item that spread widely online
-* Educational - Builds trust as industry leader with information and wisdom to share
-* Inspirational - Makes your brand seem more authentic, reincforces value and vision
-* Conversational - Encourages your audience to engage with you
-* Promotional Content - Talks about your products 
+* __EDUCATIONAL__ - Builds trust as industry leader with information and wisdom to share
+* __INSPIRATIONAL__ - Makes your brand seem more authentic, reinforces value and vision
+  - By testimonies, quotes, sharing facts and trivia and telling personal stories
+* __CONVERSATIONAL__ - Encourages your audience to engage with you
+* __PROMOTIONAL CONTENT__ - Talks about your products 
+
+## How to aquire earned media
+
+* Customer Reviews
+* Blog posts about your product
+* Content shared and / or reposted by others
+* Mentions of your product on social media
 
 
+## When to publish
+
+### Chronological feed
+
+> A stream that displays the latest published content first
+
+### Social media algorithm
+
+> A way of sorting posts in a users feed based on **relevancy**
+> rather than the order in which they are published
+<br/>
+
+> For **algorithm-based** platforms, it's better to publish
+> *quality* content less frequently, as too many posts
+> can result in a drop in engagement.
+
+Consider: <br/>
+
+- [x] When your target audience is active online
+- [x] Your best-performing posts
+- [x] Seasons and holidays
+- [x] Current events
+
+## Real-Time Marketing
+
+* **Relevant** ¿WHATS'S HAPPENING RIGHT NOW?
+* **Intelligent** ¿HOW CAN I MAKE CONTENT WITH PERSONALITY?
+* **Fresh** ¿IT WILL GENERATE INTERACTIONS TOMORROW?
+* **Oriented** ¿IS THIS TREND OF INTEREST OF YOUR AUDIENCE?
+* **Flashy** ¿WHAT IT NEEDS FOR THE PEOPLE TO SEE THIS CONTENT AND ENGAGE?
 
 
+## Benefits of a social media calendar
+
+1. Schedule posts in advance
+2. Organize content in a centralized location
+3. Have stakeholders review or approve posts
+4. Plan around events and holidays
+5. Avoid major mistakes
 
 
+## Developing a social media calendar
 
+- [x] Identify platforms
+- [x] Review current platforms and content
+- [x] Decide on a data track
+- [x] Make content library
+- [x] Establish workflow and review process
+- [x] Craft schedule and posts
 
+* **SELECTING CONTENT**
 
+> The process of bringing together and structuring different pieces
+> of content to keep social media profiles fresh and up to date
 
+## Hootsuite
+
+> https://education.hootsuite.com/
+
+### Write the content
+
+- [x] **Mentions** Companies Users, Brands, People preceded by "@"
+- [x] **Links** 
+- [x] **Emojis**
+- [x] **Hashtags** Preceded by "#", indicates a relation with a topic
 
 
 
