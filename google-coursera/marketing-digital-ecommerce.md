@@ -43,6 +43,7 @@
   - [Developing a social media calendar](#developing-a-social-media-calendar)
   - [Hootsuite](#hootsuite)
     - [Write the content](#write-the-content)
+  - [Social Listening](#social-listening)
 - [Think Outside the inbox: Email Marketing](#think-outside-the-inbox-email-marketing)
 - [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
@@ -1435,9 +1436,40 @@ Consider: <br/>
 - [x] **Hashtags** Preceded by "#", indicates a relation with a topic
 
 
+## Social Listening
 
+> Social media is a two-step process:
 
+1. Monitor your platforms
+2. Analyze the information and plan actions
 
+> **Social media sentiment:** The attitude and feelings 
+> people have about your brand on social media
+
+> Social media helps you:
+
+* Understand sentiment around your brand
+* Engage with customers
+* Address negative sentiment
+* Analyze the competition
+* Increase customer acquisition
+
+<hr/>
+
+* Identify keywords
+* Locate where people are talking about you
+* Findout what people are saying
+* Assess your competition
+* Learn what's happening in your industry
+* Use a social listening tool
+
+> Keywords for social listening
+
+* Brand product names
+* Slogans
+* Names of key people in the company
+* Industry buzzwords
+* Hastags related to the brand
 
 
 
