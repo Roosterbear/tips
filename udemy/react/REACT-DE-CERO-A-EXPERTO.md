@@ -1,5 +1,30 @@
 # REACT DE CERO A EXPERTO 54 Hrs.
 
+- [REACT DE CERO A EXPERTO 54 Hrs.](#react-de-cero-a-experto-54-hrs)
+  - [INTRODUCCION](#introduccion)
+  - [PRIMERA APLICACION](#primera-aplicacion)
+  - [DIFERENCIAS ENTRE CRA Y VITE](#diferencias-entre-cra-y-vite)
+    - [CREATE-REACT-APP](#create-react-app)
+    - [Vite](#vite)
+  - [EJECUTAR LA APLICACION](#ejecutar-la-aplicacion)
+  - [MODIFICAR DESDE CERO](#modificar-desde-cero)
+  - [AGREGAR CSS](#agregar-css)
+  - [props](#props)
+  - [propTypes](#proptypes)
+  - [defaultProps](#defaultprops)
+  - [EVENTOS](#eventos)
+    - [evento click](#evento-click)
+  - [HOOKS](#hooks)
+    - [useState](#usestate)
+  - [PRUEBAS](#pruebas)
+    - [AAA](#aaa)
+    - [PRUEBAS UNITARIAS](#pruebas-unitarias)
+    - [PRUEBAS DE INTEGRACIÓN](#pruebas-de-integración)
+    - [INSTALACIÓN](#instalación)
+    - [PRIMER PRUEBA](#primer-prueba)
+
+
+
 ## INTRODUCCION
 
 * Manten actualizado Node:
@@ -63,8 +88,6 @@
 * No tiene un manifest.json
 * INLUYE un vite.config.js
 * Utiliza archivos .jsx
-
-
 
 ## EJECUTAR LA APLICACION
 
@@ -203,12 +226,10 @@ App.defaultProps = {
   )
 ```
 
-
 ## HOOKS
 
 > __SON FUNCIONES__
 > Comienzan con la palabra __use__
-
 
 ### useState
 
@@ -317,9 +338,10 @@ describe('PRUEBA PARA COMPONENTE <App/>',()=>{
 * Nos ayuda mucho tener las __"types"__:
 > yarn add -D @types/jest
 
-* __NO PODEMOS HACER PRUEBAS DE ALGO QUE NO TENERMOS EXPORTADO__
+* __NO PODEMOS HACER PRUEBAS DE ALGO QUE NO TENEMOS EXPORTADO__
 
-
+> Para trabajar con .then, usamos el **done**
+> 
 
 
 
