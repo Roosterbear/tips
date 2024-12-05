@@ -2,26 +2,29 @@
 
 - [REACT DE CERO A EXPERTO 54 Hrs.](#react-de-cero-a-experto-54-hrs)
   - [INTRODUCCION](#introduccion)
-  - [PRIMERA APLICACION](#primera-aplicacion)
-  - [DIFERENCIAS ENTRE CRA Y VITE](#diferencias-entre-cra-y-vite)
-    - [CREATE-REACT-APP](#create-react-app)
-    - [Vite](#vite)
-  - [EJECUTAR LA APLICACION](#ejecutar-la-aplicacion)
-  - [MODIFICAR DESDE CERO](#modificar-desde-cero)
+    - [Primer Aplicación](#primer-aplicación)
+    - [Diferencias entre CRA y Vite](#diferencias-entre-cra-y-vite)
+      - [create-react-app](#create-react-app)
+      - [Vite](#vite)
+    - [Ejecutar la Aplicación](#ejecutar-la-aplicación)
+    - [Modificar desde CERO](#modificar-desde-cero)
   - [AGREGAR CSS](#agregar-css)
-  - [props](#props)
-  - [propTypes](#proptypes)
-  - [defaultProps](#defaultprops)
+  - [PROPS](#props)
+    - [propTypes](#proptypes)
+    - [defaultProps](#defaultprops)
   - [EVENTOS](#eventos)
     - [evento click](#evento-click)
   - [HOOKS](#hooks)
     - [useState](#usestate)
   - [PRUEBAS](#pruebas)
     - [AAA](#aaa)
-    - [PRUEBAS UNITARIAS](#pruebas-unitarias)
-    - [PRUEBAS DE INTEGRACIÓN](#pruebas-de-integración)
-    - [INSTALACIÓN](#instalación)
-    - [PRIMER PRUEBA](#primer-prueba)
+    - [Pruebas Unitarias](#pruebas-unitarias)
+    - [Pruebas de Integración](#pruebas-de-integración)
+    - [Instalación de Jest](#instalación-de-jest)
+    - [Primer Prueba](#primer-prueba)
+  - [PROYECTO GifExpertApp](#proyecto-gifexpertapp)
+    - [Instalación](#instalación)
+    - [Archivo styles.css](#archivo-stylescss)
 
 
 
@@ -41,7 +44,7 @@
 > npm install -g yarn
 
 
-## PRIMERA APLICACION
+### Primer Aplicación
 
 1. Instalar con __Vite__:
 > yarn create vite
@@ -56,7 +59,7 @@
 
 
 
-## DIFERENCIAS ENTRE CRA Y VITE
+### Diferencias entre CRA y Vite
 
 * Usar __CRA__ para proyectos sencillos
 * Usar __Vite__ para proyectos PROFESIONALES
@@ -64,7 +67,7 @@
 * Usar __yarn__ para dependencias LOCALES
 
 
-### CREATE-REACT-APP
+#### create-react-app
 
 1. Crea un __package-lock.json__ que nos dice como se originó el proyecto.
 2. __.gitignore__ para indicar lo que no queremos que se suba a GIT o Github
@@ -79,7 +82,7 @@
 
 * __LOS ARCHIVOS .lock NO SE MANIPULAN!__
 
-### Vite
+#### Vite
 
 * __TIENE MENOS DEPENDENCIAS__
 * __ES MEJOR EL HOT RELOAD__
@@ -89,7 +92,7 @@
 * INLUYE un vite.config.js
 * Utiliza archivos .jsx
 
-## EJECUTAR LA APLICACION
+### Ejecutar la Aplicación
 
 > yarn dev
 
@@ -97,7 +100,7 @@
 
 > npm install
 
-## MODIFICAR DESDE CERO
+### Modificar desde CERO
 
 > Ya que vimos que funciona, borrar todo en __src__
 > Crear nuestro main.jsx y agregar:
@@ -147,7 +150,7 @@ html, body{
 import './style.css'
 ```
 
-## props
+## PROPS
 
 > Se usan para crear __COMUNICACIÓN__ entre componentes
 > Normalmente no las trabajamos directamente
@@ -170,7 +173,7 @@ export const FirstApp = ({title, subTitle}) =>{
 ```
 
 
-## propTypes
+### propTypes
 
 * __YA Instalado con CRA__
 * __Se debe INSTALAR con Vite__
@@ -191,7 +194,7 @@ App.propTypes = {
 }
 ```
 
-## defaultProps
+### defaultProps
 
 ```jsx
 App.defaultProps = {
@@ -283,14 +286,14 @@ export function CounterApp(){
 4. Son necesarias
 
 
-### PRUEBAS UNITARIAS
+### Pruebas Unitarias
 > Enfocada a pequeñas funcionalidades
 
-### PRUEBAS DE INTEGRACIÓN
+### Pruebas de Integración
 > Enfocadas a cómo reaccionan varias piezas en conjunto
 
 
-### INSTALACIÓN
+### Instalación de Jest
 > yarn add --dev jest
 
 * Agregar en nuestro package.json
@@ -303,7 +306,7 @@ export function CounterApp(){
 }
 ```
 
-### PRIMER PRUEBA
+### Primer Prueba
 
 * Ejecutamos con:
 > yarn test
@@ -341,7 +344,135 @@ describe('PRUEBA PARA COMPONENTE <App/>',()=>{
 * __NO PODEMOS HACER PRUEBAS DE ALGO QUE NO TENEMOS EXPORTADO__
 
 > Para trabajar con .then, usamos el **done**
-> 
+
+
+## PROYECTO GifExpertApp
+
+### Instalación
+
+> yarn create vite
+
+1. Eliminar archivos de **src**, solo dejar *main.jsx*
+2. Agregar *GifExpertApp.jsx*
+
+- [x] __NO ES NECESARIO IMPORTAR REACT EN CADA ARCHIVO A PARTIR DE LA VERSIÓN 17__
+- [x] __NO TENEMOS LOS MÓDULOS DE NODE, HAY QUE IMPORTARLOS!__
+
+> yarn install
+
+- [x] Incluso funciona con solo: 
+
+> yarn
+
+3. Crear el componente GifExpertApp dentro del archivo del mismo nombre
+4. Lo importamos y agregamos en el **main**
+5. Agregar archivo styles.css
+
+### Archivo styles.css
+
+```css
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: rgb(234, 234, 234);
+}
+
+body {
+  padding: 60px;
+}
+
+input {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(97, 32, 158);
+  color: black;
+  font-size: 1.2rem;
+  outline: none;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  align-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+  height: 0%;  
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.card p {
+  background-color: white;
+  flex: 1;
+  font-size: 1.5rem;
+  margin-top: 5px;
+  padding: 5px 20px 0px 20px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
+```
+1. Agregar a main.jsx
+> import './styles.css'
+
+```jsx
+import {useState} from 'react';
+
+export const GifExpertApp = ()=>{
+  const [categories, setCategories] = useState(['One Punch', 'Dragon Ball']);
+
+  return(
+    <>
+      {/* titulo */}
+      <h1>GifExpertApp</h1>
+
+      {/* input */}
+      
+
+      {/* listado de gifs */}
+      <ol>
+        {
+          categories.map(category=>{
+            return <li key={category}>{category}</li>
+          })
+        }
+      </ol>
+    </>
+  )
+}
+
+```
+5. Probar componente ejecutando:
+> yarn dev
+- [x] Si la primera vez marca **ERROR** instalar dependencias:
+> npm install
+
+1. Crear cuenta y loguearnos en: https://developers.giphy.com/
+2. Crear nuevo proyecto **API**
+3. Copiar la **API Key** 
 
 
 
