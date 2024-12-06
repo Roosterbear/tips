@@ -46,6 +46,8 @@
   - [Social Listening](#social-listening)
   - [Social Media Engagement](#social-media-engagement)
     - [To increase your followers on Twitter](#to-increase-your-followers-on-twitter)
+    - [Write engaging content](#write-engaging-content)
+    - [Brand Voice](#brand-voice)
 - [Think Outside the inbox: Email Marketing](#think-outside-the-inbox-email-marketing)
 - [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
@@ -1508,6 +1510,30 @@ Consider: <br/>
 * Include Visuals
 * Write a creative bio
 * Promote your social media accounts through other channels
+
+### Write engaging content
+
+* Write to your audience
+* Speak like your audience
+* Tailor your writing to each platform
+* Keep your posts short and simple
+* Include a call to action
+* Write in your brand voice
+* Pay attention to grammar and spelling
+
+### Brand Voice
+
+* Helps you stand out on social media
+* Makes your brand more recognizable
+* Build customers trust and loyalty
+
+[Mi Trabajo en Canva](https://www.canva.com/design/DAGYjJ9moOI/AF8ifmn0ZWxI2ZBlw-9TaQ/view?utm_content=DAGYjJ9moOI&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
+
+
+
+
+
 
 
 
