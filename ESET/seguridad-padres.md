@@ -1,5 +1,15 @@
 # SEGURIDAD PARA PADRES Y MADRES
-> Riesgos en Internet para los más chicos
+
+- [Web](#web)
+  - [Web 1.0](#web-10)
+  - [Web 2.0](#web-20)
+  - [Web 3.0](#web-30)
+- [Privacidad](#privacidad)
+  - [Sexting](#sexting)
+  - [Cyber Bullying](#cyber-bullying)
+  - [Grooming](#grooming)
+- [Seguridad en Dispositivos](#seguridad-en-dispositivos)
+- [Herramientas](#herramientas)
 
 
 ## Web
@@ -24,7 +34,8 @@
 > INTERNET en todos lados, TODO el tiempo
 
 
-### PRIVACIDAD
+## PRIVACIDAD
+[Inicio](#seguridad-para-padres-y-madres)
 
 > Es el control que ejerce un usuario sobre su __INFORMACIÓN__
 > para limitar la cantidad de personas autorizadas a obtenerla
@@ -49,7 +60,7 @@
 * Lo aisla de su familia
 
 
-### Seguridad en dispositivos
+## Seguridad en dispositivos
 
 * Menores de 5 años
 > Protegerlos con contraseña para que no accedan solos
@@ -70,32 +81,6 @@
 > Hablarle de temas como el ciber-bullying, grooming, etc.
 
 
-### Herramientas
+## Herramientas
 
 * Doble factor de autenticación
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
