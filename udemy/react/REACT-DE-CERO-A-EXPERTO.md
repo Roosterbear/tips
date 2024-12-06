@@ -25,6 +25,9 @@
   - [PROYECTO GifExpertApp](#proyecto-gifexpertapp)
     - [Instalación](#instalación)
     - [Archivo styles.css](#archivo-stylescss)
+    - [Probando APP](#probando-app)
+    - [Acceder a GIPHY](#acceder-a-giphy)
+    - [Agregar otro componente (AddCategory)](#agregar-otro-componente-addcategory)
 
 
 
@@ -463,17 +466,44 @@ export const GifExpertApp = ()=>{
     </>
   )
 }
-
 ```
+
+### Probando APP
+
 5. Probar componente ejecutando:
 > yarn dev
 - [x] Si la primera vez marca **ERROR** instalar dependencias:
 > npm install
 
+### Acceder a GIPHY
+
 1. Crear cuenta y loguearnos en: https://developers.giphy.com/
 2. Crear nuevo proyecto **API**
 3. Copiar la **API Key** 
 
+### Agregar otro componente (AddCategory)
+
+1. Creamos una carpeta components dentro de **src**
+2. Agregamos nuestro archivo **AddCategory.jsx**
+
+- [x] DEBEMOS USAR onChange PARA RECIBIR VALORES DE UN INPUT
+
+```jsx
+import {useState} from 'react';
+
+export const AddCategory = ()=>{
+
+  const [inputValue, setInputValue] = useState('');
+
+  return(
+    <input
+      type="text"
+      placeholder="Buscar GIFs"
+      value={inputvalue}
+    >
+  )
+}
+```
 
 
 
