@@ -1,127 +1,6 @@
-# REACT DE CERO A EXPERTO 54 Hrs.
-
-- [REACT DE CERO A EXPERTO 54 Hrs.](#react-de-cero-a-experto-54-hrs)
-  - [INTRODUCCION](#introduccion)
-    - [Primer Aplicación](#primer-aplicación)
-    - [Diferencias entre CRA y Vite](#diferencias-entre-cra-y-vite)
-      - [create-react-app](#create-react-app)
-      - [Vite](#vite)
-    - [Ejecutar la Aplicación](#ejecutar-la-aplicación)
-    - [Modificar desde CERO](#modificar-desde-cero)
-  - [AGREGAR CSS](#agregar-css)
-  - [PROPS](#props)
-    - [propTypes](#proptypes)
-    - [defaultProps](#defaultprops)
-  - [EVENTOS](#eventos)
-    - [evento click](#evento-click)
-  - [HOOKS](#hooks)
-    - [useState](#usestate)
-  - [PRUEBAS](#pruebas)
-    - [AAA](#aaa)
-    - [Pruebas Unitarias](#pruebas-unitarias)
-    - [Pruebas de Integración](#pruebas-de-integración)
-    - [Instalación de Jest](#instalación-de-jest)
-    - [Primer Prueba](#primer-prueba)
-  - [PROYECTO GifExpertApp](#proyecto-gifexpertapp)
-    - [Instalación](#instalación)
-    - [Archivo styles.css](#archivo-stylescss)
-    - [Probando APP](#probando-app)
-    - [Acceder a GIPHY](#acceder-a-giphy)
-    - [Agregar otro componente (AddCategory)](#agregar-otro-componente-addcategory)
 
 
 
-## INTRODUCCION
-
-* Manten actualizado Node:
-
-> curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
-
-> REINICIA LA TERMINAL !!!
-
-> Instala la version de Node deseada: nvm install 14.4.0.
-> Cambia la version: nvm use --delete-prefix v20.18.0
-> npm install -g vite
-
-* Si no tenemos yarn:
-> npm install -g yarn
-
-
-### Primer Aplicación
-
-1. Instalar con __Vite__:
-> yarn create vite
-
-2. Nos pedira informacion del proyecto. Poner nombre y en React con JS.
-3. Entrar a la __CARPETA DEL PROYECTO__ y abrirla en VSC
-
-> OBSERVACION: Ambos crean un proyecto tipo __NODE__
-
-* Si nos manda error:
-> Instalar __DEPENDENCIAS__ con: yarn install
-
-
-
-### Diferencias entre CRA y Vite
-
-* Usar __CRA__ para proyectos sencillos
-* Usar __Vite__ para proyectos PROFESIONALES
-* Usar __npm__ para dependencias GLOBALES
-* Usar __yarn__ para dependencias LOCALES
-
-
-#### create-react-app
-
-1. Crea un __package-lock.json__ que nos dice como se originó el proyecto.
-2. __.gitignore__ para indicar lo que no queremos que se suba a GIT o Github
-3. __package.json__ con info del proyecto, scripts y dependencias
-> Por ejemplo, tenemos los scripts para levantar el servidor de desarrollo,
-> construye la version de producción con tree-shaking, pruebas, etc.
-4. __README.md__ lo que queremos mostrar en Github, Bitbucket, etc.
-5. __PODEMOS VISUALIZARLO CON VSC__ como Markdown: Open Preview
-6. La carpeta __node_modules__ de las cuales casi ninguna llega a __PRODUCCIÓN__
-7. En public nos encontramos con el __manifest.json__ que es para una __PWA__
-8. En __index.html__ es donde se montará la Single Page Application
-
-* __LOS ARCHIVOS .lock NO SE MANIPULAN!__
-
-#### Vite
-
-* __TIENE MENOS DEPENDENCIAS__
-* __ES MEJOR EL HOT RELOAD__
-* El index.html esta en raíz
-* No tiene un robots.txt
-* No tiene un manifest.json
-* INLUYE un vite.config.js
-* Utiliza archivos .jsx
-
-### Ejecutar la Aplicación
-
-> yarn dev
-
-* Si marca errores, instalar dependencias:
-
-> npm install
-
-### Modificar desde CERO
-
-> Ya que vimos que funciona, borrar todo en __src__
-> Crear nuestro main.jsx y agregar:
-
-```jsx
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-
-function App(){
-  return(<h1>Hola mundo</h1>)
-}
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App/>
-  </React.StrictMode>
-)
-```
 
 > __NO PODEMOS REGRESAR UN OBJETO__
 
@@ -134,24 +13,8 @@ const miObjeto = {
 JSON.stringify(miObjeto);
 ```
 
-## AGREGAR CSS
 
-* Creamos nuestro archivo _style.css_
 
-```css
-html, body{
-  background-color: #21232A;
-  color: white;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.3rem;
-  padding: 70px;
-}
-```
-* Lo agregamos a nuestro componente:
-
-```jsx
-import './style.css'
-```
 
 ## PROPS
 
