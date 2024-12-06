@@ -1,3 +1,7 @@
-__This is my space to take notes, instead of writting in real notebooks__<br/>
-By __@Roosterbear__ 👍
+# NOTES & SHORTCUTS
 
+- [x] Annotations from courses
+- [x] Notes from books
+- [x] Shortcuts I've learned in my life
+
+👌​ Enjoy!
