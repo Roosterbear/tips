@@ -1,10 +1,3 @@
-# tatuajesperros.com
-
-## octubre 2024
-
-* 
-
-
 # UT - Datos
 
 ## Datos Semana #14
@@ -14,7 +7,6 @@ ESET: 3
 Mantenimientos: 0
 Atención: 26
 CURSO: 30%
-
 
 ---------------------------
 7 cursos, 14.2% cada curso
