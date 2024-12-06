@@ -1,5 +1,15 @@
 # POWERSHELL
 
+- [POWERSHELL](#powershell)
+  - [Búsqueda de Usuarios](#búsqueda-de-usuarios)
+  - [Saber la FECHA de Creación de un Usuario](#saber-la-fecha-de-creación-de-un-usuario)
+  - [Mostrar Miembros de un Grupo](#mostrar-miembros-de-un-grupo)
+  - [Mostrar un Equipo con todas sus propiedades](#mostrar-un-equipo-con-todas-sus-propiedades)
+  - [Mostrar Equipos que no se han Logueado en días](#mostrar-equipos-que-no-se-han-logueado-en-días)
+  - [Reiniciar Equipo](#reiniciar-equipo)
+  - [Eliminar Particiones de Disco Duro](#eliminar-particiones-de-disco-duro)
+
+
 ## Búsqueda de Usuarios
 ```powershell
 Get-ADUser -Filter "SamAccountName" -like "j*"
