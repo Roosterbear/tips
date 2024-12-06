@@ -44,6 +44,8 @@
   - [Hootsuite](#hootsuite)
     - [Write the content](#write-the-content)
   - [Social Listening](#social-listening)
+  - [Social Media Engagement](#social-media-engagement)
+    - [To increase your followers on Twitter](#to-increase-your-followers-on-twitter)
 - [Think Outside the inbox: Email Marketing](#think-outside-the-inbox-email-marketing)
 - [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
@@ -1470,6 +1472,46 @@ Consider: <br/>
 * Names of key people in the company
 * Industry buzzwords
 * Hastags related to the brand
+
+
+## Social Media Engagement
+
+> Measures how people are interacting with
+> your social media accounts and content
+
+- [x] Likes
+- [x] Favorites
+- [x] Comments
+- [x] Shares
+- [x] Retweets
+- [x] Saves
+- [x] Clicks
+- [x] Hashtags
+- [x] Mentions
+
+> What to do:
+
+* Respond to comments and mentions
+* Provide excellent customer service
+* Respond to customers quickly
+* Develop an authentic, personal voice
+* Know your audience
+* Create valuable content
+* Get creative
+
+
+### To increase your followers on Twitter
+
+* Engage with your audience
+* Tweet frequently
+* Use hashtags
+* Include Visuals
+* Write a creative bio
+* Promote your social media accounts through other channels
+
+
+
+
 
 
 
