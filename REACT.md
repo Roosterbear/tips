@@ -47,7 +47,7 @@ __Menú__
     - [Instalación](#instalación)
     - [Archivo styles.css](#archivo-stylescss)
     - [Recorriendo nuestro array](#recorriendo-nuestro-array)
-    - [Probando APP](#probando-app)
+    - [Viendo cómo va quedando nuestra App](#viendo-cómo-va-quedando-nuestra-app)
     - [Acceder a GIPHY](#acceder-a-giphy)
     - [Agregar otro componente (AddCategory)](#agregar-otro-componente-addcategory)
 
@@ -988,7 +988,7 @@ export const GifExpertApp = ()=>{
 }
 ```
 
-### Probando APP
+### Viendo cómo va quedando nuestra App
 
 1. Probar componente ejecutando:
 
