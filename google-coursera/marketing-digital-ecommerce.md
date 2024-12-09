@@ -48,6 +48,12 @@
     - [To increase your followers on Twitter](#to-increase-your-followers-on-twitter)
     - [Write engaging content](#write-engaging-content)
     - [Brand Voice](#brand-voice)
+  - [Social Media Analytics](#social-media-analytics)
+    - [Metric](#metric)
+    - [Impression](#impression)
+    - [Referral](#referral)
+    - [Net Promoter Score](#net-promoter-score)
+    - [Track competitors](#track-competitors)
 - [Think Outside the inbox: Email Marketing](#think-outside-the-inbox-email-marketing)
 - [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
@@ -1528,6 +1534,38 @@ Consider: <br/>
 * Build customers trust and loyalty
 
 [Mi Trabajo en Canva](https://www.canva.com/design/DAGYjJ9moOI/AF8ifmn0ZWxI2ZBlw-9TaQ/view?utm_content=DAGYjJ9moOI&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
+
+## Social Media Analytics
+
+### Metric
+
+> A quantificable measurement that is used to track and assess a business objective
+
+### Impression
+
+> When a piece of content is displayed to your target audience
+
+### Referral
+
+> How someone was guided to your website
+
+### Net Promoter Score
+
+> A metric that helps predict future customer engagement by asking customers:
+> "How likely is it that you would recommend our product to a friend?"
+
+### Track competitors
+
+* Which content performs best
+* Which platforms their content is shared on most
+* Which influencers are most effective a promoting their content
+
+
+
+
+
+
 
 
 
