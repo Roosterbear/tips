@@ -1013,6 +1013,10 @@ npm install
 2. Agregamos nuestro archivo **AddCategory.jsx**
 
 - [x] DEBEMOS USAR onChange PARA RECIBIR VALORES DE UN INPUT
+- [x] RECIBIMOS event EN EL onChange [**LO PONGAMOS O NO**]
+- [x] DEBEMOS USAR *event.target.value* PARA OBTENER EL VALOR DEL INPUT
+- [x] PODEMOS DESESTRUCTURAR *event* con **{target}**
+- [x] PODEMOS USAR UN FORM TRADICIONAL PARA CREAR UN SUBMIT CON **Enter**
 
 ```jsx
 import {useState} from 'react';
@@ -1020,12 +1024,17 @@ import {useState} from 'react';
 export const AddCategory = ()=>{
 
   const [inputValue, setInputValue] = useState('');
+  const onInputChange = ()=>{
+    setInputValue();
+  }
+
 
   return(
     <input
       type="text"
       placeholder="Buscar GIFs"
       value={inputvalue}
+      onChange={onInputChange}
     >
   )
 }
