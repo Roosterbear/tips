@@ -6,6 +6,9 @@
     - [Target](#target)
     - [Box Test](#box-test)
   - [OSINT​](#osint)
+    - [Reconnaissance](#reconnaissance)
+    - [Footprinting PASIVO](#footprinting-pasivo)
+    - [Footprinting ACTIVO](#footprinting-activo)
   - [PENTESTING](#pentesting)
     - [Retardar Licencia Windows](#retardar-licencia-windows)
   - [RAT](#rat)
@@ -37,10 +40,48 @@
 
 ### Box Test
 
+> **Black Box Test** - Cuando se recibe poca o ninguna información del target mas que el
+> nombre del cliente. Es el que haría un *Hacker malicioso*
+<br/>
+
+> **White Box Test** - Se tiene pleno conocimiento de la estructura interna, aplicaciones
+> y la infraestructura del target. Se pueden incluir credenciales de acceso o código fuente.
+<br/>
+
+> **Gray Box Test** - Combina elementos del Black y White box, con información LIMITADA.
+<br/>
 
 
 💀💀💀💀
 ## OSINT​
+
+### Reconnaissance
+
+> Es el **PRIMER PASO** de cualquier ataque.
+> Consiste en **RECOPILAR INFORMACIÓN** del target a atacar y consiste en:
+
+* Footprinting pasivo
+* Footprinting activo
+
+
+### Footprinting PASIVO
+
+> Es cuando se recopila la información sin que el target se de cuenta.
+> Se hace generalmente de manera externa usando fuentes públicas.
+> A esta técnica se le conoce como OSINT (Open-Source INTelligence)
+
+* Uso de buscadores
+* Acceso a redes sociales
+* Visita de sitios web del target
+* Investigación de empleados
+
+
+### Footprinting ACTIVO
+
+> Es cuando se accede 
+
+
+
 
 
 💀💀💀💀💀💀
