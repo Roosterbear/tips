@@ -16,10 +16,10 @@
 ## NEW Words
 
 > **Asset** - Useful and desirable thing
+> **Drawback** - Disadvantage, downside, problem
 > **Searing** - Intense
 > **Sliver** - A little piece of some food
-
-
+> **Thrive** - Grow, get better
 
 <br/><br/><br/>
 👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅
@@ -43,6 +43,12 @@
 > **I cooked a tasteless meaal** - Bland, Dull
 > **The box has been already delivered** - The box has just been delivered
 > **This book was created out of necessity**
+> **I need to find out a bit more about you first**
+> **Running ads to drive sales** - Advertising to get clients
+> **Reach a diverse customer pool** - Different group o clients
+> **Whether my input is accepted** - While my opinion is accepted
+> **Sparks a dialogue as someone else's would** - Generate conversation
+> **Making a dent** - Stand out
 
 ### Jobs
 
@@ -51,8 +57,9 @@
 
 ### Greetings
 
-> **How's it going?**
-> **What's up?**
+> **How's it going?** - Doing well, not bad, pretty good
+> **What's up?** - Not much, Same old, Just chilling
+> 
 
 ### Allow - Permission
 
