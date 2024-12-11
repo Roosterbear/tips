@@ -15,11 +15,16 @@
 
 ## NEW Words
 
+> **Assess** - Evaluate, measure, estimate, check, gauge
 > **Asset** - Useful and desirable thing
 > **Drawback** - Disadvantage, downside, problem
+> **Insight** - Vison or knowledge of something
 > **Searing** - Intense
 > **Sliver** - A little piece of some food
 > **Thrive** - Grow, get better
+
+
+
 
 <br/><br/><br/>
 👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅👅

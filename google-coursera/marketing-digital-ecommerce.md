@@ -51,9 +51,15 @@
   - [Social Media Analytics](#social-media-analytics)
     - [Metric](#metric)
     - [Impression](#impression)
+    - [Applause rate](#applause-rate)
     - [Referral](#referral)
+    - [Customer Testimonial](#customer-testimonial)
     - [Net Promoter Score](#net-promoter-score)
     - [Track competitors](#track-competitors)
+  - [Social Media Report](#social-media-report)
+    - [Social media report could be:](#social-media-report-could-be)
+    - [Social media report considerations](#social-media-report-considerations)
+    - [KPI (Key Performance Indicator)](#kpi-key-performance-indicator)
 - [Think Outside the inbox: Email Marketing](#think-outside-the-inbox-email-marketing)
 - [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
@@ -1542,13 +1548,36 @@ Consider: <br/>
 
 > A quantificable measurement that is used to track and assess a business objective
 
+- [x] **YOUR SOCIAL MEDIA GOAL WILL DETERMINE WHICH METRICS YOU FOCUS ON**
+- [x] You set goals when you develop your social media strategy 
+
+<br/><hr/><br/>
+
+- [x] AWARENESS - Capture audience's attention
+
 ### Impression
 
 > When a piece of content is displayed to your target audience
 
+- [x] CONSIDERATION
+
+### Applause rate
+
+> The number of approval actions - such as likes, mentions, retweets or 
+> favorites - that a post receives relative to your total number of followers
+
+- [x] CONVERSION - Completion of an activity that contributes to a business success
+
 ### Referral
 
 > How someone was guided to your website
+
+- [x] LOYALTY
+
+### Customer Testimonial
+
+Customer review, assessment, comment, endorsement or interview relating to your Brand
+
 
 ### Net Promoter Score
 
@@ -1562,9 +1591,38 @@ Consider: <br/>
 * Which influencers are most effective a promoting their content
 
 
+## Social Media Report
+
+> Is a **Document** that presents and tracks 
+> relevant data about your social media activities
+
+* Allow visualize and present their social media data in a easy way
+* Help justify strategy and decisions based on data to colleagues and clients
+* Provide them with valuable insights
+
+### Social media report could be:
+
+* Quick email
+* Snapshot of a particular post-performance
+* Spreadsheet with detailed data from ALL your social media
+* Slideshow with key findings and analysis
 
 
+### Social media report considerations 
 
+* Tailored to the audience
+* Include the data most relevant to audience
+* Impressions, Audience Growth
+* Frequency can be customized
+* Include context to connect to the story the data is telling
+* Explanation why the campaign have gotten the results they did
+* Reasons give how best to adjust their strategy
+
+
+### KPI (Key Performance Indicator)
+
+> A measurement used to gauge how successful an organization is
+> in its effort to reach a business or marketing goal
 
 
 
