@@ -23,7 +23,6 @@
     - [Pseudo-elementos](#pseudo-elementos)
     - [Pseudo-classes](#pseudo-classes)
   - [HACKS❗❗❗](#hacks)
-    - [Limpiar propiedades](#limpiar-propiedades)
     - [Hack para medida REM](#hack-para-medida-rem)
     - [Eliminar underline de un ENLACE](#eliminar-underline-de-un-enlace)
     - [Eliminar linea punteada alrededor de los ENLACES](#eliminar-linea-punteada-alrededor-de-los-enlaces)
@@ -47,12 +46,27 @@
 
 ## Primeros Pasos
 
-1. Dar formato a las fuentes de todo el cuerpo
+1. Limpiar propiedades
 
 ```css
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
 ```
 
+2. Dar formato a las fuentes de todo el cuerpo
+
+```css
+body{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+}
+```
 
 ## Cómo actúa CSS
 
@@ -298,17 +312,6 @@ a[href $ = "#"]{  /* Termina con...*/
 
 
 ## HACKS❗❗❗
-
-
-### Limpiar propiedades
-
-```css
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;  
-}
-```
 
 ### Hack para medida REM
 
