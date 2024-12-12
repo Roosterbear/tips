@@ -1,10 +1,11 @@
 # WEB
 
 - [WEB](#web)
-  - [CSS](#css)
-    - [Agregar CSS en HTML](#agregar-css-en-html)
-    - [Limpiar propiedades](#limpiar-propiedades)
-    - [Cómo actúa CSS](#cómo-actúa-css)
+- [HTML](#html)
+  - [Agregar CSS en HTML](#agregar-css-en-html)
+- [CSS](#css)
+  - [Primeros Pasos](#primeros-pasos)
+  - [Cómo actúa CSS](#cómo-actúa-css)
   - [FUENTES](#fuentes)
   - [CENTRAR](#centrar)
     - [Centrar un elemento](#centrar-un-elemento)
@@ -18,10 +19,11 @@
     - [Hijo](#hijo)
     - [Descendiente](#descendiente)
     - [Adyacente](#adyacente)
-    - [Attribute selectors](#attribute-selectors)
+    - [Selectores de Atributo](#selectores-de-atributo)
     - [Pseudo-elementos](#pseudo-elementos)
     - [Pseudo-classes](#pseudo-classes)
   - [HACKS❗❗❗](#hacks)
+    - [Limpiar propiedades](#limpiar-propiedades)
     - [Hack para medida REM](#hack-para-medida-rem)
     - [Eliminar underline de un ENLACE](#eliminar-underline-de-un-enlace)
     - [Eliminar linea punteada alrededor de los ENLACES](#eliminar-linea-punteada-alrededor-de-los-enlaces)
@@ -33,26 +35,26 @@
     - [Autorización](#autorización)
 
 
+# HTML
 
-## CSS
-
-### Agregar CSS en HTML
+## Agregar CSS en HTML
 
 ```html
 <link rel="stylesheet" href="style.css">
 ```
 
-### Limpiar propiedades
+# CSS
+
+## Primeros Pasos
+
+1. Dar formato a las fuentes de todo el cuerpo
 
 ```css
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;  
-}
+
 ```
 
-### Cómo actúa CSS
+
+## Cómo actúa CSS
 
 - [x] **Posición**
 
@@ -253,7 +255,7 @@ p + p{
 }
 ```
 
-### Attribute selectors
+### Selectores de Atributo
 
 ```css
 a[href ^ = "#"]{  /* Comienza con...*/
@@ -296,6 +298,17 @@ a[href $ = "#"]{  /* Termina con...*/
 
 
 ## HACKS❗❗❗
+
+
+### Limpiar propiedades
+
+```css
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+```
 
 ### Hack para medida REM
 
