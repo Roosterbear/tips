@@ -134,7 +134,7 @@
 
 ### e-commerce
 
-* B2C - Business To Consume r
+* B2C - Business To Consumer
 * C2C - Consumer To Consumer
 > eBay, Etsy, Facebook Market Place
 * B2B - Business To Business
@@ -175,7 +175,7 @@
 - [x] PAIN POINTS
 
 > Specific problems potential customers want to solve
-> Instead of asking "How do we sell more products"
+> Instead of asking "How do we sell more products" <br/>
 > Ask: "How do we help customers address their pain points 
 > or achieve their goals"
 
@@ -213,9 +213,9 @@
 
 ### AWARENESS
 
-> Is when a potential customer encounters your brand for the first time.
+> Is when a potential customer encounters your brand for the first time. <br/>
 
-> THE FIRST STEP TO GET THE RIGHT AUDIENCE IS __RESEARCH__
+> THE FIRST STEP TO GET THE RIGHT AUDIENCE IS __RESEARCH__ <br/>
 
 
 * Target audience
@@ -364,21 +364,21 @@
 > ADDS to its overall value
 
 
-| 13 Topics to AVOID |
-| ------ |
-| Military conflicts|
-| Obscene content|
-| Drugs|
-| Tobacco|
-| Adult content|
-| Weapons|
-| Crime|
-| Death / Violence|
-| Online piracy|
-| Hate Speech|
-| Terrorism|
-| Spam|
-| Fake News|
+| # | 13 Topics to AVOID |
+| ------ | ------ |
+| 1 | Military conflicts|
+| 2 | Obscene content|
+| 3 | Drugs|
+| 4 | Tobacco|
+| 5 | Adult content|
+| 6 | Weapons|
+| 7 | Crime|
+| 8 | Death / Violence|
+| 9 | Online piracy|
+| 10 | Hate Speech|
+| 11 | Terrorism|
+| 12 | Spam|
+| 13 | Fake News|
 
 
 - [x] Digital marketing strategy
@@ -1028,34 +1028,38 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 > Increasing a product or service's visibility on a 
 > search engine results page through paid advertising
 
-* __ADVANTAGES__
-
-1. Reach likely customers
-2. Quickly appearing in the search result pages
-3. Learn which ADs are driving sales
-4. Control over where you send the searchers
-
-
-* __TYPES OF ADS__
-
-1. Text
-2. Shopping
-3. Local Services
-4. Maps
-5. Call
+|#|ADVANTAGES|
+|----|----|
+|1|Reach likely customers|
+|2|Quickly appearing in the search result pages|
+|3|Learn which ADs are driving sales|
+|4|Control over where you send the searchers|
 
 
-* AD extension
+|#|TYPES OF ADS|
+|----|----|
+|1|Text|
+|2|Shopping|
+|3|Local Services|
+|4|Maps|
+|5|Call|
+
+
+|AD extension|
+|----|
 
 > Featured additional information about a business, such as
 > additional website links, a phone number or an address
 
-1. Sitelink
-2. Call
-3. Location
-4. Price
-5. Structured snippets
+|#|AD Extension|
+|----|----|
+|1|Sitelink|
+|2|Call|
+|3|Location|
+|4|Price|
+|5|Structured snippets|
 
+<br/>
 
 - [x] Pay-Per-Click (PPC) Advertising
 
@@ -1078,31 +1082,24 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 6. Create your AD
 7. Set up conversions
 
-
-
 - [x] Broad match
 > Show your ads on phrases that relate to your keyword
-
 
 - [x] Phrase match
 > Keywords that include the meaning of your keyword
 
-
 - [x] Exact match
 > Searches that have the same meaning or same intent as the keyword
-
 
 - [x] AD Auction
 > How Google determines which ADs show, in what order,
 > for each search result that contains text ADs
-
 
 - [x] Factors that determine AD Rank
 
 1. Your bid
 2. Quality of your ADs and landing page
 3. AD Extensions
-
 
 - [x] BEST PRACTICES
 

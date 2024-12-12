@@ -3,6 +3,7 @@
 - [Securing PHP Applications](#securing-php-applications)
   - [Introducción](#introducción)
     - [SEGURIDAD A TRAVÉS DE OSCURIDAD](#seguridad-a-través-de-oscuridad)
+  - [SESSION](#session)
 
 ## Introducción
 
@@ -57,9 +58,24 @@ moveFile($filename, $tempPath = '/usr/local/bin/', $finalPath = '/www/');
 
   - [x] curl_init(), curl_setopt(), curl_exec(), curl_close()
 
-6. **PHP DATA OBJECTS**
+6. **PHP DATA OBJECTS [PDO]**
 
+## SESSION
 
+> HTTP no tiene **Estado** <br/>
+> Las sesiones nos ayudan a rastrear información
+> de una página a otra de los usuarios
+> trabaja de forma parecida a las cookies
 
+Existen 3 tipos de principales ataques de sesión:
+
+- [x] Session fixation
+- [x] Session hijacking
+- [x] Session Poisoning (injection)
+
+<br/>
+
+**ES IMPORTANTE NO GUARDAR INFORMACIÓN CRITICA EN VARIABLES DE SESIÓN**
+<br/>
 
 
