@@ -3,10 +3,10 @@
 ## Datos Semana #14
 
 Planta: 3
-ESET: 5
-Mantenimientos: 0
-Atención: 46
-CURSO: 35%
+ESET: 0
+Mantenimientos: 1
+Atención: 16
+CURSO: 40%
 
 ---------------------------
 7 cursos, 14.2% cada curso
