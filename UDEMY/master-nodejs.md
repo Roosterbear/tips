@@ -4,6 +4,10 @@
   - [Introducción](#introducción)
   - [Módulos](#módulos)
   - [FileSystem](#filesystem)
+    - [Leer un archivo](#leer-un-archivo)
+    - [Escribir en un archivo](#escribir-en-un-archivo)
+    - [Agregar un archivo](#agregar-un-archivo)
+    - [Crear un directorio](#crear-un-directorio)
 
 ## Introducción
 
@@ -47,16 +51,47 @@ const importaciones = require('./users');
 
 ## FileSystem
 
+### Leer un archivo
+
 ```javascript
 const fs = require('fs')
 fs.readFile('note.txt',(err,data)=>{
   if(err){
-    console.log('Se ha lanbzado el error: ',err)
+    console.log('Se ha lanzado el error: ',err)
   }else{
     console.log(data.toString())
   }
 })
 ```
+
+### Escribir en un archivo
+
+```javascript
+const fs = require('fs')
+fs.writeFile('note.txt','Un mensaje nuevecito',(err,data)=>{
+  if(err){
+    console.log('Se ha lanzado el error: ',err)
+  }else{
+    console.log('Se ha guardado el mensaje')
+  }
+})
+```
+
+### Agregar un archivo
+
+```javascript
+const fs = require('fs')
+fs.appendFile('note.txt','Un mensaje nuevo \n',(err,data)=>{
+  if(err){
+    console.log('Se ha lanzado el error: ',err)
+  }else{
+    console.log('Se ha agregado el mensaje')
+  }
+})
+```
+
+### Crear un directorio
+
 
 
 
