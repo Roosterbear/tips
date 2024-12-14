@@ -8,6 +8,10 @@
     - [Escribir en un archivo](#escribir-en-un-archivo)
     - [Agregar un archivo](#agregar-un-archivo)
     - [Crear un directorio](#crear-un-directorio)
+    - [Leer archivo por STREAM](#leer-archivo-por-stream)
+    - [Crear un SERVIDOR](#crear-un-servidor)
+    - [Uso de Request](#uso-de-request)
+    - [Uso de Response](#uso-de-response)
 
 ## Introducción
 
@@ -106,6 +110,7 @@ if(!fs.existsSync('newfolder')){
 	console.log('Ese directorio ya existe...')
 }
 ```
+### Leer archivo por STREAM
 
 ```javascript
 const fs = require('fs')
@@ -116,6 +121,69 @@ readStream.on('data',chunk=>{
   console.log(chunk.toString())
 })
 ```
+
+### Crear un SERVIDOR
+
+```javascript
+const http = require('http');
+const port = 3000;
+
+const server = http.createServer((req, res)=>{
+  console.log("A request is made");
+});
+
+server.listen(port,()=>{
+  console.log(`listening on port ${port}`);
+});
+```
+> Si ejecutamos esto, aparentemente funciona, pero... <br/>
+> Si abrimos el navegador con **localhost:3000** NO hace nada!
+
+### Uso de Request
+
+> Al crear el servidor enviamos un **request** y un **response**
+
+```javascript
+const http = require('http');
+const port = 3000;
+
+const server = http.createServer((req, res)=>{
+  console.log(`Solicitamos la url: ${req.url}`);
+  console.log(`por medio de: ${req.method}`);
+});
+
+server.listen(port,()=>{
+  console.log(`listening on port ${port}`);
+});
+```
+
+- [x] Ejecutar con **nodemon**
+- [x] Observar los cambios al solicitar una página
+> Por ejemplo: localhost:3000/contacto
+
+### Uso de Response
+
+```javascript
+const http = require('http');
+const port = 3000;
+
+const server = http.createServer((req, res)=>{
+  res.setHeader('Content-Type','text/plain');
+  res.write('Bienvenidos a mi humilde sitio web');
+  res.end();
+});
+
+server.listen(port,()=>{
+  console.log(`listening on port ${port}`);
+});
+```
+
+
+
+
+
+
+
 
 
 
