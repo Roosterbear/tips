@@ -92,7 +92,30 @@ fs.appendFile('note.txt','Un mensaje nuevo \n',(err,data)=>{
 
 ### Crear un directorio
 
+```javascript
+const fs = require('fs')
+if(!fs.existsSync('newfolder')){
+	fs.mkdir('newfolder',(err,data)=>{
+		if(err){
+			console.log('Algo raro ha pasado')
+		}else{
+			console.log('Directorio creado')
+		}
+	})
+}else{
+	console.log('Ese directorio ya existe...')
+}
+```
 
+```javascript
+const fs = require('fs')
+
+const readStream = fs.createReadStream('largeFile.txt')
+readStream.on('data',chunk=>{
+  console.log('### Chunk de datos ###')
+  console.log(chunk.toString())
+})
+```
 
 
 

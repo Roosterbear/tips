@@ -38,22 +38,22 @@
 
 ## Phrases
 
-> **Naked eye** - Something you can see easily
-> **Well put together** - Almost perfect 
 > **Call to book a table** - Reserve in a Restaurant
-> **The place was crowded** - A lot of people
-> **The film was boring, so I got bored** - The use of "boring"
 > **I am fed up with you** - That is enough to bear a person
-> **Why don't you come over today?** - Drop by
 > **I cooked a tasteless meaal** - Bland, Dull
-> **The box has been already delivered** - The box has just been delivered
-> **This book was created out of necessity**
 > **I need to find out a bit more about you first**
-> **Running ads to drive sales** - Advertising to get clients
-> **Reach a diverse customer pool** - Different group o clients
-> **Whether my input is accepted** - While my opinion is accepted
-> **Sparks a dialogue as someone else's would** - Generate conversation
 > **Making a dent** - Stand out
+> **Naked eye** - Something you can see easily
+> **Reach a diverse customer pool** - Different group o clients
+> **Running ads to drive sales** - Advertising to get clients
+> **Sparks a dialogue as someone else's would** - Generate conversation
+> **The box has been already delivered** - The box has just been delivered
+> **The film was boring, so I got bored** - The use of "boring"
+> **The place was crowded** - A lot of people
+> **This book was created out of necessity**
+> **Well put together** - Almost perfect 
+> **Whether my input is accepted** - While my opinion is accepted
+> **Why don't you come over today?** - Drop by
 
 ### Jobs
 
