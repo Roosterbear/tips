@@ -60,6 +60,10 @@
     - [Social media report could be:](#social-media-report-could-be)
     - [Social media report considerations](#social-media-report-considerations)
     - [KPI (Key Performance Indicator)](#kpi-key-performance-indicator)
+  - [Paid Social media](#paid-social-media)
+    - [Pay-per-click advertising](#pay-per-click-advertising)
+    - [Branded content](#branded-content)
+    - [Influencer-generated content](#influencer-generated-content)
 - [Think Outside the inbox: Email Marketing](#think-outside-the-inbox-email-marketing)
 - [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
@@ -1621,9 +1625,52 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 > A measurement used to gauge how successful an organization is
 > in its effort to reach a business or marketing goal
 
+## Paid Social media
+
+> Displaying paid advertisements or sponsored marketing messages on
+> social media platforms to target a specific audience
+
+* Increase brand awareness
+* Reach your audience quickly
+* Target your most relevant customers
+<br/>
 
 
+### Pay-per-click advertising
 
+> A type of advertising where you pay each time someone click on your ad
+
+
+### Branded content
+
+> Any post that features a third-party product, brand or sponsor
+
+
+### Influencer-generated content
+
+> Any post created by an influencer that promotes 
+> a brand's products and services
+
+
+* Boost organic content
+* Target ads to lookalike audiences
+* Optimize ads with A/B testing
+
+
+- [x] **Remarketing** <br/>
+
+> The process of displaying paid ads to customers who have 
+> visited your website, app or social media profile
+
+- [x] **Lookalike audience** <br/>
+
+> People with similar demographics and behaviors 
+> who haven't yet been introduced to your brand
+
+- [x] **A/B testing** <br/>
+
+> Comparing two versions of an ad to determine
+> which has the higher conversion rate
 
 
 
