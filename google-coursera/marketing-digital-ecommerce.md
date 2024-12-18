@@ -64,7 +64,11 @@
     - [Pay-per-click advertising](#pay-per-click-advertising)
     - [Branded content](#branded-content)
     - [Influencer-generated content](#influencer-generated-content)
+<<<<<<< HEAD
     - [Social media strategy](#social-media-strategy)
+=======
+    - [Paid Social Media Strategy](#paid-social-media-strategy)
+>>>>>>> f314baec010a4745d1b75d89053bc5213584b83e
 - [Think Outside the inbox: Email Marketing](#think-outside-the-inbox-email-marketing)
 - [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
@@ -1674,6 +1678,29 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 > which has the higher conversion rate
 
 ### Social media strategy
+
+
+### Paid Social Media Strategy
+
+- [x] Define your objective
+- [x] Determine your audience
+- [x] Choose your platform
+- [x] Define your campaign length
+- [x] Set your campaign budget
+- [x] Develop and upload creatives
+- [x] Launch your campaign 
+
+> **Creatives:** Any content that can be promoted in a campaign,
+> such as text, images, GIFs or Videos
+
+* Images
+- [x] Clics
+- [x] Conversiones
+
+* Videos
+- [x] Reconocimiento / + Información
+- [x] Descargas
+- [x] Interacción
 
 
 
