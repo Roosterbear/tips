@@ -12,6 +12,7 @@
     - [Crear un SERVIDOR](#crear-un-servidor)
     - [Uso de Request](#uso-de-request)
     - [Uso de Response](#uso-de-response)
+    - [Regresar HTML](#regresar-html)
 
 ## Introducción
 
@@ -177,11 +178,35 @@ server.listen(port,()=>{
   console.log(`listening on port ${port}`);
 });
 ```
+> Podemos cambiar la linea de cabecera para usar **HTML**:
 
+```javascript
+res.setHeader('Content-Type','text/html');
+```
 
+### Regresar HTML
 
+```javascript
+const http = require('http');
+const port = 3000;
+const fs = require('fs')
 
+const server = http.createServer((req, res)=>{
+  res.setHeader('Content-Type','text/plain');
+  fs.readFile('./view/index.html',(err,data)=>{
+    if(err){
+      console.log(err)
+      res.end()
+    }else{      
+      res.end(data)
+    }
+  })
+});
 
+server.listen(port,()=>{
+  console.log(`listening on port ${port}`);
+});
+```
 
 
 
