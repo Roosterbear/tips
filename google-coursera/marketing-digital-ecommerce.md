@@ -64,6 +64,7 @@
     - [Pay-per-click advertising](#pay-per-click-advertising)
     - [Branded content](#branded-content)
     - [Influencer-generated content](#influencer-generated-content)
+    - [Social media strategy](#social-media-strategy)
 - [Think Outside the inbox: Email Marketing](#think-outside-the-inbox-email-marketing)
 - [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
@@ -1671,6 +1672,8 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 
 > Comparing two versions of an ad to determine
 > which has the higher conversion rate
+
+### Social media strategy
 
 
 
