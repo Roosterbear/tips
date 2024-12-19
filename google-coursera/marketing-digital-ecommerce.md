@@ -64,10 +64,14 @@
     - [Pay-per-click advertising](#pay-per-click-advertising)
     - [Branded content](#branded-content)
     - [Influencer-generated content](#influencer-generated-content)
-<<<<<<< HEAD
     - [Social media strategy](#social-media-strategy)
-=======
     - [Paid Social Media Strategy](#paid-social-media-strategy)
+    - [Remarketing](#remarketing)
+    - [Remarketing Best Practices](#remarketing-best-practices)
+- [Think Outside the inbox: Email Marketing](#think-outside-the-inbox-email-marketing)
+- [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
+- [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
+- [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
 >>>>>>> f314baec010a4745d1b75d89053bc5213584b83e
 - [Think Outside the inbox: Email Marketing](#think-outside-the-inbox-email-marketing)
 - [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
@@ -1701,6 +1705,34 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 - [x] Reconocimiento / + Información
 - [x] Descargas
 - [x] Interacción
+
+### Remarketing
+
+> Displays paid ads to target customers who have 
+> visited your website, app or social media profile <br/>
+
+- [x] Pixel-based Remarketing
+> Sends ads automatically to users after placing a cookie into
+> their web browser that tracks the pages and products they view <br/>
+> **Cookie:** Small file stored on devices that allows you to track 
+> user behavior and analyze traffic
+
+- [x] List-based Remarketing
+> Uses lists of your existing customers or visitors who have provided you
+> with their email address and shows specific ads to them <br/>
+> **Hashing:** A security method which turns the personal information
+> in your email lists into randomized code
+
+### Remarketing Best Practices
+
+* Personalize your ads
+* Remarket to past purchasers
+* Limit the frequency of your ads
+* Untag visitors who have purchased
+
+
+
+
 
 
 
