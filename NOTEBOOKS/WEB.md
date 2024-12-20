@@ -22,6 +22,15 @@
     - [Selectores de Atributo](#selectores-de-atributo)
     - [Pseudo-elementos](#pseudo-elementos)
     - [Pseudo-classes](#pseudo-classes)
+  - [POSICIONAMIENTO](#posicionamiento)
+    - [Static](#static)
+    - [Relative](#relative)
+    - [Absolute](#absolute)
+    - [Fixed](#fixed)
+    - [Menu con Float](#menu-con-float)
+  - [VARIABLES](#variables)
+    - [Asignar variables](#asignar-variables)
+    - [Usar variables](#usar-variables)
   - [HACKS❗❗❗](#hacks)
     - [Hack para medida REM](#hack-para-medida-rem)
     - [Eliminar underline de un ENLACE](#eliminar-underline-de-un-enlace)
@@ -307,6 +316,84 @@ a[href $ = "#"]{  /* Termina con...*/
 * ::nth-lastchild
 * ::visited
 <br/>
+
+## POSICIONAMIENTO
+
+### Static
+
+> Toma los valores por default del elemento.
+> No se mueve de su posición original
+
+```css
+div{
+  position: static;
+}
+```
+
+### Relative
+
+> Mueve su posición basándose en el contenedor: __top__ y __left__. 
+
+```css
+div{
+  position: relative;
+}
+```
+
+### Absolute
+
+> Mueve su posición en relación al ancestro más cercano: 
+> __top__ y __left__.
+> Es necesario que el ancestro sea "relative" para que funcione.
+
+```css
+div{
+  position: absolute;
+}
+```
+
+### Fixed
+
+> Posición relativa a la esquina superior izquierda del navegador. 
+> Se pega como chicle y no se mueve con el scroll.
+
+```css
+div{
+  position: fixed;
+}
+```
+
+### Menu con Float
+
+```css
+nav ul li{
+  float: left;
+  list-style: none; 
+  margin: 10px;
+}
+
+.clearfix{
+  clear: both; /* We have to include a div with this class after the menu */
+}
+```
+
+## VARIABLES
+
+### Asignar variables
+
+```css
+:root{
+  --primary-color: white;
+}
+```
+
+### Usar variables
+
+```css
+p{
+  color: var(--primary-color);
+}
+```
 
 
 
