@@ -46,6 +46,17 @@ CURSO: 40%
 22. Krieg muere de hambre y Gin lo lleva al Baratie, pero lo atacan
 23. El dueño del barco Baratie en realidad es el legendario pirata Zeff
 24. Zoro encuentra al espadachin más talentoso del mundo: Mihawk
-25. 
+25. Luffy comienza a atacar la tripulación de Krieg
+26. Sanji recuerda su pasado con Zeff por los golpes de Pearl
+27. Gin interviene cuando Pearl quiere atacar a Sanji y a Luffy
+28. Krieg lanza su bomba venenosa MH5
+29. Luffy golpea la armadura de Krieg para vencer sus defensas
+30. Luffy recluta a Sanji, pero no quiere dejar el Restaurante
+31. Van en busca de Nami hasta Arlong Park
+32. Luffy y Sanji vencen a Mamoo, una vaca marina gigante
+33. Nami reafirma su intención de comprar su aldea natal al apuñalar a Usopp
+34. El regreso de Nami crea una situación incómoda entre Zoro y Sanji
+35. Nojiko cuenta la historia de Nami que es se convierte en una gran cartógrafa
+36.  
 
 

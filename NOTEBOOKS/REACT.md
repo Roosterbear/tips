@@ -1,7 +1,5 @@
 # REACT
 
-__Menú__
-
 - [REACT](#react)
   - [INTRODUCCIÓN](#introducción)
     - [Mantener actualizado Node](#mantener-actualizado-node)
