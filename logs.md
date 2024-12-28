@@ -57,6 +57,25 @@ CURSO: 40%
 33. Nami reafirma su intención de comprar su aldea natal al apuñalar a Usopp
 34. El regreso de Nami crea una situación incómoda entre Zoro y Sanji
 35. Nojiko cuenta la historia de Nami que es se convierte en una gran cartógrafa
-36.  
+36. Belle-mére muere en manos de Arlong por defender a Nojiko y Nami  
+37. El Capitán Nesumi le confisca el botín recaudado a Nami
+38. Luffy lanza a Arlong por los aires y Arlong lanza a Luffy al mar
+39. Zoro intenta mantenerse en pie a pesar de las heridas de Mihawk
+40. Kuroobi ataca a Ssanji, Usopp vence un Kyojin
+41. Luffy recobra la conciencia
+42. Luffy usara los dientes de Arlong que se recobran para luchar contra él
+43. Parque Arlong cae en manos de Luffy
+44. El Dr Nako cura las heridas de Zoro y le quita el tatuaje a Nami
+45. Sale un cartel de "Se busca", la suma por atrapar a Luffy es exorbitante.
+46. Buggy tiene una incontrolable sed de venganza
+47. Un grupo de canibales captura a la tripulación de Buggy
+48. Visitan Logue Town, ciudad donde nació y murió Gold D. Roger
+49. Smoker intenta arrestar a Luffy. Zoro consigue sus dos espadas
+50. Usopp tiene un duelo con el cazarrecompensas Daddy Masterson
+51. Sanji se inscribe a un concurso de cocina donde se enfrentará a Carmen
+52. Luffy sube al patíbulo donde Buggy piensa ejecutarlo
+53. Escapan bajo una gran tormenta eléctrica que ilumina Logue Town
+54. 
+
 
 

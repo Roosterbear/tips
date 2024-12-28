@@ -68,6 +68,11 @@
     - [Paid Social Media Strategy](#paid-social-media-strategy)
     - [Remarketing](#remarketing)
     - [Remarketing Best Practices](#remarketing-best-practices)
+    - [Paid Social Budget Components](#paid-social-budget-components)
+      - [Bidding Strategy](#bidding-strategy)
+      - [CPC (Cost Per Click)](#cpc-cost-per-click)
+      - [CPA (Cost Per Action)](#cpa-cost-per-action)
+      - [CPM (Cost Per Thousand Impressions)](#cpm-cost-per-thousand-impressions)
 - [Think Outside the inbox: Email Marketing](#think-outside-the-inbox-email-marketing)
 - [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
@@ -1729,6 +1734,68 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 * Remarket to past purchasers
 * Limit the frequency of your ads
 * Untag visitors who have purchased
+
+
+### Paid Social Budget Components
+
+* Ad spend
+> How much your company spends directly on advertisements
+
+* Tools
+  1. Social Media Management Software
+  2. Social Listening and Analytics Software
+  3. Photo and Editing Video editing programs
+  4. Stock photography and video subscriptions
+  5. Influencer Marketing Platforms
+    > Software that provides influencer discovery tools such as
+    > large searcheable databases of potential influencers
+    
+* Content Creation
+  1. Photography
+  2. Graphic Design
+  3. Video Development
+  4. Copywriting
+
+* Management
+  1. Strategy
+  2. Content planning and publishing
+  3. Social Listening
+  4. Engagement
+  5. Analytics and Reporting
+
+#### Bidding Strategy
+
+> Tells how much a company will pay for each
+> user action related to an ad
+
+#### CPC (Cost Per Click)
+
+> The amount you pay when someone clicks on your ad
+
+* Cost-effective
+* Drives website traffic 
+
+
+#### CPA (Cost Per Action)
+
+> The amount you pay when someone completes a desired action
+
+* Costs nothing up front
+* Increases conversions and revenue
+* Allows comparison across platforms
+
+#### CPM (Cost Per Thousand Impressions)
+
+> The amount you pay for every 1,000 impressions and ad receives
+
+* Raises brand awareness
+* Deliver specific messages
+* Increases engagement
+
+
+
+
+
 
 
 
