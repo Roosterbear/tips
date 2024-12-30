@@ -75,7 +75,20 @@ CURSO: 40%
 51. Sanji se inscribe a un concurso de cocina donde se enfrentará a Carmen
 52. Luffy sube al patíbulo donde Buggy piensa ejecutarlo
 53. Escapan bajo una gran tormenta eléctrica que ilumina Logue Town
-54. 
-
+54. Los Sombrero de paja se desvían para llevar a la niña Apis a su casa
+55. El Going Merry logra desembarcar en Warship Island
+56. Escoltan a Apis para ayudar a un viejo dragón a bajar de la montaña
+57. Eric va tras el Going Merry, el dragón recuerda dónde queda Lost Island
+58. Zoro se encarga de Eric mientras los demás acompañan al dragón
+59. Eric despierta la ira de Nelson al llevarse a Apis y el dragón
+60. El cielo se llena de dragones espectaculares que dejan su nido
+61. Luffy se enfrenta a Eric, los Sombrero de paja se dirigen a la Grand Line
+62. Encuentran a Crocus dentro de la Ballena Isla Gigante
+63. La ballena Laboon golpea contra la linea roja
+64. El Going Merry se dirige a una isla con Mr. 9 y Miss. Wednesday
+65. Zoro lucha contra los Barroque Works
+66. Zoro pelea con Mr. 5 y Miss Valentine para que Vivi llegue a su reino
+67. Nami detiene la lucha entre Zoro y Luffy
+68. 
 
 

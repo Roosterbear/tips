@@ -73,7 +73,9 @@
       - [CPC (Cost Per Click)](#cpc-cost-per-click)
       - [CPA (Cost Per Action)](#cpa-cost-per-action)
       - [CPM (Cost Per Thousand Impressions)](#cpm-cost-per-thousand-impressions)
+    - [Influencers](#influencers)
 - [Think Outside the inbox: Email Marketing](#think-outside-the-inbox-email-marketing)
+  - [Email Marketing](#email-marketing)
 - [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
@@ -1792,33 +1794,12 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 * Deliver specific messages
 * Increases engagement
 
+### Influencers
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+1. *Megainfluencers* 1 million or more followers
+2. *Macroinfluencers* 100,000 to 1 million of followers
+3. *Microinfluencers* 10,000 to 100,000 followers
+4. *Nanoinfluencers* Less than 10,000 followers
 
 
 <hr/>
@@ -1827,17 +1808,36 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 # Think Outside the inbox: Email Marketing
 [Inicio](#digital-marketing--e-commerce) 
 
+## Email Marketing
+
+> The process of sending messages to a list of existing subscribers
+> to share information, drive sales or create community
+
+
+
+
+
+
+
+
+
+
 <hr/>
 
 🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​
 # Assess for Success: Marketing Analytics and Measurement
 [Inicio](#digital-marketing--e-commerce) 
 
+
+
 <hr/>
 
 🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​
 # Make the Sale: Build, Launch and Manage E-commerce Stores
 [Inicio](#digital-marketing--e-commerce) 
+
+
+
 
 <hr/>
 
