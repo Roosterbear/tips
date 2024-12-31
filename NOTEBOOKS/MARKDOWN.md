@@ -1,6 +1,9 @@
-🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙 <br/>
-# BASIC TUTORIAL OF .md FILES IN MARKDOWN
-🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙 <br/>
+🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙🐙 
+<br/>
+<div style="color:#FF6500">
+
+# TUTORIAL OF .md FILES IN MARKDOWN
+</div>
 
 __A New row:__ We use the HTML single tag "br" <br/>
 __Make separator lines:__ We use only the "#" character in that row <br/>

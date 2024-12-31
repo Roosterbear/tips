@@ -1,4 +1,7 @@
+<div style="color:#FF6500">
+
 # RUST
+</div>
 
 - [RUST](#rust)
   - [Hello World en consola](#hello-world-en-consola)

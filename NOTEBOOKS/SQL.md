@@ -1,4 +1,7 @@
+<div style="color:#FF6500">
+
 # SQL
+</div>
 
 - [SQL](#sql)
   - [Trucos SQL Server](#trucos-sql-server)
