@@ -40,7 +40,7 @@
     - [Agregar SUSPENSE](#agregar-suspense)
     - [Agregar HELMET](#agregar-helmet)
     - [Agregar SNAP](#agregar-snap)
-  - [Netlify](#netlify)
+    - [Netlify](#netlify)
   - [PROYECTO GifExpertApp](#proyecto-gifexpertapp)
     - [Instalación](#instalación)
     - [Archivo styles.css](#archivo-stylescss)
@@ -48,6 +48,8 @@
     - [Viendo cómo va quedando nuestra App](#viendo-cómo-va-quedando-nuestra-app)
     - [Acceder a GIPHY](#acceder-a-giphy)
     - [Agregar otro componente (AddCategory)](#agregar-otro-componente-addcategory)
+    - [Comunicación entre componentes](#comunicación-entre-componentes)
+      - [Validar que sean únicos los nombres](#validar-que-sean-únicos-los-nombres)
 
 ## INTRODUCCIÓN
 
@@ -845,14 +847,25 @@ reportWebVitals();
 ```bash
 yarn build
 ```
+<div style="color:#ff004d";>
 
-## Netlify
+### Netlify
+</div>
 
 1. Crear cuenta
 2. Add new site
 3. Deploy manually
 4. Subir carpeta build
 
+<br/>
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+<br/>
+<small style="color:#ffb000;">
+  Aqui empieza otro curso
+</small>
+<br/>
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+<br/>
 
 
 
@@ -1013,8 +1026,17 @@ npm install
 - [x] DEBEMOS USAR onChange PARA RECIBIR VALORES DE UN INPUT
 - [x] RECIBIMOS event EN EL onChange [**LO PONGAMOS O NO**]
 - [x] DEBEMOS USAR *event.target.value* PARA OBTENER EL VALOR DEL INPUT
-- [x] PODEMOS DESESTRUCTURAR *event* con **{target}**
+- [x] PODEMOS DESESTRUCTURAR *event* en lugar de recibirlo como (event)
+- [x] Lo recibimos como **{target}** ```onInputChange({target})```
 - [x] PODEMOS USAR UN FORM TRADICIONAL PARA CREAR UN SUBMIT CON **Enter**
+- [x] PODEMOS OBVIAR EL ARGUMENTO **event**:
+
+```<input onChange={onInputChange}/>```
+
+> En lugar de:
+
+```<input onChange={(event)=>onInputChange(event)}/>```
+
 
 ```jsx
 import {useState} from 'react';
@@ -1038,6 +1060,50 @@ export const AddCategory = ()=>{
 }
 ```
 
+### Comunicación entre componentes
+
+- [x] Usar **on** al nombrar una función de un evento es un buen **patrón**
+> Ejm. onInputChange, onUserDelete
+
+```jsx
+import {useState} from 'react';
+
+export const AddCategory = ()=>{
+
+  const [inputValue, setInputValue] = useState('');
+  const onInputChange = ({target})=>{
+    setInputValue(target.value);
+  }
+
+  const onSubmit = (event)=>{
+    event.preventDefault();
+    if (inputValue.trim().length <= 1) return;
+
+    {/* Dejamos el valor nuevo + los anteiores*/}
+    setCategories( categories=>[inputValue, ...categories]);
+    setInputValue('');
+  }
+
+
+  return(
+    {/* Recuerda que podemos obviar event */}
+    <form onSubmit={onSubmit}>
+      <input
+        type="text"
+        placeholder="Buscar GIFs"
+        value={inputvalue}
+        onChange={onInputChange}
+      >
+    </form>
+  )
+}
+```
+
+#### Validar que sean únicos los nombres
+
+- [x] **NO DEBEMOS USAR EL INDICE COMO LLAVE**
+
+``` if(categories.includes(newCategory)) return; ```
 
 
 
