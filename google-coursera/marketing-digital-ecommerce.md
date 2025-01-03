@@ -76,6 +76,8 @@
     - [Influencers](#influencers)
 - [Think Outside the inbox: Email Marketing](#think-outside-the-inbox-email-marketing)
   - [Email Marketing](#email-marketing)
+    - [Return of Investment (ROI)](#return-of-investment-roi)
+      - [Insights](#insights)
 - [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
@@ -1813,6 +1815,21 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 > The process of sending messages to a list of existing subscribers
 > to share information, drive sales or create community
 
+- [x] Lifespan of email
+- [x] Insights
+- [x] Ease of use
+- [x] Number of email users
+
+### Return of Investment (ROI)
+
+> A ratio of net income (**money made**)
+> and investment (**money spent**)
+
+#### Insights
+
+> Pieces of information that are discovered through research
+> or data analysis and that can be directly actioned upon to
+> benefit your email strategy
 
 
 
