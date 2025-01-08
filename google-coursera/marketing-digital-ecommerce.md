@@ -78,6 +78,8 @@
   - [Email Marketing](#email-marketing)
     - [Return of Investment (ROI)](#return-of-investment-roi)
       - [Insights](#insights)
+  - [SWOT](#swot)
+  - [PESTLE](#pestle)
 - [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
@@ -1830,6 +1832,30 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 > Pieces of information that are discovered through research
 > or data analysis and that can be directly actioned upon to
 > benefit your email strategy
+
+## SWOT
+
+- [x] **Strengths** - Where you shine
+- [x] **Weaknesses** - What you can improve
+- [x] **Opportunities** - Resources you can use
+- [x] **Threats** - Something that could be detrimental
+
+* Examines the **internal** context of your brand
+
+## PESTLE
+
+* Examines the external context of your brand
+
+- [x] **Political** - Happenings across markets, legislations
+- [x] **Economic** - Prioritize spend of money
+- [x] **Social** - Population growth rates
+- [x] **Technological** - New devices
+- [x] **Legal** - Restrictions and Requirements
+- [x] **Environmental** - Disasters, climate
+
+
+
+
 
 
 
