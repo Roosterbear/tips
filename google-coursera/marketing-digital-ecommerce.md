@@ -80,6 +80,7 @@
       - [Insights](#insights)
   - [SWOT](#swot)
   - [PESTLE](#pestle)
+  - [SMART Goals](#smart-goals)
 - [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
@@ -1853,10 +1854,13 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 - [x] **Legal** - Restrictions and Requirements
 - [x] **Environmental** - Disasters, climate
 
+## SMART Goals
 
-
-
-
+- [x] **Specific** - Ask for a reason, purpose or benefit. WHO.
+- [x] **Measurable** - Evidence to prove results. NUMBERS. METRICS.
+- [x] **Attainable** - Realistic.
+- [x] **Relevant** - Make sense with what you're trying to do
+- [x] **Time-bound** - DEADLINE. 
 
 
 
