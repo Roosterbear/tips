@@ -25,7 +25,8 @@
 ```npm install -g typescript```
 ```tsc -v```
 
-- [x] Heroku <br/>
+- [x] REDIS <br/>
+```apt install redis-server redis-tools```
 
 
 - [x] Visual Studio 2019 <br/>
