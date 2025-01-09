@@ -1,15 +1,61 @@
+## Instalaciones
+
+- [x] Vue <br/>
+```npm init vite@latest proyecto -- --template vue```
+
+- [x] Angular <br/>
+```npm install -g @angular/cli```
+```ng -v```
+```ng new proyecto```
+```cd proyecto```
+```ng serve --o```
+
+- [x] React <br/>
+```npm```
+
+
+- [x] Typescript <br/>
+```npm install -g typescript```
+```tsc -v```
+
+- [x] Heroku <br/>
+
+
+- [x] Visual Studio 2019 <br/>
+> Buscar Visual Studio 2019 Community
+> **Registrarse!** con una cuenta Microsoft
+> Usar Framework 4
+
+
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+## Links
+
 [Emoticons](https://emojikeyboard.top/es/) 😋
 
 
-## Datos Semana #14
 
-Planta: 3
-ESET: 0
-Mantenimientos: 1
-Atención: 16
-CURSO: 40%
+## Datos Semana #1
+
+* Planta: 0
+* ESET: 0
+* Mantenimientos: 0
+* Atención: 0
+* CURSO: 40%
+<br/>
 ---------------------------
+<br/>
 7 cursos, 14.2% cada curso
+
+
+
 
 
 # One-Piece
