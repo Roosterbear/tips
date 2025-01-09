@@ -78,9 +78,12 @@
   - [Email Marketing](#email-marketing)
     - [Return of Investment (ROI)](#return-of-investment-roi)
       - [Insights](#insights)
-  - [SWOT](#swot)
-  - [PESTLE](#pestle)
-  - [SMART Goals](#smart-goals)
+    - [SWOT](#swot)
+    - [PESTLE](#pestle)
+    - [SMART Goals](#smart-goals)
+    - [Spam](#spam)
+    - [Segmenting](#segmenting)
+  - [New Subscribers](#new-subscribers)
 - [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
@@ -1834,7 +1837,7 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 > or data analysis and that can be directly actioned upon to
 > benefit your email strategy
 
-## SWOT
+### SWOT
 
 - [x] **Strengths** - Where you shine
 - [x] **Weaknesses** - What you can improve
@@ -1843,7 +1846,7 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 
 * Examines the **internal** context of your brand
 
-## PESTLE
+### PESTLE
 
 * Examines the external context of your brand
 
@@ -1854,7 +1857,7 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 - [x] **Legal** - Restrictions and Requirements
 - [x] **Environmental** - Disasters, climate
 
-## SMART Goals
+### SMART Goals
 
 - [x] **Specific** - Ask for a reason, purpose or benefit. WHO.
 - [x] **Measurable** - Evidence to prove results. NUMBERS. METRICS.
@@ -1863,9 +1866,19 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 - [x] **Time-bound** - DEADLINE. 
 
 
+### Spam
+
+> Unsolicited and unwanted junk email sent out
+> in bulk to a broad recipient list
 
 
+### Segmenting
 
+> The practice of dividing en email subscriber list into smaller groups
+> based on criteria like **interests**, **location** or **purchase history**
+
+
+## New Subscribers
 
 
 
