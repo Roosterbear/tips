@@ -2,6 +2,9 @@
 
 - [x] Vue <br/>
 ```npm init vite@latest proyecto -- --template vue```
+```cd proyecto```
+```npm install```
+```npm run dev```
 
 - [x] Angular <br/>
 ```npm install -g @angular/cli```
@@ -9,6 +12,10 @@
 ```ng new proyecto```
 ```cd proyecto```
 ```ng serve --o```
+
+- [x] Bootstrap in npm <br/>
+```npm install bootstrap@5.3.3```
+
 
 - [x] React <br/>
 ```npm```
