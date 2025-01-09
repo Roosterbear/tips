@@ -1,44 +1,5 @@
 # PYTHON
 
-## PRINT
-
-```python
-print("Hello World !")
-```
-
-## INPUT
-
-```python
-# Esta es una forma rara de mezclar input y print
-print("Hola " + input("Como te llamas: "))
-
-# Esta es la forma normal
-nombre = input("Como te llamas? ")
-print("Hola "+nombre+"!!, mucho gusto!")
-```
-
-## FOR
-
-```python
-lista = {1,2,3}
-for i in lista:
-  print(i)
-```
-
-```python
-#Numbers from 1 to 9
-for i in range(1,10):
-  print(i)
-```
-
-## IF
-
-```python
-pase = 1
-if pase == 1:
-  print("Tienes acceso, ADELANTE!")
-```
-
 ## LEN
 
 ```python
