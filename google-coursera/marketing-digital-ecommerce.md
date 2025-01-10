@@ -84,6 +84,10 @@
     - [Spam](#spam)
     - [Segmenting](#segmenting)
   - [New Subscribers](#new-subscribers)
+    - [Acquisition email](#acquisition-email)
+    - [Email copy](#email-copy)
+    - [Welcome email](#welcome-email)
+    - [Newsletter](#newsletter)
 - [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
@@ -1879,6 +1883,55 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 
 
 ## New Subscribers
+
+### Acquisition email
+
+> An email that is sent to acquire new customers
+
+
+### Email copy
+
+> The text in your email and subject line
+
+
+### Welcome email
+
+> An email that is sent out to brand new customers or subscribers
+
+* A conversational and inviting tone
+* A brief summary that tells customers what makes your brand unique or tells your brand's story
+* A call-to-action (**Concise instruction that tells the customer what to do NEXT**)
+
+### Newsletter
+
+> An email sent to subscribers on a regular basis, containing news and 
+> informational content relevant to the company and of interest to subscribers
+
+* Advertise your product
+* Build up trust and show your expertise
+* Create lasting relationships with your customers
+* Inform and educate
+
+Should include:
+
+* Relevant content
+* Mentions of trending topics, pop culture or current events
+* Catchy, clever writing
+* Clean, on-brand design
+
+Good for:
+
+- [x] Consideration Stage
+- [x] Conversion Stage
+- [x] Loyalty Stage
+
+
+
+
+
+
+
+
 
 
 
