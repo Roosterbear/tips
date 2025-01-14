@@ -81,13 +81,12 @@
     - [SWOT](#swot)
     - [PESTLE](#pestle)
     - [SMART Goals](#smart-goals)
-    - [Spam](#spam)
-    - [Segmenting](#segmenting)
   - [New Subscribers](#new-subscribers)
     - [Acquisition email](#acquisition-email)
-    - [Email copy](#email-copy)
     - [Welcome email](#welcome-email)
     - [Newsletter](#newsletter)
+    - [Promotional email](#promotional-email)
+    - [Retention email](#retention-email)
 - [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
@@ -1870,16 +1869,20 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 - [x] **Time-bound** - DEADLINE. 
 
 
-### Spam
+* Spam
 
 > Unsolicited and unwanted junk email sent out
 > in bulk to a broad recipient list
 
 
-### Segmenting
+* Segmenting
 
 > The practice of dividing en email subscriber list into smaller groups
 > based on criteria like **interests**, **location** or **purchase history**
+
+* Email copy
+
+> The text in your email and subject line
 
 
 ## New Subscribers
@@ -1887,12 +1890,6 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 ### Acquisition email
 
 > An email that is sent to acquire new customers
-
-
-### Email copy
-
-> The text in your email and subject line
-
 
 ### Welcome email
 
@@ -1925,8 +1922,41 @@ Good for:
 - [x] Conversion Stage
 - [x] Loyalty Stage
 
+### Promotional email
+
+> An email that is sent out to inform your subscribers
+> of your **new** or existing products or services
+
+* Speeding up the buying process
+* Encouraging subscribers to take some kind of action
+* Creating new or repeat customers
+
+- [x] Consideration Stage
+- [x] Loyalty Stage
+
+* Keep the email's focus on the **promotion** itself
+* Keep it concise
+* Announce the promotion in the subjet line
 
 
+### Retention email
+
+> An email sent to a **current** customer with the intent
+> of keeping them as a customer
+
+* Personalization
+* A clear call-to-action
+* Empathetic and inviting language
+
+* **Segmentation:** 
+> The practice of categorizing contacts by a predefined set of
+> identifiers, so that each email feels relevant to every subscriber
+
+- [x] Loyalty Stage
+
+* How did we do?, How was your experience?
+* Scale
+* Thank you language
 
 
 
