@@ -89,6 +89,10 @@
     - [Retention email](#retention-email)
   - [Mailing List](#mailing-list)
     - [Tools to build a list](#tools-to-build-a-list)
+    - [Geography for segmentation](#geography-for-segmentation)
+    - [Psychographic characteristics for segmentation](#psychographic-characteristics-for-segmentation)
+    - [Demographic data for segmentation](#demographic-data-for-segmentation)
+    - [Behavioral data for segmentation](#behavioral-data-for-segmentation)
 - [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
@@ -1953,6 +1957,8 @@ Good for:
 * **Segmentation:** 
 > The practice of categorizing contacts by a predefined set of
 > identifiers, so that each email feels relevant to every subscriber
+> The practice of dividing an email subscriber list into smaller groups
+> based on criteria like interests, location or purchase history
 
 - [x] Loyalty Stage
 
@@ -1979,6 +1985,38 @@ Good for:
 > A word-of-mouth initiative that encourages existing customers to introduce 
 > their family, friends and contacts to become new customers
 * Direct email marketing
+
+
+### Geography for segmentation
+
+* Location
+* Climate
+* Population
+* Language
+* Environment
+
+### Psychographic characteristics for segmentation
+
+* Lifestyles
+* Values
+* Hobbies
+
+### Demographic data for segmentation
+
+* Age
+* Gender
+* Income level
+* Family status
+
+### Behavioral data for segmentation
+
+* Purchasing habits
+* Spending habits
+* Browsing habits
+* Loyalty to brand
+* Engagement with website
+
+
 
 
 
