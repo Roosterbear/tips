@@ -87,6 +87,8 @@
     - [Newsletter](#newsletter)
     - [Promotional email](#promotional-email)
     - [Retention email](#retention-email)
+  - [Mailing List](#mailing-list)
+    - [Tools to build a list](#tools-to-build-a-list)
 - [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
@@ -1957,6 +1959,27 @@ Good for:
 * How did we do?, How was your experience?
 * Scale
 * Thank you language
+
+## Mailing List
+
+* **Lead generation**
+> The practice of collecting a potential customer's email address
+
+### Tools to build a list
+
+* Website prompts
+> A digital banner that calls on a website visitor to act in some way 
+* Display ads
+> Graphic ads on websites and apps through banners comprised of photos, text or videos
+* Social ads
+> Paid advertisements on social media platforms targeted to social media users
+* Search engine marketing (SEM)
+> The increase of a website's visibility in a search engine through paid advertising
+* Referrals
+> A word-of-mouth initiative that encourages existing customers to introduce 
+> their family, friends and contacts to become new customers
+* Direct email marketing
+
 
 
 
