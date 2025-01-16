@@ -93,6 +93,7 @@
     - [Psychographic characteristics for segmentation](#psychographic-characteristics-for-segmentation)
     - [Demographic data for segmentation](#demographic-data-for-segmentation)
     - [Behavioral data for segmentation](#behavioral-data-for-segmentation)
+    - [Email marketing automation](#email-marketing-automation)
 - [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
@@ -2017,9 +2018,20 @@ Good for:
 * Engagement with website
 
 
+### Email marketing automation
 
+> Is the practice of using software, programs and technology 
+> to manage email marketing processes automatically
 
+* Build up your list
+* Segment that list
+* Send automatic welcome and acquisition emails to new subscribers
+* Follow up with newsletters, promotional and retention emails using templates
+* Easily track the engagement and behavior of each subscriber
 
+- [x] Hubspot
+- [x] Mailchimp
+- [x] Salesforce
 
 
 
