@@ -94,6 +94,7 @@
     - [Demographic data for segmentation](#demographic-data-for-segmentation)
     - [Behavioral data for segmentation](#behavioral-data-for-segmentation)
     - [Email marketing automation](#email-marketing-automation)
+    - [Common mistakes](#common-mistakes)
 - [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
@@ -2033,6 +2034,14 @@ Good for:
 - [x] Mailchimp
 - [x] Salesforce
 
+
+### Common mistakes
+
+* Sending a broken link
+* Sending an email to the wrong segmented list
+* Sending an outdated or incorrect email
+* Sending email with personalization mistakes
+* Sending emails with typos or mistakes in the email copy
 
 
 
