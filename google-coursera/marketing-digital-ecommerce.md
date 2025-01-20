@@ -95,6 +95,8 @@
     - [Behavioral data for segmentation](#behavioral-data-for-segmentation)
     - [Email marketing automation](#email-marketing-automation)
     - [Common mistakes](#common-mistakes)
+  - [Metrics](#metrics)
+    - [Concepts](#concepts)
 - [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
@@ -2042,6 +2044,54 @@ Good for:
 * Sending an outdated or incorrect email
 * Sending email with personalization mistakes
 * Sending emails with typos or mistakes in the email copy
+
+## Metrics
+
+### Concepts
+
+- [x] Data
+> A collection of facts or information
+- [x] Metrics
+> Quantifiable measurements that are used to track and assess a business objective
+- [x] Key Performance Indicators (**KPI**)
+> Measurements used to gauge how successful a business is 
+> in its effort to reach a business or marketing goal
+- [x] Email Marketing Reports
+> A collection of KPIs
+
+<br/>
+
+> Help ensure you're confident in your decision making <br/>
+> Enforce productivity, so you don't waste time focused on 
+> tactics that aren't working <br/>
+> Help you define and target your audience <br/>
+
+<br/>
+
+* Open rate
+> Percentage of users that open your email
+* Click-to-open rate
+> Percentage of email recipients who clicked on one or more links in an email
+* Unsubscribe rate
+> Percentage of email recipients who unsuscribe from your send list after opening an email
+* Conversion rate
+> Percentage of email recipients who clicked on a link in your email
+> and took a desired action, like making a purchase
+* Email bounce rate
+> Percentage of email sent that could not be delivered to the recipient's inbox
+* Complaint rate
+> Percentage of complaints recipients send to mailbox providers about receiving your email
+* Campaign ROI
+> **Return on investment** - The ratio of money made and money spend
+* List growth rate
+> The rate at which your list grows
+* Forward rate
+> Percentage of recipients who click on the "share" button to post social media or
+> who click the "forward" button to send to others
+* Bounce rate
+> Percentage of emails that could not be delivered.
+
+
 
 
 
