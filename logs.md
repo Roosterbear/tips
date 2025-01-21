@@ -1,5 +1,40 @@
 ## Instalaciones
 
+- [x] WSL (Linux en Windows) <br/>
+```wsl --install -d Ubuntu```
+```sudo apt-get update```
+```sudo apt install build-essential rustc libssl-dev libyaml-dev zlib1g-dev libgmp-dev```
+
+- [x] Ruby and Rails <br/>
+
+```bash
+curl https://mise.run | sh 
+echo 'eval "$(~/.local/bin/mise activate)"' >> ~/.bashrc 
+source ~/.bashrc
+```
+
+```mise use --global ruby@3```
+```ruby --version```
+```gem update --system```
+```mise use --global node@22.13.0```
+```node -v```
+```gem install rails -v 8.0.1```
+```rails -v```
+```sudo apt install postgresql libpq-dev```
+```sudo -u postgres createuser lf -s```
+
+* Up postgresql
+
+```sudo service postgresql start```
+
+* Run Rails
+
+```rails new proyecto -d postgresql```
+```cd proyecto```
+```rake db:create```
+```rails server```
+
+
 - [x] Vue <br/>
 ```npm init vite@latest proyecto -- --template vue```
 ```cd proyecto```
