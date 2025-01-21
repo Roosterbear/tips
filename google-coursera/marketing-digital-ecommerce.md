@@ -2071,12 +2071,12 @@ Good for:
 * Open rate
 > Percentage of users that open your email
 * Click-to-open rate
-> Percentage of email recipients who clicked on one or more links in an email
+> Percentage of email recipients who clicked on one or more links in an email 
 * Unsubscribe rate
 > Percentage of email recipients who unsuscribe from your send list after opening an email
 * Conversion rate
 > Percentage of email recipients who clicked on a link in your email
-> and took a desired action, like making a purchase
+> and took a desired action, like making a purchase (**Interactions**)
 * Email bounce rate
 > Percentage of email sent that could not be delivered to the recipient's inbox
 * Complaint rate
