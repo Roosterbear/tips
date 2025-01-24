@@ -2070,24 +2070,48 @@ Good for:
 
 * Open rate
 > Percentage of users that open your email
+>
+> **Number of people who open the email/Number of people who received the email**
+> 
 * Click-to-open rate
 > Percentage of email recipients who clicked on one or more links in an email 
+>
+> **Total click/Number of unique opens**
+> 
 * Unsubscribe rate
 > Percentage of email recipients who unsuscribe from your send list after opening an email
+>
+> **Number of unsuscribers/Email delivered**
+> 
 * Conversion rate
 > Percentage of email recipients who clicked on a link in your email
-> and took a desired action, like making a purchase (**Interactions**)
+> and took a desired action, like making a purchase
+> 
+> **Number of conversions/Total emails sent**
+> 
 * Email bounce rate
 > Percentage of email sent that could not be delivered to the recipient's inbox
+>
+> **(Total number of bounced emails/Emails sent)x100**
+> 
 * Complaint rate
 > Percentage of complaints recipients send to mailbox providers about receiving your email
+>
+> **Number of complaints/Total number of emails delivered to subscribers**
+> 
 * Campaign ROI
 > **Return on investment** - The ratio of money made and money spend
 * List growth rate
 > The rate at which your list grows
+>
+> **(Number of new subscribers - number of unsubscribers/Total number of email addresses)x100**
+> 
 * Forward rate
 > Percentage of recipients who click on the "share" button to post social media or
 > who click the "forward" button to send to others
+>
+> Number of forwards/Total number of emails delivered
+> 
 * Bounce rate
 > Percentage of emails that could not be delivered.
 
