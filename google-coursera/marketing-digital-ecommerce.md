@@ -1872,9 +1872,9 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 
 ### SMART Goals
 
-- [x] **Specific** - Ask for a reason, purpose or benefit. WHO.
-- [x] **Measurable** - Evidence to prove results. NUMBERS. METRICS.
-- [x] **Attainable** - Realistic.
+- [x] **Specific** - Ask for a reason, purpose or benefit. WHO. Requirements. _When you arrived_.
+- [x] **Measurable** - _Evidence_ to prove results. NUMBERS. METRICS.
+- [x] **Attainable** - Realistic. Attainable yet still challenging.
 - [x] **Relevant** - Make sense with what you're trying to do
 - [x] **Time-bound** - DEADLINE. 
 
@@ -1990,27 +1990,29 @@ Good for:
 > their family, friends and contacts to become new customers
 * Direct email marketing
 
+<hr/>
 
 ### Geography for segmentation
 
+* _Language_
+* _Climate_
 * Location
-* Climate
 * Population
-* Language
 * Environment
 
 ### Psychographic characteristics for segmentation
+> Dietary preferences (Vegan/Gluten free)<br/>
 
-* Lifestyles
+* _Lifestyles_
 * Values
 * Hobbies
 
 ### Demographic data for segmentation
 
+* _Family status_
+* _Income level_
 * Age
 * Gender
-* Income level
-* Family status
 
 ### Behavioral data for segmentation
 
@@ -2020,6 +2022,7 @@ Good for:
 * Loyalty to brand
 * Engagement with website
 
+<hr/>
 
 ### Email marketing automation
 
@@ -2068,57 +2071,60 @@ Good for:
 
 <br/>
 
-* Open rate
+* Open rate (_tasa de apertura_)
 > Percentage of users that open your email
 >
 > **Number of people who open the email/Number of people who received the email**
-> 
-* Click-to-open rate
+>
+
+* Click-to-open rate (_click por apertura_)
 > Percentage of email recipients who clicked on one or more links in an email 
 >
 > **Total click/Number of unique opens**
-> 
-* Unsubscribe rate
+>
+
+* Unsubscribe rate (_cancelacion de suscripciones_)
 > Percentage of email recipients who unsuscribe from your send list after opening an email
 >
 > **Number of unsuscribers/Email delivered**
-> 
-* Conversion rate
+>
+
+* Conversion rate (_tasa de conversion_)
 > Percentage of email recipients who clicked on a link in your email
 > and took a desired action, like making a purchase
 > 
 > **Number of conversions/Total emails sent**
-> 
-* Email bounce rate
+>
+
+* Email bounce rate (_tasa de rebote_)
 > Percentage of email sent that could not be delivered to the recipient's inbox
 >
 > **(Total number of bounced emails/Emails sent)x100**
-> 
-* Complaint rate
+>
+
+* Complaint rate (_tasa de quejas_)
 > Percentage of complaints recipients send to mailbox providers about receiving your email
 >
 > **Number of complaints/Total number of emails delivered to subscribers**
-> 
-* Campaign ROI
-> **Return on investment** - The ratio of money made and money spend
-* List growth rate
+>
+
+* Campaign ROI (_Return on investment_)
+>
+> **(Total revenue/Total spent)x100** - The ratio of money made and money spend
+>
+
+* __LIST GROWTH RATE__ (_tasa de crecimiento de LISTA_)
 > The rate at which your list grows
 >
 > **(Number of new subscribers - number of unsubscribers/Total number of email addresses)x100**
-> 
-* Forward rate
+>
+
+* Forward rate (_tasa de reenvío_)
 > Percentage of recipients who click on the "share" button to post social media or
 > who click the "forward" button to send to others
 >
 > Number of forwards/Total number of emails delivered
-> 
-* Bounce rate
-> Percentage of emails that could not be delivered.
-
-
-
-
-
+>
 
 
 <hr/>
@@ -2126,6 +2132,14 @@ Good for:
 🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​
 # Assess for Success: Marketing Analytics and Measurement
 [Inicio](#digital-marketing--e-commerce) 
+
+
+
+
+
+
+
+
 
 
 
