@@ -5,6 +5,9 @@
 - [x] **wound** - herida
 
 
+It's so ridiculously twee, it makes my toes curl. 
+It's so catchy. 
+
 
 
 
