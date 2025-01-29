@@ -98,6 +98,11 @@
   - [Metrics](#metrics)
     - [Concepts](#concepts)
 - [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
+  - [Media Plan](#media-plan)
+    - [Business Goal](#business-goal)
+    - [Marketing goal](#marketing-goal)
+    - [Key Performance Indicator (KPI)](#key-performance-indicator-kpi)
+  - [ROAS (Return On Ad Spend)](#roas-return-on-ad-spend)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
 >>>>>>> f314baec010a4745d1b75d89053bc5213584b83e
@@ -2131,6 +2136,51 @@ Good for:
 🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​
 # Assess for Success: Marketing Analytics and Measurement
 [Inicio](#digital-marketing--e-commerce) 
+
+## Media Plan
+
+> Contains details about where, when and how often
+> an AD will appear across all media channels
+
+Includes:
+
+* Target audience
+* Budget
+* Media mix
+* Duration
+* KPIs
+
+### Business Goal
+
+> Desired aim, achievement or outcome for a business
+
+Includes:
+
+* Growing revenue
+* Increasing profit
+* Gaining Market Share
+* Improving customer service
+
+### Marketing goal
+
+> Objective in a marketing plan or strategy that supports a business goal
+
+### Key Performance Indicator (KPI)
+
+> Measurement used to gauge how successful a business is 
+> in its effort to reach a business or marketing goal
+> __YOU NEED TO CREATE AN ADDITIONAL PERFORMANCE TARGET ON EVERY CAMPAIGN__
+
+<br/>
+
+- [x] __PERFORMANCE TARGET__
+
+> Is a measurable goal to marketing goals or specific campaigns. Like impressions or clicks.
+
+
+## ROAS (Return On Ad Spend)
+
+(Number of Units Sold x Cost Per Unit) / AD Spend
 
 
 
