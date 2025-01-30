@@ -103,6 +103,7 @@
     - [Marketing goal](#marketing-goal)
     - [Key Performance Indicator (KPI)](#key-performance-indicator-kpi)
   - [ROAS (Return On Ad Spend)](#roas-return-on-ad-spend)
+  - [Bounce rate](#bounce-rate)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
 >>>>>>> f314baec010a4745d1b75d89053bc5213584b83e
@@ -2181,6 +2182,10 @@ Includes:
 ## ROAS (Return On Ad Spend)
 
 (Number of Units Sold x Cost Per Unit) / AD Spend
+
+## Bounce rate
+
+Bounce sessions / Total sessions
 
 
 
