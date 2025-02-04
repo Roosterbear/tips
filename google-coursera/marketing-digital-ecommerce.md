@@ -104,6 +104,9 @@
     - [Key Performance Indicator (KPI)](#key-performance-indicator-kpi)
   - [ROAS (Return On Ad Spend)](#roas-return-on-ad-spend)
   - [Bounce rate](#bounce-rate)
+  - [Additional budget](#additional-budget)
+  - [Conversion volume](#conversion-volume)
+  - [Cost Per Acquisition / Action](#cost-per-acquisition--action)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
 >>>>>>> f314baec010a4745d1b75d89053bc5213584b83e
@@ -2181,11 +2184,26 @@ Includes:
 
 ## ROAS (Return On Ad Spend)
 
-(Number of Units Sold x Cost Per Unit) / AD Spend
+> (Number of Units Sold x Cost Per Unit) / AD Spend
 
 ## Bounce rate
 
-Bounce sessions / Total sessions
+> Bounce sessions / Total sessions
+
+## Additional budget
+
+> Incremental sales / Return on AD spend
+
+## Conversion volume
+
+> Total number of conversions or total monetary value of conversions over a period of time
+
+## Cost Per Acquisition / Action
+
+> Paid Rate Cost for every convertion
+
+
+
 
 
 
