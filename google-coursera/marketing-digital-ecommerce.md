@@ -102,11 +102,17 @@
     - [Business Goal](#business-goal)
     - [Marketing goal](#marketing-goal)
     - [Key Performance Indicator (KPI)](#key-performance-indicator-kpi)
-  - [ROAS (Return On Ad Spend)](#roas-return-on-ad-spend)
-  - [Bounce rate](#bounce-rate)
-  - [Additional budget](#additional-budget)
-  - [Conversion volume](#conversion-volume)
-  - [Cost Per Acquisition / Action](#cost-per-acquisition--action)
+    - [ROAS (Return On Ad Spend)](#roas-return-on-ad-spend)
+    - [Bounce rate](#bounce-rate)
+    - [Additional budget](#additional-budget)
+    - [Conversion volume](#conversion-volume)
+    - [Cost Per Acquisition / Action](#cost-per-acquisition--action)
+  - [Google Analytics](#google-analytics)
+    - [Attribution](#attribution)
+    - [Macro conversions](#macro-conversions)
+    - [Micro conversions](#micro-conversions)
+    - [Big Data](#big-data)
+    - [Trends](#trends)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
 >>>>>>> f314baec010a4745d1b75d89053bc5213584b83e
@@ -2182,25 +2188,62 @@ Includes:
 > Is a measurable goal to marketing goals or specific campaigns. Like impressions or clicks.
 
 
-## ROAS (Return On Ad Spend)
+### ROAS (Return On Ad Spend)
 
 > (Number of Units Sold x Cost Per Unit) / AD Spend
 
-## Bounce rate
+### Bounce rate
 
 > Bounce sessions / Total sessions
 
-## Additional budget
+### Additional budget
 
 > Incremental sales / Return on AD spend
 
-## Conversion volume
+### Conversion volume
 
 > Total number of conversions or total monetary value of conversions over a period of time
 
-## Cost Per Acquisition / Action
+### Cost Per Acquisition / Action
 
 > Paid Rate Cost for every convertion
+
+## Google Analytics
+
+### Attribution
+
+> Assigns credit (value) for complete conversions from different kinf of contact like
+> ADs, last clicks or other touch points along a user's path to conversion completion
+
+### Macro conversions
+
+> Completed purchases
+
+### Micro conversions
+
+> Completed responses that indicate a user is moving towards a macro conversion
+
+
+### Big Data
+
+> Field in analytics that systematically mines and extracts
+> information from very large datasets for insights
+
+
+### Trends
+
+* Real-time analytics
+> Monitors immediate data to gain insights to respond to events more quickly
+* Predictive analytics
+> Uses historical data to predict what might happen
+* Autonomous marketing
+> Uses real-time analytics to automate marketing activities
+* Artificial Intelligence (AI)
+> A field developing intelligent machines and software that simulate hu,am thought or work
+
+
+
+
 
 
 
