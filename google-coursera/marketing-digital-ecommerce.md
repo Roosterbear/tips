@@ -113,6 +113,17 @@
     - [Micro conversions](#micro-conversions)
     - [Big Data](#big-data)
     - [Trends](#trends)
+    - [Dimensions](#dimensions)
+    - [Urchin tracking module (UTM)](#urchin-tracking-module-utm)
+    - [Awareness metrics](#awareness-metrics)
+    - [Consideration metrics](#consideration-metrics)
+    - [Conversion metrics](#conversion-metrics)
+    - [Cross-channel LAST CLICK](#cross-channel-last-click)
+    - [Comma-separated values (CSV)](#comma-separated-values-csv)
+    - [Google Analytics](#google-analytics-1)
+    - [Google Tag Manager](#google-tag-manager)
+    - [Google ADs can help in AD Groups:](#google-ads-can-help-in-ad-groups)
+    - [Segment overlap](#segment-overlap)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
 >>>>>>> f314baec010a4745d1b75d89053bc5213584b83e
@@ -2243,12 +2254,77 @@ Includes:
 > A field developing intelligent machines and software that simulate hu,am thought or work
 
 
+### Dimensions
+
+> Attributes or characteristics of an event that determine the metrics collected
 
 
+### Urchin tracking module (UTM)
+
+> Text tag added to a URL to help monitor that content
 
 
+### Awareness metrics
+
+* Clicks
+* Impressions
 
 
+### Consideration metrics
+
+* Clicks
+* CTR
+* Interaction rate
+* Impressions
+
+
+### Conversion metrics
+
+* Conversions
+* Cost
+* Conversion value per cost
+* Conversion rate
+
+
+```
+To configure a new account, you have to determine a MAIN Campaign Goal
+```
+
+### Cross-channel LAST CLICK
+
+> Attributes __100%__ of a conversion to the last channel that a customer clicked through
+
+### Comma-separated values (CSV)
+
+> A file format in which a comma is placed between each data value in the file
+
+* Keep the file and we can analyze and compare data 
+* We can use other tools to analyze
+
+
+### Google Analytics
+
+__Conversion paths view__
+
+> The first and last point of contact before conversion (and the rest intermediate points)
+
+* Event
+* Site tag
+
+
+### Google Tag Manager
+
+* Graphic interface
+* HTML or Javascript tags
+
+### Google ADs can help in AD Groups:
+
+* Organize ADs by keywords
+* Select the right ADs for a campaign by relevant keywords
+
+### Segment overlap
+
+> Google Analytics function that show data group by common attributes
 
 
 
