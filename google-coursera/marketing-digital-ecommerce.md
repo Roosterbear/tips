@@ -124,6 +124,10 @@
     - [Google Tag Manager](#google-tag-manager)
     - [Google ADs can help in AD Groups:](#google-ads-can-help-in-ad-groups)
     - [Segment overlap](#segment-overlap)
+    - [Return on investment (ROI)](#return-on-investment-roi)
+    - [Customer lifetime value (LTV)](#customer-lifetime-value-ltv)
+    - [Return on ad spend (ROAS)](#return-on-ad-spend-roas)
+    - [Marketing (Media) Mix Models](#marketing-media-mix-models)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
 >>>>>>> f314baec010a4745d1b75d89053bc5213584b83e
@@ -2326,9 +2330,31 @@ __Conversion paths view__
 
 > Google Analytics function that show data group by common attributes
 
+### Return on investment (ROI)
+
+> Ratio of net income (money spend) to investment (money spend)
+<br/>
+
+>Income thanks to a Marketing Campaign
+<br/>
+
+> Marketing ROI = (Sales Growth - Marketing Cost) / Marketing Cost
+
+### Customer lifetime value (LTV)
+
+> The average revenue generated per customer over a certain period of time
 
 
+### Return on ad spend (ROAS)
 
+> Number calculated as the revenue generated divided by the amount spend on advertising
+<br/>
+
+
+### Marketing (Media) Mix Models
+
+> Statistic models to predict effectiveness with at least 2 years of historical 
+> data of campaigns
 
 
 
