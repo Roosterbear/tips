@@ -4,6 +4,7 @@
 - [x] **sore** - adolorido, dolor
 - [x] **wound** - herida
 - [x] **hideous** - horrible, espantoso
+- [ ] **inbred** - producto de endogamia(tonto)
 
 
 * It's so ridiculously twee, it makes my toes curl. 
@@ -16,6 +17,11 @@
 * I'd still bone!
 * If I wasn't mistaken I'd think you were flirting with me
 * Thank you thouh, don't be naughty
+* It's your turn to host the slumber party!
+* On top of that, that G-string gave me diaper rash
+* It means you're a total booty call
+* Better lay of the spinach
+* 
 
 
 
