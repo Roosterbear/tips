@@ -4,7 +4,8 @@
 - [x] **sore** - adolorido, dolor
 - [x] **wound** - herida
 - [x] **hideous** - horrible, espantoso
-- [ ] **inbred** - producto de endogamia(tonto)
+- [x] **inbred** - producto de endogamia(tonto)
+- [x] **boink** - golpear levemente (tener relaciones con alguien)
 
 
 * It's so ridiculously twee, it makes my toes curl. 
@@ -21,6 +22,12 @@
 * On top of that, that G-string gave me diaper rash
 * It means you're a total booty call
 * Better lay of the spinach
+* Whereabouts?
+* I'll have the steak, smothered in onions
+* Have you ever had French fries with vinegar?
+* Whose dog is that?
+* Don't pay him no mind 
+* We're going to get along just fine
 * 
 
 
