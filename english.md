@@ -28,7 +28,8 @@
 * Whose dog is that?
 * Don't pay him no mind 
 * We're going to get along just fine
-* 
+* Who do you think wore those panties
+* I've hid things from you, but I have nevere cheated on you
 
 
 
