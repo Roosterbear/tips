@@ -2,6 +2,8 @@
 <br/>
 <div style="color:#FF6500">
 
+
+
 # TUTORIAL OF .md FILES IN MARKDOWN
 </div>
 
@@ -31,12 +33,12 @@ Begin the text with double tilde "~"
 __Add a quote__ <br/>
 Begin the text with the ">" sign and let a blank space.
 
-# TASK LIST
+## TASK LIST
 Type a dash, a blank space and brackets. <br/>
 If you want a checked item, type an "x" inside brackets, <br/>
 otherwise, let a blank space. <br/>
 
-# LISTS
+## LISTS
 
 - To create a  __bullet__ type a dash (-) or star (*).
   * To add a _circle_ type 2 blank spaces at the next line of a __bullet__.
@@ -58,7 +60,7 @@ To headlines in tables, we add a row with ":---:" enclosed in "pipes" with an sp
 | 2,1 | 2,2 | 2,3 |
 
 
-# MENU
+## MENU
 
 > Podemos crear un menu !!
 > Podemos agregar enlaces internos o externos
