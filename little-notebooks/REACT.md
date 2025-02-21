@@ -749,7 +749,7 @@ export default NavBar;
 
 ### Agregar LAZY
 
-> La importación LAZY va carganto los elementos como se vayan necesitando
+> La importación LAZY va cargando los elementos como se vayan necesitando
 
 - [x] Modificamos nuestro main.jsx
 
@@ -761,7 +761,7 @@ const About = lazy(()=> import("./pages/about"))
 
 ### Agregar SUSPENSE
 
-> Sedeben suspender los elementos para usar LAZY 
+> Se deben suspender los elementos para usar LAZY 
 
 ```jsx
 <Route 

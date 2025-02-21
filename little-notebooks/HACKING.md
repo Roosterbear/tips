@@ -1,8 +1,8 @@
 ​​​​​👁️​​​​​​👁️​​​​​​👁️​​​​​​👁️​
-<div style="color:#FF6500">I'm the Eye in the Sky</div>
+<div style="color:#FF6500">
 
 # HACKING
-
+</div>
 
 - [HACKING](#hacking)
   - [CONCEPTOS](#conceptos)
@@ -103,13 +103,3 @@
 - [x] Ejecutar: **slmgr /rearm**
 - [x] Reinicia con: **shutdown -r -t 0** 
 - [x] 👁️​ **Crear Snapshot** *licence*
-
-
-
-
-
-
-
-
-
-
