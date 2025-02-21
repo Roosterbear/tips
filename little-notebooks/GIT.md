@@ -25,7 +25,7 @@ git config --global user.email "fernandoroosterbear@gmail.com"
 ## Subir un proyecto a Github
 
 1. Crear un nuevo Repositorio en Github
-2. Agregar archivo - Subir archivos
+2. Agregar archivo / Subir archivos
 3. Pestaña "Settings" - Pages - Branch "main"
 4. Esperar unos minutos 🕜  
 
@@ -124,15 +124,4 @@ git push origin --delete pruebas
 ```bash
 git branch -a
 ```
-
-
-
-
-
-
-
-
-
-
-
 

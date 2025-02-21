@@ -127,5 +127,3 @@ int prices = {1,2,3,4,5};
 * Is the only variable whose data type we do not have to specify
 * To define a _pointer_ we use '*' character
 
-
-
