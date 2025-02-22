@@ -130,6 +130,7 @@
     - [Marketing (Media) Mix Models](#marketing-media-mix-models)
     - [A/B test](#ab-test)
     - [Discrete metrics](#discrete-metrics)
+    - [Metrics monitored](#metrics-monitored)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
 >>>>>>> f314baec010a4745d1b75d89053bc5213584b83e
@@ -2363,14 +2364,128 @@ __Conversion paths view__
 > Online experiment with two variants, and a random 50% split of users 
 > between the variants, to determine the better performing option
 
+- [x] Prueba A/B
+
+> **OBJETIVO**
+> Una prueba A/B es una evaluación en línea con dos variantes, 
+> y una división aleatoria del 50% de los/las usuarios/as 
+> entre las variantes, para determinar la opción de mejor rendimiento.
+
+<br/>
+
+> **OPCIONES IMPORTANTES**
+
+* Mejora deseada
+* Métricas relevantes
+* Rendimiento pasado
+<br/>
+
+> **METRICAS DE LAS QUE DEPENDE** 
+
+* Métricas discretas
+* Métricas contínuas
+<br/>
+
+> **PRÁCTICAS RECOMENDADAS**
+
+* Elegir una campaña con la que se pueda experimentar 
+* Elegir una campaña que tenga una audiencia lo suficientemente grande para una comparación estadística de los resultados
+* Elegir una campaña que tenga un presupuesto adecuado para dividir entre las variaciones
+<br/>
+
+> **TÉRMINOS ESTADÍSTICOS**
+
+* Intervalo de confianza
+* Significación estadística
+* Nivel de confianza
+<br/>
+
+> **DETERMINANTE SI EL RESULTADO DE UNA PRUEBA A/B ES UNA CASUALIDAD ALEATORIA**
+
+- [x] __Significación Estadística__
+
+<br/>
+
 ### Discrete metrics
 
 > Have specific values, can be counted or are binary - like on/off or true/false
 
+### Metrics monitored
 
-
-
+* Online sales revenue
+* Number of orders
+* Average order value
+* Cost per sale
+* Orders by geographic region
+* Top selling products
+* Ratio of orders from new versus returning customers
 <hr/>
+
+
+- [x] EXAMEN
+
+1. ¿Cuáles son las diferentes formas de calcular el retorno de la inversión (ROI)? Selecciona dos.
+* Restar el costo de marketing del crecimiento total de las ventas durante el periodo en que se ejecutó la campaña y luego dividir el resultado por el costo de marketing. 
+* Utilizar el valor del tiempo de vida del cliente (LTV), que es el ingreso promedio generado por cliente durante un cierto periodo de tiempo. 
+
+
+2. ¿Cómo se calcula el retorno de la inversión publicitaria (ROAS)?
+* Se calculan los ingresos generados, divididos por el monto gastado en publicidad.
+
+
+3. ¿Qué debes documentar para prepararte para una prueba A/B? Selecciona todas las opciones que correspondan.
+* El rendimiento pasado
+* La mejora deseada
+
+
+4. Completa el espacio en blanco: Una herramienta de software que ayuda a personalizar páginas web con aprendizaje automático lleva a cabo _____.
+
+> --no-- pruebas A/B orientadas a métricas
+
+5. Completa el espacio en blanco: Realizar _____ puede aumentar el número de conversiones.
+
+> --no-- generacion de leads
+
+6. Imagina el siguiente escenario:
+Una empresa está considerando cambiar su título y quiere probar cómo impactará sobre las ventas pasar de un encabezado de “Actúa ahora mientras duren las existencias” a “Grandes ahorros, oferta por tiempo limitado”.
+
+> --no-- Una evaluación de mix de medios
+
+7. Completa el espacio en blanco: Las/los especialistas en marketing digital pueden realizar cambios menores en el texto de los anuncios sin probarlos completamente, especialmente porque las pruebas A/B _____.
+
+> --no-- necesitan datos de usuarios/as por adelantado
+
+8. ¿A qué debes prestar atención al revisar los resultados en la tabla de variaciones de anuncios? 
+
+> --no-- A la variación que tuvo el feedback más negativo
+
+9. ¿De qué dependen los insights que utilizas para evaluar el éxito de una campaña de marketing? 
+
+* De los objetivos de marketing
+
+10. Imagina el siguiente escenario:
+
+Una reciente campaña estableció un objetivo de rendimiento micro de aumentar las suscripciones de correo electrónico en un 20%. También estableció un objetivo de rendimiento macro de aumentar las compras en un 12%. Los resultados mostraron que la campaña aumentó las suscripciones de correo electrónico en un 25%, pero parecía no tener ningún efecto en las compras completadas. 
+
+Con base en estos datos, ¿qué acción deberías tomar para una campaña futura? 
+
+* Deberías revisar y modificar los mensajes de correo electrónico para aumentar las conversiones. 
+
+11. ¿Qué pueden probar las herramientas de software al realizar una prueba A/B? Selecciona todas las opciones que correspondan.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​
 # Make the Sale: Build, Launch and Manage E-commerce Stores
