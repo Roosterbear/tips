@@ -6,6 +6,8 @@
 - [x] **hideous** - horrible, espantoso
 - [x] **inbred** - producto de endogamia(tonto)
 - [x] **boink** - golpear levemente (tener relaciones con alguien)
+- [x] **crutch** - muleta
+- [x] **injured** - lesionado
 
 
 * It's so ridiculously twee, it makes my toes curl. 
@@ -30,6 +32,17 @@
 * We're going to get along just fine
 * Who do you think wore those panties
 * I've hid things from you, but I have nevere cheated on you
+* How long are you gonna be in Philadelphia?
+* They only found two people alive so far
+* I bought a whole bunch
+* Those got chewed up, got jazzed up, made titillating for the sale rack
+* Why don't we pat down?
+* It's in the nosebleeds, but you won´t spit on
+* That guy you bumped is mad
+* He got a gun tucked in his pants!
+* Our car flipped on an icy road
+* Would you mind if I check your pockets?
+* I'm fine, I just got mixed-up
 
 
 
