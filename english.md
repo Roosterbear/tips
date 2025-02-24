@@ -43,6 +43,8 @@
 * Our car flipped on an icy road
 * Would you mind if I check your pockets?
 * I'm fine, I just got mixed-up
+* I did eggs over easy
+* 
 
 
 
