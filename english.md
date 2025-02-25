@@ -44,7 +44,15 @@
 * Would you mind if I check your pockets?
 * I'm fine, I just got mixed-up
 * I did eggs over easy
-* 
+* When I'm your age, I'll forget what I eat too
+* What's He paying us?
+* She's dumber than my hind end!
+* I might have to bag the whole semester
+* It sure might be a slick way to get to know her
+* You don't know for any gal
+* You bet!
+* You know, not having a plan is what keep us doing jobs like this
+* Now, had you thought about that?
 
 
 
