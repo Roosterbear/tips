@@ -2438,11 +2438,13 @@ __Conversion paths view__
 * La mejora deseada
 
 
-4. Completa el espacio en blanco: Una herramienta de software que ayuda a personalizar páginas web con aprendizaje automático lleva a cabo _____.
+4. Una herramienta de software que ayuda a personalizar páginas web con aprendizaje automático lleva a cabo _____.
 
 > --no-- pruebas A/B orientadas a métricas
+> --no-- pruebas A/B basadas en clientes
+continuas?
 
-5. Completa el espacio en blanco: Realizar _____ puede aumentar el número de conversiones.
+5. Realizar _____ puede aumentar el número de conversiones.
 
 > --no-- generacion de leads
 
@@ -2451,13 +2453,15 @@ Una empresa está considerando cambiar su título y quiere probar cómo impactar
 
 > --no-- Una evaluación de mix de medios
 
-7. Completa el espacio en blanco: Las/los especialistas en marketing digital pueden realizar cambios menores en el texto de los anuncios sin probarlos completamente, especialmente porque las pruebas A/B _____.
+7. Las/los especialistas en marketing digital pueden realizar cambios menores en el texto de los anuncios sin probarlos completamente, especialmente porque las pruebas A/B _____.
 
 > --no-- necesitan datos de usuarios/as por adelantado
 
 8. ¿A qué debes prestar atención al revisar los resultados en la tabla de variaciones de anuncios? 
 
 > --no-- A la variación que tuvo el feedback más negativo
+> --no-- al numero de impresiones que registro cada variación
+> --no-- al monto de clics que recibio la variacion
 
 9. ¿De qué dependen los insights que utilizas para evaluar el éxito de una campaña de marketing? 
 
@@ -2472,17 +2476,24 @@ Con base en estos datos, ¿qué acción deberías tomar para una campaña futura
 * Deberías revisar y modificar los mensajes de correo electrónico para aumentar las conversiones. 
 
 11. ¿Qué pueden probar las herramientas de software al realizar una prueba A/B? Selecciona todas las opciones que correspondan.
+* las paginas con mejor rendimiento
+* los puntos de contacto en el rcorrido del cliente
 
+12. Al prepararse para__ es util documentar el rendimiento pasado y la mejora deseada
+* pruebas A/B
 
+13. Cuales son los beneficios de pruebas A/B
+* Aumenta el numero de conversiones
+> --no-- aumenta crecimiento de ventas
 
+14. Los especialistas en marketing digital pueden relizar cambios menores en el texto sin probarlos, porque las pruebas A/B
+* demandan tiempo y presupuesto
 
+15. EL EXITO DE UNA CAMPAÑA DE MARKETING esta determinado si cumple_______ de la empresa
+* objetivos de rendimiento*
 
-
-
-
-
-
-
+16. DE QUE DEPENDEN LOS INSIGHTS que utilizas para evaluar el exito de una campaña de mkt
+> --no-- metricas de clientes
 
 
 
