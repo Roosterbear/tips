@@ -128,9 +128,12 @@
     - [Customer lifetime value (LTV)](#customer-lifetime-value-ltv)
     - [Return on ad spend (ROAS)](#return-on-ad-spend-roas)
     - [Marketing (Media) Mix Models](#marketing-media-mix-models)
-    - [A/B test](#ab-test)
+  - [A/B test](#ab-test)
     - [Discrete metrics](#discrete-metrics)
     - [Metrics monitored](#metrics-monitored)
+    - [EXAMEN](#examen)
+  - [Stakeholders](#stakeholders)
+    - [We need to know](#we-need-to-know)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
 >>>>>>> f314baec010a4745d1b75d89053bc5213584b83e
@@ -2359,7 +2362,7 @@ __Conversion paths view__
 > Statistic models to predict effectiveness with at least 2 years of historical 
 > data of campaigns
 
-### A/B test
+## A/B test
 
 > Online experiment with two variants, and a random 50% split of users 
 > between the variants, to determine the better performing option
@@ -2422,7 +2425,7 @@ __Conversion paths view__
 <hr/>
 
 
-- [x] EXAMEN
+### EXAMEN
 
 1. ¿Cuáles son las diferentes formas de calcular el retorno de la inversión (ROI)? Selecciona dos.
 * Restar el costo de marketing del crecimiento total de las ventas durante el periodo en que se ejecutó la campaña y luego dividir el resultado por el costo de marketing. 
@@ -2494,6 +2497,28 @@ Con base en estos datos, ¿qué acción deberías tomar para una campaña futura
 
 16. DE QUE DEPENDEN LOS INSIGHTS que utilizas para evaluar el exito de una campaña de mkt
 > --no-- metricas de clientes
+
+
+## Stakeholders
+
+> Someone with an interest in or a concern for a project and its results
+
+* Meetings
+* Email
+* Chat
+* Phone calls
+  
+### We need to know
+
+* When to inform
+* The needs
+* How to communicate
+
+> Reliability and Credibility
+
+
+
+
 
 
 
