@@ -53,6 +53,13 @@
 * You bet!
 * You know, not having a plan is what keep us doing jobs like this
 * Now, had you thought about that?
+* They got wind of something
+* Don't get your slick mitts on this
+* Do it when you're at leisure
+* Must be long gone
+* Why don't you take a little stroll and find out?
+* Can I borrow that shovel?
+* You guys know how to pole vault? 
 
 
 
