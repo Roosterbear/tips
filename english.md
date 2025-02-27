@@ -37,7 +37,7 @@
 * I bought a whole bunch
 * Those got chewed up, got jazzed up, made titillating for the sale rack
 * Why don't we pat down?
-* It's in the nosebleeds, but you won´t spit on
+* It's in the nosebleeds, but you won't spit on
 * That guy you bumped is mad
 * He got a gun tucked in his pants!
 * Our car flipped on an icy road
