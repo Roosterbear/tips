@@ -134,13 +134,10 @@
     - [EXAMEN](#examen)
   - [Stakeholders](#stakeholders)
     - [We need to know](#we-need-to-know)
+    - [Pivot table](#pivot-table)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
->>>>>>> f314baec010a4745d1b75d89053bc5213584b83e
-- [Think Outside the inbox: Email Marketing](#think-outside-the-inbox-email-marketing)
-- [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
-- [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
-- [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
+
 
 <hr/>
 
@@ -2516,7 +2513,10 @@ Con base en estos datos, ¿qué acción deberías tomar para una campaña futura
 
 > Reliability and Credibility
 
+### Pivot table
 
+> Changes your view of data in a spreadsheet to a different perspective 
+> to categorize it, or to identify an insight or trend
 
 
 
