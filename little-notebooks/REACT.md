@@ -30,12 +30,6 @@
     - [Otro ejemplo de useState](#otro-ejemplo-de-usestate)
     - [useEffect](#useeffect)
   - [React ROUTER](#react-router)
-  - [PRUEBAS](#pruebas)
-    - [AAA](#aaa)
-    - [Pruebas Unitarias](#pruebas-unitarias)
-    - [Pruebas de Integración](#pruebas-de-integración)
-    - [Instalación de Jest](#instalación-de-jest)
-    - [Primer Prueba](#primer-prueba)
   - [REACT en Producción](#react-en-producción)
     - [Principal Código Ejemplo](#principal-código-ejemplo)
     - [Componente Código Ejemplo](#componente-código-ejemplo)
@@ -44,15 +38,8 @@
     - [Agregar HELMET](#agregar-helmet)
     - [Agregar SNAP](#agregar-snap)
     - [Netlify](#netlify)
-  - [PROYECTO GifExpertApp](#proyecto-gifexpertapp)
-    - [Instalación](#instalación)
-    - [Archivo styles.css](#archivo-stylescss)
-    - [Recorriendo nuestro array](#recorriendo-nuestro-array)
-    - [Viendo cómo va quedando nuestra App](#viendo-cómo-va-quedando-nuestra-app)
-    - [Acceder a GIPHY](#acceder-a-giphy)
-    - [Agregar otro componente (AddCategory)](#agregar-otro-componente-addcategory)
-    - [Comunicación entre componentes](#comunicación-entre-componentes)
-      - [Validar que sean únicos los nombres](#validar-que-sean-únicos-los-nombres)
+    - [Desplegar en Github Pages](#desplegar-en-github-pages)
+    - [ARCHIVOS BARRIL](#archivos-barril)
 
 ## INTRODUCCIÓN
 
@@ -605,98 +592,6 @@ export default App(){
 }
 ```
 
-## PRUEBAS
-
-> AL MENOS DEBEMOS HACER PRUEBA DE LA __RUTA CRÍTICA__
-
-### AAA
-
-* Arrange (__ARREGLAR__)
-> Preparamos el ambiente (__Sujeto de Pruebas__)
-> Inicializamos variables
-> Hacemos las importaciones necesarias
-
-* Act (__ACTUAR__)
-> Aplicamos el __estímulo__
-> Llamamos métodos
-> Simulamos clicks
-> Realizamos acciones
-
-* Assert (__AFIRMAR__)
-> __OBSERVAR EL COMPORTAMIENTO RESULTANTE__
-> Vemos que algo suceda o no, como es esperado
-
-1. Pueden salir errores a pesar de las pruebas
-2. Se ejecutan SOLO en el ambiente de desarrollo
-3. Pueden dar falsos (positivos o negativos)
-4. Son necesarias
-
-
-### Pruebas Unitarias
-> Enfocada a pequeñas funcionalidades
-
-### Pruebas de Integración
-> Enfocadas a cómo reaccionan varias piezas en conjunto
-
-
-### Instalación de Jest
-> yarn add --dev jest
-
-* Agregar en nuestro package.json
-
-```json
-{
-  "scripts":{
-    "test": "jest"
-  }
-}
-```
-
-### Primer Prueba
-
-* Ejecutamos con:
-> yarn test
-
-1. __SE RECOMIENDA TENER UNA CARPETA "tests"__
-2. Ahi tendríamos una copia de todo nuestro proyecto en versión __"test"__
-3. Al menos debemos tener un archivo con extensión __".test.jsx"__ 
-4. Agregar como mínimo:
-
-```jsx
-test('Esto no puede fallar',()=>{
-
-})
-```
-
-- [x] Instalamos:
-
-```bash
-yarn add -D @types/jest
-```
-
-* Ahora agregamos una prueba:
-
-```jsx
-describe('PRUEBA PARA COMPONENTE <App/>',()=>{
-    test('Esto no falla',()=>{
-        const mensaje1 = 'Hola mundo';
-        const mensaje2 = mensaje1.trim();
-    
-        expect(mensaje1).toBe(mensaje2);
-    })
-})
-```
-
-- [x] Nos ayuda mucho tener las __"types"__:
-
-```bash
-yarn add -D @types/jest
-```
-
-- [ ] __NO PODEMOS HACER PRUEBAS DE ALGO QUE NO TENEMOS EXPORTADO__
-
-- [x] Para trabajar con .then, usamos el **done**
-
 
 ## REACT en Producción
 
@@ -857,294 +752,44 @@ yarn build
 
 1. Crear cuenta
 2. Add new site
-3. Deploy manually
-4. Subir carpeta build
+3. > yarn build
+4. Subir carpeta dist
+
+
+### Desplegar en Github Pages
+
+> En React terminamos con un producto final que son archivos HTML, CSS y Javascript
+
+* Renombrar dist a __docs__
+* Subir a Github
+* Settings - Pages
+* Seleccionar __main__
+* Seleccionar __docs__
+* Esperar hasta que esté en VERDE, dar F5 constantemente
 
 <br/>
 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-<br/>
-<small style="color:#ffb000;">
-  Aqui empieza otro curso
-</small>
-<br/>
+
+> CUIDAR DE TENER LOS ENLACES TIPO: './carpeta'
+
 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
 <br/>
 
+### ARCHIVOS BARRIL
 
-
-## PROYECTO GifExpertApp
-
-### Instalación
-
-```bash
-yarn create vite
-```
-
-1. Eliminar archivos de **src**, solo dejar *main.jsx*
-2. Agregar *GifExpertApp.jsx*
-
-- [x] __NO ES NECESARIO IMPORTAR REACT EN CADA ARCHIVO A PARTIR DE LA VERSIÓN 17__
-- [ ] __NO TENEMOS LOS MÓDULOS DE NODE, HAY QUE IMPORTARLOS!__
-
-```bash
-yarn install
-```
-
-- [x] Incluso funciona con solo: 
-
-```bash
-yarn
-```
-
-1. Crear el componente GifExpertApp dentro del archivo del mismo nombre
-2. Lo importamos y agregamos en el **main**
-3. Agregar archivo styles.css
-
-### Archivo styles.css
-
-```css
-* {
-  font-family: Helvetica, Arial, sans-serif;
-  background-color: rgb(234, 234, 234);
-}
-
-body {
-  padding: 60px;
-}
-
-input {
-  background-color: white;
-  border-radius: 5px;
-  border: 1px solid rgb(97, 32, 158);
-  color: black;
-  font-size: 1.2rem;
-  outline: none;
-  padding: 10px 15px;
-  width: 100%;
-}
-
-h2 {
-  font-size: 1.5rem;
-}
-
-h3 {
-  font-size: 3rem;
-  margin-bottom: 5px;
-}
-
-.card-grid {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.card {
-  align-content: center;
-  align-items: center;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
-  display: flex;
-  flex-direction: column;
-  height: 0%;  
-  justify-content: center;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  overflow: hidden;
-}
-
-.card p {
-  background-color: white;
-  flex: 1;
-  font-size: 1.5rem;
-  margin-top: 5px;
-  padding: 5px 20px 0px 20px;
-  text-align: center;
-}
-
-.card img {
-  width: 100%;
-}
-```
-- [x] Agregar a main.jsx
+> En la carpeta components agregar un _index.js_ con nuestras exportaciones:
 
 ```jsx
-import './styles.css'
+export * from './Componente1';
+export * from './Componente2';
+export * from './Componente3';
 ```
 
-### Recorriendo nuestro array
+> Tan solo importamos:
 
 ```jsx
-import {useState} from 'react';
-
-export const GifExpertApp = ()=>{
-  const [categories, setCategories] = useState(['One Punch', 'Dragon Ball']);
-
-  return(
-    <>
-      {/* titulo */}
-      <h1>GifExpertApp</h1>
-
-      {/* input */}
-      
-
-      {/* listado de gifs */}
-      <ol>
-        {
-          categories.map(category=>{
-            return <li key={category}>{category}</li>
-          })
-        }
-      </ol>
-    </>
-  )
-}
+import {Componente1, Componente2, Componente3} from './components' // NO es necesario agregar index.js
 ```
-
-### Viendo cómo va quedando nuestra App
-
-1. Probar componente ejecutando:
-
-```bash
-yarn dev
-```
-- [x] Si la primera vez marca **ERROR** instalar dependencias:
-
-```bash
-npm install
-```
-
-### Acceder a GIPHY
-
-1. Crear cuenta y loguearnos en: https://developers.giphy.com/
-2. Crear nuevo proyecto **API**
-3. Copiar la **API Key** 
-
-### Agregar otro componente (AddCategory)
-
-1. Creamos una carpeta components dentro de **src**
-2. Agregamos nuestro archivo **AddCategory.jsx**
-
-- [x] DEBEMOS USAR onChange PARA RECIBIR VALORES DE UN INPUT
-- [x] RECIBIMOS event EN EL onChange [**LO PONGAMOS O NO**]
-- [x] DEBEMOS USAR *event.target.value* PARA OBTENER EL VALOR DEL INPUT
-- [x] PODEMOS DESESTRUCTURAR *event* en lugar de recibirlo como (event)
-- [x] Lo recibimos como **{target}** ```onInputChange({target})```
-- [x] PODEMOS USAR UN FORM TRADICIONAL PARA CREAR UN SUBMIT CON **Enter**
-- [x] PODEMOS OBVIAR EL ARGUMENTO **event**:
-
-```<input onChange={onInputChange}/>```
-
-> En lugar de:
-
-```<input onChange={(event)=>onInputChange(event)}/>```
-
-
-```jsx
-import {useState} from 'react';
-
-export const AddCategory = ()=>{
-
-  const [inputValue, setInputValue] = useState('');
-  const onInputChange = ()=>{
-    setInputValue();
-  }
-
-
-  return(
-    <input
-      type="text"
-      placeholder="Buscar GIFs"
-      value={inputvalue}
-      onChange={onInputChange}
-    >
-  )
-}
-```
-
-### Comunicación entre componentes
-
-- [x] Usar **on** al nombrar una función de un evento es un buen **patrón**
-> Ejm. onInputChange, onUserDelete
-
-```jsx
-import {useState} from 'react';
-
-export const AddCategory = ()=>{
-
-  const [inputValue, setInputValue] = useState('');
-  const onInputChange = ({target})=>{
-    setInputValue(target.value);
-  }
-
-  const onSubmit = (event)=>{
-    event.preventDefault();
-    if (inputValue.trim().length <= 1) return;
-
-    {/* Dejamos el valor nuevo + los anteiores*/}
-    setCategories( categories=>[inputValue, ...categories]);
-    setInputValue('');
-  }
-
-
-  return(
-    {/* Recuerda que podemos obviar event */}
-    <form onSubmit={onSubmit}>
-      <input
-        type="text"
-        placeholder="Buscar GIFs"
-        value={inputvalue}
-        onChange={onInputChange}
-      >
-    </form>
-  )
-}
-```
-
-#### Validar que sean únicos los nombres
-
-- [x] **NO DEBEMOS USAR EL INDICE COMO LLAVE**
-
-``` if(categories.includes(newCategory)) return; ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
