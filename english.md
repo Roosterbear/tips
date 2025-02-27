@@ -60,6 +60,9 @@
 * Why don't you take a little stroll and find out?
 * Can I borrow that shovel?
 * You guys know how to pole vault? 
+* Why don't you just back off, string bean?
+* The second we hit the place, we start making some phone calls
+* 
 
 
 
