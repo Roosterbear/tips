@@ -40,6 +40,7 @@
     - [Netlify](#netlify)
     - [Desplegar en Github Pages](#desplegar-en-github-pages)
     - [ARCHIVOS BARRIL](#archivos-barril)
+- [REACT NATIVE](#react-native)
 
 ## INTRODUCCIÓN
 
@@ -791,5 +792,16 @@ export * from './Componente3';
 ```jsx
 import {Componente1, Componente2, Componente3} from './components' // NO es necesario agregar index.js
 ```
+
+# REACT NATIVE
+
+```bash
+npx create-expo-app@latest --template blank-typescript
+cd proyecto
+npm start
+```
+
+
+
 
 
