@@ -135,6 +135,10 @@
   - [Stakeholders](#stakeholders)
     - [We need to know](#we-need-to-know)
     - [Pivot table](#pivot-table)
+    - [Dashboard](#dashboard)
+    - [Tableau](#tableau)
+  - [Presentations to Stakeholders](#presentations-to-stakeholders)
+    - [Best practices in slides](#best-practices-in-slides)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
 
@@ -2517,6 +2521,70 @@ Con base en estos datos, ¿qué acción deberías tomar para una campaña futura
 
 > Changes your view of data in a spreadsheet to a different perspective 
 > to categorize it, or to identify an insight or trend
+
+1. Select data
+2. Insert - Pivote table (New sheet)
+3. Row - Add
+
+- [x] __CONTARA__ Count not empty cell
+
+* SINGLE - Single Category
+* GROUPED - More than one category __TO COMPARE__
+* STACKED - Without the spread of a group
+
+- [x] LINE CHARTS (Single - Stacked)
+- [x] AREA CHARTS (Single - Unstacked - Stacked)
+- [x] PIE CHARTS (Two-dimensional - Three-dimensional) 
+- [x] HISTOGRAMS
+
+### Dashboard
+
+> Tool to track, analyze and display KPIs, metrics and insights
+> dinamically based on interactive user criteria
+
+### Tableau
+
+> Visual Analytics Platform that makes easier to explore, manage data and create custom
+> dashboards that incorporate different data visualizations in one place
+
+
+## Presentations to Stakeholders
+
+> Are like maps
+
+1. Create flow of presentation
+2. Decide WHICH data to use
+3. Insights
+
+### Best practices in slides
+
+* Progress from general to specific topics
+* State insights (**CONCLUSIONES**) clearly and up front
+* Repeat insights with data
+* Introduce visualizations with insightful titles
+* Allow time for questions
+* End with a __CALL TO ACTION__
+
+__INK-RATIO__ <br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
