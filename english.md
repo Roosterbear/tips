@@ -8,6 +8,10 @@
 - [x] **boink** - golpear levemente (tener relaciones con alguien)
 - [x] **crutch** - muleta
 - [x] **injured** - lesionado
+- [x] **leisure** - con tiempo libre, de ocio
+- [x] **wop** - emigrante italiano
+- [x] **underachiever** - fracasado, alumno de bajo rendimiento
+- [x] **strain** - tension
 
 
 * It's so ridiculously twee, it makes my toes curl. 
@@ -63,6 +67,24 @@
 * Why don't you just back off, string bean?
 * The second we hit the place, we start making some phone calls
 * What's got into ya?
+* I picked it up on sale
+* Make believe it's my foot and smash it
+* I've been briefed on the plan
+* What's your assessment?
+* You will be allowed out into the Quad
+* You have seen these orange wires running throughout this building
+* These are wired to explosives
+* If one of these wires is cut
+* If any of the individual explosives are tampered with
+* We managed to stay together anyway
+* Here we go!
+* I will not hesitate
+* That could damn well get them killed
+* I don't give a damn
+* You might as well come with us
+* None of us can sleep, specially with you two yapping
+* They are being urged
+* 
 
 
 
