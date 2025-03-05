@@ -144,6 +144,14 @@
     - [Types of e-commerce](#types-of-e-commerce)
     - [Benefits of e-commerce](#benefits-of-e-commerce)
     - [Challenges in e-commerce](#challenges-in-e-commerce)
+    - [TRAFFIC](#traffic)
+    - [LANDING PAGE](#landing-page)
+    - [CALL TO ACTION](#call-to-action)
+    - [Digital shopping cart](#digital-shopping-cart)
+    - [Payment service provider](#payment-service-provider)
+    - [CONVERSION](#conversion-1)
+    - [E-commerce platform](#e-commerce-platform)
+    - [Entry-level e-commerce roles](#entry-level-e-commerce-roles)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
 
 
@@ -2610,9 +2618,35 @@ __INK-RATIO__ <br/>
 * lack of in-person customer service
 
 
+### TRAFFIC
 
+> Number of visits that a website receives
 
+### LANDING PAGE
 
+> First page a visitor encounters when they go to a website
+
+### CALL TO ACTION
+
+> Instruction provided to the customer that tells them what to do next
+
+### Digital shopping cart
+
+> Virtual equivalent of physical shopping cart
+
+### Payment service provider
+
+> A secure way to process transactions online
+
+### CONVERSION
+
+> Completion of an activity that contributes to the success of a business
+
+### E-commerce platform
+
+> Software application that allows you to sell products or services online
+
+### Entry-level e-commerce roles
 
 
 
