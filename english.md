@@ -12,6 +12,11 @@
 - [x] **wop** - emigrante italiano
 - [x] **underachiever** - fracasado, alumno de bajo rendimiento
 - [x] **strain** - tension
+- [x] **retail** - minorista
+- [x] **shelves** - estanterias
+- [x] **appliances** - electrodomesticos
+- [x] **winding** - sinuoso
+- [x] **perk** - ventaja, beneficio
 
 
 * It's so ridiculously twee, it makes my toes curl. 

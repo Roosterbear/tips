@@ -140,6 +140,10 @@
   - [Presentations to Stakeholders](#presentations-to-stakeholders)
     - [Best practices in slides](#best-practices-in-slides)
 - [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
+  - [E-commerce](#e-commerce-2)
+    - [Types of e-commerce](#types-of-e-commerce)
+    - [Benefits of e-commerce](#benefits-of-e-commerce)
+    - [Challenges in e-commerce](#challenges-in-e-commerce)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
 
 
@@ -2566,34 +2570,50 @@ Con base en estos datos, ¿qué acción deberías tomar para una campaña futura
 * End with a __CALL TO ACTION__
 
 __INK-RATIO__ <br/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br/>
 
 🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​
 # Make the Sale: Build, Launch and Manage E-commerce Stores
 [Inicio](#digital-marketing--e-commerce) 
+
+## E-commerce
+
+> Buying and selling of goods or services using the internet
+
+- [x] __TRADITIONAL RETAIL STORE__ (Brick and Mortar Store)
+
+
+### Types of e-commerce
+
+1. Physical goods [shoes, books, appliances]
+2. Digital goods [ebook, digital photos or music, online course]
+3. Services [tutorials, coaching, consulting or professional services]
+4. Software [video-game, apps, programs]
+
+### Benefits of e-commerce
+
+* Easily adapt clients needs
+* Save in starting and general costs 
+* Sell new products faster
+
+---
+
+* Margins
+* The amount of people you can potentially sell to
+* Information about your customers
+* Trends driving more online sales
+
+### Challenges in e-commerce
+
+* Higher rate of returns
+* Cost of shipping
+* lack of in-person customer service
+
+
+
+
+
+
 
 
 
