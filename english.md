@@ -17,6 +17,7 @@
 - [x] **appliances** - electrodomesticos
 - [x] **winding** - sinuoso
 - [x] **perk** - ventaja, beneficio
+- [x] **nuance** - matiz
 
 
 * It's so ridiculously twee, it makes my toes curl. 
@@ -89,7 +90,11 @@
 * You might as well come with us
 * None of us can sleep, specially with you two yapping
 * They are being urged
-* 
+* I was attempting to be sarcastic
+* Any second now
+* Could we guarantee no casualties among the hostages? 
+* Cut a deal
+* Tell Computers and Humans apart 
 
 
 

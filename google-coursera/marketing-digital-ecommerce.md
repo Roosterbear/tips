@@ -152,6 +152,7 @@
     - [CONVERSION](#conversion-1)
     - [E-commerce platform](#e-commerce-platform)
     - [Entry-level e-commerce roles](#entry-level-e-commerce-roles)
+      - [Involves:](#involves)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
 
 
@@ -2648,6 +2649,19 @@ __INK-RATIO__ <br/>
 
 ### Entry-level e-commerce roles
 
+* E-commerce analyst
+* E-commerce specialist
+* E-commerce associate
+* Digital marketing specialist
+
+#### Involves:
+
+* Adding or updating products
+* Helping with online campaigns
+* Measuring the success of the company's goals through analytics
+* Managing email campaigns
+* Monitoring social media accounts
+* Running paid ads
 
 
 
