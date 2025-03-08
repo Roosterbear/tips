@@ -70,19 +70,9 @@ source ~/.bashrc
 > Usar Framework 4
 
 
-
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-
 ## Links
 
 [Emoticons](https://emojikeyboard.top/es/) 😋
-
 
 
 ## Datos Semana #1
@@ -96,9 +86,6 @@ source ~/.bashrc
 ---------------------------
 <br/>
 7 cursos, 14.2% cada curso
-
-
-
 
 
 # One-Piece

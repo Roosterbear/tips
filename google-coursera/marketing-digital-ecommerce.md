@@ -153,6 +153,9 @@
     - [E-commerce platform](#e-commerce-platform)
     - [Entry-level e-commerce roles](#entry-level-e-commerce-roles)
       - [Involves:](#involves)
+    - [Market research](#market-research)
+      - [Types of market research](#types-of-market-research)
+      - [Considerations](#considerations)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
 
 
@@ -2662,6 +2665,38 @@ __INK-RATIO__ <br/>
 * Managing email campaigns
 * Monitoring social media accounts
 * Running paid ads
+
+
+### Market research
+
+> Process of gathering information about consumers needs and preferences
+
+#### Types of market research
+
+* PRIMARY - __By me__ Surveys, interviews, direct observation or focus groups
+* SECONDARY - __By others__ Published sources, surveys or interviews
+
+#### Considerations
+
+1. Market size
+> Total number of potential customers within a specific industry
+> 1. Is there a large enough demand?
+> 2. How much competition exists?
+> 3. Is there room for growth?
+
+2. Target audience
+> Group of people most likely to purchase a company's products
+> 1. Does your target audience want to buy this type of product?
+> 2. Is the product in their price range or budget?
+
+3. Competition
+> Other sellers that exist already in the market
+> 1. Who are your most important competitors?
+> 2. How can you differentiate your business from the competition?
+
+
+
+
 
 
 
