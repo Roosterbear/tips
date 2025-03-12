@@ -156,6 +156,9 @@
     - [Market research](#market-research)
       - [Types of market research](#types-of-market-research)
       - [Considerations](#considerations)
+      - [Demographics to consider](#demographics-to-consider)
+      - [Demand](#demand)
+      - [Net profit](#net-profit)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
 
 
@@ -2694,7 +2697,61 @@ __INK-RATIO__ <br/>
 > 1. Who are your most important competitors?
 > 2. How can you differentiate your business from the competition?
 
+#### Demographics to consider
 
+* Age
+* Location
+* Income level
+* Education level
+* Occupation
+
+> Other factors:
+
+* Personality
+* Interests
+* Hobbies
+* Values
+* Lifestyle
+* Behavior
+
+#### Demand
+
+> How much consumers are willing and able to buy a certain product over a given period of time
+
+#### Net profit
+
+__HELPS YOU DETERMINE IF THE PRODUCT AS A WHOLE IS PROFITABLE__ <br/>
+
+> Amount of money left over after expenses are paid
+
+* Can sell the product at a competitive price and still make enough money on it?
+
+> Net profit = Total revenue - Total expenses
+<br/>
+
+> Total revenue = Number of unit sold x Average selling price
+<br/>
+
+> Cost of goods <br/>
+> Packaging <br/>
+> Shipping and fulfillment <br/>
+> Advertising <br/>
+> Cost of returns <br/>
+> +Additional expenses <br/>
+> ----------------------- <br/>
+> __Total expenses__ <br/>
+<br/>
+
+__Net profit margin__ = (Net profit / Total revenue) x 100
+<br/>
+
+**ROAS** -> Return On Ad Spend
+<br/>
+
+__HELPS YOU DETERMINE IF YOUR ADVERTISING FOR THE PRODUCT IS PROFITABLE__ <br/>
+<br/>
+
+> ROAS = (Number of units sold x Cost per unit) / Ad spend
 
 
 
