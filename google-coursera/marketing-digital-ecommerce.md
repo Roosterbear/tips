@@ -159,6 +159,9 @@
       - [Demographics to consider](#demographics-to-consider)
       - [Demand](#demand)
       - [Net profit](#net-profit)
+      - [Product sourcing](#product-sourcing)
+      - [Branding](#branding)
+  - [Shopify](#shopify)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
 
 
@@ -2752,6 +2755,25 @@ __HELPS YOU DETERMINE IF YOUR ADVERTISING FOR THE PRODUCT IS PROFITABLE__ <br/>
 <br/>
 
 > ROAS = (Number of units sold x Cost per unit) / Ad spend
+
+#### Product sourcing
+
+> How a business acquires the products they sell to customers
+
+1. CUSTOM manufacturing
+2. Vendor or wholesale _supplier_
+3. **Dropshipping**
+
+#### Branding
+
+> To promote a product or service by identifying it with a particular brand
+
+<!-- FIN SEMANA #1 -->
+
+## Shopify
+
+
+
 
 
 
