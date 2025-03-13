@@ -161,6 +161,13 @@
       - [Net profit](#net-profit)
       - [Product sourcing](#product-sourcing)
       - [Branding](#branding)
+  - [E-Commerce Store](#e-commerce-store)
+    - [BOPIS](#bopis)
+    - [E-commerce platforms](#e-commerce-platforms)
+    - [Open-source software](#open-source-software)
+    - [SaaS](#saas)
+    - [Open-source platform](#open-source-platform)
+    - [SaaS platforms](#saas-platforms)
   - [Shopify](#shopify)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
 
@@ -2770,11 +2777,103 @@ __HELPS YOU DETERMINE IF YOUR ADVERTISING FOR THE PRODUCT IS PROFITABLE__ <br/>
 
 <!-- FIN SEMANA #1 -->
 
+## E-Commerce Store
+
+* Home page
+
+> Main page of a website
+
+* Navigation bar
+  
+> Collection of links to other pages within a website
+
+* Responsive website
+
+> Designed to work on all types of devices, including computers, mobile phones and tablets
+
+* Web accessibility
+
+> Means that a website or mobile app is designed and developed so that people with disabilities can use it
+
+* PDP
+
+> Product Details Page
+
+* Shopping Cart
+
+> Container to add products to buy
+
+* Payment
+
+> Secure way to process online transactions
+
+* Help and Support
+
+> May be links with useful information, chat, contact information
+
+
+### BOPIS
+
+* Buy online, pick up in store
+
+### E-commerce platforms
+
+* Wix
+* Shopify
+* Bigcommerce
+* Squarespace
+* WooCommerce
+* Magento
+
+### Open-source software
+
+> Software that allows the user to access and edit the original source code
+
+### SaaS
+
+> Software as a Service <br/>
+> Web-based software available on a subscription basis
+
+### Open-source platform
+
+* Advantages
+
+1. Complete control over a website's design and function
+2. Endless customization options
+
+* Disadvantages
+
+1. Requires coding and technical skills
+2. Separate fees for web hosting
+3. Other additional costs involved
+
+### SaaS platforms
+
+* Advantages
+
+1. All-in-one solution
+2. Built-in templates
+3. User-friendly software
+
+* Disadvantages
+
+1. Limits on customization
+2. Integration may be limited
+3. Payment methods may be limited
+4. Additional fees for some features
+
 ## Shopify
 
+Features: <br/>
 
-
-
+* Online store
+* Blog
+* Secure checkout
+* Payment processing
+* Shipping platform
+* Marketing tools
+* Analytics and reporting
+* 24/7 support
 
 
 
