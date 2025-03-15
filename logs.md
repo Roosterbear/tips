@@ -75,13 +75,13 @@ source ~/.bashrc
 [Emoticons](https://emojikeyboard.top/es/) 😋
 
 
-## Datos Semana #1
+## Datos Semana #
 
 * Planta: 3
 * ESET: 8
 * Mantenimientos: 1
 * Atención: 38
-* CURSO: 50%
+* CURSO: 80%
 <br/>
 ---------------------------
 <br/>

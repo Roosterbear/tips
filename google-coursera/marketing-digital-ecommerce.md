@@ -169,6 +169,11 @@
     - [Open-source platform](#open-source-platform)
     - [SaaS platforms](#saas-platforms)
   - [Shopify](#shopify)
+    - [Upload New product](#upload-new-product)
+      - [SKU - Stock Keeping Unit](#sku---stock-keeping-unit)
+      - [Analytics dashboard](#analytics-dashboard)
+    - [Google Merchant Center](#google-merchant-center)
+  - [Online advertising](#online-advertising)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
 
 
@@ -2874,6 +2879,56 @@ Features: <br/>
 * Marketing tools
 * Analytics and reporting
 * 24/7 support
+
+
+### Upload New product
+
+1. Click on Store
+2. Products - All products
+3. Add your products
+4. Write information like: Title, Description, Price.
+5. Save 
+
+
+#### SKU - Stock Keeping Unit
+
+> Unique code that retailers use to identify a product
+
+
+#### Analytics dashboard
+
+> Provides an overview of important metrics like:
+
+* Total sales
+* Online store conversion rate
+* Average order value
+
+### Google Merchant Center
+
+> A tool advertisers use to upload their store and product data to Google 
+> and make it available for Shopping ads and other Google services
+
+__Benefits:__ <br/>
+
+* Accurate Google Shopping listings
+* Exclusive Google Analytics support
+* Review capabilities for your online products
+* Simple Google AdWords integration
+
+__Create an account:__ <br/>
+
+1. At least one existing Google account
+2. A verified website and business
+3. Up-to-date product data on your e-commerce store, including pricing, availability and shipping information
+
+
+<!-- FIN SEMANA #2 -->
+
+## Online advertising
+
+> A form of marketing which uses the Internet to deliver promotional marketing messages to consumers
+
+
 
 
 

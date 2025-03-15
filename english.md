@@ -95,6 +95,7 @@
 * Could we guarantee no casualties among the hostages? 
 * Cut a deal
 * Tell Computers and Humans apart 
+* That's a wrap
 
 
 
