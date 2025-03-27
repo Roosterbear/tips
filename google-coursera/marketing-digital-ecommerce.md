@@ -174,6 +174,10 @@
       - [Analytics dashboard](#analytics-dashboard)
     - [Google Merchant Center](#google-merchant-center)
   - [Online advertising](#online-advertising)
+    - [Benefits of online advertising](#benefits-of-online-advertising)
+    - [Campaign](#campaign)
+    - [Smart Campaign](#smart-campaign)
+    - [Off-season](#off-season)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
 
 
@@ -2928,6 +2932,49 @@ __Create an account:__ <br/>
 
 > A form of marketing which uses the Internet to deliver promotional marketing messages to consumers
 
+### Benefits of online advertising
+
+* Cost effective
+* Global reach capabilities
+* Gather data for effective brand strategizing
+* Quick and easy to produce
+
+
+### Campaign
+
+> A tool that creates and initiates a plan for how to promote
+> products or services on Google's vast network of search results, 
+> websites, videos, mobile apps, maps, shopping listings and more
+
+* Types:
+
+1. Shopping
+2. Search
+3. Display
+4. Video
+
+### Smart Campaign
+
+* Automated
+* Easier set up
+* Saves money
+
+> Limitations
+
+* Limited campaign goals
+* Limited keyword options
+* Limited control of the budget
+
+### Off-season
+
+> Period where customers tend to make more time in making purchases, 
+> specially if it's for a larger ticket item. __STRATEGIES:__
+
+1. Grow your database
+2. Increase your social media presence
+3. Create greate quality content
+4. Promote other products on your site
+5. Geographic segmentation
 
 
 

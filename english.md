@@ -96,6 +96,8 @@
 * Cut a deal
 * Tell Computers and Humans apart 
 * That's a wrap
+* Picture this
+* 
 
 
 
