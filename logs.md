@@ -162,7 +162,7 @@ source ~/.bashrc
 68. Coby trabaja en la base de la Marina junto con Helmeppo, hijo de Morgan
 69. Garp supervisa el entrenamiento de Coby y Helmeppo
 70. Luffy y Vivi descubren un dinosaurio
-71. Conocen a los gigantes Broggy y Dorry. quien le salva la vida a Luffy
+71. Conocen a los gigantes Broggy y Dorry. Quien le salva la vida a Luffy
 72. 
 
 

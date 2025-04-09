@@ -178,6 +178,9 @@
     - [Campaign](#campaign)
     - [Smart Campaign](#smart-campaign)
     - [Off-season](#off-season)
+    - [Smart Bidding](#smart-bidding)
+    - [Smart Bidding Strategies](#smart-bidding-strategies)
+    - [Planning for seasonality](#planning-for-seasonality)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
 
 
@@ -2975,6 +2978,38 @@ __Create an account:__ <br/>
 3. Create greate quality content
 4. Promote other products on your site
 5. Geographic segmentation
+
+
+### Smart Bidding
+
+> A subset of automated bid strategies that use machine learning to
+> optimize for conversions or conversion value in each and every auction
+
+### Smart Bidding Strategies
+
+1. Maximize your conversion value (CPA)
+2. Set your return on AD spending (ROAS)
+
+
+### Planning for seasonality
+
+* Determine your bidding strategy
+* Consider new customer acquisition
+* Use __Performance Planner__ (Tool to prevent impact in scenarios on seasons)
+
+
+__USE SEASONALITY TO KNOW HOW MUCH A BUSINESS WILL SELL__ <br/>
+<br/>
+
+__IN A LOW SEASON WE MUST MAKE A STRONG AWARENESS BRAND__ <br/>
+__CREATE QUALITY CONTENT, SOCIAL MEDIA PRESENCE AND PROMOTE DIFFERENT PRODUCTS ON WEBSITE__ <br/>
+
+
+
+
+
+
+
 
 
 
