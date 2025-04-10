@@ -81,7 +81,7 @@ source ~/.bashrc
 * ESET: 8
 * Mantenimientos: 1
 * Atención: 38
-* CURSO: 80%
+* CURSO: 85%
 <br/>
 ---------------------------
 <br/>

@@ -1,80 +1,26 @@
-# DIGITAL MARKETING & E-COMMERCE
+__DIGITAL MARKETING & E-COMMERCE__
 <br/>
 <hr/>
 
-- [DIGITAL MARKETING \& E-COMMERCE](#digital-marketing--e-commerce)
-- [Foundations of Digital Marketing and E-commerce](#foundations-of-digital-marketing-and-e-commerce)
-  - [e-commerce](#e-commerce)
-    - [e-commerce purchases](#e-commerce-purchases)
-  - [Digital marketing](#digital-marketing)
-    - [Digital channels](#digital-channels)
-    - [Transferable skill](#transferable-skill)
-    - [Careers](#careers)
-    - [Digital Marketing Coordinator](#digital-marketing-coordinator)
-    - [e-commerce Analyst](#e-commerce-analyst)
-    - [e-commerce](#e-commerce-1)
-    - [How Digital Marketing Generates VALUE](#how-digital-marketing-generates-value)
-  - [DIGITAL MARKETING FUNNEL](#digital-marketing-funnel)
-    - [AWARENESS](#awareness)
-    - [CONSIDERATION](#consideration)
-    - [CONVERSION](#conversion)
-    - [LOYALTY](#loyalty)
-  - [CATEGORIES OF DIGITAL MEDIA](#categories-of-digital-media)
-  - [5 Pillars of Social Media Marketing](#5-pillars-of-social-media-marketing)
-  - [Ways of working with data](#ways-of-working-with-data)
-- [Attract and Engage Customers with Digital Marketing](#attract-and-engage-customers-with-digital-marketing)
-- [From likes to Leads: Interact with Customers Online](#from-likes-to-leads-interact-with-customers-online)
+- [1 - FOUNDATIONS OF DIGITAL MARKETING AND E-COMMERCE](#1---foundations-of-digital-marketing-and-e-commerce)
+  - [Digital Marketing Funnel](#digital-marketing-funnel)
+    - [Awareness](#awareness)
+    - [Consideration](#consideration)
+    - [Conversion](#conversion)
+    - [Loyalty](#loyalty)
+- [2 - ATTRACT AND ENGAGE CUSTOMERS WITH DIGITAL MARKETING](#2---attract-and-engage-customers-with-digital-marketing)
+  - [Awareness strategies and tactics](#awareness-strategies-and-tactics)
+    - [Convertion strategies and tactics](#convertion-strategies-and-tactics)
+  - [SEO - Search Engine Optimization](#seo---search-engine-optimization)
+- [3 - FROM LIKES TO LEADS: INTERACT WITH CUSTOMERS ONLINE](#3---from-likes-to-leads-interact-with-customers-online)
   - [5 Core Pillars of Social Media Marketing](#5-core-pillars-of-social-media-marketing)
-    - [1. Strategy](#1-strategy)
-    - [2. Planning and publishing](#2-planning-and-publishing)
-    - [3. Listening and engagement](#3-listening-and-engagement)
-    - [4. Analytics and reporting](#4-analytics-and-reporting)
-    - [5. Paid social media](#5-paid-social-media)
   - [Marketing Funnel](#marketing-funnel)
-  - [Campaign Goals](#campaign-goals)
-  - [How to identify your target audience](#how-to-identify-your-target-audience)
-  - [COMMON SOCIAL MEDIA CONTENT BUCKETS](#common-social-media-content-buckets)
-  - [How to aquire earned media](#how-to-aquire-earned-media)
   - [When to publish](#when-to-publish)
-    - [Chronological feed](#chronological-feed)
-    - [Social media algorithm](#social-media-algorithm)
-  - [Real-Time Marketing](#real-time-marketing)
-  - [Benefits of a social media calendar](#benefits-of-a-social-media-calendar)
-  - [Developing a social media calendar](#developing-a-social-media-calendar)
-  - [Hootsuite](#hootsuite)
-    - [Write the content](#write-the-content)
-  - [Social Listening](#social-listening)
-  - [Social Media Engagement](#social-media-engagement)
-    - [To increase your followers on Twitter](#to-increase-your-followers-on-twitter)
-    - [Write engaging content](#write-engaging-content)
-    - [Brand Voice](#brand-voice)
   - [Social Media Analytics](#social-media-analytics)
-    - [Metric](#metric)
-    - [Impression](#impression)
-    - [Applause rate](#applause-rate)
-    - [Referral](#referral)
-    - [Customer Testimonial](#customer-testimonial)
-    - [Net Promoter Score](#net-promoter-score)
-    - [Track competitors](#track-competitors)
   - [Social Media Report](#social-media-report)
-    - [Social media report could be:](#social-media-report-could-be)
-    - [Social media report considerations](#social-media-report-considerations)
-    - [KPI (Key Performance Indicator)](#kpi-key-performance-indicator)
-  - [Paid Social media](#paid-social-media)
-    - [Pay-per-click advertising](#pay-per-click-advertising)
-    - [Branded content](#branded-content)
-    - [Influencer-generated content](#influencer-generated-content)
-    - [Social media strategy](#social-media-strategy)
-    - [Paid Social Media Strategy](#paid-social-media-strategy)
-    - [Remarketing](#remarketing)
-    - [Remarketing Best Practices](#remarketing-best-practices)
-    - [Paid Social Budget Components](#paid-social-budget-components)
-      - [Bidding Strategy](#bidding-strategy)
-      - [CPC (Cost Per Click)](#cpc-cost-per-click)
-      - [CPA (Cost Per Action)](#cpa-cost-per-action)
-      - [CPM (Cost Per Thousand Impressions)](#cpm-cost-per-thousand-impressions)
-    - [Influencers](#influencers)
-- [Think Outside the inbox: Email Marketing](#think-outside-the-inbox-email-marketing)
+  - [Social media strategy](#social-media-strategy)
+  - [Remarketing](#remarketing)
+- [4 - Think Outside the inbox: Email Marketing](#4---think-outside-the-inbox-email-marketing)
   - [Email Marketing](#email-marketing)
     - [Return of Investment (ROI)](#return-of-investment-roi)
       - [Insights](#insights)
@@ -97,7 +43,7 @@
     - [Common mistakes](#common-mistakes)
   - [Metrics](#metrics)
     - [Concepts](#concepts)
-- [Assess for Success: Marketing Analytics and Measurement](#assess-for-success-marketing-analytics-and-measurement)
+- [5 - Assess for Success: Marketing Analytics and Measurement](#5---assess-for-success-marketing-analytics-and-measurement)
   - [Media Plan](#media-plan)
     - [Business Goal](#business-goal)
     - [Marketing goal](#marketing-goal)
@@ -131,7 +77,6 @@
   - [A/B test](#ab-test)
     - [Discrete metrics](#discrete-metrics)
     - [Metrics monitored](#metrics-monitored)
-    - [EXAMEN](#examen)
   - [Stakeholders](#stakeholders)
     - [We need to know](#we-need-to-know)
     - [Pivot table](#pivot-table)
@@ -139,17 +84,17 @@
     - [Tableau](#tableau)
   - [Presentations to Stakeholders](#presentations-to-stakeholders)
     - [Best practices in slides](#best-practices-in-slides)
-- [Make the Sale: Build, Launch and Manage E-commerce Stores](#make-the-sale-build-launch-and-manage-e-commerce-stores)
-  - [E-commerce](#e-commerce-2)
+- [6 - Make the Sale: Build, Launch and Manage E-commerce Stores](#6---make-the-sale-build-launch-and-manage-e-commerce-stores)
+  - [E-commerce](#e-commerce)
     - [Types of e-commerce](#types-of-e-commerce)
     - [Benefits of e-commerce](#benefits-of-e-commerce)
     - [Challenges in e-commerce](#challenges-in-e-commerce)
-    - [TRAFFIC](#traffic)
-    - [LANDING PAGE](#landing-page)
-    - [CALL TO ACTION](#call-to-action)
+    - [Traffic](#traffic)
+    - [Landing Page](#landing-page)
+    - [Call to Action](#call-to-action)
     - [Digital shopping cart](#digital-shopping-cart)
     - [Payment service provider](#payment-service-provider)
-    - [CONVERSION](#conversion-1)
+    - [Conversion](#conversion-1)
     - [E-commerce platform](#e-commerce-platform)
     - [Entry-level e-commerce roles](#entry-level-e-commerce-roles)
       - [Involves:](#involves)
@@ -187,22 +132,29 @@
     - [Personalization](#personalization)
     - [Rewards program](#rewards-program)
     - [E-commerce Point-Of-Sale (POS) System](#e-commerce-point-of-sale-pos-system)
-    - [CART ABANDONMENT REASONS](#cart-abandonment-reasons)
-    - [Order fulfillment](#order-fulfillment)
-- [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
+    - [Cart Abandonment Reasons](#cart-abandonment-reasons)
+  - [Order fulfillment](#order-fulfillment)
+    - [In-House fulfillment](#in-house-fulfillment)
+      - [Advantages](#advantages)
+    - [Dropshiping](#dropshiping)
+      - [Advantages](#advantages-1)
+    - [Fulfillment service](#fulfillment-service)
+    - [Supply chain](#supply-chain)
+- [7 - Satisfaction Guaranteed: Develop Customer Loyalty Online](#7---satisfaction-guaranteed-develop-customer-loyalty-online)
+  - [Loyalty](#loyalty-1)
 
 
 <hr/>
 
 🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​
-# Foundations of Digital Marketing and E-commerce
+# 1 - FOUNDATIONS OF DIGITAL MARKETING AND E-COMMERCE
 [Inicio](#digital-marketing--e-commerce) 
 
-## e-commerce 
+- [x] e-commerce 
 
 > The buying and selling of goods and services online
 
-### e-commerce purchases
+- [x] e-commerce purchases
 
 | Product | Example |
 |------|------| 
@@ -212,12 +164,12 @@
 | Software | Word processing or photo editing programs |
 
 
-## Digital marketing
+- [x] Digital marketing
 
 > The practice of reaching consumers online through digital channels with the aim of turning them into customers 
 
 
-### Digital channels
+__Digital channels__ <br/>
 
   * Websites
   * Search engines
@@ -225,20 +177,20 @@
   * Social media. 
 
 
-### Transferable skill
+__Transferable skill__ <br/>
 
 * Curiosity
 * Analytical mindset
 * Storytelling
 
 
-### Careers
+__Careers__ <br/>
 
 * In-house - Deep Knowledge
 * Agency - Multiple industries, flexible expertise
 
 
-### Digital Marketing Coordinator
+__Digital Marketing Coordinator__ <br/>
 
 * Identify objectives
 * SEO best practices
@@ -248,7 +200,7 @@
 * Clients activities monitoring
 
 
-### e-commerce Analyst
+__e-commerce Analyst__ <br/>
 
 * Ensure that customer interactions align with business objectives
 * Use SEO 
@@ -259,7 +211,7 @@
 * Execute and monitor loyalty programs
 
 
-### e-commerce
+_e-commerce_ <br/>
 
 * B2C - Business To Consumer
 * C2C - Consumer To Consumer
@@ -269,7 +221,7 @@
 > Freelancers, Influencers
 
 
-### How Digital Marketing Generates VALUE
+- [x] __How Digital Marketing Generates VALUE__
 
 * DM It is more than SELL and running ads to drive sales
 * Audience __TRUST__ your Brand
@@ -282,7 +234,7 @@
 * Adapts to __NEW__ technologies
 * Reach the target audience more accurately
 
-- [x] Inclusive Marketing
+- [x] _Inclusive Marketing_
 
 * Ethnicity
 * Socio-economic status
@@ -324,7 +276,7 @@
 > encounters along their purchase journey
 
 
-## DIGITAL MARKETING FUNNEL
+## Digital Marketing Funnel
 
 > A visual representation of the process through
 > which people go from first learning about a brand
@@ -338,7 +290,7 @@
 | __Loyalty__ | Reasons to RETURN |
 
 
-### AWARENESS
+### Awareness
 
 > Is when a potential customer encounters your brand for the first time. <br/>
 
@@ -406,7 +358,7 @@
 > How many times each individual encounters an AD in a given timeframe
 
 
-### CONSIDERATION
+### Consideration
 
 - [x] Measuring consideration
 
@@ -424,7 +376,7 @@
 * Samples, tools trial memberships
 
 
-### CONVERSION
+### Conversion
 > When a potential customer takes a desired action, like making a purchase
 
 - [x] Conversion tactics
@@ -451,7 +403,7 @@
 > but doesn't complete the purchase
 
 
-### LOYALTY
+### Loyalty
 
 - [x] Loyalty tactics
 
@@ -569,7 +521,7 @@
 > and increasing our mid-funnel budget by 20%"
 
 
-## CATEGORIES OF DIGITAL MEDIA
+- [x] Categories of Digital Media
 
 1. __PAID__ A form of digital promotion a brand pays to put online
 
@@ -634,7 +586,7 @@
 > in order to drive engagement and promote a brand or product
 
 
-## 5 Pillars of Social Media Marketing
+__5 Pillars of Social Media Marketing__ <br/>
 
 1. Strategy 
   * __KNOW WHO YOUR AUDIENCE IS AND WHICH SOCIAL MEDIA THEY USE__
@@ -712,7 +664,7 @@
 > Monitor and evaluating data to gain actionable insights
 
 
-## Ways of working with data
+- [x] Ways of working with data
 
 | Name | Definition |
 | ------- | ------- |
@@ -763,9 +715,7 @@
 <hr/>
 
 🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​
-# Attract and Engage Customers with Digital Marketing
-[CURSO#2]
-[Inicio](#digital-marketing--e-commerce) 
+# 2 - ATTRACT AND ENGAGE CUSTOMERS WITH DIGITAL MARKETING
 
 - [x] CUSTOMER PERSONA
 > A Group of similar persons in a desirable public, help us to:
@@ -824,7 +774,7 @@
 > When a potential customer first becomes aware of the product or service
 
 
-- [x] Awareness strategies and tactics
+## Awareness strategies and tactics
 
 * Search Engine Optimization (__Potitioning__)
 * Search Engine Marketing (__pay ADs__)
@@ -862,7 +812,7 @@
 > The percentage of users or website visitors that take a desired action
 
 
-- [x] Convertion strategies and tactics
+### Convertion strategies and tactics
 
 * Optimize the checkout process
 * Add better photos
@@ -958,7 +908,7 @@
 * Yandex (Rusia)
 
 
-- [x] SEO - Search Engine Optimization
+## SEO - Search Engine Optimization
 
 > The process of increasing the visibility of website pages on
 > search engines in order to attract more relevant traffic
@@ -1149,7 +1099,6 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 > __Bing__ para agregar páginas al rastreo e indexación
 
 
-
 - [x] Search Engine Marketing (SEM)
 
 > Increasing a product or service's visibility on a 
@@ -1292,8 +1241,7 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 <hr/>
 
 🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​
-# From likes to Leads: Interact with Customers Online
-[Inicio](#digital-marketing--e-commerce) 
+# 3 - FROM LIKES TO LEADS: INTERACT WITH CUSTOMERS ONLINE
 
 - [x] Social Media
 > Any digital tool that enables users to create and share content publicly
@@ -1319,19 +1267,19 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 
 ## 5 Core Pillars of Social Media Marketing
 
-### 1. Strategy
+- [x] 1. Strategy
 
   * The goals of your campaign
   * The social media platforms you'll use
   * The types of content you'll post
 
-### 2. Planning and publishing
+- [x] 2. Planning and publishing
 
   * Have a consistent presence
   * Schedule posts in advance
   * Consider timing and frequency
 
-### 3. Listening and engagement
+- [x] 3. Listening and engagement
 
 > __SOCIAL LISTENING__
 > Tracking and analyzing conversations and trends related to your brand
@@ -1344,7 +1292,7 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 > __ENGAGEMENT__
 > How your audience interacts with your brand on social media
 
-### 4. Analytics and reporting
+- [x] 4. Analytics and reporting
 
 > __SOCIAL MEDIA ANALYTICS__
 > The process of collecting data from your social media
@@ -1358,14 +1306,14 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 > A document that presents relevant data and analysis 
 > about your social media activities
 
-### 5. Paid social media
+- [x] 5. Paid social media
 
   * Control and target your marketing
   * Reach a wider audience
   * Grow your brand on social media
 
 
-- [x] Earned media
+__Earned media__ <br/>
 > Personal or public promotion of a brand or product
 
 * Customer reviews and testimonials
@@ -1381,14 +1329,14 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 * Organic social media
 > Any social media activity that does not require a paid promotion
 
-- [x] Owned media
+__Owned media__ <br/>
 > All the digital content a brand fully controls
 
 * Blog sites
 * Social media profiles
 * Community forums
 
-- [x] Paid media
+__Paid media__ <br/>
 > Any form of digital promotion a brand pays to put online
 
 
@@ -1413,7 +1361,7 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 > who have visited your website, app or social media profile
 
 
-## Campaign Goals
+- [x] Campaign Goals
 
 * Hold you accountable
 * Guide your budget
@@ -1457,7 +1405,7 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 > to reach on social media platforms
 
 
-## How to identify your target audience
+__How to identify your target audience__ <br/>
 
 1. Compile information about your current customers
    > Demographic information
@@ -1470,8 +1418,8 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
   > __Social listening__
   > Tracking your social media platforms for mentions 
   > and conversations about your brand
-3. Research what social media platforms your target audience uses
-4. Observe the competition
+1. Research what social media platforms your target audience uses
+2. Observe the competition
 
 
 - [x] Considerations when choosing platforms
@@ -1491,7 +1439,7 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 * Make a voice of your brand
 
 
-## COMMON SOCIAL MEDIA CONTENT BUCKETS
+__Common Social Media Content Buckets__ <br/>
 
 * __ENTERTAINING__ - Viral videos, jokes, comics, contests, giveaways and memes
   - __Meme__ is an amusing or interesting item that spread widely online
@@ -1501,7 +1449,7 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 * __CONVERSATIONAL__ - Encourages your audience to engage with you
 * __PROMOTIONAL CONTENT__ - Talks about your products 
 
-## How to aquire earned media
+__How to aquire earned media__ <br/>
 
 * Customer Reviews
 * Blog posts about your product
@@ -1511,11 +1459,11 @@ __NEVER FAKE DATA TO THE STRUCTURED DATA MARKUP__ <br/>
 
 ## When to publish
 
-### Chronological feed
+__Chronological feed__ <br/>
 
 > A stream that displays the latest published content first
 
-### Social media algorithm
+- [x] Social media algorithm
 
 > A way of sorting posts in a users feed based on **relevancy**
 > rather than the order in which they are published
@@ -1532,7 +1480,7 @@ Consider: <br/>
 - [x] Seasons and holidays
 - [x] Current events
 
-## Real-Time Marketing
+__Real-Time Marketing__ <br/>
 
 * **Relevant** ¿WHATS'S HAPPENING RIGHT NOW?
 * **Intelligent** ¿HOW CAN I MAKE CONTENT WITH PERSONALITY?
@@ -1541,7 +1489,7 @@ Consider: <br/>
 * **Flashy** ¿WHAT IT NEEDS FOR THE PEOPLE TO SEE THIS CONTENT AND ENGAGE?
 
 
-## Benefits of a social media calendar
+- [x] Benefits of a social media calendar
 
 1. Schedule posts in advance
 2. Organize content in a centralized location
@@ -1550,7 +1498,7 @@ Consider: <br/>
 5. Avoid major mistakes
 
 
-## Developing a social media calendar
+__Developing a social media calendar__ <br/>
 
 - [x] Identify platforms
 - [x] Review current platforms and content
@@ -1564,11 +1512,11 @@ Consider: <br/>
 > The process of bringing together and structuring different pieces
 > of content to keep social media profiles fresh and up to date
 
-## Hootsuite
+- [x] Hootsuite
 
 > https://education.hootsuite.com/
 
-### Write the content
+__Write the content__ <br/>
 
 - [x] **Mentions** Companies Users, Brands, People preceded by "@"
 - [x] **Links** 
@@ -1576,7 +1524,7 @@ Consider: <br/>
 - [x] **Hashtags** Preceded by "#", indicates a relation with a topic
 
 
-## Social Listening
+- [x] Social Listening
 
 > Social media is a two-step process:
 
@@ -1612,7 +1560,7 @@ Consider: <br/>
 * Hastags related to the brand
 
 
-## Social Media Engagement
+__Social Media Engagement__
 
 > Measures how people are interacting with
 > your social media accounts and content
@@ -1638,7 +1586,7 @@ Consider: <br/>
 * Get creative
 
 
-### To increase your followers on Twitter
+__To increase your followers on Twitter__
 
 * Engage with your audience
 * Tweet frequently
@@ -1647,7 +1595,7 @@ Consider: <br/>
 * Write a creative bio
 * Promote your social media accounts through other channels
 
-### Write engaging content
+__Write engaging content__
 
 * Write to your audience
 * Speak like your audience
@@ -1657,7 +1605,7 @@ Consider: <br/>
 * Write in your brand voice
 * Pay attention to grammar and spelling
 
-### Brand Voice
+__Brand Voice__
 
 * Helps you stand out on social media
 * Makes your brand more recognizable
@@ -1668,7 +1616,7 @@ Consider: <br/>
 
 ## Social Media Analytics
 
-### Metric
+__Metric__ <br/>
 
 > A quantificable measurement that is used to track and assess a business objective
 
@@ -1679,36 +1627,36 @@ Consider: <br/>
 
 - [x] AWARENESS - Capture audience's attention
 
-### Impression
+__Impression__ <br/>
 
 > When a piece of content is displayed to your target audience
 
 - [x] CONSIDERATION
 
-### Applause rate
+__Applause rate__ <br/>
 
 > The number of approval actions - such as likes, mentions, retweets or 
 > favorites - that a post receives relative to your total number of followers
 
 - [x] CONVERSION - Completion of an activity that contributes to a business success
 
-### Referral
+__Referral__ <br/>
 
 > How someone was guided to your website
 
 - [x] LOYALTY
 
-### Customer Testimonial
+__Customer Testimonial__ <br/>
 
 Customer review, assessment, comment, endorsement or interview relating to your Brand
 
 
-### Net Promoter Score
+__Net Promoter Score__ <br/>
 
 > A metric that helps predict future customer engagement by asking customers:
 > "How likely is it that you would recommend our product to a friend?"
 
-### Track competitors
+__Track competitors__ <br/>
 
 * Which content performs best
 * Which platforms their content is shared on most
@@ -1724,7 +1672,7 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 * Help justify strategy and decisions based on data to colleagues and clients
 * Provide them with valuable insights
 
-### Social media report could be:
+__Social media report could be:__ <br/>
 
 * Quick email
 * Snapshot of a particular post-performance
@@ -1732,7 +1680,7 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 * Slideshow with key findings and analysis
 
 
-### Social media report considerations 
+- [x] Social media report considerations 
 
 * Tailored to the audience
 * Include the data most relevant to audience
@@ -1743,12 +1691,12 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 * Reasons give how best to adjust their strategy
 
 
-### KPI (Key Performance Indicator)
+- [x] KPI (Key Performance Indicator)
 
 > A measurement used to gauge how successful an organization is
 > in its effort to reach a business or marketing goal
 
-## Paid Social media
+- [x] Paid Social media
 
 > Displaying paid advertisements or sponsored marketing messages on
 > social media platforms to target a specific audience
@@ -1759,17 +1707,17 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 <br/>
 
 
-### Pay-per-click advertising
+__Pay-per-click advertising__ <br/>
 
 > A type of advertising where you pay each time someone click on your ad
 
 
-### Branded content
+__Branded content__ <br/>
 
 > Any post that features a third-party product, brand or sponsor
 
 
-### Influencer-generated content
+__Influencer-generated content__ <br/>
 
 > Any post created by an influencer that promotes 
 > a brand's products and services
@@ -1795,10 +1743,10 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 > Comparing two versions of an ad to determine
 > which has the higher conversion rate
 
-### Social media strategy
+## Social media strategy
 
 
-### Paid Social Media Strategy
+__Paid Social Media Strategy__ <br/>
 
 - [x] Define your objective
 - [x] Determine your audience
@@ -1820,7 +1768,7 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 - [x] Descargas
 - [x] Interacción
 
-### Remarketing
+## Remarketing
 
 > Displays paid ads to target customers who have 
 > visited your website, app or social media profile <br/>
@@ -1837,7 +1785,7 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 > **Hashing:** A security method which turns the personal information
 > in your email lists into randomized code
 
-### Remarketing Best Practices
+- [x] Remarketing Best Practices
 
 * Personalize your ads
 * Remarket to past purchasers
@@ -1845,7 +1793,7 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 * Untag visitors who have purchased
 
 
-### Paid Social Budget Components
+__Paid Social Budget Components__ <br/>
 
 * Ad spend
 > How much your company spends directly on advertisements
@@ -1872,12 +1820,12 @@ Customer review, assessment, comment, endorsement or interview relating to your 
   4. Engagement
   5. Analytics and Reporting
 
-#### Bidding Strategy
+__Bidding Strategy__ <br/>
 
 > Tells how much a company will pay for each
 > user action related to an ad
 
-#### CPC (Cost Per Click)
+__CPC (Cost Per Click)__ <br/>
 
 > The amount you pay when someone clicks on your ad
 
@@ -1885,7 +1833,7 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 * Drives website traffic 
 
 
-#### CPA (Cost Per Action)
+__CPA (Cost Per Action)__ <br/>
 
 > The amount you pay when someone completes a desired action
 
@@ -1893,7 +1841,7 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 * Increases conversions and revenue
 * Allows comparison across platforms
 
-#### CPM (Cost Per Thousand Impressions)
+__CPM (Cost Per Thousand Impressions)__ <br/>
 
 > The amount you pay for every 1,000 impressions and ad receives
 
@@ -1901,7 +1849,7 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 * Deliver specific messages
 * Increases engagement
 
-### Influencers
+- [x] Influencers
 
 1. *Megainfluencers* 1 million or more followers
 2. *Macroinfluencers* 100,000 to 1 million of followers
@@ -1912,8 +1860,7 @@ Customer review, assessment, comment, endorsement or interview relating to your 
 <hr/>
 
 🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​
-# Think Outside the inbox: Email Marketing
-[Inicio](#digital-marketing--e-commerce) 
+# 4 - Think Outside the inbox: Email Marketing
 
 ## Email Marketing
 
@@ -2215,8 +2162,7 @@ Good for:
 <hr/>
 
 🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​
-# Assess for Success: Marketing Analytics and Measurement
-[Inicio](#digital-marketing--e-commerce) 
+# 5 - Assess for Success: Marketing Analytics and Measurement
 
 ## Media Plan
 
@@ -2475,80 +2421,6 @@ __Conversion paths view__
 <hr/>
 
 
-### EXAMEN
-
-1. ¿Cuáles son las diferentes formas de calcular el retorno de la inversión (ROI)? Selecciona dos.
-* Restar el costo de marketing del crecimiento total de las ventas durante el periodo en que se ejecutó la campaña y luego dividir el resultado por el costo de marketing. 
-* Utilizar el valor del tiempo de vida del cliente (LTV), que es el ingreso promedio generado por cliente durante un cierto periodo de tiempo. 
-
-
-2. ¿Cómo se calcula el retorno de la inversión publicitaria (ROAS)?
-* Se calculan los ingresos generados, divididos por el monto gastado en publicidad.
-
-
-3. ¿Qué debes documentar para prepararte para una prueba A/B? Selecciona todas las opciones que correspondan.
-* El rendimiento pasado
-* La mejora deseada
-
-
-4. Una herramienta de software que ayuda a personalizar páginas web con aprendizaje automático lleva a cabo _____.
-
-> --no-- pruebas A/B orientadas a métricas
-> --no-- pruebas A/B basadas en clientes
-continuas?
-
-5. Realizar _____ puede aumentar el número de conversiones.
-
-> --no-- generacion de leads
-
-6. Imagina el siguiente escenario:
-Una empresa está considerando cambiar su título y quiere probar cómo impactará sobre las ventas pasar de un encabezado de “Actúa ahora mientras duren las existencias” a “Grandes ahorros, oferta por tiempo limitado”.
-
-> --no-- Una evaluación de mix de medios
-
-7. Las/los especialistas en marketing digital pueden realizar cambios menores en el texto de los anuncios sin probarlos completamente, especialmente porque las pruebas A/B _____.
-
-> --no-- necesitan datos de usuarios/as por adelantado
-
-8. ¿A qué debes prestar atención al revisar los resultados en la tabla de variaciones de anuncios? 
-
-> --no-- A la variación que tuvo el feedback más negativo
-> --no-- al numero de impresiones que registro cada variación
-> --no-- al monto de clics que recibio la variacion
-
-9. ¿De qué dependen los insights que utilizas para evaluar el éxito de una campaña de marketing? 
-
-* De los objetivos de marketing
-
-10. Imagina el siguiente escenario:
-
-Una reciente campaña estableció un objetivo de rendimiento micro de aumentar las suscripciones de correo electrónico en un 20%. También estableció un objetivo de rendimiento macro de aumentar las compras en un 12%. Los resultados mostraron que la campaña aumentó las suscripciones de correo electrónico en un 25%, pero parecía no tener ningún efecto en las compras completadas. 
-
-Con base en estos datos, ¿qué acción deberías tomar para una campaña futura? 
-
-* Deberías revisar y modificar los mensajes de correo electrónico para aumentar las conversiones. 
-
-11. ¿Qué pueden probar las herramientas de software al realizar una prueba A/B? Selecciona todas las opciones que correspondan.
-* las paginas con mejor rendimiento
-* los puntos de contacto en el rcorrido del cliente
-
-12. Al prepararse para__ es util documentar el rendimiento pasado y la mejora deseada
-* pruebas A/B
-
-13. Cuales son los beneficios de pruebas A/B
-* Aumenta el numero de conversiones
-> --no-- aumenta crecimiento de ventas
-
-14. Los especialistas en marketing digital pueden relizar cambios menores en el texto sin probarlos, porque las pruebas A/B
-* demandan tiempo y presupuesto
-
-15. EL EXITO DE UNA CAMPAÑA DE MARKETING esta determinado si cumple_______ de la empresa
-* objetivos de rendimiento*
-
-16. DE QUE DEPENDEN LOS INSIGHTS que utilizas para evaluar el exito de una campaña de mkt
-> --no-- metricas de clientes
-
-
 ## Stakeholders
 
 > Someone with an interest in or a concern for a project and its results
@@ -2618,8 +2490,7 @@ __INK-RATIO__ <br/>
 <br/>
 
 🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​
-# Make the Sale: Build, Launch and Manage E-commerce Stores
-[Inicio](#digital-marketing--e-commerce) 
+# 6 - Make the Sale: Build, Launch and Manage E-commerce Stores
 
 ## E-commerce
 
@@ -2655,15 +2526,15 @@ __INK-RATIO__ <br/>
 * lack of in-person customer service
 
 
-### TRAFFIC
+### Traffic
 
 > Number of visits that a website receives
 
-### LANDING PAGE
+### Landing Page
 
 > First page a visitor encounters when they go to a website
 
-### CALL TO ACTION
+### Call to Action
 
 > Instruction provided to the customer that tells them what to do next
 
@@ -2675,7 +2546,7 @@ __INK-RATIO__ <br/>
 
 > A secure way to process transactions online
 
-### CONVERSION
+### Conversion
 
 > Completion of an activity that contributes to the success of a business
 
@@ -3031,7 +2902,7 @@ __CREATE QUALITY CONTENT, SOCIAL MEDIA PRESENCE AND PROMOTE DIFFERENT PRODUCTS O
 
 ### Personalization
 
-> Practice of delivering a customized experience for each customer
+> Practice of delivering a customized EXPERIENCE for each customer
 
 ### Rewards program
 
@@ -3046,11 +2917,11 @@ __CREATE QUALITY CONTENT, SOCIAL MEDIA PRESENCE AND PROMOTE DIFFERENT PRODUCTS O
 
 > Software that allows a business to process payment transactions from customers online
 
-### CART ABANDONMENT REASONS
+### Cart Abandonment Reasons
 
 * Just browsing or not ready to buy
 * Extra costs for shipping, taxes and fees are too high
-* Requires an account
+* REQUIRES AN ACCOUNT
 * Long or complicated checkout
 * Needs to be easy to navigate on a mobile device
 * Security concerns
@@ -3063,42 +2934,142 @@ __CREATE QUALITY CONTENT, SOCIAL MEDIA PRESENCE AND PROMOTE DIFFERENT PRODUCTS O
 2. CREATE ABANDONED CART SERIES
 3. MINIMIZE STEPS
 
-### Order fulfillment
+## Order fulfillment
 
 > Steps that take place between receiving an order and delivering the order to the customer
 
+1. Processing the order
+2. Picking the product from warehouse or store shelves
+3. Packing it all up
+4. Shipping the package to the customer
 
 
+### In-House fulfillment
+
+#### Advantages
+
+* Control over the quality of the work
+* Custom packaging
+
+### Dropshiping
+
+> Owns, manages and stores all inventory. They manage the fulfillment.
+
+#### Advantages
+
+* Outsources a significant amount of work
+* Faster to launch a new e-commerce store
+* Avoids inventory risk
+
+### Fulfillment service
+
+> A third-party company that prepares and ships orders from their fulfillment centers
+
+* Frees up time for the e-commerce business
+* Faster shipping if the fulfillment center has multiple locations
 
 
+### Supply chain
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+> Flow of goods from the beginning stage of sourcing raw materials 
+> all the way to the finished product that is delivered to the customer
 
 <hr/>
 
 🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​🤑​
-# Satisfaction Guaranteed: Develop Customer Loyalty Online
-[Inicio](#digital-marketing--e-commerce) 
+# 7 - Satisfaction Guaranteed: Develop Customer Loyalty Online
+
+## Loyalty
+
+- [x] Way to build trust
+
+* Quantity products
+* Generous return policy
+* Free shipping and returns
+* Quality customer service
+* Protect customers' personal and financial information
+
+> _WHEN CUSTOMERS TRUST A BUSINESS, THEY'RE MORE LIKELY TO BECOME LOYAL CUSTOMERS_
+
+- [x] Ways to create a sense of community
+
+* Social media
+* User-generated content
+* Sharing the story behind your brand
+* Demostrating how your values align with the customers' value
+
+- [x] Ways to make it easy for customers to stay connected
+
+* Subscription for products
+* Dynamic remarketing
+* Email marketing
+* Rewards program
+
+
+__MODELS__ <br/>
+
+- [x] Spend-based model
+
+> A rewards program that offers customers incentives based on an amount spent during a __SINGLE__ purchase.
+
+- [x] Tier-based model
+
+> A rewards program that allows customers to __GRADUATE__ to new customer status levels based on 
+> the amount of money they spend with a company over time.
+
+- [x] Subscription model
+
+> A rewards program that requires customers to make a recurring payment in order to receive an exlusive incentive
+
+
+__Considerations for a successful e-commerce loyalty program__ <br/>
+
+1. How can we personalize our ñpyalty program experience?
+2. How can our rewards program be both desirable and attainable?
+3. How can we create community within our customer base?
+
+__Post-purchase communication__ <br/>
+
+> Any direct interaction customers have with a brand after they make a purchase
+
+1. Email (THANK YOU, REVIEW REQUEST, CUSTOMER SATISFACTION SURVEY, REPLENISHMENT)
+2. Social Media
+3. Direct mail
+
+- [x] Customer survey
+
+> A tool to measure how products and services supplied by a company meet or surpass customer expectations
+
+_Can help you learn:_ <br/>
+
+* Demographics
+* Customer interest and hobbies
+* Issues customers had related to their shopping experience
+
+__Custopmer survey categories__ <br/>
+
+* Pre-purchase surveys
+* Post-purchase surveys
+
+_Tips:_ <br/>
+
+* Avoid asking leading questions
+* Avoid providing answer options that overlap
+* Keep questions short and simple
+* Be respectful and inclusive
+* Use your brand's tone of voice
+
+__Customer Survey Question Checlist__ <br/>
+
+* Is the wording used in this question simple and easy to understand?
+* Does this question ask too much personal information?
+* Is this question too complex?
+* Does this question make an assumption about my customer?
+
+
+
+
+
+
+
+
