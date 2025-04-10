@@ -181,6 +181,14 @@
     - [Smart Bidding](#smart-bidding)
     - [Smart Bidding Strategies](#smart-bidding-strategies)
     - [Planning for seasonality](#planning-for-seasonality)
+    - [Pain Point](#pain-point)
+    - [Optimize your e-commerce strategy](#optimize-your-e-commerce-strategy)
+  - [Customer engagement](#customer-engagement)
+    - [Personalization](#personalization)
+    - [Rewards program](#rewards-program)
+    - [E-commerce Point-Of-Sale (POS) System](#e-commerce-point-of-sale-pos-system)
+    - [CART ABANDONMENT REASONS](#cart-abandonment-reasons)
+    - [Order fulfillment](#order-fulfillment)
 - [Satisfaction Guaranteed: Develop Customer Loyalty Online](#satisfaction-guaranteed-develop-customer-loyalty-online)
 
 
@@ -3003,6 +3011,79 @@ __USE SEASONALITY TO KNOW HOW MUCH A BUSINESS WILL SELL__ <br/>
 
 __IN A LOW SEASON WE MUST MAKE A STRONG AWARENESS BRAND__ <br/>
 __CREATE QUALITY CONTENT, SOCIAL MEDIA PRESENCE AND PROMOTE DIFFERENT PRODUCTS ON WEBSITE__ <br/>
+
+### Pain Point
+
+> A specific problem faced by current or prospective customers while interacting with a site
+
+
+### Optimize your e-commerce strategy
+
+* Conduct more research on industry booms and slumps
+* Simplify the buying process
+
+
+<!-- FIN SEMANA #3 -->
+
+## Customer engagement
+
+> The interactions and emotional connection between a customer and a brand
+
+### Personalization
+
+> Practice of delivering a customized experience for each customer
+
+### Rewards program
+
+> A marketing strategy designed to build customer loyalty by providing 
+> incentives for customers to continue shopping with a brand
+
+* Discount code for signing up
+* Free birthday gift
+* Allowing customers to choose their reward
+
+### E-commerce Point-Of-Sale (POS) System
+
+> Software that allows a business to process payment transactions from customers online
+
+### CART ABANDONMENT REASONS
+
+* Just browsing or not ready to buy
+* Extra costs for shipping, taxes and fees are too high
+* Requires an account
+* Long or complicated checkout
+* Needs to be easy to navigate on a mobile device
+* Security concerns
+* Preferred payment method not available
+* Slow delivery times
+* Errors during checkout
+* Unsatisfactory return policy
+
+1. MAKE LANGUAGE CLEAR
+2. CREATE ABANDONED CART SERIES
+3. MINIMIZE STEPS
+
+### Order fulfillment
+
+> Steps that take place between receiving an order and delivering the order to the customer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
