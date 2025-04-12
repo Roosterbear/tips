@@ -2983,7 +2983,7 @@ __CREATE QUALITY CONTENT, SOCIAL MEDIA PRESENCE AND PROMOTE DIFFERENT PRODUCTS O
 
 - [x] Way to build trust
 
-* Quantity products
+* Quality products
 * Generous return policy
 * Free shipping and returns
 * Quality customer service
@@ -2997,6 +2997,8 @@ __CREATE QUALITY CONTENT, SOCIAL MEDIA PRESENCE AND PROMOTE DIFFERENT PRODUCTS O
 * User-generated content
 * Sharing the story behind your brand
 * Demostrating how your values align with the customers' value
+* _Donating_
+ 
 
 - [x] Ways to make it easy for customers to stay connected
 
@@ -3007,6 +3009,11 @@ __CREATE QUALITY CONTENT, SOCIAL MEDIA PRESENCE AND PROMOTE DIFFERENT PRODUCTS O
 
 
 __MODELS__ <br/>
+
+- [x] Points model
+
+> A reward program that offers customers a point equivalent for a determined 
+> monetary value spent over the course of several purchases.
 
 - [x] Spend-based model
 
@@ -3067,9 +3074,19 @@ __Customer Survey Question Checlist__ <br/>
 * Does this question make an assumption about my customer?
 
 
+__Customer service channels__ <br/>
 
+* Email
+* Live chat
+* Chatbots
 
+__Customer service aspects__ <br/>
 
+1. Get the issue resolved quickly
+2. Resolve it in one interaction
+3. Provide friendly customer service throughout
+4. Follow up
 
-
+Encuesta __NPS (Net Promoter Score)__ <br/>
+Encuesta __CSAT (Client Satisfaction)__ <br/>
 
