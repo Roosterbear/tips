@@ -22,124 +22,31 @@ __DIGITAL MARKETING & E-COMMERCE__
   - [Remarketing](#remarketing)
 - [4 - Think Outside the inbox: Email Marketing](#4---think-outside-the-inbox-email-marketing)
   - [Email Marketing](#email-marketing)
-    - [Return of Investment (ROI)](#return-of-investment-roi)
-      - [Insights](#insights)
-    - [SWOT](#swot)
-    - [PESTLE](#pestle)
-    - [SMART Goals](#smart-goals)
   - [New Subscribers](#new-subscribers)
-    - [Acquisition email](#acquisition-email)
-    - [Welcome email](#welcome-email)
-    - [Newsletter](#newsletter)
-    - [Promotional email](#promotional-email)
-    - [Retention email](#retention-email)
   - [Mailing List](#mailing-list)
-    - [Tools to build a list](#tools-to-build-a-list)
-    - [Geography for segmentation](#geography-for-segmentation)
-    - [Psychographic characteristics for segmentation](#psychographic-characteristics-for-segmentation)
-    - [Demographic data for segmentation](#demographic-data-for-segmentation)
-    - [Behavioral data for segmentation](#behavioral-data-for-segmentation)
-    - [Email marketing automation](#email-marketing-automation)
-    - [Common mistakes](#common-mistakes)
   - [Metrics](#metrics)
-    - [Concepts](#concepts)
 - [5 - Assess for Success: Marketing Analytics and Measurement](#5---assess-for-success-marketing-analytics-and-measurement)
   - [Media Plan](#media-plan)
-    - [Business Goal](#business-goal)
-    - [Marketing goal](#marketing-goal)
-    - [Key Performance Indicator (KPI)](#key-performance-indicator-kpi)
-    - [ROAS (Return On Ad Spend)](#roas-return-on-ad-spend)
-    - [Bounce rate](#bounce-rate)
-    - [Additional budget](#additional-budget)
-    - [Conversion volume](#conversion-volume)
-    - [Cost Per Acquisition / Action](#cost-per-acquisition--action)
   - [Google Analytics](#google-analytics)
-    - [Attribution](#attribution)
-    - [Macro conversions](#macro-conversions)
-    - [Micro conversions](#micro-conversions)
-    - [Big Data](#big-data)
-    - [Trends](#trends)
-    - [Dimensions](#dimensions)
-    - [Urchin tracking module (UTM)](#urchin-tracking-module-utm)
-    - [Awareness metrics](#awareness-metrics)
-    - [Consideration metrics](#consideration-metrics)
-    - [Conversion metrics](#conversion-metrics)
-    - [Cross-channel LAST CLICK](#cross-channel-last-click)
-    - [Comma-separated values (CSV)](#comma-separated-values-csv)
     - [Google Analytics](#google-analytics-1)
-    - [Google Tag Manager](#google-tag-manager)
-    - [Google ADs can help in AD Groups:](#google-ads-can-help-in-ad-groups)
-    - [Segment overlap](#segment-overlap)
-    - [Return on investment (ROI)](#return-on-investment-roi)
-    - [Customer lifetime value (LTV)](#customer-lifetime-value-ltv)
-    - [Return on ad spend (ROAS)](#return-on-ad-spend-roas)
-    - [Marketing (Media) Mix Models](#marketing-media-mix-models)
   - [A/B test](#ab-test)
-    - [Discrete metrics](#discrete-metrics)
-    - [Metrics monitored](#metrics-monitored)
   - [Stakeholders](#stakeholders)
-    - [We need to know](#we-need-to-know)
-    - [Pivot table](#pivot-table)
-    - [Dashboard](#dashboard)
-    - [Tableau](#tableau)
   - [Presentations to Stakeholders](#presentations-to-stakeholders)
-    - [Best practices in slides](#best-practices-in-slides)
 - [6 - Make the Sale: Build, Launch and Manage E-commerce Stores](#6---make-the-sale-build-launch-and-manage-e-commerce-stores)
   - [E-commerce](#e-commerce)
-    - [Types of e-commerce](#types-of-e-commerce)
-    - [Benefits of e-commerce](#benefits-of-e-commerce)
-    - [Challenges in e-commerce](#challenges-in-e-commerce)
-    - [Traffic](#traffic)
-    - [Landing Page](#landing-page)
-    - [Call to Action](#call-to-action)
-    - [Digital shopping cart](#digital-shopping-cart)
-    - [Payment service provider](#payment-service-provider)
-    - [Conversion](#conversion-1)
-    - [E-commerce platform](#e-commerce-platform)
-    - [Entry-level e-commerce roles](#entry-level-e-commerce-roles)
-      - [Involves:](#involves)
     - [Market research](#market-research)
-      - [Types of market research](#types-of-market-research)
-      - [Considerations](#considerations)
-      - [Demographics to consider](#demographics-to-consider)
-      - [Demand](#demand)
-      - [Net profit](#net-profit)
-      - [Product sourcing](#product-sourcing)
-      - [Branding](#branding)
   - [E-Commerce Store](#e-commerce-store)
-    - [BOPIS](#bopis)
     - [E-commerce platforms](#e-commerce-platforms)
-    - [Open-source software](#open-source-software)
     - [SaaS](#saas)
-    - [Open-source platform](#open-source-platform)
-    - [SaaS platforms](#saas-platforms)
   - [Shopify](#shopify)
-    - [Upload New product](#upload-new-product)
-      - [SKU - Stock Keeping Unit](#sku---stock-keeping-unit)
-      - [Analytics dashboard](#analytics-dashboard)
-    - [Google Merchant Center](#google-merchant-center)
   - [Online advertising](#online-advertising)
-    - [Benefits of online advertising](#benefits-of-online-advertising)
     - [Campaign](#campaign)
-    - [Smart Campaign](#smart-campaign)
     - [Off-season](#off-season)
     - [Smart Bidding](#smart-bidding)
-    - [Smart Bidding Strategies](#smart-bidding-strategies)
-    - [Planning for seasonality](#planning-for-seasonality)
-    - [Pain Point](#pain-point)
-    - [Optimize your e-commerce strategy](#optimize-your-e-commerce-strategy)
-  - [Customer engagement](#customer-engagement)
-    - [Personalization](#personalization)
-    - [Rewards program](#rewards-program)
-    - [E-commerce Point-Of-Sale (POS) System](#e-commerce-point-of-sale-pos-system)
-    - [Cart Abandonment Reasons](#cart-abandonment-reasons)
   - [Order fulfillment](#order-fulfillment)
     - [In-House fulfillment](#in-house-fulfillment)
-      - [Advantages](#advantages)
     - [Dropshiping](#dropshiping)
-      - [Advantages](#advantages-1)
     - [Fulfillment service](#fulfillment-service)
-    - [Supply chain](#supply-chain)
 - [7 - Satisfaction Guaranteed: Develop Customer Loyalty Online](#7---satisfaction-guaranteed-develop-customer-loyalty-online)
   - [Loyalty](#loyalty-1)
 
@@ -1872,18 +1779,16 @@ __CPM (Cost Per Thousand Impressions)__ <br/>
 - [x] Ease of use
 - [x] Number of email users
 
-### Return of Investment (ROI)
-
+> **Return of Investment (ROI)**
 > A ratio of net income (**money made**)
 > and investment (**money spent**)
 
-#### Insights
-
+> **Insights**
 > Pieces of information that are discovered through research
 > or data analysis and that can be directly actioned upon to
 > benefit your email strategy
 
-### SWOT
+> SWOT<br/>
 
 - [x] **Strengths** - Where you shine
 - [x] **Weaknesses** - What you can improve
@@ -1892,7 +1797,7 @@ __CPM (Cost Per Thousand Impressions)__ <br/>
 
 * Examines the **internal** context of your brand
 
-### PESTLE
+> PESTLE<br/>
 
 * Examines the external context of your brand
 
@@ -1903,7 +1808,7 @@ __CPM (Cost Per Thousand Impressions)__ <br/>
 - [x] **Legal** - Restrictions and Requirements
 - [x] **Environmental** - Disasters, climate
 
-### SMART Goals
+> SMART Goals
 
 - [x] **Specific** - Ask for a reason, purpose or benefit. WHO. Requirements. _When you arrived_.
 - [x] **Measurable** - _Evidence_ to prove results. NUMBERS. METRICS.
@@ -1930,20 +1835,17 @@ __CPM (Cost Per Thousand Impressions)__ <br/>
 
 ## New Subscribers
 
-### Acquisition email
-
+> **Acquisition email**
 > An email that is sent to acquire new customers
 
-### Welcome email
-
+> **Welcome email**<br/>
 > An email that is sent out to brand new customers or subscribers
 
 * A conversational and inviting tone
 * A brief summary that tells customers what makes your brand unique or tells your brand's story
 * A call-to-action (**Concise instruction that tells the customer what to do NEXT**)
 
-### Newsletter
-
+> **Newsletter**<br/>
 > An email sent to subscribers on a regular basis, containing news and 
 > informational content relevant to the company and of interest to subscribers
 
@@ -1965,8 +1867,7 @@ Good for:
 - [x] Conversion Stage
 - [x] Loyalty Stage
 
-### Promotional email
-
+> **Promotional email**<br/>
 > An email that is sent out to inform your subscribers
 > of your **new** or existing products or services
 
@@ -1982,8 +1883,7 @@ Good for:
 * Announce the promotion in the subjet line
 
 
-### Retention email
-
+> **Retention email**<br/>
 > An email sent to a **current** customer with the intent
 > of keeping them as a customer
 
@@ -1991,7 +1891,7 @@ Good for:
 * A clear call-to-action
 * Empathetic and inviting language
 
-* **Segmentation:** 
+* **Segmentation:** <br/>
 > The practice of categorizing contacts by a predefined set of
 > identifiers, so that each email feels relevant to every subscriber
 > The practice of dividing an email subscriber list into smaller groups
@@ -2005,10 +1905,10 @@ Good for:
 
 ## Mailing List
 
-* **Lead generation**
+* **Lead generation**<br/>
 > The practice of collecting a potential customer's email address
 
-### Tools to build a list
+- [x] Tools to build a list
 
 * Website prompts
 > A digital banner that calls on a website visitor to act in some way 
@@ -2025,7 +1925,7 @@ Good for:
 
 <hr/>
 
-### Geography for segmentation
+- [x] Geography for segmentation
 
 * _Language_
 * _Climate_
@@ -2033,21 +1933,21 @@ Good for:
 * Population
 * Environment
 
-### Psychographic characteristics for segmentation
+> **Psychographic characteristics for segmentation**<br/>
 > Dietary preferences (Vegan/Gluten free)<br/>
 
 * _Lifestyles_
 * Values
 * Hobbies
 
-### Demographic data for segmentation
+- [x] Demographic data for segmentation
 
 * _Family status_
 * _Income level_
 * Age
 * Gender
 
-### Behavioral data for segmentation
+- [x] Behavioral data for segmentation
 
 * Purchasing habits
 * Spending habits
@@ -2057,8 +1957,7 @@ Good for:
 
 <hr/>
 
-### Email marketing automation
-
+> **Email marketing automation**
 > Is the practice of using software, programs and technology 
 > to manage email marketing processes automatically
 
@@ -2073,7 +1972,7 @@ Good for:
 - [x] Salesforce
 
 
-### Common mistakes
+- [x] Common mistakes
 
 * Sending a broken link
 * Sending an email to the wrong segmented list
@@ -2083,7 +1982,7 @@ Good for:
 
 ## Metrics
 
-### Concepts
+> **Concepts**
 
 - [x] Data
 > A collection of facts or information
@@ -2104,60 +2003,60 @@ Good for:
 
 <br/>
 
-* Open rate (_tasa de apertura_)
+* Open rate (_tasa de apertura_)<br/>
 > Percentage of users that open your email
->
+><br/>
 > **Number of people who open the email/Number of people who received the email**
 >
 
-* Click-to-open rate (_click por apertura_)
+* Click-to-open rate (_click por apertura_)<br/>
 > Percentage of email recipients who clicked on one or more links in an email 
->
+><br/>
 > **Total click/Number of unique opens**
 >
 
-* Unsubscribe rate (_cancelacion de suscripciones_)
+* Unsubscribe rate (_cancelacion de suscripciones_)<br/>
 > Percentage of email recipients who unsuscribe from your send list after opening an email
->
+><br/>
 > **Number of unsuscribers/Email delivered**
 >
 
-* Conversion rate (_tasa de conversion_)
+* Conversion rate (_tasa de conversion_)<br/>
 > Percentage of email recipients who clicked on a link in your email
 > and took a desired action, like making a purchase
-> 
+> <br/>
 > **Number of conversions/Total emails sent**
 >
 
-* Email bounce rate (_tasa de rebote_)
+* Email bounce rate (_tasa de rebote_)<br/>
 > Percentage of email sent that could not be delivered to the recipient's inbox
->
+><br/>
 > **(Total number of bounced emails/Emails sent)x100**
 >
 
-* Complaint rate (_tasa de quejas_)
+* Complaint rate (_tasa de quejas_)<br/>
 > Percentage of complaints recipients send to mailbox providers about receiving your email
->
+><br/>
 > **Number of complaints/Total number of emails delivered to subscribers**
 >
 
-* Campaign ROI (_Return on investment_)
+* Campaign ROI (_Return on investment_)<br/>
 >
 > **(Total revenue/Total spent)x100** - The ratio of money made and money spend
->
+> <br/>
 
-* __LIST GROWTH RATE__ (_tasa de crecimiento de LISTA_)
+* __LIST GROWTH RATE__ (_tasa de crecimiento de LISTA_)<br/>
 > The rate at which your list grows
->
+><br/>
 > **(Number of new subscribers - number of unsubscribers/Total number of email addresses)x100**
->
+><br/>
 
 * Forward rate (_tasa de reenvío_)
 > Percentage of recipients who click on the "share" button to post social media or
 > who click the "forward" button to send to others
->
+><br/>
 > Number of forwards/Total number of emails delivered
->
+><br/>
 
 <hr/>
 
@@ -2177,7 +2076,7 @@ Includes:
 * Duration
 * KPIs
 
-### Business Goal
+- [x] Business Goal
 
 > Desired aim, achievement or outcome for a business
 
@@ -2188,67 +2087,55 @@ Includes:
 * Gaining Market Share
 * Improving customer service
 
-### Marketing goal
-
+> **Marketing goal**<br/>
 > Objective in a marketing plan or strategy that supports a business goal
 
-### Key Performance Indicator (KPI)
-
+> **Key Performance Indicator (KPI)**<br/>
 > Measurement used to gauge how successful a business is 
 > in its effort to reach a business or marketing goal
 > __YOU NEED TO CREATE AN ADDITIONAL PERFORMANCE TARGET ON EVERY CAMPAIGN__
 
 <br/>
 
-- [x] __PERFORMANCE TARGET__
-
+> **PERFORMANCE TARGET**<br/>
 > Is a measurable goal to marketing goals or specific campaigns. Like impressions or clicks.
 
 
-### ROAS (Return On Ad Spend)
-
+> **ROAS (Return On Ad Spend)**<br/>
 > (Number of Units Sold x Cost Per Unit) / AD Spend
 
-### Bounce rate
-
+> **Bounce rate**<br/>
 > Bounce sessions / Total sessions
 
-### Additional budget
-
+> **Additional budget**<br/>
 > Incremental sales / Return on AD spend
 
-### Conversion volume
-
+> **Conversion volume**<br/>
 > Total number of conversions or total monetary value of conversions over a period of time
 
-### Cost Per Acquisition / Action
-
+> **Cost Per Acquisition / Action**<br/>
 > Paid Rate Cost for every convertion
 
 
 ## Google Analytics
 
-### Attribution
-
+> **Attribution**<br/>
 > Assigns credit (value) for complete conversions from different kinf of contact like
 > ADs, last clicks or other touch points along a user's path to conversion completion
 
-### Macro conversions
-
+> **Macro conversions**<br/>
 > Completed purchases
 
-### Micro conversions
-
+> **Micro conversions**<br/>
 > Completed responses that indicate a user is moving towards a macro conversion
 
 
-### Big Data
-
+> **Big Data**<br/>
 > Field in analytics that systematically mines and extracts
 > information from very large datasets for insights
 
 
-### Trends
+- [x] Trends
 
 * Real-time analytics
 > Monitors immediate data to gain insights to respond to events more quickly
@@ -2260,23 +2147,22 @@ Includes:
 > A field developing intelligent machines and software that simulate hu,am thought or work
 
 
-### Dimensions
-
+> **Dimensions**<br/>
 > Attributes or characteristics of an event that determine the metrics collected
 
 
-### Urchin tracking module (UTM)
+- [x] Urchin tracking module (UTM)
 
 > Text tag added to a URL to help monitor that content
 
 
-### Awareness metrics
+- [x] Awareness metrics
 
 * Clicks
 * Impressions
 
 
-### Consideration metrics
+- [x] Consideration metrics
 
 * Clicks
 * CTR
@@ -2284,7 +2170,7 @@ Includes:
 * Impressions
 
 
-### Conversion metrics
+- [x] Conversion metrics
 
 * Conversions
 * Cost
@@ -2296,12 +2182,10 @@ Includes:
 To configure a new account, you have to determine a MAIN Campaign Goal
 ```
 
-### Cross-channel LAST CLICK
-
+> **Cross-channel LAST CLICK**<br/>
 > Attributes __100%__ of a conversion to the last channel that a customer clicked through
 
-### Comma-separated values (CSV)
-
+> **Comma-separated values (CSV)**<br/>
 > A file format in which a comma is placed between each data value in the file
 
 * Keep the file and we can analyze and compare data 
@@ -2310,7 +2194,7 @@ To configure a new account, you have to determine a MAIN Campaign Goal
 
 ### Google Analytics
 
-__Conversion paths view__
+__Conversion paths view__<br/>
 
 > The first and last point of contact before conversion (and the rest intermediate points)
 
@@ -2318,22 +2202,20 @@ __Conversion paths view__
 * Site tag
 
 
-### Google Tag Manager
+- [x] Google Tag Manager
 
 * Graphic interface
 * HTML or Javascript tags
 
-### Google ADs can help in AD Groups:
+- [x] Google ADs can help in AD Groups:
 
 * Organize ADs by keywords
 * Select the right ADs for a campaign by relevant keywords
 
-### Segment overlap
-
+> **Segment overlap**<br/>
 > Google Analytics function that show data group by common attributes
 
-### Return on investment (ROI)
-
+> **Return on investment (ROI)**<br/>
 > Ratio of net income (money spend) to investment (money spend)
 <br/>
 
@@ -2342,19 +2224,16 @@ __Conversion paths view__
 
 > Marketing ROI = (Sales Growth - Marketing Cost) / Marketing Cost
 
-### Customer lifetime value (LTV)
-
+> **Customer lifetime value (LTV)**<br/>
 > The average revenue generated per customer over a certain period of time
 
 
-### Return on ad spend (ROAS)
-
+> **Return on ad spend (ROAS)**<br/>
 > Number calculated as the revenue generated divided by the amount spend on advertising
 <br/>
 
 
-### Marketing (Media) Mix Models
-
+> **Marketing (Media) Mix Models**<br/>
 > Statistic models to predict effectiveness with at least 2 years of historical 
 > data of campaigns
 
@@ -2365,7 +2244,7 @@ __Conversion paths view__
 
 - [x] Prueba A/B
 
-> **OBJETIVO**
+> **OBJETIVO**<br/>
 > Una prueba A/B es una evaluación en línea con dos variantes, 
 > y una división aleatoria del 50% de los/las usuarios/as 
 > entre las variantes, para determinar la opción de mejor rendimiento.
@@ -2405,11 +2284,10 @@ __Conversion paths view__
 
 <br/>
 
-### Discrete metrics
-
+> **Discrete metrics**<br/>
 > Have specific values, can be counted or are binary - like on/off or true/false
 
-### Metrics monitored
+- [x] Metrics monitored
 
 * Online sales revenue
 * Number of orders
@@ -2430,7 +2308,7 @@ __Conversion paths view__
 * Chat
 * Phone calls
   
-### We need to know
+- [x] We need to know
 
 * When to inform
 * The needs
@@ -2438,8 +2316,9 @@ __Conversion paths view__
 
 > Reliability and Credibility
 
-### Pivot table
+<br/>
 
+> **Pivot table**<br/>
 > Changes your view of data in a spreadsheet to a different perspective 
 > to categorize it, or to identify an insight or trend
 
@@ -2458,13 +2337,11 @@ __Conversion paths view__
 - [x] PIE CHARTS (Two-dimensional - Three-dimensional) 
 - [x] HISTOGRAMS
 
-### Dashboard
-
+> **Dashboard**<br/>
 > Tool to track, analyze and display KPIs, metrics and insights
 > dinamically based on interactive user criteria
 
-### Tableau
-
+> **Tableau**<br/>
 > Visual Analytics Platform that makes easier to explore, manage data and create custom
 > dashboards that incorporate different data visualizations in one place
 
@@ -2477,7 +2354,7 @@ __Conversion paths view__
 2. Decide WHICH data to use
 3. Insights
 
-### Best practices in slides
+- [x] Best practices in slides
 
 * Progress from general to specific topics
 * State insights (**CONCLUSIONES**) clearly and up front
@@ -2498,15 +2375,16 @@ __INK-RATIO__ <br/>
 
 - [x] __TRADITIONAL RETAIL STORE__ (Brick and Mortar Store)
 
+<br/>
 
-### Types of e-commerce
+- [x] Types of e-commerce
 
 1. Physical goods [shoes, books, appliances]
 2. Digital goods [ebook, digital photos or music, online course]
 3. Services [tutorials, coaching, consulting or professional services]
 4. Software [video-game, apps, programs]
 
-### Benefits of e-commerce
+- [x] Benefits of e-commerce
 
 * Easily adapt clients needs
 * Save in starting and general costs 
@@ -2519,49 +2397,49 @@ __INK-RATIO__ <br/>
 * Information about your customers
 * Trends driving more online sales
 
-### Challenges in e-commerce
+- [x] Challenges in e-commerce
 
 * Higher rate of returns
 * Cost of shipping
 * lack of in-person customer service
 
 
-### Traffic
+- [x] Traffic
 
 > Number of visits that a website receives
 
-### Landing Page
+- [x] Landing Page
 
 > First page a visitor encounters when they go to a website
 
-### Call to Action
+- [x] Call to Action
 
 > Instruction provided to the customer that tells them what to do next
 
-### Digital shopping cart
+- [x] Digital shopping cart
 
 > Virtual equivalent of physical shopping cart
 
-### Payment service provider
+- [x] Payment service provider
 
 > A secure way to process transactions online
 
-### Conversion
+- [x] Conversion
 
 > Completion of an activity that contributes to the success of a business
 
-### E-commerce platform
+- [x] E-commerce platform
 
 > Software application that allows you to sell products or services online
 
-### Entry-level e-commerce roles
+- [x] Entry-level e-commerce roles
 
 * E-commerce analyst
 * E-commerce specialist
 * E-commerce associate
 * Digital marketing specialist
 
-#### Involves:
+- [x] Involves:
 
 * Adding or updating products
 * Helping with online campaigns
@@ -2575,30 +2453,30 @@ __INK-RATIO__ <br/>
 
 > Process of gathering information about consumers needs and preferences
 
-#### Types of market research
+- [x] Types of market research
 
 * PRIMARY - __By me__ Surveys, interviews, direct observation or focus groups
 * SECONDARY - __By others__ Published sources, surveys or interviews
 
-#### Considerations
+- [x] Considerations
 
 1. Market size
-> Total number of potential customers within a specific industry
+> Total number of potential customers within a specific industry 
 > 1. Is there a large enough demand?
 > 2. How much competition exists?
 > 3. Is there room for growth?
 
 2. Target audience
-> Group of people most likely to purchase a company's products
+> Group of people most likely to purchase a company's products 
 > 1. Does your target audience want to buy this type of product?
 > 2. Is the product in their price range or budget?
 
 3. Competition
-> Other sellers that exist already in the market
+> Other sellers that exist already in the market 
 > 1. Who are your most important competitors?
 > 2. How can you differentiate your business from the competition?
 
-#### Demographics to consider
+- [x] Demographics to consider
 
 * Age
 * Location
@@ -2615,11 +2493,11 @@ __INK-RATIO__ <br/>
 * Lifestyle
 * Behavior
 
-#### Demand
+- [x] Demand
 
 > How much consumers are willing and able to buy a certain product over a given period of time
 
-#### Net profit
+- [x] Net profit
 
 __HELPS YOU DETERMINE IF THE PRODUCT AS A WHOLE IS PROFITABLE__ <br/>
 
@@ -2654,7 +2532,7 @@ __HELPS YOU DETERMINE IF YOUR ADVERTISING FOR THE PRODUCT IS PROFITABLE__ <br/>
 
 > ROAS = (Number of units sold x Cost per unit) / Ad spend
 
-#### Product sourcing
+- [x] Product sourcing
 
 > How a business acquires the products they sell to customers
 
@@ -2662,7 +2540,7 @@ __HELPS YOU DETERMINE IF YOUR ADVERTISING FOR THE PRODUCT IS PROFITABLE__ <br/>
 2. Vendor or wholesale _supplier_
 3. **Dropshipping**
 
-#### Branding
+- [x] Branding
 
 > To promote a product or service by identifying it with a particular brand
 
@@ -2703,7 +2581,7 @@ __HELPS YOU DETERMINE IF YOUR ADVERTISING FOR THE PRODUCT IS PROFITABLE__ <br/>
 > May be links with useful information, chat, contact information
 
 
-### BOPIS
+- [x] BOPIS
 
 * Buy online, pick up in store
 
@@ -2716,7 +2594,7 @@ __HELPS YOU DETERMINE IF YOUR ADVERTISING FOR THE PRODUCT IS PROFITABLE__ <br/>
 * WooCommerce
 * Magento
 
-### Open-source software
+- [x] Open-source software
 
 > Software that allows the user to access and edit the original source code
 
@@ -2725,7 +2603,7 @@ __HELPS YOU DETERMINE IF YOUR ADVERTISING FOR THE PRODUCT IS PROFITABLE__ <br/>
 > Software as a Service <br/>
 > Web-based software available on a subscription basis
 
-### Open-source platform
+- [x] Open-source platform
 
 * Advantages
 
@@ -2738,7 +2616,7 @@ __HELPS YOU DETERMINE IF YOUR ADVERTISING FOR THE PRODUCT IS PROFITABLE__ <br/>
 2. Separate fees for web hosting
 3. Other additional costs involved
 
-### SaaS platforms
+- [x] SaaS platforms
 
 * Advantages
 
@@ -2767,7 +2645,7 @@ Features: <br/>
 * 24/7 support
 
 
-### Upload New product
+- [x] Upload New product
 
 1. Click on Store
 2. Products - All products
@@ -2776,12 +2654,12 @@ Features: <br/>
 5. Save 
 
 
-#### SKU - Stock Keeping Unit
+- [x] SKU - Stock Keeping Unit
 
 > Unique code that retailers use to identify a product
 
 
-#### Analytics dashboard
+- [x] Analytics dashboard
 
 > Provides an overview of important metrics like:
 
@@ -2789,7 +2667,7 @@ Features: <br/>
 * Online store conversion rate
 * Average order value
 
-### Google Merchant Center
+- [x] Google Merchant Center
 
 > A tool advertisers use to upload their store and product data to Google 
 > and make it available for Shopping ads and other Google services
@@ -2814,7 +2692,7 @@ __Create an account:__ <br/>
 
 > A form of marketing which uses the Internet to deliver promotional marketing messages to consumers
 
-### Benefits of online advertising
+- [x] Benefits of online advertising
 
 * Cost effective
 * Global reach capabilities
@@ -2835,7 +2713,7 @@ __Create an account:__ <br/>
 3. Display
 4. Video
 
-### Smart Campaign
+- [x] Smart Campaign
 
 * Automated
 * Easier set up
@@ -2864,13 +2742,13 @@ __Create an account:__ <br/>
 > A subset of automated bid strategies that use machine learning to
 > optimize for conversions or conversion value in each and every auction
 
-### Smart Bidding Strategies
+- [x] Smart Bidding Strategies
 
 1. Maximize your conversion value (CPA)
 2. Set your return on AD spending (ROAS)
 
 
-### Planning for seasonality
+- [x] Planning for seasonality
 
 * Determine your bidding strategy
 * Consider new customer acquisition
@@ -2883,12 +2761,12 @@ __USE SEASONALITY TO KNOW HOW MUCH A BUSINESS WILL SELL__ <br/>
 __IN A LOW SEASON WE MUST MAKE A STRONG AWARENESS BRAND__ <br/>
 __CREATE QUALITY CONTENT, SOCIAL MEDIA PRESENCE AND PROMOTE DIFFERENT PRODUCTS ON WEBSITE__ <br/>
 
-### Pain Point
+- [x] Pain Point
 
 > A specific problem faced by current or prospective customers while interacting with a site
 
 
-### Optimize your e-commerce strategy
+- [x] Optimize your e-commerce strategy
 
 * Conduct more research on industry booms and slumps
 * Simplify the buying process
@@ -2896,15 +2774,15 @@ __CREATE QUALITY CONTENT, SOCIAL MEDIA PRESENCE AND PROMOTE DIFFERENT PRODUCTS O
 
 <!-- FIN SEMANA #3 -->
 
-## Customer engagement
+- [x] Customer engagement
 
 > The interactions and emotional connection between a customer and a brand
 
-### Personalization
+- [x] Personalization
 
 > Practice of delivering a customized EXPERIENCE for each customer
 
-### Rewards program
+- [x] Rewards program
 
 > A marketing strategy designed to build customer loyalty by providing 
 > incentives for customers to continue shopping with a brand
@@ -2913,11 +2791,11 @@ __CREATE QUALITY CONTENT, SOCIAL MEDIA PRESENCE AND PROMOTE DIFFERENT PRODUCTS O
 * Free birthday gift
 * Allowing customers to choose their reward
 
-### E-commerce Point-Of-Sale (POS) System
+- [x] E-commerce Point-Of-Sale (POS) System
 
 > Software that allows a business to process payment transactions from customers online
 
-### Cart Abandonment Reasons
+- [x] Cart Abandonment Reasons
 
 * Just browsing or not ready to buy
 * Extra costs for shipping, taxes and fees are too high
@@ -2946,7 +2824,7 @@ __CREATE QUALITY CONTENT, SOCIAL MEDIA PRESENCE AND PROMOTE DIFFERENT PRODUCTS O
 
 ### In-House fulfillment
 
-#### Advantages
+- [x] Advantages
 
 * Control over the quality of the work
 * Custom packaging
@@ -2955,7 +2833,7 @@ __CREATE QUALITY CONTENT, SOCIAL MEDIA PRESENCE AND PROMOTE DIFFERENT PRODUCTS O
 
 > Owns, manages and stores all inventory. They manage the fulfillment.
 
-#### Advantages
+- [x] Advantages
 
 * Outsources a significant amount of work
 * Faster to launch a new e-commerce store
@@ -2969,7 +2847,7 @@ __CREATE QUALITY CONTENT, SOCIAL MEDIA PRESENCE AND PROMOTE DIFFERENT PRODUCTS O
 * Faster shipping if the fulfillment center has multiple locations
 
 
-### Supply chain
+- [x] Supply chain
 
 > Flow of goods from the beginning stage of sourcing raw materials 
 > all the way to the finished product that is delivered to the customer
@@ -3089,4 +2967,66 @@ __Customer service aspects__ <br/>
 
 Encuesta __NPS (Net Promoter Score)__ <br/>
 Encuesta __CSAT (Client Satisfaction)__ <br/>
+
+
+**IT'S BETTER THAN COMPANIES TO INDICATE THEIR RESPONSE TIME BY EMAIL CLEARLY** <br/>
+
+<br/>
+
+_Prevous questions to purchase:_ <br/>
+
+* Which products or categories are you interested in? <br/>
+
+_Advice on creating questions for client surveys:_ <br/>
+
+* Avoid asking trick questions <br/>
+
+
+<!-- FIN SEMANA #1 -->
+
+
+<br/>
+
+- [x] DATA SOURCES
+
+* Google Analytics
+* Built-in analytics
+* Customer surveys
+* A / B testing
+* Heat maps
+
+
+> **KPI** <br/>
+> A measurement used to gauge how successful a business is in its effort to reach a business or marketing goal
+
+> **Quarter** <br/>
+> Three-month time period based on a company's financial calendar
+
+> **Micro conversions** <br/>
+> Indicate that a potential customer is moving towards a completed purchase transaction
+> Ideal for _high value products business_
+
+> **Heat map** <br/>
+> Demostrates how visitors interact with a website
+
+> **Customer Lifetime Value (CLV)** <br/>
+> Estimates the total amount of money that a customer is expected to spend with a business over their lifetime
+
+
+> **Brand advocacy** <br/>
+> Measures the number of customers who promote a brand through word-of-mouth marketing
+
+> **Net Promoter Score (NPS)** <br/>
+> Metric that measures brand advocacy by asking how loyal customers are to a company
+
+> **Live View** <br/>
+> Provides a real-time view of store's activity as it happens
+
+
+
+
+
+
+
+
 
