@@ -1,5 +1,19 @@
 ## Instalaciones
 
+- [x] Visual Studio Code <br/>
+
+__Ligaduras__ <br/>
+
+* Instalar fuente JetBrains Mono
+* File - Preferences - Settings
+* Buscar "Ligatures" y edit in _settings.json_
+* "editor.fontLigatures": true,
+
+__Plugins__
+
+* Markdown All in One
+
+
 - [x] WSL (Linux en Windows) <br/>
 ```wsl --install -d Ubuntu```
 ```sudo apt-get update```
