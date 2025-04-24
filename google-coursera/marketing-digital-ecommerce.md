@@ -49,6 +49,8 @@ __DIGITAL MARKETING & E-COMMERCE__
     - [Fulfillment service](#fulfillment-service)
 - [7 - Satisfaction Guaranteed: Develop Customer Loyalty Online](#7---satisfaction-guaranteed-develop-customer-loyalty-online)
   - [Loyalty](#loyalty-1)
+  - [Interviews](#interviews)
+    - [Elevator pitch](#elevator-pitch)
 
 
 <hr/>
@@ -3073,8 +3075,72 @@ _rewards program_ <br/>
 
 <!-- FIN SEMANA #2 -->
 
-prueba
-prueba desde vsc
+## Interviews
+
+- [x] Portfolio
+> An edited collection of an individual's best projects intented to showcase work experience, style or methods
+
+* Organize your projects
+* Summarize each project, including uts goals and outcomes
+* Highlight transferable skills
+
+__DEMOSTRATE YOUR IMPACT BY QUANTIFYING IT WITH NUMBERS__ <br/>
+
+- [x] Resume
+> A document created and used by a person to present their background, skills and accomplishments
+
+- [x] __CV__ (Curriculum Vitae)
+> A document that presents a full history of an applicant's full academic credentials and professional experience
+
+
+__Resume sections__ <br/>
+
+* Personal information (_name, email address and phone number_)
+* Experience (_work history_)
+* Education and Training (_education background_)
+* Skills (_specific skills you have_)
+
+<br/>
+
+__GO TO THE POINT__ <br/>
+
+<br/>
+
+__STAR__
+
+* Situation
+* Task
+* Action
+* Result
+
+
+- [x] Preliminary interview
+> A fast paced meeting conducted over a phone call or video chat
+
+- [x] Follow-up interview
+> An in-depth meeting that will likely feature members of the team that you will be working with
+
+
+* Research the interviewer
+* Be yourself
+* Relax
+* Ask questions
+* Learn about the culture of the company
+
+### Elevator pitch
+
+* __INTRO__ My name... I'm... My current role... My job involves...
+* __BACKGROUND__ I've worked with...
+* __SHOW PASSION__ I love... In collaboration, I...
+
+
+
+
+
+
+
+
+
 
 
 
