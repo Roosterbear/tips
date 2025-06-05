@@ -12,7 +12,9 @@ __Ligaduras__ <br/>
 __Plugins__
 
 * Markdown All in One
-
+* Tailwind CSS IntelliSense
+<br/>
+<br/>
 
 - [x] Vim <br/>
 
@@ -28,11 +30,16 @@ set shiftwidth=2
 set tabstop=2
 set softtabstop=2
 ```
+<br/>
+<br/>
 
 - [x] WSL (Linux en Windows) <br/>
 ```wsl --install -d Ubuntu```
+__REINICIAR !!__
 ```sudo apt-get update```
 ```sudo apt install build-essential rustc libssl-dev libyaml-dev zlib1g-dev libgmp-dev```
+<br/>
+<br/>
 
 - [x] Ruby and Rails <br/>
 
@@ -62,8 +69,18 @@ source ~/.bashrc
 ```cd proyecto```
 ```rake db:create```
 ```rails server```
+<br/>
+<br/>
+
+- [x] React <br/>
+```npm create vite@latest proyecto -- --template react```
+<br/>
+<br/>
 
 
+
+<br/>
+<br/>
 - [x] Vue <br/>
 ```npm init vite@latest proyecto -- --template vue```
 ```cd proyecto```
@@ -79,11 +96,6 @@ source ~/.bashrc
 
 - [x] Bootstrap in npm <br/>
 ```npm install bootstrap@5.3.3```
-
-
-- [x] React <br/>
-```npm```
-
 
 - [x] Typescript <br/>
 ```npm install -g typescript```
