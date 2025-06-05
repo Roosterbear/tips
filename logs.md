@@ -114,7 +114,14 @@ source ~/.bashrc
 ## Links
 
 [Emoticons](https://emojikeyboard.top/es/) 😋
+[Iconos](https://v2.boxicons.com/)
+<br/>
+<br/>
 
+
+
+<br/>
+<br/>
 
 ## Datos Semana #
 
@@ -122,7 +129,6 @@ source ~/.bashrc
 * ESET: 8
 * Mantenimientos: 1
 * Atención: 38
-* CURSO: 85%
 <br/>
 ---------------------------
 <br/>
