@@ -6,7 +6,6 @@
 netstat -nao | findstr ESTABLISHED 
 ```
 
-- [x]
 
 ```
 ```

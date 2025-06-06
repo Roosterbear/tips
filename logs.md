@@ -11,7 +11,7 @@ __Ligaduras__ <br/>
 
 __Plugins__
 
-* Markdown All in One
+* Markdown All in One (__ctrl+shift+v__ para preView)
 * Tailwind CSS IntelliSense
 <br/>
 <br/>
