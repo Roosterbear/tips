@@ -41,6 +41,20 @@ __REINICIAR !!__
 <br/>
 <br/>
 
+
+- [x] React <br/>
+```npm create vite@latest proyecto -- --template react```
+<br/>
+<br/>
+
+- [x] TailwindCSS <br/>
+``` ```
+
+
+<br/>
+<br/>
+
+
 - [x] Ruby and Rails <br/>
 
 ```bash
@@ -72,10 +86,6 @@ source ~/.bashrc
 <br/>
 <br/>
 
-- [x] React <br/>
-```npm create vite@latest proyecto -- --template react```
-<br/>
-<br/>
 
 
 
