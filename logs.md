@@ -153,7 +153,7 @@ source ~/.bashrc
 * Atención: 38
 <br/>
 ---------------------------
--bits0,$,eth
+-bits0,$,eth G.-
 -metam@sk
 Ganancia = Precio de venta - Costo de adquisición
 Impuesto = Ganancia * tasa de ISR correspondiente
