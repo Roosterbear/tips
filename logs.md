@@ -157,7 +157,10 @@ source ~/.bashrc
 -metam@sk
 Ganancia = Precio de venta - Costo de adquisición
 Impuesto = Ganancia * tasa de ISR correspondiente
-
+---------------------------
+SP500
+C3t3s
+---------------------------
 
 
 * Puerto Suizo
