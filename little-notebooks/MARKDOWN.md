@@ -7,12 +7,18 @@
 # TUTORIAL OF .md FILES IN MARKDOWN
 </div>
 
+- [x] Agregar plugin __Markdown All in One__
+<br/>
+
+__Vista previa__ Ctrl+Shift+v <br/>
+<br/>
 __A New row:__ We use the HTML single tag "br" <br/>
 __Make separator lines:__ We use only the "#" character in that row <br/>
 __Make thick separator lines:__ Put 3 dashes only in that row <br/>
 __We can't use UNDERLINE in Markdown__ ‼️ 💔 <br/>
-__You can use links to underline__ Enclose with brackets [ ]the word, and beside add parenthesis ().<br/>
-
+__You can use links to underline__ Enclose with brackets [ ]the word, and link beside add parenthesis ().<br/>
+*(also you can copy an paste a link over a selected text)* <br/>
+<br/> 
 
 ---
 
@@ -22,10 +28,13 @@ It will create an anchor for this title and it will add a new line below. <br/>
 Add "##" for a H2 header, and so on. <br/>
 
 __Type in bold__ <br/>
-Enclose the text between double underscores without spaces in the extremes
+Enclose the text between double underscores or ** without spaces in the extremes 
+or type _Ctrl_ + **b** in a selected text
+
 
 __Type in italic__ <br/>
 Enclose the text between single underscores without spaces in the extremes
+or type _Ctrl_ + **i** in a selected text
 
 __Strikethrough text__ <br/>
 Begin the text with double tilde "~"   
@@ -62,11 +71,10 @@ To headlines in tables, we add a row with ":---:" enclosed in "pipes" with an sp
 
 ## MENU
 
-> Podemos crear un menu !!
-> Podemos agregar enlaces internos o externos
+> We can create a menu !!
+> Also add internal or external links
 
 
-- [Google](www.google.com) - Esto va a Google.
-- [Inicio](#basic-tutorial-of-md-files-in-markdown) - Esto no.
+- [Google](www.google.com) - This goes to Google.
+- [Inicio](#basic-tutorial-of-md-files-in-markdown) - This goes to your document.
 
-- [x] Agregar plugin __Markdown All in One__
