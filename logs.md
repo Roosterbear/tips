@@ -48,6 +48,18 @@ __REINICIAR !!__
 <br/>
 
 - [x] TailwindCSS <br/>
+1. Tener instalado Node, checar con ```node --version```
+2. Crear carpeta de proyecto ```mkdir proyecto```
+3. Entrar a carpeta ```cd proyecto```
+4. Inicializar proyecto ```npm init```
+5. Instalarle Tailwind ```npm add tailwindcss @tailwindcss/cli```
+6. Crear archivos **tailwind.css** y **style.css**
+7. Agregarle la linea ```@import "tailwindcss"``` al archivo de entrada
+8. Agregar script al **package.json**: 
+   ```"tw":"npx @tailwindcss/cli -i ./tailwind.css -o ./style.css --watch"```
+9. Ejecutarlo con ```node --run tw```
+10. Crear **index.html** y referenciar "_style.css_" 
+
 ``` ```
 
 
