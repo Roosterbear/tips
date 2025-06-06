@@ -153,8 +153,12 @@ source ~/.bashrc
 * Atención: 38
 <br/>
 ---------------------------
-<br/>
-7 cursos, 14.2% cada curso
+-bits0,$,eth
+-metam@sk
+Ganancia = Precio de venta - Costo de adquisición
+Impuesto = Ganancia * tasa de ISR correspondiente
+
+
 
 * Puerto Suizo
 > baseg74441@angewy.com
