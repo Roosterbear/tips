@@ -1,4 +1,4 @@
-<div style="color:#FF6500">
+<div style="color:#dda15e">
 
 # WEB
 </div>

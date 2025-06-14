@@ -1,4 +1,7 @@
+<div style="color:#2a9d8f">
+
 # GIT
+</div>
 
 - [GIT](#git)
   - [Configuración Inicial](#configuración-inicial)
