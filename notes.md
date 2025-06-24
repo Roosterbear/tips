@@ -1,10 +1,8 @@
 # Anotaciones
 
-- [x] Ver quien esta conectado a nuestro equipo. En PS:
+- [x] Checar **RAM** del equipo: ```mdsched.exe```
 
-```bash
-netstat -nao | findstr ESTABLISHED 
-```
+- [x] Ver quien esta conectado a nuestro equipo. En PS: ```netstat -nao | findstr ESTABLISHED```
 
 - [x] Paletas de Colores interesantes:
 
