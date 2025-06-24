@@ -1,9 +1,5 @@
-<div style="color:#dda15e">
+<h1 style="color:#dda15e">WEB</h1>
 
-# WEB
-</div>
-
-- [WEB](#web)
 - [HTML](#html)
   - [Agregar CSS en HTML](#agregar-css-en-html)
 - [CSS](#css)
@@ -30,6 +26,7 @@
     - [Relative](#relative)
     - [Absolute](#absolute)
     - [Fixed](#fixed)
+    - [Sticky](#sticky)
     - [Menu con Float](#menu-con-float)
   - [VARIABLES](#variables)
     - [Asignar variables](#asignar-variables)
@@ -66,9 +63,6 @@
     - [Cambiar ESPACIO entre letras](#cambiar-espacio-entre-letras)
     - [Agregar SANGRIA](#agregar-sangria)
     - [Quitar circulos negros de las LISTAS](#quitar-circulos-negros-de-las-listas)
-  - [Autenticación con OAuth](#autenticación-con-oauth)
-    - [Autenticación](#autenticación)
-    - [Autorización](#autorización)
 
 
 # HTML
@@ -139,7 +133,7 @@ li{
 1. El código mostrado **DENTRO** de etiquetas tiene PRIORIDAD:
 
 ```html
-<div style=""> </div>
+<div style="color:red"> </div>
 ```
 2. El código en la **CABECERA** tiene el segundo grado de prioridad
 
@@ -159,13 +153,30 @@ li{
   color: blue;
 }
 ```
-> Con la etiquet **!important** tendrá más prioridad
+> Con la etiqueta **!important** tendrá más prioridad
 
 ## FUENTES
 
 > _px_ Medida estándar. **NO ESCALABLE**, usar solo para medidas **FIJAS**
 > _em_ Medida para fuentes, equivale a la letra M del elemento padre
+
+- [x] __Utilizarlos para que un elemento escale en proporción a su fuente__
+- [x] Usarlos en __Media Queries__ porque respeta preferencias del zoom en el navegador
+
+```css
+.card {
+  font-size: 16px;
+  padding: 1em; /* 16px */
+}
+.card-button {
+  font-size: 0.8em; /* 16px * 0.8 = 12.8px */
+}
+```
+
 > _rem_ Basada en la fuente raíz del HTML
+
+- [x] Usarlos para __tamaños de fuentes__, __márgenes__, __paddings__ y __dimensiones__.
+
 
 ## CENTRAR
 
@@ -220,6 +231,7 @@ img{
   line-height: 100px;
 }
 ```
+
 
 ## IMAGENES
 
@@ -393,6 +405,42 @@ div{
 }
 ```
 
+### Sticky
+
+> Es una mezcla entre relative y fixed.
+
+```html
+<div class="table-container">
+  <table>
+    <thead>
+      <tr><th>Nombre</th><th>Edad</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Ana</td><td>25</td></tr>
+      <!-- Más filas... -->
+    </tbody>
+  </table>
+</div>
+```
+
+```css
+.table-container {
+  height: 200px; /* Limita el contenedor para que el sticky funcione */
+  overflow: auto; /* Permite scroll interno */
+}
+
+th {
+  position: sticky;
+  top: 0; /* Encabezado pegado al hacer scroll vertical */
+  background: #f1f1f1;
+}
+```
+
+- [x] No funciona si el padre tiene __overflow:hidden__
+- [x] Requiere un __offset__ como ```top``` o ```bottom``` para activarse
+- [x] El contenedor padre debe tener una altura definida como: __height: 100vh__
+
+
 ### Menu con Float
 
 ```css
@@ -430,7 +478,7 @@ p{
 > Los elementos en CSS tienen capas desde el centro al extremo
 > El primer nivel es el mismo **contenido** 
 > Podemos tener un **borde** afuera del contenido
-> Este puede tener color y ancho
+> Este puede tener __color__ y __ancho__
 > Entre el contenido y el borde hay un espacio en blanco llamado **padding**
 > Entre el borde y la parte de afuera existe un espacio llamado **margin**
 
@@ -504,7 +552,7 @@ border-radius: 50%;
 
 ### Cursor ✋🏼 
 
-> Para cambiar el aspecto del puntero del mouse a:
+> Para cambiar el aspecto del puntero del mouse a: <br/>
 > pointer, crosshair, e-resize, grab, help, move, 
 > progress, text, wait, no-allowed, no-drop 
 
@@ -544,8 +592,8 @@ border-radius: 50%;
 ```css
 .container{
   display: flex;
-  flex-direction: column; /* Or by default: row */
-  gap: 1rem; /* Space between elements */
+  flex-direction: column; /* Por default: row */
+  gap: 1rem; 
 }
 ```
 > No veremos nada hasta agregar elementos y contenido
@@ -618,23 +666,18 @@ flex-wrap: wrap;
 * baseline
 * stretch 
 
-<small style="color:ff004d";>
-
-To see how it works, we have to add to the parent:
-</small>
+<strong style="color:ff004d">
+Para ver como funciona, agregamos al padre:
+</strong>
 
 ```css
 .padre{
   height: 70vh;
 }
 ```
-
 <strong style="color:#ff004d">
-
 Para cambiar solo un elemento
 </strong>
-
-<br/>
 
 ```css
 .elemento{
@@ -684,7 +727,7 @@ Para cambiar solo un elemento
   grid-template-rows: 100px 50%;
 }
 ```
-- [x] Cada *auto* o *value* son una columna
+- [x] Cada **auto** o **valor** son una columna
 
 3. Tamaño de un elemento:
 
@@ -735,7 +778,7 @@ Para cambiar solo un elemento
 <br/>
 <br/>
 
-<div style="color:#004225";>
+<div style="color:#e63946">
 
 ## CSS Art !
 </div>
@@ -1029,7 +1072,7 @@ a{
 
 ```css
 p{
-  letter-spacing: .1rem; /* We can use negative numbers */  
+  letter-spacing: .1rem; /* Podemos usar números negativos */  
 }
 ```
 
@@ -1045,7 +1088,7 @@ p{
 
 ```css
 ul{
-  list-style-type: none; /* or shorthand: list-style: */
+  list-style: none; 
 }
 ```
 > Podemos usar: disc, circle, upper-roman, lower-latin, square.
@@ -1056,25 +1099,4 @@ ul{
 ⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​
 <br/>
 <br/>
-
-## Autenticación con OAuth
-
-### Autenticación
-
-> Es el proceso de verificar la identidad de alguien y saber que 
-> una persona o entidad es quien dice ser por medio de:
-
-- [x] Contraseñas
-- [x] Biometría
-- [x] Tokens
-
-### Autorización
-
-> Es el proceso de administrar permisos a recursos 
-> a una persona o entidad por medio de:
-
-- [x] **Accesos** - Que alguien pueda acceder a un recurso
-- [x] **Permisos** - Lo que a esa persona se le permite hacer con dicho recurso
-- [x] **Roles** - Conjunto de permisos generalizados a funciones específicas 
-
 
