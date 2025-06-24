@@ -1,15 +1,13 @@
-<div style="color:#FF6500">
+<h1 style="color:#FF6500">RUST</h1>
 
-# RUST
-</div>
-
-- [RUST](#rust)
+- [BASICO](#basico)
   - [Hello World en consola](#hello-world-en-consola)
-  - [CARGO](#cargo)
-    - [Crear Nuevo Proyecto con CARGO](#crear-nuevo-proyecto-con-cargo)
-    - [Ejecutar Proyecto con CARGO](#ejecutar-proyecto-con-cargo)
-    - [Construir Proyecto con CARGO](#construir-proyecto-con-cargo)
+  - [Crear Nuevo Proyecto con CARGO](#crear-nuevo-proyecto-con-cargo)
+  - [Ejecutar Proyecto con CARGO](#ejecutar-proyecto-con-cargo)
+  - [Construir Proyecto con CARGO](#construir-proyecto-con-cargo)
+  - [Checar con Cargo](#checar-con-cargo)
 
+# BASICO
 
 ## Hello World en consola
 
@@ -24,8 +22,6 @@ curl https://sh.rustup.rs -sSf | sh
 ```bash
 rustup --version
 ```
-
-- [x] Agregar extensión **rust-analyzer** para VSC
 
 ```rust
 fn main(){
@@ -42,18 +38,19 @@ rustc hello.rs
 ```bash
 ./hello
 ```
+- [x] Agregar extensión **rust-analyzer** para VSC
 
-## CARGO
+- [x] Checar CARGO ```cargo --version```
 
 > Es un Framework YA incluido con la instalación de Rust
 
-### Crear Nuevo Proyecto con CARGO
+## Crear Nuevo Proyecto con CARGO
 
 ```bash
 cargo new proyecto
 ```
 
-### Ejecutar Proyecto con CARGO
+## Ejecutar Proyecto con CARGO
 
 - [x] Dentro de la carpeta del proyecto ejecutar:
 
@@ -61,11 +58,17 @@ cargo new proyecto
 cargo run
 ```
 
-### Construir Proyecto con CARGO
+## Construir Proyecto con CARGO
 
 ```bash
 cargo build --release
 ```
 
+## Checar con Cargo
 
+```bash
+cargo check
+```
+
+- [x] No Compila Ni Ejecuta, solo REVISA
 
