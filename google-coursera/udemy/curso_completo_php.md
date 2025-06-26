@@ -38,10 +38,14 @@
 ```sudo chown -R $USER:www-data ~/proyectos```
 ```sudo chmod -R 775 ~/proyectos```
 
+- [x] Crear enlace entre Windows y Linux en WSL:
 
+```sudo ln -s /mnt/c/Users/usuario/Desktop/proyectos /var/www/html/proyectos```
 
 
 # GENERADORES
+
+> Se utilizan para ahorrar memoria, ya que van pasando los datos mientras se van usando
 
 ```php
 function rango($inicio, $fin, $incremento=1){
@@ -50,7 +54,6 @@ function rango($inicio, $fin, $incremento=1){
     }
 }
 ```
-
 
 
 
