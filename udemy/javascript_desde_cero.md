@@ -2,16 +2,6 @@
 
 > De este curso solo tomaré anotaciones importantes Javascript
 
-- [x] Saber si tenemos disponible el Local Storage:
-
-```javascript
-if(typeof(Storage) !== 'undefined'){
-    console.log("Localstorage Disponible");
-}else{
-    console.log("Incompatible con Localstorage")
-}
-```
-
 - [x] Guardar datos:
 
 ```localStorage.setItem("nombre","Fernando");```
