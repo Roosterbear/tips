@@ -32,6 +32,7 @@
     - [Asignar variables](#asignar-variables)
     - [Usar variables](#usar-variables)
   - [BOXES](#boxes)
+  - [ISOLATION](#isolation)
   - [CAMBIANDO ELEMENTOS 🦋 ](#cambiando-elementos-)
     - [Radius 🔘 ](#radius-)
     - [Transition ⏲️ ](#transition-️)
@@ -482,7 +483,54 @@ p{
 > Entre el contenido y el borde hay un espacio en blanco llamado **padding**
 > Entre el borde y la parte de afuera existe un espacio llamado **margin**
 
+## ISOLATION
 
+- [x] Sustituye a __position:relative__ y __z-index:1__
+- [x] Aisla el elemento
+- [x] Evita que su HIJOS interfieran con el z-index de otros elementos fuera del contenedor
+
+```html
+<div class="hero">
+  <div class="hero-intro">
+      <h1><code>mix-blend-model</code>
+      is pretty awesome</h1>
+      <p>Some of the blending modes might seem a little strange
+          at first, but you can use them for some effects</p>
+  </div>
+</div>    
+```
+
+```css
+.hero{
+    background-image: url(https://images.unsplash.com/photo-1749497683202-d3073573d996?q=80&w=1247&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    min-height: 100vh;
+    color: white;
+    background-size: cover;
+    display:flex;
+    isolation: isolate;
+}
+
+.hero-intro{
+    width:40%;
+    padding: 2em;
+    /* Excelente para padding RESPONSIVO */
+    padding-top: min(15vh, 10rem);
+    position: relative;
+}
+
+.hero-intro::after{
+    content:'';
+    position: absolute;
+    background: #355f08;
+    inset:0;
+    z-index:-1;
+    mix-blend-mode: multiply;
+}
+
+code{
+    display: block;
+}
+```
 
 ## CAMBIANDO ELEMENTOS 🦋 
 
