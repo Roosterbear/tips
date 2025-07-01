@@ -1,6 +1,7 @@
 <h1 style="color:#FF6500">RUST</h1>
 
 - [BASICO](#basico)
+  - [Introducción](#introducción)
   - [Hello World en consola](#hello-world-en-consola)
   - [Crear Nuevo Proyecto con CARGO](#crear-nuevo-proyecto-con-cargo)
   - [Ejecutar Proyecto con CARGO](#ejecutar-proyecto-con-cargo)
@@ -8,6 +9,15 @@
   - [Checar con Cargo](#checar-con-cargo)
 
 # BASICO
+
+## Introducción
+
+- [x] Rust __NO__ es Orientado a Objetos ni tiene Herencia
+- [x] Utiliza __struct__ para representar datos complejos
+- [x] Utiliza __traits__ para describir cómo se comporta el struct
+- [x] Las variables son __inmutables__ por default
+
+
 
 ## Hello World en consola
 
