@@ -84,8 +84,6 @@ struct persona{
   char *nombre;
   int edad
 }fernando, personas[10];
-
-
 ```
 
 
