@@ -7,14 +7,17 @@
 
 - [x] Instalar PHP en WSL
 
-```sudo apt update && sudo apt upgrade -y```
-```sudo apt install php php-mysql php-curl php-gd php-mbstring php-xml php-zip -y```
-```sudo apt install apache2 libapache2-mod-php -y  # Ubuntu/Debian```
-```sudo service apache2 start```
+```sudo apt update && sudo apt upgrade -y``` <br/>
+```sudo apt install php php-mysql php-curl php-gd php-mbstring php-xml php-zip -y``` <br/>
+```sudo apt install apache2 libapache2-mod-php -y  # Ubuntu/Debian``` <br/>
+```sudo service apache2 start``` <br/>
 
 - [x] Trabajar en ```/var/www/html/```
-- [x] Dar permisos: ```sudo chown -R $USER:$USER /var/www/html/``` y ```sudo chmod -R 755 /var/www/html/```
-- [x] Para direccionar Apache, crear archivo: ```sudo nano /etc/apache2/sites-available/proyecto.conf``` y agregar:
+- [x] Dar permisos: <br/> 
+  ```sudo chown -R $USER:$USER /var/www/html/``` y <br/>
+  ```sudo chmod -R 755 /var/www/html/``` <br/>
+- [x] Para direccionar Apache, crear archivo: <br/>
+  ```sudo nano /etc/apache2/sites-available/proyecto.conf``` y agregar: <br/>
 
 ```xml
 <VirtualHost *:80>
@@ -27,11 +30,11 @@
     </Directory>
 </VirtualHost>
 ```
-- [x] Habilitar el sitio, deshabilitar default y recargar Apache:
+- [x] Habilitar el sitio, deshabilitar default y recargar Apache: <br/>
 
-```sudo a2ensite proyecto.conf```
-```sudo a2dissite 000-default.conf```
-```sudo service apache2 reload```
+```sudo a2ensite proyecto.conf``` <br/>
+```sudo a2dissite 000-default.conf``` <br/>
+```sudo service apache2 reload``` <br/>
 
 - [x] Dar permisos a Apache (usuario __www-data__) sobre nuestra carpeta:
 
@@ -45,7 +48,7 @@
 
 # GENERADORES
 
-> Se utilizan para ahorrar memoria, ya que van pasando los datos mientras se van usando
+- [x] Se utilizan para ahorrar memoria, ya que van pasando los datos mientras se van usando:
 
 ```php
 function rango($inicio, $fin, $incremento=1){
