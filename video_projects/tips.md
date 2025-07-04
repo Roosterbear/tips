@@ -4,6 +4,8 @@
 - [App sencilla en Node con Express](#app-sencilla-en-node-con-express)
 - [App sencilla en Node con Express y una Vista](#app-sencilla-en-node-con-express-y-una-vista)
 - [Agregar un ID](#agregar-un-id)
+- [Búsquedas Avanzadas en Google](#búsquedas-avanzadas-en-google)
+- [Githubs interesantes](#githubs-interesantes)
 
 # SaaS App
 
@@ -46,6 +48,42 @@ server.listen(3030);
 - [x] Agregar a nuestra App __UUID__: ```const { v4: uuidv4 } = require('uuid');```
 
 
+
+
+
+# Búsquedas Avanzadas en Google
+
+- [x] Quitar opciones de busqueda
+
+```busqueda -periodista -futbolista ```
+
+- [x] Buscar paginas wordpress
+
+```site:*.gob.mx inurl:wp-admin```
+
+- [x] Buscar paginas inseguras
+
+```site:*.gob.mx inurl:http```
+
+- [x] Buscar paginas abiertas
+
+```site:*.mx intitle:"index of/documents"```
+
+
+# Githubs interesantes
+
+```https://github.com/threat9/routersploit```
+```https://github.com/thewhiteh4t/seeker```
+```https://github.com/ultrasecurity/Storm-Breaker```
+
+
+
+
+
+
+
+``` ```
+``` ```
 ``` ```
 ``` ```
 ``` ```
