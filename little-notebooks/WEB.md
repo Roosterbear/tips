@@ -33,6 +33,8 @@
     - [Usar variables](#usar-variables)
   - [BOXES](#boxes)
   - [ISOLATION](#isolation)
+  - [Box Shadow](#box-shadow)
+  - [Filter](#filter)
   - [CAMBIANDO ELEMENTOS 🦋 ](#cambiando-elementos-)
     - [Radius 🔘 ](#radius-)
     - [Transition ⏲️ ](#transition-️)
@@ -48,7 +50,7 @@
     - [Alinear elementos](#alinear-elementos)
     - [Tamaño de elementos](#tamaño-de-elementos)
     - [Centrar elementos](#centrar-elementos)
-  - [GRID Layout @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@](#grid-layout-)
+  - [GRID Layout](#grid-layout)
   - [CSS Art !](#css-art-)
     - [FONDO](#fondo)
     - [Cara](#cara)
@@ -532,6 +534,33 @@ code{
 }
 ```
 
+## Box Shadow
+
+- [x] Está pensado para ponerle sombras a __CAJAS__ de elementos
+- [x] El primer valor es el __offset__ en X 
+- [x] El segundo valor es el __offset__ en Y
+- [x] El tercer valor es el __blur__
+- [x] El cuarto valor (_opcional_) es el __spread__
+
+
+```css
+.box-shadow{
+  box-shadow: .75em .75em 1em;
+}
+```
+
+## Filter
+
+- [x] Podemos crear __SOMBRAS__ en el contenido de un elemento.
+
+```css
+.filter-shadow{
+  filter: drop-shadow(.75em .75em 1em);
+}
+```
+
+
+
 ## CAMBIANDO ELEMENTOS 🦋 
 
 ### Radius 🔘 
@@ -650,13 +679,15 @@ border-radius: 50%;
 
 > La **base** es el eje que elegimos con **flex-direction**
 
-- [x] Podemos cambiar el tamaño de cada elemento con:
+- [x] Podemos cambiar el tamaño de cada elemento en esa dirección con:
 
 ```css
 .container > *{
   flex-basis: 100px;
 }
 ```
+
+- [x] Debemos agregar __flex-basis__ al elemento HIJO.
 
 ### Envolver elementos
 
@@ -752,7 +783,7 @@ Para cambiar solo un elemento
 }
 ```
 
-## GRID Layout @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+## GRID Layout
 
 > Es la mejor forma de crear diseños complejos de diferentes tamaños
 
