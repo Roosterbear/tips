@@ -1,7 +1,4 @@
-<div style="color:#2a9d8f">
-
-# REACT
-</div>
+<h1 style="color:#2a9d8f">REACT</h1>
 
 - [REACT](#react)
   - [INTRODUCCIÓN](#introducción)
@@ -43,6 +40,10 @@
 - [REACT NATIVE](#react-native)
 
 ## INTRODUCCIÓN
+
+* Es una librería
+* Si queremos cosas más complejas, agregamos más librerías
+* Ideal para páginas privadas
 
 > Debemos tener instalado:
 
