@@ -97,7 +97,7 @@
 * Tell Computers and Humans apart 
 * That's a wrap
 * Picture this
-* 
+* You just disappeared up your own ass hole, you know that?
 
 
 
