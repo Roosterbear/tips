@@ -56,6 +56,11 @@ npm install -g vite
 npm install -g yarn
 ```
 
+> Opcionalmente podemos usar __bun__ ```curl https://bun.sh/install | bash```
+
+- [x] Instalar React con bun: ```bun create react-app proyecto```
+
+
 ### Mantener actualizado Node
 
 ```bash

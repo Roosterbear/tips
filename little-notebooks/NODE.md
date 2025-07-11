@@ -3,6 +3,7 @@
 - [App sencilla](#app-sencilla)
   - [Agregar una Vista](#agregar-una-vista)
   - [Agregar un ID](#agregar-un-id)
+  - [Agregar Video de la cámara](#agregar-video-de-la-cámara)
 
 # App sencilla
 
@@ -52,4 +53,80 @@ app.get('/:room', (req, res)=>{
     res.status('room', {roomId: req.params.room});
 })
 ```
-- [x] Agregamos script desde el room.ejs: ```console.log("<%=roomId %>");```
+- [x] Crear archivo __script.js__ y poner código: ```console.log("<%=roomId %>");```
+- [x] Agregamos script desde el __room.ejs__
+
+
+## Agregar Video de la cámara
+
+```javascript
+const myvideoGrid = document.getElementById('video-grid');
+const myvideo = document.createElement('video');
+myVideo.muted = true;
+
+navigator.mediaDevices.getUserMedia({
+    video: true,
+    audio: true
+}).then(stream=>{
+    myVideoStream = stream;
+    addVideoStream(myVideo, stream);
+})
+
+const addVideoStream = (video, stream)=>{
+    video.srcObject = stream;
+    video.addEventListener('loadedmetadata', ()=>{
+        video.play();
+    })
+    videoGrid.append(video);
+}
+```
+- [x] Agregamos a __room.ejs__: 
+
+```html
+<div id="video-grid">
+
+</div>
+```
+
+
+
+```
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
