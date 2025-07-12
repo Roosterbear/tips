@@ -1,88 +1,78 @@
 <h1 style="color:#dda15e">WEB</h1>
 
-- [HTML](#html)
-  - [Agregar CSS en HTML](#agregar-css-en-html)
-- [CSS](#css)
-  - [Primeros Pasos](#primeros-pasos)
-  - [Cómo actúa CSS](#cómo-actúa-css)
-  - [FUENTES](#fuentes)
-  - [CENTRAR](#centrar)
-    - [Centrar un elemento](#centrar-un-elemento)
-    - [Centrar un texto](#centrar-un-texto)
-    - [Centrar Bloques](#centrar-bloques)
-    - [Centrado Vertical](#centrado-vertical)
-  - [IMAGENES](#imagenes)
-  - [FONDOS](#fondos)
-    - [Fondo Fijo](#fondo-fijo)
-  - [SELECTORES](#selectores)
-    - [Hijo](#hijo)
-    - [Descendiente](#descendiente)
-    - [Adyacente](#adyacente)
-    - [Selectores de Atributo](#selectores-de-atributo)
-    - [Pseudo-elementos](#pseudo-elementos)
-    - [Pseudo-classes](#pseudo-classes)
-  - [POSICIONAMIENTO](#posicionamiento)
-    - [Static](#static)
-    - [Relative](#relative)
-    - [Absolute](#absolute)
-    - [Fixed](#fixed)
-    - [Sticky](#sticky)
-    - [Menu con Float](#menu-con-float)
-  - [VARIABLES](#variables)
-    - [Asignar variables](#asignar-variables)
-    - [Usar variables](#usar-variables)
-  - [BOXES](#boxes)
-  - [ISOLATION](#isolation)
-  - [Box Shadow](#box-shadow)
-  - [Filter](#filter)
-  - [CAMBIANDO ELEMENTOS 🦋 ](#cambiando-elementos-)
-    - [Radius 🔘 ](#radius-)
-    - [Transition ⏲️ ](#transition-️)
+- [Etiquetas HTML5](#etiquetas-html5)
+- [Formularios](#formularios)
+- [Tablas](#tablas)
+- [CSS Básico](#css-básico)
+- [ESPECIFICIDAD](#especificidad)
+- [FUENTES](#fuentes)
+  - [Centrar un elemento](#centrar-un-elemento)
+  - [Centrar un texto](#centrar-un-texto)
+  - [Centrar Bloques](#centrar-bloques)
+  - [Centrado Vertical](#centrado-vertical)
+- [IMAGENES](#imagenes)
+- [FONDOS](#fondos)
+  - [Fondo Fijo](#fondo-fijo)
+- [SELECTORES](#selectores)
+  - [Hijo](#hijo)
+  - [Descendiente](#descendiente)
+  - [Adyacente](#adyacente)
+  - [Selectores de Atributo](#selectores-de-atributo)
+- [POSICIONAMIENTO](#posicionamiento)
+  - [Static](#static)
+  - [Relative](#relative)
+  - [Absolute](#absolute)
+  - [Fixed](#fixed)
+  - [Sticky](#sticky)
+  - [Menu con Float](#menu-con-float)
+- [VARIABLES](#variables)
+  - [Asignar variables](#asignar-variables)
+  - [Usar variables](#usar-variables)
+- [BOXES](#boxes)
+- [CAMBIO DE ELEMENTOS 🦋 ](#cambio-de-elementos-)
+  - [Pseudoelementos](#pseudoelementos)
+  - [Radius 🔘 ](#radius-)
+  - [Transition ⏲️ ](#transition-️)
   - [KEYFRAMES 🔑​](#keyframes-)
-    - [Cursor ✋🏼 ](#cursor-)
-  - [RESPONSIVE DESIGN 🦎](#responsive-design-)
-    - [Media Queries](#media-queries)
-  - [Flexbox](#flexbox)
-    - [Cambiar la base](#cambiar-la-base)
-    - [Envolver elementos](#envolver-elementos)
-    - [Orden de elementos](#orden-de-elementos)
-    - [Justificar elementos](#justificar-elementos)
-    - [Alinear elementos](#alinear-elementos)
-    - [Tamaño de elementos](#tamaño-de-elementos)
-    - [Centrar elementos](#centrar-elementos)
-  - [GRID Layout](#grid-layout)
-  - [CSS Art !](#css-art-)
-    - [FONDO](#fondo)
-    - [Cara](#cara)
-    - [Boca](#boca)
-    - [Oido](#oido)
-    - [Nariz](#nariz)
-    - [Ojos](#ojos)
-    - [Cabello](#cabello)
-  - [HACKS❗❗❗](#hacks)
-    - [Hack para medida REM](#hack-para-medida-rem)
-    - [Eliminar underline de un ENLACE](#eliminar-underline-de-un-enlace)
-    - [Eliminar linea punteada alrededor de los ENLACES](#eliminar-linea-punteada-alrededor-de-los-enlaces)
-    - [Cambiar ESPACIO entre letras](#cambiar-espacio-entre-letras)
-    - [Agregar SANGRIA](#agregar-sangria)
-    - [Quitar circulos negros de las LISTAS](#quitar-circulos-negros-de-las-listas)
+  - [BOX SHADOW](#box-shadow)
+  - [FILTER](#filter)
+  - [Radial Gradient](#radial-gradient)
+  - [ISOLATION](#isolation)
+  - [Cursor ✋🏼 ](#cursor-)
+- [RESPONSIVE DESIGN 🦎](#responsive-design-)
+  - [Media Queries](#media-queries)
+- [Flexbox 🦎](#flexbox-)
+  - [Cambiar la base](#cambiar-la-base)
+  - [Envolver elementos](#envolver-elementos)
+  - [Orden de elementos](#orden-de-elementos)
+  - [Justificar elementos](#justificar-elementos)
+  - [Alinear elementos](#alinear-elementos)
+  - [Tamaño de elementos](#tamaño-de-elementos)
+  - [Centrar elementos](#centrar-elementos)
+- [GRID 🦎](#grid-)
 
+<div style="color:#219ebc">
 
-# HTML
-
-## Agregar CSS en HTML
-
-```html
-<link rel="stylesheet" href="style.css">
-```
-<div style="color:#AE445A">
-
-# CSS
+# Etiquetas HTML5
 </div>
 
-## Primeros Pasos
 
-1. Limpiar propiedades
+<div style="color:#219ebc">
+
+# Formularios
+</div>
+
+<div style="color:#219ebc">
+
+# Tablas
+</div>
+  
+<div style="color:#AE445A">
+
+# CSS Básico
+</div>
+
+- [x] Limpiar propiedades
 
 ```css
 *{
@@ -92,7 +82,7 @@
 }
 ```
 
-2. Dar formato a las fuentes de todo el cuerpo
+- [x] Dar formato a las fuentes de todo el cuerpo
 
 ```css
 body{
@@ -104,11 +94,34 @@ body{
 }
 ```
 
-## Cómo actúa CSS
+- [x] Quitar circulos negros de las __LISTAS__
 
-- [x] **Posición**
+```css
+ul{
+  list-style: none; 
+}
+```
 
-> Como se van recibiendo, se van cambiando las propiedades
+- [x] Eliminar underline de un __ENLACE__
+
+```css
+a:hover{
+  text-decoration: none; 
+}
+```
+
+
+# ESPECIFICIDAD
+
+0. __!important__ Anula todo lo demás: ```p{color:red !important}``` 
+1. __Estilos en línea__ Tiene el máximo grado de valor, como: ```<p style="color:green">Hola</p>``` 
+2. __Selectores ID__ Segundo grado de valor: ```#principal``` 
+3. __Clases__ Tercer grado de valor: ```.my-class``` 
+4. __Elementos / Pseudoelementos__ Cuarto grado de valor: ```div``` ```p``` ```::before``` 
+
+- [x] Debemos tomar en cuenta:
+
+1. Como se van recibiendo las propiedades, se van cambiando:
 
 ```css
 li{
@@ -116,49 +129,19 @@ li{
   color: blue;
 }
 ```
-> En este caso, el color sera AZUL
+> En este caso, el color sera __AZUL__
 > **Se LEE de arriba hacia abajo**
-> Primero recibimos ROJO, pero lo cambiamos por AZUL
+> Primero recibimos ROJO, pero __lo cambiamos__ por AZUL
 
-- [x] **Especificidad**
 
-> Es el grado del SELECTOR
-
-1. __id__ Tiene el máximo grado de valor, como: ```#principal``` 
-2. __attribute__ Segundo grado de valor: ```li[draggable]``` 
-3. __class__ Tercer grado de valor: ```.my-class``` 
-4. __element__ Cuarto grado de valor: ```li``` 
-
-- [x] **Tipo**
-
-> Es el **LUGAR** en donde se pone el código.
-
-1. El código mostrado **DENTRO** de etiquetas tiene PRIORIDAD:
-
-```html
-<div style="color:red"> </div>
-```
-2. El código en la **CABECERA** tiene el segundo grado de prioridad
+2. Después de los estilos en línea, el código en la **CABECERA** tiene el __segundo__ grado de prioridad
 
 ```<style> /* code */<style>```  
 
-3. El lugar con **MENOS** prioridad es en un archivo **.css**
+3. El código dentro de un __css__ externo es el que tiene __menos__ prioridad
 
-```html
-<link rel="stylesheet" href="style.css">
-```
-  
-- [x] Importancia
 
-```css
-li{
-  color: red !important;
-  color: blue;
-}
-```
-> Con la etiqueta **!important** tendrá más prioridad
-
-## FUENTES
+# FUENTES
 
 > _px_ Medida estándar. **NO ESCALABLE**, usar solo para medidas **FIJAS**
 > _em_ Medida para fuentes, equivale a la letra M del elemento padre
@@ -180,10 +163,15 @@ li{
 
 - [x] Usarlos para __tamaños de fuentes__, __márgenes__, __paddings__ y __dimensiones__.
 
+```css
+  p{
+    font-size: 62.5%; 
+  }
+```
+> 1rem AHORA es de 10px ❗
 
-## CENTRAR
 
-### Centrar un elemento
+## Centrar un elemento
 
 > Agregar padding:
 
@@ -197,7 +185,7 @@ li{
 
 > **ESTA MEDIDA ES PERFECTA PARA UNA SECCION**
 
-### Centrar un texto
+## Centrar un texto
 
 > Agregar una clase y centrar como:
 
@@ -208,7 +196,7 @@ li{
 }
 ```
 
-### Centrar Bloques
+## Centrar Bloques
 
 ```css
 img{
@@ -223,7 +211,7 @@ img{
   max-width: 100%;
 ```
 
-### Centrado Vertical
+## Centrado Vertical
 
 > Ponemos **height** y **line-height** con el mismo valor 
 
@@ -236,7 +224,7 @@ img{
 ```
 
 
-## IMAGENES
+# IMAGENES
 
 > Estas 2 propiedades nos ayudan a tener un mejor despliegue de una imagen:
 
@@ -247,7 +235,7 @@ img{
 }
 ```
 
-## FONDOS
+# FONDOS
 
 ```css
 body{
@@ -262,7 +250,7 @@ body{
  > En **background-position**, el segundo **center** es para izquierda y derecha
  
  
- ### Fondo Fijo
+## Fondo Fijo
  
  ```css
   background-attachment: fixed;
@@ -273,9 +261,9 @@ body{
  > __cover__ se usa para adaptar el fondo a toda la imagen sin importar el DISPOSITIVO.
  
 
-## SELECTORES
+# SELECTORES
 
-### Hijo
+## Hijo
 
 > Es una etiqueta **INMEDIATAMENTE** dentro de otra
 
@@ -291,7 +279,7 @@ div > strong{
 ```
 > Solo afecta a la etiqueta **strong** dentro de un **div**
 
-### Descendiente
+## Descendiente
 
 > Es una etiqueta dentro de otra sin importar la **PROFUNDIDAD**
 
@@ -313,7 +301,7 @@ div strong{
 </div>
 ```
 
-### Adyacente
+## Adyacente
 
 > Una etiqueta **DESPUES** de otra
 
@@ -323,7 +311,7 @@ p + p{
 }
 ```
 
-### Selectores de Atributo
+## Selectores de Atributo
 
 ```css
 a[href ^ = "#"]{  /* Comienza con...*/
@@ -340,31 +328,11 @@ a[href $ = "#"]{  /* Termina con...*/
 }
 ```
 
-### Pseudo-elementos
-
-* ::after 
-* ::before 
-* ::selection 
-* ::first-letter 
-* ::first-line 
-
-
-### Pseudo-classes
-
-* ::checked
-* ::disabled
-* ::enabled
-* ::first-child
-* ::focus
-* ::hover
-* ::nth-child
-* ::nth-lastchild
-* ::visited
 <br/>
 
-## POSICIONAMIENTO
+# POSICIONAMIENTO
 
-### Static
+## Static
 
 > Toma los valores por default del elemento.
 > No se mueve de su posición original
@@ -375,7 +343,7 @@ div{
 }
 ```
 
-### Relative
+## Relative
 
 > Mueve su posición basándose en el contenedor: __top__ y __left__. 
 
@@ -385,7 +353,7 @@ div{
 }
 ```
 
-### Absolute
+## Absolute
 
 > Mueve su posición en relación al ancestro más cercano: 
 > __top__ y __left__.
@@ -397,7 +365,7 @@ div{
 }
 ```
 
-### Fixed
+## Fixed
 
 > Posición relativa a la esquina superior izquierda del navegador. 
 > Se pega como chicle y no se mueve con el scroll.
@@ -408,7 +376,7 @@ div{
 }
 ```
 
-### Sticky
+## Sticky
 
 > Es una mezcla entre relative y fixed.
 
@@ -444,7 +412,7 @@ th {
 - [x] El contenedor padre debe tener una altura definida como: __height: 100vh__
 
 
-### Menu con Float
+## Menu con Float
 
 ```css
 nav ul li{
@@ -458,9 +426,9 @@ nav ul li{
 }
 ```
 
-## VARIABLES
+# VARIABLES
 
-### Asignar variables
+## Asignar variables
 
 ```css
 :root{
@@ -468,7 +436,7 @@ nav ul li{
 }
 ```
 
-### Usar variables
+## Usar variables
 
 ```css
 p{
@@ -476,7 +444,7 @@ p{
 }
 ```
 
-## BOXES
+# BOXES
 
 > Los elementos en CSS tienen capas desde el centro al extremo
 > El primer nivel es el mismo **contenido** 
@@ -485,93 +453,56 @@ p{
 > Entre el contenido y el borde hay un espacio en blanco llamado **padding**
 > Entre el borde y la parte de afuera existe un espacio llamado **margin**
 
-## ISOLATION
 
-- [x] Sustituye a __position:relative__ y __z-index:1__
-- [x] Aisla el elemento
-- [x] Evita que su HIJOS interfieran con el z-index de otros elementos fuera del contenedor
+# CAMBIO DE ELEMENTOS 🦋 
 
-```html
-<div class="hero">
-  <div class="hero-intro">
-      <h1><code>mix-blend-model</code>
-      is pretty awesome</h1>
-      <p>Some of the blending modes might seem a little strange
-          at first, but you can use them for some effects</p>
-  </div>
-</div>    
-```
+## Pseudoelementos
+
+- [X] Son como un __span__ oculto en el CONTENIDO de un elemento
+- [X] Existe uno antes __::before__ y otro después __::after__
+- [X] Sirven para __agregar__ diseño sin usar otras etiquetas
+
+* Agregar un arreglo a un texto en la parte de arriba 
 
 ```css
-.hero{
-    background-image: url(https://images.unsplash.com/photo-1749497683202-d3073573d996?q=80&w=1247&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    min-height: 100vh;
-    color: white;
-    background-size: cover;
-    display:flex;
-    isolation: isolate;
-}
-
-.hero-intro{
-    width:40%;
-    padding: 2em;
-    /* Excelente para padding RESPONSIVO */
-    padding-top: min(15vh, 10rem);
-    position: relative;
-}
-
-.hero-intro::after{
-    content:'';
-    position: absolute;
-    background: #355f08;
-    inset:0;
-    z-index:-1;
-    mix-blend-mode: multiply;
-}
-
-code{
-    display: block;
+.texto::before{
+  content:''; /* ESTA LINEA ES FORZOSA !! */
+  background-color: crimson;
+  display:block; /* PARA QUE DEJE DE SER UN SPAN */
+  height: 15px;
+  width: 25%; /* Solo 1/4 del ancho del texto */
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
 }
 ```
 
-## Box Shadow
-
-- [x] Está pensado para ponerle sombras a __CAJAS__ de elementos
-- [x] El primer valor es el __offset__ en X 
-- [x] El segundo valor es el __offset__ en Y
-- [x] El tercer valor es el __blur__
-- [x] El cuarto valor (_opcional_) es el __spread__
-
+* Agregar un arreglo a un texto en la parte lateral
 
 ```css
-.box-shadow{
-  box-shadow: .75em .75em 1em;
+.container{display:flex}
+
+.texto::before{
+  content:''; /* ESTA LINEA ES FORZOSA !! */
+  background-color: crimson;
+  display:block; /* PARA QUE DEJE DE SER UN SPAN */
+  height: 100%;
+  width: 15px; /* Solo 1/4 del ancho del texto */
+  border-radius: 10px;
+  margin-right: .5rem;
 }
 ```
 
-## Filter
-
-- [x] Podemos crear __SOMBRAS__ en el contenido de un elemento.
-
-```css
-.filter-shadow{
-  filter: drop-shadow(.75em .75em 1em);
-}
-```
-
-
-
-## CAMBIANDO ELEMENTOS 🦋 
-
-### Radius 🔘 
+## Radius 🔘 
 
 > Para redondear una foto o elemento podemos agregar:
 
 ```css
-border-radius: 50%;
+img{
+  border-radius: 50%;
+}
 ```
 
-### Transition ⏲️ 
+## Transition ⏲️ 
 
 - [x] Podemos usarlo cuando algo cambia 
 - [x] Retrasa el tiempo que toma de un estado a otro
@@ -627,16 +558,139 @@ border-radius: 50%;
 }
 ```
 
-### Cursor ✋🏼 
+## BOX SHADOW
+
+- [x] Está pensado para ponerle sombras a __CAJAS__ de elementos
+- [x] El primer valor es el __offset__ en X 
+- [x] El segundo valor es el __offset__ en Y
+- [x] El tercer valor es el __blur__
+- [x] El cuarto valor (_opcional_) es el __spread__
+
+
+```css
+.box-shadow{
+  box-shadow: .75em .75em 1em;
+}
+```
+
+## FILTER
+
+- [x] Podemos crear __SOMBRAS__ en el contenido de un elemento.
+
+```css
+.filter-shadow{
+  filter: drop-shadow(.75em .75em 1em);
+}
+```
+
+## Radial Gradient
+
+- [x] Crea fondos de colores en forma circular
+
+* Crear un __circulo__ turquesa dentro de otro color rosa
+
+```css
+div{
+  background: radial-gradient(darkturquoise 75%, hotpink 75%)
+}
+```
+
+* Crear un "__anillo__" color rosa
+
+```css
+div{
+  background: radial-gradient(white 65%, hotpink 65%);
+  border-radius: 50%;
+}
+```
+
+* Crear un efecto de círculos __repetidos__
+
+```css
+div{
+  background: repeating-radial-gradient(darkturquoise 0px, darkturquoise 20px, hotpink 20px, hotpink 40px)
+}
+```
+
+* Crear otro efecto de círculos __esquinados__
+
+```css
+div{
+  background: repeating-radial-gradient(farthest-corner at 0 0, violet, violet 75px, palegreen 75px, palegreen 150px)
+}
+```
+
+## ISOLATION
+
+- [x] Sustituye a __position:relative__ y __z-index:1__
+- [x] Aisla el elemento
+- [x] Evita que su HIJOS interfieran con el z-index de otros elementos fuera del contenedor
+
+```html
+<div class="hero">
+  <div class="hero-intro">
+      <h1><code>mix-blend-model</code>
+      is pretty awesome</h1>
+      <p>Some of the blending modes might seem a little strange
+          at first, but you can use them for some effects</p>
+  </div>
+</div>    
+```
+
+```css
+.hero{
+    background-image: url(https://images.unsplash.com/photo-1749497683202-d3073573d996?q=80&w=1247&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    min-height: 100vh;
+    color: white;
+    background-size: cover;
+    display:flex;
+    isolation: isolate;
+}
+
+.hero-intro{
+    width:40%;
+    padding: 2em;
+    /* Excelente para padding RESPONSIVO */
+    padding-top: min(15vh, 10rem);
+    position: relative;
+}
+
+.hero-intro::after{
+    content:'';
+    position: absolute;
+    background: #355f08;
+    inset:0;
+    z-index:-1;
+    mix-blend-mode: multiply;
+}
+
+code{
+    display: block;
+}
+```
+
+## Cursor ✋🏼 
 
 > Para cambiar el aspecto del puntero del mouse a: <br/>
 > pointer, crosshair, e-resize, grab, help, move, 
 > progress, text, wait, no-allowed, no-drop 
 
 
-## RESPONSIVE DESIGN 🦎 
+<br/>
+<br/>
+⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​
+<br/>
+<br/>
 
-### Media Queries 
+# RESPONSIVE DESIGN 🦎
+
+<br/>
+<br/>
+⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​
+<br/>
+<br/>
+
+## Media Queries 
 
 > Es una forma de adaptar contenido a diferentes pantallas
 
@@ -649,8 +703,19 @@ border-radius: 50%;
   /* CSS only for screens below or equal to 600px width */
 }
 ```
+<br/>
+<br/>
+⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​
+<br/>
+<br/>
 
-## Flexbox 
+# Flexbox 🦎
+
+<br/>
+<br/>
+⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​
+<br/>
+<br/>
 
 1. Necesitamos una clase padre para contener **flexbox**:
 
@@ -675,7 +740,7 @@ border-radius: 50%;
 ```
 > No veremos nada hasta agregar elementos y contenido
 
-### Cambiar la base
+## Cambiar la base
 
 > La **base** es el eje que elegimos con **flex-direction**
 
@@ -689,7 +754,7 @@ border-radius: 50%;
 
 - [x] Debemos agregar __flex-basis__ al elemento HIJO.
 
-### Envolver elementos
+## Envolver elementos
 
 > Por default, los elementos son **nowrap**
 > Para que se envuelvan debemos agregar al elemento padre:
@@ -698,7 +763,7 @@ border-radius: 50%;
 flex-wrap: wrap;
 ```
 
-### Orden de elementos
+## Orden de elementos
 
 > Podemos cambiar el orden de los elementos con:
 
@@ -714,7 +779,7 @@ flex-wrap: wrap;
 }
 ```
 
-### Justificar elementos
+## Justificar elementos
 
 > Es la alineación del **EJE PRINCIPAL**
 
@@ -728,7 +793,7 @@ flex-wrap: wrap;
 * space-evenly
 <br/>
 
-### Alinear elementos
+## Alinear elementos
 
 > Es la alineación del **EJE SECUNDARIO**
 
@@ -764,7 +829,7 @@ Para cambiar solo un elemento
 }
 ```
 
-### Tamaño de elementos
+## Tamaño de elementos
 
 ```css
 .elemento{
@@ -773,7 +838,7 @@ Para cambiar solo un elemento
 }
 ```
 
-### Centrar elementos
+## Centrar elementos
 
 ```css
 .elemento{
@@ -783,7 +848,19 @@ Para cambiar solo un elemento
 }
 ```
 
-## GRID Layout
+<br/>
+<br/>
+⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​
+<br/>
+<br/>
+
+# GRID 🦎
+
+<br/>
+<br/>
+⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​
+<br/>
+<br/>
 
 > Es la mejor forma de crear diseños complejos de diferentes tamaños
 
@@ -857,325 +934,14 @@ Para cambiar solo un elemento
 <br/>
 <br/>
 
-<div style="color:#e63946">
-
-## CSS Art !
-</div>
-
-
-### FONDO
-
-* Patrón a seguir para fondo:
-
-1. Altura / Ancho
-2. Fondo
-3. Posición
-4. Transform
-5. Bordes
-6. Extras
-
-* Crear HTML con etiqueta __DIV__ "container"
-* Llamar archivo CSS
-
-```css
-.container{
-  height: 500px;
-  width: 500px;
-  background: #4c2e82;
-  position: absolute;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%,-50%);
-  border-radius: 5%;
-  box-shadow: 12px 12px 10px #bbb;
-}
-```
-
-### Cara
-
-* Agregar DIV "ferb" dentro de "container"
-
-```css
-.ferb{
-  /* medidas */
-  height: 250px;
-  width: 60px;
-  /* color */
-  background: #fce2c4;
-  border: 4px solid #ffa945;
-  border-bottom: none;
-  /* relativo al padre (fondo container)*/
-  position: relative;
-  /* mover */
-  left:220px;
-  top: 100px;
-  transform: rotate(5deg);
-}
-```
-
-### Boca
-
-```css
-.ferb::before{
-  content:"";
-  height: 15px;
-  width: 15px;
-  /* color */
-  background: #fce2c4;
-  border-left: 5px solid #ffa945;
-  border-bottom: 3px solid #ffa945;
-  border-bottom-left-radius: 10px;
-  /* para moverlo fuera del rostro */
-  position: absolute;
-  /* mover */
-  top: 170px;
-  left: -12px;
-  transform: skew(-42deg);
-}
-```
-
-### Oido
-
-```css
-.ferb::after{
-  content: "";
-  height: 25px;
-  width: 25px;
-  position: absolute;
-  /* color */
-  background: #fce2c4;
-  border-radius: 50%;
-  border: 4px solid #ffa945;
-  border-top: none;
-  border-left: none;
-  /* mover */
-  left: 55px;
-  top: 80px;
-  transform: rotate(-40deg);
-}
-```
-
-
-### Nariz
-
-* Agregar DIV "nose" bajo "ferb"
-```css
-.nose{
-  height: 50px;
-  width: 50px;
-  background: #fce2c4;
-  position: relative;
-  left: 172px;
-  bottom: 92px;
-  border: 4px solid #ffa945;
-  border-right: none;
-  border-radius: 12px 0 0 12px;
-  transform: rotate(5deg);
-  z-index: 100;
-}
-
-.nose::before{
-  content: "";
-  height: 10px;
-  width: 30px;
-  background: #fce2c4;
-  position: absolute;
-  left: 30px;
-  top: -4px;
-  border-top: 4px solid #ffa945;
-}
-
-```
-
-
-### Ojos
-
-* Agregar DIV "eye" bajo "nose"
-```css
-
-.eye{
-  height: 45px;
-  width: 40px;
-  background: #fff;
-  position: relative;
-  left: 206px;
-  bottom: 188px;
-  border-radius: 50%;
-  border: 3px solid #000;
-  transform: rotate(5deg);
-}
-
-.eye::before{
-  content: "";
-  height: 12px;
-  width: 10px;
-  background: #000;
-  position: absolute;
-  left: 14px;
-  top: 22px;
-  border-radius: 50%;
-  transform: rotate(15deg);
-}
-
-.eye::after{
-  content: "";
-  height: 4px;
-  width: 4px;
-  background: #fff;
-  position: absolute;
-  left: 18px;
-  top: 24px;
-  border-radius: 50%;
-}
-
-.second-eye{
-  width: 40px;
-  height: 40px;
-  bottom: 224px;
-  left:234px;
-}
-
-.second-eye::before{
-  top: 10px;
-}
-
-.second-eye::after{
-  top: 14px;
-}
-```
-
-### Cabello
-
-* Agregar DIV "hair" bajo "eye" y dentro 5 DIVs sin clase
-```css
-
-.hair{
- position: relative;
- left: 10px;
- bottom: 250px;
- z-index: 100; 
-}
-
-.hair>div:nth-child(1){
-  height: 30px;
-  width: 100px;
-  position: absolute;
-  left: 180px;
-  bottom: 40px;
-  border-top: 20px solid #008000;
-  border-radius: 50px 40px 0 0;
-  transform: rotate(30deg);
-}
-
-.hair>div:nth-child(2){
-  height: 30px;
-  width: 100px;
-  position: absolute;
-  left: 200px;
-  bottom: 40px;
-  border-top: 20px solid #008000;
-  border-radius: 50px 40px 0 0;
-  transform: rotate(70deg);
-}
-
-.hair>div:nth-child(3){
-  height: 30px;
-  width: 80px;
-  position: absolute;
-  left: 220px;
-  bottom: 50px;
-  border-top: 20px solid #008000;
-  border-radius: 50px 40px 0 0;
-  transform: rotate(130deg);
-}
-
-.hair>div:nth-child(4){
-  height: 30px;
-  width: 100px;
-  position: absolute;
-  left: 200px;
-  bottom: 20px;
-  border-top: 20px solid #008000;
-  border-radius: 50px 40px 0 0;
-  transform: rotate(20deg);
-}
-
-
-.hair>div:nth-child(5){
-  height: 30px;
-  width: 50px;
-  position: absolute;
-  left: 260px;
-  bottom: 20px;
-  border-top: 20px solid #008000;
-  border-radius: 50px 40px 0 0;
-  transform: rotate(10deg);
-}
-
-```
-
+```transform: skew(-42deg)```
+```transform: rotate(-40deg)```
+```nth-child()```
+  
 <br/>
 <br/>
 ⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​
 <br/>
 <br/>
 
-<div style="color:#ff004d";>
-
-## HACKS❗❗❗
-</div>
-
-### Hack para medida REM
-
-```html
-  font-size: 62.5%; 
-```
-> 1rem AHORA es de 10px ❗
-
-### Eliminar underline de un ENLACE
-
-```css
-a:hover{
-  text-decoration: none; 
-}
-```
-### Eliminar linea punteada alrededor de los ENLACES
-
-```css
-a{
-  outline: none;
-}
-```
-
-### Cambiar ESPACIO entre letras
-
-```css
-p{
-  letter-spacing: .1rem; /* Podemos usar números negativos */  
-}
-```
-
-### Agregar SANGRIA
-
-```css
-p{
-  text-indent: 5px;
-}
-```
-
-### Quitar circulos negros de las LISTAS
-
-```css
-ul{
-  list-style: none; 
-}
-```
-> Podemos usar: disc, circle, upper-roman, lower-latin, square.
-
-
-<br/>
-<br/>
-⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​
-<br/>
-<br/>
 
