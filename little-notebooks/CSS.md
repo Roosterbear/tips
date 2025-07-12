@@ -1,16 +1,14 @@
-<h1 style="color:#dda15e">WEB</h1>
+<h1 style="color:#AE445A">CSS</h1>
 
+- [HTML Básico](#html-básico)
 - [Etiquetas HTML5](#etiquetas-html5)
 - [Formularios](#formularios)
 - [Tablas](#tablas)
 - [CSS Básico](#css-básico)
 - [ESPECIFICIDAD](#especificidad)
 - [FUENTES](#fuentes)
-  - [Centrar un elemento](#centrar-un-elemento)
-  - [Centrar un texto](#centrar-un-texto)
-  - [Centrar Bloques](#centrar-bloques)
-  - [Centrado Vertical](#centrado-vertical)
 - [IMAGENES](#imagenes)
+- [BOXES](#boxes)
 - [FONDOS](#fondos)
   - [Fondo Fijo](#fondo-fijo)
 - [SELECTORES](#selectores)
@@ -25,10 +23,14 @@
   - [Fixed](#fixed)
   - [Sticky](#sticky)
   - [Menu con Float](#menu-con-float)
+- [CENTRADO](#centrado)
+  - [Centrar un elemento](#centrar-un-elemento)
+  - [Centrar un texto](#centrar-un-texto)
+  - [Centrar Bloques](#centrar-bloques)
+  - [Centrado Vertical](#centrado-vertical)
 - [VARIABLES](#variables)
   - [Asignar variables](#asignar-variables)
   - [Usar variables](#usar-variables)
-- [BOXES](#boxes)
 - [CAMBIO DE ELEMENTOS 🦋 ](#cambio-de-elementos-)
   - [Pseudoelementos](#pseudoelementos)
   - [Radius 🔘 ](#radius-)
@@ -38,6 +40,16 @@
   - [FILTER](#filter)
   - [Radial Gradient](#radial-gradient)
   - [ISOLATION](#isolation)
+  - [Clip Path](#clip-path)
+    - [Sin recortar, pero redondeando las esquinas:](#sin-recortar-pero-redondeando-las-esquinas)
+    - [Recortes básicos (top, right, bottom, left):](#recortes-básicos-top-right-bottom-left)
+    - [Recortes Circular](#recortes-circular)
+    - [Recorte Poligonal](#recorte-poligonal)
+    - [Efectos con Clip Path](#efectos-con-clip-path)
+  - [Formas de crear un RECTANGULO](#formas-de-crear-un-rectangulo)
+  - [Formas de crear un CIRCULO](#formas-de-crear-un-circulo)
+  - [Formas de crear un TRIANGULO](#formas-de-crear-un-triangulo)
+  - [Formas de crear un HEXAGONO](#formas-de-crear-un-hexagono)
   - [Cursor ✋🏼 ](#cursor-)
 - [RESPONSIVE DESIGN 🦎](#responsive-design-)
   - [Media Queries](#media-queries)
@@ -50,12 +62,85 @@
   - [Tamaño de elementos](#tamaño-de-elementos)
   - [Centrar elementos](#centrar-elementos)
 - [GRID 🦎](#grid-)
+- [CSS Battle](#css-battle)
+
+
+<div style="color:#219ebc">
+
+# HTML Básico
+</div>
+
+- [x] Todo lo que vemos en una página web, está mostrado en __HTML__
+- [x] Es un lenguaje basado en __etiquetas__
+- [x] Generalmente las etiquetas van en pares (__apertura__ y __cierre__)
+- [x] Como estándar, las páginas comienzan con:
+
+```html
+<!DOCTYPE html>
+<html>
+
+</html>
+```
+- [x] Dentro de html, tenemos 2 secciones importantes: __head__ y __body__
+- [x] En el __head__ ponemos las configuraciones
+- [x] En el __body__ va todo el contenido
+
+* En el __```<head>```__ podemos incluir:
+
+- [x] El título de la página
+
+```<title>Mi sitio web</title>```
+
+- [x] Metadata:
+
+```<meta charset="utf-8">```
+```<meta name="viewport" content="width=device-width, initial-scale=1.0">```
+```<meta name="description" content="Tienda de articulos para perros">```
+
+- [x] Etiqueta __link__ para relacionar el documento con recursos __externos__
+
+* Para agregar archivos __CSS__:
+
+```html
+<link rel="stylesheet" href="styles.css" />
+```
+* Para definir el ícono del sitio:
+
+```html
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+```
+
+* Para agregar fuentes:
+
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+```
+
+* Para agregar alternativas de código:
+
+```html
+<link rel="alternate" hreflang="es" href="https://ejemplo.com/es/" />
+<link rel="alternate" hreflang="en" href="https://ejemplo.com/en/" />
+```
 
 <div style="color:#219ebc">
 
 # Etiquetas HTML5
 </div>
 
+- [x] Enlaces
+- [x] Enlaces
+- [x] Enlaces
+- [x] Enlaces
+- [x] Enlaces
+- [x] Enlaces
+- [x] Enlaces
+- [x] Enlaces
+- [x] Enlaces
+- [x] Enlaces
+- [x] Enlaces
 
 <div style="color:#219ebc">
 
@@ -146,8 +231,8 @@ li{
 > _px_ Medida estándar. **NO ESCALABLE**, usar solo para medidas **FIJAS**
 > _em_ Medida para fuentes, equivale a la letra M del elemento padre
 
-- [x] __Utilizarlos para que un elemento escale en proporción a su fuente__
-- [x] Usarlos en __Media Queries__ porque respeta preferencias del zoom en el navegador
+- [x] __Utilizarlos para íconos y botones__
+- [x] __Media Queries__ porque respeta preferencias del __zoom__ en navegador
 
 ```css
 .card {
@@ -171,59 +256,6 @@ li{
 > 1rem AHORA es de 10px ❗
 
 
-## Centrar un elemento
-
-> Agregar padding:
-
-```css
-#features{
-  padding: 7% 15%;
-}
-```
-> 7% arriba y abajo
-> 15% izquierda y derecha
-
-> **ESTA MEDIDA ES PERFECTA PARA UNA SECCION**
-
-## Centrar un texto
-
-> Agregar una clase y centrar como:
-
-```css
-.feature-box{
-  text-align: center;
-  padding: 5%;
-}
-```
-
-## Centrar Bloques
-
-```css
-img{
-  display: block; 
-  margin: 0 auto;
-}
-```
-
-> Podemos agregar: 
-
-```css
-  max-width: 100%;
-```
-
-## Centrado Vertical
-
-> Ponemos **height** y **line-height** con el mismo valor 
-
-```css
-.box{
-  text-align: center;
-  height: 100px;
-  line-height: 100px;
-}
-```
-
-
 # IMAGENES
 
 > Estas 2 propiedades nos ayudan a tener un mejor despliegue de una imagen:
@@ -234,6 +266,16 @@ img{
   display: block;
 }
 ```
+
+# BOXES
+
+> Los elementos en CSS tienen capas desde el centro al extremo
+> El primer nivel es el mismo **contenido** 
+> Podemos tener un **borde** afuera del contenido
+> Este puede tener __color__ y __ancho__
+> Entre el contenido y el borde hay un espacio en blanco llamado **padding**
+> Entre el borde y la parte de afuera existe un espacio llamado **margin**
+
 
 # FONDOS
 
@@ -426,6 +468,61 @@ nav ul li{
 }
 ```
 
+
+# CENTRADO
+
+## Centrar un elemento
+
+> Agregar padding:
+
+```css
+#features{
+  padding: 7% 15%;
+}
+```
+> 7% arriba y abajo
+> 15% izquierda y derecha
+
+> **ESTA MEDIDA ES PERFECTA PARA UNA SECCION**
+
+## Centrar un texto
+
+> Agregar una clase y centrar como:
+
+```css
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+```
+
+## Centrar Bloques
+
+```css
+img{
+  display: block; 
+  margin: 0 auto;
+}
+```
+
+> Podemos agregar: 
+
+```css
+  max-width: 100%;
+```
+
+## Centrado Vertical
+
+> Ponemos **height** y **line-height** con el mismo valor 
+
+```css
+.box{
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+}
+```
+
 # VARIABLES
 
 ## Asignar variables
@@ -443,16 +540,6 @@ p{
   color: var(--primary-color);
 }
 ```
-
-# BOXES
-
-> Los elementos en CSS tienen capas desde el centro al extremo
-> El primer nivel es el mismo **contenido** 
-> Podemos tener un **borde** afuera del contenido
-> Este puede tener __color__ y __ancho__
-> Entre el contenido y el borde hay un espacio en blanco llamado **padding**
-> Entre el borde y la parte de afuera existe un espacio llamado **margin**
-
 
 # CAMBIO DE ELEMENTOS 🦋 
 
@@ -491,6 +578,7 @@ p{
   margin-right: .5rem;
 }
 ```
+```nth-child()```
 
 ## Radius 🔘 
 
@@ -501,7 +589,6 @@ img{
   border-radius: 50%;
 }
 ```
-
 ## Transition ⏲️ 
 
 - [x] Podemos usarlo cuando algo cambia 
@@ -557,6 +644,9 @@ img{
   animation-direction: alternate;
 }
 ```
+
+```transform: skew(-42deg)```
+```transform: rotate(-40deg)```
 
 ## BOX SHADOW
 
@@ -624,7 +714,7 @@ div{
 
 - [x] Sustituye a __position:relative__ y __z-index:1__
 - [x] Aisla el elemento
-- [x] Evita que su HIJOS interfieran con el z-index de otros elementos fuera del contenedor
+- [x] Evita que su HIJOS interfieran con el __z-index__ de otros elementos
 
 ```html
 <div class="hero">
@@ -668,7 +758,178 @@ code{
     display: block;
 }
 ```
+## Clip Path
 
+- [x] __RECORTA__ el área visible de elementos
+- [x] El elemento debe tener __DIMENSIONES__ 
+- [x] __NO__ cambia el tamaño de sus dimensiones
+
+### Sin recortar, pero redondeando las esquinas:
+
+```css
+div{width:400px;height:400px}
+.element {
+  background-color: orange;
+  clip-path: inset(0px 0px 0px 0px round 10px);
+}
+```
+### Recortes básicos (top, right, bottom, left):
+  
+```css
+div{width:400px;height:400px}
+.element {
+  background-color: orange;
+  clip-path: inset(100px 50px 100px 50px);
+}
+```
+### Recortes Circular
+  
+```css
+div{width:400px;height:400px}
+.element {
+  background-color: orange;
+  clip-path: circle(50% at left); /* Default: Center */
+}
+```
+
+### Recorte Poligonal
+
+- [x] Cada par de 
+
+```css
+.element {
+  background-color: orange;
+  clip-path: polygon(50% 0, 0 100%, 100% 100%); /* Triángulo */
+}
+```
+
+### Efectos con Clip Path
+
+```css
+.element {
+  width: 100px;
+  height: 100px;
+  background: coral;
+  clip-path: polygon(
+    20% 0%, 80% 0%, 100% 20%, 
+    100% 80%, 80% 100%, 20% 100%, 
+    0% 80%, 0% 20%
+  );
+  transition: clip-path 0.5s ease;
+}
+
+.element:hover {
+  clip-path: polygon(
+    30% 10%, 70% 10%, 90% 30%, 
+    90% 70%, 70% 90%, 30% 90%, 
+    10% 70%, 10% 30%
+  );
+}
+```
+
+
+## Formas de crear un RECTANGULO
+
+- [x] __1__
+
+```css
+.element {
+  width: 200px;
+  height: 100px;
+  background-color: #007BFF;
+}
+```
+
+* Cómo dibujariamos un rectángulo sin contenido html?
+
+> Podemos poner borde al body y hacer que se vea agregando padding:
+```body{border:1px solid;padding:50px}```
+
+* Cómo dibujar un cuadrado relleno de negro sin agregar etiquetas html?
+
+> Podemos agregar un cuadro con código __unicode__
+> y crecerlo con ```zoom:10```
+```&#x220E```
+
+* Cómo dibujaríamos un rectángulo sin usar width ni height?
+
+```p{border:1px solid;padding:50px}```
+
+
+## Formas de crear un CIRCULO
+
+```css
+.element {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; 
+  background-color: #007BFF;
+}
+```
+- [x] Usando aspect-ratio
+
+```css
+.element {
+  width: 150px;
+  aspect-ratio: 1; 
+  border-radius: 50%;
+  background-color: #007BFF;
+}
+```
+> __aspect-ratio__ se usa para mostrar proporción: ancho - alto <br/>
+> por ejemplo, hacemos un rectángulo con __4/3__
+> y para un video podría ser __16/9__
+
+- [x] Con clip-path NO es necesario que el elemento sea cuadrado
+
+```css
+.element {
+  width: 100px;
+  aspect-ratio: 2 / 1; 
+  background-color: orange;
+  clip-path: circle(30%); 
+}
+```
+
+```css
+.element {
+  width: 300px;
+  aspect-ratio: 3 / 1; 
+  background-color: orange;
+  clip-path: circle(15%); 
+}
+```
+- [x] Hacer el recorte desde un punto del elemento
+
+```css
+.element {
+  width: 100px;
+  aspect-ratio: 2 / 1;
+  background-color: orange;
+  clip-path: circle(10px at 60px 40px);
+}
+```
+- [x] Usando Radial Gradient
+
+```css
+.element {
+  width: 150px;
+  aspect-ratio: 1;
+  background-image: radial-gradient(circle, maroon 50%, transparent 50%);
+}
+```
+
+
+
+## Formas de crear un TRIANGULO
+
+```
+```
+
+## Formas de crear un HEXAGONO
+
+```
+```
 ## Cursor ✋🏼 
 
 > Para cambiar el aspecto del puntero del mouse a: <br/>
@@ -934,9 +1195,6 @@ Para cambiar solo un elemento
 <br/>
 <br/>
 
-```transform: skew(-42deg)```
-```transform: rotate(-40deg)```
-```nth-child()```
   
 <br/>
 <br/>
@@ -945,3 +1203,31 @@ Para cambiar solo un elemento
 <br/>
 
 
+
+<br/>
+<br/>
+⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​
+<br/>
+<br/>
+
+# CSS Battle
+
+- [x] Quitar __espacios__ y comentarios
+- [x] Omitir el __;__ final del CSS
+- [x] No usar, por lo general, la etiqueta HTML de __cierre__
+> (__OJO__: Con etiquetas iguales las tomaría como hijas de la anterior)
+- [x] No usar __comillas__ dobles, pero usar __+__ para llenar __espacios__
+- [x] Crear atributos propios de selectores ```<p a>``` ```p[a]{}```
+- [x] Usar position __fixed__
+- [x] Juega con __unidades__: 200px = __2in__ = __50vw__ (50% del lienzo)
+- [x] No siempre tienes que agregar HTML, ya existe __html__ y __body__
+- [x] No es necesario poner la unidad __px__
+- [x] Usar: ```<body bgcolor=red>```
+- [x] Utilizar ```style=zoom:2``` para ampliar la pagina a lo doble
+- [x] Podemos usar unicode: ･⬤
+
+<br/>
+<br/>
+⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​
+<br/>
+<br/>
