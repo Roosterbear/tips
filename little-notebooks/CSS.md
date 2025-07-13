@@ -919,17 +919,130 @@ div{width:400px;height:400px}
 }
 ```
 
+- [x] Usando Box Shadow
 
+```css
+.element {
+  width: 30px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: #007BFF;
+  box-shadow: 100px 20px 0 orange, 200px 50px 0 limegreen, 60px 100px 0 #FF3333;
+}
+```
 
 ## Formas de crear un TRIANGULO
 
+- [x] Con __Clip Path__
+
+```css
+.element {
+    width: 100px;
+    height: 100px;
+    background: orange;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
 ```
+- [x] Con __Linear Gradient__
+
+```css
+.element {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(45deg, transparent 50%, royalblue 0);
+}
+```
+
+- [x] Con __Conic Gradient__
+
+```css
+.element {
+  width: 100px;
+  height: 100px;
+  background: conic-gradient(from -45deg,orange 90deg, royalblue 0, royalblue 180deg, red 0, red 270deg, green 0);
+}
+```
+
+> Ahora quitamos los demas colores:
+
+```css
+.element {
+  width: 100px;
+  height: 100px;
+  background: conic-gradient(from -45deg,orange 90deg, transparent 0);
+}
+```
+- [x] Usando Unicode de __triángulo__
+
+```css
+<div>▴</div>
+<style>
+  div {
+    color: orange;
+    font-size: 10rem;
+  }
+</style>
 ```
 
 ## Formas de crear un HEXAGONO
 
+> Entendiendo el uso de border, creando un __triángulo__
+
+```css
+.element{  
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;  
+  border-right: 50px solid transparent; 
+  border-bottom: 100px solid red;
+}
 ```
+
+- [x] Por medio de __bordes__ y __pseudoelementos__:
+
+```css
+.element {
+  position: relative;
+  width: 300px;
+  height: 173.2px;
+  background-color: #007BFF;
+  margin: 86.6px 0;
+}
+
+.element::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  bottom: 100%;
+  border-bottom: 86.6px solid #007BFF;
+}
+
+.element::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  top: 100%;
+  width: 0;
+  border-top: 86.6px solid #007BFF;
+}
 ```
+- [x] Por medio de __Clip Path__
+
+```css
+.element {
+  width: 300px;
+  height: 300px;
+  background: cadetblue;
+  -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+  clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+}
+```
+
+
 ## Cursor ✋🏼 
 
 > Para cambiar el aspecto del puntero del mouse a: <br/>
