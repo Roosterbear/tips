@@ -1333,7 +1333,7 @@ Para cambiar solo un elemento
 - [x] Crear atributos propios de selectores ```<p a>``` ```p[a]{}```
 - [x] Usar position __fixed__
 - [x] Juega con __unidades__: 200px = __2in__ = __50vw__ (50% del lienzo)
-- [x] No siempre tienes que agregar HTML, ya existe __html__ y __body__
+- [x] No siempre tienes que agregar etiquetas, ya existe __html__ y __body__
 - [x] No es necesario poner la unidad __px__
 - [x] Usar: ```<body bgcolor=red>```
 - [x] Utilizar ```style=zoom:2``` para ampliar la pagina a lo doble
