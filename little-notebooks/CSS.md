@@ -589,6 +589,21 @@ img{
   border-radius: 50%;
 }
 ```
+
+> Podemos de hecho redondear los bordes de cualquier __caja__:
+
+```css
+.box{
+  border-radius: 20px;
+}
+```
+
+> Podemos crear elipses con medidas 
+
+```
+```
+
+
 ## Transition ⏲️ 
 
 - [x] Podemos usarlo cuando algo cambia 
@@ -1329,7 +1344,7 @@ Para cambiar solo un elemento
 - [x] Omitir el __;__ final del CSS
 - [x] No usar, por lo general, la etiqueta HTML de __cierre__
 > (__OJO__: Con etiquetas iguales las tomaría como hijas de la anterior)
-- [x] No usar __comillas__ dobles, pero usar __+__ para llenar __espacios__
+- [x] Usar __margin__ y __auto__ para centrar sobre posiciones relativas
 - [x] Crear atributos propios de selectores ```<p a>``` ```p[a]{}```
 - [x] Usar position __fixed__
 - [x] Juega con __unidades__: 200px = __2in__ = __50vw__ (50% del lienzo)
