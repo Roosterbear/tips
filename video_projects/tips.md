@@ -2,6 +2,10 @@
 
 - [Búsquedas Avanzadas en Google](#búsquedas-avanzadas-en-google)
 - [CV](#cv)
+- [SSR y CSR](#ssr-y-csr)
+  - [Server Side Rendering](#server-side-rendering)
+  - [Client Side Rendering](#client-side-rendering)
+  - [React](#react)
 
 
 # Búsquedas Avanzadas en Google
@@ -40,6 +44,170 @@
     * XYZ
 9. Consistencia VISUAL (tipo de letra, espacios, negritas, etc)
 10. Enfócate a que debes convencer que somos la __persona indicada__
+
+<br/>
+
+# SSR y CSR
+
+## Server Side Rendering
+
+* Todo el trabajo se hace en el servidor
+* Es la forma clásica de __cliente-servidor__
+* La información, al estar en el servidor: NO se puede ver
+
+## Client Side Rendering
+
+* Envía un __documento vacío__ de HTML al cliente
+* Contiene __código JS__ que dibujará tu __DOM__ 
+* __TODA LA INFORMACIÓN SE PUEDE VER__
+
+## React
+
+> Debido a esto, React hace uso de Metaframeworks como: <br/>
+> Remix, NextJS, Astro
+
+* Usan tanto SSR como CSR
+* Utiliza la __hidratación__
+* El código se ejecuta en servidor la primera vez
+* El código se vuelve a ejecutar en el cliente para __interactividad__
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
