@@ -23,6 +23,11 @@
   - [Fixed](#fixed)
   - [Sticky](#sticky)
   - [Menu con Float](#menu-con-float)
+- [DISPLAY](#display)
+  - [Block](#block)
+  - [Inline](#inline)
+  - [Inline-block](#inline-block)
+  - [None](#none)
 - [CENTRADO](#centrado)
   - [Centrar un elemento](#centrar-un-elemento)
   - [Centrar un texto](#centrar-un-texto)
@@ -467,6 +472,33 @@ nav ul li{
   clear: both; /* We have to include a div with this class after the menu */
 }
 ```
+
+# DISPLAY
+
+## Block
+
+> El elemento actúa como una caja
+> Contiene Alto y Ancho
+> Ocupa todo el ancho de la página
+> El siguiente elemento se posiciona abajo
+
+## Inline
+
+> El elemento no contiene medidas
+> El siguiente elemento se coloca a un lado
+
+## Inline-block
+
+> 
+
+## None
+
+> El elemento __DESAPARECE__
+> Si queremos quitarlo sin eliminar el espacio que ocupa usamos:
+
+```visibility:hidden;```
+
+
 
 
 # CENTRADO

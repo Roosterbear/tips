@@ -6,6 +6,7 @@
   - [Server Side Rendering](#server-side-rendering)
   - [Client Side Rendering](#client-side-rendering)
   - [React](#react)
+- [Software para crear](#software-para-crear)
 
 
 # Búsquedas Avanzadas en Google
@@ -71,6 +72,17 @@
 * El código se ejecuta en servidor la primera vez
 * El código se vuelve a ejecutar en el cliente para __interactividad__
 
+<br/>
+<br/>
+<br/>
+
+# Software para crear
+
+* __SaaS__ (Software as a Service) con: 
+> Registro de usuario, roles, permisos, panel de administración,
+> integración con un método de pago, notificaciones, correos automáticos.
+* __RAG__ (Retrieval Augmented Generation)
+* Automatización con __n8n__
 
 
 
