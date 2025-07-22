@@ -7,7 +7,11 @@
 - [CSS Básico](#css-básico)
 - [ESPECIFICIDAD](#especificidad)
 - [FUENTES](#fuentes)
+  - [Line Height](#line-height)
 - [IMAGENES](#imagenes)
+- [MEDIDAS](#medidas)
+  - [Keywords](#keywords)
+  - [Global Keywords](#global-keywords)
 - [BOXES](#boxes)
 - [FONDOS](#fondos)
   - [Fondo Fijo](#fondo-fijo)
@@ -233,8 +237,8 @@ li{
 
 # FUENTES
 
-> _px_ Medida estándar. **NO ESCALABLE**, usar solo para medidas **FIJAS**
-> _em_ Medida para fuentes, equivale a la letra M del elemento padre
+* _px_ Medida estándar. **NO ESCALABLE**, usar solo para medidas **FIJAS**
+* _em_ Medida para fuentes, equivale a la letra M del elemento padre
 
 - [x] __Utilizarlos para íconos y botones__
 - [x] __Media Queries__ porque respeta preferencias del __zoom__ en navegador
@@ -249,7 +253,7 @@ li{
 }
 ```
 
-> _rem_ Basada en la fuente raíz del HTML
+* _rem_ Basada en la fuente raíz del HTML
 
 - [x] Usarlos para __tamaños de fuentes__, __márgenes__, __paddings__ y __dimensiones__.
 
@@ -260,6 +264,22 @@ li{
 ```
 > 1rem AHORA es de 10px ❗
 
+## Line Height
+
+> Puede ser en proporción o con alguna medida:
+
+```css
+font-size: 20px;
+line-height: 30px;
+```
+
+> __Observa__ que el alto de la línea es 1.5 mayor que la fuente <br/>
+> Podemos cambiar la altura a:
+
+```css
+font-size: 20px; /* De igual manera, podemos usar 125% con una fuente de 16px */
+line-height: 1.5;
+```
 
 # IMAGENES
 
@@ -271,6 +291,67 @@ img{
   display: block;
 }
 ```
+
+# MEDIDAS
+
+## Keywords
+
+> Usado para __valores__ que se describan con una palabra, por ejemplo:
+<br/>
+
+```a[href]{text-decoration:none}```
+
+## Global Keywords
+
+> Se aceptan de manera general
+
+__inherit__ <br/>
+
+> Hace que el valor de la propiedad del elemento se el mismo que el padre.
+
+<br/>
+
+> En este ejemplo veremos más claro su uso, ya que por lo general, los estilos se van heredando a los hijos.
+
+<br/>
+
+```css
+#toolbar{background:blue;color:white;}
+```
+
+```html
+<div id="toolbar">
+  <a href="one.html">One</a> |
+  <a href="two.html">Two</a> |
+  <a href="three.html">Three</a>
+</div> 
+```
+> Aquí los links heredarán las preferencias del __NAVEGADOR__.
+> (probablemente un __azul__ que se ocultará con el fondo azul del __div__)
+
+<br/>
+
+Aquí es cuando entra en acción: <br/>
+
+```css
+#toolbar a{color:inherit;}
+```
+> ACOSTUMBREMONOS A HACER LAS COSAS BIEN
+
+<br/>
+
+> Pudimos poner directamente __white__ en lugar de inherit, pero
+> cuando tengamos que cambiar de color, lo haríamos en __DOS__ lugares
+
+* De igual manera, __los bordes NO se heredan__
+* por lo que si queremos un borde igual al del padre: <br/>
+
+```css
+.hijo {border:inherit;}
+```
+
+
+
 
 # BOXES
 
@@ -477,19 +558,20 @@ nav ul li{
 
 ## Block
 
-> El elemento actúa como una caja
-> Contiene Alto y Ancho
-> Ocupa todo el ancho de la página
-> El siguiente elemento se posiciona abajo
+* El elemento actúa como una caja
+* Contiene Alto y Ancho
+* Ocupa todo el ancho de la página
+* El siguiente elemento se posiciona abajo
 
 ## Inline
 
-> El elemento no contiene medidas
-> El siguiente elemento se coloca a un lado
+* El elemento no contiene medidas
+* El siguiente elemento se coloca a un lado
 
 ## Inline-block
 
-> 
+* Permite que el elemento tenga __medidas__
+* __NO__ agrega una nueva línea 
 
 ## None
 
@@ -497,9 +579,6 @@ nav ul li{
 > Si queremos quitarlo sin eliminar el espacio que ocupa usamos:
 
 ```visibility:hidden;```
-
-
-
 
 # CENTRADO
 
