@@ -1,4 +1,4 @@
-<h1 style="color:#00b4d8">C Programming Language Handbook</h1>
+<h1 style="color:#00b4d8">C Programming</h1>
 
 - [Introducción](#introducción)
   - [Hello World](#hello-world)
@@ -177,21 +177,6 @@ int main(){
 
 * Solicita espacio de memoria al sistema
 * Regresa un apuntador a esa memoria
-
-
-
-
-``` ```
-``` ```
-``` ```
-``` ```
-
-
-
-
-
-
-
 
 
 

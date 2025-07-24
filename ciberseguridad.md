@@ -1,41 +1,32 @@
-# Cybersecurity 🔐🔐🔐🔐🔐🔐🔐
+<h1 style="color:#00b4d8">Cybersecurity</h1>
 
-__INDEX__
-<br/>
+# Foundations of Cybersecurity 🔐🔐🔐🔐🔐🔐🔐
 
-- [Foundations of Cybersecurity](#1-foundations-of-cybersecurity)
-
-
-
-## [1] Foundations of Cybersecurity 
-
-
-### Cybersecurity Activities
+## Cybersecurity Activities
 
 > Detect and respond to attacks 
 > Monitoring and protecting networks 
 > Investigating incidents 
 > Write code to automate task 
 
-
-### Definition of Cybersecurity
+## Definition of Cybersecurity
 
 > The practice of ensuring confidentiality, integrity 
 > and availability of information by protecting networks, devices,
 > people and data from unauthorized access or criminal exploitation
 
 
-### Threat Actor
+## Threat Actor
 
 > Person or group who presents a security risk.
 
 
-### Security Analyst
+## Security Analyst
 
 > Are responsible for monitoring and protecting information and systems.
 
 
-### Skills
+## Skills
 
 * Communication 
 * Collaboration
@@ -49,18 +40,17 @@ __INDEX__
 * Computer Forensic
 
 
-### Personal Information
+## Personal Information
 
 * __PII__ - Personal Identifiable Information
 * __SPII__ - Sensitive Personal Identifiable Information
 
-### Social Engineering
+## Social Engineering
 
 > A manipulation technique that exploits human error to gain private information, 
 > access or valuables
 
-
-### Phishing
+## Phishing
 
 > The use of digital communications to trick people
 > into revealing sensitive data or deploying malicious software. 
@@ -82,7 +72,7 @@ __INDEX__
 > __USB Baiting__ By a malicious software in a USB 
 
 
-### CISSP Domains
+## CISSP Domains
 
 * __Security and risk management__ Goals and Objectives, compliance and law
 * __Asset Security__ Storage, maintenance, retention or destruction of data
@@ -93,35 +83,31 @@ __INDEX__
 * __Security Operations__ Investigations and preventive measures
 * __Software Development Security__ Secure Coding Practices
 
-
-### Components of Security Frameworks
+## Components of Security Frameworks
 
 1. Identifying and documenting security goals
 2. Setting guidelines to achieve security goals
 3. Implementing strong security processes
 4. Monitoring and communicating results 
 
-
-### CIA Triad (_is a guide or model that inform about organization risk_)
+## CIA Triad (_is a guide or model that inform about organization risk_)
 
 - __Confidentiality__ - Only authorized user can access _SPECIFIC_ assets or data
 - __Integrity__ - Data is _CORRECT_, authentic and reliable
 - __Availability__ - Data is accesible to those who are _AUTHORIZED_ to access it
 
-
-### Ethical Principles
+## Ethical Principles
 
 1. Confidentiality - PII confidential and safe
 2. Privacy Protections - Safeguarding personal information from unauthorized use
 3. Laws - Rules recognized by a community and enforced by a governing entity
 
-
-### Security Information and Event Management (SIEM) Tools
+## Security Information and Event Management (SIEM) Tools
 
 > Collects and analyzes LOG data to monitor critical activities as Splunk or Chronicle
 
 
-### Professional Declaration
+## Professional Declaration
 
 > Currently I'm working at the IT Departament of an university. 
 > Managing Personal Information and Databases are one of my duties. 
@@ -141,12 +127,9 @@ __INDEX__
 > I have facility for both written and verbal communication and I like to program 
 > I'm a pragmatic person and I like take care of details 
 
+# Play Safe: Manage Security Risks 🔐🔐🔐🔐🔐🔐🔐
 
-
-
-## [2] Play Safe: Manage Security Risks 🔐🔐🔐🔐🔐🔐🔐
-
-### CISSP Domain #1 - Security and Risk Management
+## CISSP Domain #1 - Security and Risk Management
 
 > Focused on defining security goals and objectives, 
 > risk mitigation, compliance[cumplimiento], business continuity 
@@ -163,14 +146,14 @@ __Business continuity__
 > by establishing risk disaster _recovery plans_. 
 
 
-### CISSP Domain #2 - Asset Security
+## CISSP Domain #2 - Asset Security
 
 > Focused on _securing_ digital and physical _assets_. 
 > It's also related to the storage, maintenance, retention 
 > and _destruction_ of data. 
 
 
-### CISSP Domain #3 - Security Architecture and Engineering
+## CISSP Domain #3 - Security Architecture and Engineering
 
 > Focused on optimizing data security by ensuring _effective tools_, 
 > systems and processes are in place to protect an organization's assets and data.
@@ -181,12 +164,12 @@ __Shared responsability__
 > and maintaining both physical and virtual security.
 
 
-### CISSP Domain #4 - Communication and Network Security
+## CISSP Domain #4 - Communication and Network Security
 
 > Focused on managing and securing physical _networks and wireless communications_.
 
 
-### CISSP Domain #5 - Identity and access management
+## CISSP Domain #5 - Identity and access management
 
 > Focused on access and authorization to keep data secure, by making sure users
 > follow established policies to control and manage assets. 
@@ -200,7 +183,7 @@ __Shared responsability__
 > __Accountability__ Monitoring and recording user actions
 
 
-### CISSP Domain #6 - Security Assessment and Testing
+## CISSP Domain #6 - Security Assessment and Testing
 
 > Focused on conducting security control testing, collecting and analyzing data
 > and conducting security audits to monitor for risks, threats and vulnerabilities. 
@@ -208,13 +191,13 @@ __Shared responsability__
 * _Find better ways_ 
 
 
-### CISSP Domain #7 - Security Operations
+## CISSP Domain #7 - Security Operations
 
 > Focused on conducting investigations and implementing preventive measures.
 
 
 
-### CISSP Domain #8 - Software Development Security 
+## CISSP Domain #8 - Software Development Security 
 
 > Focused on using secure coding practices.
 
@@ -250,16 +233,16 @@ __RANSOMWARE__
 
 __DEEP WEB__
 
-> Generally requires authorization to access it. [intranet]
+> Generally requires authorization to access it.
 
 __DARK WEB__
 
-> Can only be accessed by using special software. [criminals]
+> Can only be accessed by using special software.
 
 
-__CyberSecurity Framework__ [CSF]
+__CyberSecurity Framework CSF__
 
-> Part of _National Institute of Standards and Technology_ [NIST]
+> Part of _National Institute of Standards and Technology_ __NIST__
 > A voluntary framework that consist of standards,
 > guidelines and best practices to manage cybersecurity risk.
 
@@ -345,7 +328,7 @@ __Controls__
 
 
 
-### Open Web Applications Security Project [OWASP] 
+## Open Web Applications Security Project [OWASP] 
 
 
 Principles: <br/>
@@ -449,7 +432,7 @@ __Incident Response__
 > and correct the effects of security breach.
 
 
-### INCIDENT RESPONSE PLAYBOOK PHASES
+## INCIDENT RESPONSE PLAYBOOK PHASES
 
 * __PREPARATION__
 
@@ -507,7 +490,7 @@ __Playbooks are living documents__
 
 
 
-## [3] Connect and Protect: Networks and Network Security 🔐🔐🔐🔐🔐🔐🔐
+# Connect and Protect: Networks and Network Security 🔐🔐🔐🔐🔐🔐🔐
 
 __NETWORK__
 
@@ -640,12 +623,12 @@ __TCP/IP Model__
 > and transmitted across the Network.
 
 
-### PROTOCOLS
+## PROTOCOLS
 
 > Rules to describe the delivery order.
 
 
-#### Communitacion
+### Communitacion
 
 __Transmission Control Protocol [TCP]__
 
@@ -677,7 +660,7 @@ __Address Resolution Protocol [ARP]__
 
 
 
-#### Management
+### Management
 
 __Simple Network Management Protocol [SNMP]__
 
@@ -713,7 +696,7 @@ __Simple Mail Transfer Protocol [SMTP]__
 > Uses the _25_ (not encrypted) and _587_ for TSL.
 
 
-#### Security
+### Security
 
 __Hyper-Text Transmission Protocol - Secure [HTTPS]__
 
@@ -737,7 +720,7 @@ __Secure File Transfer Protocol [SFTP]__
 3. __[WPA3]__ Uses Simultaneous Authentication of Equals __[SAE]__
 
 
-### FIREWALLS
+## FIREWALLS
 
 > There are _HARDWARE_ and _SOFTWARE_ firewalls.
 
@@ -767,7 +750,7 @@ __Port Filtering__
 > port numbers to limit unwanted communication
 
 
-### VPN (Virtual Private Networks)
+## VPN (Virtual Private Networks)
 
 > Is a Network Security Service that changes your public IP address
 > and hides your virtual location (_uses encapsulation_)
@@ -826,7 +809,7 @@ __Reverse proxy server__
 
 
 
-### ATTACKS
+## ATTACKS
 
 __Network intrusion attacks__ 
 
@@ -924,7 +907,7 @@ __Smurf attack__
 
 
 
-### SECURITY HARDENING
+## SECURITY HARDENING
 
 > The process of strengthening a system to reduce its vulnerabillity
 > and attack surface on Hardware, OS, Applications, DB and Networks.
@@ -1078,10 +1061,10 @@ __Day-0 Attacks__
 > loads of jobs to another VMs.
 
 
-## [4] Tools of the Trade: Linux and SQL 🔐🔐🔐🔐🔐🔐🔐
+# Tools of the Trade: Linux and SQL 🔐🔐🔐🔐🔐🔐🔐
 
 
-### LINUX
+## LINUX
 
 
 __Basic Input Output System [BIOS]__
@@ -1373,7 +1356,7 @@ __apropos__ <br/>
 
 
 
-### SQL
+## SQL
 
 
 __Primary Key__ <br/>
@@ -1484,10 +1467,7 @@ __FULL OUTER JOIN__ <br/>
 > Returns all records from both tables. 
 
 
-
-
-
-## [5] Assets, Threats and Vulnerabilities 🔐🔐🔐🔐🔐🔐🔐
+# Assets, Threats and Vulnerabilities 🔐🔐🔐🔐🔐🔐🔐
 
 
 __RISK__ <br/>
@@ -1699,14 +1679,6 @@ __Both Encryptions rely on sharing keys that can be misused, lost or stolen__ <b
 __Digital certificate__ <br/>
 
 > A file that verifies the identity of a public key holder
-
-
------------------------- [Lab] ------------------------------- <br/>
-
-
-Lq rughu wr uhfryhu brxu ilohv brx zloo qhhg wr hqwhu wkh iroorzlqj frppdqg: <br/>
-
-rshqvvo dhv-256-fef -sengi2 -d -g -lq T1.hqfubswhg -rxw T1.uhfryhuhg -n hwwxeuxwh <br/>
 
 
 ```bash
@@ -2211,10 +2183,10 @@ __Process for Attack Simulation and Threat Analysis__ <br/>
 
 
 
-## [6] Sound the Alarm: Detection and Response 🔐🔐🔐🔐🔐🔐🔐
+# Sound the Alarm: Detection and Response 🔐🔐🔐🔐🔐🔐🔐
 
 
-### NIST Incident Response LifeCycle
+## NIST Incident Response LifeCycle
 
 1. Preparation
 2. Detection and Analysis
@@ -2665,7 +2637,7 @@ __Types of Search__
 
 
 
-## [7] Automate Cybersecurity Task with Python 🔐🔐🔐🔐🔐🔐🔐
+# Automate Cybersecurity Task with Python 🔐🔐🔐🔐🔐🔐🔐
 
 
 __Automation__
@@ -2886,9 +2858,9 @@ __Algorithm__
 > A set of rules that solve a problem
 
 
-### REGULAR EXPRESSIONS
+## REGULAR EXPRESSIONS
 
-#### +
+### +
 
 > Represents one or more occurrences of a specific character
 > Ex. "a+" can get: "a", "aaaa"
@@ -2954,8 +2926,6 @@ print(re.findall("\d{1,3}", "h32rb17 k825t0m c2994eh"))
 pattern = "\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}"
 ```
 
-
-
 ### with
 
 > Handles errors and manages external resources
@@ -3012,10 +2982,10 @@ login_check(usernames, "eraab")
 
 ```
 
-## [8] Put to Work: Prepare for Cybersecurity Jobs 🔐🔐🔐🔐🔐🔐🔐
+# Put to Work: Prepare for Cybersecurity Jobs 🔐🔐🔐🔐🔐🔐🔐
 
 
-### Information Lifecycle
+## Information Lifecycle
 
 * Identify assets and the MOST important information
 * Evaluate Security Measures and Policies
@@ -3026,13 +2996,13 @@ login_check(usernames, "eraab")
 > IS THE PRIMARY GOAL OF A SECURITY TEAM
 
 
-### Incident Escalation
+## Incident Escalation
 
 > The process of identifying a potential security incident, triaging it,
 > and handling it off to a more experienced team member
 
 
-### Essential skills to scalate security incidents
+## Essential skills to scalate security incidents
 
 * Attention to detail
 * Ability to follow an organization's escalation guidelines or processes
@@ -3046,18 +3016,18 @@ A problem can cause:
 * Damage in Company's reputation
 
 
-### Escalation
+## Escalation
 
 > Tell a superior about a security incident
 
 
-### Malware infection
+## Malware infection
 
 > An incident type that occurs when malicious software designed to
 > disrupt a system infiltrates an organization's computer or network
 
 
-### Unauthorized access
+## Unauthorized access
 
 > An incident type that occurs when an individual 
 > gains digital or physical access to a system or
@@ -3070,13 +3040,13 @@ A problem can cause:
 > login credentials and encryption keys.
 
 
-### Improper Usage
+## Improper Usage
 
 > An incident type that occurs when an employee of an organization
 > violates the organization's acceptable use policies
 
 
-### Roles in Escalation
+## Roles in Escalation
 
 * Data owners
 * Data controllers
@@ -3085,19 +3055,19 @@ A problem can cause:
 * Data Protection Officers
 
 
-### Escalation Policy
+## Escalation Policy
 
 > A set of actions that outline who should be notified
 > when an incident alert occurs and how that incident
 > should be handled
 
-### Stakeholders
+## Stakeholders
 
 > An individual or group that has an interest in the decisions
 > or activities of an organization
 
 
-### Risk Manager Responsabilities
+## Risk Manager Responsabilities
 
 * Identify risks
 * Manage the response to security incidents
@@ -3105,34 +3075,34 @@ A problem can cause:
 * Inform the organization's public relations team
 
 
-### CEO Responsabilities 
+## CEO Responsabilities 
 
 * Financial and managerial decisions
 * Report to shareholders
 * Manage operations
 
 
-### CFO Responsabilities
+## CFO Responsabilities
 
 * Manage financial operations
 * Costs of tools and strategies
 
 
-### CISO Responsabilities
+## CISO Responsabilities
 
 * Develop an organization's security architecture
 * Conduct risk analysis and system audits
 * Create security and business continuity plans
 
 
-### Operations Manager Responsabilities
+## Operations Manager Responsabilities
 
 * Oversee security professionals
 * Work directly with analysts
 * Responsible for daily maintenance of security operations
 
 
-### Communicate the story
+## Communicate the story
 
 * Email
 * Document
@@ -3142,20 +3112,20 @@ A problem can cause:
 * Incident Management or Ticketing Systems
 
 
-### Effective Communication
+## Effective Communication
 
 * Get to the point
 * Follow the protocols
 * Communicate with impact
 
-### Security Operations Center (SOC) Analyst
+## Security Operations Center (SOC) Analyst
 
 * Ensuring security incidents are handled rapidly and efficiently
 * Following established policies and procedures
 
 
 
-### Resources
+## Resources
 
 * OWASP
 * CSO Online
@@ -3163,14 +3133,14 @@ A problem can cause:
 * Dark Reading
 
 
-### Job searching sites
+## Job searching sites
 
 * ZipRecruiter
 * Indeed
 * Monster Jobs
 
 
-### Create a CV
+## Create a CV
 
 1. Name
 2. Professional Title
@@ -3178,7 +3148,7 @@ A problem can cause:
 4. Summary State
 
 
-### What to add to your resume (Skills)
+## What to add to your resume (Skills)
 
 * Programming Languages
 * Linux line-command
@@ -3188,41 +3158,41 @@ A problem can cause:
 * Packet Sniffers
 
 
-### Transferable and technical skills
+## Transferable and technical skills
 
 * Detail oriented
 * Collaborative
 * Written and verbal communication skills
 
 
-### The Technical interview
+## The Technical interview
 
 * Answer confidently and concisely
 * It's okay to say that you don't know
 
 
-### TCP/IP Model
+## TCP/IP Model
 
 > Framework to visualize how the data are organized and transmitted across a network
 
 
-### OSI Model
+## OSI Model
 
 > Standarized concept that describes the SEVEN layers that computers use
 > to communicate and send data across the network
 
-### SIEM Tools
+## SIEM Tools
 
 > Event Management Tools to identify and analyze threats, risks and vulnerabilities.
 
 
-### Rapport
+## Rapport
 
 > A friendly relationship in which the people involved understand
 > each other's ideas and communicate well with each other
 
 
-### STAR Method
+## STAR Method
 
 > To answer "Tell about a time when you encountered a challenge on the job"
 
@@ -3235,7 +3205,7 @@ A problem can cause:
 > You're a quick learner and eager to develop that SKILL
 
 
-### Elevator pitch
+## Elevator pitch
 
 > A brief summary of your experience, skills and background
 > Short, in normal pace, genuine, direct. 
