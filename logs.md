@@ -14,7 +14,6 @@ __Plugins__
 * Markdown All in One (__ctrl+shift+v__ para preView)
 * Tailwind CSS IntelliSense
 <br/>
-<br/>
 
 - [x] Vim <br/>
 
@@ -31,23 +30,22 @@ set tabstop=2
 set softtabstop=2
 ```
 <br/>
-<br/>
 
 - [x] WSL (Linux en Windows) <br/>
+
 ```wsl --install -d Ubuntu```
 __REINICIAR !!__
 ```sudo apt-get update```
 ```sudo apt install build-essential rustc libssl-dev libyaml-dev zlib1g-dev libgmp-dev```
 <br/>
-<br/>
-
 
 - [x] React <br/>
+
 ```npm create vite@latest proyecto -- --template react```
-<br/>
 <br/>
 
 - [x] TailwindCSS <br/>
+
 1. Tener instalado Node, checar con ```node --version```
 2. Crear carpeta de proyecto ```mkdir proyecto```
 3. Entrar a carpeta ```cd proyecto```
@@ -60,12 +58,10 @@ __REINICIAR !!__
 9. Ejecutarlo con ```node --run tw```
 10. Crear **index.html** y referenciar "_style.css_" 
 
-``` ```
+- [x] Typescript <br/>
 
-
-<br/>
-<br/>
-
+```npm install -g typescript```
+```tsc -v```
 
 - [x] Ruby and Rails <br/>
 
@@ -95,19 +91,16 @@ source ~/.bashrc
 ```cd proyecto```
 ```rake db:create```
 ```rails server```
-<br/>
-<br/>
 
-
-<br/>
-<br/>
 - [x] Vue <br/>
+
 ```npm init vite@latest proyecto -- --template vue```
 ```cd proyecto```
 ```npm install```
 ```npm run dev```
 
 - [x] Angular <br/>
+
 ```npm install -g @angular/cli```
 ```ng -v```
 ```ng new proyecto```
@@ -115,17 +108,16 @@ source ~/.bashrc
 ```ng serve --o```
 
 - [x] Bootstrap in npm <br/>
+
 ```npm install bootstrap@5.3.3```
 
-- [x] Typescript <br/>
-```npm install -g typescript```
-```tsc -v```
-
 - [x] REDIS <br/>
+
 ```apt install redis-server redis-tools```
 
 
 - [x] Visual Studio 2019 <br/>
+  
 > Buscar Visual Studio 2019 Community
 > **Registrarse!** con una cuenta Microsoft
 > Usar Framework 4
@@ -133,34 +125,13 @@ source ~/.bashrc
 
 ## Links
 
-[Emoticons](https://emojikeyboard.top/es/) 😋
-[Iconos](https://v2.boxicons.com/)
-<br/>
-<br/>
-
-
-
-<br/>
+[Emoticons](https://emojikeyboard.top/es/) 😋<br/>
+[Iconos](https://v2.boxicons.com/) <br/>
 <br/>
 
-## Datos Semana #
+---
 
-* Planta: 3
-* ESET: 8
-* Mantenimientos: 1
-* Atención: 38
-<br/>
----------------------------
--bits0,$,eth G.-
--metam@sk
-Ganancia = Precio de venta - Costo de adquisición
-Impuesto = Ganancia * tasa de ISR correspondiente
----------------------------
-SP500
-C3t3s
----------------------------
-
-
-* Puerto Suizo
-> baseg74441@angewy.com
+- [x] Puerto Suizo
+  
+```baseg74441@angewy.com```
 > 3~|"p527238K5[s"qm}8D8,.SgjDJL3N
