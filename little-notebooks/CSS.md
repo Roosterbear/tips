@@ -11,10 +11,12 @@
 - [IMAGENES](#imagenes)
 - [MEDIDAS](#medidas)
   - [Keywords](#keywords)
-  - [Global Keywords](#global-keywords)
-- [BOXES](#boxes)
+  - [Inherit](#inherit)
+  - [Calc](#calc)
+  - [Custom Properties](#custom-properties)
 - [FONDOS](#fondos)
   - [Fondo Fijo](#fondo-fijo)
+  - [BOXES](#boxes)
 - [SELECTORES](#selectores)
   - [Hijo](#hijo)
   - [Descendiente](#descendiente)
@@ -301,11 +303,11 @@ img{
 
 ```a[href]{text-decoration:none}```
 
-## Global Keywords
+## Inherit
 
-> Se aceptan de manera general
+> Es una keyword que se acepta de manera general
 
-__inherit__ <br/>
+<br/>
 
 > Hace que el valor de la propiedad del elemento se el mismo que el padre.
 
@@ -350,18 +352,38 @@ Aquí es cuando entra en acción: <br/>
 .hijo {border:inherit;}
 ```
 
+## Calc
+
+> Podemos hacer operaciones tipo:
+
+```p { width: calc(90% - 2em) }```
+
+> O supongamos que queremos minimo 1/4 de pantalla
+> pero máximo 200px, podemos hacer lo siguiente:
+
+```.figure { width: min(25vw, 200px) }```
+
+> En caso contrario, usamos __max__
+<br/>
+
+> Hay una mezcla de ambos llamada __clamp__
+> que recibe 3 valores: el minimo, el ideal y el máximo
+
+```footer { font-size: clamp(1rem, 2vh, 3em) }```
 
 
+## Custom Properties
 
-# BOXES
+> No son otra cosa que el uso de __VARIABLES__
 
-> Los elementos en CSS tienen capas desde el centro al extremo
-> El primer nivel es el mismo **contenido** 
-> Podemos tener un **borde** afuera del contenido
-> Este puede tener __color__ y __ancho__
-> Entre el contenido y el borde hay un espacio en blanco llamado **padding**
-> Entre el borde y la parte de afuera existe un espacio llamado **margin**
+```css
+html {
+  --base-color: #639;--highlight-color: #AEA;
+}
 
+h1 {color: var(--base-color);}
+h2 {color: var(--highlight-color);}
+```
 
 # FONDOS
 
@@ -388,6 +410,17 @@ body{
  
  > __cover__ se usa para adaptar el fondo a toda la imagen sin importar el DISPOSITIVO.
  
+## BOXES
+
+- [*] Los elementos en CSS tienen capas desde el centro al extremo
+- [*] El primer nivel es el mismo **contenido** 
+- [*] Podemos tener un **borde** afuera del contenido
+- [*] Este puede tener __color__ y __ancho__
+- [*] Entre el contenido y el borde hay un espacio en blanco llamado **padding**
+- [*] Entre el borde y la parte de afuera existe un espacio llamado **margin**
+- [*] Para ver una caja, debe tener __CONTENIDO__
+- [*] Para una caja sin contenido, debemos darle __width__ y __height__
+
 
 # SELECTORES
 
@@ -1168,13 +1201,11 @@ div{width:400px;height:400px}
 }
 ```
 
-
 ## Cursor ✋🏼 
 
 > Para cambiar el aspecto del puntero del mouse a: <br/>
 > pointer, crosshair, e-resize, grab, help, move, 
 > progress, text, wait, no-allowed, no-drop 
-
 
 <br/>
 <br/>
