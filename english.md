@@ -19,7 +19,6 @@
 - [x] **perk** - ventaja, beneficio
 - [x] **nuance** - matiz
 
-
 * It's so ridiculously twee, it makes my toes curl. 
 * It's so catchy. 
 * Which means there's two minutes unaccounted for
@@ -98,6 +97,7 @@
 * That's a wrap
 * Picture this
 * You just disappeared up your own ass hole, you know that?
+* Poke and Prod
 
 
 
