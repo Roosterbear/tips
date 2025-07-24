@@ -1147,7 +1147,6 @@ div{width:400px;height:400px}
 img.masked {mask-image: url(theatre-masks.svg);}
 ```
 
-
 ## Cursor ✋🏼 
 
 > Para cambiar el aspecto del puntero del mouse a: <br/>
@@ -1312,7 +1311,9 @@ div{
   gap: 1rem; 
 }
 ```
-> No veremos nada hasta agregar elementos y contenido
+- [x] No veremos nada hasta agregar elementos y contenido
+- [x] Por Default, se crea un bloque que ocupa TODO el ancho
+- [x] Los elementos se van acomodando uno al lado del otro
 
 ## Cambiar la base
 
