@@ -1,9 +1,6 @@
 <h1 style="color:#AE445A">CSS</h1>
 
 - [HTML Básico](#html-básico)
-- [Etiquetas HTML5](#etiquetas-html5)
-- [Formularios](#formularios)
-- [Tablas](#tablas)
 - [CSS Básico](#css-básico)
 - [ESPECIFICIDAD](#especificidad)
 - [FUENTES](#fuentes)
@@ -49,8 +46,7 @@
   - [KEYFRAMES 🔑​](#keyframes-)
   - [BOX SHADOW](#box-shadow)
   - [FILTER](#filter)
-  - [Radial Gradient](#radial-gradient)
-  - [ISOLATION](#isolation)
+    - [ISOLATION](#isolation)
   - [Clip Path](#clip-path)
     - [Sin recortar, pero redondeando las esquinas:](#sin-recortar-pero-redondeando-las-esquinas)
     - [Recortes básicos (top, right, bottom, left):](#recortes-básicos-top-right-bottom-left)
@@ -61,7 +57,12 @@
   - [Formas de crear un CIRCULO](#formas-de-crear-un-circulo)
   - [Formas de crear un TRIANGULO](#formas-de-crear-un-triangulo)
   - [Formas de crear un HEXAGONO](#formas-de-crear-un-hexagono)
+  - [MASK](#mask)
   - [Cursor ✋🏼 ](#cursor-)
+- [GRADIENTS](#gradients)
+  - [Linear Gradient](#linear-gradient)
+  - [Radial Gradient](#radial-gradient)
+  - [Conic Gradient](#conic-gradient)
 - [RESPONSIVE DESIGN 🦎](#responsive-design-)
   - [Media Queries](#media-queries)
 - [Flexbox 🦎](#flexbox-)
@@ -136,35 +137,6 @@
 <link rel="alternate" hreflang="en" href="https://ejemplo.com/en/" />
 ```
 
-<div style="color:#219ebc">
-
-# Etiquetas HTML5
-</div>
-
-- [x] Enlaces
-- [x] Enlaces
-- [x] Enlaces
-- [x] Enlaces
-- [x] Enlaces
-- [x] Enlaces
-- [x] Enlaces
-- [x] Enlaces
-- [x] Enlaces
-- [x] Enlaces
-- [x] Enlaces
-
-<div style="color:#219ebc">
-
-# Formularios
-</div>
-
-<div style="color:#219ebc">
-
-# Tablas
-</div>
-  
-<div style="color:#AE445A">
-
 # CSS Básico
 </div>
 
@@ -205,7 +177,6 @@ a:hover{
   text-decoration: none; 
 }
 ```
-
 
 # ESPECIFICIDAD
 
@@ -807,6 +778,11 @@ img{
 ```transform: skew(-42deg)```
 ```transform: rotate(-40deg)```
 
+- [x] __Skew__
+
+> Inclinamos hacia un eje la imagen
+
+
 ## BOX SHADOW
 
 - [x] Está pensado para ponerle sombras a __CAJAS__ de elementos
@@ -824,52 +800,32 @@ img{
 
 ## FILTER
 
-- [x] Podemos crear __SOMBRAS__ en el contenido de un elemento.
+- [x] Podemos crear __EFECTOS__ en el contenido de un elemento.
 
 ```css
-.filter-shadow{
+.sombrita{
   filter: drop-shadow(.75em .75em 1em);
 }
+
+.varios{
+   filter: blur(3px) drop-shadow(0.5em 0.75em 30px gray) opacity(0.5);
+}
 ```
+- [x] Colores
 
-## Radial Gradient
-
-- [x] Crea fondos de colores en forma circular
-
-* Crear un __circulo__ turquesa dentro de otro color rosa
+* Sepia, invert, grayscale
+* Brightness, contrast, saturate
 
 ```css
-div{
-  background: radial-gradient(darkturquoise 75%, hotpink 75%)
+ .bbm {background-image:
+  url(star.svg),
+  url(diamond.png);
+  background-color: goldenrod;
+  background-blend-mode: color-burn, luminosity;
 }
 ```
 
-* Crear un "__anillo__" color rosa
-
-```css
-div{
-  background: radial-gradient(white 65%, hotpink 65%);
-  border-radius: 50%;
-}
-```
-
-* Crear un efecto de círculos __repetidos__
-
-```css
-div{
-  background: repeating-radial-gradient(darkturquoise 0px, darkturquoise 20px, hotpink 20px, hotpink 40px)
-}
-```
-
-* Crear otro efecto de círculos __esquinados__
-
-```css
-div{
-  background: repeating-radial-gradient(farthest-corner at 0 0, violet, violet 75px, palegreen 75px, palegreen 150px)
-}
-```
-
-## ISOLATION
+### ISOLATION
 
 - [x] Sustituye a __position:relative__ y __z-index:1__
 - [x] Aisla el elemento
@@ -985,8 +941,6 @@ div{width:400px;height:400px}
   );
 }
 ```
-
-
 ## Formas de crear un RECTANGULO
 
 - [x] __1__
@@ -998,22 +952,6 @@ div{width:400px;height:400px}
   background-color: #007BFF;
 }
 ```
-
-* Cómo dibujariamos un rectángulo sin contenido html?
-
-> Podemos poner borde al body y hacer que se vea agregando padding:
-```body{border:1px solid;padding:50px}```
-
-* Cómo dibujar un cuadrado relleno de negro sin agregar etiquetas html?
-
-> Podemos agregar un cuadro con código __unicode__
-> y crecerlo con ```zoom:10```
-```&#x220E```
-
-* Cómo dibujaríamos un rectángulo sin usar width ni height?
-
-```p{border:1px solid;padding:50px}```
-
 
 ## Formas de crear un CIRCULO
 
@@ -1201,25 +1139,130 @@ div{width:400px;height:400px}
 }
 ```
 
+## MASK
+
+> Aplicamos sobre una imagen:
+
+```css
+img.masked {mask-image: url(theatre-masks.svg);}
+```
+
+
 ## Cursor ✋🏼 
 
 > Para cambiar el aspecto del puntero del mouse a: <br/>
 > pointer, crosshair, e-resize, grab, help, move, 
 > progress, text, wait, no-allowed, no-drop 
 
-<br/>
-<br/>
-⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​
-<br/>
-<br/>
+# GRADIENTS
+
+- [x] __LOS GRADIENTES SON IMÁGENES__
+- [x] __SON TRANSFORMACIONES VISUALES DE UN COLOR A OTRO__
+- [x] __LA TRANSICION DEPENDE DEL ESPACIO Y PUNTOS DEFINIDOS__
+
+## Linear Gradient
+
+- [x] La dirección básica que corre un gradiente es de __arriba a abajo__
+- [x] Arriba a abajo equivale a __180deg__
+- [x] Deben contener __DOS COLORES__, aunque pueden ser el mismo
+
+
+```css
+#ex01 {background-image: linear-gradient(purple, gold);}
+#ex02 {background-image: linear-gradient(90deg, purple, gold);}
+#ex03 {background-image: linear-gradient(to left, purple, gold);}
+
+```
+
+- [x] Por Default, un gradiente toma __TODO__ el espacio disponible
+
+```css
+ div {
+  background-image:
+  linear-gradient(to top, transparent 1vw, rgba(0 0 0 / 0.2) 1vw),
+  linear-gradient(to right, transparent 1vw, rgba(0 0 0 / 0.2) 1vw);
+  background-size: 2vw 2vw;
+  background-repeat: repeat;
+ }
+ 
+ div.fruit {background-color: papayawhip;}
+ div.grain {background-color: palegoldenrod;}
+ div.fishy {background-color: salmon;}
+```
+
+## Radial Gradient
+
+```css
+.radial {background-image: radial-gradient(50px, purple, gold)}
+.radial {background-image: radial-gradient(50px 100px, purple, gold)}
+```
+
+```css
+div{
+  background: radial-gradient(darkturquoise 75%, hotpink 75%)
+}
+```
+
+* Crear un "__anillo__" color rosa
+
+```css
+div{
+  background: radial-gradient(white 65%, hotpink 65%);
+  border-radius: 50%;
+}
+```
+
+* Crear un efecto de círculos __repetidos__
+
+```css
+div{
+  background: repeating-radial-gradient(darkturquoise 0px, darkturquoise 20px, hotpink 20px, hotpink 40px)
+}
+```
+
+* Crear otro efecto de círculos __esquinados__
+
+```css
+div{
+  background: repeating-radial-gradient(farthest-corner at 0 0, violet, violet 75px, palegreen 75px, palegreen 150px)
+}
+```
+
+## Conic Gradient
+
+> Para degradado suave, el ultimo y primer color deben __coincidir__
+
+```css
+.bk1{
+  background: conic-gradient(black, gray, black, white, black, silver, black)
+}
+.bk2{
+  background: conic-gradient(from 144deg, black, gray, black, white)
+}
+.bk3{
+  background: conic-gradient(from 144deg at 3em 6em, black, gray, black, white)
+}
+
+ .hues {
+  height: 10em; width: 10em;
+  background: conic-gradient(red, magenta, blue, aqua, lime, yellow, red);
+ }
+ 
+ #wheel {
+  border-radius: 50%;
+ }
+```
+```<div class="hues"></div>```
+```<div class="hues" id="wheel"></div>```
+
+```css
+.bk5{
+  background:  conic-gradient(green 35%, yellow 40% 60%, red 65%);
+}
+```
+
 
 # RESPONSIVE DESIGN 🦎
-
-<br/>
-<br/>
-⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​⭐​
-<br/>
-<br/>
 
 ## Media Queries 
 
