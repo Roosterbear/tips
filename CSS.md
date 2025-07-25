@@ -70,7 +70,10 @@
   - [Envolver elementos](#envolver-elementos)
   - [Orden de elementos](#orden-de-elementos)
   - [Justificar elementos](#justificar-elementos)
-  - [Alinear elementos](#alinear-elementos)
+  - [Alinear Contenido](#alinear-contenido)
+  - [Place Content](#place-content)
+  - [Alinear Items](#alinear-items)
+  - [Align Self](#align-self)
   - [Tamaño de elementos](#tamaño-de-elementos)
   - [Centrar elementos](#centrar-elementos)
 - [GRID 🦎](#grid-)
@@ -1368,16 +1371,32 @@ flex-wrap: wrap;
 * space-evenly
 <br/>
 
-## Alinear elementos
+## Alinear Contenido
 
-> Es la alineación del **EJE SECUNDARIO**
+> Es la alineación de toda la caja del **EJE SECUNDARIO**
+
+```align-content:flex-start```
+
+* flex-start
+* flex-end
+* center 
+* stretch 
+* space-between
+* space-around
+* space-evenly
+  
+## Place Content
+
+```place-content:flex-start```
+
+> Es la forma corta de usar __align-content__ y __justify-content__ a la vez
+
+
+## Alinear Items
+
+> Es la alineación de los elementos dentro de su __propia caja__
 
 ```align-items:flex-start```
-
-<h3 style="color:tomato;">
-
-❗ SOLO FUNCIONA CON NO-WRAP ❗ 
-</h3>
 
 * flex-start
 * flex-end
@@ -1394,9 +1413,10 @@ Para ver como funciona, agregamos al padre:
   height: 70vh;
 }
 ```
-<strong style="color:#ff004d">
-Para cambiar solo un elemento
-</strong>
+
+## Align Self
+
+> Para alinear __SOLO__ un elemento
 
 ```css
 .elemento{
@@ -1451,6 +1471,9 @@ Para cambiar solo un elemento
 
 2. Debemos indicar cuantas filas y columnas necesitamos:
 
+- [x] Cada **valor** representa una columna
+
+
 ```css
 .grid-layout{
   display: grid; 
@@ -1458,49 +1481,6 @@ Para cambiar solo un elemento
   grid-template-rows: 100px 50%;
 }
 ```
-- [x] Cada **auto** o **valor** son una columna
-
-3. Tamaño de un elemento:
-
-```css
-.box1{
-  grid-column: 1/3;
-}
-```
-
-- [x] Donde **1** es la primer linea (**no el espacio**❗).
-
-```css
-.box2{
-  grid-row: span: 2;
-}
-```
-
-4. Posición del elemento:
-
-```css
-.astronaut{
-  background-color: #03989e;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-```
-
-> También podemos usar **grid-area** para poner 4 valores: 
-
-```css
-.cowboy{
-  grid-area: 2 / 1 / 3 / 3; 
-}
-```
-> Donde el orden es: 
-
-1. grid-row-start 
-2. grid-column-start 
-3. grid-row-end and 
-4. grid-column-end 
 
 
 <br/>
