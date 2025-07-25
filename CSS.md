@@ -77,7 +77,7 @@
   - [Tamaño de elementos](#tamaño-de-elementos)
   - [Centrar elementos](#centrar-elementos)
 - [GRID 🦎](#grid-)
-- [CSS Battle](#css-battle)
+- [CSS Hacks](#css-hacks)
 
 
 <div style="color:#219ebc">
@@ -1490,20 +1490,51 @@ Para ver como funciona, agregamos al padre:
 <br/>
 
 
-# CSS Battle
+# CSS Hacks
 
-- [x] Quitar __espacios__ y comentarios
-- [x] Omitir el __;__ final del CSS
-- [x] No usar, por lo general, la etiqueta HTML de __cierre__
-> (__OJO__: Con etiquetas iguales las tomaría como hijas de la anterior)
-- [x] Usar __margin__ y __auto__ para centrar sobre posiciones relativas
-- [x] Crear atributos propios de selectores ```<p a>``` ```p[a]{}```
-- [x] Usar position __fixed__
-- [x] Juega con __unidades__: 200px = __2in__ = __50vw__ (50% del lienzo)
-- [x] No siempre tienes que agregar etiquetas, ya existe __html__ y __body__
-- [x] No es necesario poner la unidad __px__
-- [x] Utilizar ```style=zoom:2``` para ampliar la pagina a lo doble
-- [x] Podemos usar unicode: ･⬤
+- [x] Hacer el código __MANTENIBLE__
+
+> Si queremos crear un borde de 10px excepto a la izquierda, 
+> pensarías que es sensato poner:
+
+```border-width: 10px 10px 10px 0;```
+
+> Pero tendríamos que modificar __3__ valores si queremos una modificación, 
+> por lo que es una mejor práctica escribir:
+
+```css
+border-width: 10px;
+border-left-width: 0;
+```
+
+- [x] Crear botones brillosos
+
+> Esta práctica ademas nos ayuda a cambiar de color de un botón
+> tan solo __sobreescribiendo__ el background-color.
+
+```css
+button{
+ padding: .3em .8em;
+ border: 1px solid rgba(0,0,0,.1);
+ background: #58a linear-gradient(hsla(0,0%,100%,.2), 
+                                 transparent);
+ border-radius: .2em;
+ box-shadow: 0 .05em .25em rgba(0,0,0,.5);
+ color: white;
+ text-shadow: 0 -.05em .05em rgba(0,0,0,.5);
+ font-size: 125%;
+ line-height: 1.5;
+}
+
+button.cancel {
+ background-color: #c00;
+}
+
+button.ok {
+ background-color: #6b0;
+}
+```
+
 
 <br/>
 <br/>
