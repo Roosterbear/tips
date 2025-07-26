@@ -1,22 +1,32 @@
 <h1 style="color:#2a9d8f">REACT</h1>
 
-- [REACT](#react)
-  - [INTRODUCCIÓN](#introducción)
-    - [Mantener actualizado Node](#mantener-actualizado-node)
-  - [YARN](#yarn)
-  - [PRIMER PROYECTO](#primer-proyecto)
-    - [Creación](#creación)
-    - [Ejecución](#ejecución)
-    - [Primer código](#primer-código)
-    - [Agregar CSS](#agregar-css)
-    - [Agregando BOOTSTRAP](#agregando-bootstrap)
-    - [Mejorando la Vista](#mejorando-la-vista)
-    - [Buenas prácticas](#buenas-prácticas)
-    - [Recorrer un Array](#recorrer-un-array)
-  - [PROPS](#props)
+13  - 2:26 <br/> 
+7   - 1:55 <br/>
+5   - 1:07 <br/>
+
+- [INTRODUCCIÓN](#introducción)
+- [PRIMER PROYECTO](#primer-proyecto)
+  - [Software](#software)
+  - [Plugins para VSC](#plugins-para-vsc)
+  - [Creación de proyecto](#creación-de-proyecto)
+  - [Ejecución](#ejecución)
+  - [Primer Componente](#primer-componente)
+  - [Agregar CSS](#agregar-css)
+  - [Agregando BOOTSTRAP](#agregando-bootstrap)
+  - [Mejorando la Vista](#mejorando-la-vista)
+- [BUENAS PRÁCTICAS](#buenas-prácticas)
+    - [Barriles](#barriles)
+- [Javascript en React](#javascript-en-react)
+  - [Recorrer un Array](#recorrer-un-array)
+  - [Spread Operator](#spread-operator)
+  - [Template String \`](#template-string-)
+  - [Destructuring](#destructuring)
+  - [Optional Chaining](#optional-chaining)
+  - [Evaluación CORTO-CIRCUITO](#evaluación-corto-circuito)
+- [PROPS](#props)
     - [Pasar un Objeto a un Componente por PROPS](#pasar-un-objeto-a-un-componente-por-props)
     - [Pasando Funciones entre Componentes por PROPS](#pasando-funciones-entre-componentes-por-props)
-    - [Destructuring](#destructuring)
+    - [Destructuring](#destructuring-1)
     - [propTypes](#proptypes)
     - [defaultProps](#defaultprops)
   - [EVENTOS](#eventos)
@@ -36,58 +46,57 @@
     - [Agregar SNAP](#agregar-snap)
     - [Netlify](#netlify)
     - [Desplegar en Github Pages](#desplegar-en-github-pages)
-    - [ARCHIVOS BARRIL](#archivos-barril)
 - [REACT NATIVE](#react-native)
 
-## INTRODUCCIÓN
+# INTRODUCCIÓN
 
 * Es una librería
-* Si queremos cosas más complejas, agregamos más librerías
 * Ideal para páginas privadas
+* Está basado en componentes, que son __FUNCIONES DE JAVASCRIPT__
+* Debemos tratar que cada componente haga lo __MINIMO__ posible
+* Existen componentes tontos (__stateless__) sin estado ni lógica
+* Y componentes inteligente (__stateful__)  
 
-> Debemos tener instalado:
+- [x] __COMMIT__
 
-- [x] Node / NPM
-- [x] Yarn  
-- [x] Vite
+> Aplicar un cambio del DOM Virtual al DOM
+
+- [x] __TRIGGER__
+
+> Los Componentes se renderizan: 
+
+1. Al inicio (__mount__)
+2. Cuando cambia el __estado__ o hay __async__
+
+- [x] Se utiliza el lenguaje __JSX__ que es __Javascript__ mezclado con __HTML__
+- [x] Vamos a trabajar en la carpeta __src__
+
+
+# PRIMER PROYECTO
+
+## Software
+
+- [x] Visual Studio Code
+- [x] Node
+
+
+## Plugins para VSC
+
+- [x] Simple React Snippets
+- [x] ES7 + React/Redux/React-Native snippets
+
+
+## Creación de proyecto
+
+- [x] Con yarn
 
 ```bash
-npm install -g vite
-npm install -g yarn
+yarn create vite@latest
 ```
-
-> Opcionalmente podemos usar __bun__ ```curl https://bun.sh/install | bash```
-
-- [x] Instalar React con bun: ```bun create react-app proyecto```
-
-
-### Mantener actualizado Node
+- [x] Con npm
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
-```
-- [x] Reiniciar terminal
-- [x] Instala la version de Node deseada:
-
-```bash
-nvm install 14.4.0.
-```
-
-## YARN
-
-> Nos sirve para manejar paquetes
-
-```bash
-yarn add react-toastify
-yarn remove react-toastify
-```
-
-## PRIMER PROYECTO
-
-### Creación
-
-```bash
-yarn create vite
+npm create vite@latest
 ```
 
 - [x] Si nos manda error, instalar dependencias:
@@ -96,20 +105,28 @@ yarn create vite
 yarn install
 ```
 
-### Ejecución
+## Ejecución
 
 - [x] Entrar a carpeta de proyecto
+
+- [x] Con yarn
 
 ```bash
 yarn dev
 ```
+- [x] Con npm
+
+```bash
+yarn dev
+```
+
 - [x] Si marca error:
 
 ```bash
 npm install
 ```
 
-### Primer código
+## Primer Componente
 
 - [x] Ya que vimos que funciona, borrar todo en __src__
 - [x] Crear nuestro **main.jsx** y agregar:
@@ -129,7 +146,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 )
 ```
 
-### Agregar CSS
+## Agregar CSS
 
 - [x] Creamos nuestro archivo _style.css_
 
@@ -148,7 +165,7 @@ html, body{
 import './style.css'
 ```
 
-### Agregando BOOTSTRAP
+## Agregando BOOTSTRAP
 
 > Instalamos: npm install react-bootstrap bootstrap
 
@@ -170,9 +187,9 @@ import {Button} from 'react-bootstrap';
 <Button variant="primary">Enviar</Button>
 ```
 
-### Mejorando la Vista
+## Mejorando la Vista
 
-> Instalamos: npm install react-icons --save
+> Instalamos: ```npm install react-icons --save```
 > Importamos:
 
 ```jsx
@@ -191,16 +208,47 @@ class Rating extends Component{
 }
 ```
 
-### Buenas prácticas
+# BUENAS PRÁCTICAS
 
 - [x] Crear una carpeta **"components"**
 - [x] Usar mismo nombre para **archivo** y **componente**
 - [x] Nombrar componente iniciando en **mayúscula**
 
-### Recorrer un Array
 
-- [x] Después de la función flecha no necesitamos llaves
+### Barriles
+
+> En la carpeta __components__ agregar un _index.js_ con nuestras exportaciones:
+
+```jsx
+export * from './Componente1';
+export * from './Componente2';
+export * from './Componente3';
+```
+
+> Tan solo importamos:
+
+```jsx
+import {Componente1, Componente2, Componente3} from './components' // NO es necesario agregar index.js
+```
+
+- [x] En components, creamos una carpeta para cada componente con su index correspondiente
+
+```jsx
+export * from './Button1/Button.tsx';
+export * from './Button2/Button.tsx';
+```
+
+```jsx
+import {Button1, Button2} from './components' // Y listo !!
+```
+
+# Javascript en React
+
+## Recorrer un Array
+
+- [x] Después de la función flecha _NO_ necesitamos llaves
 - [x] Podríamos agregar paréntesis
+- [x] Es __obligatorio__ agregar una __key única__
 
 ```jsx
 function App() {
@@ -220,7 +268,66 @@ function App() {
 }
 ```
 
-## PROPS
+## Spread Operator
+
+- [x] NO es buena práctica seguir usando __push__ para agregar elementos
+
+```setArreglo([...arreglo], {nombre: 'nuevo valor', visto: false})```
+
+
+## Template String `
+
+- [x] Es mejor práctica para __CONCATENAR__
+
+```javascript
+const hola = "Hola";
+const mundo = "mundo";
+
+console.log(`${hola} ${mundo}`);
+```
+
+## Destructuring
+
+```javascript
+const producto = {nombre:"Laptop", precio: 2000, disponible: true}
+const cliente = {nombre:"Fernando", premium: true}
+
+// Asignamos una variable para cada campo del objeto
+const {nombre, precio, disponible} = producto
+
+// Tenemos un conflicto, hay 2 nombres, pero lo podemos renombrar:
+const {nombre: nombreCliente, premium} = cliente
+```
+
+## Optional Chaining
+
+- [x] Revisa si existe un elemento en un __objeto__
+- [x] Sustituye a un __if__
+- [x] En caso de falso, devuelve __undefined__
+
+```javascript
+const alumno = {
+  nombre: 'Fernando'  
+}
+
+console.log(alumno?.examenes)
+// Si no ponemos el ? ya no se ejecutaría la siguiente línea
+// OJO que solo es para objetos y va antes del punto
+console.log('Despues de revision de examen')
+```
+
+## Evaluación CORTO-CIRCUITO
+
+- [x] Es para evaluaciones "__Truthy__"
+- [x] Sustituye a un __if__
+- [x] En caso de verdadero, regresa lo de la __derecha__
+
+```javascript
+const auth = true;
+auth && console.log('Usuario autenticado');
+```
+
+# PROPS
 
 > Se usan para crear __COMUNICACIÓN__ entre componentes
 
@@ -783,21 +890,7 @@ yarn build
 
 <br/>
 
-### ARCHIVOS BARRIL
 
-> En la carpeta components agregar un _index.js_ con nuestras exportaciones:
-
-```jsx
-export * from './Componente1';
-export * from './Componente2';
-export * from './Componente3';
-```
-
-> Tan solo importamos:
-
-```jsx
-import {Componente1, Componente2, Componente3} from './components' // NO es necesario agregar index.js
-```
 
 # REACT NATIVE
 
