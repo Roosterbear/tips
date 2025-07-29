@@ -33,6 +33,17 @@
 6. Responde a preguntas complejas
 7. Se __adapta__ a nueva información o cambio de situación
 
+# Instalación
+
+1. Desde el sitio web
+
+- [x] Comenzar prueba gratuita
+- [x] Podemos crear carpetas de proyectos
+- [x] Crear flujo de trabajo
+
+2. Instalarlo en nuestro servidor
+3. Herramientas de terceros
+
 
 
 
