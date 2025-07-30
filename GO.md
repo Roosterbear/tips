@@ -72,7 +72,7 @@ type Persona struct{
     Edad in
 }
 
-persona := Persona{Nombre:"Fernando"} // Si ponemos edad, EXISTIRÁ con valor default 0
+persona := Persona{Nombre:"Fernando"} // Si no ponemos edad, EXISTIRÁ con valor default 0
 ```
 
 ## Condicionales
