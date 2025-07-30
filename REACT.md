@@ -1,8 +1,8 @@
 <h1 style="color:#2a9d8f">REACT</h1>
 
-13  - 2:26 <br/> 
-7   - 1:55 <br/>
-5   - 1:07 <br/>
+13  - 3:16:14 <br/> 
+5   - 1:28:50 <br/>
+7   - 2:07:14 <br/>
 
 - [INTRODUCCIÓN](#introducción)
 - [PRIMER PROYECTO](#primer-proyecto)
@@ -24,28 +24,28 @@
   - [Optional Chaining](#optional-chaining)
   - [Evaluación CORTO-CIRCUITO](#evaluación-corto-circuito)
 - [PROPS](#props)
-    - [Pasar un Objeto a un Componente por PROPS](#pasar-un-objeto-a-un-componente-por-props)
-    - [Pasando Funciones entre Componentes por PROPS](#pasando-funciones-entre-componentes-por-props)
-    - [Destructuring](#destructuring-1)
-    - [propTypes](#proptypes)
-    - [defaultProps](#defaultprops)
-  - [EVENTOS](#eventos)
-    - [evento click](#evento-click)
-  - [HOOKS](#hooks)
-    - [useState](#usestate)
+  - [Pasar un Objeto a un Componente por PROPS](#pasar-un-objeto-a-un-componente-por-props)
+  - [Pasando Funciones entre Componentes por PROPS](#pasando-funciones-entre-componentes-por-props)
+  - [Destructuring](#destructuring-1)
+  - [propTypes](#proptypes)
+  - [defaultProps](#defaultprops)
+- [EVENTOS](#eventos)
+  - [evento click](#evento-click)
+- [HOOKS](#hooks)
+  - [useState](#usestate)
     - [Manejar el ESTADO con valores Booleanos](#manejar-el-estado-con-valores-booleanos)
     - [Otro ejemplo de useState](#otro-ejemplo-de-usestate)
-    - [useEffect](#useeffect)
-  - [React ROUTER](#react-router)
-  - [REACT en Producción](#react-en-producción)
-    - [Principal Código Ejemplo](#principal-código-ejemplo)
-    - [Componente Código Ejemplo](#componente-código-ejemplo)
-    - [Agregar LAZY](#agregar-lazy)
-    - [Agregar SUSPENSE](#agregar-suspense)
-    - [Agregar HELMET](#agregar-helmet)
-    - [Agregar SNAP](#agregar-snap)
-    - [Netlify](#netlify)
-    - [Desplegar en Github Pages](#desplegar-en-github-pages)
+  - [useEffect](#useeffect)
+- [React ROUTER](#react-router)
+- [REACT en Producción](#react-en-producción)
+  - [Principal Código Ejemplo](#principal-código-ejemplo)
+  - [Componente Código Ejemplo](#componente-código-ejemplo)
+  - [Agregar LAZY](#agregar-lazy)
+  - [Agregar SUSPENSE](#agregar-suspense)
+  - [Agregar HELMET](#agregar-helmet)
+  - [Agregar SNAP](#agregar-snap)
+- [Netlify](#netlify)
+- [Desplegar en Github Pages](#desplegar-en-github-pages)
 - [REACT NATIVE](#react-native)
 
 # INTRODUCCIÓN
@@ -352,7 +352,7 @@ import Saludar from './components/Saludar'
 <Saludar />
 ```
 
-### Pasar un Objeto a un Componente por PROPS
+## Pasar un Objeto a un Componente por PROPS
 
 > App.js
 
@@ -408,7 +408,7 @@ const miObjeto = {
 JSON.stringify(miObjeto);
 ```
 
-### Pasando Funciones entre Componentes por PROPS
+## Pasando Funciones entre Componentes por PROPS
 
 > App.js
 
@@ -452,7 +452,7 @@ export default function Saludar(props){
 }
 ```
 
-### Destructuring
+## Destructuring
 
 > Normalmente NO trabajamos las PROPS directamente
 > __Desestructuramos cada valor__
@@ -481,7 +481,7 @@ export default function Saludar(props){
 }
 ```
 
-### propTypes
+## propTypes
 
 - [x] __YA Instalado con CRA__
 - [ ] __Se debe INSTALAR con Vite__
@@ -505,7 +505,7 @@ App.propTypes = {
 }
 ```
 
-### defaultProps
+## defaultProps
 
 ```jsx
 App.defaultProps = {
@@ -516,9 +516,9 @@ App.defaultProps = {
 }
 ```
 
-## EVENTOS
+# EVENTOS
 
-### evento click
+## evento click
 
 - [x] Se maneja con la palabra __onClick__
 - [x] Se recomienda __SEPARAR__ la función
@@ -540,12 +540,12 @@ App.defaultProps = {
 ```
 
 
-## HOOKS
+# HOOKS
 
 - [x] __SON FUNCIONES__
 - [x] Comienzan con la palabra __use__
 
-### useState
+## useState
 
 - [x] Nos permiten manejar los __ESTADOS__ de los COMPONENTES
 
@@ -621,40 +621,84 @@ export function CounterApp(){
 }
 ```
 
-### useEffect
+## useEffect
 
-> Se ejecuta cuando el componente YA HA SIDO MONTADO
+- [x] Se ejecuta cuando el componente __YA HA SIDO MONTADO__
+- [x] __USAR__ para eventos __EXTERNOS__
+- [x] No es buena práctica para eventos del mismo componente
+
 
 ```jsx
-import React, {useState, useEffect} from "react";
-
-export default function App(){
-  const [stateCar, setStateCar] = useState(false);
-  const [contar, setContar] = useState(0);
-
   useEffect(()=>{
-    console.log("Total: "+contar);
-    /* AQUI PONEMOS LAS VARIABLES A ACTUALIZAR */
-  }, [contar]);
-
-  const encenderApagar = ()=>{
-    /* ESTA PARTE ES INTERESANTE PORQUE TE REGRESA LO CONTRARIO DEL ESTADO ACTUAL ! */
-    setStateCar(!stateCar);
-  };
-
-  return(
-    <div>
-      <h3>El coche esta {stateCar ? "Encendido":"Apagado"}</h3>
-      <h4>Click: {contar}</h4>
-      <button onClick={encenderApagar}>Encender / Apagar</button>
-    </div>
-  )
-}
+    // Esto se ejecuta al montarse el componente
+    // Y también cuando cambia el ESTADO
+  });
 ```
 
-## React ROUTER
+```jsx
+  useEffect(()=>{
+    // Esto se ejecuta SOLO al montarse el componente
+  },[]);
+    // El solo poner [] hace que no se ejecute cuando cambia el estado
+```
 
-> Instalamos: npm install react-router-dom
+```jsx
+  useEffect(()=>{
+    // Esto se ejecuta SOLO al montarse el componente
+  },[counter]);
+    // Se ejecuta de nuevo cuando cambia el ESTADO de counter
+```
+
+* App.js
+
+```jsx
+import { useState } from "react";
+import Child from "./components/Child";
+
+function App(){
+  const [showChild, setShowChild] = useState(true);
+  return(
+    <div>
+      <h1>useEffect</h1>
+      <button onClick={()=>setShowChild(!showChild)}>Toggle Child</button>
+      {showChild && <Child></Child>}
+    </div>
+  );
+}
+export default App;
+```
+
+* components/Child.js
+
+```jsx
+import { useEffect, useState } from "react";
+
+function Child(){
+  const [counter, setCounter] = useState(0);
+
+  useEffect(()=>{
+    return ()=>{
+      console.log("El componente se ha desmontado")
+    }
+  },[]);
+
+  return(
+    <div className="child">
+      <h2>Componente Hijo</h2>
+      <h3>{counter}</h3>
+      <button onClick={()=>setCounter(counter++)}>+</button>
+    </div>
+  );
+}
+export default Child;
+```
+
+
+
+
+# React ROUTER
+
+- [x] Instalamos: npm install react-router-dom
 
 > Importamos:
 
@@ -662,10 +706,10 @@ export default function App(){
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 ```
 
-> Creamos una carpeta llamada "pages"
-> Dentro de ella creamos dos archivos de componentes: contacto.js y acerca.js
-> Importamos nuestras páginas:
-> Agregamos nuestras rutas:
+1. Creamos una carpeta llamada "pages"
+2. Dentro de ella creamos dos archivos de componentes: contacto.js y acerca.js
+3. Importamos nuestras páginas:
+4. Agregamos nuestras rutas:
 
 ```jsx
 import React from 'react';
@@ -707,7 +751,7 @@ export default App(){
 ```
 
 
-## REACT en Producción
+# REACT en Producción
 
 - [x] Crear proyecto en REACT
 - [x] Instalarle REACT Router
@@ -716,7 +760,7 @@ export default App(){
 yarn add react-router-dom@6
 ```
 
-### Principal Código Ejemplo
+## Principal Código Ejemplo
 
 ```jsx
 import React from 'react';
@@ -740,7 +784,7 @@ const App = ()=>{
 export default App;
 ```
 
-### Componente Código Ejemplo
+## Componente Código Ejemplo
 
 ```jsx
 import React from 'rect';
@@ -756,9 +800,9 @@ const NavBar = ()=>{
 export default NavBar;
 ```
 
-### Agregar LAZY
+## Agregar LAZY
 
-> La importación LAZY va cargando los elementos como se vayan necesitando
+- [x] La importación LAZY va cargando los elementos como se vayan necesitando
 
 - [x] Modificamos nuestro main.jsx
 
@@ -768,9 +812,9 @@ const Home = lazy(()=> import("./pages/home"))
 const About = lazy(()=> import("./pages/about")) 
 ```
 
-### Agregar SUSPENSE
+## Agregar SUSPENSE
 
-> Se deben suspender los elementos para usar LAZY 
+- [x] Se deben suspender los elementos para usar LAZY 
 
 ```jsx
 <Route 
@@ -783,7 +827,7 @@ const About = lazy(()=> import("./pages/about"))
 > mientras está suspendido el elemento
 
 
-### Agregar HELMET
+## Agregar HELMET
 
 - [x] Agregamos a nuestro proyecto:
 
@@ -808,7 +852,7 @@ const Home = ()=>{
 export default Home;
 ```
 
-### Agregar SNAP
+## Agregar SNAP
 
 > Activa SEO
 
@@ -861,7 +905,7 @@ yarn build
 ```
 <div style="color:#ff004d";>
 
-### Netlify
+# Netlify
 </div>
 
 1. Crear cuenta
@@ -870,7 +914,7 @@ yarn build
 4. Subir carpeta dist
 
 
-### Desplegar en Github Pages
+# Desplegar en Github Pages
 
 > En React terminamos con un producto final que son archivos HTML, CSS y Javascript
 
