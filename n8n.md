@@ -45,14 +45,56 @@
 3. Herramientas de terceros
 
 
+# API
 
+* Application Programming Interface
 
+- [x] Expone un __servicio__
+- [x] Los Desarrolladores crean __programas__ 
+- [x] Los programas se usan para __consumirlo__
 
+## HTTP Status Code
 
+1xx - Un momento
+2xx - Aqui tienes
+3xx - Largo de aqui
+4xx - Fue tu culpa
+5xx - Fue nuestra culpa
 
+* Ejemplos
 
+- [x] __200__ Ok
+- [x] __401__ Unauthorized
+- [x] __404__ Not Found
+- [x] __500__ Internal Server Error
 
+# Webhooks
 
+- [x] Si esperamos a que pase algo
+- [x] Requerimos información de un servicio
+
+# NODOS
+
+## Categorías
+
+1. Entry Point
+2. Función
+3. End Point
+
+## Tipos
+
+1. Triggers
+2. Acciones en una App
+3. Transformación de Datos
+4. Flujo
+5. Archivos
+
+## Parámetros
+
+1. Credenciales
+2. Recursos
+3. Operación
+4. Configuración
 
 
 
