@@ -677,7 +677,7 @@ function Child(){
   const [counter, setCounter] = useState(0);
 
   useEffect(()=>{
-    return ()=>{
+    return ()=>{ // Con este RETURN desmontamos el useEffect
       console.log("El componente se ha desmontado")
     }
   },[]);
