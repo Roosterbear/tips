@@ -117,8 +117,11 @@ docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n
 3. Operación
 4. Configuración
 
+<div style="color:#AE445A">
 
 # AUTOMATIZACIONES
+
+</div>
 
 ## Telegram + IA
 
@@ -131,7 +134,10 @@ docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n
 7. Agregarlo como __Access Token__
 8. Agregar __AI Agent__
 9. Configurar como __Define Below__
-10. 
+10. Arrastrar el campo __text__ a prompt
+11. Agregar respuesta __telegram__
+12. Agregar el __ID__ en Chat ID
+13. Agregar __output__ en text
 
 
 
