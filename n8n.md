@@ -42,7 +42,28 @@
 - [x] Crear flujo de trabajo
 
 2. Instalarlo en nuestro servidor
+
+- [x] __DOCKER__
+
+```bash
+docker volume create n8n_data
+docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
+```
+- [x] __NODE__ 
+
+* Instalar
+```npx n8n```
+
+* Ejecutar
+```n8n```
+
+* Actualizar
+```npm update -g n8n```
+
+
 3. Herramientas de terceros
+
+- [x] Podemos usar Hostinger
 
 
 # API
@@ -97,6 +118,20 @@
 4. Configuración
 
 
+# AUTOMATIZACIONES
+
+## Telegram + IA
+
+1. Instalar aplicación de __Telegram__
+2. Buscar __BotFather__
+3. Escribimos ```/newbot```
+4. Darle un nombre
+5. Agregar un usuario que termine con ```_bot```
+6. Copiar __API Key__
+7. Agregarlo como __Access Token__
+8. Agregar __AI Agent__
+9. Configurar como __Define Below__
+10. 
 
 
 
