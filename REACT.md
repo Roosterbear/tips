@@ -36,6 +36,7 @@
     - [Manejar el ESTADO con valores Booleanos](#manejar-el-estado-con-valores-booleanos)
     - [Otro ejemplo de useState](#otro-ejemplo-de-usestate)
   - [useEffect](#useeffect)
+  - [CUSTOM Hooks](#custom-hooks)
 - [React ROUTER](#react-router)
 - [REACT en Producción](#react-en-producción)
   - [Principal Código Ejemplo](#principal-código-ejemplo)
@@ -692,6 +693,8 @@ function Child(){
 }
 export default Child;
 ```
+
+## CUSTOM Hooks
 
 
 
