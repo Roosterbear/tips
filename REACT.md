@@ -1,9 +1,5 @@
 <h1 style="color:#2a9d8f">REACT</h1>
 
-13  - 3:34:14 <br/> 
-5   - 1:28:50 <br/>
-7   - 2:07:14 <br/>
-
 - [INTRODUCCIÓN](#introducción)
 - [PRIMER PROYECTO](#primer-proyecto)
   - [Software](#software)
