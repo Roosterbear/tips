@@ -1,23 +1,15 @@
 <h1 style="color:#2a9d8f">REACT</h1>
 
 - [INTRODUCCIÓN](#introducción)
-- [PRIMER PROYECTO](#primer-proyecto)
-  - [Software](#software)
-  - [Plugins para VSC](#plugins-para-vsc)
-  - [Creación de proyecto](#creación-de-proyecto)
-  - [Ejecución](#ejecución)
-  - [Primer Componente](#primer-componente)
   - [Agregar CSS](#agregar-css)
   - [Agregando BOOTSTRAP](#agregando-bootstrap)
   - [Mejorando la Vista](#mejorando-la-vista)
 - [BUENAS PRÁCTICAS](#buenas-prácticas)
-    - [Barriles](#barriles)
+  - [Barriles](#barriles)
 - [Javascript en React](#javascript-en-react)
-  - [Recorrer un Array](#recorrer-un-array)
   - [Spread Operator](#spread-operator)
   - [Template String \`](#template-string-)
   - [Destructuring](#destructuring)
-  - [Optional Chaining](#optional-chaining)
   - [Evaluación CORTO-CIRCUITO](#evaluación-corto-circuito)
 - [PROPS](#props)
   - [Pasar un Objeto a un Componente por PROPS](#pasar-un-objeto-a-un-componente-por-props)
@@ -47,103 +39,8 @@
 
 # INTRODUCCIÓN
 
-* Es una librería
-* Ideal para páginas privadas
-* Está basado en componentes, que son __FUNCIONES DE JAVASCRIPT__
-* Debemos tratar que cada componente haga lo __MINIMO__ posible
-* Existen componentes tontos (__stateless__) sin estado ni lógica
-* Y componentes inteligente (__stateful__)  
-
-- [x] __COMMIT__
-
-> Aplicar un cambio del DOM Virtual al DOM
-
-- [x] __TRIGGER__
-
-> Los Componentes se renderizan: 
-
-1. Al inicio (__mount__)
-2. Cuando cambia el __estado__ o hay __async__
-
-- [x] Se utiliza el lenguaje __JSX__ que es __Javascript__ mezclado con __HTML__
-- [x] Vamos a trabajar en la carpeta __src__
-
-
-# PRIMER PROYECTO
-
-## Software
-
-- [x] Visual Studio Code
-- [x] Node
-
-
-## Plugins para VSC
-
-- [x] Simple React Snippets
-- [x] ES7 + React/Redux/React-Native snippets
-
-
-## Creación de proyecto
-
-- [x] Con yarn
-
-* Si no tenermos __yarn__ instalarlo con __npm__
-
-```bash
-yarn create vite@latest
-```
-
-- [x] Con npm
-
 ```bash
 npm create vite@latest
-```
-
-- [x] Si nos manda error, instalar dependencias:
-
-```bash
-yarn install
-```
-
-## Ejecución
-
-- [x] Entrar a carpeta de proyecto
-
-- [x] Con yarn
-
-```bash
-yarn dev
-```
-- [x] Con npm
-
-```bash
-yarn dev
-```
-
-- [x] Si marca error:
-
-```bash
-npm install
-```
-
-## Primer Componente
-
-- [x] Ya que vimos que funciona, borrar todo en __src__
-- [x] Crear nuestro **main.jsx** y agregar:
-
-```jsx
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-
-function App(){
-  return(<h1>Hola mundo</h1>)
-}
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App/>
-  </React.StrictMode>
-)
 ```
 
 ## Agregar CSS
@@ -214,8 +111,7 @@ class Rating extends Component{
 - [x] Usar mismo nombre para **archivo** y **componente**
 - [x] Nombrar componente iniciando en **mayúscula**
 
-
-### Barriles
+## Barriles
 
 > En la carpeta __components__ agregar un _index.js_ con nuestras exportaciones:
 
@@ -243,12 +139,6 @@ import {Button1, Button2} from './components' // Y listo !!
 ```
 
 # Javascript en React
-
-## Recorrer un Array
-
-- [x] Después de la función flecha _NO_ necesitamos llaves
-- [x] Podríamos agregar paréntesis
-- [x] Es __obligatorio__ agregar una __key única__
 
 ```jsx
 function App() {
@@ -297,23 +187,6 @@ const {nombre, precio, disponible} = producto
 
 // Tenemos un conflicto, hay 2 nombres, pero lo podemos renombrar:
 const {nombre: nombreCliente, premium} = cliente
-```
-
-## Optional Chaining
-
-- [x] Revisa si existe un elemento en un __objeto__
-- [x] Sustituye a un __if__
-- [x] En caso de falso, devuelve __undefined__
-
-```javascript
-const alumno = {
-  nombre: 'Fernando'  
-}
-
-console.log(alumno?.examenes)
-// Si no ponemos el ? ya no se ejecutaría la siguiente línea
-// OJO que solo es para objetos y va antes del punto
-console.log('Despues de revision de examen')
 ```
 
 ## Evaluación CORTO-CIRCUITO
