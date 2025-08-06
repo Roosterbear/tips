@@ -15,8 +15,6 @@
   - [Pasar un Objeto a un Componente por PROPS](#pasar-un-objeto-a-un-componente-por-props)
   - [Pasando Funciones entre Componentes por PROPS](#pasando-funciones-entre-componentes-por-props)
   - [Destructuring](#destructuring-1)
-  - [propTypes](#proptypes)
-  - [defaultProps](#defaultprops)
 - [EVENTOS](#eventos)
   - [evento click](#evento-click)
 - [HOOKS](#hooks)
@@ -24,18 +22,7 @@
     - [Manejar el ESTADO con valores Booleanos](#manejar-el-estado-con-valores-booleanos)
     - [Otro ejemplo de useState](#otro-ejemplo-de-usestate)
   - [useEffect](#useeffect)
-  - [CUSTOM Hooks](#custom-hooks)
 - [React ROUTER](#react-router)
-- [REACT en Producción](#react-en-producción)
-  - [Principal Código Ejemplo](#principal-código-ejemplo)
-  - [Componente Código Ejemplo](#componente-código-ejemplo)
-  - [Agregar LAZY](#agregar-lazy)
-  - [Agregar SUSPENSE](#agregar-suspense)
-  - [Agregar HELMET](#agregar-helmet)
-  - [Agregar SNAP](#agregar-snap)
-- [Netlify](#netlify)
-- [Desplegar en Github Pages](#desplegar-en-github-pages)
-- [REACT NATIVE](#react-native)
 
 # INTRODUCCIÓN
 
@@ -207,7 +194,7 @@ auth && console.log('Usuario autenticado');
 ```jsx
 import React from 'react';
 
-export defaul function Saludar(props){
+export default function Saludar(props){
   console.log(props);
 
   return(
@@ -354,41 +341,6 @@ export default function Saludar(props){
 }
 ```
 
-## propTypes
-
-- [x] __YA Instalado con CRA__
-- [ ] __Se debe INSTALAR con Vite__
-
-```bash
-yarn add prop-types
-```
-
-- [x] Importamos la libreria:
-
-```jsx
-import PropTypes from 'prop-types';
-```
-
-- [x] Al final del componente agregar:
-
-```jsx
-App.propTypes = {
-  title: PropTypes.string.isRequired,
-  subTitle: PropTypes.string
-}
-```
-
-## defaultProps
-
-```jsx
-App.defaultProps = {
-  title: 'No hay titulo',
-  subTitle: 'No hay subtitulo',
-  // Podemos agregar props
-  name: 'Fernando'
-}
-```
-
 # EVENTOS
 
 ## evento click
@@ -411,12 +363,7 @@ App.defaultProps = {
     </>
   )
 ```
-
-
 # HOOKS
-
-- [x] __SON FUNCIONES__
-- [x] Comienzan con la palabra __use__
 
 ## useState
 
@@ -566,11 +513,6 @@ function Child(){
 export default Child;
 ```
 
-## CUSTOM Hooks
-
-
-
-
 # React ROUTER
 
 - [x] Instalamos: npm install react-router-dom
@@ -624,202 +566,6 @@ export default App(){
   );
 }
 ```
-
-
-# REACT en Producción
-
-- [x] Crear proyecto en REACT
-- [x] Instalarle REACT Router
-
-```bash
-yarn add react-router-dom@6
-```
-
-## Principal Código Ejemplo
-
-```jsx
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import NavBar from './components/NavBar';
-import Home from './pages/Home';
-import About from './pages/About';
-
-const App = ()=>{
-  return (
-    <BrowserRouter>
-      <NavBar />
-      <Routes>
-        <Route element={<Home />} path="/" />
-        <Route element={<About/>} path="about" />
-      </Routes>
-    </BrowserRouter>
-  );
-};
-
-export default App;
-```
-
-## Componente Código Ejemplo
-
-```jsx
-import React from 'rect';
-import { Link } from 'react-router-dom';
-
-const NavBar = ()=>{
-  return <nav>
-    <link to="">Home </link>
-    <link to="about">About </link>
-  </nav>
-};
-
-export default NavBar;
-```
-
-## Agregar LAZY
-
-- [x] La importación LAZY va cargando los elementos como se vayan necesitando
-
-- [x] Modificamos nuestro main.jsx
-
-```jsx
-import React, { lazy } from 'rect';
-const Home = lazy(()=> import("./pages/home")) 
-const About = lazy(()=> import("./pages/about")) 
-```
-
-## Agregar SUSPENSE
-
-- [x] Se deben suspender los elementos para usar LAZY 
-
-```jsx
-<Route 
-  element={<Suspense fallback={<h3>Loading...</h3>}>
-    <Home />
-  </ Suspense>} path="/" />
-```
-
-> Fallback toma un codigo JSX para mostrar 
-> mientras está suspendido el elemento
-
-
-## Agregar HELMET
-
-- [x] Agregamos a nuestro proyecto:
-
-```bash
-yarn add react-helmet
-```
-- [x] Agregamos a nuestra page de Home:
-
-```jsx
-import React from 'react';
-import { helmet } from 'react-helmet';
-
-const Home = ()=>{
-  return(
-    <div>
-      <Helmet title="Mi Pagina - Home" />
-      <h1>Home page</h1>
-    </div>
-  )
-};
-
-export default Home;
-```
-
-## Agregar SNAP
-
-> Activa SEO
-
-- [x] Instalar:
-
-```bash
-yarn add --dev react-snap
-```
-
-- [x] Modificar __package.json__ 
-- [x] Agregamos el script después del build:
-
-```json
-"postbuild": "react-snap",
-```
-
-```jsx
-import Reacr from 'react';
-import { render, hydrate } from react-dom;
-import "./index.css";
-import App from "./App";
-import reportWebVitals from './reportWebVitals';
-
-const rootElement = document.getElementById("root");
-
-if (rootElement.hasChildNodes()){
-  hydrate(<App />, rootElement);
-}else{
-  render(<App />, rootElement);
-}
-
-reportWebVitals();
-```
-
-> Agregar en el package.json despues de los scripts
-
-```json
-"reactSnap": {
-  "source":"build",
-  "miniyHtml":{
-    "collapseWhitespace":false,
-    "removeComments":false
-  }
-},
-```
-- [x] Construir
-
-```bash
-yarn build
-```
-<div style="color:#ff004d";>
-
-# Netlify
-</div>
-
-1. Crear cuenta
-2. Add new site
-3. > yarn build
-4. Subir carpeta dist
-
-
-# Desplegar en Github Pages
-
-> En React terminamos con un producto final que son archivos HTML, CSS y Javascript
-
-* Renombrar dist a __docs__
-* Subir a Github
-* Settings - Pages
-* Seleccionar __main__
-* Seleccionar __docs__
-* Esperar hasta que esté en VERDE, dar F5 constantemente
-
-<br/>
-🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-> CUIDAR DE TENER LOS ENLACES TIPO: './carpeta'
-
-🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-<br/>
-
-
-
-# REACT NATIVE
-
-```bash
-npx create-expo-app@latest --template blank-typescript
-cd proyecto
-npm start
-```
-
-
 
 
 
