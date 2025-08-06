@@ -3,6 +3,7 @@
 - [BASICO](#basico)
   - [Introducción](#introducción)
   - [Hello World en consola](#hello-world-en-consola)
+- [CARGO](#cargo)
   - [Crear Nuevo Proyecto con CARGO](#crear-nuevo-proyecto-con-cargo)
   - [Ejecutar Proyecto con CARGO](#ejecutar-proyecto-con-cargo)
   - [Construir Proyecto con CARGO](#construir-proyecto-con-cargo)
@@ -16,8 +17,6 @@
 - [x] Utiliza __struct__ para representar datos complejos
 - [x] Utiliza __traits__ para describir cómo se comporta el struct
 - [x] Las variables son __inmutables__ por default
-
-
 
 ## Hello World en consola
 
@@ -53,6 +52,8 @@ rustc hello.rs
 - [x] Checar CARGO ```cargo --version```
 
 > Es un Framework YA incluido con la instalación de Rust
+
+# CARGO
 
 ## Crear Nuevo Proyecto con CARGO
 

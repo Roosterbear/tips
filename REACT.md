@@ -91,9 +91,12 @@
 
 - [x] Con yarn
 
+* Si no tenermos __yarn__ instalarlo con __npm__
+
 ```bash
 yarn create vite@latest
 ```
+
 - [x] Con npm
 
 ```bash
