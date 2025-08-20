@@ -25,22 +25,34 @@
 * Al tener el proyecto inicializado en __Typescript__ buscará todos los archivos
 * Con el parámetro __-w__ se actualizará el __.js__ al guardar el __.ts__.
 
+- [x] Ejecutar con: ```node script.js```
 
 # TIPOS DE DATOS
 
-- [x] __Strings__
-
 ```ts
-const str1: string = "Hola";
-const str2: string = 'Mundo';
-const str3: string = `${str1} ${str2}`;
+function saludar(nombre: string): string{
+  return `Hola ${nombre} !!`;
+}
+
+console.log(saludar("Typescript"));
 ```
 
-- [x] __Numbers__
 
 ```ts
-const n1: number = 1;
-const n2: number = 1.1;
+type Disco = {
+  id: number,
+  artista: string,
+  nombre: string
+}
+
+const discoteca: Disco[] = [
+  {id:1, artista:"Men I Trust", nombre:"Oncle Jazz"},
+  {id:2, artista:"Bjork", nombre:"Post"},
+]
+
+discoteca.forEach(d=>{
+  console.log(`El disco ${d.nombre} de ${d.artista} es el No. ${d.id}`);
+});
 ```
 
 
