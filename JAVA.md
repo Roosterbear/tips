@@ -6,7 +6,9 @@
   - [Comprobación de Precisión](#comprobación-de-precisión)
   - [Scanner \[Días del año\]](#scanner-días-del-año)
 - [PROGRAMACIÓN ORIENTADA A OBJETOS](#programación-orientada-a-objetos)
-- [Clases Abstractas](#clases-abstractas)
+  - [Clases Abstractas](#clases-abstractas)
+  - [Interfaces](#interfaces)
+  - [Java Beans](#java-beans)
 - [BASES DE DATOS](#bases-de-datos)
 
 
@@ -94,7 +96,9 @@ public class Prueba{
 
 # PROGRAMACIÓN ORIENTADA A OBJETOS
 
-# Clases Abstractas
+## Clases Abstractas
+
+- [x] Se usa para abstraer CARACTERÍSTICAS en __comun__
 
 ```java
 public class Prueba{
@@ -104,6 +108,8 @@ public class Prueba{
   }
 }
 
+// No se pueden crear Objetos
+// Se debe HEREDAR
 abstract class FiguraGeometrica{
   public abstract void dibujar();
 }
@@ -115,19 +121,43 @@ class Rectangulo extends FiguraGeometrica{
 }
 ```
 
+## Interfaces
 
+- [x] Es un contrato que implementa COMPORTAMIENTOS __reutilizables__
 
 ```java
+public interface Traductor{
+  //
+  void traducir();
 
+  default void iniciar(){
+    System.out.println("Iniciando traductor...");
+  }
+}
+
+class Ingles implements Traductor{
+  @Override
+  public void traducir(){
+    System.out.println("Traduciendo a ingles");
+  }
+}
+
+class Prueba{
+  public static void main(String[] args){
+    // Clase ingles del tipo Interfaz "Traductor"
+    Traductor ingles = new Ingles();
+    ingles.traducir();
+  }
+}
 ```
 
+## Java Beans
 
+- [x] Es una clase de JAVA que debe cumplir ciertas caracteristicas:
 
-
-
-
-
-
+* Al menos un CONSTRUCTOR __vacío__
+* Minimo un ATRIBUTO PRIVADO con su __get__ y su __set__
+* Implementar la INTERFACE __Serializable__
 
 ```java
 
@@ -185,7 +215,44 @@ public class Conexion{
 }
 ```
 - [x] Si no reconoce la clase Connection: __Invalidar Caché__
+- [x] Crear el __DOMINIO__ de nuestra aplicación
+<br/>
 
+- [x] Debemos mapear los campos de la __BD__ con variables en Java
+
+```java
+public class Cliente{
+  private int id;
+  private String nombre;
+  private String apellido;
+  private int membresia;
+
+  // Constructor si no le pasamos parámetros
+  public Cliente(){}
+
+  // Constructor si no le pasamos el Id
+  public Cliente(int id){
+    this.id = id;
+  }
+
+  // Constructor si le pasamos algunos parámetros
+  public Cliente(String nombre, String apellido, int membresia){
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.membresia = membresia;
+  }
+
+  // Constructor si le pasamos TODOS los parámetros
+  public Cliente(){
+    this(nombre, apellido, membresia);
+    this.id = id;
+  }
+
+  //
+  // GENERAR LOS Getters, Setters, ToString, Equals y Hascode
+  //
+}
+```
 
 
 
