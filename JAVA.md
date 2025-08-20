@@ -7,6 +7,7 @@
   - [Scanner \[Días del año\]](#scanner-días-del-año)
 - [PROGRAMACIÓN ORIENTADA A OBJETOS](#programación-orientada-a-objetos)
 - [Clases Abstractas](#clases-abstractas)
+- [BASES DE DATOS](#bases-de-datos)
 
 
 # BASICO
@@ -131,3 +132,65 @@ class Rectangulo extends FiguraGeometrica{
 ```java
 
 ```
+
+
+# BASES DE DATOS
+
+- [x] Crear proyecto Java - Maven
+- [x] Agregar Dependencias en el __pom.xml__
+
+* Al agregar la etiqueta __dependency__ se agregaran __groupId__ y __artifactId__
+
+```xml
+<dependencies>
+  <dependency>
+    <groupId>com.mysql</groupId>
+    <artifactId>mysql-connector-j</artifactId>
+    <version>8.3.0</version>
+  </dependency>
+</dependencies>
+```
+
+- [x] Actualizar Maven desde el IDE
+- [x] Agregar paquete y Clase de Conexión
+
+```java
+import java.sql.Connection;
+
+public class Conexion{
+  pulic static Connection getConexion(){
+    Connection conexion = null;
+    var baseDatos = "mi_bd";
+    var url = "jdbc:mysql://localhost:3306/"+baseDatos;
+    var usuario = "root";
+    var password = "admin";
+    try{
+      Class.forName("com.mysql.cj.jdbc.Driver");
+      conexion = DriverManager.getConnection(url, usuario, password);
+    }catch(Exception e){
+      System.out.println("Error al conectar BD: "+e.getMessage());
+    }
+
+    return conexion;
+  }
+
+  public static void main(String[] args){
+    var conexion = conexion.getConexion();
+    if(conexion != null)
+      System.out.println("READY: "+conexion);
+    else
+      System.out.println("ERROR: No se pudo conectar la BD");
+  }
+
+}
+```
+- [x] Si no reconoce la clase Connection: __Invalidar Caché__
+
+
+
+
+
+
+
+
+

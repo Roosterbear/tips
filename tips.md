@@ -32,17 +32,17 @@
 
 1. Legibilidad (Los reclutadores __escanean__)
 2. __SOLO UNA COLUMNA__
-3. NO incluir __colores__ de fondos
+3. NO incluir __colores__ de fondo
 4. No incluir fotografía, 
 5. Cuidar la __ortografía__
 6. Jerarquía y prioridad: 
     1. Contacto breve (Nombre, teléfono, email)
-    2. Experiencia y Educación (Solo superior o con buena __validez__)
+    2. Experiencia y Educación (Solo nivel superior o con buena __validez__)
     3. Proyectos (__ORIGINALES__)
 7. Enfocar skills segun la __vacante__
 8. __Ownership__ Cómo hemos resuelto problemas
-    * STAR
-    * XYZ
+    * __STAR__ (Situacion - Tarea - Accion - Resultado)
+    * __XYZ__ (X - Qué, Y - Cuánto, )
 9. Consistencia VISUAL (tipo de letra, espacios, negritas, etc)
 10. Enfócate a que debes convencer que somos la __persona indicada__
 
