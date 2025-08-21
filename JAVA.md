@@ -5,9 +5,7 @@
   - [FOR Mejorado](#for-mejorado)
   - [Comprobación de Precisión](#comprobación-de-precisión)
   - [Scanner \[Días del año\]](#scanner-días-del-año)
-  - [Cadenas](#cadenas)
 - [PROGRAMACIÓN ORIENTADA A OBJETOS](#programación-orientada-a-objetos)
-  - [Clases](#clases)
   - [Clases Abstractas](#clases-abstractas)
   - [Interfaces](#interfaces)
   - [Java Beans](#java-beans)
@@ -95,52 +93,8 @@ public class Prueba{
   }
 }
 ```
-## Cadenas
-
-```java
-public class Prueba{
-  public static void main(String[] args){
-    String a = "a";
-    String b = "b";
-    String c = a;
-  
-    StringBuilder sb = new StringBuilder(a);
-    long inicio = System.currentTimeMillis();
-    for (int i = 0; i < 50000; i++){
-      //c = c.concat(a).concat(b).concat("\n");
-      //c += a+b+("\n");
-      //sb.append(a).append(b).append("\n");
-    }
-
-    long fin = System.currentTimeMillis();
-    System.out.println(fin-inicio);
-    
-  }
-}
-```
 
 # PROGRAMACIÓN ORIENTADA A OBJETOS
-
-## Clases
-
-```java
-public class Prueba{
-  public static void main(String[] args){
-    Persona juanito = new Persona();
-    Persona pepito = new Persona();
-    juanito.nombre = "Juanito";
-    pepito.nombre = "Pepito";
-    juanito.juega(pepito);
-  }
-}
-
-class Persona{
-  String nombre;
-  void juega(Persona p){
-    System.out.println(nombre+" juega con "+p.nombre);
-  }
-}
-```
 
 ## Clases Abstractas
 
@@ -206,39 +160,6 @@ class Prueba{
 * Implementar la INTERFACE __Serializable__
 
 ```java
-import java.io.Serializable;
-
-public class Prueba{
-  public static void main(String[] args){
-    var persona = new Persona();
-    persona.setNombre("Fernando");
-    persona.setApellido("Roosterbear");
-    System.out.println(persona);
-  }
-}
-
-class Persona implements Serializable{
-  private String nombre;
-  private String apellido;
-
-  public Persona(){}
-
-  public String getNombre(){
-    return nombre;
-  }
-
-  public void setNombre(String nombre){
-    this.nombre = nombre;
-  }
-
-  public String getApellido(){
-    return apellido;
-  }
-
-  public void setApellido(String apellido){
-    this.nombre = apellido;
-  }
-}
 
 ```
 
