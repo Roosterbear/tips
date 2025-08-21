@@ -16,6 +16,8 @@
   - [Método de Referencia](#método-de-referencia)
 - [Enum](#enum)
   - [Genéricos](#genéricos)
+- [ARCHIVOS](#archivos)
+  - [File](#file)
 - [BASES DE DATOS](#bases-de-datos)
 
 
@@ -376,6 +378,30 @@ public class Prueba{
   }
 }
 ```
+
+# ARCHIVOS
+
+## File
+
+```java
+import java.io.File;
+
+public class Prueba{
+  public static void main(String[] args){
+    File f = new File("C:\\Intel");
+    File[] content = f.listFiles();
+    for(File file : content){
+      System.out.println(file.getName());
+      System.out.println("Archivo: "+file.isFile());
+      System.out.println("Es Directorio: "+file.isDirectory());
+      System.out.println("---------------------------------------");
+    }
+  }
+}
+
+```
+
+
 
 # BASES DE DATOS
 
