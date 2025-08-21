@@ -84,7 +84,6 @@
 * __RAG__ (Retrieval Augmented Generation)
 * Automatización con __n8n__
 
-este es el chido !!
 
 
 
