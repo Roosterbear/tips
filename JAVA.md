@@ -5,10 +5,15 @@
   - [FOR Mejorado](#for-mejorado)
   - [Comprobación de Precisión](#comprobación-de-precisión)
   - [Scanner \[Días del año\]](#scanner-días-del-año)
+  - [Cadenas](#cadenas)
 - [PROGRAMACIÓN ORIENTADA A OBJETOS](#programación-orientada-a-objetos)
+  - [Clases](#clases)
   - [Clases Abstractas](#clases-abstractas)
   - [Interfaces](#interfaces)
+  - [Sets](#sets)
   - [Java Beans](#java-beans)
+  - [Función Lambda](#función-lambda)
+  - [Método de Referencia](#método-de-referencia)
 - [BASES DE DATOS](#bases-de-datos)
 
 
@@ -93,8 +98,52 @@ public class Prueba{
   }
 }
 ```
+## Cadenas
+
+```java
+public class Prueba{
+  public static void main(String[] args){
+    String a = "a";
+    String b = "b";
+    String c = a;
+  
+    StringBuilder sb = new StringBuilder(a);
+    long inicio = System.currentTimeMillis();
+    for (int i = 0; i < 50000; i++){
+      //c = c.concat(a).concat(b).concat("\n");
+      //c += a+b+("\n");
+      //sb.append(a).append(b).append("\n");
+    }
+
+    long fin = System.currentTimeMillis();
+    System.out.println(fin-inicio);
+    
+  }
+}
+```
 
 # PROGRAMACIÓN ORIENTADA A OBJETOS
+
+## Clases
+
+```java
+public class Prueba{
+  public static void main(String[] args){
+    Persona juanito = new Persona();
+    Persona pepito = new Persona();
+    juanito.nombre = "Juanito";
+    pepito.nombre = "Pepito";
+    juanito.juega(pepito);
+  }
+}
+
+class Persona{
+  String nombre;
+  void juega(Persona p){
+    System.out.println(nombre+" juega con "+p.nombre);
+  }
+}
+```
 
 ## Clases Abstractas
 
@@ -150,6 +199,27 @@ class Prueba{
   }
 }
 ```
+## Sets
+
+- [x] Coleccion que no permite elementos repetidos
+
+```java
+import java.util.TreeSet;
+import java.util.Set;
+
+public class Sets{
+  public static void main(String[] args){
+    Set<String> conjunto = new TreeSet<>();
+    conjunto.add("Luis");
+    conjunto.add("Luis"); // Ya no mostrará este elemento
+    conjunto.add("Fernando");
+    conjunto.add("Jeremias");
+
+    System.out.println("Elementos del Set");
+    conjunto.forEach(System.out::println);
+  }
+}
+```
 
 ## Java Beans
 
@@ -160,9 +230,83 @@ class Prueba{
 * Implementar la INTERFACE __Serializable__
 
 ```java
+import java.io.Serializable;
+
+public class Prueba{
+  public static void main(String[] args){
+    var persona = new Persona();
+    persona.setNombre("Fernando");
+    persona.setApellido("Roosterbear");
+    System.out.println(persona);
+  }
+}
+
+class Persona implements Serializable{
+  private String nombre;
+  private String apellido;
+
+  public Persona(){}
+
+  public String getNombre(){
+    return nombre;
+  }
+
+  public void setNombre(String nombre){
+    this.nombre = nombre;
+  }
+
+  public String getApellido(){
+    return apellido;
+  }
+
+  public void setApellido(String apellido){
+    this.nombre = apellido;
+  }
+}
 
 ```
+## Función Lambda
 
+- [x] Función __anónima__ de código COMPACTO
+
+```java
+import java.util.ArrayList;
+import java.util.List;
+
+public class Prueba{
+  public static void main(String[] args){
+
+    List<String> miLista = new ArrayList<>();
+    miLista.add("Lunes");
+    miLista.add("Martes");
+    miLista.add("Miercoles");
+    miLista.add("Jueves");
+    miLista.add("Viernes");
+
+    miLista.forEach(elemento->{
+      System.out.prinln("Elemento: "+elemento);
+    });
+  }
+}
+```
+
+## Método de Referencia
+
+- [x] Toma de referencia el valor y lo imprime
+
+```java
+import java.util.ArrayList;
+import java.util.List;
+
+public class Prueba{
+  public static void main(String[] args){
+
+    List<String> nombres = Arrays.asList("Jacinto","Jeremias","Panchito");
+    miLista.forEach(System.out::println);
+
+  }
+}
+```
 
 # BASES DE DATOS
 
@@ -253,11 +397,3 @@ public class Cliente{
   //
 }
 ```
-
-
-
-
-
-
-
-
