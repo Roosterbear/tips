@@ -14,6 +14,8 @@
   - [Java Beans](#java-beans)
   - [Función Lambda](#función-lambda)
   - [Método de Referencia](#método-de-referencia)
+- [Enum](#enum)
+  - [Genéricos](#genéricos)
 - [BASES DE DATOS](#bases-de-datos)
 
 
@@ -304,6 +306,73 @@ public class Prueba{
     List<String> nombres = Arrays.asList("Jacinto","Jeremias","Panchito");
     miLista.forEach(System.out::println);
 
+  }
+}
+```
+# Enum
+
+```java
+enum SaborPalomitas{
+  CHILE("Picosas", 20.0f),
+  MANTEQUILLA("De Cine", 30.0f),
+  QUESO("Quesito", 40.0f),
+  CARAMELO("Dulces", 50.0f);
+
+  private String nombreDeVenta;
+  private float precio;
+
+  private SaborPalomitas(String nombreDeVenta, float precio){
+    this.nombreDeVenta = nombreDeVenta;
+    this.precio = precio;
+  }
+
+  public String getNombreDeVenta(){
+    return nombreDeVenta;
+  }
+
+  public float getPrecio(){
+    return precio;
+  }
+}
+
+public class Prueba{
+  public static void main(String[] args){
+    SaborPalomitas queso = SaborPalomitas.QUESO;
+    SaborPalomitas caramelo = SaborPalomitas.CARAMELO;
+    System.out.print("Tenemos solo palomitas de: ");
+    System.out.print(queso.getNombreDeVenta());
+    System.out.print(" y ");
+    System.out.print(caramelo.getNombreDeVenta());
+    System.out.println(" ");
+  }
+}
+```
+
+## Genéricos
+
+```java
+class BeanGenerico<T>{
+  private T valor;
+  
+  public BeanGenerico(T valor){
+    this.valor = valor;
+  }
+
+  public T getValor(){
+    return valor;
+  }
+
+  public void setValor(T valor){
+    this.valor = valor;
+  }
+}
+
+public class Prueba{
+  public static void main(String[] args){
+    BeanGenerico<String> bean = new BeanGenerico<>("Fernando");
+    System.out.println(bean.getValor());
+    bean.setValor("Roosterbear");
+    System.out.println(bean.getValor());
   }
 }
 ```
