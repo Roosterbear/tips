@@ -8,7 +8,10 @@
 - [PROGRAMACIÓN ORIENTADA A OBJETOS](#programación-orientada-a-objetos)
   - [Clases Abstractas](#clases-abstractas)
   - [Interfaces](#interfaces)
+  - [Sets](#sets)
   - [Java Beans](#java-beans)
+  - [Función Lambda](#función-lambda)
+  - [Método de Referencia](#método-de-referencia)
 - [BASES DE DATOS](#bases-de-datos)
 
 
@@ -151,6 +154,28 @@ class Prueba{
 }
 ```
 
+## Sets
+
+- [x] Coleccion que no permite elementos repetidos
+
+```java
+import java.util.TreeSet;
+import java.util.Set;
+
+public class Sets{
+  public static void main(String[] args){
+    Set<String> conjunto = new TreeSet<>();
+    conjunto.add("Luis");
+    conjunto.add("Luis"); // Ya no mostrará este elemento
+    conjunto.add("Fernando");
+    conjunto.add("Jeremias");
+
+    System.out.println("Elementos del Set");
+    conjunto.forEach(System.out::println);
+  }
+}
+```
+
 ## Java Beans
 
 - [x] Es una clase de JAVA que debe cumplir ciertas caracteristicas:
@@ -160,7 +185,86 @@ class Prueba{
 * Implementar la INTERFACE __Serializable__
 
 ```java
+import java.io.Serializable;
 
+public class Prueba{
+  public static void main(String[] args){
+    var persona = new Persona();
+    persona.setNombre("Fernando");
+    persona.setApellido("Roosterbear");
+  }
+}
+
+class Persona implements Serializable{
+  private String nombre;
+  private String apellido;
+
+  public Persona(){}
+
+  public String getNombre(){
+    return nombre;
+  }
+
+  public void setNombre(String nombre){
+    this.nombre = nombre;
+  }
+
+  public String getApellido(){
+    return apellido;
+  }
+
+  public void setApellido(String apellido){
+    this.apellido = apellido;
+  }
+
+  @Override
+  public String toString(){
+    return "Persona: "+nombre+" "+apellido;
+  }
+}
+```
+
+## Función Lambda
+
+- [x] Función __anónima__ de código COMPACTO
+
+```java
+import java.util.ArrayList;
+import java.util.List;
+
+public class Prueba{
+  public static void main(String[] args){
+
+    List<String> miLista = new ArrayList<>();
+    miLista.add("Lunes");
+    miLista.add("Martes");
+    miLista.add("Miercoles");
+    miLista.add("Jueves");
+    miLista.add("Viernes");
+
+    miLista.forEach(elemento->{
+      System.out.prinln("Elemento: "+elemento);
+    });
+  }
+}
+```
+
+## Método de Referencia
+
+- [x] Toma de referencia el valor y lo imprime
+
+```java
+import java.util.ArrayList;
+import java.util.List;
+
+public class Prueba{
+  public static void main(String[] args){
+
+    List<String> nombres = Arrays.asList("Jacinto","Jeremias","Panchito");
+    miLista.forEach(System.out::println);
+
+  }
+}
 ```
 
 
