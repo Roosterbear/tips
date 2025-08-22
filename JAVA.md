@@ -19,6 +19,9 @@
 - [ARCHIVOS](#archivos)
   - [File](#file)
   - [File + Recursividad](#file--recursividad)
+  - [Escribir del Teclado](#escribir-del-teclado)
+  - [Escribir en un archivo](#escribir-en-un-archivo)
+  - [Leer de un archivo de texto](#leer-de-un-archivo-de-texto)
 - [BASES DE DATOS](#bases-de-datos)
 
 
@@ -429,7 +432,72 @@ public class Prueba{
 }
 ```
 
+## Escribir del Teclado
 
+```java
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Prueba{
+  public static String leer(String prompt) throws IOException{
+    System.out.print(prompt);
+    InputStreamReader isr = new InputStreamReader(System.in);
+    BufferedReader br = new BufferedReader(isr);
+    return br.readLine();
+  }
+
+  public static void main(String[] args) throws IOException{
+    String mensaje = leer("Como te llamas? ");
+    System.out.println("Te llamas "+mensaje);
+  }
+}
+```
+
+## Escribir en un archivo
+
+```java
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+
+public class Prueba{
+  public static void main(String[] args) throws FileNotFoundException{
+    File f = new File("C:\\Intel\\mensaje.txt");
+    try(PrintWriter pw = new PrintWriter(f)){
+      pw.println("Hola");
+      pw.println("Este es un mensaje de prueba");
+      pw.println("Favor de no borrar este archivo");
+      System.out.println("MENSAJE GUARDADO EN: " + f.getAbsolutePath());
+    }
+  }
+}
+```
+
+## Leer de un archivo de texto
+
+```java
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class Prueba{
+  public static void main(String[] args) throws IOException{
+    File f = new File("C:\\\\Intel\\\\mensaje.txt");
+    if(f.exists()){
+      try(FileReader fr = new FileReader(f);BufferedReader br = new BufferedReader(fr);){
+        String cadena;
+        while((cadena = br.readLine()) != null){
+          System.out.println(cadena);
+        }
+      }
+    }else{
+      System.out.println("El archivo no existe");
+    }
+  }
+}
+```
 
 # BASES DE DATOS
 
