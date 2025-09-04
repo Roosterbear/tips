@@ -14,6 +14,7 @@
 - [x] **perk** - ventaja, beneficio
 - [x] **nuance** - matiz
 - [x] **naughty** - travieso
+- [x] **gloating** - regodeo
 
 * It makes my toes curl. 
 * It's so catchy. 
@@ -91,6 +92,9 @@
 * Poke and Prod
 * Bear in mind
 * Beating around the bush
+* Far as we know
+* Once I drive away, I'm not coming back
+* I wanna know what that is you're playing
 
 
 
