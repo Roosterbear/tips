@@ -1,13 +1,21 @@
 <h1 style="color:#2a9d8f">POWERSHELL</h1>
 
-- [Búsqueda de Usuarios](#búsqueda-de-usuarios)
-- [Saber la FECHA de Creación de un Usuario](#saber-la-fecha-de-creación-de-un-usuario)
-- [Mostrar Miembros de un Grupo](#mostrar-miembros-de-un-grupo)
-- [Mostrar un Equipo con todas sus propiedades](#mostrar-un-equipo-con-todas-sus-propiedades)
-- [Mostrar Equipos que no se han Logueado en días](#mostrar-equipos-que-no-se-han-logueado-en-días)
-- [Reiniciar Equipo](#reiniciar-equipo)
-- [Eliminar Particiones de Disco Duro](#eliminar-particiones-de-disco-duro)
+- [USUARIOS](#usuarios)
+  - [Búsqueda de Usuarios](#búsqueda-de-usuarios)
+  - [Saber la FECHA de Creación de un Usuario](#saber-la-fecha-de-creación-de-un-usuario)
+- [GRUPOS](#grupos)
+  - [Mostrar Miembros de un Grupo](#mostrar-miembros-de-un-grupo)
+- [EQUIPOS](#equipos)
+  - [Mostrar un Equipo con todas sus propiedades](#mostrar-un-equipo-con-todas-sus-propiedades)
+  - [Mostrar Equipos que no se han Logueado en días](#mostrar-equipos-que-no-se-han-logueado-en-días)
+  - [Reiniciar Equipo](#reiniciar-equipo)
+  - [Checar SERVICIO](#checar-servicio)
+  - [Ejecutar REMOTAMENTE un comando](#ejecutar-remotamente-un-comando)
+- [DISCOS](#discos)
+  - [Eliminar Particiones de Disco Duro](#eliminar-particiones-de-disco-duro)
 
+
+# USUARIOS
 
 ## Búsqueda de Usuarios
 ```powershell
@@ -19,10 +27,16 @@ Get-ADUser -Filter "SamAccountName" -like "j*"
 Get-ADUser jgomez -Properties whencreated
 ```
 
+
+# GRUPOS
+
 ## Mostrar Miembros de un Grupo
 ```powershell
 Get-ADGroupMember -Identify Administrators | Format-Table Name, SamAccountName
 ```
+
+
+# EQUIPOS
 
 ## Mostrar un Equipo con todas sus propiedades
 ```powershell
@@ -41,6 +55,36 @@ resultSetSize $null -Properties Name, OperatingSystem, SamAccountName
 ```powershell
 Restart-Computer -ComputerName "172.16.33.10" -Force
 ```
+
+## Checar SERVICIO
+
+> sc = Service Control. Es **nativo** de Windows
+
+```powershell
+sc query eraagent
+```
+
+## Ejecutar REMOTAMENTE un comando
+```powershell
+sc \\NOMBRE_EQUIPO query eraagent
+```
+
+```powershell
+sc \\172.16.1.69 query eraagent
+```
+
+```powershell
+Get-Service -Name eraagent -ComputerName NOMBRE_EQUIPO
+```
+
+> Get-Service equivale a sc query <br/>
+> Start-Service equivale a sc start <br/>
+> Stop-Service equivale a sc stop <br/>
+> Set-Service equivale a sc config <br/>
+
+
+
+# DISCOS
 
 ## Eliminar Particiones de Disco Duro
 ```powershell
