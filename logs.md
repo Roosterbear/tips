@@ -63,6 +63,15 @@ __REINICIAR !!__
 ```npm install -g typescript```
 ```tsc -v```
 
+* En Powershell
+```Get-ExecutionPolicy -List```
+```Set-ExecutionPolicy RemoteSigned -Scope LocalMachine```
+
+- [x] Gulp <br/>
+
+```npm install -g gulp-cli```
+```gulp -v```
+
 - [x] Ruby and Rails <br/>
 
 ```bash
