@@ -15,6 +15,7 @@
 - [x] **nuance** - matiz
 - [x] **naughty** - travieso
 - [x] **gloating** - regodeo
+- [x] **gawking** - mirando embobado
 
 * It makes my toes curl. 
 * It's so catchy. 
@@ -95,6 +96,7 @@
 * Far as we know
 * Once I drive away, I'm not coming back
 * I wanna know what that is you're playing
+* You're having withdrawal symptoms?
 
 
 
