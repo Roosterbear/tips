@@ -71,7 +71,14 @@ __Target__ - Organización, Servidor, persona o cualquier objeto de interés.<br
 
 - [x] __-sn__ No Port Scan
 - [x] __-T4__ Es el tiempo que espera
+- [x] En una red local, ejecutará __ARP__
 
+```sudo nmap -sn 192.168.1.254 -T4 --disable-arp```
+
+
+
+
+- [x] __--disable-arp__ deshabilita el protocolo __ARP__
 
 ## Otras opciones de NMap
 
