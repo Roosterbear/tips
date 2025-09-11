@@ -1,5 +1,8 @@
 <h1 style="color:#2a9d8f">POWERSHELL</h1>
 
+- [GENERAL](#general)
+  - [Ayuda](#ayuda)
+  - [Listar Directorios](#listar-directorios)
 - [USUARIOS](#usuarios)
   - [Búsqueda de Usuarios](#búsqueda-de-usuarios)
   - [Saber la FECHA de Creación de un Usuario](#saber-la-fecha-de-creación-de-un-usuario)
@@ -11,8 +14,35 @@
   - [Reiniciar Equipo](#reiniciar-equipo)
   - [Checar SERVICIO](#checar-servicio)
   - [Ejecutar REMOTAMENTE un comando](#ejecutar-remotamente-un-comando)
+  - [Listar variables de entorno del sistema](#listar-variables-de-entorno-del-sistema)
 - [DISCOS](#discos)
   - [Eliminar Particiones de Disco Duro](#eliminar-particiones-de-disco-duro)
+
+# GENERAL
+
+## Ayuda
+
+```Get-Help```
+
+* Los cmdlets usan la nomenclatura **verbo-sustantivo**
+* __NO__ es necesario respetar MAYUSCULAS y minusculas
+* __NO__ es necesario escribir completamente los PARAMETROS
+  
+## Listar Directorios
+
+- [x] Podemos usar el comando de Windows:
+
+```dir```
+
+- [x] Podemos usar el comando de Linux:
+
+```ls```
+
+- [x] Podemos usar el cmdlet de Powershell:
+
+```GetChildItem -path c:\Windows -filter *.exe -recurse -name```
+```GetChildItem -pa c:\Windows -fi *.exe -r -n```
+
 
 
 # USUARIOS
@@ -81,6 +111,11 @@ Get-Service -Name eraagent -ComputerName NOMBRE_EQUIPO
 > Start-Service equivale a sc start <br/>
 > Stop-Service equivale a sc stop <br/>
 > Set-Service equivale a sc config <br/>
+
+
+## Listar variables de entorno del sistema
+
+```Get-ChildItem Env: | Sort-Object Name```
 
 
 

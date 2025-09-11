@@ -1,23 +1,20 @@
-<div style="color:#2a9d8f">
+<div style="color:#2a9d8f">GIT</div>
 
-# GIT
-</div>
-
-- [GIT](#git)
-  - [Configuración Inicial](#configuración-inicial)
-  - [Subir un proyecto a Github](#subir-un-proyecto-a-github)
-  - [Respaldar de forma LOCAL](#respaldar-de-forma-local)
-  - [Ver cambios](#ver-cambios)
-  - [LISTAR los commits](#listar-los-commits)
-    - [Información completa de un commit](#información-completa-de-un-commit)
-  - [BORRAR / Limpiar archivos subidos que queremos IGNORAR](#borrar--limpiar-archivos-subidos-que-queremos-ignorar)
+- [Configuración Inicial](#configuración-inicial)
+- [Subir un proyecto a Github](#subir-un-proyecto-a-github)
+- [Respaldar de forma LOCAL](#respaldar-de-forma-local)
+- [Ver cambios](#ver-cambios)
+- [LISTAR los commits](#listar-los-commits)
+  - [Información completa de un commit](#información-completa-de-un-commit)
+- [BORRAR / Limpiar archivos subidos que queremos IGNORAR](#borrar--limpiar-archivos-subidos-que-queremos-ignorar)
+- [RAMAS](#ramas)
   - [Actualizar una rama con otra](#actualizar-una-rama-con-otra)
   - [Eliminar una rama LOCALMENTE](#eliminar-una-rama-localmente)
   - [Eliminar una rama REMOTAMENTE](#eliminar-una-rama-remotamente)
   - [Checar ramas LOCALES y REMOTAS](#checar-ramas-locales-y-remotas)
 
 
-## Configuración Inicial
+# Configuración Inicial
 
 ```bash
 git config --global user.name "Roosterbear"
@@ -25,7 +22,7 @@ git config --global user.name "Roosterbear"
 git config --global user.email "fernandoroosterbear@gmail.com"
 ```
 
-## Subir un proyecto a Github
+# Subir un proyecto a Github
 
 1. Crear un nuevo Repositorio en Github
 2. Agregar archivo / Subir archivos
@@ -34,7 +31,7 @@ git config --global user.email "fernandoroosterbear@gmail.com"
 
 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥 <br/>
 
-## Respaldar de forma LOCAL
+# Respaldar de forma LOCAL
 
 1. Escribir desde la carpeta del proyecto en una consola:
 
@@ -52,12 +49,13 @@ git branch -M main
 git push -u origin main
 ```
 
-## Ver cambios
+# Ver cambios
 
 ```bash
 git status
 ```
-## LISTAR los commits
+
+# LISTAR los commits
 
 ```bash
 git log --stat
@@ -67,14 +65,14 @@ git log --pretty=oneline --graph
 ```
 > Salir con _q_
 
-### Información completa de un commit
+## Información completa de un commit
 
 ```bash
 git show [xxxxx]
 ```
 > [xxxx] Primeros caracteres del ID del commit
 
-## BORRAR / Limpiar archivos subidos que queremos IGNORAR
+# BORRAR / Limpiar archivos subidos que queremos IGNORAR
 
 ```bash
 git rm -r --cached .
@@ -82,6 +80,8 @@ git add .
 git commit -m "removing files included in .gitignore
 git push origin main
 ```
+
+# RAMAS
 
 ## Actualizar una rama con otra
 
