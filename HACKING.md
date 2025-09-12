@@ -8,6 +8,8 @@
   - [Escaneo compuesto con NMAP](#escaneo-compuesto-con-nmap)
   - [Otras opciones de NMap](#otras-opciones-de-nmap)
   - [Plantillas de Tiempo en NMap](#plantillas-de-tiempo-en-nmap)
+  - [Escaneo de puertos FILTRADO](#escaneo-de-puertos-filtrado)
+  - [Escanear SO de manera agresiva](#escanear-so-de-manera-agresiva)
 - [Wireshark](#wireshark)
   - [Filtrar por IP](#filtrar-por-ip)
 
@@ -75,10 +77,8 @@ __Target__ - Organización, Servidor, persona o cualquier objeto de interés.<br
 
 ```sudo nmap -sn 192.168.1.254 -T4 --disable-arp```
 
-
-
-
 - [x] __--disable-arp__ deshabilita el protocolo __ARP__
+
 
 ## Otras opciones de NMap
 
@@ -125,6 +125,45 @@ __Agressive__ <br/>
 
 ```sudo nmap -A 10.1.1.1```
 
+## Escaneo de puertos FILTRADO
+
+- [x] Mandamos a un archivo los puertos encontrados:
+
+```sudo nmap -sS 192.168.132.132 -p- -T4 --open -oN puertos.txt```
+
+- [x] Vamos a FILTRAR de ahí solo los números de puerto 
+- [x] Las líneas con puertos tienen en comun la palabra **open**
+- [x] Filtramos por medio de __grep__:
+
+```cat puertos.txt | grep "open"```
+
+- [x] Podemos cortar en 2 con el comando __cut__ delimitado por "/"
+- [x] Y mostrar solo la primer fila:
+
+```cat puertos.txt | grep "open" | cut -d "/" -f 1```
+
+- [x] Necesitamos reemplazar el texto de **enter** por una coma
+- [x] Usamos el comando __tr__
+
+```cat puertos.txt | grep "open" | cut -d "/" -f 1 | tr '\n' ','```
+
+- [x] Nos queda una coma al final, la quitamos con el comando __sed__:
+
+```cat puertos.txt | grep "open" | cut -d "/" -f 1 | tr '\n' ',' | sed 's/.$//'```
+
+- [x] Se utilizó una __expresión regular__
+- [x] Donde __.__ es cualquier caracter
+- [x] Y __$__ es el FINAL de la línea
+- [x] Lo podemos mandar a un archivo agregando ```> puertos_filtrados.txt```
+- [x] Ya que tenemos los puertos separados por coma en un archivo, ejecutamos:
+
+```sudo nmap -sV 192.168.132.132 -p $(cat puertos_filtrados.txt) -T4```
+
+- [x] Para que se ejecute un comando dentro de otro comando usamos: __$()__
+
+## Escanear SO de manera agresiva
+
+```sudo nmap -O --osscan-guess 192.168.132.132 -T4```
 
 
 # Wireshark
