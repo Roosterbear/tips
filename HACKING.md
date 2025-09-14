@@ -10,6 +10,10 @@
   - [Plantillas de Tiempo en NMap](#plantillas-de-tiempo-en-nmap)
   - [Escaneo de puertos FILTRADO](#escaneo-de-puertos-filtrado)
   - [Escanear SO de manera agresiva](#escanear-so-de-manera-agresiva)
+  - [NSE](#nse)
+  - [Registros DNS](#registros-dns)
+  - [Enumeración SNMP](#enumeración-snmp)
+  - [WPScan para Wordpress](#wpscan-para-wordpress)
 - [Wireshark](#wireshark)
   - [Filtrar por IP](#filtrar-por-ip)
 
@@ -32,6 +36,10 @@ __IDS__ - Intrusion Detection System <br/>
 | 80 | __HTTP__ | 
 
 __Target__ - Organización, Servidor, persona o cualquier objeto de interés.<br/> 
+__LFI__ - Inclusión de archivos locales.<br/> 
+__RFI__ - Inclusión de archivos remotos.<br/> 
+__RCE__ - Ejecución remota de código.<br/> 
+__DoS__ - ATAQUE de Denegación de Servicios.<br/> 
 
 
 # Reconnaissance: Footprinting Pasivo
@@ -165,6 +173,122 @@ __Agressive__ <br/>
 
 ```sudo nmap -O --osscan-guess 192.168.132.132 -T4```
 
+
+## NSE
+
+- [x] Actualizar Nmap
+
+```sudo apt update``` <br/>
+```sudo apt install nmap``` <br/>
+
+- [x] Ver scripts de ssh y de http
+
+```ls -1 /usr/share/nmap/scripts/ssh*``` <br/>
+```ls -1 /usr/share/nmap/scripts/http*``` <br/>
+
+- [x] Otra manera de listar scripts **NSE**
+
+```sudo updatedb``` <br/>
+```locate *http*.nse``` <br/>
+
+- [x] Ver descripción de un script:
+
+```nmap --script-help=ftp-anon``` <br/>
+
+> Donde __--script-help__ nos muestra la ayuda
+> y __ftp-anon__ es el script a mostrar
+
+* __safe__ es seguro y no TRUENA servicios
+* __intrusive__ o __dos__ debemos tener cuidado al ejecutarlos
+* __auth__ pide credenciales de sesion
+
+- [x] Ejecutar un script __NSE__
+
+```sudo nmap --script=http-enum 192.168.1.1 -p 80``` <br/>
+
+## Registros DNS
+
+| Tipo | Descripción | 
+| :---: | :---: | 
+| A | Dirección IPv4 de un host | 
+| AAAA | Dirección IPv6 de un host | 
+| MX | Servidores de Correo de un dominio | 
+| CNAME | Canonical Name de un Alias de dominio | 
+| NS | DNS responsables de la zona | 
+| SOA | __Start of Authority__ para información para la zona | 
+| PTR | Regresa el __Hostname__ de una dirección IP | 
+
+## Enumeración SNMP
+
+* __Simple Network Management Protocol__ 
+
+> Recopila información sobre dispositivos de red
+> y utiliza el puerto __UDP 161__
+<br/>
+
+> Consiste de 3 elementos:
+
+- [x] Dispositivo administrado
+- [x] __Agente__ (Software en el dispositivo)
+- [x] __NMS__ Software que administra los nodos
+
+* __MIB__ Management Information Base
+
+> Base de Datos con información del Nodo <br/>
+> Es una tabla estructurada con valores devueltos por el agente
+<br/>
+
+* __Community__ Strings
+
+> Es como una contraseña que permite acceso al nodo
+
+```snmpwalk -c public -v1 192.168.1.1``` <br/>
+
+## WPScan para Wordpress
+
+- [x] Actualizar base de datos primero
+
+```wpscan --update``` <br/>
+
+
+- [x] Escaneo default de manera NO intrusiva
+
+```wpscan --url <URL del target>``` <br/>
+
+
+- [x] Escaneo default de manera NO intrusiva con __token__
+
+```wpscan --url <URL del target> --api-token <token>``` <br/>
+
+- [x] Enumeraciones:
+
+| Tipo | Descripción | 
+| :---: | :---: | 
+| p | Escanea solo plugins populares | 
+| vp | Escanea solo plugins conocidos como vulnerables | 
+| ap | Escanea TODOS los plugins | 
+| t | Escanea solo temas populares | 
+| vt | Escanea solo temas conocidos como vulnerables | 
+| at | Escanea TODOS los temas | 
+
+
+- [x] Escaneo **AGRESIVO** con __token__
+
+```wpscan --url http://10.0.0.48 --enumerate ap,at --plugins-detection aggressive --themes-detection aggressive --token-api <token>``` <br/>
+
+
+- [x] Opciones de configuración:
+
+```wpscan --hh``` <br/>
+
+
+
+
+
+
+
+
+<br/><br/><br/>
 
 # Wireshark
 
