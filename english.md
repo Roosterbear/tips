@@ -1,3 +1,16 @@
+* I'm Frantic
+* My heart is pounding
+* Stallion
+
+* Spell - Hechizo
+* Enchantment - Encantamiento
+* Bewitchment - Usar magia
+* Curse - Maldición
+* Hex - Embrujo oscuro
+* Jinx - Embrujo de mala suerte
+* Charm - Amuleto o palabra con efecto mágico
+
+
 * What's got into ya?
 * I picked it up on sale
 * Make believe it's my foot and smash it
@@ -12,7 +25,6 @@
 * Here we go!
 * I will not hesitate
 * That could damn well get them killed
-* I don't give a damn
 * You might as well come with us
 * None of us can sleep, specially with you two yapping
 * They are being urged
@@ -24,7 +36,7 @@
 * That's a wrap
 * Picture this
 * You just disappeared up your own ass hole, you know that?
-* Poke and Prod
+* Poke and Prod (investigar a fondo)
 * Bear in mind
 * Beating around the bush
 * Far as we know
@@ -32,15 +44,9 @@
 * I wanna know what that is you're playing
 * You're having withdrawal symptoms?
 * Go to great lengths
-
-
-
-
-
-
-
-
-
-
-
+* Booby traps
+* Spikes in the wall
+* Endangerment (endenyerment)
+* Groin (ingle)
+* Guzzling (tragar)
 
