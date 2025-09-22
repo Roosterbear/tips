@@ -144,3 +144,15 @@ source ~/.bashrc
   
 ```baseg74441@angewy.com```
 > 3~|"p527238K5[s"qm}8D8,.SgjDJL3N
+
+[GUEA501128SX0]
+> Alberto José Manuel Guerra Estevanez <br/>
+> San Rafael N° 107, San Cayetano, Aguascalientes, Ags. 
+**c.p. 20010**
+```proyecta.guerra@gmail.com```
+[NEGJ7503278N5]
+> JUAN SERGIO NEVÁREZ GARCÍA
+Scotiabank Cuenta: 25603789887 CLABE: 044010256037898878
+cosetec@hotmail.com cosetecgerencia@hotmail.com
+(449) 111-1403
+
