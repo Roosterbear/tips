@@ -49,4 +49,14 @@
 * Endangerment (endenyerment)
 * Groin (ingle)
 * Guzzling (tragar)
+* Noogies (coscorrones)
+* I look forward to whaling on all of you
+* Your son is sound (sano)
+* Better wash these off
+* Foosball (futbolito)
+* You aren't helping a bit
+* CAST (emitir, lanzar, soltar, predecir, Elenco, Molde)
+* Knock off (terminar, imitacion)
+* Hicks (pueblerinos, campesino)
+* Slur (Insulto, difamacion, calumnia)
 
