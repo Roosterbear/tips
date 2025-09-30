@@ -32,4 +32,11 @@
 * Better wash these off
 * You aren't helping a bit
 * Knock off (terminar, imitacion)
+* Errand to run (asunto que atender)
+* I need to borrow the car (Necesito pedirte el auto)
+* Fist bump (chocarla con el puño)
+* He just paid a visit (acaba de hacerle una visita)
+* Chubby loser (Gordito perdedor)
+* JOINT (Ensamblar - Articulacion, corte, union, ANTRO - Compartido)
+* Fastened (Asegurado, abrochado, atado)
 
