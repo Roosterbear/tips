@@ -3,6 +3,8 @@
 - [GENERAL](#general)
   - [Ayuda](#ayuda)
   - [Listar Directorios](#listar-directorios)
+  - [ForEach-Object](#foreach-object)
+  - [Tee-Object](#tee-object)
 - [USUARIOS](#usuarios)
   - [Búsqueda de Usuarios](#búsqueda-de-usuarios)
   - [Saber la FECHA de Creación de un Usuario](#saber-la-fecha-de-creación-de-un-usuario)
@@ -42,6 +44,16 @@
 
 ```GetChildItem -path c:\Windows -filter *.exe -recurse -name```
 ```GetChildItem -pa c:\Windows -fi *.exe -r -n```
+
+## ForEach-Object
+
+```1,2,3 | ForEach-Object {$_ *3}```
+
+
+## Tee-Object
+
+```4,7,2,9 | Tee-Object -variable normal | Sort-Object```
+
 
 
 
