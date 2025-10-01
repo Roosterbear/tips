@@ -39,4 +39,10 @@
 * Chubby loser (Gordito perdedor)
 * JOINT (Ensamblar - Articulacion, corte, union, ANTRO - Compartido)
 * Fastened (Asegurado, abrochado, atado)
+* You're weighing about a buck fifty
+* Flattered (Halagado)
+* A little further (un poco mas lejos)
+* Rambling (divagando, trepando)
+* Rambling on (deambular)
+* 
 
