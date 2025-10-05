@@ -1,6 +1,7 @@
 <h1 style="color:#219ebc">Go</h1>
 
 - [Introducción](#introducción)
+  - [Ejecutar](#ejecutar)
   - [Hola Mundo](#hola-mundo)
   - [Tipos de Datos](#tipos-de-datos)
   - [Asignar Variables](#asignar-variables)
@@ -16,6 +17,10 @@
 - [Canales](#canales)
 
 # Introducción
+
+## Ejecutar
+
+```go run prueba.go```
 
 ## Hola Mundo
 
