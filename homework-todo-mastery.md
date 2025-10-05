@@ -11,3 +11,5 @@
 - [x] Funcion **Typescript** reciba 2 numeros y regrese un string con resultado
 - [x] ENUM con estados en **Typescript** y pasarlo a una funcion 
 - [x] Funcion **Typescript** reciba objeto usando ENUM y un tipo  
+- [x] Objeto en **RUST** basado en un STRUCT y mostrar elementos  
+- [x] Recibir parametros en **RUST** e imprimirlos en pantalla  

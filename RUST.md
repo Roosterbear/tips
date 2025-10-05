@@ -8,6 +8,8 @@
   - [Ejecutar Proyecto con CARGO](#ejecutar-proyecto-con-cargo)
   - [Construir Proyecto con CARGO](#construir-proyecto-con-cargo)
   - [Checar con Cargo](#checar-con-cargo)
+- [PRIMEROS PROGRAMAS](#primeros-programas)
+  - [Recibir parametros](#recibir-parametros)
 
 # BASICO
 
@@ -80,6 +82,25 @@ cargo build --release
 ```bash
 cargo check
 ```
-
 - [x] No Compila Ni Ejecuta, solo REVISA
 
+
+
+# PRIMEROS PROGRAMAS
+
+## Recibir parametros
+
+```rust
+use std::env;
+fn main(){
+    let args: Vec<String> = env::args().collect();
+    if args.len()>1{
+        for arg in args.iter().skip(1){
+            println!("- {}",arg);
+        }
+    }else{
+        println!("No proporcionaste parametros");
+    }
+
+}
+```
