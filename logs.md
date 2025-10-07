@@ -44,6 +44,20 @@ __REINICIAR !!__
 ```npm create vite@latest proyecto -- --template react```
 <br/>
 
+- [x] JAVA en WSL <br/>
+
+```sudo apt install openjdk-17-jdk-headless```
+<br/>
+
+- [x] Rust
+
+```bash
+curl https://sh.rustup.rs -sSf | sh
+
+# REINICIAR shell y verificar con:
+rustup --version
+```
+
 - [x] TailwindCSS <br/>
 
 1. Tener instalado Node, checar con ```node --version```
@@ -62,10 +76,6 @@ __REINICIAR !!__
 
 ```npm install -g typescript```
 ```tsc -v```
-
-* En Powershell
-```Get-ExecutionPolicy -List```
-```Set-ExecutionPolicy RemoteSigned -Scope LocalMachine```
 
 - [x] Gulp <br/>
 
