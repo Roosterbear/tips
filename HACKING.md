@@ -1,6 +1,7 @@
 <h1 style="color:#219ebc">Hacking</h1>
 
 - [CONCEPTOS](#conceptos)
+- [CUIDAR TU TRASERO](#cuidar-tu-trasero)
 - [Reconnaissance: Footprinting Pasivo](#reconnaissance-footprinting-pasivo)
 - [Reconnaissance: Footprinting Activo (ESCANEO)](#reconnaissance-footprinting-activo-escaneo)
   - [Por medio del protocolo ICMP](#por-medio-del-protocolo-icmp)
@@ -41,6 +42,11 @@ __RFI__ - Inclusión de archivos remotos.<br/>
 __RCE__ - Ejecución remota de código.<br/> 
 __DoS__ - ATAQUE de Denegación de Servicios.<br/> 
 
+# CUIDAR TU TRASERO
+
+- [x] NUNCA uses la misma computadora, IP, servidores, etc. 
+- [x] NUNCA trabajes desde tu casa, trabajo o escuela 
+- [x] NUNCA trabajes desde tu casa, trabajo o escuela 
 
 # Reconnaissance: Footprinting Pasivo
 

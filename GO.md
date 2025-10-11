@@ -29,9 +29,11 @@ package main
 
 import "fmt"
 
-func main(){
-    fmt.Println("Hola Mundo !!")
+func main() {
+	var nombre string = "Fernando"
+	fmt.Printf("Hola desde Go ", nombre)
 }
+
 ```
 
 ## Tipos de Datos
