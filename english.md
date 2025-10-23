@@ -44,5 +44,7 @@
 * A little further (un poco mas lejos)
 * Rambling (divagando, trepando)
 * Rambling on (deambular)
+* On account of a husband, I gather?
+* Elderly infirmed
 * 
 
