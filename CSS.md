@@ -85,21 +85,12 @@
 # HTML Básico
 </div>
 
-- [x] Todo lo que vemos en una página web, está mostrado en __HTML__
-- [x] Es un lenguaje basado en __etiquetas__
-- [x] Generalmente las etiquetas van en pares (__apertura__ y __cierre__)
-- [x] Como estándar, las páginas comienzan con:
-
 ```html
 <!DOCTYPE html>
 <html>
 
 </html>
 ```
-- [x] Dentro de html, tenemos 2 secciones importantes: __head__ y __body__
-- [x] En el __head__ ponemos las configuraciones
-- [x] En el __body__ va todo el contenido
-
 * En el __```<head>```__ podemos incluir:
 
 - [x] El título de la página
