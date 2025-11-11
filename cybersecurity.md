@@ -1,7 +1,91 @@
 <h1 style="color:#00b4d8">Cybersecurity</h1>
 
-# Foundations of Cybersecurity 🔐🔐🔐🔐🔐🔐🔐
+- [Foundations of Cybersecurity 🔐🔐🔐🔐🔐🔐🔐](#foundations-of-cybersecurity-)
+  - [Cybersecurity Activities](#cybersecurity-activities)
+  - [Definition of Cybersecurity](#definition-of-cybersecurity)
+  - [Threat Actor](#threat-actor)
+  - [Security Analyst](#security-analyst)
+  - [Skills](#skills)
+  - [Personal Information](#personal-information)
+  - [Social Engineering](#social-engineering)
+  - [Phishing](#phishing)
+  - [CISSP Domains](#cissp-domains)
+  - [Components of Security Frameworks](#components-of-security-frameworks)
+  - [CIA Triad](#cia-triad)
+  - [Ethical Principles](#ethical-principles)
+  - [Security Information and Event Management (SIEM) Tools](#security-information-and-event-management-siem-tools)
+  - [Professional Declaration](#professional-declaration)
+- [Play Safe: Manage Security Risks 🔐🔐🔐🔐🔐🔐🔐](#play-safe-manage-security-risks-)
+  - [CISSP Domain #1 - Security and Risk Management](#cissp-domain-1---security-and-risk-management)
+  - [CISSP Domain #2 - Asset Security](#cissp-domain-2---asset-security)
+  - [CISSP Domain #3 - Security Architecture and Engineering](#cissp-domain-3---security-architecture-and-engineering)
+  - [CISSP Domain #4 - Communication and Network Security](#cissp-domain-4---communication-and-network-security)
+  - [CISSP Domain #5 - Identity and access management](#cissp-domain-5---identity-and-access-management)
+  - [CISSP Domain #6 - Security Assessment and Testing](#cissp-domain-6---security-assessment-and-testing)
+  - [CISSP Domain #7 - Security Operations](#cissp-domain-7---security-operations)
+  - [CISSP Domain #8 - Software Development Security](#cissp-domain-8---software-development-security)
+  - [Open Web Applications Security Project \[OWASP\]](#open-web-applications-security-project-owasp)
+  - [INCIDENT RESPONSE PLAYBOOK PHASES](#incident-response-playbook-phases)
+- [Connect and Protect: Networks and Network Security 🔐🔐🔐🔐🔐🔐🔐](#connect-and-protect-networks-and-network-security-)
+  - [PROTOCOLS](#protocols)
+    - [Communitacion](#communitacion)
+    - [Management](#management)
+    - [Security](#security)
+  - [FIREWALLS](#firewalls)
+  - [VPN (Virtual Private Networks)](#vpn-virtual-private-networks)
+  - [ATTACKS](#attacks)
+  - [SECURITY HARDENING](#security-hardening)
+- [Tools of the Trade: Linux and SQL 🔐🔐🔐🔐🔐🔐🔐](#tools-of-the-trade-linux-and-sql-)
+  - [LINUX](#linux)
+  - [SQL](#sql)
+- [Assets, Threats and Vulnerabilities 🔐🔐🔐🔐🔐🔐🔐](#assets-threats-and-vulnerabilities-)
+- [Sound the Alarm: Detection and Response 🔐🔐🔐🔐🔐🔐🔐](#sound-the-alarm-detection-and-response-)
+  - [NIST Incident Response LifeCycle](#nist-incident-response-lifecycle)
+- [Automate Cybersecurity Task with Python 🔐🔐🔐🔐🔐🔐🔐](#automate-cybersecurity-task-with-python-)
+  - [REGULAR EXPRESSIONS](#regular-expressions)
+    - [+](#)
+    - [\\w](#w)
+    - [\\w+](#w-1)
+    - [.](#-1)
+    - [\\d](#d)
+    - [\\s](#s)
+    - [.](#-2)
+    - [Combinations](#combinations)
+    - [with](#with)
+  - [Parsing](#parsing)
+- [Put to Work: Prepare for Cybersecurity Jobs 🔐🔐🔐🔐🔐🔐🔐](#put-to-work-prepare-for-cybersecurity-jobs-)
+  - [Information Lifecycle](#information-lifecycle)
+  - [Incident Escalation](#incident-escalation)
+  - [Essential skills to scalate security incidents](#essential-skills-to-scalate-security-incidents)
+  - [Escalation](#escalation)
+  - [Malware infection](#malware-infection)
+  - [Unauthorized access](#unauthorized-access)
+  - [Improper Usage](#improper-usage)
+  - [Roles in Escalation](#roles-in-escalation)
+  - [Escalation Policy](#escalation-policy)
+  - [Stakeholders](#stakeholders)
+  - [Risk Manager Responsabilities](#risk-manager-responsabilities)
+  - [CEO Responsabilities](#ceo-responsabilities)
+  - [CFO Responsabilities](#cfo-responsabilities)
+  - [CISO Responsabilities](#ciso-responsabilities)
+  - [Operations Manager Responsabilities](#operations-manager-responsabilities)
+  - [Communicate the story](#communicate-the-story)
+  - [Effective Communication](#effective-communication)
+  - [Security Operations Center (SOC) Analyst](#security-operations-center-soc-analyst)
+  - [Resources](#resources)
+  - [Job searching sites](#job-searching-sites)
+  - [Create a CV](#create-a-cv)
+  - [What to add to your resume (Skills)](#what-to-add-to-your-resume-skills)
+  - [Transferable and technical skills](#transferable-and-technical-skills)
+  - [The Technical interview](#the-technical-interview)
+  - [TCP/IP Model](#tcpip-model)
+  - [OSI Model](#osi-model)
+  - [SIEM Tools](#siem-tools)
+  - [Rapport](#rapport)
+  - [STAR Method](#star-method)
+  - [Elevator pitch](#elevator-pitch)
 
+# Foundations of Cybersecurity 🔐🔐🔐🔐🔐🔐🔐
 ## Cybersecurity Activities
 
 > Detect and respond to attacks 
@@ -15,16 +99,13 @@
 > and availability of information by protecting networks, devices,
 > people and data from unauthorized access or criminal exploitation
 
-
 ## Threat Actor
 
 > Person or group who presents a security risk.
 
-
 ## Security Analyst
 
 > Are responsible for monitoring and protecting information and systems.
-
 
 ## Skills
 
@@ -34,6 +115,8 @@
 * Problem solving
 
 <br/>
+
+
 
 * Programming Languages
 * Security Information and Event Management (SIEM) Tools
@@ -83,6 +166,7 @@
 * __Security Operations__ Investigations and preventive measures
 * __Software Development Security__ Secure Coding Practices
 
+
 ## Components of Security Frameworks
 
 1. Identifying and documenting security goals
@@ -90,7 +174,9 @@
 3. Implementing strong security processes
 4. Monitoring and communicating results 
 
-## CIA Triad (_is a guide or model that inform about organization risk_)
+## CIA Triad 
+
+__Is a guide or model that inform about organization risk__ <br/>
 
 - __Confidentiality__ - Only authorized user can access _SPECIFIC_ assets or data
 - __Integrity__ - Data is _CORRECT_, authentic and reliable
@@ -145,7 +231,6 @@ __Business continuity__
 > An organization's ability to maintain their everyday productivity 
 > by establishing risk disaster _recovery plans_. 
 
-
 ## CISSP Domain #2 - Asset Security
 
 > Focused on _securing_ digital and physical _assets_. 
@@ -162,7 +247,6 @@ __Shared responsability__
 
 > All individuals within an organization take an active role in lowering risk 
 > and maintaining both physical and virtual security.
-
 
 ## CISSP Domain #4 - Communication and Network Security
 
@@ -487,7 +571,6 @@ __Playbooks are living documents__
 * A flaw is detected
 * Standards changed
 * Security outlook improves
-
 
 
 # Connect and Protect: Networks and Network Security 🔐🔐🔐🔐🔐🔐🔐
@@ -3210,3 +3293,4 @@ A problem can cause:
 > A brief summary of your experience, skills and background
 > Short, in normal pace, genuine, direct. 
 > Express enthusiasm and interest in the company
+
