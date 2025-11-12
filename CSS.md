@@ -1,44 +1,7 @@
 <h1 style="color:#AE445A">CSS</h1>
 
-- [HTML Básico](#html-básico)
-- [CSS Básico](#css-básico)
-- [ESPECIFICIDAD](#especificidad)
-- [FUENTES](#fuentes)
-  - [Line Height](#line-height)
-- [IMAGENES](#imagenes)
-- [MEDIDAS](#medidas)
-  - [Keywords](#keywords)
-  - [Inherit](#inherit)
-  - [Calc](#calc)
-  - [Custom Properties](#custom-properties)
-- [FONDOS](#fondos)
-  - [Fondo Fijo](#fondo-fijo)
-  - [BOXES](#boxes)
-- [SELECTORES](#selectores)
-  - [Hijo](#hijo)
-  - [Descendiente](#descendiente)
-  - [Adyacente](#adyacente)
-  - [Selectores de Atributo](#selectores-de-atributo)
-- [POSICIONAMIENTO](#posicionamiento)
-  - [Static](#static)
-  - [Relative](#relative)
-  - [Absolute](#absolute)
-  - [Fixed](#fixed)
-  - [Sticky](#sticky)
-  - [Menu con Float](#menu-con-float)
-- [DISPLAY](#display)
-  - [Block](#block)
-  - [Inline](#inline)
-  - [Inline-block](#inline-block)
-  - [None](#none)
-- [CENTRADO](#centrado)
-  - [Centrar un elemento](#centrar-un-elemento)
-  - [Centrar un texto](#centrar-un-texto)
-  - [Centrar Bloques](#centrar-bloques)
-  - [Centrado Vertical](#centrado-vertical)
-- [VARIABLES](#variables)
-  - [Asignar variables](#asignar-variables)
-  - [Usar variables](#usar-variables)
+- [FORMATEO](#formateo)
+- [CUSTOM PROPERTIES](#custom-properties)
 - [CAMBIO DE ELEMENTOS 🦋 ](#cambio-de-elementos-)
   - [Pseudoelementos](#pseudoelementos)
   - [Radius 🔘 ](#radius-)
@@ -79,62 +42,9 @@
 - [GRID 🦎](#grid-)
 - [CSS Hacks](#css-hacks)
 
+# FORMATEO
 
-<div style="color:#219ebc">
-
-# HTML Básico
-</div>
-
-```html
-<!DOCTYPE html>
-<html>
-
-</html>
-```
-* En el __```<head>```__ podemos incluir:
-
-- [x] El título de la página
-
-```<title>Mi sitio web</title>```
-
-- [x] Metadata:
-
-```<meta charset="utf-8">```
-```<meta name="viewport" content="width=device-width, initial-scale=1.0">```
-```<meta name="description" content="Tienda de articulos para perros">```
-
-- [x] Etiqueta __link__ para relacionar el documento con recursos __externos__
-
-* Para agregar archivos __CSS__:
-
-```html
-<link rel="stylesheet" href="styles.css" />
-```
-* Para definir el ícono del sitio:
-
-```html
-<link rel="icon" href="favicon.ico" type="image/x-icon" />
-```
-
-* Para agregar fuentes:
-
-```html
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-```
-
-* Para agregar alternativas de código:
-
-```html
-<link rel="alternate" hreflang="es" href="https://ejemplo.com/es/" />
-<link rel="alternate" hreflang="en" href="https://ejemplo.com/en/" />
-```
-
-# CSS Básico
-</div>
-
-- [x] Limpiar propiedades
+- [x] Limpiar Propiedades
 
 ```css
 *{
@@ -143,19 +53,6 @@
   box-sizing: border-box;  
 }
 ```
-
-- [x] Dar formato a las fuentes de todo el cuerpo
-
-```css
-body{
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.7;
-  color: #777;
-}
-```
-
 - [x] Quitar circulos negros de las __LISTAS__
 
 ```css
@@ -171,86 +68,14 @@ a:hover{
   text-decoration: none; 
 }
 ```
-
-# ESPECIFICIDAD
-
-0. __!important__ Anula todo lo demás: ```p{color:red !important}``` 
-1. __Estilos en línea__ Tiene el máximo grado de valor, como: ```<p style="color:green">Hola</p>``` 
-2. __Selectores ID__ Segundo grado de valor: ```#principal``` 
-3. __Clases__ Tercer grado de valor: ```.my-class``` 
-4. __Elementos / Pseudoelementos__ Cuarto grado de valor: ```div``` ```p``` ```::before``` 
-
-- [x] Debemos tomar en cuenta:
-
-1. Como se van recibiendo las propiedades, se van cambiando:
-
-```css
-li{
-  color: red;
-  color: blue;
-}
-```
-> En este caso, el color sera __AZUL__
-> **Se LEE de arriba hacia abajo**
-> Primero recibimos ROJO, pero __lo cambiamos__ por AZUL
-
-
-2. Después de los estilos en línea, el código en la **CABECERA** tiene el __segundo__ grado de prioridad
-
-```<style> /* code */<style>```  
-
-3. El código dentro de un __css__ externo es el que tiene __menos__ prioridad
-
-
-# FUENTES
-
-* _px_ Medida estándar. **NO ESCALABLE**, usar solo para medidas **FIJAS**
-* _em_ Medida para fuentes, equivale a la letra M del elemento padre
-
-- [x] __Utilizarlos para íconos y botones__
-- [x] __Media Queries__ porque respeta preferencias del __zoom__ en navegador
-
-```css
-.card {
-  font-size: 16px;
-  padding: 1em; /* 16px */
-}
-.card-button {
-  font-size: 0.8em; /* 16px * 0.8 = 12.8px */
-}
-```
-
-* _rem_ Basada en la fuente raíz del HTML
-
-- [x] Usarlos para __tamaños de fuentes__, __márgenes__, __paddings__ y __dimensiones__.
-
-```css
-  p{
-    font-size: 62.5%; 
-  }
-```
-> 1rem AHORA es de 10px ❗
-
-## Line Height
-
-> Puede ser en proporción o con alguna medida:
+- [x] Altura de linea
 
 ```css
 font-size: 20px;
 line-height: 30px;
 ```
 
-> __Observa__ que el alto de la línea es 1.5 mayor que la fuente <br/>
-> Podemos cambiar la altura a:
-
-```css
-font-size: 20px; /* De igual manera, podemos usar 125% con una fuente de 16px */
-line-height: 1.5;
-```
-
-# IMAGENES
-
-> Estas 2 propiedades nos ayudan a tener un mejor despliegue de una imagen:
+- [x] Mejor despliegue de una __IMAGEN__:
 
 ```css
 img{
@@ -259,28 +84,12 @@ img{
 }
 ```
 
-# MEDIDAS
+- [x] Cover
+  
+> Se usa para adaptar el fondo a toda la imagen sin importar el DISPOSITIVO.
+ 
 
-## Keywords
-
-> Usado para __valores__ que se describan con una palabra, por ejemplo:
-<br/>
-
-```a[href]{text-decoration:none}```
-
-## Inherit
-
-> Es una keyword que se acepta de manera general
-
-<br/>
-
-> Hace que el valor de la propiedad del elemento se el mismo que el padre.
-
-<br/>
-
-> En este ejemplo veremos más claro su uso, ya que por lo general, los estilos se van heredando a los hijos.
-
-<br/>
+- [x] __Inherit__
 
 ```css
 #toolbar{background:blue;color:white;}
@@ -317,295 +126,7 @@ Aquí es cuando entra en acción: <br/>
 .hijo {border:inherit;}
 ```
 
-## Calc
-
-> Podemos hacer operaciones tipo:
-
-```p { width: calc(90% - 2em) }```
-
-> O supongamos que queremos minimo 1/4 de pantalla
-> pero máximo 200px, podemos hacer lo siguiente:
-
-```.figure { width: min(25vw, 200px) }```
-
-> En caso contrario, usamos __max__
-<br/>
-
-> Hay una mezcla de ambos llamada __clamp__
-> que recibe 3 valores: el minimo, el ideal y el máximo
-
-```footer { font-size: clamp(1rem, 2vh, 3em) }```
-
-
-## Custom Properties
-
-> No son otra cosa que el uso de __VARIABLES__
-
-```css
-html {
-  --base-color: #639;--highlight-color: #AEA;
-}
-
-h1 {color: var(--base-color);}
-h2 {color: var(--highlight-color);}
-```
-
-# FONDOS
-
-```css
-body{
-  background-color: #ffffff;
-  background-image: url(fruits.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-```
- > Podemos usar en **background-repeat:** no-repeat, repeat, repeat-x, repeat-y. 
- > En **background-position**, el primer **center** es para arriba y abajo
- > En **background-position**, el segundo **center** es para izquierda y derecha
- 
- 
-## Fondo Fijo
- 
- ```css
-  background-attachment: fixed;
-  background-size: cover;
-  height: 95vh;
- ```
- 
- > __cover__ se usa para adaptar el fondo a toda la imagen sin importar el DISPOSITIVO.
- 
-## BOXES
-
-- [*] Los elementos en CSS tienen capas desde el centro al extremo
-- [*] El primer nivel es el mismo **contenido** 
-- [*] Podemos tener un **borde** afuera del contenido
-- [*] Este puede tener __color__ y __ancho__
-- [*] Entre el contenido y el borde hay un espacio en blanco llamado **padding**
-- [*] Entre el borde y la parte de afuera existe un espacio llamado **margin**
-- [*] Para ver una caja, debe tener __CONTENIDO__
-- [*] Para una caja sin contenido, debemos darle __width__ y __height__
-
-
-# SELECTORES
-
-## Hijo
-
-> Es una etiqueta **INMEDIATAMENTE** dentro de otra
-
-```css
-div > strong{
-  color: red;
-}
-```
-
-```html
-<strong>This doesn't change color</strong>
-<div><strong>This will be RED actually</strong></div>
-```
-> Solo afecta a la etiqueta **strong** dentro de un **div**
-
-## Descendiente
-
-> Es una etiqueta dentro de otra sin importar la **PROFUNDIDAD**
-
-```css
-div strong{
-  color: green;
-}
-```
-
-```html
-<div>
-  <header>
-    <p>
-      <strong>
-        It will be green...
-      </strong>
-    </p>
-  </header>
-</div>
-```
-
-## Adyacente
-
-> Una etiqueta **DESPUES** de otra
-
-```css
-p + p{
-  text-indent: 1.5em;
-}
-```
-
-## Selectores de Atributo
-
-```css
-a[href ^ = "#"]{  /* Comienza con...*/
-  color: red; 
-}
-
-a[href * = "#"]{  /* Contiene...*/
-  color: red; 
-}
-
-
-a[href $ = "#"]{  /* Termina con...*/
-  color: red; 
-}
-```
-
-<br/>
-
-# POSICIONAMIENTO
-
-## Static
-
-> Toma los valores por default del elemento.
-> No se mueve de su posición original
-
-```css
-div{
-  position: static;
-}
-```
-
-## Relative
-
-> Mueve su posición basándose en el contenedor: __top__ y __left__. 
-
-```css
-div{
-  position: relative;
-}
-```
-
-## Absolute
-
-> Mueve su posición en relación al ancestro más cercano: 
-> __top__ y __left__.
-> Es necesario que el ancestro sea "relative" para que funcione.
-
-```css
-div{
-  position: absolute;
-}
-```
-
-## Fixed
-
-> Posición relativa a la esquina superior izquierda del navegador. 
-> Se pega como chicle y no se mueve con el scroll.
-
-```css
-div{
-  position: fixed;
-}
-```
-
-## Sticky
-
-> Es una mezcla entre relative y fixed.
-
-```html
-<div class="table-container">
-  <table>
-    <thead>
-      <tr><th>Nombre</th><th>Edad</th></tr>
-    </thead>
-    <tbody>
-      <tr><td>Ana</td><td>25</td></tr>
-      <!-- Más filas... -->
-    </tbody>
-  </table>
-</div>
-```
-
-```css
-.table-container {
-  height: 200px; /* Limita el contenedor para que el sticky funcione */
-  overflow: auto; /* Permite scroll interno */
-}
-
-th {
-  position: sticky;
-  top: 0; /* Encabezado pegado al hacer scroll vertical */
-  background: #f1f1f1;
-}
-```
-
-- [x] No funciona si el padre tiene __overflow:hidden__
-- [x] Requiere un __offset__ como ```top``` o ```bottom``` para activarse
-- [x] El contenedor padre debe tener una altura definida como: __height: 100vh__
-
-
-## Menu con Float
-
-```css
-nav ul li{
-  float: left;
-  list-style: none; 
-  margin: 10px;
-}
-
-.clearfix{
-  clear: both; /* We have to include a div with this class after the menu */
-}
-```
-
-# DISPLAY
-
-## Block
-
-* El elemento actúa como una caja
-* Contiene Alto y Ancho
-* Ocupa todo el ancho de la página
-* El siguiente elemento se posiciona abajo
-
-## Inline
-
-* El elemento no contiene medidas
-* El siguiente elemento se coloca a un lado
-
-## Inline-block
-
-* Permite que el elemento tenga __medidas__
-* __NO__ agrega una nueva línea 
-
-## None
-
-> El elemento __DESAPARECE__
-> Si queremos quitarlo sin eliminar el espacio que ocupa usamos:
-
-```visibility:hidden;```
-
-# CENTRADO
-
-## Centrar un elemento
-
-> Agregar padding:
-
-```css
-#features{
-  padding: 7% 15%;
-}
-```
-> 7% arriba y abajo
-> 15% izquierda y derecha
-
-> **ESTA MEDIDA ES PERFECTA PARA UNA SECCION**
-
-## Centrar un texto
-
-> Agregar una clase y centrar como:
-
-```css
-.feature-box{
-  text-align: center;
-  padding: 5%;
-}
-```
-
-## Centrar Bloques
+- [x] Centrar Bloques
 
 ```css
 img{
@@ -620,7 +141,7 @@ img{
   max-width: 100%;
 ```
 
-## Centrado Vertical
+- [x] Centrado Vertical
 
 > Ponemos **height** y **line-height** con el mismo valor 
 
@@ -632,23 +153,20 @@ img{
 }
 ```
 
-# VARIABLES
 
-## Asignar variables
+# CUSTOM PROPERTIES
 
-```css
-:root{
-  --primary-color: white;
-}
-```
-
-## Usar variables
+> No son otra cosa que el uso de __VARIABLES__
 
 ```css
-p{
-  color: var(--primary-color);
+html {
+  --base-color: #639;--highlight-color: #AEA;
 }
+
+h1 {color: var(--base-color);}
+h2 {color: var(--highlight-color);}
 ```
+
 
 # CAMBIO DE ELEMENTOS 🦋 
 

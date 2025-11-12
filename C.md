@@ -7,8 +7,6 @@
 - [Apuntadores](#apuntadores)
   - [typedef y enum](#typedef-y-enum)
 - [Estructuras](#estructuras)
-- [Make](#make)
-- [Malloc](#malloc)
 
 # Introducción
 
@@ -166,19 +164,4 @@ int main(){
 - [x] __*t__ Nos regresa la dirección de memoria de __turtle__
 - [x] __*(t.age)__ NO es correcto porque no es una direccion de memoria
 - [x] __t->age__ es una opción más __legible__ para notación de punteros
-
-# Make
-
-* Es una herramienta que puede ejecutar el compilador
-* Revisa si hay una actualización
-* Necesita conocer los detalles de dependencias de archivos
-
-# Malloc
-
-* Solicita espacio de memoria al sistema
-* Regresa un apuntador a esa memoria
-
-
-
-
 
