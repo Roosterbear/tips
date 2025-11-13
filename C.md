@@ -1,40 +1,26 @@
 <h1 style="color:#00b4d8">C Programming</h1>
 
 - [Introducción](#introducción)
-  - [Hello World](#hello-world)
-  - [Arrays](#arrays)
-  - [Strings](#strings)
+  - [Strings / Arrays](#strings--arrays)
 - [Apuntadores](#apuntadores)
   - [typedef y enum](#typedef-y-enum)
 - [Estructuras](#estructuras)
 
 # Introducción
 
-## Hello World
-
-```c
-#include<stdio.h>
-
-int main(void){
-  printf("Hello World")
-}
-```
 - [x] Compilar: ```gcc hello.c -o hello```
 - [x] Ejecutar: ```./hello```
 
-## Arrays
-
-```int precios[3] = {100,200,300};```
-
-
-## Strings
+## Strings / Arrays
 
 ```c
 #include<stdio.h>
 
 int main(void){
+  int precios[3] = {100,200,300};
   char name[4] = "Luis";
-  printf("%s",name);
+  printf("%s\n",name);
+  printf("%d\n",precios[0]);
 }
 ```
 
@@ -43,11 +29,6 @@ int main(void){
 - [x] Para referenciar una direccion de memoria usamos __&variable__
 - [x] Las variables sería: __*variable__
 
-```c
-int x = 1;
-int *direccion_de_x = &x;
-*direccion_de_x = 2;
-```
 
 ```c
 #include<stdio.h>
