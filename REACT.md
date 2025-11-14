@@ -1,39 +1,11 @@
 <h1 style="color:#2a9d8f">REACT</h1>
 
-- [INTRODUCCIÓN](#introducción)
-  - [Agregar CSS](#agregar-css)
-  - [Agregando BOOTSTRAP](#agregando-bootstrap)
-  - [Mejorando la Vista](#mejorando-la-vista)
-- [BUENAS PRÁCTICAS](#buenas-prácticas)
-  - [Barriles](#barriles)
-- [Javascript en React](#javascript-en-react)
-  - [Spread Operator](#spread-operator)
-  - [Template String \`](#template-string-)
-  - [Destructuring](#destructuring)
-  - [Evaluación CORTO-CIRCUITO](#evaluación-corto-circuito)
-- [PROPS](#props)
-  - [Pasar un Objeto a un Componente por PROPS](#pasar-un-objeto-a-un-componente-por-props)
-  - [Pasando Funciones entre Componentes por PROPS](#pasando-funciones-entre-componentes-por-props)
-  - [Destructuring](#destructuring-1)
-- [EVENTOS](#eventos)
-  - [evento click](#evento-click)
-- [HOOKS](#hooks)
-  - [useState](#usestate)
-    - [Manejar el ESTADO con valores Booleanos](#manejar-el-estado-con-valores-booleanos)
-    - [Otro ejemplo de useState](#otro-ejemplo-de-usestate)
-  - [useEffect](#useeffect)
-- [React ROUTER](#react-router)
-
 # INTRODUCCIÓN
-
 ```bash
 npm create vite@latest
 ```
-
 ## Agregar CSS
-
 - [x] Creamos nuestro archivo _style.css_
-
 ```css
 html, body{
   background-color: #21232A;
@@ -48,31 +20,23 @@ html, body{
 ```jsx
 import './style.css'
 ```
-
 ## Agregando BOOTSTRAP
-
 > Instalamos: npm install react-bootstrap bootstrap
-
 > Importamos boostrap en el index.js:
-
 ```jsx
 import "bootstrap/dist/css/bootstrap.min.css";
 ```
-
 > Ahora agregamos en un componente:
 
 ```jsx
 import {Button} from 'react-bootstrap';
 ```
-
 > Agregamos un botón:
 
 ```jsx
 <Button variant="primary">Enviar</Button>
 ```
-
 ## Mejorando la Vista
-
 > Instalamos: ```npm install react-icons --save```
 > Importamos:
 
@@ -91,15 +55,12 @@ class Rating extends Component{
   }
 }
 ```
-
 # BUENAS PRÁCTICAS
-
 - [x] Crear una carpeta **"components"**
 - [x] Usar mismo nombre para **archivo** y **componente**
 - [x] Nombrar componente iniciando en **mayúscula**
 
 ## Barriles
-
 > En la carpeta __components__ agregar un _index.js_ con nuestras exportaciones:
 
 ```jsx
@@ -107,13 +68,11 @@ export * from './Componente1';
 export * from './Componente2';
 export * from './Componente3';
 ```
-
 > Tan solo importamos:
 
 ```jsx
 import {Componente1, Componente2, Componente3} from './components' // NO es necesario agregar index.js
 ```
-
 - [x] En components, creamos una carpeta para cada componente con su index correspondiente
 
 ```jsx
@@ -124,9 +83,7 @@ export * from './Button2/Button.tsx';
 ```jsx
 import {Button1, Button2} from './components' // Y listo !!
 ```
-
 # Javascript en React
-
 ```jsx
 function App() {
   
@@ -144,27 +101,19 @@ function App() {
   );
 }
 ```
-
 ## Spread Operator
-
 - [x] NO es buena práctica seguir usando __push__ para agregar elementos
-
 ```setArreglo([...arreglo], {nombre: 'nuevo valor', visto: false})```
 
-
 ## Template String `
-
 - [x] Es mejor práctica para __CONCATENAR__
-
 ```javascript
 const hola = "Hola";
 const mundo = "mundo";
 
 console.log(`${hola} ${mundo}`);
 ```
-
 ## Destructuring
-
 ```javascript
 const producto = {nombre:"Laptop", precio: 2000, disponible: true}
 const cliente = {nombre:"Fernando", premium: true}
@@ -175,9 +124,7 @@ const {nombre, precio, disponible} = producto
 // Tenemos un conflicto, hay 2 nombres, pero lo podemos renombrar:
 const {nombre: nombreCliente, premium} = cliente
 ```
-
 ## Evaluación CORTO-CIRCUITO
-
 - [x] Es para evaluaciones "__Truthy__"
 - [x] Sustituye a un __if__
 - [x] En caso de verdadero, regresa lo de la __derecha__
@@ -186,11 +133,8 @@ const {nombre: nombreCliente, premium} = cliente
 const auth = true;
 auth && console.log('Usuario autenticado');
 ```
-
 # PROPS
-
 > Se usan para crear __COMUNICACIÓN__ entre componentes
-
 ```jsx
 import React from 'react';
 
@@ -211,11 +155,8 @@ import Saludar from './components/Saludar'
 
 <Saludar />
 ```
-
 ## Pasar un Objeto a un Componente por PROPS
-
 > App.js
-
 ```jsx
 import './App.css';
 import Saludo from './components/Saludo'
@@ -256,9 +197,7 @@ export default function Saludo(props){
   );
 }
 ```
-
 - [x] NO PODEMOS REGRESAR UN OBJETO
-
 > Para regresar un objeto, usamos:
 
 ```javascript
@@ -269,9 +208,7 @@ JSON.stringify(miObjeto);
 ```
 
 ## Pasando Funciones entre Componentes por PROPS
-
 > App.js
-
 ```jsx
 import './App.css';
 import Saludar from './components/Saludar'
@@ -293,9 +230,7 @@ function App() {
 }
 export default App;
 ```
-
 > Saludar
-
 ```jsx
 import React from 'react'
 
@@ -311,13 +246,9 @@ export default function Saludar(props){
   );
 }
 ```
-
 ## Destructuring
-
 > Normalmente NO trabajamos las PROPS directamente
 > __Desestructuramos cada valor__
-
-
 ```jsx
 import React from 'react'
 
@@ -340,11 +271,8 @@ export default function Saludar(props){
   );
 }
 ```
-
 # EVENTOS
-
 ## evento click
-
 - [x] Se maneja con la palabra __onClick__
 - [x] Se recomienda __SEPARAR__ la función
 - [x] Si __UNICAMENTE__ recibimos y usamos el evento __NO ES NECESARIO PONERLO__
@@ -364,21 +292,15 @@ export default function Saludar(props){
   )
 ```
 # HOOKS
-
 ## useState
-
 - [x] Nos permiten manejar los __ESTADOS__ de los COMPONENTES
-
 > Para usar el Hook __useState__ hacemos lo siguiente:
-
 1. Importamos:
-
 ```jsx
 import React, {useState} from 'react';
 ```
 
 2. Creamos un array con 2 elementos:
-
 ```jsx
 import React, {useState} from 'react';
 
@@ -394,9 +316,7 @@ export default function Ejemplo(){
   );
 }
 ```
-
 ### Manejar el ESTADO con valores Booleanos
-
 ```jsx
 import React, {useState} from "react";
 
@@ -416,9 +336,7 @@ export default function App(){
   )
 }
 ```
-
 ### Otro ejemplo de useState
-
 ```jsx
 import {useState} from 'react';
 
@@ -440,13 +358,10 @@ export function CounterApp(){
   )
 }
 ```
-
 ## useEffect
-
 - [x] Se ejecuta cuando el componente __YA HA SIDO MONTADO__
 - [x] __USAR__ para eventos __EXTERNOS__
 - [x] No es buena práctica para eventos del mismo componente
-
 
 ```jsx
   useEffect(()=>{
@@ -454,23 +369,19 @@ export function CounterApp(){
     // Y también cuando cambia el ESTADO
   });
 ```
-
 ```jsx
   useEffect(()=>{
     // Esto se ejecuta SOLO al montarse el componente
   },[]);
     // El solo poner [] hace que no se ejecute cuando cambia el estado
 ```
-
 ```jsx
   useEffect(()=>{
     // Esto se ejecuta SOLO al montarse el componente
   },[counter]);
     // Se ejecuta de nuevo cuando cambia el ESTADO de counter
 ```
-
 * App.js
-
 ```jsx
 import { useState } from "react";
 import Child from "./components/Child";
@@ -487,9 +398,7 @@ function App(){
 }
 export default App;
 ```
-
 * components/Child.js
-
 ```jsx
 import { useEffect, useState } from "react";
 
@@ -512,17 +421,12 @@ function Child(){
 }
 export default Child;
 ```
-
 # React ROUTER
-
 - [x] Instalamos: npm install react-router-dom
-
 > Importamos:
-
 ```jsx
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 ```
-
 1. Creamos una carpeta llamada "pages"
 2. Dentro de ella creamos dos archivos de componentes: contacto.js y acerca.js
 3. Importamos nuestras páginas:
@@ -566,6 +470,3 @@ export default App(){
   );
 }
 ```
-
-
-

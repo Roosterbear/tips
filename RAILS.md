@@ -1,10 +1,5 @@
 <h1 style="color:#c1121f">RAILS</h1>
 
-- [Introducción](#introducción)
-- [Script para WSL](#script-para-wsl)
-
-# Introducción
-
 # Script para WSL
 
 ```bash
