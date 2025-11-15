@@ -46,4 +46,13 @@ ___)
 '''
 
 computer_choice = random.randint(0,2)
+# List
+states = ["Georgia", "New York"]
+
+# For
+
+for letter in word:
+    print(letter)
+
+    
 ```
